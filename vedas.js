@@ -17,6 +17,9 @@
     ['sama', 'Sāmaveda', 'సామవేదం', 'The Veda of song', 'గాన వేదం', '🎶', 'linear-gradient(160deg,#0a2a4a,#3a8ac0)'],
     ['atharva', 'Atharvaveda', 'అథర్వ వేదం', 'The Veda of daily life', 'నిత్య జీవిత వేదం', '🌿', 'linear-gradient(160deg,#0a3a1a,#3a9a5a)'],
     ['life', 'The Vedas in Our Life', 'మన జీవితంలో వేదాలు', 'Why they still matter', 'ఈ రోజుకీ ఎందుకు ముఖ్యం', '🏡', 'linear-gradient(160deg,#3a0a2a,#b04a7a)'],
+    ['vedanta', 'Vedānta', 'వేదాంతం', 'The heart of the Vedas', 'వేదాల సారం', '🪔', 'linear-gradient(160deg,#2a1240,#a05ac0)'],
+    ['upanishads', 'The Ten Great Upaniṣads', 'దశోపనిషత్తులు', 'One by one, with their stories', 'ఒక్కొక్కటిగా, వాటి కథలతో', '📜', 'linear-gradient(160deg,#102a40,#3a8ab0)'],
+    ['acharyas', 'The Great Ācāryas', 'మహా ఆచార్యులు', 'Śaṅkara · Rāmānuja · Madhva', 'శంకర · రామానుజ · మధ్వ', '🙏', 'linear-gradient(160deg,#3a2006,#c0861c)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.VEDA_META = SMETA;   // used by bookmarks.js
