@@ -48,12 +48,6 @@ Vedānta series — Hari asked for it on 2026-10-31 as three books, one a day, s
 instead of repeating them, and between these three books once they exist. The planned chapters below are a
 guide — adjust if the sources call for it, but keep the scope.
 
-- [ ] The Ten Great Upaniṣads (upanishads) — one chapter per Upaniṣad, in the traditional order: Īśa, Kena, Kaṭha,
-  Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya, Aitareya, Chāndogya, Bṛhadāraṇyaka; optionally an 11th on
-  Śvetāśvatara. For each: which Veda it belongs to, its setting and people, its stories (Umā Haimavatī and
-  the Yakṣa; Naciketas and Yama; the six seekers before Pippalāda; Śaunaka and Aṅgiras; Bhṛgu and Varuṇa;
-  Satyakāma, Śvetaketu and Uddālaka, Nārada and Sanatkumāra; Yājñavalkya, Maitreyī, Gārgī, Janaka) and its
-  main idea in plain words. Use `sglink` to existing sage chapters where the same sage appears.
 - [ ] The Great Ācāryas (acharyas) — chapters: before the ācāryas (Gauḍapāda and the early teachers) ·
   Ādi Śaṅkarācārya's life · his teaching, Advaita, in plain words, and the four maṭhas · Rāmānujācārya's life ·
   Viśiṣṭādvaita and the path of devotion and surrender · Madhvācārya's life · Dvaita and the
@@ -70,3 +64,4 @@ guide — adjust if the sources call for it, but keep the scope.
 - [x] Atharvaveda (atharva) — 10 chapters — 2026-10-22
 - [x] The Vedas in Our Life (life) — 11 chapters — 2026-10-22
 - [x] Vedānta (vedanta) — 11 chapters — 2026-10-31
+- [x] The Ten Great Upaniṣads (upanishads) — 11 chapters — 2026-11-01
