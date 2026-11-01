@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Dhaumya (dhaumya) — priest of the Pāṇḍavas chosen at Utkocaka; the 108 names of Sūrya and the akṣaya-pātra; counsel before the year in disguise; the funeral rites after the war (MBh Ādi, Vana, Virāṭa, Strī).
 - [ ] Upamanyu (upamanyu) — Dhaumya's cowherd pupil and the Aśvins' cure; the boy who wanted milk and was taught to seek Śiva; Śiva's test in Indra's form; teaching Kṛṣṇa the Śiva Sahasranāma (MBh Ādi, Anuśāsana, Liṅga Purāṇa).
 - [ ] Sāndīpani (sandipani) — teacher of Kṛṣṇa and Balarāma at Avantī; sixty-four arts in sixty-four days; the son lost to the sea and brought back from Yama's city as guru-dakṣiṇā (Bhāgavata 10, Viṣṇu Purāṇa, Harivaṃśa).
 - [ ] The four Kumāras (kumaras) — Sanaka, Sanandana, Sanātana, Sanatkumāra, mind-born sons who refused to create; cursing Jaya and Vijaya at Vaikuṇṭha; Sanatkumāra teaching Nārada (Chāndogya) and Dhṛtarāṣṭra (Sanatsujātīya) (Bhāgavata, Chāndogya Upaniṣad, MBh Udyoga).
@@ -87,3 +86,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Māṇḍavya (mandavya) — 9 chapters — 2026-10-28
 - [x] Pulastya (pulastya) — 10 chapters — 2026-10-29
 - [x] Lomaśa (lomasha) — 12 chapters — 2026-10-31
+- [x] Dhaumya (dhaumya) — 11 chapters — 2026-11-01

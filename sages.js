@@ -38,6 +38,7 @@
     ['mandavya', 'Māṇḍavya', 'మాండవ్యుడు', 'The silent sage on the stake', 'శూలం మీద మౌనముని', '🪵', 'linear-gradient(160deg,#2a1a0a,#8a6a3a)'],
     ['pulastya', 'Pulastya', 'పులస్త్యుడు', 'Grandfather of Kubera and Rāvaṇa', 'కుబేర రావణుల తాత', '👂', 'linear-gradient(160deg,#1a0a2a,#6a3a8a)'],
     ['lomasha', 'Lomaśa', 'లోమశుడు', 'Guide of the Pāṇḍavas’ pilgrimage', 'పాండవుల తీర్థయాత్రకు మార్గదర్శి', '🧭', 'linear-gradient(160deg,#2a1a06,#a0702a)'],
+    ['dhaumya', 'Dhaumya', 'ధౌమ్యుడు', 'Priest of the Pāṇḍavas', 'పాండవుల పురోహితుడు', '🪔', 'linear-gradient(160deg,#3a1406,#c0602a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
