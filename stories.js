@@ -1855,4 +1855,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'krishna-and-sudamas-handful-of-rice',
+    added: '2026-11-01',
+    epic: 'Mahabharata',
+    chars: ['Sudāmā', 'Kṛṣṇa', 'Rukmiṇī'],
+    title: { en: 'Kṛṣṇa and Sudāmā\'s Handful of Rice', te: 'కుచేలుడి అటుకులు' },
+    moral: { en: 'True friendship sees the heart, not the riches.', te: 'నిజమైన స్నేహం సంపదను కాదు, మనసును చూస్తుంది.' },
+    cover: { bg: 'palace', props: [['sun', 350, 50, 0.8], ['person', 160, 198, 1.5, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['pot', 205, 198, 0.9], ['person', 250, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#f4ead2', top: '#f4ead2' }]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['sun', 60, 55, 0.9], ['tree', 320, 196, 1.2], ['person', 150, 198, 1.1, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 205, 198, 1.05, { flip: true, skin: 'wheat', cloth: '#f4ead2', top: '#f4ead2' }], ['cloud', 230, 40, 0.8]] },
+        en: 'Long ago, in the forest school of the sage Sāndīpani, two boys became the best of friends. One was Kṛṣṇa, the prince with the flute. The other was Sudāmā, the son of a poor priest. Together they fetched water, gathered firewood and learned their lessons under the trees. Once they were caught in a storm in the forest and spent the whole night holding hands to keep warm. Years went by. Kṛṣṇa became the king of golden Dvārakā by the sea. Sudāmā stayed poor. His clothes were torn, and on many days his family had little to eat. Yet he never complained. He prayed, he smiled, and he remembered his old friend.',
+        te: 'చాలా కాలం క్రితం, సాందీపని మహర్షి ఆశ్రమంలో ఇద్దరు బాలలు ప్రాణ స్నేహితులయ్యారు. ఒకరు వేణువు ఊదే యువరాజు శ్రీకృష్ణుడు. మరొకరు పేద బ్రాహ్మణ బాలుడు సుదాముడు — మనం అతన్ని కుచేలుడు అని కూడా పిలుస్తాం. ఇద్దరూ కలిసి నీళ్ళు తెచ్చేవారు, కట్టెలు ఏరేవారు, చెట్ల కింద పాఠాలు నేర్చుకునేవారు. ఒకసారి అడవిలో పెద్ద వాన పడితే, రాత్రంతా ఒకరి చేయి ఒకరు పట్టుకుని చలిని తట్టుకున్నారు. ఏళ్ళు గడిచాయి. శ్రీకృష్ణుడు సముద్రం ఒడ్డున ఉన్న బంగారు ద్వారకకు రాజయ్యాడు. కుచేలుడు మాత్రం పేదవాడిగానే ఉండిపోయాడు. అతని బట్టలు చిరిగిపోయాయి. చాలా రోజులు ఇంట్లో తినడానికి ఏమీ ఉండేది కాదు. అయినా అతను ఎప్పుడూ బాధపడలేదు. దేవుణ్ణి తలుచుకుంటూ, చిరునవ్వుతో, తన పాత స్నేహితుణ్ణి గుర్తు చేసుకుంటూ ఉండేవాడు.',
+      },
+      {
+        scene: { bg: 'village', props: [['hut', 90, 196, 1.2], ['person', 190, 198, 1.35, { skin: 'wheat', cloth: '#f4ead2', top: '#f4ead2' }], ['person', 250, 198, 1.3, { female: true, skin: 'wheat', cloth: '#8a5a9a', pallu: '#d9a050', flip: true }], ['pot', 300, 198, 0.9], ['sun', 350, 50, 0.8]] },
+        en: 'One day Sudāmā\'s wife said gently, "Your friend Kṛṣṇa is the king of Dvārakā. Go and see him. He will surely help us." Sudāmā hesitated. "I will go to see my friend," he said, "but I will not ask him for anything." "Then you cannot go empty-handed," said his wife. She had nothing in the house, so she asked the neighbours for a few handfuls of flattened rice and tied them in a corner of his old cloth. Sudāmā walked for many days. When he reached the shining palace, he felt shy in his torn clothes. But the moment Kṛṣṇa saw him, he jumped up from his throne and ran barefoot to hug his old friend.',
+        te: 'ఒక రోజు కుచేలుడి భార్య మెల్లగా అంది, "మీ స్నేహితుడు శ్రీకృష్ణుడు ద్వారకకు రాజు కదా. ఒకసారి వెళ్ళి ఆయన్ని చూసి రండి. ఆయన తప్పకుండా మనకు సహాయం చేస్తాడు." కుచేలుడు సందేహించాడు. "నా స్నేహితుణ్ణి చూడటానికి వెళ్తాను," అన్నాడు, "కానీ ఆయన్ని ఏమీ అడగను." "అయితే ఉత్త చేతులతో వెళ్ళకూడదు," అంది భార్య. ఇంట్లో ఏమీ లేదు. అందుకే ఆమె ఇరుగుపొరుగుల దగ్గర నాలుగు గుప్పెళ్ళ అటుకులు అడిగి తెచ్చి, అతని పాత పై వస్త్రం కొంగున మూట కట్టింది. కుచేలుడు ఎన్నో రోజులు నడిచాడు. మెరిసిపోతున్న రాజభవనం చేరుకోగానే, చిరిగిన బట్టల్లో ఉన్న తనను చూసుకుని అతనికి సిగ్గేసింది. కానీ శ్రీకృష్ణుడు అతన్ని చూసిన క్షణమే సింహాసనం దిగి, చెప్పులు కూడా లేకుండా పరుగెత్తుకొచ్చి తన పాత స్నేహితుణ్ణి కౌగిలించుకున్నాడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['throne', 90, 198, 1.1], ['person', 170, 198, 1.4, { raise: true, skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 235, 198, 1.35, { flip: true, skin: 'wheat', cloth: '#f4ead2', top: '#f4ead2' }], ['person', 310, 198, 1.3, { female: true, skin: 'fair', cloth: '#c0392b', pallu: '#f0c040', crown: true, flip: true }]] },
+        en: 'Kṛṣṇa seated Sudāmā on his own couch and washed his tired feet, while Queen Rukmiṇī fanned him. The two friends laughed about their school days. Then Kṛṣṇa\'s eyes twinkled. "What have you brought for me, my friend?" Sudāmā hid the little bundle, ashamed. But Kṛṣṇa pulled it out and ate a handful of the flattened rice. "This is the sweetest thing I have ever tasted!" he said. Sudāmā went home the next day without asking for anything. But when he reached his village, he could not find his hut! In its place stood a lovely house, and his wife and children ran out in new clothes. Sudāmā folded his hands. "My friend knew, without my saying a word."',
+        te: 'శ్రీకృష్ణుడు కుచేలుణ్ణి తన సొంత పాన్పు మీద కూర్చోబెట్టి, అలసిపోయిన అతని కాళ్ళు కడిగాడు. రుక్మిణీదేవి వింజామరతో విసిరింది. ఇద్దరు స్నేహితులూ తమ ఆశ్రమ రోజులు గుర్తు చేసుకుని నవ్వుకున్నారు. అప్పుడు శ్రీకృష్ణుడి కళ్ళు మెరిశాయి. "మిత్రమా, నా కోసం ఏం తెచ్చావు?" కుచేలుడు సిగ్గుతో ఆ చిన్న మూటను దాచుకున్నాడు. కానీ శ్రీకృష్ణుడు దాన్ని లాగి, ఒక గుప్పెడు అటుకులు నోట్లో వేసుకున్నాడు. "ఇంత తియ్యని పదార్థం నేను ఎప్పుడూ తినలేదు!" అన్నాడు. మర్నాడు కుచేలుడు ఏమీ అడగకుండానే ఇంటికి బయలుదేరాడు. ఊరు చేరగానే అతనికి తన గుడిసె కనిపించలేదు! దాని స్థానంలో ఒక అందమైన ఇల్లు ఉంది. కొత్త బట్టలతో భార్యాపిల్లలు పరుగెత్తుకుంటూ ఎదురొచ్చారు. కుచేలుడు ద్వారక వైపు చేతులు జోడించాడు. "నేను ఒక్క మాట చెప్పకుండానే నా స్నేహితుడు అంతా తెలుసుకున్నాడు."',
+      },
+    ],
+  },
+  {
+    id: 'sumitras-blessing-to-lakshmana',
+    added: '2026-11-01',
+    epic: 'Ramayana',
+    chars: ['Sumitrā', 'Lakṣmaṇa', 'Ūrmilā', 'Rāma', 'Sītā'],
+    title: { en: 'Sumitrā\'s Blessing to Lakṣmaṇa', te: 'లక్ష్మణుడికి సుమిత్ర దీవెన' },
+    moral: { en: 'A mother\'s wise words light the way wherever we go.', te: 'అమ్మ చెప్పిన మంచి మాటలు మనం ఎక్కడ ఉన్నా దారి చూపుతాయి.' },
+    cover: { bg: 'palace', props: [['person', 120, 198, 1.45, { female: true, skin: 'wheat', cloth: '#2a7a8a', pallu: '#f0c040', crown: true, raise: true }], ['archer', 235, 198, 1.35, { flip: true, skin: 'fair', cloth: '#3a8a5a' }], ['person', 325, 198, 1.25, { female: true, skin: 'fair', cloth: '#d96a8a', pallu: '#f4ead2', flip: true }]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 120, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 180, 198, 1.3, { female: true, skin: 'fair', cloth: '#c0392b', pallu: '#f0c040' }], ['archer', 270, 198, 1.35, { flip: true, skin: 'fair', cloth: '#3a8a5a' }], ['cloud', 330, 40, 0.8]] },
+        en: 'Ayodhyā was full of tears. Prince Rāma had to leave for the forest for fourteen long years, to keep his father\'s promise to Queen Kaikeyī. Sītā had already said, "Where you go, I go." Then Lakṣmaṇa stepped forward and touched Rāma\'s feet. "Brother, I cannot stay in a palace while you sleep on the ground. Let me walk behind you like your shadow. I will carry your bow, find you fruit and keep watch at night." Rāma tried to make him stay, but Lakṣmaṇa would not change his mind. At last Rāma smiled. "Then come. But first, go and take your mother\'s blessing."',
+        te: 'అయోధ్య అంతా కన్నీళ్ళతో నిండిపోయింది. కైకేయికి తండ్రి ఇచ్చిన మాట నిలబెట్టడానికి శ్రీరాముడు పద్నాలుగు సంవత్సరాలు అడవికి వెళ్ళవలసి వచ్చింది. "మీరు ఎక్కడ ఉంటే నేనూ అక్కడే," అని సీతాదేవి ముందే చెప్పేసింది. అప్పుడు లక్ష్మణుడు ముందుకు వచ్చి అన్న పాదాలకు నమస్కరించాడు. "అన్నయ్యా, మీరు నేల మీద పడుకుంటుంటే నేను రాజభవనంలో ఉండలేను. నీడలా మీ వెనకే నడుస్తాను. మీ విల్లు మోస్తాను, మీకు పండ్లు తెస్తాను, రాత్రంతా కాపలా కాస్తాను." రాముడు అతన్ని ఆపడానికి ప్రయత్నించాడు, కానీ లక్ష్మణుడు పట్టు వదలలేదు. చివరికి రాముడు చిరునవ్వు నవ్వాడు. "సరే, రా. కానీ ముందు వెళ్ళి మీ అమ్మ ఆశీర్వాదం తీసుకో."',
+      },
+      {
+        scene: { bg: 'palace', props: [['throne', 90, 198, 1], ['person', 170, 198, 1.45, { female: true, skin: 'wheat', cloth: '#2a7a8a', pallu: '#f0c040', crown: true, raise: true }], ['person', 245, 198, 1.25, { flip: true, skin: 'fair', cloth: '#3a8a5a' }], ['lotus', 330, 198, 1]] },
+        en: 'Lakṣmaṇa ran to the rooms of his mother, Queen Sumitrā. He was afraid she would weep and beg him to stay. Sumitrā\'s eyes did fill with tears, but her voice was steady. She placed her hand on his head. "My son, I am proud of you. You were born to stand beside your brother. Now listen carefully. In the forest, think of Rāma as your father, King Daśaratha. Think of Sītā as me, your mother. And think of the forest as Ayodhyā, your home. Serve them well, and never let them come to harm. Go, my child, with my blessing."',
+        te: 'లక్ష్మణుడు తల్లి సుమిత్రాదేవి మందిరానికి పరుగెత్తాడు. అమ్మ ఏడుస్తూ తనను ఆపేస్తుందేమో అని అతనికి భయం వేసింది. సుమిత్ర కళ్ళలో నీళ్ళు తిరిగాయి, కానీ ఆమె గొంతు మాత్రం స్థిరంగా ఉంది. ఆమె కొడుకు తల మీద చేయి పెట్టింది. "నాయనా, నిన్ను చూసి నేను గర్వపడుతున్నాను. నువ్వు అన్న పక్కన నిలబడటానికే పుట్టావు. ఇప్పుడు నా మాట జాగ్రత్తగా విను. అడవిలో రాముణ్ణి మీ నాన్నగారైన దశరథ మహారాజుగా భావించు. సీతను నేనే, మీ అమ్మనే అనుకో. ఆ అడవినే అయోధ్యగా, నీ ఇల్లుగా అనుకో. వాళ్ళను బాగా చూసుకో, వాళ్ళకు ఏ కష్టమూ రానివ్వకు. వెళ్ళు నాయనా, నా దీవెనలు నీకు ఎప్పుడూ ఉంటాయి."',
+      },
+      {
+        scene: { bg: 'forest', props: [['sun', 360, 45, 0.8], ['person', 110, 198, 1.35, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 170, 198, 1.25, { female: true, skin: 'fair', cloth: '#c0392b', pallu: '#f0c040' }], ['archer', 240, 198, 1.3, { skin: 'fair', cloth: '#3a8a5a' }], ['tree', 340, 196, 1.1]] },
+        en: 'Then Lakṣmaṇa went to say goodbye to his wife, Ūrmilā, Sītā\'s younger sister. It is said that Ūrmilā longed to go with him, but she understood. "If I come, you will worry about me too," she said softly. "Go and look after Rāma and my sister. I will stay and care for our mothers here." She held back her tears so that he could leave with a light heart. And so Lakṣmaṇa walked out of Ayodhyā behind Rāma and Sītā. For fourteen years he guarded them day and night, just as his mother had asked. Sumitrā\'s few words became his lamp in the dark forest.',
+        te: 'తరువాత లక్ష్మణుడు తన భార్య, సీతాదేవి చెల్లెలు అయిన ఊర్మిళ దగ్గరకు వీడ్కోలు చెప్పడానికి వెళ్ళాడు. ఊర్మిళకు కూడా భర్తతో వెళ్ళాలని ఎంతో ఉందట, కానీ ఆమె అర్థం చేసుకుంది. "నేను వస్తే మీకు నా గురించి కూడా బెంగ ఉంటుంది," అని మెల్లగా అంది. "మీరు వెళ్ళి రాముల వారినీ, మా అక్కనూ జాగ్రత్తగా చూసుకోండి. నేను ఇక్కడే ఉండి మన అమ్మలను చూసుకుంటాను." అతను నిశ్చింతగా వెళ్ళాలని ఆమె తన కన్నీళ్ళను దాచుకుంది. అలా లక్ష్మణుడు సీతారాముల వెనకే అయోధ్య విడిచి బయలుదేరాడు. పద్నాలుగు సంవత్సరాలు, తల్లి చెప్పినట్టే, రాత్రింబవళ్ళు వారిని కాపాడాడు. చీకటి అడవిలో సుమిత్ర చెప్పిన ఆ కొద్ది మాటలే అతనికి దీపంలా దారి చూపాయి.',
+      },
+    ],
+  },
+  {
+    id: 'shikhandis-story',
+    added: '2026-11-01',
+    epic: 'Mahabharata',
+    chars: ['Śikhaṇḍī', 'Ambā', 'Bhīṣma', 'Drupada', 'Arjuna'],
+    title: { en: 'Śikhaṇḍī\'s Story', te: 'శిఖండి కథ' },
+    moral: { en: 'Every action brings its result, even if it takes a long time to come.', te: 'మనం చేసే ప్రతి పనికీ ఫలితం ఉంటుంది — అది ఆలస్యంగా వచ్చినా.' },
+    cover: { bg: 'mountain', props: [['sun', 350, 50, 0.8], ['archer', 110, 198, 1.35, { cloth: '#a8392a' }], ['person', 280, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['bow', 250, 198, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 90, 198, 1.4, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['chariot', 190, 198, 1.2], ['person', 275, 198, 1.15, { female: true, skin: 'fair', cloth: '#c0392b', pallu: '#f0c040', flip: true }], ['person', 315, 198, 1.1, { female: true, skin: 'fair', cloth: '#2a7a8a', pallu: '#f4ead2', flip: true }], ['person', 355, 198, 1.05, { female: true, skin: 'fair', cloth: '#8a5a9a', pallu: '#f0c040', flip: true }]] },
+        en: 'Long ago, Bhīṣma went to the kingdom of Kāśī, where three princesses were choosing their husbands. He wanted brides for his young brother, the king of Hastināpura. So he lifted the princesses Ambā, Ambikā and Ambālikā into his chariot and drove away, defeating every king who tried to stop him. On the way, the eldest, Ambā, spoke up. "Sir, in my heart I have already chosen King Śālva." Bhīṣma was a fair man. "Then go to him," he said, and sent her with an escort. But Śālva turned away. "You were won by Bhīṣma in front of everyone. I cannot take you now."',
+        te: 'చాలా కాలం క్రితం, కాశీ రాజ్యంలో ముగ్గురు రాకుమార్తెల స్వయంవరం జరుగుతోంది. హస్తినాపురానికి రాజైన తన చిన్న తమ్ముడికి వధువులను తేవాలని భీష్ముడు అక్కడికి వెళ్ళాడు. అంబ, అంబిక, అంబాలిక అనే ఆ ముగ్గురు రాకుమార్తెలను రథంలో ఎక్కించుకుని, అడ్డు వచ్చిన రాజులందరినీ ఓడించి బయలుదేరాడు. దారిలో పెద్దదైన అంబ ధైర్యంగా అంది, "అయ్యా, నేను మనసులో ఇప్పటికే సాల్వ రాజును వరించాను." భీష్ముడు న్యాయం తెలిసినవాడు. "అయితే ఆయన దగ్గరకే వెళ్ళమ్మా," అని తోడు ఇచ్చి పంపించాడు. కానీ సాల్వుడు ముఖం తిప్పుకున్నాడు. "అందరి ముందూ భీష్ముడు నిన్ను గెలుచుకున్నాడు. ఇప్పుడు నేను నిన్ను స్వీకరించలేను."',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 130, 198, 1.4, { female: true, skin: 'fair', cloth: '#c0392b', pallu: '#f0c040', raise: true }], ['glow', 270, 160, 1.3], ['linga', 270, 198, 1.2], ['tree', 360, 196, 1]] },
+        en: 'Ambā went back to Bhīṣma. "Because of you, no one will marry me. So you must marry me." But Bhīṣma had made a famous promise never to marry, and he would not break it. Ambā\'s sadness turned into a burning wish. "One day I will be the reason Bhīṣma falls," she declared. She went to the forest and prayed to Lord Śiva for many long years. At last Śiva appeared in a blaze of light. "Your wish will come true," he said, "but not in this life. In your next birth you will remember everything." And so, after this life ended, Ambā was born again as the child of King Drupada of Pāñcāla.',
+        te: 'అంబ మళ్ళీ భీష్ముడి దగ్గరకు వచ్చింది. "మీ వల్లే నన్ను ఎవరూ పెళ్ళి చేసుకోవడం లేదు. కాబట్టి మీరే నన్ను పెళ్ళి చేసుకోవాలి." కానీ భీష్ముడు జీవితంలో పెళ్ళి చేసుకోనని గొప్ప ప్రతిజ్ఞ చేశాడు. ఆ మాట తప్పలేనన్నాడు. అంబ దుఃఖం పట్టుదలగా మారింది. "ఏదో ఒక రోజు భీష్ముడి పతనానికి నేనే కారణం అవుతాను," అని ప్రకటించింది. ఆమె అడవికి వెళ్ళి ఎన్నో ఏళ్ళు శివుణ్ణి గురించి తపస్సు చేసింది. చివరకు పరమశివుడు వెలుగుల మధ్య ప్రత్యక్షమయ్యాడు. "నీ కోరిక తీరుతుంది," అన్నాడు ఆయన, "కానీ ఈ జన్మలో కాదు. వచ్చే జన్మలో నీకు అన్నీ గుర్తుంటాయి." అలా ఈ జన్మ ముగిసిన తరువాత, అంబ పాంచాల రాజు ద్రుపదుడి ఇంట్లో మళ్ళీ పుట్టింది.',
+      },
+      {
+        scene: { bg: 'mountain', props: [['sun', 360, 45, 0.7], ['archer', 70, 198, 1.25, { cloth: '#3a6ab0' }], ['archer', 150, 198, 1.35, { cloth: '#a8392a' }], ['person', 300, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['bow', 330, 198, 0.6]] },
+        en: 'The child was named Śikhaṇḍinī, but King Drupada raised her as a prince and taught her to ride and shoot like a warrior. The Mahābhārata tells that later, with the help of a kind yakṣa, she became a man — the brave warrior Śikhaṇḍī. Many years later came the great war of Kurukṣetra. Bhīṣma knew who Śikhaṇḍī had been in a past life, and he had vowed never to fight him. So when Śikhaṇḍī rode in front of him, Bhīṣma lowered his bow. Behind Śikhaṇḍī stood Arjuna, whose arrows at last brought the old grandsire down onto a bed of arrows. Ambā\'s promise, made a whole lifetime before, had come true.',
+        te: 'ఆ బిడ్డకు శిఖండిని అని పేరు పెట్టారు. కానీ ద్రుపద మహారాజు ఆమెను ఒక రాకుమారుడిలా పెంచి, గుర్రపు స్వారీ, విలువిద్య నేర్పించాడు. తరువాత ఒక దయగల యక్షుడి సహాయంతో ఆమె పురుషుడిగా మారి, వీరుడైన శిఖండి అయిందని మహాభారతం చెబుతుంది. ఎన్నో ఏళ్ళ తరువాత కురుక్షేత్ర మహాయుద్ధం వచ్చింది. శిఖండి పూర్వ జన్మలో ఎవరో భీష్ముడికి తెలుసు. అతనితో ఎప్పుడూ యుద్ధం చేయనని భీష్ముడు ముందే ప్రతిజ్ఞ చేశాడు. అందుకే శిఖండి రథం తన ఎదుటికి రాగానే భీష్ముడు విల్లు కిందకు దించాడు. శిఖండి వెనకే అర్జునుడు నిలబడి ఉన్నాడు. అర్జునుడి బాణాలకు పితామహుడు భీష్ముడు చివరకు అంపశయ్య మీదకు ఒరిగాడు. ఒక జన్మ ముందు అంబ చేసిన ప్రతిజ్ఞ అలా నిజమైంది.',
+      },
+    ],
+  },
 ];

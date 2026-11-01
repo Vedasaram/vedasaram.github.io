@@ -80,11 +80,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Hanumān and the False Sage Kālanemi (Rāmāyaṇa) — hanuman-and-kalanemi
 - [x] Yudhiṣṭhira and the Faithful Dog (Mahābhārata) — yudhishthira-and-the-faithful-dog
 - [x] Śūrpaṇakhā Comes to Pañcavaṭī (Rāmāyaṇa) — shurpanakha-comes-to-panchavati
+- [x] Kṛṣṇa and Sudāmā's Handful of Rice (Mahābhārata) — krishna-and-sudamas-handful-of-rice
+- [x] Sumitrā's Blessing to Lakṣmaṇa (Rāmāyaṇa) — sumitras-blessing-to-lakshmana
+- [x] Śikhaṇḍī's Story (Mahābhārata) — shikhandis-story
 
 ## Next
-- [ ] Kṛṣṇa and Sudāmā's Handful of Rice (Kṛṣṇa tales) — Sudāmā, Kṛṣṇa
-- [ ] Sumitrā's Blessing to Lakṣmaṇa (Rāmāyaṇa) — Sumitrā, Lakṣmaṇa, Ūrmilā
-- [ ] Śikhaṇḍī's Story (Mahābhārata) — Śikhaṇḍī, Ambā, Bhīṣma
 - [ ] Ūrmilā's Long Sleep (Rāmāyaṇa tradition) — Ūrmilā, Lakṣmaṇa, Nidrā
 - [ ] Sahadeva, the Wise Youngest Brother (Mahābhārata) — Sahadeva, Nakula
 - [ ] Mandodarī's Advice (Rāmāyaṇa) — Mandodarī, Rāvaṇa
