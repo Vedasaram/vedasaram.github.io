@@ -48,15 +48,6 @@ Vedānta series — Hari asked for it on 2026-10-31 as three books, one a day, s
 instead of repeating them, and between these three books once they exist. The planned chapters below are a
 guide — adjust if the sources call for it, but keep the scope.
 
-- [ ] Vedānta (vedanta) — the heart of the Vedas. Chapters: what "Vedānta" means (the end and the peak of the
-  Veda; karma-kāṇḍa and jñāna-kāṇḍa) · the Upaniṣads — sitting near the teacher, how many, which are the main
-  ones · the big questions: who am I, what is Brahman, what is the Ātman · the four great sayings
-  (mahāvākyas), explained in plain words · the three foundations (prasthāna-traya): Upaniṣads, Brahma Sūtras,
-  Bhagavad Gītā · Bādarāyaṇa/Vyāsa and the Brahma Sūtras · the Gītā as Vedānta in daily life · karma, rebirth
-  and mokṣa · how it is learnt: guru and śiṣya; hearing, reflecting, meditating (śravaṇa, manana,
-  nididhyāsana) · many schools, one search — a fair first look at Advaita, Viśiṣṭādvaita and Dvaita (details
-  in the Ācāryas book) · Vedānta in modern times (Vivekānanda, Ramaṇa Maharṣi and others) and in an ordinary
-  life today.
 - [ ] The Ten Great Upaniṣads (upanishads) — one chapter per Upaniṣad, in the traditional order: Īśa, Kena, Kaṭha,
   Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya, Aitareya, Chāndogya, Bṛhadāraṇyaka; optionally an 11th on
   Śvetāśvatara. For each: which Veda it belongs to, its setting and people, its stories (Umā Haimavatī and
@@ -78,3 +69,4 @@ guide — adjust if the sources call for it, but keep the scope.
 - [x] Sāmaveda (sama) — 11 chapters — 2026-10-22
 - [x] Atharvaveda (atharva) — 10 chapters — 2026-10-22
 - [x] The Vedas in Our Life (life) — 11 chapters — 2026-10-22
+- [x] Vedānta (vedanta) — 11 chapters — 2026-10-31
