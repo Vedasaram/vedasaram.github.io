@@ -21,6 +21,7 @@
     ['harsha', 'Harṣa', 'హర్షుడు', 'Harṣavardhana · Kanauj · poet-king of the North', 'హర్షవర్ధనుడు · కనౌజ్ · ఉత్తరాపథ కవిరాజు', '🪷', 'linear-gradient(160deg,#2a0a1a,#c06a4a)'],
     ['pulakeshin', 'Pulakeśin II', 'రెండవ పులకేశి', 'Cālukya of Vātāpi · Lord of the South', 'వాతాపి చాళుక్య · దక్షిణాపథ ప్రభువు', '🐗', 'linear-gradient(160deg,#1a1a0a,#8a6a1a)'],
     ['narasimhavarman', 'Narasiṃhavarman', 'నరసింహవర్మ', 'Mahāmalla · Pallava · taker of Vātāpi', 'మహామల్లుడు · పల్లవ · వాతాపికొండ', '🦁', 'linear-gradient(160deg,#0a1a2a,#2a8a8a)'],
+    ['lalitaditya', 'Lalitāditya', 'లలితాదిత్యుడు', 'Muktāpīḍa · Kashmir · the Sun temple of Mārtaṇḍa', 'ముక్తాపీడుడు · కాశ్మీరం · మార్తాండ సూర్యాలయం', '☀️', 'linear-gradient(160deg,#0a1a2a,#8a9ab0)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js

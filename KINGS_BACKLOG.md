@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Lalitāditya Muktāpīḍa (lalitaditya) — Kalhaṇa's Rājataraṅgiṇī; the Mārtaṇḍa sun temple; campaigns told and debated
 - [ ] Rājarāja Cōḷa I (rajaraja) — the Bṛhadīśvara temple at Thanjavur; the navy; Laṅkā and the Maldives; the Veṅgī alliance with the Eastern Cālukyas
 - [ ] Rājendra Cōḷa I (rajendra) — Gaṅgaikoṇḍacōḷapuram; the march to the Gaṅgā; the expedition to Śrīvijaya
 - [ ] Bhoja of Dhārā (bhoja) — scholar-king of the Paramāras; the Bhojaśālā; the Bhojpur temple and lake; Bhoja in folk tales
@@ -76,3 +75,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Harṣavardhana (harsha) — 9 chapters — 2026-10-29
 - [x] Pulakeśin II (pulakeshin) — 8 chapters — 2026-10-31
 - [x] Narasiṃhavarman I Mahāmalla (narasimhavarman) — 8 chapters — 2026-11-01
+- [x] Lalitāditya Muktāpīḍa (lalitaditya) — 8 chapters — 2026-11-02
