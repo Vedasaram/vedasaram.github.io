@@ -83,11 +83,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Kṛṣṇa and Sudāmā's Handful of Rice (Mahābhārata) — krishna-and-sudamas-handful-of-rice
 - [x] Sumitrā's Blessing to Lakṣmaṇa (Rāmāyaṇa) — sumitras-blessing-to-lakshmana
 - [x] Śikhaṇḍī's Story (Mahābhārata) — shikhandis-story
+- [x] Ūrmilā's Long Sleep (Rāmāyaṇa) — urmilas-long-sleep
+- [x] Sahadeva, the Wise Youngest Brother (Mahābhārata) — sahadeva-the-wise-youngest-brother
+- [x] Mandodarī's Advice (Rāmāyaṇa) — mandodaris-advice
 
 ## Next
-- [ ] Ūrmilā's Long Sleep (Rāmāyaṇa tradition) — Ūrmilā, Lakṣmaṇa, Nidrā
-- [ ] Sahadeva, the Wise Youngest Brother (Mahābhārata) — Sahadeva, Nakula
-- [ ] Mandodarī's Advice (Rāmāyaṇa) — Mandodarī, Rāvaṇa
 - [ ] Nakula, the Most Handsome Pāṇḍava (Mahābhārata) — Nakula, Mādrī
 - [ ] Tārā's Wise Words (Rāmāyaṇa) — Tārā, Vāli, Sugrīva
 - [ ] Śakuni and the Game of Dice (Mahābhārata) — Śakuni, Duryodhana, Yudhiṣṭhira
@@ -105,3 +105,33 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [ ] Babhruvāhana Meets His Father (Mahābhārata) — Babhruvāhana, Arjuna, Citrāṅgadā
 - [ ] The Story of Satyavatī and Vyāsa's Birth (Mahābhārata) — Satyavatī, Parāśara, Vyāsa
 - [ ] Kauśalyā Waits for Rāma (Rāmāyaṇa) — Kausalyā
+- [ ] Kabandha, the Headless Giant (Rāmāyaṇa) — Kabandha, Rāma, Lakṣmaṇa
+- [ ] Droṇa's Childhood Friend Drupada (Mahābhārata) — Droṇa, Drupada
+- [ ] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — Agastya, Rāma
+- [ ] Bhīma and the Poisoned Sweets (Mahābhārata) — Bhīma, Duryodhana, Vāsuki
+- [ ] Ahalyā's Son Śatānanda Welcomes Rāma (Rāmāyaṇa) — Śatānanda, Janaka, Rāma
+- [ ] Kṛpa and Kṛpī, the Twins Found in the Grass (Mahābhārata) — Kṛpa, Kṛpī, Śantanu
+- [ ] Bharadvāja's Feast for Bharata's Army (Rāmāyaṇa) — Bharadvāja, Bharata
+- [ ] Vidura, Born to Be Wise (Mahābhārata) — Vidura, Vyāsa
+- [ ] Sugrīva Forgets His Promise (Rāmāyaṇa) — Sugrīva, Lakṣmaṇa, Tārā
+- [ ] Uttaṅka and the Queen's Earrings (Mahābhārata) — Uttaṅka
+- [ ] Hanumān Finds Sītā's Jewels (Rāmāyaṇa) — Hanumān, Sugrīva, Rāma
+- [ ] Sāvitrī and Satyavān (Mahābhārata) — Sāvitrī, Satyavān, Yama
+- [ ] Rāvaṇa Lifts Mount Kailāsa (Rāmāyaṇa) — Rāvaṇa, Śiva
+- [ ] Nala and Damayantī (Mahābhārata) — Nala, Damayantī
+- [ ] Bhagīratha Brings Down the Gaṅgā (Rāmāyaṇa) — Bhagīratha, Gaṅgā, Śiva
+- [ ] Gaṅgā and King Śantanu (Mahābhārata) — Gaṅgā, Śantanu, Bhīṣma
+- [ ] Viśvāmitra Becomes a Brahmarṣi (Rāmāyaṇa) — Viśvāmitra, Vasiṣṭha
+- [ ] Aṣṭāvakra, the Boy Who Won the Debate (Mahābhārata) — Aṣṭāvakra, Janaka
+- [ ] Māṇḍavī and Śrutakīrti, the Other Brides of Ayodhyā (Rāmāyaṇa) — Māṇḍavī, Śrutakīrti, Bharata, Śatrughna
+- [ ] Duryodhana Falls in the Hall of Illusions (Mahābhārata) — Duryodhana, Bhīma, Draupadī
+- [ ] The Crow and Sītā at Citrakūṭa (Rāmāyaṇa) — Rāma, Sītā, Jayanta
+- [ ] Jarāsandha and Bhīma's Great Wrestle (Mahābhārata) — Jarāsandha, Bhīma, Kṛṣṇa
+- [ ] Rāma Meets Paraśurāma on the Road (Rāmāyaṇa) — Paraśurāma, Rāma, Daśaratha
+- [ ] Kīcaka and the Brave Sairandhrī (Mahābhārata) — Draupadī, Bhīma, Kīcaka
+- [ ] Hanumān in the Aśoka Garden Meets the Demon Guards (Rāmāyaṇa) — Hanumān, Akṣa
+- [ ] Śiśupāla's Hundred Mistakes (Mahābhārata) — Śiśupāla, Kṛṣṇa
+- [ ] Lakṣmaṇa Learns from the Dying Rāvaṇa (Rāmāyaṇa tradition) — Lakṣmaṇa, Rāvaṇa, Rāma
+- [ ] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — Arjuna, the apsarās
+- [ ] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — Sītā, Vālmīki
+- [ ] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — Parīkṣit, Uttarā, Kṛṣṇa

@@ -1933,4 +1933,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'urmilas-long-sleep',
+    added: '2026-11-02',
+    epic: 'Ramayana',
+    chars: ['Ūrmilā', 'Lakṣmaṇa', 'Nidrā', 'Rāma', 'Sītā'],
+    title: { en: 'Ūrmilā\'s Long Sleep', te: 'ఊర్మిళాదేవి నిద్ర' },
+    moral: { en: 'Sometimes love means quietly carrying another person\'s load.', te: 'ప్రేమ అంటే కొన్నిసార్లు మౌనంగా ఇంకొకరి భారాన్ని మోయడమే.' },
+    cover: { bg: 'night', props: [['moon', 340, 60, 1], ['hut', 300, 198, 1.1], ['person', 120, 198, 1.4, { skin: 'fair', cloth: '#a8392a' }], ['bow', 95, 198, 0.9], ['glow', 235, 175, 1], ['person', 235, 198, 1.2, { flip: true, female: true, skin: 'fair', cloth: '#e8e0f4', pallu: '#9ab0e0', hair: '#3a3a6a' }]] },
+    pages: [
+      {
+        scene: { bg: 'night', props: [['moon', 340, 55, 1], ['tree', 40, 196, 1], ['hut', 290, 198, 1.1], ['person', 130, 198, 1.4, { skin: 'fair', cloth: '#a8392a' }], ['bow', 105, 198, 0.9], ['glow', 230, 175, 0.9], ['person', 230, 198, 1.15, { flip: true, female: true, skin: 'fair', cloth: '#e8e0f4', pallu: '#9ab0e0', hair: '#3a3a6a' }]] },
+        en: 'It is said that on their very first night in the forest, Rāma and Sītā fell asleep in their little hut of leaves. Outside, Lakṣmaṇa stood guard with his bow. "For fourteen years I will not sleep," he promised himself. "Wild animals and demons roam here. I must keep my brother and sister-in-law safe." The stars twinkled. The crickets sang. Slowly, Lakṣmaṇa\'s eyes grew heavy. Then a soft, glowing lady appeared before him. "I am Nidrā Devī, the goddess of sleep," she said kindly. "Every living being must rest, my child. Even you."',
+        te: 'అడవిలో మొదటి రాత్రి రాముడు, సీతాదేవి తమ చిన్న ఆకుల పర్ణశాలలో నిద్రపోయారని అంటారు. బయట లక్ష్మణుడు విల్లు పట్టుకుని కాపలా కాస్తున్నాడు. "ఈ పద్నాలుగేళ్ళూ నేను నిద్రపోను," అని తనలో తాను ప్రతిజ్ఞ చేసుకున్నాడు. "ఇక్కడ క్రూర మృగాలు, రాక్షసులు తిరుగుతుంటారు. అన్నయ్యను, వదినను నేను కాపాడాలి." ఆకాశంలో నక్షత్రాలు మెరుస్తున్నాయి. కీచురాళ్ళు పాడుతున్నాయి. మెల్లగా లక్ష్మణుడి కళ్ళు బరువెక్కాయి. అప్పుడు అతని ముందు వెలుగులు చిమ్ముతూ ఒక దేవత ప్రత్యక్షమైంది. "నేను నిద్రాదేవిని," అని ఆమె ప్రేమగా అంది. "నాయనా, ప్రతి ప్రాణీ విశ్రాంతి తీసుకోవాలి. నువ్వు కూడా."',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 140, 198, 1.35, { female: true, skin: 'fair', cloth: '#8a5ac0', pallu: '#f0c040' }], ['fire', 200, 198, 0.5], ['glow', 290, 175, 1], ['person', 290, 198, 1.25, { flip: true, female: true, skin: 'fair', cloth: '#e8e0f4', pallu: '#9ab0e0', hair: '#3a3a6a' }]] },
+        en: 'Lakṣmaṇa folded his hands. "Mother, please forgive me. I have promised to guard Rāma. Is there no other way?" Nidrā Devī thought for a moment. "The world has its rules. If you do not sleep, someone else must take your share of sleep." Lakṣmaṇa thought at once of his wife. "Then please go to Ūrmilā in Ayodhyā and ask her." Far away in the palace, Ūrmilā was lighting a lamp when the goddess appeared. When she heard the request, she smiled through her tears. "If my sleep keeps my husband awake to protect Rāma and my sister Sītā, take me, Mother. I will sleep for both of us."',
+        te: 'లక్ష్మణుడు చేతులు జోడించాడు. "అమ్మా, నన్ను క్షమించు. రాముడిని కాపాడతానని నేను మాట ఇచ్చాను. వేరే దారి లేదా?" నిద్రాదేవి కాసేపు ఆలోచించింది. "ఈ లోకానికి కొన్ని నియమాలు ఉన్నాయి. నువ్వు నిద్రపోకపోతే, నీ వంతు నిద్రను వేరెవరైనా తీసుకోవాలి." లక్ష్మణుడికి వెంటనే తన భార్య గుర్తొచ్చింది. "అయితే అయోధ్యలో ఉన్న ఊర్మిళను అడుగు తల్లీ." దూరాన అయోధ్య రాజభవనంలో ఊర్మిళ దీపం వెలిగిస్తుండగా దేవత ప్రత్యక్షమైంది. విషయం విని ఊర్మిళ కన్నీళ్ళ మధ్యే చిరునవ్వు నవ్వింది. "నా నిద్ర వల్ల నా భర్త మేలుకుని ఉండి రాముడినీ, మా అక్క సీతనూ కాపాడగలిగితే అంతకంటే ఏం కావాలి అమ్మా? మా ఇద్దరి తరఫునా నేనే నిద్రపోతాను."',
+      },
+      {
+        scene: { bg: 'palace', props: [['sun', 360, 45, 0.7], ['person', 80, 198, 1.3, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 135, 198, 1.2, { female: true, skin: 'fair', cloth: '#f2a33a', pallu: '#c0392b' }], ['archer', 250, 198, 1.3, { flip: true, skin: 'fair', cloth: '#a8392a' }], ['person', 320, 198, 1.2, { flip: true, female: true, skin: 'fair', cloth: '#8a5ac0', pallu: '#f0c040' }], ['flowers', 375, 198, 0.8]] },
+        en: 'And so, it is said, Ūrmilā slept peacefully in Ayodhyā for fourteen long years, while Lakṣmaṇa stayed wide awake in the forest. He never grew tired. He gathered fruit, built huts and kept watch every night. Many years later, in the great battle of Laṅkā, there was a mighty warrior named Indrajit, the son of Rāvaṇa. People said that only someone who had not slept for fourteen years could defeat him. That hero was Lakṣmaṇa! When Rāma, Sītā and Lakṣmaṇa at last came home, Nidrā Devī left Ūrmilā, and she woke to see her husband again. Rāma said, "Lakṣmaṇa\'s victory belongs to Ūrmilā too."',
+        te: 'అలా ఊర్మిళ పద్నాలుగు సంవత్సరాలు అయోధ్యలో ప్రశాంతంగా నిద్రపోయిందని అంటారు. లక్ష్మణుడు మాత్రం అడవిలో కనురెప్ప వాల్చకుండా మేలుకునే ఉన్నాడు. అతనికి అలసట అనేదే తెలియలేదు. పండ్లు తెచ్చాడు, పర్ణశాలలు కట్టాడు, ప్రతి రాత్రీ కాపలా కాశాడు. చాలా ఏళ్ళ తరువాత లంకలో పెద్ద యుద్ధం జరిగింది. రావణుడి కొడుకు ఇంద్రజిత్తు మహా బలవంతుడు. పద్నాలుగేళ్ళు నిద్రపోని వీరుడు మాత్రమే అతడిని గెలవగలడని అంటారు. ఆ వీరుడు లక్ష్మణుడే! చివరకు రాముడు, సీతాదేవి, లక్ష్మణుడు అయోధ్యకు తిరిగి వచ్చినప్పుడు నిద్రాదేవి ఊర్మిళను వదిలి వెళ్ళింది. ఊర్మిళ మేల్కొని తన భర్తను మళ్ళీ చూసింది. "లక్ష్మణుడి విజయంలో ఊర్మిళకూ భాగం ఉంది," అన్నాడు రాముడు.',
+      },
+    ],
+  },
+  {
+    id: 'sahadeva-the-wise-youngest-brother',
+    added: '2026-11-02',
+    epic: 'Mahabharata',
+    chars: ['Sahadeva', 'Nakula', 'Kuntī', 'Kṛṣṇa', 'Bhīṣma', 'Duryodhana'],
+    title: { en: 'Sahadeva, the Wise Youngest Brother', te: 'జ్ఞాని సహదేవుడు' },
+    moral: { en: 'True wisdom always speaks the truth, even to those who are not our friends.', te: 'నిజమైన జ్ఞానం ఎప్పుడూ నిజమే చెబుతుంది — మనకు శత్రువులైన వారికి కూడా.' },
+    cover: { bg: 'night', props: [['moon', 340, 55, 1], ['person', 160, 198, 1.45, { skin: 'wheat', cloth: '#3a8a6a' }], ['scroll', 240, 196, 0.9], ['tree', 50, 196, 1]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['person', 80, 198, 1.4, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['scroll', 150, 196, 0.8], ['person', 205, 198, 1.1, { flip: true, skin: 'wheat', cloth: '#3a8a6a' }], ['person', 255, 198, 1.1, { flip: true, skin: 'wheat', cloth: '#d9772a' }]] },
+        en: 'Sahadeva was the youngest of the five Pāṇḍava brothers. He and his twin, Nakula, were the sons of Queen Mādrī. When Mādrī left this world, she asked Kuntī to care for her boys, and Kuntī loved them as dearly as her own — especially gentle Sahadeva. While Bhīma wrestled and Arjuna practised archery, Sahadeva sat quietly with the sages and their books. He studied the stars, the planets and the ways of the world. "Our little brother speaks less than all of us," Yudhiṣṭhira would say, "but when he speaks, everyone should listen." People said Sahadeva was as wise as Bṛhaspati, the teacher of the gods.',
+        te: 'పాండవులు ఐదుగురిలో సహదేవుడు అందరికంటే చిన్నవాడు. అతడు, అతని కవల సోదరుడు నకులుడు మాద్రీదేవి కుమారులు. మాద్రి ఈ లోకాన్ని విడిచి వెళ్ళేటప్పుడు తన పిల్లలను చూసుకోమని కుంతీదేవిని కోరింది. కుంతి వారిని తన సొంత బిడ్డల్లాగే ప్రేమించింది — ముఖ్యంగా మెత్తని మనసున్న సహదేవుడిని. భీముడు మల్లయుద్ధం చేస్తుంటే, అర్జునుడు విలువిద్య సాధన చేస్తుంటే, సహదేవుడు మౌనంగా ఋషుల దగ్గర కూర్చుని గ్రంథాలు చదివేవాడు. నక్షత్రాలు, గ్రహాలు, లోకం తీరు గురించి నేర్చుకున్నాడు. "మా తమ్ముడు మా అందరికంటే తక్కువ మాట్లాడతాడు," అనేవాడు ధర్మరాజు. "కానీ అతడు మాట్లాడితే అందరూ వినాలి." దేవతల గురువైన బృహస్పతి అంతటి జ్ఞాని సహదేవుడని అందరూ అనేవారు.',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 80, 198, 1.3, { skin: 'fair', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 170, 198, 1.35, { raise: true, skin: 'wheat', cloth: '#3a8a6a' }], ['pot', 215, 198, 0.7], ['throne', 300, 198, 1.1], ['person', 300, 168, 1.15, { flip: true, skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }]] },
+        en: 'Years later, Yudhiṣṭhira held a grand ceremony called the Rājasūya, and kings came from every corner of the land. By custom, the most honoured guest had to be worshipped first. But who should it be? Grandfather Bhīṣma said, "Kṛṣṇa is the best of all." So Sahadeva, calm and sure, washed Kṛṣṇa\'s feet and offered him the first honour. Some kings grumbled. Then Sahadeva stood up and spoke in a clear voice. "I have honoured Kṛṣṇa because he deserves it. If any king here disagrees, let him come forward and answer me." The hall went silent. The quiet brother had shown that he was brave, too.',
+        te: 'కొన్నేళ్ళ తరువాత ధర్మరాజు రాజసూయ యాగం చేశాడు. దేశం నలుమూలల నుండి రాజులు వచ్చారు. ఆచారం ప్రకారం, అందరికంటే గౌరవనీయుడైన అతిథికి మొదట పూజ చేయాలి. కానీ ఆ గౌరవం ఎవరికి? "శ్రీకృష్ణుడే అందరిలో శ్రేష్ఠుడు," అన్నాడు భీష్మ పితామహుడు. అప్పుడు సహదేవుడు ప్రశాంతంగా, నిశ్చయంగా శ్రీకృష్ణుడి పాదాలు కడిగి అగ్రపూజ చేశాడు. కొందరు రాజులు గొణుక్కున్నారు. సహదేవుడు లేచి నిలబడి స్పష్టమైన గొంతుతో అన్నాడు: "శ్రీకృష్ణుడు ఈ గౌరవానికి అర్హుడు కాబట్టే పూజించాను. ఇక్కడ ఏ రాజుకైనా అభ్యంతరం ఉంటే, ముందుకు వచ్చి నాకు సమాధానం చెప్పండి." సభ అంతా నిశ్శబ్దమైపోయింది. ఎప్పుడూ మౌనంగా ఉండే ఆ తమ్ముడు ధైర్యవంతుడు కూడా అని అందరికీ తెలిసింది.',
+      },
+      {
+        scene: { bg: 'night', props: [['moon', 60, 55, 0.9], ['hut', 340, 198, 1], ['person', 110, 198, 1.35, { cloth: '#a83a3a', crown: true }], ['person', 210, 198, 1.35, { flip: true, skin: 'wheat', cloth: '#3a8a6a' }], ['person', 265, 198, 1.2, { flip: true, skin: 'wheat', cloth: '#d9772a' }]] },
+        en: 'It is said that just before the great war, a surprising visitor came to Sahadeva\'s tent — Duryodhana, the leader of the other side! "Sahadeva, no one knows the stars better than you," he said. "Tell me the luckiest day to begin the battle." Nakula whispered, "Little brother, he is our enemy. Don\'t tell him!" But Sahadeva shook his head. "He has asked me for the truth, and I cannot lie. Knowledge is not only for friends." And he told Duryodhana the very best day. Duryodhana left amazed. Later, Kṛṣṇa smiled at Sahadeva. "Being honest when it is easy is good. Being honest when it is hard — that is true greatness."',
+        te: 'మహా యుద్ధానికి ముందు సహదేవుడి గుడారానికి ఒక ఆశ్చర్యకరమైన అతిథి వచ్చాడని అంటారు — అవతలి పక్షం నాయకుడైన దుర్యోధనుడు! "సహదేవా, నక్షత్రాల గురించి నీకంటే బాగా ఎవరికీ తెలియదు," అన్నాడు అతడు. "యుద్ధం మొదలుపెట్టడానికి మంచి ముహూర్తం ఏదో చెప్పు." "తమ్ముడూ, అతడు మన శత్రువు. చెప్పకు!" అని నకులుడు మెల్లగా అన్నాడు. కానీ సహదేవుడు తల అడ్డంగా ఊపాడు. "అతడు నన్ను నిజం అడిగాడు. నేను అబద్ధం చెప్పలేను. జ్ఞానం స్నేహితులకు మాత్రమే కాదు." అంటూ దుర్యోధనుడికి అన్నిటికంటే మంచి ముహూర్తం చెప్పాడు. దుర్యోధనుడు ఆశ్చర్యపోతూ వెళ్ళిపోయాడు. తరువాత శ్రీకృష్ణుడు సహదేవుడిని చూసి చిరునవ్వు నవ్వాడు. "తేలికైనప్పుడు నిజం చెప్పడం మంచిదే. కష్టమైనప్పుడు కూడా నిజం చెప్పడమే అసలైన గొప్పతనం."',
+      },
+    ],
+  },
+  {
+    id: 'mandodaris-advice',
+    added: '2026-11-02',
+    epic: 'Ramayana',
+    chars: ['Mandodarī', 'Rāvaṇa', 'Hanumān', 'Vibhīṣaṇa', 'Rāma'],
+    title: { en: 'Mandodarī\'s Advice', te: 'మండోదరి హితవు' },
+    moral: { en: 'A true well-wisher tells us what is right, even when we do not want to hear it.', te: 'మనకు నచ్చకపోయినా మంచి మాట చెప్పేవారే నిజమైన శ్రేయోభిలాషులు.' },
+    cover: { bg: 'palace', props: [['ravana', 120, 198, 1.1], ['person', 295, 198, 1.4, { flip: true, female: true, skin: 'fair', cloth: '#7a3ab0', pallu: '#f0c040', crown: true }], ['cloud', 340, 40, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'night', props: [['moon', 350, 50, 0.9], ['lanka', 250, 198, 1.5], ['glow', 250, 140, 0.6], ['monkey', 90, 196, 1.2, { color: '#d9772a' }]] },
+        en: 'Mandodarī was the queen of Laṅkā and the wife of the ten-headed king Rāvaṇa. She was the daughter of Maya, the great builder of the demons, and she was famous for her beauty and her good heart. When Hanumān first leapt into Laṅkā searching for Sītā, he crept into Rāvaṇa\'s palace at night. There he saw a lady asleep on a splendid bed, glowing like a jewel. "Can this be Sītā?" he wondered, and danced for joy. Then he stopped. "No! Sītā would never sleep happily in Rāvaṇa\'s palace while she is far from Rāma." The lady was Mandodarī, the queen.',
+        te: 'మండోదరి లంకకు మహారాణి, పది తలల రావణుడి భార్య. ఆమె రాక్షసుల గొప్ప శిల్పి అయిన మయుడి కుమార్తె. అందానికీ, మంచి మనసుకూ ఆమె పేరు పొందింది. సీతాదేవిని వెతుకుతూ హనుమంతుడు మొదటిసారి లంకలోకి దూకినప్పుడు, రాత్రి వేళ రావణుడి అంతఃపురంలోకి మెల్లగా ప్రవేశించాడు. అక్కడ అందమైన పాన్పు మీద రత్నంలా మెరిసిపోతున్న ఒక స్త్రీ నిద్రపోతూ కనిపించింది. "ఈమే సీతమ్మ ఏమో!" అనుకుని హనుమంతుడు ఆనందంతో గంతులు వేశాడు. అంతలోనే ఆగిపోయాడు. "కాదు! రాముడికి దూరంగా ఉన్న సీతమ్మ రావణుడి భవనంలో ఇంత హాయిగా నిద్రపోదు." ఆమె మహారాణి మండోదరి.',
+      },
+      {
+        scene: { bg: 'palace', props: [['fire', 360, 198, 0.9], ['ravana', 120, 198, 1.05, { raise: true }], ['person', 260, 198, 1.35, { flip: true, female: true, skin: 'fair', cloth: '#7a3ab0', pallu: '#f0c040', crown: true }]] },
+        en: 'Soon Hanumān set Laṅkā\'s rooftops on fire with his blazing tail, and then news came that Rāma\'s army had built a bridge across the sea. It is told that Mandodarī went to Rāvaṇa with folded hands. "My lord, please listen to me," she said. "A single monkey burned our city. Think how mighty his master must be! Rāma is no ordinary man. Give Sītā back to him with honour, and make peace. Your brother Vibhīṣaṇa said the same." Rāvaṇa\'s ten faces frowned. "I am the king of Laṅkā! I have defeated even the gods. Shall I bow to a man from the forest? Never!" Mandodarī turned away with tears in her eyes.',
+        te: 'కొద్ది రోజుల్లోనే హనుమంతుడు తన మండుతున్న తోకతో లంకలోని మేడలకు నిప్పంటించాడు. ఆ తరువాత రాముడి సైన్యం సముద్రం మీద వారధి కట్టిందన్న వార్త వచ్చింది. అప్పుడు మండోదరి చేతులు జోడించి రావణుడి దగ్గరకు వెళ్ళిందని చెబుతారు. "స్వామీ, దయచేసి నా మాట వినండి," అంది. "ఒక్క వానరమే మన నగరాన్ని కాల్చేసింది. అతడి స్వామి ఇంకెంత బలవంతుడో ఆలోచించండి! రాముడు సామాన్య మానవుడు కాదు. సీతాదేవిని గౌరవంగా తిరిగి అప్పగించి సంధి చేసుకోండి. మీ తమ్ముడు విభీషణుడు చెప్పిందీ ఇదే." రావణుడి పది ముఖాలూ కోపంతో ముడుచుకున్నాయి. "నేను లంకేశ్వరుడిని! దేవతలను కూడా ఓడించాను. అడవిలో తిరిగే ఒక మనిషికి తలవంచాలా? ఎన్నటికీ లేదు!" మండోదరి కన్నీళ్ళతో వెనుదిరిగింది.',
+      },
+      {
+        scene: { bg: 'shore', props: [['sun', 50, 50, 0.8], ['person', 110, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 220, 198, 1.35, { flip: true, female: true, skin: 'fair', cloth: '#7a3ab0', pallu: '#f0c040', crown: true }], ['person', 300, 198, 1.35, { flip: true, skin: 'dark', cloth: '#3a8a6a', crown: true }]] },
+        en: 'The great battle came, and still Rāvaṇa would not listen to anyone. At last Rāma\'s arrow ended his pride and his life, and the war was over. Mandodarī came to the battlefield and wept. "You were so strong and so clever," she said softly. "No enemy could defeat you — only your own pride. If only you had listened!" Rāma bowed his head in respect before the grieving queen. Vibhīṣaṇa became the new king of Laṅkā and cared for Mandodarī with great honour. And the people of Laṅkā always remembered her as the wise queen who spoke the truth, even to the most powerful king of all.',
+        te: 'పెద్ద యుద్ధం జరిగింది. అయినా రావణుడు ఎవరి మాటా వినలేదు. చివరకు రాముడి బాణం అతడి గర్వాన్నీ, ప్రాణాన్నీ ముగించింది. యుద్ధం ముగిసింది. మండోదరి యుద్ధభూమికి వచ్చి కన్నీరు మున్నీరైంది. "మీరు ఎంతో బలవంతులు, ఎంతో తెలివైనవారు," అని మెల్లగా విలపించింది. "ఏ శత్రువూ మిమ్మల్ని ఓడించలేదు — మీ గర్వమే మిమ్మల్ని ఓడించింది. నా మాట విని ఉంటే ఎంత బాగుండేది!" దుఃఖంలో ఉన్న ఆ మహారాణికి రాముడు గౌరవంగా తల వంచాడు. విభీషణుడు లంకకు కొత్త రాజు అయ్యాడు, మండోదరిని ఎంతో గౌరవంగా చూసుకున్నాడు. ఎంత శక్తిమంతుడైన రాజుకైనా నిజం చెప్పిన తెలివైన రాణిగా లంక ప్రజలు ఆమెను ఎప్పటికీ గుర్తుంచుకున్నారు.',
+      },
+    ],
+  },
 ];
