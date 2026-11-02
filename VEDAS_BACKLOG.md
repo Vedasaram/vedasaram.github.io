@@ -48,13 +48,7 @@ Vedānta series — Hari asked for it on 2026-10-31 as three books, one a day, s
 instead of repeating them, and between these three books once they exist. The planned chapters below are a
 guide — adjust if the sources call for it, but keep the scope.
 
-- [ ] The Great Ācāryas (acharyas) — chapters: before the ācāryas (Gauḍapāda and the early teachers) ·
-  Ādi Śaṅkarācārya's life · his teaching, Advaita, in plain words, and the four maṭhas · Rāmānujācārya's life ·
-  Viśiṣṭādvaita and the path of devotion and surrender · Madhvācārya's life · Dvaita and the
-  Haridāsas/Udupi tradition · other teachers (Nimbārka, Vallabha, Caitanya, and others) in brief · where the
-  schools agree and where they differ, told fairly with no school ranked above another · the living traditions
-  today (maṭhas, festivals, how families in Andhra/Telangana and elsewhere follow them). Give dates as
-  "about/c." with traditional and scholarly views where they differ.
+(All three Vedānta books are done.)
 
 ## Done
 - [x] What Are the Vedas? (intro) — 10 chapters — 2026-10-21
@@ -65,3 +59,4 @@ guide — adjust if the sources call for it, but keep the scope.
 - [x] The Vedas in Our Life (life) — 11 chapters — 2026-10-22
 - [x] Vedānta (vedanta) — 11 chapters — 2026-10-31
 - [x] The Ten Great Upaniṣads (upanishads) — 11 chapters — 2026-11-01
+- [x] The Great Ācāryas (acharyas) — 10 chapters — 2026-11-02
