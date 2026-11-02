@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Upamanyu (upamanyu) — Dhaumya's cowherd pupil and the Aśvins' cure; the boy who wanted milk and was taught to seek Śiva; Śiva's test in Indra's form; teaching Kṛṣṇa the Śiva Sahasranāma (MBh Ādi, Anuśāsana, Liṅga Purāṇa).
 - [ ] Sāndīpani (sandipani) — teacher of Kṛṣṇa and Balarāma at Avantī; sixty-four arts in sixty-four days; the son lost to the sea and brought back from Yama's city as guru-dakṣiṇā (Bhāgavata 10, Viṣṇu Purāṇa, Harivaṃśa).
 - [ ] The four Kumāras (kumaras) — Sanaka, Sanandana, Sanātana, Sanatkumāra, mind-born sons who refused to create; cursing Jaya and Vijaya at Vaikuṇṭha; Sanatkumāra teaching Nārada (Chāndogya) and Dhṛtarāṣṭra (Sanatsujātīya) (Bhāgavata, Chāndogya Upaniṣad, MBh Udyoga).
 - [ ] Uddālaka Āruṇi (aruni) — Dhaumya's pupil who lay down in the breach of the field-dyke; “Tat tvam asi” taught to Śvetaketu with the salt, the banyan seed and the honey; the debate with Yājñavalkya; Naciketas's father in the Kaṭha (MBh Ādi, Chāndogya and Bṛhadāraṇyaka Upaniṣads, Kaṭha Upaniṣad).
@@ -87,3 +86,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Pulastya (pulastya) — 10 chapters — 2026-10-29
 - [x] Lomaśa (lomasha) — 12 chapters — 2026-10-31
 - [x] Dhaumya (dhaumya) — 11 chapters — 2026-11-01
+- [x] Upamanyu (upamanyu) — 10 chapters — 2026-11-02
