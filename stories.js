@@ -2011,4 +2011,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'nakula-the-most-handsome-pandava',
+    added: '2026-11-03',
+    epic: 'Mahabharata',
+    chars: ['Nakula', 'Mādrī', 'Kuntī', 'Sahadeva', 'Virāṭa'],
+    title: { en: 'Nakula, the Most Handsome Pāṇḍava', te: 'అందాల నకులుడు' },
+    moral: { en: 'A good face is a gift; patient work and a kind heart make it shine.', te: 'అందం దేవుడిచ్చిన వరం; ఓర్పుతో చేసే పని, మంచి మనసే దానికి వెలుగు.' },
+    cover: { bg: 'village', props: [['person', 150, 198, 1.45, { skin: 'fair', cloth: '#2a8a7a', tilak: true }], ['horse', 290, 198, 1.3], ['sun', 360, 45, 0.8], ['cloud', 70, 45, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['sun', 60, 50, 0.8], ['person', 120, 198, 1.4, { female: true, skin: 'fair', cloth: '#f4ead2', pallu: '#c0392b' }], ['person', 185, 198, 0.75, { skin: 'fair', cloth: '#2a8a7a' }], ['person', 215, 198, 0.75, { skin: 'fair', cloth: '#7a5ab0' }], ['cloud', 250, 40, 0.9]] },
+        en: 'Queen Mādrī prayed to the Aśvins, the shining twin gods of healing, and they blessed her with twin baby boys. The first was Nakula, and the second was Sahadeva. Even as a baby, Nakula was so lovely that the sages of the forest smiled whenever they saw him. "This child is as handsome as the Aśvins themselves!" they said. When King Pāṇḍu left this world, Mādrī went with him. Before she went, she placed her two little sons in Kuntī\'s arms. "Sister, they are yours now," she said. Kuntī held them close. From that day she loved the twins just as much as her own three sons — some say even a little more.',
+        te: 'మాద్రి మహారాణి ఆరోగ్యాన్ని ఇచ్చే కవల దేవతలైన అశ్వినీ దేవతలను ప్రార్థించింది. వారి వరంతో ఆమెకు ఇద్దరు కవల పిల్లలు పుట్టారు. మొదటివాడు నకులుడు, రెండవవాడు సహదేవుడు. పసివాడిగా ఉన్నప్పుడే నకులుడు ఎంత ముద్దుగా ఉండేవాడంటే, అడవిలోని మునులు అతన్ని చూసిన ప్రతిసారీ చిరునవ్వు నవ్వేవారు. "ఈ పిల్లవాడు అచ్చం అశ్వినీ దేవతలంత అందంగా ఉన్నాడు!" అనేవారు. పాండురాజు ఈ లోకాన్ని విడిచి వెళ్ళినప్పుడు మాద్రి కూడా ఆయనతో వెళ్ళిపోయింది. వెళ్ళే ముందు తన ఇద్దరు బిడ్డలను కుంతి చేతుల్లో పెట్టింది. "అక్కా, ఇక వీళ్ళు నీ పిల్లలే," అంది. కుంతి వాళ్ళను గుండెలకు హత్తుకుంది. ఆ రోజు నుంచి కవలలను తన ముగ్గురు కొడుకులంత ప్రేమగా పెంచింది — ఇంకా ఎక్కువే అని కూడా కొందరు అంటారు.',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 110, 198, 1.4, { skin: 'fair', cloth: '#2a8a7a', raise: true }], ['person', 250, 198, 1.3, { flip: true, skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['horse', 340, 198, 0.9, { color: '#5a3a2a' }], ['cloud', 180, 40, 0.9]] },
+        en: 'The Pāṇḍavas grew up and went to learn from Guru Droṇa. Arjuna loved the bow, and Bhīma loved the mace. But Nakula loved the sword. He could swing it so fast that it flashed like lightning, and no one could get past his shield. He also loved horses. He could ride the wildest stallion and calm a frightened mare with one soft word. Nakula was handsome, yet he was never proud of his looks. "A face is given by the gods," he would say. "Skill we must earn ourselves." Later, when Yudhiṣṭhira held a great royal ceremony, Nakula rode out to the west and won many kingdoms with courage and kind words.',
+        te: 'పాండవులు పెద్దవాళ్ళయ్యాక ద్రోణాచార్యుల దగ్గర విద్య నేర్చుకోవడానికి వెళ్ళారు. అర్జునుడికి విల్లు అంటే ఇష్టం, భీముడికి గద అంటే ఇష్టం. కానీ నకులుడికి కత్తి అంటే ప్రాణం. అతను కత్తిని ఎంత వేగంగా తిప్పేవాడంటే అది మెరుపులా మెరిసేది. అతని డాలును దాటి ఎవరూ రాలేకపోయేవారు. నకులుడికి గుర్రాలంటే కూడా చాలా ఇష్టం. ఎంత పొగరుబోతు గుర్రాన్నైనా ఎక్కి స్వారీ చేసేవాడు. బెదిరిపోయిన గుర్రాన్ని ఒక్క మెత్తని మాటతో శాంతపరిచేవాడు. నకులుడు అందగాడే, కానీ తన అందం గురించి ఎప్పుడూ గర్వపడలేదు. "రూపం దేవుడిచ్చింది," అనేవాడు. "నైపుణ్యం మాత్రం మనమే సంపాదించుకోవాలి." తరువాత ధర్మరాజు రాజసూయ యాగం చేసినప్పుడు, నకులుడు పడమటి దిక్కుకు వెళ్ళి ధైర్యంతో, మంచి మాటలతో ఎన్నో రాజ్యాలను గెలిచాడు.',
+      },
+      {
+        scene: { bg: 'village', props: [['person', 130, 198, 1.4, { skin: 'fair', cloth: '#8a6a3a', raise: true }], ['horse', 270, 198, 1.4, { color: '#f0ece4' }], ['sun', 360, 45, 0.8], ['cloud', 60, 45, 0.8]] },
+        en: 'In the year when the Pāṇḍavas had to live in disguise, Nakula went to King Virāṭa\'s court dressed as a simple stable-keeper named Granthika. "Your Majesty," he said, "under my care, no horse of yours will ever be wild, weak or sick." The king laughed — but soon he stopped laughing and started wondering. The fiercest horses grew gentle in Nakula\'s hands, and the weak ones grew strong and glossy. It is said that Nakula knew so much about horses that an old book on caring for them carries his name. Nobody guessed that the quiet stable-keeper was a prince. For Nakula, even humble work, done well, was something to be proud of.',
+        te: 'పాండవులు మారువేషాల్లో బతకాల్సిన సంవత్సరంలో, నకులుడు దామగ్రంథి అనే సాధారణ గుర్రాల కాపరిగా విరాటరాజు కొలువుకు వెళ్ళాడు. "మహారాజా," అన్నాడు, "నా చేతుల్లో ఉంటే మీ గుర్రాలేవీ పొగరుగా గానీ, బలహీనంగా గానీ, జబ్బుగా గానీ ఉండవు." రాజు నవ్వాడు — కానీ కొద్ది రోజుల్లోనే నవ్వడం మానేసి ఆశ్చర్యపోవడం మొదలుపెట్టాడు. నకులుడి చేతుల్లో భయంకరమైన గుర్రాలు కూడా సాధువుగా మారాయి. బలహీనంగా ఉన్నవి బలంగా, నిగనిగలాడుతూ తయారయ్యాయి. గుర్రాల గురించి నకులుడికి ఎంత తెలుసంటే, వాటిని ఎలా చూసుకోవాలో చెప్పే ఒక పాత గ్రంథానికి అతని పేరే ఉందని అంటారు. ఆ మౌనంగా ఉండే గుర్రాల కాపరి ఒక రాకుమారుడని ఎవరూ ఊహించలేదు. నకులుడికి చిన్న పనైనా బాగా చేయడమే గర్వకారణం.',
+      },
+    ],
+  },
+  {
+    id: 'taras-wise-words',
+    added: '2026-11-03',
+    epic: 'Ramayana',
+    chars: ['Tārā', 'Vāli', 'Sugrīva', 'Aṅgada', 'Rāma'],
+    title: { en: 'Tārā\'s Wise Words', te: 'తార హితవచనాలు' },
+    moral: { en: 'Listen to those who love you — anger closes the ears to good advice.', te: 'కోపం మంచి మాటకు చెవులు మూసేస్తుంది; మనల్ని ప్రేమించేవారి మాట వినాలి.' },
+    cover: { bg: 'forest', props: [['monkey', 140, 196, 1.6, { color: '#c9a050' }], ['monkey', 260, 196, 1.9, { color: '#8a5a2a', flip: true }], ['sun', 350, 45, 0.8], ['cloud', 70, 45, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'night', props: [['moon', 340, 55, 0.9], ['monkey', 150, 196, 1.9, { color: '#8a5a2a' }], ['monkey', 250, 196, 1.6, { color: '#c9a050', flip: true }], ['tree', 50, 198, 0.9]] },
+        en: 'Tārā was the queen of Kiṣkindhā and the wife of mighty Vāli, king of the monkeys. She was famous all through the forest for her wisdom. One evening Sugrīva, Vāli\'s younger brother, came to the city gate a second time and roared a challenge. That very morning Vāli had beaten him and chased him away! Vāli jumped up, ready to fight. But Tārā held his arm. "Wait, my lord," she said gently. "A beaten warrior does not come back so soon unless he has found a strong friend. Our son Aṅgada has heard news from the forest. Two princes of Ayodhyā, Rāma and Lakṣmaṇa, have become Sugrīva\'s friends."',
+        te: 'తార కిష్కింధకు మహారాణి, వానరరాజు వాలి భార్య. ఆమె తెలివితేటల గురించి అడవంతా చెప్పుకునేవారు. ఒక సాయంత్రం వాలి తమ్ముడు సుగ్రీవుడు రెండోసారి నగర ద్వారం దగ్గరకు వచ్చి యుద్ధానికి రమ్మని గర్జించాడు. ఆ రోజు ఉదయమే వాలి అతన్ని ఓడించి తరిమేశాడు! వాలి యుద్ధానికి సిద్ధమై లేచాడు. కానీ తార అతని చేయి పట్టుకుంది. "ఆగండి, స్వామీ," అని మెల్లగా అంది. "ఓడిపోయినవాడు ఇంత త్వరగా తిరిగి రాడు — ఏదో బలమైన స్నేహితుడు దొరికితే తప్ప. మన అంగదుడు అడవి నుంచి ఒక వార్త విన్నాడు. అయోధ్య రాకుమారులు రామలక్ష్మణులు సుగ్రీవుడికి స్నేహితులయ్యారట."',
+      },
+      {
+        scene: { bg: 'forest', props: [['monkey', 130, 196, 1.9, { color: '#8a5a2a' }], ['monkey', 230, 196, 1.6, { color: '#c9a050', flip: true }], ['monkey', 300, 196, 1.1, { color: '#a8723a', flip: true }], ['sun', 360, 45, 0.8]] },
+        en: '"Rāma is a great hero, and he always protects those who come to him for help," Tārā went on. "Please make peace with your brother. Bring Sugrīva home, love him again, and make him the young king beside you. A brother is a treasure — do not throw him away." Her words were true and wise. But Vāli\'s heart was full of anger. "I am not afraid of anyone," he said. "I will not fight Rāma — he is good and just. I will only teach Sugrīva a lesson and come back." Tārā saw that he would not listen. With tears in her eyes, she prayed for his safety, walked around him for blessings, and let him go.',
+        te: '"రాముడు గొప్ప వీరుడు. తనను శరణు కోరినవారిని ఎప్పుడూ కాపాడతాడు," అని తార చెప్పింది. "దయచేసి మీ తమ్ముడితో సంధి చేసుకోండి. సుగ్రీవుడిని ఇంటికి పిలిచి, మళ్ళీ ప్రేమగా చూసి, మీ పక్కన యువరాజుగా చేయండి. తమ్ముడు ఒక నిధి — అతన్ని దూరం చేసుకోకండి." ఆమె మాటలు నిజమైనవి, తెలివైనవి. కానీ వాలి మనసు కోపంతో నిండిపోయి ఉంది. "నాకు ఎవరంటే భయం లేదు," అన్నాడు. "రాముడితో నేను యుద్ధం చేయను — ఆయన మంచివాడు, న్యాయమైనవాడు. సుగ్రీవుడికి బుద్ధి చెప్పి తిరిగి వస్తాను." వాలి తన మాట వినడని తారకు అర్థమైంది. కళ్ళలో నీళ్ళతో అతని క్షేమం కోసం ప్రార్థించింది, అతని చుట్టూ ప్రదక్షిణ చేసి దీవించి పంపింది.',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 110, 198, 1.45, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['monkey', 220, 196, 1.6, { color: '#c9a050', flip: true }], ['monkey', 280, 196, 1.15, { color: '#a8723a', flip: true }], ['tree', 360, 198, 0.9], ['cloud', 170, 40, 0.8]] },
+        en: 'The brothers fought, and just as Tārā had feared, Rāma\'s arrow ended Vāli\'s battle. Tārā ran to the field and wept beside him. Vāli, at the very end, wished he had listened to her. Rāma came near and spoke softly to the grieving queen. "Mother, do not lose heart. Everything in this world happens as it must. Look after Aṅgada — he needs your courage now." Tārā wiped her tears. She raised Aṅgada to be brave and good, and she became the wisest counsellor of the new king, Sugrīva. When Sugrīva later made mistakes, it was often Tārā\'s calm words that set things right again.',
+        te: 'అన్నదమ్ములు పోరాడారు. తార భయపడినట్టే రాముడి బాణంతో వాలి యుద్ధం ముగిసిపోయింది. తార యుద్ధభూమికి పరుగెత్తి వచ్చి వాలి పక్కన కూర్చుని ఏడ్చింది. చివరి క్షణాల్లో వాలి, ఆమె మాట వినివుంటే బాగుండేదని అనుకున్నాడు. రాముడు దగ్గరకు వచ్చి దుఃఖంలో ఉన్న ఆ మహారాణితో మెల్లగా మాట్లాడాడు. "అమ్మా, ధైర్యం కోల్పోకు. ఈ లోకంలో అన్నీ జరగవలసినట్టే జరుగుతాయి. అంగదుడిని చూసుకో — ఇప్పుడు వాడికి నీ ధైర్యం కావాలి." తార కన్నీళ్ళు తుడుచుకుంది. అంగదుడిని ధైర్యవంతుడిగా, మంచివాడిగా పెంచింది. కొత్త రాజు సుగ్రీవుడికి అత్యంత తెలివైన సలహాదారు అయింది. తరువాత సుగ్రీవుడు పొరపాట్లు చేసినప్పుడు, చాలాసార్లు తార నిదానమైన మాటలే మళ్ళీ అంతా చక్కబెట్టాయి.',
+      },
+    ],
+  },
+  {
+    id: 'shakuni-and-the-game-of-dice',
+    added: '2026-11-03',
+    epic: 'Mahabharata',
+    chars: ['Śakuni', 'Duryodhana', 'Yudhiṣṭhira', 'Vidura', 'Dhṛtarāṣṭra'],
+    title: { en: 'Śakuni and the Game of Dice', te: 'శకుని మాయా జూదం' },
+    moral: { en: 'Jealousy plots and greed gambles — wise people know when to stop.', te: 'అసూయ కుట్ర పన్నుతుంది, ఆశ జూదమాడుతుంది — ఎక్కడ ఆగాలో తెలిసినవాడే జ్ఞాని.' },
+    cover: { bg: 'court', props: [['person', 110, 198, 1.4, { skin: 'wheat', cloth: '#4a4a4a', beard: true, hair: '#555' }], ['dice', 200, 200, 1.2], ['person', 290, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#f0c040', crown: true, tilak: true }]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 130, 198, 1.45, { skin: 'wheat', cloth: '#a8392a', crown: true }], ['person', 250, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#4a4a4a', beard: true, hair: '#555', raise: true }], ['dice', 330, 200, 0.8]] },
+        en: 'After the Pāṇḍavas built their beautiful city of Indraprastha, Duryodhana came home burning with jealousy. "They have everything, and I have nothing!" he grumbled. His uncle Śakuni, the clever prince of Gāndhāra, smiled a sly smile. "Nephew, why fight a war when you can win with dice? No one in the world plays dice like me. Yudhiṣṭhira loves the game, but he does not know its tricks. Invite him to play, and I will win his whole kingdom for you." Duryodhana\'s eyes shone. Together they begged blind King Dhṛtarāṣṭra to send the invitation. Wise Vidura warned, "This game will bring only quarrels and sorrow!" But the king did not stop it.',
+        te: 'పాండవులు అందమైన ఇంద్రప్రస్థ నగరాన్ని కట్టుకున్న తరువాత, దుర్యోధనుడు అసూయతో రగిలిపోతూ ఇంటికి వచ్చాడు. "వాళ్ళకు అన్నీ ఉన్నాయి, నాకు ఏమీ లేదు!" అని గొణిగాడు. అతని మేనమామ, గాంధార రాకుమారుడైన శకుని కుటిలంగా నవ్వాడు. "అల్లుడూ, పాచికలతో గెలవగలిగినప్పుడు యుద్ధం ఎందుకు? ప్రపంచంలో నాలాగా జూదం ఆడేవాడు లేడు. ధర్మరాజుకు ఆట అంటే ఇష్టం, కానీ దాని మాయలు తెలియవు. అతన్ని ఆటకు పిలువు, అతని రాజ్యమంతా నీకు గెలిచి ఇస్తాను." దుర్యోధనుడి కళ్ళు మెరిశాయి. ఇద్దరూ కలిసి గుడ్డి రాజైన ధృతరాష్ట్రుడిని ఆహ్వానం పంపమని బతిమాలారు. "ఈ ఆట గొడవలు, దుఃఖం మాత్రమే తెస్తుంది!" అని విదురుడు హెచ్చరించాడు. అయినా రాజు ఆపలేదు.',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 100, 198, 1.4, { skin: 'wheat', cloth: '#f0c040', crown: true, tilak: true }], ['dice', 200, 200, 1.1], ['person', 300, 198, 1.4, { flip: true, skin: 'wheat', cloth: '#4a4a4a', beard: true, hair: '#555', raise: true }]] },
+        en: 'Yudhiṣṭhira did not want to play. But in those days a king could not refuse when another king called him to a game. So he came to the great hall of Hastināpura with his brothers and Draupadī. Śakuni rolled the dice for Duryodhana. Rattle, rattle — "I win!" Yudhiṣṭhira bet his jewels and lost. He bet his gold, his chariots and his armies — and lost them all. Each time he thought, "Surely I will win the next throw." But the dice always fell for Śakuni. At last, lost in the game, Yudhiṣṭhira bet his kingdom, his brothers, himself, and even Queen Draupadī — and lost every one. The whole hall fell silent.',
+        te: 'ధర్మరాజుకు ఆడాలని లేదు. కానీ ఆ రోజుల్లో ఒక రాజు ఆటకు పిలిస్తే మరో రాజు కాదనకూడదు. అందుకే తమ్ముళ్ళు, ద్రౌపదితో కలిసి హస్తినాపుర మహాసభకు వచ్చాడు. దుర్యోధనుడి తరఫున శకుని పాచికలు వేశాడు. గల గల — "నేనే గెలిచాను!" ధర్మరాజు తన నగలు ఒడ్డాడు, ఓడిపోయాడు. బంగారం, రథాలు, సైన్యాలు ఒడ్డాడు — అన్నీ ఓడిపోయాడు. ప్రతిసారీ "ఈసారి తప్పక గెలుస్తాను" అనుకున్నాడు. కానీ పాచికలు ఎప్పుడూ శకునికే అనుకూలంగా పడ్డాయి. చివరకు ఆటలో మునిగిపోయి, ధర్మరాజు తన రాజ్యాన్ని, తమ్ముళ్ళను, తనను తాను, చివరకు ద్రౌపదిని కూడా ఒడ్డి — అన్నీ ఓడిపోయాడు. సభ అంతా నిశ్శబ్దం అయిపోయింది.',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 90, 198, 1.3, { skin: 'wheat', cloth: '#f4ead2', tilak: true }], ['person', 140, 198, 1.35, { skin: 'dark', cloth: '#f4ead2' }], ['person', 190, 198, 1.3, { skin: 'wheat', cloth: '#f4ead2' }], ['person', 235, 198, 1.2, { female: true, skin: 'dark', cloth: '#f4ead2', pallu: '#a8392a' }], ['person', 280, 198, 1.15, { skin: 'fair', cloth: '#f4ead2' }], ['person', 320, 198, 1.15, { skin: 'fair', cloth: '#f4ead2' }], ['sun', 365, 45, 0.7]] },
+        en: 'A great wrong was then done to Draupadī in that hall — and how Kṛṣṇa protected her is another story. Frightened by evil omens, old Dhṛtarāṣṭra gave Draupadī boons, and the Pāṇḍavas got back their freedom and their kingdom. But Duryodhana and Śakuni would not rest. They called Yudhiṣṭhira for one last throw. "Whoever loses," said Śakuni, "will live twelve years in the forest and one more year in hiding." Again Yudhiṣṭhira played, and again the dice fell for Śakuni. So the five brothers and Draupadī put on simple bark clothes and walked away into the forest. The people of Hastināpura wept as they went, and the seeds of a great war were sown.',
+        te: 'ఆ సభలో ద్రౌపదికి ఘోరమైన అవమానం జరిగింది — శ్రీకృష్ణుడు ఆమెను ఎలా కాపాడాడో అది వేరే కథ. అపశకునాలు చూసి భయపడిన ముసలి ధృతరాష్ట్రుడు ద్రౌపదికి వరాలు ఇచ్చాడు. పాండవులకు స్వేచ్ఛ, రాజ్యం తిరిగి వచ్చాయి. కానీ దుర్యోధనుడు, శకుని ఊరుకోలేదు. ఇంకొక్కసారి ఆడమని ధర్మరాజును మళ్ళీ పిలిచారు. "ఓడినవాళ్ళు పన్నెండేళ్ళు అడవిలో, మరో ఏడాది ఎవరికీ తెలియకుండా అజ్ఞాతంలో ఉండాలి," అన్నాడు శకుని. ధర్మరాజు మళ్ళీ ఆడాడు, మళ్ళీ పాచికలు శకునికే అనుకూలంగా పడ్డాయి. అలా అన్నదమ్ములు ఐదుగురూ, ద్రౌపదీ నారబట్టలు కట్టుకుని అడవికి నడిచి వెళ్ళారు. వాళ్ళు వెళ్తుంటే హస్తినాపుర ప్రజలు కన్నీరు పెట్టుకున్నారు. ఒక మహాయుద్ధానికి అప్పుడే బీజం పడింది.',
+      },
+    ],
+  },
 ];

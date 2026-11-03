@@ -767,6 +767,10 @@
     kavadi: () => { const head = x => `<circle cx="${x}" cy="-34" r="7" fill="#c98a5a"/><path d="M${x - 7} -35 Q${x} -46 ${x + 7} -35 Q${x} -40 ${x - 7} -35Z" fill="#eee"/><path d="M${x - 4} -34 h3 M${x + 1} -34 h3" stroke="#222" stroke-width="1"/>`;
       return `<line x1="-62" y1="-44" x2="62" y2="-44" stroke="#7a5230" stroke-width="4" stroke-linecap="round"/><g stroke="#8a6a3a" stroke-width="1.5">${[-48, 48].map(x => `<line x1="${x}" y1="-44" x2="${x - 13}" y2="-24"/><line x1="${x}" y1="-44" x2="${x + 13}" y2="-24"/>`).join('')}</g>${head(-48)}${head(48)}${[-48, 48].map(x => `<path d="M${x - 16} -26 H${x + 16} Q${x + 14} -6 ${x} -6 Q${x - 14} -6 ${x - 16} -26Z" fill="#b8823f"/><path d="M${x - 12} -18 H${x + 12}" stroke="#8a5a2a" stroke-width="1.5"/>`).join('')}`;
     },
+    horse: (o = {}) => { const c = o.color || '#a8682a';
+      return `<path d="M-30 -42 Q-46 -36 -44 -14" stroke="#4a2a1a" stroke-width="5" fill="none" stroke-linecap="round"/><g stroke="${c}" stroke-width="6" stroke-linecap="round"><line x1="-22" y1="-34" x2="-24" y2="0"/><line x1="-12" y1="-34" x2="-10" y2="0"/><line x1="14" y1="-34" x2="16" y2="0"/><line x1="24" y1="-34" x2="26" y2="0"/></g><ellipse cx="0" cy="-42" rx="32" ry="15" fill="${c}"/><path d="M18 -50 L34 -80 L46 -76 L30 -44Z" fill="${c}"/><path d="M34 -82 L56 -70 Q58 -64 52 -62 L36 -68Z" fill="${c}"/><path d="M20 -50 L33 -80 L28 -82 L16 -54Z" fill="#4a2a1a"/><circle cx="44" cy="-74" r="1.6" fill="#222"/><path d="M36 -82 L38 -90 L41 -81Z" fill="${c}"/>`;
+    },
+    dice: () => `<path d="M-46 0 L-34 -22 H34 L46 0Z" fill="#a8392a"/><path d="M-28 -11 H28 M0 -21 V-1" stroke="#f0c040" stroke-width="5"/><g fill="#f4ead2" stroke="#8a7a5a" stroke-width="1"><rect x="-22" y="-30" width="16" height="8" rx="2" transform="rotate(-12 -14 -26)"/><rect x="8" y="-32" width="16" height="8" rx="2" transform="rotate(10 16 -28)"/></g><g fill="#222"><circle cx="-17" cy="-25" r="1.2"/><circle cx="-11" cy="-27" r="1.2"/><circle cx="14" cy="-28" r="1.2"/><circle cx="19" cy="-27" r="1.2"/></g>`,
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };

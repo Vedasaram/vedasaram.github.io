@@ -86,11 +86,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Ūrmilā's Long Sleep (Rāmāyaṇa) — urmilas-long-sleep
 - [x] Sahadeva, the Wise Youngest Brother (Mahābhārata) — sahadeva-the-wise-youngest-brother
 - [x] Mandodarī's Advice (Rāmāyaṇa) — mandodaris-advice
+- [x] Nakula, the Most Handsome Pāṇḍava (Mahābhārata) — nakula-the-most-handsome-pandava
+- [x] Tārā's Wise Words (Rāmāyaṇa) — taras-wise-words
+- [x] Śakuni and the Game of Dice (Mahābhārata) — shakuni-and-the-game-of-dice
 
 ## Next
-- [ ] Nakula, the Most Handsome Pāṇḍava (Mahābhārata) — Nakula, Mādrī
-- [ ] Tārā's Wise Words (Rāmāyaṇa) — Tārā, Vāli, Sugrīva
-- [ ] Śakuni and the Game of Dice (Mahābhārata) — Śakuni, Duryodhana, Yudhiṣṭhira
 - [ ] Jāmbavān, the Oldest Bear (Rāmāyaṇa) — Jāmbavān
 - [ ] Draupadī's Endless Sari (Mahābhārata) — Draupadī, Kṛṣṇa
 - [ ] Nala and Nīla, the Floating-Stone Engineers (Rāmāyaṇa) — Nala, Nīla
