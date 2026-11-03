@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Rājarāja Cōḷa I (rajaraja) — the Bṛhadīśvara temple at Thanjavur; the navy; Laṅkā and the Maldives; the Veṅgī alliance with the Eastern Cālukyas
 - [ ] Rājendra Cōḷa I (rajendra) — Gaṅgaikoṇḍacōḷapuram; the march to the Gaṅgā; the expedition to Śrīvijaya
 - [ ] Bhoja of Dhārā (bhoja) — scholar-king of the Paramāras; the Bhojaśālā; the Bhojpur temple and lake; Bhoja in folk tales
 - [ ] Gaṇapatideva and Rudramadevī (kakatiya) — the Kākatīyas of Orugallu; Rudramadevī as ruling queen; Marco Polo's account of Motupalli; the Thousand Pillar temple and Rāmappa
@@ -76,3 +75,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Pulakeśin II (pulakeshin) — 8 chapters — 2026-10-31
 - [x] Narasiṃhavarman I Mahāmalla (narasimhavarman) — 8 chapters — 2026-11-01
 - [x] Lalitāditya Muktāpīḍa (lalitaditya) — 8 chapters — 2026-11-02
+- [x] Rājarāja Cōḷa I (rajaraja) — 9 chapters — 2026-11-03
