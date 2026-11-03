@@ -40,6 +40,7 @@
     ['lomasha', 'Lomaśa', 'లోమశుడు', 'Guide of the Pāṇḍavas’ pilgrimage', 'పాండవుల తీర్థయాత్రకు మార్గదర్శి', '🧭', 'linear-gradient(160deg,#2a1a06,#a0702a)'],
     ['dhaumya', 'Dhaumya', 'ధౌమ్యుడు', 'Priest of the Pāṇḍavas', 'పాండవుల పురోహితుడు', '🪔', 'linear-gradient(160deg,#3a1406,#c0602a)'],
     ['upamanyu', 'Upamanyu', 'ఉపమన్యుడు', 'The boy who asked for milk', 'పాల కోసం తపస్సు చేసిన బాలుడు', '🥛', 'linear-gradient(160deg,#0a1a3a,#7a9ac0)'],
+    ['sandipani', 'Sāndīpani', 'సాందీపని', 'Teacher of Kṛṣṇa and Balarāma', 'కృష్ణ బలరాముల గురువు', '📚', 'linear-gradient(160deg,#1a2a4a,#5a8ac0)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
