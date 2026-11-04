@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] The four Kumāras (kumaras) — Sanaka, Sanandana, Sanātana, Sanatkumāra, mind-born sons who refused to create; cursing Jaya and Vijaya at Vaikuṇṭha; Sanatkumāra teaching Nārada (Chāndogya) and Dhṛtarāṣṭra (Sanatsujātīya) (Bhāgavata, Chāndogya Upaniṣad, MBh Udyoga).
 - [ ] Uddālaka Āruṇi (aruni) — Dhaumya's pupil who lay down in the breach of the field-dyke; “Tat tvam asi” taught to Śvetaketu with the salt, the banyan seed and the honey; the debate with Yājñavalkya; Naciketas's father in the Kaṭha (MBh Ādi, Chāndogya and Bṛhadāraṇyaka Upaniṣads, Kaṭha Upaniṣad).
 - [ ] Jaimini (jaimini) — Vyāsa's pupil who received the Sāmaveda; author of the Mīmāṃsā Sūtras; the four birds of the Vindhyas who answered his questions (Mārkaṇḍeya Purāṇa); the Jaimini Bhārata and its Aśvamedha tales (Viṣṇu Purāṇa, Bhāgavata, Mārkaṇḍeya Purāṇa, later Jaimini Bhārata).
 - [ ] Garga (garga) — priest of the Yadus; the secret naming of Kṛṣṇa and Balarāma in Nanda's cowshed; the sage of the stars and omens; the Garga Saṃhitā (Bhāgavata 10, Harivaṃśa, MBh Śalya, later Garga Saṃhitā).
@@ -87,3 +86,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Dhaumya (dhaumya) — 11 chapters — 2026-11-01
 - [x] Upamanyu (upamanyu) — 10 chapters — 2026-11-02
 - [x] Sāndīpani (sandipani) — 8 chapters — 2026-11-03
+- [x] The four Kumāras (kumaras) — 10 chapters — 2026-11-04
