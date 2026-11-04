@@ -89,11 +89,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Nakula, the Most Handsome Pāṇḍava (Mahābhārata) — nakula-the-most-handsome-pandava
 - [x] Tārā's Wise Words (Rāmāyaṇa) — taras-wise-words
 - [x] Śakuni and the Game of Dice (Mahābhārata) — shakuni-and-the-game-of-dice
+- [x] Jāmbavān, the Oldest Bear (Rāmāyaṇa) — jambavan-the-oldest-bear
+- [x] Draupadī's Endless Sari (Mahābhārata) — draupadis-endless-sari
+- [x] Nala and Nīla, the Floating-Stone Engineers (Rāmāyaṇa) — nala-and-nila-the-floating-stone-engineers
 
 ## Next
-- [ ] Jāmbavān, the Oldest Bear (Rāmāyaṇa) — Jāmbavān
-- [ ] Draupadī's Endless Sari (Mahābhārata) — Draupadī, Kṛṣṇa
-- [ ] Nala and Nīla, the Floating-Stone Engineers (Rāmāyaṇa) — Nala, Nīla
 - [ ] Gāndhārī's Blindfold (Mahābhārata) — Gāndhārī, Dhṛtarāṣṭra
 - [ ] Hanumān and Surasā (Rāmāyaṇa) — Hanumān, Surasā
 - [ ] Sañjaya, the Man Who Saw the War from Afar (Mahābhārata) — Sañjaya, Dhṛtarāṣṭra, Vyāsa

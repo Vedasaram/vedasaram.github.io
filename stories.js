@@ -2089,4 +2089,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'jambavan-the-oldest-bear',
+    added: '2026-11-04',
+    epic: 'Ramayana',
+    chars: ['Jāmbavān', 'Brahmā', 'Hanumān', 'Vibhīṣaṇa'],
+    title: { en: 'Jāmbavān, the Oldest Bear', te: 'అందరికంటే పెద్ద ఎలుగుబంటి — జాంబవంతుడు' },
+    moral: { en: 'True wisdom is seeing the strength in others and helping it shine.', te: 'ఇతరుల్లోని బలాన్ని గుర్తించి, అది వెలిగేలా చేయడమే నిజమైన జ్ఞానం.' },
+    cover: { bg: 'mountain', props: [['bear', 200, 200, 1.8], ['sun', 350, 50, 0.9], ['cloud', 70, 50, 1]] },
+    pages: [
+      {
+        scene: { bg: 'sky', props: [['glow', 110, 172, 1.3], ['lotus', 110, 180, 2], ['person', 110, 176, 1.3, { skin: 'fair', cloth: '#f0c040', crown: true, beard: true }], ['bear', 270, 178, 1.3], ['cloud', 340, 50, 0.9], ['cloud', 220, 40, 0.7]] },
+        en: 'Long, long ago, before Rāma was born, Lord Brahmā sat on his lotus, thinking about the world he had made. He gave a great big yawn — "Haaa-aah!" — and out of that yawn stepped a huge black bear with kind, twinkling eyes. His name was Jāmbavān. He was one of the very first creatures in the world, strong as a hill and wise as a sage. Ages later, Lord Viṣṇu came as the little dwarf Vāmana and then grew into the giant Trivikrama, whose steps covered the earth and the sky. Young Jāmbavān was so quick and so full of joy that he ran around that giant form twenty-one times!',
+        te: 'చాలా చాలా కాలం క్రితం, రాముడు పుట్టక ముందే, బ్రహ్మదేవుడు తన తామర పువ్వు మీద కూర్చుని తను సృష్టించిన లోకం గురించి ఆలోచిస్తున్నాడు. అప్పుడు ఆయనకు ఒక పెద్ద ఆవలింత వచ్చింది — "హా...ఆ!" ఆ ఆవలింతలో నుంచి దయగల, మెరిసే కళ్ళున్న ఒక పెద్ద నల్లని ఎలుగుబంటి బయటకు వచ్చింది. దాని పేరు జాంబవంతుడు. లోకంలో మొట్టమొదట పుట్టిన జీవుల్లో ఆయన ఒకడు — కొండంత బలవంతుడు, మునులంతటి జ్ఞాని. ఎన్నో యుగాల తరువాత విష్ణుమూర్తి చిన్న వామనుడిగా వచ్చి, తన అడుగులతో భూమినీ ఆకాశాన్నీ కొలిచే త్రివిక్రముడిగా పెరిగాడు. అప్పుడు యువకుడైన జాంబవంతుడు ఎంతో ఉత్సాహంతో ఆ మహారూపం చుట్టూ ఇరవై ఒక్కసార్లు ప్రదక్షిణ చేశాడు!',
+      },
+      {
+        scene: { bg: 'shore', props: [['bear', 120, 200, 1.3], ['monkey', 200, 196, 1], ['monkey', 290, 200, 1.5, { color: '#d9772a', flip: true }], ['lanka', 365, 150, 0.45], ['cloud', 240, 40, 0.8]] },
+        en: 'Ages passed, and Jāmbavān grew old. His fur turned grey, but his mind stayed sharp. When Rāma needed help to find Sītā, Jāmbavān joined the army of Sugrīva, the monkey king. On the shore of the southern ocean the monkeys asked, "Who can jump a hundred yojanas to Laṅkā?" Jāmbavān sighed. "When I was young, I could have done it easily. Now I am old — I might reach ninety, but not a hundred." Then he turned to Hanumān, who sat quietly. "But you, son of the Wind, have no equal! You have only forgotten your strength." His words woke up Hanumān\'s courage, and Hanumān made his great leap.',
+        te: 'యుగాలు గడిచాయి, జాంబవంతుడు ముసలివాడయ్యాడు. ఆయన బొచ్చు నెరిసిపోయింది, కానీ బుద్ధి మాత్రం పదునుగానే ఉంది. సీతాదేవిని వెతకడానికి రాముడికి సాయం కావలసి వచ్చినప్పుడు, జాంబవంతుడు వానర రాజు సుగ్రీవుడి సైన్యంలో చేరాడు. దక్షిణ సముద్రపు ఒడ్డున వానరులు "వంద యోజనాలు దూకి లంకకు ఎవరు వెళ్ళగలరు?" అని అడిగారు. జాంబవంతుడు నిట్టూర్చాడు. "నేను యువకుడిగా ఉన్నప్పుడు సులువుగా దూకేవాడిని. ఇప్పుడు ముసలివాడిని — తొంభై యోజనాలు వెళ్ళగలనేమో, వంద కాదు." తరువాత మౌనంగా కూర్చున్న హనుమంతుడి వైపు తిరిగాడు. "కానీ వాయుపుత్రా, నీకు సాటి ఎవరూ లేరు! నువ్వు నీ బలాన్ని మరచిపోయావు, అంతే." ఆ మాటలతో హనుమంతుడిలో ధైర్యం మేల్కొంది, ఆయన మహా లంఘనం చేశాడు.',
+      },
+      {
+        scene: { bg: 'night', props: [['moon', 60, 70, 1], ['bear', 140, 200, 1.2], ['person', 225, 200, 1.2, { cloth: '#4a6a3a', crown: true }], ['fire', 262, 168, 0.5], ['monkey', 320, 200, 1.4, { color: '#d9772a', flip: true }]] },
+        en: 'Later came the great battle at Laṅkā. One night Rāvaṇa\'s son Indrajit shot a storm of magic arrows, and Rāma, Lakṣmaṇa and most of the army fell into a deep faint. Vibhīṣaṇa and Hanumān searched the dark battlefield with torches and found old Jāmbavān, too weak to open his eyes. "Vibhīṣaṇa, is Hanumān alive?" he whispered. "Why ask about Hanumān first, and not Rāma?" "Because if Hanumān lives, he will save us all." Hanumān bowed to him. "Fly north to the Himālayas," said Jāmbavān, "and bring the healing herbs." Hanumān flew, and everyone was saved. It is said that Jāmbavān lived on for ages, and met Rāma again when he came to earth as Kṛṣṇa.',
+        te: 'తరువాత లంకలో మహా యుద్ధం జరిగింది. ఒక రాత్రి రావణుడి కొడుకు ఇంద్రజిత్తు మాయా బాణాల వర్షం కురిపించాడు. రాముడు, లక్ష్మణుడు, సైన్యంలో చాలామంది స్పృహ తప్పి పడిపోయారు. విభీషణుడు, హనుమంతుడు కాగడాలు పట్టుకుని చీకటిలో యుద్ధభూమి అంతా వెతికారు. కళ్ళు కూడా తెరవలేనంత నీరసంగా ఉన్న జాంబవంతుడు కనిపించాడు. "విభీషణా, హనుమంతుడు బతికే ఉన్నాడా?" అని మెల్లగా అడిగాడు. "రాముడి గురించి కాకుండా ముందు హనుమంతుడి గురించి ఎందుకు అడుగుతున్నారు?" "హనుమంతుడు బతికుంటే మనందరినీ కాపాడతాడు." హనుమంతుడు ఆయనకు నమస్కరించాడు. "ఉత్తరాన హిమాలయాలకు ఎగిరి వెళ్ళి ఔషధ మూలికలు తీసుకురా," అన్నాడు జాంబవంతుడు. హనుమంతుడు వెళ్ళి తెచ్చాడు, అందరూ బతికారు. జాంబవంతుడు ఇంకా ఎన్నో యుగాలు జీవించి, రాముడు కృష్ణుడిగా వచ్చినప్పుడు మళ్ళీ ఆయనను కలిశాడని అంటారు.',
+      },
+    ],
+  },
+  {
+    id: 'draupadis-endless-sari',
+    added: '2026-11-04',
+    epic: 'Mahabharata',
+    chars: ['Draupadī', 'Kṛṣṇa', 'Duryodhana', 'Duḥśāsana', 'Vidura'],
+    title: { en: 'Draupadī\'s Endless Sari', te: 'ద్రౌపది అక్షయ వస్త్రం' },
+    moral: { en: 'When we call God with a true heart, help comes in ways no one can imagine.', te: 'నిండు మనసుతో దేవుడిని పిలిస్తే, ఎవరూ ఊహించని విధంగా సహాయం వస్తుంది.' },
+    cover: { bg: 'court', props: [['glow', 170, 200, 1.5], ['person', 170, 200, 1.5, { female: true, cloth: '#d9426a', pallu: '#c0392b', skin: 'dark' }], ['sariPile', 285, 202, 1.3]] },
+    pages: [
+      {
+        scene: { bg: 'court', props: [['person', 75, 200, 1.2, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 200, 200, 1.4, { female: true, cloth: '#d9426a', pallu: '#c0392b', skin: 'dark' }], ['person', 310, 200, 1.3, { cloth: '#a83a3a', crown: true, flip: true }], ['dice', 135, 202, 0.7]] },
+        en: 'In the great hall of Hastināpura, Yudhiṣṭhira had lost everything in Śakuni\'s tricky game of dice — his kingdom, his brothers, himself, and at last even Draupadī. Duryodhana laughed. "Bring Draupadī here! She is our servant now!" His brother Duḥśāsana dragged her into the hall by her long hair. Draupadī stood before all the kings and elders with her head held high. "Tell me," she asked, "did my husband lose himself first? If he was no longer free, how could he bet me?" The hall went silent. Grandfather Bhīṣma looked down. Droṇa said nothing. Only wise Vidura and young prince Vikarṇa cried, "This is wrong!" But no one listened to them.',
+        te: 'హస్తినాపురంలోని పెద్ద సభలో, శకుని మోసపు పాచికల ఆటలో ధర్మరాజు సర్వస్వం పోగొట్టుకున్నాడు — రాజ్యం, తమ్ముళ్ళు, తనను తాను, చివరకు ద్రౌపదిని కూడా. దుర్యోధనుడు గట్టిగా నవ్వాడు. "ద్రౌపదిని ఇక్కడికి తీసుకురండి! ఇప్పుడు ఆమె మన దాసి!" అతని తమ్ముడు దుశ్శాసనుడు ఆమెను జుట్టు పట్టుకుని సభలోకి లాక్కొచ్చాడు. ద్రౌపది రాజులు, పెద్దల ముందు తల ఎత్తుకుని నిలబడింది. "నాకు చెప్పండి," అని అడిగింది, "నా భర్త ముందుగా తనను తాను ఓడిపోయాడా? ఆయనకే స్వేచ్ఛ లేనప్పుడు నన్ను ఎలా పందెం కాస్తాడు?" సభ అంతా నిశ్శబ్దమైపోయింది. భీష్మ పితామహుడు తల దించుకున్నాడు. ద్రోణుడు ఏమీ మాట్లాడలేదు. జ్ఞాని అయిన విదురుడు, యువ రాకుమారుడు వికర్ణుడు మాత్రమే "ఇది అన్యాయం!" అన్నారు. కానీ వాళ్ళ మాట ఎవరూ వినలేదు.',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 170, 200, 1.5, { raise: true, female: true, cloth: '#d9426a', pallu: '#c0392b', skin: 'dark' }], ['person', 285, 200, 1.3, { cloth: '#6a3a8a', flip: true }], ['person', 360, 200, 1.1, { cloth: '#a83a3a', crown: true, flip: true }]] },
+        en: '"Pull off her sari!" shouted Duryodhana, wanting to shame her in front of everyone. Duḥśāsana grabbed the end of her sari and began to pull. Draupadī looked at her five husbands, but they sat with their heads bowed, bound by the rules of the game. She looked at the elders, but they did not move. Then Draupadī understood that no one in that hall could help her. She let go of the cloth, folded her hands, closed her eyes and called with all her heart: "Govinda! Kṛṣṇa! Protector of the helpless, save me!" Far away in Dvārakā, Kṛṣṇa heard her cry.',
+        te: '"ఆమె చీర లాగేయ్!" అని అందరి ముందూ ఆమెను అవమానించాలని అరిచాడు దుర్యోధనుడు. దుశ్శాసనుడు ఆమె చీర కొంగు పట్టుకుని లాగడం మొదలుపెట్టాడు. ద్రౌపది తన ఐదుగురు భర్తల వైపు చూసింది, కానీ ఆట నియమాలకు కట్టుబడి వాళ్ళు తలలు దించుకుని కూర్చున్నారు. పెద్దల వైపు చూసింది, వాళ్ళూ కదలలేదు. ఈ సభలో తనను ఎవరూ కాపాడలేరని ద్రౌపదికి అర్థమైంది. ఆమె చీరను వదిలేసి, రెండు చేతులూ జోడించి, కళ్ళు మూసుకుని మనస్ఫూర్తిగా పిలిచింది: "గోవిందా! కృష్ణా! దిక్కులేనివాళ్ళను కాపాడేవాడా, నన్ను రక్షించు!" ఎక్కడో దూరంగా ద్వారకలో ఉన్న శ్రీకృష్ణుడికి ఆమె మొర వినిపించింది.',
+      },
+      {
+        scene: { bg: 'court', props: [['glow', 150, 200, 1.6], ['person', 150, 200, 1.5, { female: true, cloth: '#d9426a', pallu: '#c0392b', skin: 'dark' }], ['sariPile', 262, 202, 1.3], ['person', 340, 202, 1.1, { cloth: '#6a3a8a', flip: true }]] },
+        en: 'Duḥśāsana pulled, and a red sari came away — but underneath was a blue one! He pulled again — a yellow one! Then green, then gold, then purple with silver stars. The more he pulled, the more saris appeared, piling up like a colourful hill on the floor. He pulled until his arms ached and he puffed and panted. At last he sat down, worn out, and Draupadī still stood there, fully covered. The whole hall gasped. It is said that long before, when Kṛṣṇa had cut his finger, Draupadī had torn a strip from her own sari to bandage it. "I will repay every thread," Kṛṣṇa had promised. That day, he did.',
+        te: 'దుశ్శాసనుడు లాగాడు, ఒక ఎర్ర చీర ఊడి వచ్చింది — కానీ లోపల ఒక నీలం చీర! మళ్ళీ లాగాడు — పసుపు చీర! తరువాత ఆకుపచ్చ, తరువాత బంగారు రంగు, తరువాత వెండి చుక్కల ఊదా రంగు చీర. అతడు ఎంత లాగితే అన్ని చీరలు వస్తూనే ఉన్నాయి, నేల మీద రంగురంగుల కొండలా పోగుపడ్డాయి. చేతులు నొప్పి పుట్టే వరకు, ఆయాసంతో రొప్పే వరకు దుశ్శాసనుడు లాగుతూనే ఉన్నాడు. చివరకు అలసిపోయి కూలబడ్డాడు. ద్రౌపది మాత్రం నిండుగా చీరతో అలాగే నిలబడి ఉంది. సభ అంతా ఆశ్చర్యపోయింది. చాలా కాలం క్రితం కృష్ణుడి వేలు తెగినప్పుడు, ద్రౌపది తన చీర కొంగు చించి కట్టు కట్టిందని అంటారు. "ప్రతి దారానికీ బదులు తీరుస్తాను," అని కృష్ణుడు అప్పుడు మాట ఇచ్చాడట. ఆ రోజు ఆ మాట నిలబెట్టుకున్నాడు.',
+      },
+    ],
+  },
+  {
+    id: 'nala-and-nila-the-floating-stone-engineers',
+    added: '2026-11-04',
+    epic: 'Ramayana',
+    chars: ['Nala', 'Nīla', 'Rāma', 'Samudra'],
+    title: { en: 'Nala and Nīla, the Floating-Stone Engineers', te: 'రాళ్ళను తేలించిన నలుడు, నీలుడు' },
+    moral: { en: 'Use your talents to help others, and they become a true blessing.', te: 'నీ ప్రతిభను ఇతరుల మేలు కోసం ఉపయోగిస్తే, అదే నిజమైన వరం అవుతుంది.' },
+    cover: { bg: 'sea', props: [['stones', 200, 150, 1.4], ['monkey', 95, 192, 1.2, { stone: true }], ['monkey', 305, 192, 1.2, { stone: true, color: '#b8823f', flip: true }], ['sun', 350, 50, 0.9], ['cloud', 80, 45, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'river', props: [['hut', 330, 180, 0.9], ['person', 70, 196, 1.2, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['monkey', 165, 184, 1], ['monkey', 235, 184, 1, { color: '#b8823f', flip: true }], ['pot', 200, 200, 0.6]] },
+        en: 'In Sugrīva\'s monkey army were two good friends, Nala and Nīla. Nala was the son of Viśvakarmā, the builder of the gods, and Nīla was the son of Agni, the fire god. It is said that when they were little, they were very naughty. They liked to sneak into the hermitage of the sages by the river, pick up the sages\' water pots and holy stones, and — plop! — toss them into the water. The sages got tired of fishing their things out. So they gave the boys a funny blessing: "From now on, whatever you two throw into the water will float!" The boys laughed and laughed. Nobody guessed how useful that blessing would one day be.',
+        te: 'సుగ్రీవుడి వానర సైన్యంలో నలుడు, నీలుడు అనే ఇద్దరు మంచి స్నేహితులు ఉండేవారు. నలుడు దేవతల శిల్పి అయిన విశ్వకర్మ కొడుకు. నీలుడు అగ్నిదేవుడి కొడుకు. చిన్నప్పుడు వీళ్ళిద్దరూ చాలా అల్లరి చేసేవారని అంటారు. నది ఒడ్డున ఉన్న మునుల ఆశ్రమంలోకి దొంగచాటుగా దూరి, మునుల కమండలాలనూ పూజా శిలలనూ తీసుకుని — డబుక్! — నీళ్ళలోకి విసిరేసేవారు. వాటిని మళ్ళీ మళ్ళీ బయటకు తీసీ తీసీ మునులు విసిగిపోయారు. అందుకే ఆ పిల్లలకు ఒక వింత వరం ఇచ్చారు: "ఇక నుంచి మీరిద్దరూ నీళ్ళలో ఏది విసిరినా, అది తేలుతుంది!" పిల్లలు పకపకా నవ్వారు. ఆ వరం ఒక రోజు ఎంత ఉపయోగపడుతుందో అప్పుడు ఎవరూ ఊహించలేదు.',
+      },
+      {
+        scene: { bg: 'shore', props: [['person', 110, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['monkey', 200, 198, 1.3, { color: '#b8823f' }], ['person', 320, 160, 1.1, { skin: 'blue', cloth: '#2a6a9a', crown: true, flip: true }], ['cloud', 250, 40, 0.9]] },
+        en: 'Years later, Rāma\'s army stood on the shore of the great ocean, with Laṅkā far away across the waves. The Ocean King rose from the water and said, "Nala can build you a bridge, and I will hold it up." All eyes turned to Nala. He stepped forward shyly. "It is true, Lord Rāma. My father Viśvakarmā gave my mother a boon — I have his skill in building. I did not speak before, because no one asked me." Rāma smiled. "Then today, Nala, you are our chief builder." Nala began to plan. He measured the sea, marked the line with ropes and poles, and told the monkeys and bears what to bring: rocks, hills, trees and bamboo.',
+        te: 'చాలా సంవత్సరాల తరువాత, రాముడి సైన్యం మహా సముద్రపు ఒడ్డున నిలబడి ఉంది. అలల ఆవల లంక చాలా దూరంలో ఉంది. సముద్రుడు నీటిలో నుంచి పైకి వచ్చి, "నలుడు మీకు వారధి కట్టగలడు, నేను దాన్ని మోస్తాను," అన్నాడు. అందరి కళ్ళూ నలుడి వైపు తిరిగాయి. అతడు సిగ్గుపడుతూ ముందుకు వచ్చాడు. "నిజమే రామా. మా నాన్న విశ్వకర్మ మా అమ్మకు ఒక వరం ఇచ్చారు — కట్టడాలు కట్టే ఆయన నైపుణ్యం నాకు వచ్చింది. ఎవరూ అడగలేదు కాబట్టి ఇంతకు ముందు చెప్పలేదు." రాముడు చిరునవ్వు నవ్వాడు. "అయితే నలా, ఈ రోజు నుంచి నువ్వే మా ప్రధాన శిల్పివి." నలుడు ప్రణాళిక వేయడం మొదలుపెట్టాడు. సముద్రాన్ని కొలిచి, తాళ్ళతో కర్రలతో గీత గుర్తు పెట్టి, ఏమేం తేవాలో వానరులకూ ఎలుగుబంట్లకూ చెప్పాడు: బండరాళ్ళు, కొండలు, చెట్లు, వెదురు.',
+      },
+      {
+        scene: { bg: 'sea', props: [['stones', 70, 152, 1], ['stones', 185, 150, 1], ['stones', 300, 148, 1], ['monkey', 125, 140, 0.9, { stone: true }], ['monkey', 245, 138, 0.9, { stone: true, color: '#b8823f', flip: true }], ['lanka', 370, 128, 0.55], ['sun', 60, 50, 0.8]] },
+        en: 'Then the work began! Thousands of monkeys and bears carried rocks and even whole hills to the shore. Nala and Nīla set each one on the water — and thanks to the sages\' old blessing, every stone floated! Splash, thud, splash! On the first day they built fourteen yojanas. On the second day, twenty. Then twenty-one, then twenty-two, and on the fifth day twenty-three — until the bridge touched the shore of Laṅkā. The gods watched from the sky in wonder. Then brave Nīla, the army\'s commander, led everyone across, with Rāma riding on Hanumān\'s shoulders and Lakṣmaṇa on Aṅgada\'s. The naughty boys had grown up into heroes.',
+        te: 'ఇక పని మొదలైంది! వేలాది వానరులు, ఎలుగుబంట్లు బండరాళ్ళనూ, కొండలను సైతం ఒడ్డుకు మోసుకొచ్చారు. నలుడు, నీలుడు ఒక్కొక్క రాయినీ నీటి మీద పెట్టారు — మునుల పాత వరం వల్ల ప్రతి రాయీ తేలింది! దబ్, దుబ్, దబ్! మొదటి రోజు పద్నాలుగు యోజనాలు కట్టారు. రెండో రోజు ఇరవై. తరువాత ఇరవై ఒకటి, ఇరవై రెండు, ఐదో రోజు ఇరవై మూడు — చివరకు వారధి లంక ఒడ్డును తాకింది. దేవతలు ఆకాశం నుంచి ఆశ్చర్యంగా చూశారు. తరువాత సైన్యాధిపతి అయిన వీరుడు నీలుడు అందరినీ అవతలి ఒడ్డుకు నడిపించాడు. రాముడు హనుమంతుడి భుజాల మీద, లక్ష్మణుడు అంగదుడి భుజాల మీద కూర్చుని వెళ్ళారు. ఒకప్పటి అల్లరి పిల్లలు ఇప్పుడు గొప్ప వీరులయ్యారు.',
+      },
+    ],
+  },
 ];
