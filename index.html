@@ -3598,6 +3598,7 @@ const SETTINGS_DEFAULTS = {
   tileOrder: [],         // library tile keys in the user's chosen order (empty = default)
   tileHidden: [],        // library tile keys the user has hidden
   theme: 'auto',         // 'auto' | 'light' | 'dark' | 'saffron' | 'forest' | 'night'
+  splashMusic: true,     // play the opening jingle with the Vedasaram animation
 };
 const PRACTICE_FONT_SIZES = ['1.1rem','1.35rem','1.6rem','1.9rem'];
 const RECITE_FONT_SIZES   = ['1.5rem','1.9rem','2.4rem','3rem'];
@@ -3915,6 +3916,15 @@ function renderHome() {
       </div>
 
       <div class="home-settings-section">
+        <div class="home-settings-label">Opening Music</div>
+        <div class="font-size-row">
+          <button class="sz-btn" style="width:auto;padding:0 14px${settings.splashMusic!==false?';background:var(--accent);color:#fff;border-color:var(--accent)':''}" onclick="setSplashMusic(true)">🔔 On</button>
+          <button class="sz-btn" style="width:auto;padding:0 14px${settings.splashMusic===false?';background:var(--accent);color:#fff;border-color:var(--accent)':''}" onclick="setSplashMusic(false)">Off</button>
+          <button class="sz-btn" style="width:auto;padding:0 14px" onclick="previewJingle()">▶ Play</button>
+        </div>
+      </div>
+
+      <div class="home-settings-section">
         <div class="home-settings-label">Practice Font Size</div>
         <div class="font-size-row">
           <button class="sz-btn" onclick="changeFontSize('practice',-1)">−</button>
@@ -4142,6 +4152,18 @@ function changeFontSize(which, dir) {
 function openHomeSettings() {
   if (window.bmRenderSettings) bmRenderSettings();
   document.getElementById('home-settings-modal').classList.add('open');
+}
+
+function setSplashMusic(on) {
+  settings.splashMusic = on; saveSettings();
+  renderHome();
+  openHomeSettings();   // keep the settings sheet open
+}
+function previewJingle() {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  if (!AC || !window.vsJingle) return;
+  const ctx = new AC();
+  ctx.resume().then(() => { window.vsJingle(ctx, ctx.currentTime + 0.05); setTimeout(() => ctx.close(), 7000); });
 }
 
 function closeHomeSettings(e) {

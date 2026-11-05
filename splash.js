@@ -18,6 +18,114 @@
   ];
   var GOLD = '240,192,64';
 
+
+  // ── Opening jingle: synthesised live with Web Audio (no recordings) ──
+  // A soft tanpura drone on Sa–Pa, a bamboo-flute phrase rising through Rāga Mohanam
+  // (S R G P D), and a temple bell as the title lights up. About 5 seconds.
+  function vsJingle(ctx, t0) {
+    var out = ctx.createGain(); out.gain.value = 1.1; out.connect(ctx.destination);
+    // gentle room: a short feedback echo
+    var dl = ctx.createDelay(1), fb = ctx.createGain(), wet = ctx.createGain();
+    dl.delayTime.value = 0.23; fb.gain.value = 0.28; wet.gain.value = 0.22;
+    dl.connect(fb); fb.connect(dl); dl.connect(wet); wet.connect(out);
+    var SA = 261.63, END = t0 + 5.6;
+    function env(g, at, a, peak, rel, stop) {
+      g.gain.setValueAtTime(0.0001, at);
+      g.gain.exponentialRampToValueAtTime(peak, at + a);
+      g.gain.setValueAtTime(peak, Math.max(at + a, stop - rel));
+      g.gain.exponentialRampToValueAtTime(0.0001, stop);
+    }
+    // Tanpura: plucked-and-held Pa, Sa, Sa, low Sa, each rich in harmonics, cycling
+    function tanpura(f, at) {
+      var g = ctx.createGain(), lp = ctx.createBiquadFilter();
+      lp.type = 'lowpass'; lp.frequency.value = 1800; lp.Q.value = 0.7;
+      [1, 2, 3, 4, 5, 6].forEach(function (h, i) {
+        var o = ctx.createOscillator(), og = ctx.createGain();
+        o.type = 'sine'; o.frequency.value = f * h; o.detune.value = (i % 2 ? 3 : -3);
+        og.gain.value = [1, .55, .42, .3, .2, .12][i];
+        o.connect(og); og.connect(lp); o.start(at); o.stop(END);
+      });
+      lp.connect(g); g.connect(out); g.connect(dl);
+      g.gain.setValueAtTime(0.0001, at);
+      g.gain.exponentialRampToValueAtTime(0.05, at + 0.04);
+      g.gain.exponentialRampToValueAtTime(0.02, at + 1.2);
+      g.gain.exponentialRampToValueAtTime(0.0001, Math.min(END, at + 3.2));
+    }
+    var cyc = [SA * 0.75, SA, SA, SA / 2];          // Pa(low), Sa, Sa, Sa(low)
+    for (var k = 0; k < 8; k++) tanpura(cyc[k % 4], t0 + k * 0.62);
+    // Flute: sine + soft 2nd harmonic, delayed vibrato, breathy onset
+    function flute(f, at, dur, peak) {
+      var o = ctx.createOscillator(), o2 = ctx.createOscillator(), g = ctx.createGain(), g2 = ctx.createGain();
+      var vib = ctx.createOscillator(), vg = ctx.createGain();
+      o.type = 'sine'; o2.type = 'sine'; o.frequency.value = f; o2.frequency.value = f * 2; g2.gain.value = 0.18;
+      vib.frequency.value = 5.2; vg.gain.setValueAtTime(0, at); vg.gain.linearRampToValueAtTime(f * 0.012, at + Math.min(0.5, dur * 0.6));
+      vib.connect(vg); vg.connect(o.frequency); vg.connect(o2.frequency);
+      // slide up into the note from a little below (gamaka)
+      o.frequency.setValueAtTime(f * 0.97, at); o.frequency.exponentialRampToValueAtTime(f, at + 0.07);
+      o.connect(g); o2.connect(g2); g2.connect(g); g.connect(out); g.connect(dl);
+      env(g, at, 0.06, peak || 0.16, Math.min(0.25, dur * 0.5), at + dur);
+      [o, o2, vib].forEach(function (x) { x.start(at); x.stop(at + dur + 0.05); });
+      // breath
+      var n = ctx.createBufferSource(), b = ctx.createBuffer(1, ctx.sampleRate * 0.12, ctx.sampleRate), d = b.getChannelData(0);
+      for (var i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / d.length);
+      var bp = ctx.createBiquadFilter(), ng = ctx.createGain();
+      bp.type = 'bandpass'; bp.frequency.value = f * 2; bp.Q.value = 3; ng.gain.value = 0.05;
+      n.buffer = b; n.connect(bp); bp.connect(ng); ng.connect(out); n.start(at);
+    }
+    var S = SA * 2, R = S * 9 / 8, G = S * 5 / 4, P = S * 3 / 2, D = S * 5 / 3;
+    [[P / 2, .30, .38], [D / 2, .66, .34], [S, 1.00, .36], [R, 1.36, .34], [G, 1.70, .58],
+     [R, 2.30, .22], [G, 2.52, .24], [P, 2.76, .32], [D, 3.08, .30]].forEach(function (n) { flute(n[0], t0 + n[1], n[2]); });
+    flute(S * 2, t0 + 3.38, 1.9, 0.14);             // high Sa, held as the title glows
+    // Temple bell: inharmonic partials with long decays
+    function bell(f, at, peak) {
+      [[1, 1, 4.5], [2.0, .5, 3.2], [2.76, .35, 2.2], [5.4, .18, 1.2], [8.93, .08, .7]].forEach(function (p) {
+        var o = ctx.createOscillator(), g = ctx.createGain();
+        o.type = 'sine'; o.frequency.value = f * p[0];
+        g.gain.setValueAtTime(0.0001, at); g.gain.exponentialRampToValueAtTime(peak * p[1], at + 0.005);
+        g.gain.exponentialRampToValueAtTime(0.0001, Math.min(END, at + p[2]));
+        o.connect(g); g.connect(out); g.connect(dl); o.start(at); o.stop(END);
+      });
+    }
+    bell(S, t0 + 3.38, 0.16);
+    bell(S * 2, t0 + 0.02, 0.05);                   // tiny chime as the words appear
+    out.gain.setValueAtTime(1.1, END - 0.6); out.gain.linearRampToValueAtTime(0.0001, END);
+    return out;
+  }
+  window.vsJingle = vsJingle;
+
+  function startJingle(root, cleanupList) {
+    var on = true;
+    try { on = (JSON.parse(localStorage.getItem('vedic_settings') || '{}').splashMusic !== false); } catch (e) {}
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!on || !AC) return;
+    var ctx;
+    try { ctx = new AC(); } catch (e) { return; }
+    var played = false, bellBtn = null, node = null;
+    function play() {
+      if (played) return; played = true;
+      if (bellBtn) bellBtn.remove();
+      try { node = vsJingle(ctx, ctx.currentTime + 0.05); } catch (e) {}
+      setTimeout(function () { try { ctx.close(); } catch (e) {} }, 7000);
+    }
+    var p = ctx.state === 'running' ? null : ctx.resume();
+    setTimeout(function () {
+      if (ctx.state === 'running') { play(); return; }
+      // The browser blocked sound until the user taps (iPhone always does): offer a bell button.
+      bellBtn = document.createElement('button');
+      bellBtn.className = 'snd'; bellBtn.setAttribute('aria-label', 'Play music'); bellBtn.textContent = '🔔';
+      bellBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        ctx.resume().then(play, function () {});
+        if (ctx.state === 'running') play();
+      });
+      root.appendChild(bellBtn);
+    }, 60);
+    cleanupList.push(function () {
+      if (!played) { try { ctx.close(); } catch (e) {} return; }
+      if (node) { var t = ctx.currentTime; node.gain.cancelScheduledValues(t); node.gain.setValueAtTime(node.gain.value, t); node.gain.linearRampToValueAtTime(0.0001, t + 0.9); }
+    });
+  }
+
   function run() {
     if (document.getElementById('vs-splash')) return;
     var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -40,7 +148,11 @@
       '#vs-splash .s{margin-top:12px;font-family:"Noto Sans Telugu",serif;font-size:clamp(.95rem,4vw,1.2rem);' +
       'color:rgba(240,210,140,.9);letter-spacing:.06em;opacity:0}' +
       '#vs-splash .k{position:absolute;bottom:max(22px,env(safe-area-inset-bottom));left:0;right:0;text-align:center;' +
-      'font:12px -apple-system,system-ui,sans-serif;color:rgba(240,220,180,.4);letter-spacing:.12em;text-transform:uppercase}';
+      'font:12px -apple-system,system-ui,sans-serif;color:rgba(240,220,180,.4);letter-spacing:.12em;text-transform:uppercase}' +
+      '#vs-splash .snd{position:absolute;top:max(16px,env(safe-area-inset-top));right:16px;width:44px;height:44px;border-radius:50%;' +
+      'border:1px solid rgba(240,192,64,.5);background:rgba(240,192,64,.12);font-size:20px;line-height:42px;padding:0;cursor:pointer;' +
+      'animation:vsnd 1.6s ease-in-out infinite}' +
+      '@keyframes vsnd{0%,100%{box-shadow:0 0 0 0 rgba(240,192,64,.45)}50%{box-shadow:0 0 0 8px rgba(240,192,64,0)}}';
     document.head.appendChild(css);
 
     var root = document.createElement('div');
@@ -56,12 +168,15 @@
 
     var letters = root.querySelectorAll('.w b'), sub = root.querySelector('.s'), glow = root.querySelector('.gl');
     var anims = [], done = false;
+    var cleanups = [];
+    startJingle(root, cleanups);
     function A(el, kf, opt) { var a = el.animate(kf, opt); anims.push(a); return a; }
     var smooth = 'cubic-bezier(.45,0,.25,1)';
 
     function finish() {
       if (done) return;
       done = true;
+      cleanups.forEach(function (f) { try { f(); } catch (e) {} });
       anims.forEach(function (a) { try { a.finish(); } catch (e) {} });
       var out = root.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 600, easing: 'ease', fill: 'forwards' });
       root.style.pointerEvents = 'none';
