@@ -441,7 +441,7 @@
       <div class="kz-row"><button class="kz-btn soft" onclick="var m=document.getElementById('kz-meaning');m.hidden=!m.hidden;this.textContent=m.hidden?'Show meaning':'Hide meaning'">Show meaning</button></div></div>`;
   }
 
-  // ── Trace: draw over the faint letter; checked by how much of it you covered ──
+  // ── Trace: draw over the faint letter; checked for coverage, every part, and staying on the lines ──
   function trace(lv, body) {
     const set = letterSet(lv);
     const x = set[sel] || set[0];
@@ -458,12 +458,15 @@
       </div>
       <p style="text-align:center;font-size:.8rem;color:var(--fg3);margin-top:10px">${done.length} of ${set.length} traced in this set</p>`;
     const box = document.getElementById('kz-tr');
-    const size = Math.min(320, box.parentElement.clientWidth || 320);
+    // As big as the screen allows: full width (up to 520px), leaving room for the buttons below
+    const availW = box.parentElement.clientWidth || 320;
+    const availH = (window.innerHeight || 700) - box.getBoundingClientRect().top - 190;
+    const size = Math.max(260, Math.min(520, availW, availH > 260 ? availH : availW));
     box.style.width = size + 'px'; box.style.height = size + 'px';
     const dpr = window.devicePixelRatio || 1;
     const guide = document.getElementById('kz-guide'), ink = document.getElementById('kz-ink');
     [guide, ink].forEach(c => { c.width = size * dpr; c.height = size * dpr; });
-    const font = `${Math.round(size * (x.l.length > 2 ? 0.42 : 0.62) * dpr)}px 'Noto Sans Telugu', sans-serif`;
+    const font = `${Math.round(size * (x.l.length > 2 ? 0.5 : 0.74) * dpr)}px 'Noto Sans Telugu', sans-serif`;
     const drawLetter = (ctx, fill, stroke, lw) => {
       ctx.font = font; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
       const cx = guide.width / 2, cy = guide.height * 0.54;      // same spot on every canvas (others are scaled to match)
@@ -475,7 +478,7 @@
     paint();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(paint);
     const c = ink.getContext('2d');
-    c.lineCap = 'round'; c.lineJoin = 'round'; c.lineWidth = size * 0.075 * dpr;
+    c.lineCap = 'round'; c.lineJoin = 'round'; c.lineWidth = size * 0.065 * dpr;
     c.strokeStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#7b3a10';
     let drawing = false, last = null;
     const pos = e => { const r = ink.getBoundingClientRect(); return [(e.clientX - r.left) * dpr, (e.clientY - r.top) * dpr]; };
@@ -484,33 +487,85 @@
     ink.onpointerup = ink.onpointercancel = () => { drawing = false; };
     document.getElementById('kz-clear').onclick = () => { c.clearRect(0, 0, ink.width, ink.height); document.getElementById('kz-fb').textContent = ''; };
     document.getElementById('kz-check').onclick = () => {
-      // Compare at low resolution: letter shape vs. ink
-      const N = 64, off = document.createElement('canvas'); off.width = off.height = N;
-      const o = off.getContext('2d');
-      const maskOf = drawFn => { o.clearRect(0, 0, N, N); drawFn(); return o.getImageData(0, 0, N, N).data; };
-      const scale = N / guide.width;
-      const letter = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000'); o.restore(); });
-      const wide = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000', '#000', c.lineWidth * 1.2); o.restore(); });
-      const drawn = maskOf(() => o.drawImage(ink, 0, 0, N, N));
-      let L = 0, cov = 0, D = 0, out = 0;
-      for (let i = 3; i < letter.length; i += 4) {
-        const isL = letter[i] > 60, isD = drawn[i] > 60;
-        if (isL) { L++; if (isD) cov++; }
-        if (isD) { D++; if (wide[i] < 60) out++; }
-      }
       const fb = document.getElementById('kz-fb');
-      const coverage = L ? cov / L : 0, stray = D ? out / D : 1;
-      if (coverage >= 0.6 && stray <= 0.35) {
-        fb.className = 'kz-fb ok'; fb.textContent = coverage > 0.8 ? '⭐⭐⭐ Beautiful!' : '⭐⭐ Well done!';
+      const r = window.kzScoreTrace(guide, ink, drawLetter, c.lineWidth);
+      paint();
+      if (r.pass) {
+        fb.className = 'kz-fb ok'; fb.textContent = r.stars === 3 ? '⭐⭐⭐ Beautiful!' : '⭐⭐ Well done!';
         const t = prog.traced[lv.id] = prog.traced[lv.id] || [];
         if (!t.includes(x.l)) t.push(x.l);
         save(prog);
-      } else {
-        fb.className = 'kz-fb no';
-        fb.textContent = coverage < 0.6 ? 'Cover more of the letter and try again' : 'Stay inside the letter and try again';
+        return;
       }
+      fb.className = 'kz-fb no';
+      fb.textContent = r.why === 'empty' ? 'Trace the letter with your finger first'
+        : r.why === 'missed' ? 'You missed part of the letter (circled in red) — trace it too'
+        : r.why === 'outside' ? 'Too much outside the lines — follow the letter’s shape'
+        : 'Cover more of the letter and try again';
+      // circle the parts that were skipped, so the child knows where to trace
+      const gx = guide.getContext('2d');
+      gx.save(); gx.strokeStyle = 'rgba(220,60,40,.85)'; gx.lineWidth = 3 * (window.devicePixelRatio || 1); gx.setLineDash([6, 5]);
+      for (const m of r.missed) { gx.beginPath(); gx.arc(m[0], m[1], m[2], 0, 7); gx.stroke(); }
+      gx.restore();
     };
   }
+
+  // Score a tracing. Three checks, at 96×96:
+  //  1. coverage — how much of the letter is inked (≥ 75%);
+  //  2. every part — the letter is cut into a 6×6 grid over its own outline; every cell that holds a real
+  //     piece of the letter must be at least 45% inked, so skipping a loop, hook or tail fails;
+  //  3. staying on the lines — ink more than about half a brush-width away from the letter
+  //     (around it, or filling its holes) must be under 25% of all ink.
+  window.kzScoreTrace = function (guide, ink, drawLetter, brush) {
+    const N = 96, off = document.createElement('canvas'); off.width = off.height = N;
+    const o = off.getContext('2d', { willReadFrequently: true });
+    const maskOf = fn => { o.clearRect(0, 0, N, N); fn(); return o.getImageData(0, 0, N, N).data; };
+    const scale = N / guide.width;
+    const letter = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000'); o.restore(); });
+    const near = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000', '#000', brush * 0.9); o.restore(); });
+    const drawn = maskOf(() => o.drawImage(ink, 0, 0, N, N));
+    let L = 0, cov = 0, D = 0, out = 0, x0 = N, y0 = N, x1 = 0, y1 = 0;
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      const i = (y * N + x) * 4 + 3, isL = letter[i] > 90, isD = drawn[i] > 60;
+      if (isL) { L++; if (isD) cov++; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+      if (isD) { D++; if (near[i] < 40) out++; }
+    }
+    const res = { pass: false, stars: 0, why: '', missed: [], coverage: L ? cov / L : 0, stray: D ? out / D : 1 };
+    if (!D) { res.why = 'empty'; return res; }
+    const G = 6, cw = (x1 - x0 + 1) / G, ch = (y1 - y0 + 1) / G;
+    const cl = new Array(G * G).fill(0), cc = new Array(G * G).fill(0);
+    for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
+      const i = (y * N + x) * 4 + 3; if (letter[i] <= 90) continue;
+      const k = Math.min(G - 1, Math.floor((y - y0) / ch)) * G + Math.min(G - 1, Math.floor((x - x0) / cw));
+      cl[k]++; if (drawn[i] > 60) cc[k]++;
+    }
+    const minCell = Math.max(4, L * 0.02), back = 1 / scale;
+    const miss = new Set();
+    for (let k = 0; k < G * G; k++) if (cl[k] >= minCell && cc[k] / cl[k] < 0.45) miss.add(k);
+    // group touching missed cells and circle each group once
+    const seen = new Set();
+    for (const k0 of miss) {
+      if (seen.has(k0)) continue;
+      const stack = [k0], grp = []; seen.add(k0);
+      while (stack.length) {
+        const k = stack.pop(); grp.push(k);
+        const gx = k % G, gy = Math.floor(k / G);
+        for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+          const nx = gx + dx, ny = gy + dy, n = ny * G + nx;
+          if (nx >= 0 && ny >= 0 && nx < G && ny < G && miss.has(n) && !seen.has(n)) { seen.add(n); stack.push(n); }
+        }
+      }
+      const xs = grp.map(k => k % G), ys = grp.map(k => Math.floor(k / G));
+      const ax = Math.min(...xs), bx = Math.max(...xs) + 1, ay = Math.min(...ys), by = Math.max(...ys) + 1;
+      res.missed.push([(x0 + (ax + bx) / 2 * cw) * back, (y0 + (ay + by) / 2 * ch) * back,
+        Math.max((bx - ax) * cw, (by - ay) * ch) * 0.62 * back]);
+    }
+    if (res.coverage < 0.75) res.why = res.missed.length ? 'missed' : 'more';
+    else if (res.missed.length) res.why = 'missed';
+    else if (res.stray > 0.25) res.why = 'outside';
+    else { res.pass = true; res.stars = (res.coverage > 0.9 && res.stray < 0.12) ? 3 : 2; }
+    return res;
+  };
 
   // ── Play: 10 quick questions per round; best score becomes the level's stars ──
   function makeQuiz(lv) {
