@@ -250,6 +250,7 @@
       }).join('')}</div>`;
     }).join('');
   }
+  window.bmCount = () => Object.keys(BM.marks || {}).length;
   window.bmRenderSettings = function () {
     const box = document.getElementById('bm-settings'); if (!box) return;
     box.innerHTML = `<div class="home-settings-section"><div class="home-settings-label">🔖 ${T('Bookmarks', 'బుక్‌మార్క్‌లు')}</div><div class="bm-list">${listHtml()}</div></div>

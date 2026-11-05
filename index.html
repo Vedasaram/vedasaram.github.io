@@ -1044,6 +1044,25 @@ body.hs-lock { overflow: hidden; }
 .hs-switch.on span { left: 23px; }
 .hs-card #bm-settings .home-settings-section { margin: 12px 0; }
 .hs-card #bm-settings .home-settings-label { font-size: .78rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--fg2); margin-bottom: 8px; }
+.hs-bar { grid-template-columns: 1fr auto 1fr; }
+.hs-row > div:first-child { flex: 1 1 170px; min-width: 0; }
+.hs-row > .hs-switch, .hs-row > .hs-mini { flex-shrink: 0; }
+.home-settings-sheet { min-height: 62vh; min-height: 62dvh; }
+.hs-back { justify-self: start; border: 0; background: none; color: var(--accent); font: 600 .95rem/1 inherit; font-family: inherit; padding: 8px 4px; cursor: pointer; white-space: nowrap; }
+.hs-list { padding: 0; margin-top: 14px; overflow: hidden; }
+.hs-item { display: flex; align-items: center; gap: 12px; width: 100%; border: 0; background: none; padding: 13px 14px; cursor: pointer; text-align: left; font-family: inherit; color: var(--fg); }
+.hs-item + .hs-item { border-top: 1px solid var(--border); }
+.hs-item:active { background: var(--tag-bg); }
+.hs-ic { width: 32px; height: 32px; border-radius: 9px; display: grid; place-items: center; font-size: 1rem; background: var(--tag-bg); flex-shrink: 0; }
+.hs-it { flex: 1; font-size: .98rem; font-weight: 600; }
+.hs-iv { font-size: .85rem; color: var(--fg3); max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hs-chev { font-size: 1.4rem; line-height: 1; color: var(--fg3); margin-left: 2px; }
+.hs-body > .hs-card:first-child:not(.hs-list) { margin-top: 14px; }
+.hs-preview { margin-top: 12px; padding: 12px 14px; }
+.hs-in { animation: hsIn .22s ease; }
+.hs-out { animation: hsOut .22s ease; }
+@keyframes hsIn { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes hsOut { from { transform: translateX(-40px); opacity: 0; } to { transform: none; opacity: 1; } }
 .hs-foot { text-align: center; font-size: .72rem; color: var(--fg3); margin: 22px 0 4px; letter-spacing: .04em; }
 .home-settings-section { margin-bottom: 18px; }
 .home-settings-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg3); margin-bottom: 8px; }
@@ -4086,10 +4105,12 @@ function settingsModal() {
   }
   return m;
 }
-function renderSettingsSheet() {
+let hsPage = '';          // '' = the list; otherwise the open detail page
+function hsOpen(pg) { hsPage = pg; renderSettingsSheet(true); }
+function renderSettingsSheet(slide) {
   const m = document.getElementById('home-settings-modal');
   if (!m) return;
-  const body = m.querySelector('.hs-body'), keep = body ? body.scrollTop : 0;
+  const body = m.querySelector('.hs-body'), keep = (body && !slide) ? body.scrollTop : 0;
   const cur = settings.theme || 'auto';
   const seg = (items, sel, fn) => `<div class="hs-seg">${items.map(([v, l]) =>
     `<button class="${String(v) === String(sel) ? 'on' : ''}" onclick="${fn}(${typeof v === 'number' ? v : `'${v}'`})">${l}</button>`).join('')}</div>`;
@@ -4100,24 +4121,35 @@ function renderSettingsSheet() {
       <span class="hs-sw hs-auto"><span></span></span><span class="hs-tn">${TT('Auto', 'ఆటో')}</span></button>`;
   const sizes = FONT_LABELS.map((l, i) => [i, l]);
   const music = settings.splashMusic !== false;
-  m.innerHTML = `<div class="home-settings-sheet" role="dialog" aria-label="Settings">
-    <div class="hs-head">
-      <div class="home-settings-handle"></div>
-      <div class="hs-bar"><span></span><div class="home-settings-title">${TT('Settings', 'సెట్టింగ్‌లు')}</div>
-        <button class="hs-done" onclick="closeHomeSettings()">${TT('Done', 'సరే')}</button></div>
-    </div>
-    <div class="hs-body">
-      <div class="hs-group-t">${TT('Appearance', 'రూపం')}</div>
-      <div class="hs-card">
+  const thName = cur === 'auto' ? TT('Auto', 'ఆటో') : (THEMES.find(t => t.id === cur) || {}).label || '';
+  const langName = { en: 'English', both: TT('Both', 'రెండూ'), te: 'తెలుగు' }[settings.language] || '';
+  const nBm = window.bmCount ? bmCount() : 0;
+  const PAGES = {
+    themes:    { icon: '🎨', t: TT('Themes', 'థీమ్‌లు'),               v: thName },
+    reading:   { icon: '📖', t: TT('Script & text size', 'లిపి & అక్షర పరిమాణం'), v: `${langName} · ${FONT_LABELS[settings.practiceFontSize]}` },
+    sound:     { icon: '🔔', t: TT('Opening music', 'ప్రారంభ సంగీతం'),  v: music ? TT('On', 'ఆన్') : TT('Off', 'ఆఫ్') },
+    bookmarks: { icon: '🔖', t: TT('Bookmarks', 'బుక్‌మార్క్‌లు'),       v: nBm ? String(nBm) : '' },
+    app:       { icon: 'ℹ️', t: TT('App & updates', 'యాప్ & అప్‌డేట్‌లు'), v: BUILD_DATE },
+  };
+  const row = k => `<button class="hs-item" onclick="hsOpen('${k}')">
+      <span class="hs-ic">${PAGES[k].icon}</span><span class="hs-it">${PAGES[k].t}</span>
+      <span class="hs-iv">${esc(PAGES[k].v)}</span><span class="hs-chev">›</span></button>`;
+  let inner = '';
+  if (!hsPage) {
+    inner = `<div class="hs-card hs-list">${['themes', 'reading', 'sound'].map(row).join('')}</div>
+      <div class="hs-card hs-list">${['bookmarks'].map(row).join('')}</div>
+      <div class="hs-card hs-list">${['app'].map(row).join('')}</div>
+      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्</div>`;
+  } else if (hsPage === 'themes') {
+    inner = `<div class="hs-card">
         <div class="hs-sub">${TT('Light themes', 'లేత రంగులు')}</div>
         <div class="hs-themes">${THEMES.filter(t => t.group === 'light').map(chip).join('')}</div>
         <div class="hs-sub">${TT('Dark themes', 'ముదురు రంగులు')}</div>
         <div class="hs-themes">${THEMES.filter(t => t.group === 'dark').map(chip).join('')}${autoChip}</div>
         <div class="hs-note">${TT('Auto follows your phone: Ivory by day, Temple at night.', 'ఆటో: పగలు ఐవరీ, రాత్రి టెంపుల్ — మీ ఫోన్‌ను అనుసరిస్తుంది.')}</div>
-      </div>
-
-      <div class="hs-group-t">${TT('Reading', 'చదవడం')}</div>
-      <div class="hs-card">
+      </div>`;
+  } else if (hsPage === 'reading') {
+    inner = `<div class="hs-card">
         <div class="hs-row"><div><div class="hs-l">${TT('Script', 'లిపి')}</div><div class="hs-d">${TT('How verses are shown', 'శ్లోకాలు ఎలా కనిపించాలి')}</div></div>
           ${seg([['en', 'English'], ['both', TT('Both', 'రెండూ')], ['te', 'తెలుగు']], settings.language, 'setSheetLanguage')}</div>
         <div class="hs-row"><div><div class="hs-l">${TT('Practice text', 'అభ్యాస అక్షరాలు')}</div><div class="hs-d">${TT('Size while reading', 'చదివేటప్పుడు పరిమాణం')}</div></div>
@@ -4125,28 +4157,39 @@ function renderSettingsSheet() {
         <div class="hs-row"><div><div class="hs-l">${TT('Recite text', 'పారాయణ అక్షరాలు')}</div><div class="hs-d">${TT('Size on the recite screen', 'పారాయణ తెరపై పరిమాణం')}</div></div>
           ${seg(sizes, settings.reciteFontSize, "setFontSize.bind(null,'recite')")}</div>
       </div>
-
-      <div class="hs-group-t">${TT('Sound', 'శబ్దం')}</div>
-      <div class="hs-card">
-        <div class="hs-row"><div><div class="hs-l">🔔 ${TT('Opening music', 'ప్రారంభ సంగీతం')}</div><div class="hs-d">${TT('Tanpura, flute and bell as the app opens', 'యాప్ తెరిచేటప్పుడు తంబూర, వేణువు, గంట')}</div></div>
-          <div class="hs-ctl"><button class="hs-mini" onclick="previewJingle()">▶</button>
-          <button class="hs-switch${music ? ' on' : ''}" role="switch" aria-checked="${music}" onclick="setSplashMusic(${!music})"><span></span></button></div></div>
+      <div class="hs-card hs-preview"><div class="hs-d">${TT('Preview', 'నమూనా')}</div>
+        <div style="font-size:${PRACTICE_FONT_SIZES[settings.practiceFontSize]};color:var(--fg);line-height:1.5;margin-top:6px">
+        ${settings.language !== 'te' ? '<div>karmaṇyēvādhikārastē mā phalēṣu kadāchana</div>' : ''}${settings.language !== 'en' ? '<div>కర్మణ్యేవాధికారస్తే మా ఫలేషు కదాచన</div>' : ''}</div></div>`;
+  } else if (hsPage === 'sound') {
+    inner = `<div class="hs-card">
+        <div class="hs-row"><div><div class="hs-l">${TT('Play when the app opens', 'యాప్ తెరిచినప్పుడు వినిపించు')}</div><div class="hs-d">${TT('Tanpura, flute in Rāga Mohanam and a temple bell', 'తంబూర, మోహన రాగంలో వేణువు, గుడి గంట')}</div></div>
+          <button class="hs-switch${music ? ' on' : ''}" role="switch" aria-checked="${music}" onclick="setSplashMusic(${!music})"><span></span></button></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Listen', 'వినండి')}</div><div class="hs-d">${TT('About 5 seconds', 'సుమారు 5 సెకన్లు')}</div></div>
+          <button class="hs-mini wide" onclick="previewJingle()">▶ ${TT('Play', 'ప్లే')}</button></div>
       </div>
-
-      <div class="hs-group-t">${TT('Bookmarks', 'బుక్‌మార్క్‌లు')}</div>
-      <div class="hs-card"><div id="bm-settings"></div></div>
-
-      <div class="hs-group-t">${TT('App', 'యాప్')}</div>
-      <div class="hs-card">
+      <div class="hs-note" style="margin:10px 6px">${TT('On iPhone, tap the 🔔 during the opening animation to hear it — iPhones allow sound only after a tap.', 'ఐఫోన్‌లో ప్రారంభ యానిమేషన్ సమయంలో 🔔 నొక్కండి — ట్యాప్ చేసిన తర్వాతే ఐఫోన్ శబ్దాన్ని అనుమతిస్తుంది.')}</div>`;
+  } else if (hsPage === 'bookmarks') {
+    inner = `<div class="hs-card"><div id="bm-settings"></div></div>`;
+  } else if (hsPage === 'app') {
+    inner = `<div class="hs-card">
         <div class="hs-row"><div><div class="hs-l">${TT('Check for updates', 'కొత్త వెర్షన్')}</div><div class="hs-d" id="update-status">Version ${BUILD_DATE}</div></div>
           <button class="hs-mini wide" onclick="checkForUpdates(this)">${TT('Refresh', 'రిఫ్రెష్')}</button></div>
         <div class="hs-row"><div><div class="hs-l">${TT('Reset progress', 'ప్రగతి తొలగించు')}</div><div class="hs-d">${TT('Clear all completed verse marks', 'పూర్తి చేసిన గుర్తులన్నీ తీసేస్తుంది')}</div></div>
           <button class="hs-mini wide danger" onclick="resetProgress()">${TT('Reset', 'తొలగించు')}</button></div>
       </div>
-      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्</div>
+      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्<br>${TT('Free for family and friends', 'కుటుంబం, స్నేహితుల కోసం ఉచితం')}</div>`;
+  }
+  const title = hsPage ? PAGES[hsPage].t : TT('Settings', 'సెట్టింగ్‌లు');
+  const back = hsPage ? `<button class="hs-back" onclick="hsOpen('')">‹ ${TT('Settings', 'సెట్టింగ్‌లు')}</button>` : '<span></span>';
+  m.innerHTML = `<div class="home-settings-sheet" role="dialog" aria-label="Settings">
+    <div class="hs-head">
+      <div class="home-settings-handle"></div>
+      <div class="hs-bar">${back}<div class="home-settings-title">${title}</div>
+        <button class="hs-done" onclick="closeHomeSettings()">${TT('Done', 'సరే')}</button></div>
     </div>
+    <div class="hs-body${slide ? (hsPage ? ' hs-in' : ' hs-out') : ''}">${inner}</div>
   </div>`;
-  if (window.bmRenderSettings) bmRenderSettings();
+  if (hsPage === 'bookmarks' && window.bmRenderSettings) bmRenderSettings();
   const nb = m.querySelector('.hs-body'); if (nb) nb.scrollTop = keep;
   if (m.classList.contains('open')) m.querySelector('.home-settings-sheet').style.animation = 'none';
   sheetSwipe(m);
@@ -4155,16 +4198,20 @@ function renderSettingsSheet() {
 // Swipe the sheet down to close it (from the header, or from the top of the list).
 function sheetSwipe(m) {
   const sheet = m.querySelector('.home-settings-sheet'), body = m.querySelector('.hs-body');
-  let y0 = null, dy = 0, t0 = 0, drag = false;
+  let y0 = null, x0 = 0, dy = 0, dx = 0, t0 = 0, drag = false, side = false, canDown = false;
   sheet.addEventListener('touchstart', e => {
     const fromHead = !!e.target.closest('.hs-head');
-    if (!fromHead && body.scrollTop > 0) { y0 = null; return; }
-    y0 = e.touches[0].clientY; dy = 0; t0 = Date.now(); drag = false;
+    canDown = fromHead || body.scrollTop <= 0;
+    y0 = e.touches[0].clientY; x0 = e.touches[0].clientX; dy = dx = 0; t0 = Date.now(); drag = side = false;
   }, { passive: true });
   sheet.addEventListener('touchmove', e => {
     if (y0 === null) return;
-    dy = e.touches[0].clientY - y0;
-    if (dy > 6) drag = true;
+    dy = e.touches[0].clientY - y0; dx = e.touches[0].clientX - x0;
+    if (!drag && !side) {
+      if (hsPage && dx > 12 && Math.abs(dx) > Math.abs(dy) * 1.5) side = true;   // swipe right = back
+      else if (canDown && dy > 6 && dy > Math.abs(dx)) drag = true;               // swipe down = close
+    }
+    if (side) { if (e.cancelable) e.preventDefault(); body.style.transition = 'none'; body.style.transform = `translateX(${Math.max(0, dx)}px)`; return; }
     if (!drag) return;
     if (e.cancelable) e.preventDefault();
     sheet.style.transition = 'none';
@@ -4172,17 +4219,23 @@ function sheetSwipe(m) {
   }, { passive: false });
   sheet.addEventListener('touchend', () => {
     if (y0 === null) return;
-    const fast = dy > 40 && (Date.now() - t0) < 250;
-    sheet.style.transition = 'transform .22s ease';
-    if (drag && (dy > 110 || fast)) closeHomeSettings();
-    else sheet.style.transform = '';
-    y0 = null; drag = false;
+    const fast = (Date.now() - t0) < 250;
+    if (side) {
+      if (dx > 90 || (fast && dx > 40)) hsOpen('');
+      else { body.style.transition = 'transform .2s ease'; body.style.transform = ''; }
+    } else if (drag) {
+      sheet.style.transition = 'transform .22s ease';
+      if (dy > 110 || (fast && dy > 40)) closeHomeSettings();
+      else sheet.style.transform = '';
+    }
+    y0 = null; drag = side = false;
   });
 }
 
 function openHomeSettings() {
   const m = settingsModal();
   m.classList.remove('open');
+  hsPage = '';
   renderSettingsSheet();
   m.classList.add('open');
   document.body.classList.add('hs-lock');
