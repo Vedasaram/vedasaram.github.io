@@ -511,11 +511,11 @@
   }
 
   // Score a tracing. Three checks, at 96×96:
-  //  1. coverage — how much of the letter is inked (≥ 75%);
-  //  2. every part — the letter is cut into a 6×6 grid over its own outline; every cell that holds a real
-  //     piece of the letter must be at least 45% inked, so skipping a loop, hook or tail fails;
-  //  3. staying on the lines — ink more than about half a brush-width away from the letter
-  //     (around it, or filling its holes) must be under 25% of all ink.
+  //  1. coverage — how much of the letter the ink reaches, allowing half a brush-width beside the line (≥ 70%);
+  //  2. every part — the letter is cut into a 6×6 grid over its own outline; a whole piece left out
+  //     (a loop, hook or tail — at least 7% of the letter) fails and is circled; small nubs are forgiven;
+  //  3. staying on the lines — ink well away from the letter (around it, or filling its holes)
+  //     must be under 30% of all ink.
   window.kzScoreTrace = function (guide, ink, drawLetter, brush) {
     const N = 96, off = document.createElement('canvas'); off.width = off.height = N;
     const o = off.getContext('2d', { willReadFrequently: true });
@@ -524,10 +524,24 @@
     const letter = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000'); o.restore(); });
     const near = maskOf(() => { o.save(); o.scale(scale, scale); drawLetter(o, '#000', '#000', brush * 0.9); o.restore(); });
     const drawn = maskOf(() => o.drawImage(ink, 0, 0, N, N));
+    // Ink "reaches" a letter pixel if it passes within about half a brush-width of it, so a
+    // child's finger that runs a little beside the line still counts.
+    const R = Math.max(2, Math.round(brush * scale * 0.6));
+    const isInk = new Uint8Array(N * N);
+    for (let i = 0; i < N * N; i++) isInk[i] = drawn[i * 4 + 3] > 60 ? 1 : 0;
+    const reach = new Uint8Array(N * N);
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      if (!isInk[y * N + x]) continue;
+      for (let dy = -R; dy <= R; dy++) for (let dx = -R; dx <= R; dx++) {
+        if (dx * dx + dy * dy > R * R) continue;
+        const nx = x + dx, ny = y + dy;
+        if (nx >= 0 && ny >= 0 && nx < N && ny < N) reach[ny * N + nx] = 1;
+      }
+    }
     let L = 0, cov = 0, D = 0, out = 0, x0 = N, y0 = N, x1 = 0, y1 = 0;
     for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
-      const i = (y * N + x) * 4 + 3, isL = letter[i] > 90, isD = drawn[i] > 60;
-      if (isL) { L++; if (isD) cov++; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+      const j = y * N + x, i = j * 4 + 3, isL = letter[i] > 90, isD = isInk[j];
+      if (isL) { L++; if (reach[j]) cov++; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
       if (isD) { D++; if (near[i] < 40) out++; }
     }
     const res = { pass: false, stars: 0, why: '', missed: [], coverage: L ? cov / L : 0, stray: D ? out / D : 1 };
@@ -537,11 +551,11 @@
     for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
       const i = (y * N + x) * 4 + 3; if (letter[i] <= 90) continue;
       const k = Math.min(G - 1, Math.floor((y - y0) / ch)) * G + Math.min(G - 1, Math.floor((x - x0) / cw));
-      cl[k]++; if (drawn[i] > 60) cc[k]++;
+      cl[k]++; if (reach[y * N + x]) cc[k]++;
     }
     const minCell = Math.max(4, L * 0.02), back = 1 / scale;
     const miss = new Set();
-    for (let k = 0; k < G * G; k++) if (cl[k] >= minCell && cc[k] / cl[k] < 0.45) miss.add(k);
+    for (let k = 0; k < G * G; k++) if (cl[k] >= minCell && cc[k] / cl[k] < 0.35) miss.add(k);
     // group touching missed cells and circle each group once
     const seen = new Set();
     for (const k0 of miss) {
@@ -555,15 +569,17 @@
           if (nx >= 0 && ny >= 0 && nx < G && ny < G && miss.has(n) && !seen.has(n)) { seen.add(n); stack.push(n); }
         }
       }
+      const unc = grp.reduce((n, k) => n + (cl[k] - cc[k]), 0);
+      if (unc < L * 0.07) continue;                       // a small nub left out is fine
       const xs = grp.map(k => k % G), ys = grp.map(k => Math.floor(k / G));
       const ax = Math.min(...xs), bx = Math.max(...xs) + 1, ay = Math.min(...ys), by = Math.max(...ys) + 1;
       res.missed.push([(x0 + (ax + bx) / 2 * cw) * back, (y0 + (ay + by) / 2 * ch) * back,
         Math.max((bx - ax) * cw, (by - ay) * ch) * 0.62 * back]);
     }
-    if (res.coverage < 0.75) res.why = res.missed.length ? 'missed' : 'more';
+    if (res.coverage < 0.7) res.why = res.missed.length ? 'missed' : 'more';
     else if (res.missed.length) res.why = 'missed';
-    else if (res.stray > 0.25) res.why = 'outside';
-    else { res.pass = true; res.stars = (res.coverage > 0.9 && res.stray < 0.12) ? 3 : 2; }
+    else if (res.stray > 0.3) res.why = 'outside';
+    else { res.pass = true; res.stars = (res.coverage > 0.92 && res.stray < 0.15) ? 3 : 2; }
     return res;
   };
 
