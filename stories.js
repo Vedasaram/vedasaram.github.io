@@ -2167,4 +2167,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'gandharis-blindfold',
+    added: '2026-11-05',
+    epic: 'Mahabharata',
+    chars: ['Gāndhārī', 'Dhṛtarāṣṭra', 'Śakuni', 'Bhīṣma'],
+    title: { en: 'Gāndhārī\'s Blindfold', te: 'గాంధారి కళ్ళగంతలు' },
+    moral: { en: 'True love means sharing both the joys and the hardships.', te: 'నిజమైన ప్రేమ అంటే సుఖాన్నీ కష్టాన్నీ కలిసి పంచుకోవడమే.' },
+    cover: { bg: 'palace', props: [['glow', 200, 200, 1.4], ['person', 200, 200, 1.6, { female: true, skin: 'fair', cloth: '#7a3a9a', pallu: '#f0c040' }], ['blindfold', 200, 200, 1.6], ['flowers', 85, 200, 1], ['flowers', 315, 200, 1]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['linga', 75, 200, 1], ['person', 160, 200, 1.4, { female: true, skin: 'fair', cloth: '#7a3a9a', pallu: '#f0c040' }], ['person', 270, 200, 1.4, { crown: true, beard: true, hair: '#ddd', cloth: '#a8392a', skin: 'fair' }], ['scroll', 345, 200, 0.8]] },
+        en: 'In the land of Gāndhāra, far away in the north-west, lived a princess named Gāndhārī. She was kind and clever, and she prayed to Lord Śiva every day. It is said that Śiva was so pleased with her devotion that he blessed her: "You will be the mother of a hundred sons." One day messengers arrived from mighty Hastināpura. Old Bhīṣma, the elder of the Kuru family, wished Gāndhārī to marry the eldest prince, Dhṛtarāṣṭra. Her father, King Subala, was pleased, for Hastināpura was the greatest kingdom in the land. But there was one more thing to know: Prince Dhṛtarāṣṭra had been born blind.',
+        te: 'వాయవ్య దిక్కున చాలా దూరంలో ఉన్న గాంధార దేశంలో గాంధారి అనే రాకుమార్తె ఉండేది. ఆమె దయగలది, తెలివైనది. రోజూ శివుడిని భక్తితో పూజించేది. ఆమె భక్తికి మెచ్చి శివుడు "నీకు వంద మంది కొడుకులు పుడతారు" అని వరం ఇచ్చాడని చెబుతారు. ఒక రోజు గొప్ప హస్తినాపురం నుంచి దూతలు వచ్చారు. కురువంశ పెద్ద అయిన భీష్ముడు, పెద్ద యువరాజు ధృతరాష్ట్రుడికి గాంధారిని ఇచ్చి పెళ్ళి చేయమని కోరాడు. హస్తినాపురం దేశంలోకెల్లా గొప్ప రాజ్యం కాబట్టి ఆమె తండ్రి సుబల మహారాజు సంతోషించాడు. కానీ తెలుసుకోవలసిన ఇంకో విషయం ఉంది — ధృతరాష్ట్రుడు పుట్టుకతోనే అంధుడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 85, 200, 1.2, { female: true, skin: 'wheat', cloth: '#4f9d4f', pallu: '#f4ead2' }], ['person', 200, 200, 1.5, { female: true, skin: 'fair', cloth: '#7a3a9a', pallu: '#f0c040', raise: true }], ['blindfold', 200, 200, 1.5], ['person', 315, 200, 1.35, { skin: 'fair', cloth: '#3a7a5a', raise: true, flip: true }]] },
+        en: 'When Gāndhārī heard this, she sat quietly for a long time. "My husband will never see the sun rise, or the flowers bloom, or even my face," she thought. "Is it right that I should enjoy all the sights that he cannot?" She went to her room and took a long strip of silk. Folding it carefully, she tied it over her eyes. "From today," she said, "I will live as my husband lives. If he walks in darkness, I will walk beside him in that same darkness." Her maids gasped. Her brother Śakuni begged her to think again. But Gāndhārī\'s mind was made up.',
+        te: 'ఈ సంగతి విన్న గాంధారి చాలా సేపు మౌనంగా కూర్చుంది. "నా భర్త సూర్యోదయాన్ని చూడలేడు, పూలు పూయడం చూడలేడు, నా ముఖాన్ని కూడా చూడలేడు," అని ఆలోచించింది. "ఆయన చూడలేనివన్నీ నేను మాత్రం చూసి ఆనందించడం న్యాయమా?" ఆమె తన గదిలోకి వెళ్ళి ఒక పొడవాటి పట్టు వస్త్రాన్ని తీసుకుంది. దాన్ని జాగ్రత్తగా మడిచి తన కళ్ళకు కట్టుకుంది. "ఈ రోజు నుంచి నా భర్త ఎలా జీవిస్తాడో నేనూ అలాగే జీవిస్తాను," అంది. "ఆయన చీకటిలో నడిస్తే, నేనూ ఆ చీకటిలోనే ఆయన పక్కన నడుస్తాను." చెలికత్తెలు నివ్వెరపోయారు. ఆమె సోదరుడు శకుని మళ్ళీ ఆలోచించమని బతిమాలాడు. కానీ గాంధారి తన నిర్ణయం మార్చుకోలేదు.',
+      },
+      {
+        scene: { bg: 'court', props: [['throne', 160, 196, 1.2], ['person', 160, 200, 1.4, { crown: true, skin: 'fair', cloth: '#f0c040' }], ['glow', 245, 200, 1.2], ['person', 245, 200, 1.4, { female: true, skin: 'fair', cloth: '#7a3a9a', pallu: '#f0c040' }], ['blindfold', 245, 200, 1.4], ['person', 60, 200, 1.1, { cloth: '#3a6ab0' }], ['person', 345, 200, 1.1, { female: true, cloth: '#d9426a', flip: true }]] },
+        en: 'Gāndhārī travelled to Hastināpura with Śakuni at her side. When Dhṛtarāṣṭra learned what his bride had done, he was deeply moved. "You have given up your sight for me?" he asked softly. "I did it so that we can share everything, side by side," she replied. The people of Hastināpura bowed to their new queen. From that day on, she never took the cloth from her eyes. It is said that her long years of patience and prayer filled her eyes with great power, like a lamp kept covered. In time Gāndhārī became the mother of a hundred sons, the Kauravas, and the whole land spoke of her loyalty.',
+        te: 'గాంధారి సోదరుడు శకునితో కలిసి హస్తినాపురానికి ప్రయాణమైంది. తన వధువు చేసిన పని తెలిసి ధృతరాష్ట్రుడి మనసు కరిగిపోయింది. "నా కోసం నువ్వు నీ చూపునే వదులుకున్నావా?" అని మెల్లగా అడిగాడు. "మనిద్దరం అన్నీ కలిసి పంచుకోవాలనే ఇలా చేశాను," అంది ఆమె. హస్తినాపుర ప్రజలు తమ కొత్త మహారాణికి నమస్కరించారు. ఆ రోజు నుంచి ఆమె తన కళ్ళకు కట్టిన వస్త్రాన్ని ఎప్పుడూ తీయలేదు. ఏళ్ళ తరబడి ఆమె చేసిన ఓర్పు, ప్రార్థనల వల్ల, మూత పెట్టిన దీపంలా ఆమె కళ్ళలో గొప్ప శక్తి నిండిందని చెబుతారు. కాలక్రమంలో గాంధారి కౌరవులు అనే వంద మంది కొడుకులకు తల్లి అయింది. దేశమంతా ఆమె పతిభక్తిని గొప్పగా చెప్పుకుంది.',
+      },
+    ],
+  },
+  {
+    id: 'hanuman-and-surasa',
+    added: '2026-11-05',
+    epic: 'Ramayana',
+    chars: ['Hanumān', 'Surasā'],
+    title: { en: 'Hanumān and Surasā', te: 'హనుమంతుడు, సురస' },
+    moral: { en: 'When strength is not enough, a clever mind finds the way.', te: 'బలం సరిపోనప్పుడు తెలివి దారి చూపిస్తుంది.' },
+    cover: { bg: 'sea', props: [['demon', 115, 210, 1.5, { color: '#3a8a6a', cloth: '#f0c040', raise: true }], ['hanuman', 290, 120, 1.1, { flip: true }], ['cloud', 220, 45, 0.9], ['sun', 360, 50, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'sky', props: [['hanuman', 200, 125, 1.4], ['cloud', 70, 60, 1], ['cloud', 330, 75, 0.9], ['sun', 355, 45, 0.8], ['lanka', 370, 190, 0.5]] },
+        en: 'On the seashore, Hanumān had grown as big as a mountain. With a mighty roar he sprang into the sky and flew over the ocean towards Laṅkā, as fast as the wind. Up in heaven, the gods were watching. "He is brave," they said, "but is he also wise? Let us test him." So they called Surasā, the mother of the serpents. "Go and stand in Hanumān\'s path," they told her. "Let us see how he gets past you." At once Surasā rose out of the sea in the shape of a huge, fearsome demoness, with a mouth as wide as a cave.',
+        te: 'సముద్రపు ఒడ్డున హనుమంతుడు కొండంత పెరిగాడు. పెద్ద గర్జనతో ఆకాశంలోకి ఎగిరి, గాలి వేగంతో సముద్రం మీదుగా లంక వైపు దూసుకుపోయాడు. పైన స్వర్గంలో దేవతలు అది చూస్తున్నారు. "ఇతను ధైర్యవంతుడే, కానీ తెలివైనవాడేనా? పరీక్షిద్దాం," అనుకున్నారు. వారు నాగుల తల్లి అయిన సురసను పిలిచారు. "హనుమంతుడి దారికి అడ్డుగా నిలబడు. నిన్ను దాటి అతను ఎలా వెళ్తాడో చూద్దాం," అన్నారు. వెంటనే సురస భయంకరమైన పెద్ద రాక్షసి రూపంలో సముద్రంలోంచి పైకి లేచింది. ఆమె నోరు ఒక గుహ అంత వెడల్పుగా ఉంది.',
+      },
+      {
+        scene: { bg: 'sea', props: [['demon', 110, 212, 1.6, { color: '#3a8a6a', cloth: '#f0c040', raise: true }], ['hanuman', 295, 115, 1.2, { flip: true }], ['cloud', 230, 45, 0.8]] },
+        en: '"Stop, monkey!" boomed Surasā. "The gods have given you to me as my food. Come into my mouth!" Hanumān folded his hands. "Mother, I am on Rāma\'s errand, searching for Sītā. Let me go now, and I promise to come back to you afterwards." "No one passes me," said Surasā. "By my boon, every traveller must enter my mouth." So Hanumān made himself ten yojanas tall. Surasā opened her mouth twenty yojanas wide. Hanumān grew to thirty; her mouth grew to forty. Bigger and bigger they both grew, until at last her mouth was a hundred yojanas wide!',
+        te: '"ఆగు, వానరా!" అని గర్జించింది సురస. "దేవతలు నిన్ను నాకు ఆహారంగా ఇచ్చారు. నా నోట్లోకి రా!" హనుమంతుడు చేతులు జోడించాడు. "అమ్మా, నేను రాముడి పని మీద సీతాదేవిని వెతకడానికి వెళ్తున్నాను. ఇప్పుడు నన్ను వెళ్ళనివ్వు. పని అయ్యాక తప్పకుండా నీ దగ్గరకు తిరిగి వస్తాను, మాట ఇస్తున్నాను." "నన్ను దాటి ఎవరూ వెళ్ళలేరు," అంది సురస. "ప్రతి ప్రయాణికుడూ నా నోట్లోకి రావాలని నాకు వరం ఉంది." అప్పుడు హనుమంతుడు పది యోజనాల ఎత్తుకు పెరిగాడు. సురస తన నోటిని ఇరవై యోజనాలు తెరిచింది. హనుమంతుడు ముప్పై యోజనాలు పెరిగితే, ఆమె నోరు నలభై అయింది. అలా ఇద్దరూ పెరుగుతూనే పోయారు — చివరకు ఆమె నోరు వంద యోజనాల వెడల్పు అయింది!',
+      },
+      {
+        scene: { bg: 'sea', props: [['glow', 120, 200, 1.6], ['person', 120, 200, 1.5, { female: true, skin: 'fair', cloth: '#3a8a6a', pallu: '#f0c040', raise: true }], ['hanuman', 270, 110, 0.6, { flip: true }], ['sun', 355, 50, 0.8], ['cloud', 230, 45, 0.8]] },
+        en: 'Then Hanumān had a clever idea. In the blink of an eye he made himself as small as a thumb! Zip — he darted into Surasā\'s enormous mouth, and zip — before she could close it, he flew straight out again. He bowed to her and said with a smile, "Mother, I have entered your mouth, just as your boon says. Now may I go?" Surasā laughed and took back her true, gentle form. "Go, dear child," she said. "You have strength, and you have wisdom too. You will surely find Sītā and bring joy to Rāma." With her blessing, Hanumān flew on towards Laṅkā.',
+        te: 'అప్పుడు హనుమంతుడికి ఒక చక్కని ఉపాయం తట్టింది. రెప్పపాటులో ఆయన బొటనవేలంత చిన్నగా అయిపోయాడు! రయ్యిమని సురస పెద్ద నోట్లోకి దూరి, ఆమె నోరు మూసేలోపే రయ్యిమని బయటకు ఎగిరి వచ్చాడు. ఆమెకు నమస్కరించి చిరునవ్వుతో అన్నాడు, "అమ్మా, నీ వరం ప్రకారం నీ నోట్లోకి వెళ్ళి వచ్చాను. ఇప్పుడు నేను వెళ్ళవచ్చా?" సురస నవ్వి తన నిజమైన, ప్రశాంతమైన రూపంలోకి మారింది. "వెళ్ళు నాయనా," అంది. "నీలో బలమూ ఉంది, తెలివీ ఉంది. నువ్వు తప్పకుండా సీతను కనుగొని రాముడికి సంతోషం కలిగిస్తావు." ఆమె ఆశీర్వాదంతో హనుమంతుడు లంక వైపు ఎగిరిపోయాడు.',
+      },
+    ],
+  },
+  {
+    id: 'sanjaya-who-saw-the-war-from-afar',
+    added: '2026-11-05',
+    epic: 'Mahabharata',
+    chars: ['Sañjaya', 'Dhṛtarāṣṭra', 'Vyāsa'],
+    title: { en: 'Sañjaya, the Man Who Saw the War from Afar', te: 'యుద్ధాన్ని దూరం నుంచే చూసిన సంజయుడు' },
+    moral: { en: 'Tell the truth faithfully, whether the news is happy or sad.', te: 'వార్త సంతోషమైనదైనా, బాధాకరమైనదైనా నిజాన్నే నిజాయితీగా చెప్పాలి.' },
+    cover: { bg: 'court', props: [['glow', 200, 200, 1.6], ['person', 200, 200, 1.6, { skin: 'wheat', cloth: '#3a8a6a', top: '#f4ead2' }], ['chariot', 335, 120, 0.9], ['throne', 70, 196, 1]] },
+    pages: [
+      {
+        scene: { bg: 'court', props: [['throne', 270, 196, 1.3], ['person', 270, 200, 1.45, { crown: true, skin: 'fair', cloth: '#f0c040', hair: '#ccc' }], ['person', 110, 200, 1.45, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }]] },
+        en: 'The Kauravas and the Pāṇḍavas were about to fight a great war at Kurukṣetra. In the palace of Hastināpura, old King Dhṛtarāṣṭra sat on his throne, full of worry. He was blind, and his sons were going into battle. Then Sage Vyāsa, the wise grandfather of both families, came to see him. "My son," said Vyāsa, "if you wish, I will give you divine sight, so you can watch the war with your own eyes." The king shook his head sadly. "No, revered sage. I cannot bear to see my own family fight. But I do want to know everything that happens there."',
+        te: 'కురుక్షేత్రంలో కౌరవులకూ పాండవులకూ మహా యుద్ధం జరగబోతోంది. హస్తినాపుర రాజభవనంలో వృద్ధుడైన ధృతరాష్ట్ర మహారాజు సింహాసనం మీద దిగులుగా కూర్చున్నాడు. ఆయనకు కళ్ళు కనిపించవు, ఆయన కొడుకులు యుద్ధానికి వెళ్తున్నారు. అప్పుడు రెండు కుటుంబాలకూ తాతగారైన వ్యాసమహర్షి ఆయనను చూడటానికి వచ్చాడు. "నాయనా," అన్నాడు వ్యాసుడు, "నీకు ఇష్టమైతే నీకు దివ్యదృష్టి ఇస్తాను. యుద్ధాన్ని నీ కళ్ళతోనే చూడవచ్చు." రాజు బాధగా వద్దని తల ఊపాడు. "వద్దు మహర్షీ. నా సొంత కుటుంబం ఒకరితో ఒకరు పోరాడటం నేను చూడలేను. కానీ అక్కడ జరిగేదంతా నాకు తెలియాలి."',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 100, 200, 1.45, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['glow', 230, 200, 1.5], ['person', 230, 200, 1.45, { skin: 'wheat', cloth: '#3a8a6a', top: '#f4ead2', flip: true }], ['throne', 345, 196, 0.9]] },
+        en: 'Vyāsa thought for a moment. Then he turned to Sañjaya, the king\'s faithful charioteer and adviser. Sañjaya was honest and gentle, and he always spoke the truth, even when it was hard to hear. Vyāsa blessed him. "Sañjaya, I give you divine sight. Sitting here in this palace, you will see everything on the battlefield — near and far, by day and by night. You will even know the thoughts in the warriors\' hearts, and no weapon will harm you. Tell the king all that you see." Sañjaya bowed. Suddenly the palace walls seemed to melt away, and the whole field of Kurukṣetra lay before his eyes!',
+        te: 'వ్యాసుడు కాసేపు ఆలోచించాడు. తరువాత రాజుకు నమ్మకమైన సారథి, సలహాదారు అయిన సంజయుడి వైపు తిరిగాడు. సంజయుడు నిజాయితీపరుడు, మృదుస్వభావి. వినడానికి కష్టంగా ఉన్నా సరే, ఎప్పుడూ నిజమే చెప్పేవాడు. వ్యాసుడు అతడిని ఆశీర్వదించాడు. "సంజయా, నీకు దివ్యదృష్టి ఇస్తున్నాను. ఈ రాజభవనంలోనే కూర్చుని యుద్ధభూమిలో జరిగేదంతా చూడగలవు — దగ్గరా, దూరమూ, పగలూ, రాత్రీ. యోధుల మనసుల్లోని ఆలోచనలు కూడా నీకు తెలుస్తాయి. ఏ ఆయుధమూ నిన్ను తాకదు. నువ్వు చూసినదంతా రాజుకు చెప్పు." సంజయుడు నమస్కరించాడు. ఒక్కసారిగా రాజభవనపు గోడలు కరిగిపోయినట్టు అనిపించింది — అతని కళ్ళ ముందు కురుక్షేత్రమంతా కనిపించింది!',
+      },
+      {
+        scene: { bg: 'forest', props: [['glow', 200, 160, 1.6], ['chariot', 205, 175, 1.5], ['horse', 290, 196, 0.9], ['person', 160, 140, 0.9, { skin: 'blue', cloth: '#f0c040', crown: true, raise: true }], ['person', 205, 140, 0.9, { cloth: '#3a6ab0', crown: true }], ['flowers', 50, 200, 0.9], ['cloud', 330, 45, 0.9]] },
+        en: '"Sañjaya," asked the king, "what are my sons and the sons of Pāṇḍu doing there?" And Sañjaya began to describe it all — the armies, the blowing of conch shells, the flags fluttering in the wind. He saw Arjuna\'s chariot stop between the two armies, and he heard every word that Kṛṣṇa spoke to Arjuna — the holy teaching we now call the Bhagavad Gītā. Day after day, Sañjaya told the king the truth, the happy news and the sad news alike. Because of him, the words of the Gītā were heard and remembered, and they still guide people all over the world today.',
+        te: '"సంజయా, నా కొడుకులూ, పాండుపుత్రులూ అక్కడ ఏం చేస్తున్నారు?" అని అడిగాడు రాజు. సంజయుడు అంతా వర్ణించడం మొదలుపెట్టాడు — సైన్యాలు, శంఖాల ధ్వనులు, గాలిలో రెపరెపలాడే జెండాలు. రెండు సైన్యాల మధ్య అర్జునుడి రథం ఆగడం చూశాడు. శ్రీకృష్ణుడు అర్జునుడికి చెప్పిన ప్రతి మాటా విన్నాడు — ఆ పవిత్రమైన ఉపదేశాన్నే మనం ఇప్పుడు భగవద్గీత అంటాం. రోజుల తరబడి సంజయుడు సంతోషకరమైన వార్తైనా, బాధాకరమైన వార్తైనా రాజుకు నిజమే చెప్పాడు. అతని వల్లనే గీతలోని మాటలు అందరికీ చేరి గుర్తుండిపోయాయి. ఆ మాటలు ఇప్పటికీ ప్రపంచమంతటా ఎంతో మందికి దారి చూపిస్తున్నాయి.',
+      },
+    ],
+  },
 ];

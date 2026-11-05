@@ -772,6 +772,7 @@
     },
     sariPile: () => `${['#c0392b', '#3a6ab0', '#f0c040', '#4f9d4f', '#c9952a', '#7a5ab0'].map((c, i) => `<ellipse cx="0" cy="${-6 - i * 9}" rx="${46 - i * 5}" ry="7" fill="${c}"/>`).join('')}<g fill="#f4f4f4">${[[-20, -42], [-4, -46], [12, -42]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="1.4"/>`).join('')}</g><path d="M-6 -56 Q-30 -84 -60 -62" stroke="#e84a8a" stroke-width="6" fill="none" stroke-linecap="round"/>`,
     dice: () => `<path d="M-46 0 L-34 -22 H34 L46 0Z" fill="#a8392a"/><path d="M-28 -11 H28 M0 -21 V-1" stroke="#f0c040" stroke-width="5"/><g fill="#f4ead2" stroke="#8a7a5a" stroke-width="1"><rect x="-22" y="-30" width="16" height="8" rx="2" transform="rotate(-12 -14 -26)"/><rect x="8" y="-32" width="16" height="8" rx="2" transform="rotate(10 16 -28)"/></g><g fill="#222"><circle cx="-17" cy="-25" r="1.2"/><circle cx="-11" cy="-27" r="1.2"/><circle cx="14" cy="-28" r="1.2"/><circle cx="19" cy="-27" r="1.2"/></g>`,
+    blindfold: () => `<path d="M-11.5 -56 Q0 -59 11.5 -56 L11.5 -50 Q0 -53 -11.5 -50Z" fill="#4a2a6a"/><path d="M11 -54 Q17 -52 19 -44 M11 -52 Q15 -48 15 -42" stroke="#4a2a6a" stroke-width="2" fill="none"/>`, // draw at the same x, y, scale as a person to cover their eyes
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };

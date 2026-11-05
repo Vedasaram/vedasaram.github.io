@@ -92,11 +92,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Jāmbavān, the Oldest Bear (Rāmāyaṇa) — jambavan-the-oldest-bear
 - [x] Draupadī's Endless Sari (Mahābhārata) — draupadis-endless-sari
 - [x] Nala and Nīla, the Floating-Stone Engineers (Rāmāyaṇa) — nala-and-nila-the-floating-stone-engineers
+- [x] Gāndhārī's Blindfold (Mahābhārata) — gandharis-blindfold
+- [x] Hanumān and Surasā (Rāmāyaṇa) — hanuman-and-surasa
+- [x] Sañjaya, the Man Who Saw the War from Afar (Mahābhārata) — sanjaya-who-saw-the-war-from-afar
 
 ## Next
-- [ ] Gāndhārī's Blindfold (Mahābhārata) — Gāndhārī, Dhṛtarāṣṭra
-- [ ] Hanumān and Surasā (Rāmāyaṇa) — Hanumān, Surasā
-- [ ] Sañjaya, the Man Who Saw the War from Afar (Mahābhārata) — Sañjaya, Dhṛtarāṣṭra, Vyāsa
 - [ ] Sītā Is Found in the Furrow (Rāmāyaṇa) — Janaka, Sītā
 - [ ] Aśvatthāmā and the Jewel on His Forehead (Mahābhārata) — Aśvatthāmā, Droṇa
 - [ ] Rāma's Bridge Is Blessed — Rāmeśvaram (Rāmāyaṇa) — Rāma, Śiva
