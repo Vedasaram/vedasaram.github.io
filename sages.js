@@ -42,6 +42,7 @@
     ['upamanyu', 'Upamanyu', 'ఉపమన్యుడు', 'The boy who asked for milk', 'పాల కోసం తపస్సు చేసిన బాలుడు', '🥛', 'linear-gradient(160deg,#0a1a3a,#7a9ac0)'],
     ['sandipani', 'Sāndīpani', 'సాందీపని', 'Teacher of Kṛṣṇa and Balarāma', 'కృష్ణ బలరాముల గురువు', '📚', 'linear-gradient(160deg,#1a2a4a,#5a8ac0)'],
     ['kumaras', 'The Four Kumāras', 'సనకాది మహర్షులు', 'The sages who stay children forever', 'ఎప్పటికీ బాలురుగా ఉండే మహర్షులు', '👶', 'linear-gradient(160deg,#0a2a3a,#6ab0c8)'],
+    ['aruni', 'Uddālaka Āruṇi', 'ఉద్దాలక ఆరుణి', 'Who taught “You are That”', '“తత్త్వమసి” బోధించిన గురువు', '🧂', 'linear-gradient(160deg,#2a1a0a,#c0a060)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
