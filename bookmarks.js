@@ -182,7 +182,7 @@
     const m = BM.marks[topic]; if (!m) return;
     const L = m.loc;
     bmClose();
-    const hs = document.getElementById('home-settings-modal'); if (hs) hs.classList.remove('open');
+    const hs = document.getElementById('home-settings-modal'); if (hs) { hs.classList.remove('open'); document.body.classList.remove('hs-lock'); }
     if (L.view === 'practice') {
       state.section = L.section; state.chapter = L.chapter; state.rudramPart = L.rudramPart || null; state.expandedVerse = null;
       if (typeof saveState === 'function') saveState();
@@ -421,7 +421,7 @@
 .bm-plus{font-size:1.4rem;color:var(--accent)}
 .bm-nm{font-size:.66rem;font-weight:600;color:var(--fg);text-align:center;line-height:1.2;overflow:hidden;text-overflow:ellipsis;max-width:100%;white-space:nowrap}
 .bm-del{position:absolute;top:2px;right:2px;width:20px;height:20px;border-radius:50%;border:none;background:rgba(0,0,0,.55);color:#fff;font-size:.65rem;cursor:pointer;line-height:20px;padding:0}
-.home-settings-sheet{max-height:88vh;overflow-y:auto}
+
 #bm-toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:270;display:flex;gap:10px;align-items:center;background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:14px;max-width:88vw;transition:all .2s;box-shadow:0 6px 24px rgba(0,0,0,.25)}
 #bm-toast.on{opacity:1;transform:translate(-50%,0)}
 #bm-toast b{display:block;font-size:.88rem}#bm-toast small{display:block;font-size:.76rem;opacity:.8;margin-top:1px}

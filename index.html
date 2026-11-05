@@ -38,46 +38,6 @@
   --home-gold2: #d4960e;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #100c08;
-    --fg: #f0e4d0;
-    --fg2: #c8a870;
-    --fg3: #806040;
-    --accent: #e08030;
-    --accent2: #d4960e;
-    --accent3: #f0c040;
-    --border: #2e2010;
-    --card-bg: #1a1208;
-    --card-shadow: 0 2px 12px rgba(0,0,0,0.40);
-    --nav-bg: #0e0a06;
-    --nav-border: #2e2010;
-    --tag-bg: #2e1808;
-    --tag-fg: #e0a040;
-    --done-bg: #0e1e0e;
-    --done-border: #5aaa5a;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #100c08;
-  --fg: #f0e4d0;
-  --fg2: #c8a870;
-  --fg3: #806040;
-  --accent: #e08030;
-  --accent2: #d4960e;
-  --accent3: #f0c040;
-  --border: #2e2010;
-  --card-bg: #1a1208;
-  --card-shadow: 0 2px 12px rgba(0,0,0,0.40);
-  --nav-bg: #0e0a06;
-  --nav-border: #2e2010;
-  --tag-bg: #2e1808;
-  --tag-fg: #e0a040;
-  --done-bg: #0e1e0e;
-  --done-border: #5aaa5a;
-  color-scheme: dark;
-}
 
 /* ── Reset & base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -661,37 +621,20 @@ body {
 .placeholder-msg h3 { font-size: 1.1rem; margin-bottom: 8px; color: var(--fg2); }
 .placeholder-msg p { font-size: 0.9rem; }
 
-/* ── Additional theme tokens ── */
-:root[data-theme="saffron"] {
-  --bg: #fff8f0; --fg: #2a1000; --fg2: #7a3800; --fg3: #b87030;
-  --accent: #c84800; --accent2: #e86000; --accent3: #f08000;
-  --border: #f0d0a0; --card-bg: #fffaf5; --card-shadow: 0 2px 12px rgba(200,80,0,0.12);
-  --nav-bg: #fff8f0; --nav-border: #f0d0a0;
-  --home-gradient: linear-gradient(160deg, #6a1800 0%, #c84800 40%, #3a0800 100%);
-  --home-gold: #ffcc44; --home-gold2: #e08000;
-  --tag-bg: #fde8cc; --tag-fg: #c84800; --done-bg: #eef6ee; --done-border: #5aaa5a;
-  color-scheme: light;
-}
-:root[data-theme="forest"] {
-  --bg: #f0f8f4; --fg: #0a2010; --fg2: #2a6040; --fg3: #5a9070;
-  --accent: #1a6040; --accent2: #2a9060; --accent3: #40b878;
-  --border: #c0e0d0; --card-bg: #f8fff8; --card-shadow: 0 2px 12px rgba(0,100,50,0.10);
-  --nav-bg: #f0f8f4; --nav-border: #c0e0d0;
-  --home-gradient: linear-gradient(160deg, #062010 0%, #1a6040 40%, #0a1820 100%);
-  --home-gold: #80ffb0; --home-gold2: #40b878;
-  --tag-bg: #d0eedc; --tag-fg: #1a6040; --done-bg: #eef6ee; --done-border: #5aaa5a;
-  color-scheme: light;
-}
-:root[data-theme="night"] {
-  --bg: #080c18; --fg: #d0e0ff; --fg2: #8090c0; --fg3: #4050a0;
-  --accent: #4080ff; --accent2: #6098ff; --accent3: #80b0ff;
-  --border: #1a2040; --card-bg: #0e1428; --card-shadow: 0 2px 12px rgba(0,0,80,0.50);
-  --nav-bg: #060a14; --nav-border: #1a2040;
-  --home-gradient: linear-gradient(160deg, #02040e 0%, #0a1640 40%, #060012 100%);
-  --home-gold: #80b0ff; --home-gold2: #6098ff;
-  --tag-bg: #0e1840; --tag-fg: #6098ff; --done-bg: #0a180a; --done-border: #40aa40;
-  color-scheme: dark;
-}
+/* ── Themes (Settings → Appearance). 'auto' follows the phone: Ivory by day, Temple by night ── */
+:root[data-theme="light"]{--bg:#fbf6ee;--fg:#24180c;--fg2:#5c4326;--fg3:#94795a;--accent:#8a2e12;--accent2:#b8720a;--accent3:#d4960e;--border:#eadcc6;--card-bg:#fffdf8;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#fbf6ee;--nav-border:#eadcc6;--tag-bg:#f5e6d0;--tag-fg:#8a2e12;--done-bg:#eef6ee;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2a0e00 0%,#4a1a06 45%,#1a0a14 100%);--home-gold:#f0c040;--home-gold2:#d4960e;color-scheme:light;}
+:root[data-theme="saffron"]{--bg:#fff6ec;--fg:#2b1406;--fg2:#7a3a10;--fg3:#b0763e;--accent:#c44a00;--accent2:#e07020;--accent3:#f0a020;--border:#f3d6b4;--card-bg:#fffaf4;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#fff6ec;--nav-border:#f3d6b4;--tag-bg:#fde4c8;--tag-fg:#c44a00;--done-bg:#eef6ee;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#5a1400 0%,#a83a00 45%,#2e0800 100%);--home-gold:#ffd060;--home-gold2:#f0a020;color-scheme:light;}
+:root[data-theme="sandal"]{--bg:#f5eee2;--fg:#2e2418;--fg2:#6b5a42;--fg3:#9a8668;--accent:#8b5a2b;--accent2:#a9743f;--accent3:#c9a063;--border:#e2d4bd;--card-bg:#fbf7f0;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#f5eee2;--nav-border:#e2d4bd;--tag-bg:#ede1cc;--tag-fg:#7a4d22;--done-bg:#eef3e8;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2e1e10 0%,#5a3e22 45%,#1e140a 100%);--home-gold:#f0d090;--home-gold2:#c9a063;color-scheme:light;}
+:root[data-theme="lotus"]{--bg:#fff4f5;--fg:#2c1218;--fg2:#7a3a4a;--fg3:#ad7684;--accent:#a82a55;--accent2:#cc4a76;--accent3:#d4a040;--border:#f2d2db;--card-bg:#fffafb;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#fff4f5;--nav-border:#f2d2db;--tag-bg:#fbe0e8;--tag-fg:#a82a55;--done-bg:#eef6ee;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#3a0a1c 0%,#7a1e42 45%,#1e0610 100%);--home-gold:#ffc8d8;--home-gold2:#e88aa6;color-scheme:light;}
+:root[data-theme="forest"]{--bg:#f1f6f0;--fg:#13261a;--fg2:#3a5e45;--fg3:#6f9079;--accent:#2a6640;--accent2:#4a8c5e;--accent3:#b8902a;--border:#d3e3d3;--card-bg:#fafdf9;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#f1f6f0;--nav-border:#d3e3d3;--tag-bg:#dcecdc;--tag-fg:#2a6640;--done-bg:#e6f3e6;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#06200f 0%,#1a5032 45%,#081410 100%);--home-gold:#e8d080;--home-gold2:#b8902a;color-scheme:light;}
+:root[data-theme="ganga"]{--bg:#f1f5fb;--fg:#0f1e33;--fg2:#3a5578;--fg3:#7088a8;--accent:#1c4a88;--accent2:#2f6fb8;--accent3:#c8961e;--border:#d5e0ee;--card-bg:#fafcff;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#f1f5fb;--nav-border:#d5e0ee;--tag-bg:#dfe8f5;--tag-fg:#1c4a88;--done-bg:#e8f3ec;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#061430 0%,#143a70 45%,#040a1a 100%);--home-gold:#f0d070;--home-gold2:#c8961e;color-scheme:light;}
+:root[data-theme="dark"]{--bg:#0f0b07;--fg:#f2e6d2;--fg2:#cdb084;--fg3:#8a6e4a;--accent:#e8a33c;--accent2:#d4960e;--accent3:#f0c040;--border:#2c2014;--card-bg:#1a130b;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#0f0b07;--nav-border:#2c2014;--tag-bg:#2e1e0c;--tag-fg:#e8a33c;--done-bg:#0e1e0e;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2a0e00 0%,#4a1a06 45%,#1a0a14 100%);--home-gold:#f0c040;--home-gold2:#d4960e;color-scheme:dark;}
+:root[data-theme="night"]{--bg:#0a0f1e;--fg:#dfe6f5;--fg2:#9fb0d0;--fg3:#5f7096;--accent:#e0b44a;--accent2:#7aa2e8;--accent3:#f0c860;--border:#1c2540;--card-bg:#111a30;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#0a0f1e;--nav-border:#1c2540;--tag-bg:#18244a;--tag-fg:#e0b44a;--done-bg:#0c1c14;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#02040e 0%,#0e1c4a 45%,#060012 100%);--home-gold:#f0c860;--home-gold2:#e0b44a;color-scheme:dark;}
+:root[data-theme="peacock"]{--bg:#061a1c;--fg:#dff0ee;--fg2:#8fc4bf;--fg3:#568a86;--accent:#e2b33c;--accent2:#2fa39a;--accent3:#f0cc66;--border:#133337;--card-bg:#0b2528;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#061a1c;--nav-border:#133337;--tag-bg:#0f3236;--tag-fg:#e2b33c;--done-bg:#0a2418;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#021012 0%,#0a3a40 45%,#04140e 100%);--home-gold:#f0cc66;--home-gold2:#2fa39a;color-scheme:dark;}
+:root[data-theme="kumkum"]{--bg:#1a0709;--fg:#f6e3dc;--fg2:#e0a99a;--fg3:#a0675c;--accent:#f0b040;--accent2:#d8443a;--accent3:#f5c860;--border:#3a1418;--card-bg:#260c0f;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#1a0709;--nav-border:#3a1418;--tag-bg:#3a1216;--tag-fg:#f0b040;--done-bg:#14200e;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2a0406 0%,#6a0e14 45%,#140204 100%);--home-gold:#f5c860;--home-gold2:#f0b040;color-scheme:dark;}
+:root[data-theme="amoled"]{--bg:#000000;--fg:#ececec;--fg2:#b8b8b8;--fg3:#7a7a7a;--accent:#f0c040;--accent2:#d4960e;--accent3:#ffd866;--border:#1e1e1e;--card-bg:#0d0d0d;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#000000;--nav-border:#1e1e1e;--tag-bg:#1a1a1a;--tag-fg:#f0c040;--done-bg:#0a160a;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#000 0%,#14100a 50%,#000 100%);--home-gold:#f0c040;--home-gold2:#d4960e;color-scheme:dark;}
+@media (prefers-color-scheme: dark){:root:not([data-theme]){--bg:#0f0b07;--fg:#f2e6d2;--fg2:#cdb084;--fg3:#8a6e4a;--accent:#e8a33c;--accent2:#d4960e;--accent3:#f0c040;--border:#2c2014;--card-bg:#1a130b;--card-shadow:0 2px 12px rgba(0,0,0,0.40);--nav-bg:#0f0b07;--nav-border:#2c2014;--tag-bg:#2e1e0c;--tag-fg:#e8a33c;--done-bg:#0e1e0e;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2a0e00 0%,#4a1a06 45%,#1a0a14 100%);--home-gold:#f0c040;--home-gold2:#d4960e;color-scheme:dark;}}
+:root:not([data-theme]){--bg:#fbf6ee;--fg:#24180c;--fg2:#5c4326;--fg3:#94795a;--accent:#8a2e12;--accent2:#b8720a;--accent3:#d4960e;--border:#eadcc6;--card-bg:#fffdf8;--card-shadow:0 2px 12px rgba(80,40,0,0.10);--nav-bg:#fbf6ee;--nav-border:#eadcc6;--tag-bg:#f5e6d0;--tag-fg:#8a2e12;--done-bg:#eef6ee;--done-border:#5aaa5a;--home-gradient:linear-gradient(160deg,#2a0e00 0%,#4a1a06 45%,#1a0a14 100%);--home-gold:#f0c040;--home-gold2:#d4960e;color-scheme:light;}
 
 /* ── Home page ── */
 #view-home {
@@ -1043,51 +986,67 @@ body {
   padding: 8px 20px 24px; letter-spacing: 0.04em;
 }
 
-/* Settings modal */
+/* Settings sheet */
 .home-settings-modal {
   display: none; position: fixed; inset: 0; z-index: 200;
-  background: rgba(0,0,0,0.55);
-  align-items: flex-end; justify-content: center;
+  background: rgba(0,0,0,0.5); align-items: flex-end; justify-content: center;
+  transition: background .22s ease;
 }
 .home-settings-modal.open { display: flex; }
+.home-settings-modal.closing { background: rgba(0,0,0,0); }
+body.hs-lock { overflow: hidden; }
 .home-settings-sheet {
-  background: var(--bg); border-radius: 20px 20px 0 0;
-  width: 100%; max-width: 480px;
-  padding: 20px 20px 32px;
-  box-shadow: 0 -4px 32px rgba(0,0,0,0.25);
-  animation: sheetUp 0.25s ease;
+  background: var(--bg); border-radius: 22px 22px 0 0; width: 100%; max-width: 520px;
+  max-height: 90vh; max-height: 90dvh; display: flex; flex-direction: column;
+  box-shadow: 0 -6px 36px rgba(0,0,0,0.3); animation: sheetUp 0.26s ease; overflow: hidden !important;
 }
 @keyframes sheetUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
-.home-settings-handle {
-  width: 40px; height: 4px; border-radius: 2px;
-  background: var(--border); margin: 0 auto 18px;
-}
-.home-settings-title {
-  font-size: 1rem; font-weight: 700; color: var(--fg);
-  margin-bottom: 16px; text-align: center;
-}
-.home-settings-section {
-  margin-bottom: 18px;
-}
-.home-settings-label {
-  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--fg3); margin-bottom: 8px;
-}
-.theme-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
-}
-.theme-chip {
-  border-radius: 10px; border: 2px solid var(--border);
-  padding: 8px 6px; cursor: pointer; text-align: center;
-  transition: border-color 0.15s;
-}
-.theme-chip.active { border-color: var(--accent); }
-.theme-chip-swatch {
-  height: 24px; border-radius: 6px; margin-bottom: 4px;
-}
-.theme-chip-label {
-  font-size: 0.72rem; font-weight: 600; color: var(--fg);
-}
+.hs-head { flex-shrink: 0; padding: 10px 16px 8px; border-bottom: 1px solid var(--border); touch-action: none; cursor: grab; }
+.home-settings-handle { width: 40px; height: 5px; border-radius: 3px; background: var(--fg3); opacity: .45; margin: 0 auto 8px; }
+.hs-bar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; }
+.home-settings-title { font-size: 1.05rem; font-weight: 700; color: var(--fg); text-align: center; margin: 0; }
+.hs-done { justify-self: end; border: 0; background: var(--accent); color: var(--bg); font: 700 .88rem/1 inherit;
+  padding: 9px 16px; border-radius: 18px; cursor: pointer; font-family: inherit; }
+.hs-body { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
+  padding: 6px 16px calc(24px + env(safe-area-inset-bottom, 0px)); }
+.hs-group-t { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fg3); margin: 18px 4px 8px; }
+.hs-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 4px 14px; }
+.hs-sub { font-size: .78rem; font-weight: 600; color: var(--fg2); margin: 12px 0 8px; }
+.hs-note { font-size: .76rem; color: var(--fg3); margin: 4px 0 12px; }
+.hs-themes { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 10px; margin-bottom: 6px; }
+.hs-theme { background: none; border: 0; padding: 0; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px; font-family: inherit; }
+.hs-sw { position: relative; width: 100%; aspect-ratio: 1 / 1.05; border-radius: 14px; overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(128,128,128,.28); transition: box-shadow .15s, transform .15s; }
+.hs-sw span { position: absolute; left: 14%; right: 14%; top: 16%; height: 34%; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.hs-sw i { position: absolute; left: 14%; width: 46%; bottom: 18%; height: 12%; border-radius: 4px; }
+.hs-sw b { position: absolute; right: 14%; bottom: 16%; width: 16%; aspect-ratio: 1; border-radius: 50%; }
+.hs-auto { background: linear-gradient(135deg, #fbf6ee 50%, #0f0b07 50%); }
+.hs-auto span { background: linear-gradient(135deg, #fffdf8 50%, #1a130b 50%); }
+.hs-theme.on .hs-sw { box-shadow: 0 0 0 2.5px var(--bg), 0 0 0 4.5px var(--accent); transform: scale(1.02); }
+.hs-tn { font-size: .74rem; font-weight: 600; color: var(--fg2); }
+.hs-theme.on .hs-tn { color: var(--accent); font-weight: 700; }
+.hs-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; flex-wrap: wrap; }
+.hs-row + .hs-row { border-top: 1px solid var(--border); }
+.hs-l { font-size: .95rem; font-weight: 600; color: var(--fg); }
+.hs-d { font-size: .76rem; color: var(--fg3); margin-top: 2px; }
+.hs-seg { display: inline-flex; background: var(--bg); border: 1px solid var(--border); border-radius: 11px; padding: 3px; gap: 2px; }
+.hs-seg button { border: 0; background: none; color: var(--fg2); font: 600 .82rem/1 inherit; font-family: inherit;
+  padding: 8px 11px; border-radius: 8px; cursor: pointer; min-width: 36px; }
+.hs-seg button.on { background: var(--accent); color: var(--bg); }
+.hs-ctl { display: flex; align-items: center; gap: 10px; }
+.hs-mini { border: 1px solid var(--border); background: var(--bg); color: var(--accent); font: 700 .85rem/1 inherit; font-family: inherit;
+  width: 36px; height: 34px; border-radius: 10px; cursor: pointer; }
+.hs-mini.wide { width: auto; padding: 0 14px; }
+.hs-mini.danger { color: #c0392b; }
+.hs-switch { position: relative; width: 50px; height: 30px; border-radius: 15px; border: 0; background: var(--border); cursor: pointer; transition: background .2s; padding: 0; }
+.hs-switch span { position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.3); transition: left .2s; }
+.hs-switch.on { background: var(--accent); }
+.hs-switch.on span { left: 23px; }
+.hs-card #bm-settings .home-settings-section { margin: 12px 0; }
+.hs-card #bm-settings .home-settings-label { font-size: .78rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--fg2); margin-bottom: 8px; }
+.hs-foot { text-align: center; font-size: .72rem; color: var(--fg3); margin: 22px 0 4px; letter-spacing: .04em; }
+.home-settings-section { margin-bottom: 18px; }
+.home-settings-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg3); margin-bottom: 8px; }
 .font-size-row {
   display: flex; align-items: center; gap: 10px;
 }
@@ -3839,10 +3798,27 @@ function updateTopbar() {
 }
 
 // ─────────────── HOME VIEW ───────────────
+const THEMES = [
+  {id:'light', label:'Ivory', group:'light', bg:'#fbf6ee', card:'#fffdf8', accent:'#8a2e12', gold:'#f0c040', meta:'#2a0e00'},
+  {id:'saffron', label:'Saffron', group:'light', bg:'#fff6ec', card:'#fffaf4', accent:'#c44a00', gold:'#ffd060', meta:'#5a1400'},
+  {id:'sandal', label:'Chandanam', group:'light', bg:'#f5eee2', card:'#fbf7f0', accent:'#8b5a2b', gold:'#f0d090', meta:'#2e1e10'},
+  {id:'lotus', label:'Lotus', group:'light', bg:'#fff4f5', card:'#fffafb', accent:'#a82a55', gold:'#ffc8d8', meta:'#3a0a1c'},
+  {id:'forest', label:'Tulasi', group:'light', bg:'#f1f6f0', card:'#fafdf9', accent:'#2a6640', gold:'#e8d080', meta:'#06200f'},
+  {id:'ganga', label:'Gaṅgā', group:'light', bg:'#f1f5fb', card:'#fafcff', accent:'#1c4a88', gold:'#f0d070', meta:'#061430'},
+  {id:'dark', label:'Temple', group:'dark', bg:'#0f0b07', card:'#1a130b', accent:'#e8a33c', gold:'#f0c040', meta:'#0f0b07'},
+  {id:'night', label:'Midnight', group:'dark', bg:'#0a0f1e', card:'#111a30', accent:'#e0b44a', gold:'#f0c860', meta:'#0a0f1e'},
+  {id:'peacock', label:'Peacock', group:'dark', bg:'#061a1c', card:'#0b2528', accent:'#e2b33c', gold:'#f0cc66', meta:'#061a1c'},
+  {id:'kumkum', label:'Kumkum', group:'dark', bg:'#1a0709', card:'#260c0f', accent:'#f0b040', gold:'#f5c860', meta:'#1a0709'},
+  {id:'amoled', label:'Black', group:'dark', bg:'#000000', card:'#0d0d0d', accent:'#f0c040', gold:'#f0c040', meta:'#000000'},
+];
 function applyTheme(t) {
   const root = document.documentElement;
-  if (t === 'auto') { root.removeAttribute('data-theme'); }
+  const th = THEMES.find(x => x.id === t);
+  if (!th) { root.removeAttribute('data-theme'); }
   else { root.setAttribute('data-theme', t); }
+  const dark = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', th ? th.meta : (dark ? '#0f0b07' : '#2a0e00'));
 }
 
 function renderHome() {
@@ -3893,59 +3869,6 @@ function renderHome() {
   </div>
 
   <!-- Settings modal -->
-  <div class="home-settings-modal" id="home-settings-modal" onclick="closeHomeSettings(event)">
-    <div class="home-settings-sheet">
-      <div class="home-settings-handle"></div>
-      <div class="home-settings-title">Settings</div>
-
-      <div class="home-settings-section">
-        <div class="home-settings-label">Theme</div>
-        <div class="theme-grid">
-          ${[
-            {id:'auto',   label:'Auto',    sw:'linear-gradient(135deg,#fff8f0 50%,#1c1208 50%)'},
-            {id:'light',  label:'Light',   sw:'linear-gradient(135deg,#fdf8f0,#e8d8c0)'},
-            {id:'dark',   label:'Dark',    sw:'linear-gradient(135deg,#1c1208,#3a2010)'},
-            {id:'saffron',label:'Saffron', sw:'linear-gradient(135deg,#c84800,#f08000)'},
-            {id:'forest', label:'Forest',  sw:'linear-gradient(135deg,#1a6040,#40b878)'},
-            {id:'night',  label:'Night',   sw:'linear-gradient(135deg,#080c18,#4080ff)'},
-          ].map(th=>`<div class="theme-chip${(settings.theme||'auto')===th.id?' active':''}" onclick="setTheme('${th.id}')">
-            <div class="theme-chip-swatch" style="background:${th.sw}"></div>
-            <div class="theme-chip-label">${th.label}</div>
-          </div>`).join('')}
-        </div>
-      </div>
-
-      <div class="home-settings-section">
-        <div class="home-settings-label">Opening Music</div>
-        <div class="font-size-row">
-          <button class="sz-btn" style="width:auto;padding:0 14px${settings.splashMusic!==false?';background:var(--accent);color:#fff;border-color:var(--accent)':''}" onclick="setSplashMusic(true)">🔔 On</button>
-          <button class="sz-btn" style="width:auto;padding:0 14px${settings.splashMusic===false?';background:var(--accent);color:#fff;border-color:var(--accent)':''}" onclick="setSplashMusic(false)">Off</button>
-          <button class="sz-btn" style="width:auto;padding:0 14px" onclick="previewJingle()">▶ Play</button>
-        </div>
-      </div>
-
-      <div class="home-settings-section">
-        <div class="home-settings-label">Practice Font Size</div>
-        <div class="font-size-row">
-          <button class="sz-btn" onclick="changeFontSize('practice',-1)">−</button>
-          <div class="sz-val">${FONT_LABELS[settings.practiceFontSize]}</div>
-          <button class="sz-btn" onclick="changeFontSize('practice',1)">+</button>
-        </div>
-      </div>
-
-      <div class="home-settings-section">
-        <div class="home-settings-label">Recite Font Size</div>
-        <div class="font-size-row">
-          <button class="sz-btn" onclick="changeFontSize('recite',-1)">−</button>
-          <div class="sz-val">${FONT_LABELS[settings.reciteFontSize]}</div>
-          <button class="sz-btn" onclick="changeFontSize('recite',1)">+</button>
-        </div>
-      </div>
-
-      <div id="bm-settings"></div>
-
-    </div>
-  </div>
   `;
 }
 
@@ -4134,30 +4057,140 @@ function setTheme(t) {
   settings.theme = t;
   saveSettings();
   applyTheme(t);
-  renderHome();
-  openHomeSettings();   // keep the settings sheet open
+  renderSettingsSheet();
 }
 
 function changeFontSize(which, dir) {
-  if (which === 'practice') {
-    settings.practiceFontSize = Math.max(0, Math.min(3, settings.practiceFontSize + dir));
-  } else {
-    settings.reciteFontSize = Math.max(0, Math.min(3, settings.reciteFontSize + dir));
+  const k = which === 'practice' ? 'practiceFontSize' : 'reciteFontSize';
+  settings[k] = Math.max(0, Math.min(3, settings[k] + dir));
+  saveSettings(); applyFontSizes(); renderSettingsSheet();
+}
+function setFontSize(which, v) {
+  settings[which === 'practice' ? 'practiceFontSize' : 'reciteFontSize'] = v;
+  saveSettings(); applyFontSizes(); renderSettingsSheet();
+}
+function setSheetLanguage(v) {
+  setLanguage(v);
+  if (state.view === 'home') renderHome();
+  else if (state.view === 'library') renderLibrary();
+  renderSettingsSheet();
+}
+
+function settingsModal() {
+  let m = document.getElementById('home-settings-modal');
+  if (!m) {
+    m = document.createElement('div');
+    m.className = 'home-settings-modal'; m.id = 'home-settings-modal';
+    m.addEventListener('click', closeHomeSettings);
+    document.body.appendChild(m);
   }
-  saveSettings();
-  renderHome(); // re-render to update displayed size label
-  openHomeSettings();   // keep the settings sheet open
+  return m;
+}
+function renderSettingsSheet() {
+  const m = document.getElementById('home-settings-modal');
+  if (!m) return;
+  const body = m.querySelector('.hs-body'), keep = body ? body.scrollTop : 0;
+  const cur = settings.theme || 'auto';
+  const seg = (items, sel, fn) => `<div class="hs-seg">${items.map(([v, l]) =>
+    `<button class="${String(v) === String(sel) ? 'on' : ''}" onclick="${fn}(${typeof v === 'number' ? v : `'${v}'`})">${l}</button>`).join('')}</div>`;
+  const chip = th => `<button class="hs-theme${cur === th.id ? ' on' : ''}" onclick="setTheme('${th.id}')" aria-label="${th.label}">
+      <span class="hs-sw" style="background:${th.bg}"><span style="background:${th.card}"></span><i style="background:${th.accent}"></i><b style="background:${th.gold}"></b></span>
+      <span class="hs-tn">${th.label}</span></button>`;
+  const autoChip = `<button class="hs-theme${cur === 'auto' ? ' on' : ''}" onclick="setTheme('auto')" aria-label="Auto">
+      <span class="hs-sw hs-auto"><span></span></span><span class="hs-tn">${TT('Auto', 'ఆటో')}</span></button>`;
+  const sizes = FONT_LABELS.map((l, i) => [i, l]);
+  const music = settings.splashMusic !== false;
+  m.innerHTML = `<div class="home-settings-sheet" role="dialog" aria-label="Settings">
+    <div class="hs-head">
+      <div class="home-settings-handle"></div>
+      <div class="hs-bar"><span></span><div class="home-settings-title">${TT('Settings', 'సెట్టింగ్‌లు')}</div>
+        <button class="hs-done" onclick="closeHomeSettings()">${TT('Done', 'సరే')}</button></div>
+    </div>
+    <div class="hs-body">
+      <div class="hs-group-t">${TT('Appearance', 'రూపం')}</div>
+      <div class="hs-card">
+        <div class="hs-sub">${TT('Light themes', 'లేత రంగులు')}</div>
+        <div class="hs-themes">${THEMES.filter(t => t.group === 'light').map(chip).join('')}</div>
+        <div class="hs-sub">${TT('Dark themes', 'ముదురు రంగులు')}</div>
+        <div class="hs-themes">${THEMES.filter(t => t.group === 'dark').map(chip).join('')}${autoChip}</div>
+        <div class="hs-note">${TT('Auto follows your phone: Ivory by day, Temple at night.', 'ఆటో: పగలు ఐవరీ, రాత్రి టెంపుల్ — మీ ఫోన్‌ను అనుసరిస్తుంది.')}</div>
+      </div>
+
+      <div class="hs-group-t">${TT('Reading', 'చదవడం')}</div>
+      <div class="hs-card">
+        <div class="hs-row"><div><div class="hs-l">${TT('Script', 'లిపి')}</div><div class="hs-d">${TT('How verses are shown', 'శ్లోకాలు ఎలా కనిపించాలి')}</div></div>
+          ${seg([['en', 'English'], ['both', TT('Both', 'రెండూ')], ['te', 'తెలుగు']], settings.language, 'setSheetLanguage')}</div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Practice text', 'అభ్యాస అక్షరాలు')}</div><div class="hs-d">${TT('Size while reading', 'చదివేటప్పుడు పరిమాణం')}</div></div>
+          ${seg(sizes, settings.practiceFontSize, "setFontSize.bind(null,'practice')")}</div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Recite text', 'పారాయణ అక్షరాలు')}</div><div class="hs-d">${TT('Size on the recite screen', 'పారాయణ తెరపై పరిమాణం')}</div></div>
+          ${seg(sizes, settings.reciteFontSize, "setFontSize.bind(null,'recite')")}</div>
+      </div>
+
+      <div class="hs-group-t">${TT('Sound', 'శబ్దం')}</div>
+      <div class="hs-card">
+        <div class="hs-row"><div><div class="hs-l">🔔 ${TT('Opening music', 'ప్రారంభ సంగీతం')}</div><div class="hs-d">${TT('Tanpura, flute and bell as the app opens', 'యాప్ తెరిచేటప్పుడు తంబూర, వేణువు, గంట')}</div></div>
+          <div class="hs-ctl"><button class="hs-mini" onclick="previewJingle()">▶</button>
+          <button class="hs-switch${music ? ' on' : ''}" role="switch" aria-checked="${music}" onclick="setSplashMusic(${!music})"><span></span></button></div></div>
+      </div>
+
+      <div class="hs-group-t">${TT('Bookmarks', 'బుక్‌మార్క్‌లు')}</div>
+      <div class="hs-card"><div id="bm-settings"></div></div>
+
+      <div class="hs-group-t">${TT('App', 'యాప్')}</div>
+      <div class="hs-card">
+        <div class="hs-row"><div><div class="hs-l">${TT('Check for updates', 'కొత్త వెర్షన్')}</div><div class="hs-d" id="update-status">Version ${BUILD_DATE}</div></div>
+          <button class="hs-mini wide" onclick="checkForUpdates(this)">${TT('Refresh', 'రిఫ్రెష్')}</button></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Reset progress', 'ప్రగతి తొలగించు')}</div><div class="hs-d">${TT('Clear all completed verse marks', 'పూర్తి చేసిన గుర్తులన్నీ తీసేస్తుంది')}</div></div>
+          <button class="hs-mini wide danger" onclick="resetProgress()">${TT('Reset', 'తొలగించు')}</button></div>
+      </div>
+      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्</div>
+    </div>
+  </div>`;
+  if (window.bmRenderSettings) bmRenderSettings();
+  const nb = m.querySelector('.hs-body'); if (nb) nb.scrollTop = keep;
+  if (m.classList.contains('open')) m.querySelector('.home-settings-sheet').style.animation = 'none';
+  sheetSwipe(m);
+}
+
+// Swipe the sheet down to close it (from the header, or from the top of the list).
+function sheetSwipe(m) {
+  const sheet = m.querySelector('.home-settings-sheet'), body = m.querySelector('.hs-body');
+  let y0 = null, dy = 0, t0 = 0, drag = false;
+  sheet.addEventListener('touchstart', e => {
+    const fromHead = !!e.target.closest('.hs-head');
+    if (!fromHead && body.scrollTop > 0) { y0 = null; return; }
+    y0 = e.touches[0].clientY; dy = 0; t0 = Date.now(); drag = false;
+  }, { passive: true });
+  sheet.addEventListener('touchmove', e => {
+    if (y0 === null) return;
+    dy = e.touches[0].clientY - y0;
+    if (dy > 6) drag = true;
+    if (!drag) return;
+    if (e.cancelable) e.preventDefault();
+    sheet.style.transition = 'none';
+    sheet.style.transform = `translateY(${Math.max(0, dy)}px)`;
+  }, { passive: false });
+  sheet.addEventListener('touchend', () => {
+    if (y0 === null) return;
+    const fast = dy > 40 && (Date.now() - t0) < 250;
+    sheet.style.transition = 'transform .22s ease';
+    if (drag && (dy > 110 || fast)) closeHomeSettings();
+    else sheet.style.transform = '';
+    y0 = null; drag = false;
+  });
 }
 
 function openHomeSettings() {
-  if (window.bmRenderSettings) bmRenderSettings();
-  document.getElementById('home-settings-modal').classList.add('open');
+  const m = settingsModal();
+  m.classList.remove('open');
+  renderSettingsSheet();
+  m.classList.add('open');
+  document.body.classList.add('hs-lock');
 }
 
 function setSplashMusic(on) {
   settings.splashMusic = on; saveSettings();
-  renderHome();
-  openHomeSettings();   // keep the settings sheet open
+  renderSettingsSheet();
 }
 function previewJingle() {
   const AC = window.AudioContext || window.webkitAudioContext;
@@ -4167,10 +4200,19 @@ function previewJingle() {
 }
 
 function closeHomeSettings(e) {
-  if (e.target === document.getElementById('home-settings-modal')) {
-    document.getElementById('home-settings-modal').classList.remove('open');
-  }
+  const m = document.getElementById('home-settings-modal');
+  if (!m || !m.classList.contains('open')) return;
+  if (e && e.target !== m) return;              // a tap inside the sheet
+  const sheet = m.querySelector('.home-settings-sheet');
+  document.body.classList.remove('hs-lock');
+  if (sheet) {
+    sheet.style.transition = 'transform .22s ease';
+    sheet.style.transform = 'translateY(100%)';
+    m.classList.add('closing');
+    setTimeout(() => { m.classList.remove('open', 'closing'); }, 220);
+  } else m.classList.remove('open');
 }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeHomeSettings(); });
 
 function chooseRudramPart(part) {
   state.section = 'rudram';
