@@ -2245,4 +2245,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'sita-is-found-in-the-furrow',
+    added: '2026-11-06',
+    epic: 'Ramayana',
+    chars: ['Sītā', 'Janaka'],
+    title: { en: 'Sītā Is Found in the Furrow', te: 'నాగటి చాలులో దొరికిన సీత' },
+    moral: { en: 'Every child is a precious gift, to be loved and cherished.', te: 'ప్రతి బిడ్డా ప్రేమగా చూసుకోవలసిన అమూల్యమైన కానుక.' },
+    cover: { bg: 'village', props: [['sun', 350, 50, 0.9], ['person', 85, 198, 1.4, { crown: true, skin: 'wheat', cloth: '#f0c040', hair: '#555' }], ['plough', 160, 198, 1.3, { gold: true }], ['basket', 280, 196, 1.2], ['cloud', 200, 45, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'village', props: [['sun', 60, 50, 0.8], ['person', 150, 198, 1.4, { crown: true, skin: 'wheat', cloth: '#f0c040', hair: '#555' }], ['plough', 215, 198, 1.2, { gold: true }], ['person', 300, 198, 1.2, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 345, 198, 1.15, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['fire', 382, 198, 0.55], ['cloud', 200, 45, 0.9]] },
+        en: 'Long ago, in the green land of Mithilā, there lived a good and wise king named Janaka. He loved learning, he was kind to his people, and great sages came to his court to talk with him. But King Janaka had one sorrow — he had no child of his own. One year he decided to perform a great yajña, a holy fire-offering. "Before the yajña," said the priests, "the king himself must plough the sacred ground." So early one morning, Janaka took hold of a shining golden plough and walked out into the field.',
+        te: 'చాలా కాలం క్రితం, పచ్చని మిథిలా దేశంలో జనకుడు అనే మంచి, జ్ఞానవంతుడైన రాజు ఉండేవాడు. ఆయనకు చదువు అంటే ఎంతో ఇష్టం. ప్రజలను ప్రేమగా చూసుకునేవాడు. గొప్ప గొప్ప ఋషులు ఆయన సభకు వచ్చి ఆయనతో మాట్లాడేవారు. కానీ జనక మహారాజుకు ఒకే ఒక బాధ ఉండేది — ఆయనకు పిల్లలు లేరు. ఒక సంవత్సరం ఆయన ఒక గొప్ప యజ్ఞం చేయాలని నిర్ణయించుకున్నాడు. "యజ్ఞానికి ముందు రాజుగారే స్వయంగా ఆ పవిత్ర భూమిని దున్నాలి," అని పురోహితులు చెప్పారు. అందుకే ఒక రోజు తెల్లవారుజామునే జనకుడు మెరిసే బంగారు నాగలి పట్టుకుని పొలంలోకి నడిచాడు.',
+      },
+      {
+        scene: { bg: 'village', props: [['plough', 110, 198, 1.1, { gold: true }], ['person', 200, 198, 1.4, { crown: true, skin: 'wheat', cloth: '#f0c040', hair: '#555', raise: true }], ['basket', 270, 196, 1.3], ['cloud', 330, 45, 0.9], ['cloud', 120, 40, 0.7]] },
+        en: 'The oxen pulled, and the plough cut a long, straight line in the soft earth. Such a line is called a sītā — a furrow. Suddenly the plough stopped. Something was there in the soil! Janaka knelt down and brushed the earth away with his hands. There, in the furrow, lay a tiny baby girl, glowing like the morning sun and smiling up at him. The king\'s heart melted. He lifted her gently into his arms. It is said that just then a soft voice rang out from the sky: "O King, this child is your daughter. Mother Earth has given her to you."',
+        te: 'ఎద్దులు లాగుతుంటే, నాగలి మెత్తని మట్టిలో పొడవైన, తిన్నని గీత గీసింది. అలాంటి గీతను \'సీత\' అంటారు — అంటే నాగటి చాలు. ఉన్నట్టుండి నాగలి ఆగిపోయింది. మట్టిలో ఏదో తగిలింది! జనకుడు మోకాళ్ళ మీద కూర్చుని చేతులతో మట్టిని పక్కకు తోశాడు. ఆ నాగటి చాలులో ఒక చిన్నారి పాప పడుకుని ఉంది! ఉదయపు సూర్యుడిలా మెరిసిపోతూ, ఆయన వైపు చూసి నవ్వుతోంది. రాజుగారి మనసు కరిగిపోయింది. ఆయన ఆ పాపను మెల్లగా చేతుల్లోకి తీసుకున్నాడు. అప్పుడు ఆకాశం నుంచి ఒక మృదువైన స్వరం ఇలా వినిపించిందని అంటారు: "రాజా, ఈ పాప నీ కూతురు. భూదేవి ఈమెను నీకు కానుకగా ఇచ్చింది."',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 120, 198, 1.45, { crown: true, skin: 'wheat', cloth: '#f0c040', hair: '#555' }], ['person', 200, 198, 1.0, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040', raise: true }], ['bow', 285, 198, 1.4], ['flowers', 350, 198, 1]] },
+        en: 'Janaka carried the baby home, and the whole palace rang with joy. Because she was found in a furrow, he named her Sītā. People also called her Bhūmijā, daughter of the Earth; Jānakī, daughter of Janaka; and Maithilī, the princess of Mithilā. Sītā grew up gentle and brave, and she loved every bird, flower and tree. It is said that once, while playing with a ball, little Sītā easily pushed aside the mighty bow of Lord Śiva, which no grown man could move! Amazed, Janaka declared, "Only a hero who can string this bow shall marry my Sītā." And one day, that hero did come.',
+        te: 'జనకుడు పాపను ఇంటికి తీసుకువెళ్ళాడు. రాజభవనమంతా సంతోషంతో నిండిపోయింది. నాగటి చాలులో దొరికింది కాబట్టి ఆయన ఆమెకు \'సీత\' అని పేరు పెట్టాడు. భూమి కూతురు కాబట్టి భూమిజ అనీ, జనకుడి కూతురు కాబట్టి జానకి అనీ, మిథిలా రాకుమారి కాబట్టి మైథిలి అనీ కూడా ప్రజలు ఆమెను పిలిచేవారు. సీత మృదువైన మనసుతో, ధైర్యంతో పెరిగింది. పక్షులన్నా, పువ్వులన్నా, చెట్లన్నా ఆమెకు ఎంతో ప్రేమ. ఒకసారి బంతి ఆడుకుంటూ, పెద్దవాళ్ళెవరూ కదపలేని శివధనుస్సును చిన్నారి సీత అవలీలగా పక్కకు జరిపిందని అంటారు! ఆశ్చర్యపోయిన జనకుడు ఇలా ప్రకటించాడు: "ఈ విల్లును ఎక్కుపెట్టగల వీరుడే నా సీతను పెళ్ళి చేసుకుంటాడు." ఒక రోజు ఆ వీరుడు రానే వచ్చాడు.',
+      },
+    ],
+  },
+  {
+    id: 'ashvatthama-and-the-jewel',
+    added: '2026-11-06',
+    epic: 'Mahabharata',
+    chars: ['Aśvatthāmā', 'Droṇa', 'Kṛpī', 'Draupadī'],
+    title: { en: 'Aśvatthāmā and the Jewel on His Forehead', te: 'అశ్వత్థామ, నుదుటి మణి' },
+    moral: { en: 'Anger can make us lose our most precious treasures.', te: 'కోపం మనకున్న అమూల్యమైన సంపదను పోగొడుతుంది.' },
+    cover: { bg: 'ashram', props: [['person', 110, 198, 1.45, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['glow', 195, 178, 0.6], ['person', 195, 198, 1.05, { skin: 'wheat', cloth: '#a8392a', raise: true }], ['horse', 270, 196, 0.8], ['sun', 360, 45, 0.7]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['person', 100, 198, 1.4, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['person', 165, 198, 1.35, { female: true, skin: 'wheat', cloth: '#f2a33a', pallu: '#c0392b' }], ['basket', 235, 194, 1.2], ['cloud', 200, 45, 1], ['horse', 245, 120, 0.5]] },
+        en: 'Guru Droṇa and his wife Kṛpī lived simply, in a small hut. They longed for a child, and Droṇa prayed hard to Lord Śiva. At last a baby boy was born to them. The moment he was born, he gave a loud cry that sounded just like the neigh of a great horse! A voice from the sky said, "Let this child be called Aśvatthāmā — the one with the voice of a horse." And there was something even more wonderful: on the baby\'s forehead shone a small, bright jewel. It is said that whoever wore that jewel need not fear hunger, thirst, sickness or wild beasts.',
+        te: 'ద్రోణాచార్యుడు, ఆయన భార్య కృపి ఒక చిన్న కుటీరంలో సాదాసీదాగా జీవించేవారు. వారికి ఒక బిడ్డ కావాలని ఎంతో ఆశ. ద్రోణుడు శివుడిని భక్తితో ప్రార్థించాడు. చివరకు వారికి ఒక మగబిడ్డ పుట్టాడు. పుట్టిన వెంటనే ఆ బిడ్డ పెద్ద గుర్రం సకిలించినట్టు గట్టిగా అరిచాడు! అప్పుడు ఆకాశం నుంచి ఒక స్వరం వినిపించింది: "ఈ బిడ్డ పేరు అశ్వత్థామ — గుర్రం లాంటి గొంతు ఉన్నవాడు." ఇంకా అద్భుతమైన విషయం ఏమిటంటే, ఆ పసివాడి నుదుటి మీద ఒక చిన్న, మెరిసే మణి ఉంది. ఆ మణి ఉన్నవాడికి ఆకలి, దాహం, జబ్బులు, క్రూరమృగాల భయం ఉండదని అంటారు.',
+      },
+      {
+        scene: { bg: 'village', props: [['person', 70, 198, 1.4, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 150, 198, 0.9, { skin: 'wheat', cloth: '#a8392a', raise: true }], ['pot', 190, 198, 0.8], ['person', 250, 198, 0.85, { skin: 'fair', cloth: '#3a6ab0', raise: true }], ['person', 290, 198, 0.8, { skin: 'fair', cloth: '#4f9d4f' }], ['cloud', 220, 45, 0.9]] },
+        en: 'Droṇa loved his son dearly, but they were very poor. One day little Aśvatthāmā saw the children of rich families drinking milk, and he cried, "Father, I want milk too!" Droṇa had no cow. Some boys mixed rice flour in water and gave it to him. "Here is your milk!" they teased. Not knowing the trick, Aśvatthāmā drank it and danced with happiness. Seeing this, Droṇa\'s eyes filled with tears. "No one will laugh at my son like this again," he said to himself. So he went to Hastināpura and became the teacher of the princes — and Aśvatthāmā grew up beside them into a mighty warrior.',
+        te: 'ద్రోణుడికి తన కొడుకు అంటే ప్రాణం. కానీ వాళ్ళు చాలా పేదవాళ్ళు. ఒక రోజు చిన్నారి అశ్వత్థామ ధనవంతుల పిల్లలు పాలు తాగడం చూసి, "నాన్నా, నాకూ పాలు కావాలి!" అని ఏడ్చాడు. ద్రోణుడి దగ్గర ఆవు లేదు. కొంతమంది పిల్లలు బియ్యప్పిండిని నీళ్ళలో కలిపి అతనికి ఇచ్చారు. "ఇవిగో నీ పాలు!" అని ఎగతాళి చేశారు. అది మోసం అని తెలియని అశ్వత్థామ ఆ నీళ్ళు తాగి సంతోషంతో గంతులేశాడు. అది చూసిన ద్రోణుడి కళ్ళలో నీళ్ళు తిరిగాయి. "ఇక ఎవ్వరూ నా కొడుకును ఇలా ఎగతాళి చేయకూడదు," అనుకున్నాడు. అందుకే ఆయన హస్తినాపురానికి వెళ్ళి రాకుమారులకు గురువు అయ్యాడు. అశ్వత్థామ కూడా వారితో పాటు గొప్ప వీరుడిగా ఎదిగాడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 75, 198, 1.35, { skin: 'wheat', cloth: '#5a4a6a' }], ['glow', 184, 137, 0.4], ['person', 150, 198, 1.45, { skin: 'wheat', cloth: '#a8392a', raise: true }], ['mace', 115, 198, 0.9], ['person', 255, 198, 1.4, { female: true, skin: 'dark', cloth: '#c0392b', pallu: '#f0c040' }], ['person', 330, 198, 1.45, { crown: true, skin: 'wheat', cloth: '#f0c040' }]] },
+        en: 'Many years later came the great war, and Aśvatthāmā fought on the side of the Kauravas. When his father fell in battle, he was filled with terrible anger. After the war was over, he did a very wrong thing in the dark of night. Then he even fired the Brahmāstra, a weapon so powerful it could harm babies not yet born. But Kṛṣṇa protected the little baby of the Pāṇḍava family. "As the price of your wrong," the Pāṇḍavas told Aśvatthāmā, "give up the jewel on your forehead." Sadly, he took off the shining jewel and handed it over. Bhīma brought it to Draupadī, and she gave it to Yudhiṣṭhira to wear. And it is said that Aśvatthāmā, without his jewel, still wanders the earth.',
+        te: 'చాలా ఏళ్ళ తరువాత మహా యుద్ధం వచ్చింది. అశ్వత్థామ కౌరవుల పక్షాన పోరాడాడు. యుద్ధంలో తన తండ్రి నేలకూలినప్పుడు అతని మనసు భయంకరమైన కోపంతో నిండిపోయింది. యుద్ధం ముగిశాక, చీకటి రాత్రిలో అతడు ఒక చాలా తప్పుడు పని చేశాడు. తరువాత ఇంకా పుట్టని పసిపాపలకు కూడా హాని చేయగల బ్రహ్మాస్త్రాన్ని ప్రయోగించాడు. కానీ శ్రీకృష్ణుడు పాండవ వంశపు చిన్నారి బిడ్డను కాపాడాడు. "నువ్వు చేసిన తప్పుకు శిక్షగా నీ నుదుటి మీది మణిని ఇచ్చేయి," అని పాండవులు అశ్వత్థామతో అన్నారు. బాధతో అతడు మెరిసే మణిని తీసి ఇచ్చేశాడు. భీముడు దాన్ని ద్రౌపదికి తెచ్చి ఇచ్చాడు. ద్రౌపది దాన్ని ధర్మరాజుకు ధరించమని ఇచ్చింది. మణి లేని అశ్వత్థామ ఈనాటికీ భూమి మీద తిరుగుతూనే ఉన్నాడని అంటారు.',
+      },
+    ],
+  },
+  {
+    id: 'ramas-bridge-is-blessed-rameshvaram',
+    added: '2026-11-06',
+    epic: 'Ramayana',
+    chars: ['Rāma', 'Sītā', 'Hanumān', 'Śiva'],
+    title: { en: 'Rāma\'s Bridge Is Blessed — Rāmeśvaram', te: 'రామేశ్వరం — వారధి దగ్గర శివపూజ' },
+    moral: { en: 'The love in a gift matters more than how grand it is.', te: 'కానుక ఎంత గొప్పదన్నది కాదు, అందులోని ప్రేమే ముఖ్యం.' },
+    cover: { bg: 'shore', props: [['glow', 200, 192, 1.5], ['linga', 200, 190, 1.4], ['person', 110, 192, 1.45, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 290, 192, 1.4, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040' }], ['sun', 355, 45, 0.8], ['flowers', 245, 194, 0.7]] },
+    pages: [
+      {
+        scene: { bg: 'sky', props: [['stones', 70, 205, 0.7], ['stones', 150, 205, 0.7], ['stones', 230, 205, 0.7], ['lanka', 360, 205, 0.5], ['glow', 200, 120, 1.3], ['chariot', 205, 110, 1.4], ['person', 185, 80, 0.7, { skin: 'blue', cloth: '#f0c040', crown: true, raise: true }], ['person', 215, 80, 0.7, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040' }], ['cloud', 60, 50, 0.9], ['cloud', 330, 60, 0.8]] },
+        en: 'The war in Laṅkā was over. Rāma, Sītā and Lakṣmaṇa were flying home to Ayodhyā in the Puṣpaka chariot, with Hanumān and all their friends. As they flew over the ocean, Rāma pointed down. "Look, Sītā! There is the bridge that Nala and the monkeys built across the sea. And there, on the shore, is where we began. Before we laid the first stone, Lord Śiva blessed our work." Rāma\'s face shone. "From now on, this place will be holy. Whoever comes here will be blessed." And so, it is said, Rāma asked the chariot to come down on that sandy shore.',
+        te: 'లంకలో యుద్ధం ముగిసింది. రాముడు, సీతాదేవి, లక్ష్మణుడు హనుమంతుడితో, మిత్రులందరితో కలిసి పుష్పక విమానంలో అయోధ్యకు తిరిగి వెళ్తున్నారు. సముద్రం మీదుగా ఎగురుతున్నప్పుడు రాముడు కిందికి చూపించాడు. "చూడు సీతా! నలుడు, వానరులు సముద్రం మీద కట్టిన వారధి అదిగో. ఆ ఒడ్డునే మనం పని మొదలుపెట్టాం. మొదటి రాయి వేయకముందే పరమశివుడు మన పనిని ఆశీర్వదించాడు." రాముడి ముఖం వెలిగిపోయింది. "ఇక నుంచి ఈ చోటు పవిత్రమైనది. ఇక్కడికి వచ్చే వారందరికీ మేలు జరుగుతుంది." అందుకే రాముడు విమానాన్ని ఆ ఇసుక తీరంలో దిగమన్నాడని అంటారు.',
+      },
+      {
+        scene: { bg: 'shore', props: [['person', 100, 192, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 185, 194, 1.35, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040', raise: true }], ['linga', 250, 194, 0.8], ['flowers', 295, 196, 0.7], ['hanuman', 330, 80, 0.6], ['cloud', 220, 40, 0.8]] },
+        en: 'Rāma wished to worship Lord Śiva there and thank him. "Hanumān," he said, "please fly to Mount Kailāsa and bring a liṅga of Śiva for our worship." Off flew Hanumān, swift as the wind. But the right time for the worship was coming close, and Hanumān had not yet returned. Then Sītā smiled. She sat down on the beach, gathered the wet sand in her hands, and lovingly shaped a small liṅga. Rāma worshipped the sand liṅga with flowers and prayers, and a deep peace filled everyone\'s hearts. That place came to be called Rāmeśvaram — the home of the Lord whom Rāma worshipped.',
+        te: 'రాముడు అక్కడ శివుడిని పూజించి కృతజ్ఞత చెప్పాలనుకున్నాడు. "హనుమా," అన్నాడు ఆయన, "కైలాస పర్వతానికి వెళ్ళి పూజ కోసం ఒక శివలింగాన్ని తీసుకురా." హనుమంతుడు గాలి వేగంతో ఎగిరిపోయాడు. కానీ పూజకు మంచి ముహూర్తం దగ్గర పడుతోంది, హనుమంతుడు ఇంకా తిరిగి రాలేదు. అప్పుడు సీతాదేవి చిరునవ్వు నవ్వింది. ఆమె ఒడ్డున కూర్చుని, తడి ఇసుకను చేతుల్లోకి తీసుకుని, ప్రేమగా ఒక చిన్న శివలింగాన్ని తయారు చేసింది. రాముడు ఆ ఇసుక లింగాన్ని పువ్వులతో, ప్రార్థనలతో పూజించాడు. అందరి మనసుల్లో గొప్ప ప్రశాంతత నిండింది. ఆ చోటుకు రామేశ్వరం అనే పేరు వచ్చింది — రాముడు పూజించిన ఈశ్వరుడు కొలువైన స్థలం.',
+      },
+      {
+        scene: { bg: 'shore', props: [['tail', 150, 192, 0.6], ['monkey', 85, 196, 1.4, { color: '#d9772a' }], ['linga', 215, 192, 0.85], ['person', 290, 192, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true, raise: true }], ['glow', 365, 192, 0.8], ['linga', 365, 190, 0.8], ['cloud', 200, 40, 0.8]] },
+        en: 'Just then Hanumān landed, carrying a beautiful liṅga from Kailāsa. When he saw that the worship was already done, his face fell. "Lord, I brought this from so far!" To make room for his own liṅga, he wrapped his strong tail around the sand liṅga and pulled with all his might. But the little sand liṅga did not move at all — and Hanumān tumbled over on the sand! Rāma lifted him up kindly. "Dear Hanumān, your love is never wasted. Let your liṅga stand here too, and let people worship it first, even before mine." It is said that even today at Rāmeśvaram, pilgrims first worship Hanumān\'s liṅga, and then Sītā\'s.',
+        te: 'సరిగ్గా అప్పుడే హనుమంతుడు కైలాసం నుంచి ఒక అందమైన లింగాన్ని తీసుకుని దిగాడు. పూజ అప్పటికే పూర్తయిపోయిందని చూసి ఆయన ముఖం చిన్నబోయింది. "స్వామీ, ఇంత దూరం నుంచి దీన్ని తెచ్చాను!" తన లింగానికి చోటు చేయాలని, ఆయన తన బలమైన తోకను ఇసుక లింగం చుట్టూ చుట్టి శక్తి కొద్దీ లాగాడు. కానీ ఆ చిన్న ఇసుక లింగం కొంచెం కూడా కదలలేదు — హనుమంతుడే ఇసుకలో పల్టీ కొట్టి పడ్డాడు! రాముడు ఆయనను ప్రేమగా లేవనెత్తాడు. "హనుమా, నీ ప్రేమ ఎప్పుడూ వృథా కాదు. నీ లింగాన్ని కూడా ఇక్కడే ప్రతిష్ఠిద్దాం. ప్రజలు నా లింగం కంటే ముందు నీ లింగాన్నే పూజిస్తారు." ఈనాటికీ రామేశ్వరంలో భక్తులు మొదట హనుమంతుడు తెచ్చిన లింగాన్ని, ఆ తరువాత సీతాదేవి చేసిన లింగాన్ని పూజిస్తారని అంటారు.',
+      },
+    ],
+  },
 ];
