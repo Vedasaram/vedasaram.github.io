@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Jaimini (jaimini) — Vyāsa's pupil who received the Sāmaveda; author of the Mīmāṃsā Sūtras; the four birds of the Vindhyas who answered his questions (Mārkaṇḍeya Purāṇa); the Jaimini Bhārata and its Aśvamedha tales (Viṣṇu Purāṇa, Bhāgavata, Mārkaṇḍeya Purāṇa, later Jaimini Bhārata).
 - [ ] Garga (garga) — priest of the Yadus; the secret naming of Kṛṣṇa and Balarāma in Nanda's cowshed; the sage of the stars and omens; the Garga Saṃhitā (Bhāgavata 10, Harivaṃśa, MBh Śalya, later Garga Saṃhitā).
 - [ ] Śāṇḍilya (shandilya) — the Śāṇḍilya-vidyā “all this is Brahman” in the Chāndogya; the Bhakti Sūtras in his name; guide of Vajra's Vraja (Chāndogya, Śatapatha Brāhmaṇa, Bhāgavata Māhātmya).
 - [ ] The Vālakhilyas (valakhilyas) — sixty thousand thumb-sized sages born of Kratu; hanging from the bough Garuḍa carried; the sacrifice that made Garuḍa against Indra's pride; the Vālakhilya hymns of the Ṛgveda and their place before the Sun's chariot (MBh Ādi, Ṛgveda, Viṣṇu Purāṇa).
@@ -92,3 +91,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Sāndīpani (sandipani) — 8 chapters — 2026-11-03
 - [x] The four Kumāras (kumaras) — 10 chapters — 2026-11-04
 - [x] Uddālaka Āruṇi (aruni) — 11 chapters — 2026-11-05
+- [x] Jaimini (jaimini) — 11 chapters — 2026-11-06
