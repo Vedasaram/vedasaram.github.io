@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Pṛthvīrāja III Cauhān (prithviraj) — the two battles of Tarāin with Muḥammad of Ghor (1191, 1192); the Pṛthvīrājavijaya; the later Pṛthvīrāj Rāso and Saṃyogitā (mark as later)
 - [ ] Harihara and Bukka (vijayanagara) — founding of Vijayanagara on the Tuṅgabhadrā; Vidyāraṇya tradition; Gaṅgādevī's Madhurāvijayam
 - [ ] Kṛṣṇadevarāya (krishnadevaraya) — Vijayanagara at its height; Raichur; Āmuktamālyada; the aṣṭadiggajas; Tenāli Rāmakṛṣṇa (mark folk tales); Domingos Paes and Nuniz
 - [ ] Rāṇā Sāṅgā (sanga) — Mewar's great warrior; Khanwa (1527); his wounds
@@ -76,3 +75,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Rājendra Cōḷa I (rajendra) — 9 chapters — 2026-11-04
 - [x] Bhoja of Dhārā (bhoja) — 9 chapters — 2026-11-05
 - [x] Gaṇapatideva and Rudramadevī (kakatiya) — 9 chapters — 2026-11-06
+- [x] Pṛthvīrāja III Cauhān (prithviraj) — 9 chapters — 2026-11-07
