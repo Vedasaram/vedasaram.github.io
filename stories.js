@@ -2323,4 +2323,87 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'ulupi-and-arjunas-journey',
+    added: '2026-11-07',
+    epic: 'Mahabharata',
+    chars: ['Ulūpī', 'Arjuna', 'Yudhiṣṭhira'],
+    title: { en: 'Ulūpī and Arjuna\'s Journey', te: 'ఉలూపి — అర్జునుడి తీర్థయాత్ర' },
+    moral: { en: 'A promise kept, even when it is hard, brings blessings on the way.', te: 'కష్టమైనా మాట నిలబెట్టుకుంటే దారిలో దీవెనలే ఎదురవుతాయి.' },
+    cover: { bg: 'river', props: [['sun', 350, 50, 0.9], ['archer', 120, 198, 1.4, { cloth: '#3a6ab0' }], ['person', 260, 198, 1.4, { female: true, skin: 'fair', cloth: '#2a9a8a', pallu: '#3aa0c0', crown: true }], ['lotus', 320, 205, 1], ['lotus', 200, 210, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 100, 198, 1.4, { cloth: '#3a6ab0', raise: true }], ['bow', 140, 190, 1], ['person', 220, 198, 1.3, { skin: 'fair', cloth: '#f4ead2', crown: true }], ['person', 310, 198, 1.25, { cloth: '#f4ead2', beard: true, hair: '#ddd' }]] },
+        en: 'The five Pāṇḍava brothers had made a rule. Whoever broke it would have to leave home on a pilgrimage for twelve years. One day a poor brāhmaṇa came running. "Help! Thieves have stolen my cows!" Arjuna jumped up — but his bow was in the room where his eldest brother Yudhiṣṭhira sat with Draupadī, and the rule said no one must enter. Arjuna thought, "A promise to protect people comes first." He went in, took his bow, chased the thieves and brought back every cow. Then he said, "I broke our rule. I must go." Yudhiṣṭhira begged him to stay, but Arjuna kept his word and set off.',
+        te: 'పాండవులు ఐదుగురూ ఒక నియమం పెట్టుకున్నారు. దాన్ని ఎవరు తప్పినా పన్నెండేళ్ళు ఇల్లు వదిలి తీర్థయాత్రకు వెళ్ళాలి. ఒక రోజు ఒక పేద బ్రాహ్మణుడు పరుగెత్తుకుంటూ వచ్చాడు. "కాపాడండి! దొంగలు నా ఆవులను ఎత్తుకుపోయారు!" అర్జునుడు వెంటనే లేచాడు — కానీ అతని విల్లు ధర్మరాజు, ద్రౌపది కూర్చున్న గదిలో ఉంది. ఆ గదిలోకి ఎవరూ వెళ్ళకూడదని నియమం. "ప్రజలను కాపాడటమే ముందు," అనుకున్నాడు అర్జునుడు. లోపలికి వెళ్ళి విల్లు తీసుకుని, దొంగలను తరిమి, ప్రతి ఆవునూ వెనక్కి తెచ్చాడు. తరువాత "నేను నియమం తప్పాను. నేను వెళ్ళాలి," అన్నాడు. ధర్మరాజు ఉండిపొమ్మని బతిమాలాడు, కానీ అర్జునుడు మాట నిలబెట్టుకుని బయలుదేరాడు.',
+      },
+      {
+        scene: { bg: 'river', props: [['sun', 70, 55, 0.9], ['rock', 330, 190, 1], ['person', 200, 212, 1.3, { cloth: '#f4ead2', raise: true }], ['lotus', 120, 210, 0.9], ['lotus', 270, 208, 0.8], ['cloud', 260, 40, 0.8]] },
+        en: 'Arjuna travelled north to the place where the holy river Gaṅgā rushes down from the mountains. Early one morning he stepped into the cool water to bathe and offer prayers to the rising sun. Suddenly — whoosh! — something gently pulled him under the waves. Down, down he went, and when he opened his eyes he was standing in a shining palace deep below the water. A sacred fire was burning there. Arjuna was surprised, but he did not panic. Calmly he finished his morning fire-prayer first. Then he turned around. In front of him stood a lovely princess with a smile on her face.',
+        te: 'అర్జునుడు ఉత్తరానికి ప్రయాణించి, పవిత్రమైన గంగానది కొండల నుంచి దూకుతూ కిందికి వచ్చే చోటికి చేరుకున్నాడు. ఒక రోజు తెల్లవారుజామున స్నానం చేసి ఉదయించే సూర్యుడికి నమస్కరించడానికి చల్లని నీటిలోకి దిగాడు. అకస్మాత్తుగా — సర్రున! — ఏదో అతడిని మెల్లగా నీటి అడుగుకు లాగింది. కిందికి, ఇంకా కిందికి వెళ్ళాడు. కళ్ళు తెరిచి చూసేసరికి నీటి లోతుల్లో మెరిసిపోతున్న ఒక భవనంలో నిలబడి ఉన్నాడు. అక్కడ ఒక పవిత్రమైన అగ్ని వెలుగుతోంది. అర్జునుడు ఆశ్చర్యపోయాడు, కానీ కంగారుపడలేదు. ముందు ప్రశాంతంగా తన ఉదయపు అగ్నిహోత్రం పూర్తి చేశాడు. తరువాత వెనక్కి తిరిగాడు. ఎదురుగా చిరునవ్వుతో ఒక అందమైన రాకుమారి నిలబడి ఉంది.',
+      },
+      {
+        scene: { bg: 'palace', props: [['glow', 200, 192, 1.3], ['fire', 200, 196, 1], ['person', 110, 198, 1.4, { cloth: '#f4ead2' }], ['person', 290, 198, 1.4, { female: true, skin: 'fair', cloth: '#2a9a8a', pallu: '#3aa0c0', crown: true, raise: true }]] },
+        en: '"I am Ulūpī, daughter of Kauravya, king of the Nāgas, the serpent people of the waters," she said. "I have heard of your goodness and courage, Arjuna. I wish to marry you." Arjuna hesitated. "I am on a pilgrimage and must keep my vow." Ulūpī answered wisely, "Your rule was only about Draupadī. Your journey is not broken by this." So Arjuna and Ulūpī were married there. Ulūpī gave him a gift: "From today, no creature of the water will ever harm you, and in water you will always be safe." In time they had a brave son named Irāvān.',
+        te: '"నేను ఉలూపిని. జలాల్లో నివసించే నాగుల రాజు కౌరవ్యుడి కూతురిని," అంది ఆమె. "అర్జునా, నీ మంచితనం, ధైర్యం గురించి విన్నాను. నిన్ను పెళ్ళి చేసుకోవాలని ఉంది." అర్జునుడు సంకోచించాడు. "నేను తీర్థయాత్రలో ఉన్నాను. నా వ్రతం కాపాడుకోవాలి." ఉలూపి తెలివిగా జవాబిచ్చింది, "మీ నియమం ద్రౌపది గురించి మాత్రమే. దీని వల్ల నీ యాత్రకు భంగం రాదు." అలా అర్జునుడు, ఉలూపి అక్కడే పెళ్ళి చేసుకున్నారు. ఉలూపి అతడికి ఒక వరం ఇచ్చింది: "ఈ రోజు నుంచి నీటిలోని ఏ జీవీ నీకు హాని చేయదు. నీటిలో నువ్వు ఎప్పుడూ సురక్షితంగా ఉంటావు." కొంత కాలానికి వారికి ఇరావంతుడు అనే వీరుడైన కొడుకు పుట్టాడు.',
+      },
+      {
+        scene: { bg: 'river', props: [['sun', 340, 50, 0.9], ['archer', 110, 198, 1.4, { cloth: '#3a6ab0' }], ['person', 240, 214, 1.1, { female: true, skin: 'fair', cloth: '#2a9a8a', pallu: '#3aa0c0', crown: true, raise: true }], ['lotus', 300, 210, 0.9], ['bird', 330, 120, 1]] },
+        en: 'Then Ulūpī brought Arjuna gently back up to the riverbank, just where he had first stepped into the water. She waved goodbye, and Arjuna went on with his long journey, visiting holy rivers and forests across the land, just as he had promised. He had left home because he chose to keep his word — and on the way he found a new family and a precious blessing. Ulūpī never forgot him. Many years later, it was Ulūpī who would come to Arjuna\'s help once again, when he needed her most. But that is another story!',
+        te: 'తరువాత ఉలూపి అర్జునుడిని మెల్లగా పైకి తీసుకువచ్చి, అతడు మొదట నీటిలోకి దిగిన ఒడ్డు దగ్గరే దింపింది. ఆమె చేయి ఊపి వీడ్కోలు చెప్పింది. అర్జునుడు మాట ఇచ్చినట్లే దేశమంతా పవిత్ర నదులను, అడవులను దర్శిస్తూ తన సుదీర్ఘ యాత్ర కొనసాగించాడు. మాట నిలబెట్టుకోవాలని ఇల్లు వదిలాడు — దారిలో అతడికి ఒక కొత్త కుటుంబం, ఒక విలువైన దీవెన దొరికాయి. ఉలూపి అతడిని ఎప్పుడూ మరిచిపోలేదు. చాలా ఏళ్ళ తరువాత, అర్జునుడికి అత్యంత అవసరమైనప్పుడు, మళ్ళీ ఉలూపియే అతడికి సాయం చేయడానికి వచ్చింది. కానీ అది ఇంకో కథ!',
+      },
+    ],
+  },
+  {
+    id: 'hanuman-tests-arjunas-arrow-bridge',
+    added: '2026-11-07',
+    epic: 'Mahabharata',
+    chars: ['Hanumān', 'Arjuna', 'Kṛṣṇa'],
+    title: { en: 'Hanumān Tests Arjuna\'s Arrow Bridge', te: 'అర్జునుడి బాణాల వారధి — హనుమంతుడి పరీక్ష' },
+    moral: { en: 'Pride breaks easily; humility and faith hold strong.', te: 'గర్వం సులువుగా విరిగిపోతుంది; వినయం, భక్తి గట్టిగా నిలుస్తాయి.' },
+    cover: { bg: 'sea', props: [['sun', 350, 45, 0.9], ['arrow', 140, 168, 1.1], ['arrow', 215, 168, 1.1], ['arrow', 290, 168, 1.1], ['archer', 70, 200, 1.3, { cloth: '#3a6ab0' }], ['monkey', 340, 200, 1.6, { color: '#d9772a', flip: true }]] },
+    pages: [
+      {
+        scene: { bg: 'shore', props: [['stones', 300, 165, 1], ['archer', 110, 198, 1.4, { cloth: '#3a6ab0' }], ['rock', 220, 196, 0.9], ['monkey', 222, 172, 0.8, { color: '#d9772a', flip: true }], ['cloud', 70, 45, 0.9]] },
+        en: 'It is said that once, on his travels, Arjuna came to Rāmeśvaram by the southern sea. There he saw the old stones of the bridge that Rāma\'s army had built to reach Laṅkā. Arjuna, proud of his archery, laughed. "Why did Rāma need monkeys to carry heavy rocks? A great archer could simply have built a bridge of arrows!" Nearby, a small, old monkey was sitting on a rock. He chuckled softly. "Young man, a bridge of arrows would break under the weight of a single monkey." Arjuna frowned. "Is that so, little monkey? Shall we find out?"',
+        te: 'ఒకసారి అర్జునుడు యాత్ర చేస్తూ దక్షిణ సముద్ర తీరాన ఉన్న రామేశ్వరానికి వచ్చాడని చెబుతారు. అక్కడ లంకకు చేరుకోవడానికి రాముడి సైన్యం కట్టిన వారధి పాత రాళ్ళను చూశాడు. తన విలువిద్య మీద గర్వం ఉన్న అర్జునుడు నవ్వాడు. "బరువైన రాళ్ళు మోయడానికి రాముడికి వానరులు ఎందుకు? గొప్ప విలుకాడు బాణాలతోనే వారధి కట్టేయగలడు కదా!" దగ్గర్లో ఒక రాయి మీద ఒక చిన్న ముసలి కోతి కూర్చుని ఉంది. అది మెల్లగా నవ్వింది. "అబ్బాయీ, బాణాల వారధి ఒక్క కోతి బరువుకే విరిగిపోతుంది." అర్జునుడు ముఖం చిట్లించాడు. "అలాగా, చిన్న కోతీ? చూసేద్దామా?"',
+      },
+      {
+        scene: { bg: 'sea', props: [['archer', 60, 200, 1.3, { cloth: '#3a6ab0' }], ['arrow', 140, 175, 1], ['arrow', 200, 165, 1], ['arrow', 255, 180, 1], ['monkey', 320, 200, 2.2, { color: '#d9772a', flip: true }], ['cloud', 200, 40, 0.9]] },
+        en: '"Let us make a bet," said Arjuna. "If my bridge breaks under you, I will lay down my bow forever." "And if it holds," said the monkey, "I will serve you all my life." Arjuna\'s hands flew. Twang, twang, twang! Thousands of arrows locked together into a strong bridge across the water. The old monkey walked up to it — and as he walked, he grew bigger, and bigger, until he was as tall as a hill! It was Hanumān himself! He placed just one foot on the bridge. CRACK! The arrows scattered and floated away on the waves. Arjuna stood still, his face pale.',
+        te: '"పందెం వేద్దాం," అన్నాడు అర్జునుడు. "నువ్వు నడిస్తే నా వారధి విరిగిపోతే, ఇక జీవితంలో విల్లు పట్టను." "అది నిలిస్తే," అంది కోతి, "నా జీవితమంతా నీకు సేవ చేస్తాను." అర్జునుడి చేతులు మెరుపులా కదిలాయి. టంగ్, టంగ్, టంగ్! వేలకొద్దీ బాణాలు ఒకదానితో ఒకటి పెనవేసుకుని నీటి మీద గట్టి వారధిగా తయారయ్యాయి. ముసలి కోతి వారధి దగ్గరకు నడిచింది — నడుస్తూ నడుస్తూ పెద్దదై, ఇంకా పెద్దదై, కొండంత ఎత్తు పెరిగింది! అది సాక్షాత్తూ హనుమంతుడే! ఆయన ఒక్క కాలు వారధి మీద పెట్టాడు. ఫట్! బాణాలన్నీ చెల్లాచెదురై అలల మీద తేలిపోయాయి. అర్జునుడు ముఖం పాలిపోయి నిశ్చేష్టుడై నిలబడ్డాడు.',
+      },
+      {
+        scene: { bg: 'sea', props: [['glow', 200, 200, 1], ['person', 200, 214, 0.8, { skin: 'blue', cloth: '#f0c040', crown: true }], ['arrow', 130, 152, 1], ['arrow', 200, 150, 1], ['arrow', 270, 152, 1], ['archer', 60, 200, 1.3, { cloth: '#3a6ab0' }], ['monkey', 335, 200, 1.6, { color: '#d9772a', flip: true }]] },
+        en: 'Just then a cheerful young boy came walking along the shore. "A bet needs a witness," he said. "Try once more, and I will watch." Arjuna prayed to his dear friend Kṛṣṇa and built the bridge again. Hanumān jumped on it, stamped on it, even danced on it — but this time it did not even shake! Puzzled, Hanumān peeped underneath. There was the boy, holding up the bridge on his back — and he was Kṛṣṇa! Hanumān bowed low, for to him Kṛṣṇa and Rāma were the same Lord. Arjuna bowed too, his pride gone. Hanumān promised to sit on Arjuna\'s chariot flag in the great war — and so Arjuna\'s banner became the famous monkey flag.',
+        te: 'సరిగ్గా అప్పుడే ఒక ఉల్లాసమైన బాలుడు ఒడ్డు వెంట నడుచుకుంటూ వచ్చాడు. "పందేనికి ఒక సాక్షి కావాలి," అన్నాడు. "ఇంకొకసారి ప్రయత్నించు, నేను చూస్తాను." అర్జునుడు తన ప్రియ మిత్రుడు శ్రీకృష్ణుడిని తలచుకుని మళ్ళీ వారధి కట్టాడు. హనుమంతుడు దాని మీద దూకాడు, కాలితో తొక్కాడు, నాట్యం కూడా చేశాడు — కానీ ఈసారి అది కొంచెం కూడా కదలలేదు! ఆశ్చర్యంతో హనుమంతుడు కిందికి తొంగిచూశాడు. ఆ బాలుడు వారధిని తన వీపు మీద మోస్తున్నాడు — అతడే శ్రీకృష్ణుడు! హనుమంతుడు వంగి నమస్కరించాడు, ఎందుకంటే ఆయనకు కృష్ణుడూ రాముడూ ఒకే దేవుడు. అర్జునుడూ గర్వం వదిలి నమస్కరించాడు. మహాయుద్ధంలో అర్జునుడి రథం జెండా మీద కూర్చుంటానని హనుమంతుడు మాట ఇచ్చాడు — అందుకే అర్జునుడి జెండాను కపిధ్వజం అంటారు.',
+      },
+    ],
+  },
+  {
+    id: 'kausalya-waits-for-rama',
+    added: '2026-11-07',
+    epic: 'Ramayana',
+    chars: ['Kausalyā', 'Rāma', 'Bharata', 'Daśaratha'],
+    title: { en: 'Kausalyā Waits for Rāma', te: 'రాముడి కోసం ఎదురుచూసిన కౌసల్య' },
+    moral: { en: 'A mother\'s love and blessing travel with her child wherever he goes.', te: 'అమ్మ ప్రేమ, అమ్మ దీవెన బిడ్డ ఎక్కడికి వెళ్ళినా తోడుగా ఉంటాయి.' },
+    cover: { bg: 'palace', props: [['person', 150, 198, 1.5, { female: true, skin: 'fair', cloth: '#f4ead2', pallu: '#c9952a', hair: '#555' }], ['fire', 210, 196, 0.6], ['person', 260, 198, 1.5, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['flowers', 330, 196, 1], ['flowers', 70, 196, 1]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['fire', 80, 196, 0.6], ['person', 140, 198, 1.45, { female: true, skin: 'fair', cloth: '#f4ead2', pallu: '#c9952a', hair: '#555' }], ['person', 250, 198, 1.45, { skin: 'blue', cloth: '#f0c040', tilak: true }], ['flowers', 330, 196, 1]] },
+        en: 'On the morning Rāma was to be crowned prince, Queen Kausalyā was praying for her son with a lamp and flowers. Rāma came in quietly and touched her feet. "Mother, I am not to be crowned today. Father has asked me to live in the forest for fourteen years, and Bharata will rule." Kausalyā\'s heart broke. "Fourteen years! Then take me with you, my child. I will follow you like a cow follows her calf." Rāma held her hands gently. "Mother, Father is very sad and needs you beside him now. Stay with him. Fourteen years will pass, and I will come home to you."',
+        te: 'రాముడికి యువరాజ పట్టాభిషేకం జరగాల్సిన రోజు ఉదయం, కౌసల్యాదేవి దీపం, పూలతో కొడుకు కోసం పూజ చేస్తోంది. రాముడు మెల్లగా లోపలికి వచ్చి ఆమె పాదాలకు నమస్కరించాడు. "అమ్మా, ఈ రోజు నాకు పట్టాభిషేకం లేదు. నాన్నగారు నన్ను పద్నాలుగేళ్ళు అడవిలో ఉండమన్నారు. భరతుడు రాజ్యం ఏలుతాడు." కౌసల్య గుండె బద్దలైంది. "పద్నాలుగేళ్ళా! అయితే నన్నూ నీతో తీసుకెళ్ళు నాయనా. ఆవు దూడ వెంట వెళ్ళినట్లు నీ వెంట వస్తాను." రాముడు ఆమె చేతులు ప్రేమగా పట్టుకున్నాడు. "అమ్మా, నాన్నగారు చాలా బాధలో ఉన్నారు. ఇప్పుడు ఆయనకు నువ్వు పక్కన ఉండాలి. ఆయనతోనే ఉండు. పద్నాలుగేళ్ళు గడిచిపోతాయి, నేను నీ దగ్గరకు తిరిగి వస్తాను."',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 110, 198, 1.45, { female: true, skin: 'fair', cloth: '#f4ead2', pallu: '#c9952a', hair: '#555', raise: true }], ['person', 200, 198, 1.35, { skin: 'blue', cloth: '#c9a26b' }], ['person', 255, 198, 1.3, { female: true, skin: 'fair', cloth: '#c9a26b', pallu: '#d9577a' }], ['person', 310, 198, 1.3, { skin: 'fair', cloth: '#c9a26b' }], ['flowers', 360, 196, 0.9]] },
+        en: 'Kausalyā wiped her tears and became brave. She placed her hand on Rāma\'s head and blessed him. "You have always guarded dharma, my son. May that same dharma now guard you. May the forests, the mountains and the rivers keep you safe. May the sun by day and the moon by night watch over you." Then Rāma, Sītā and Lakṣmaṇa left for the forest. Soon after, King Daśaratha, filled with sorrow, passed away. When Bharata came home, Kausalyā spoke to him sadly at first. But Bharata fell at her feet, weeping. "Mother, I never wanted this!" Kausalyā hugged him close. "My son, your heart is as true as Rāma\'s."',
+        te: 'కౌసల్య కన్నీళ్ళు తుడుచుకుని ధైర్యం తెచ్చుకుంది. రాముడి తల మీద చేయి పెట్టి దీవించింది. "నాయనా, నువ్వు ఎప్పుడూ ధర్మాన్ని కాపాడావు. ఇప్పుడు ఆ ధర్మమే నిన్ను కాపాడుగాక. అడవులు, కొండలు, నదులు నిన్ను క్షేమంగా చూసుకోవాలి. పగలు సూర్యుడు, రాత్రి చంద్రుడు నిన్ను కనిపెట్టుకుని ఉండాలి." తరువాత రాముడు, సీతాదేవి, లక్ష్మణుడు అడవికి బయలుదేరారు. కొద్ది రోజులకే దశరథ మహారాజు దుఃఖంతో కన్నుమూశాడు. భరతుడు ఇంటికి వచ్చినప్పుడు కౌసల్య మొదట బాధతో మాట్లాడింది. కానీ భరతుడు ఏడుస్తూ ఆమె పాదాల మీద పడ్డాడు. "అమ్మా, ఇది నేను ఎప్పుడూ కోరుకోలేదు!" కౌసల్య అతడిని దగ్గరకు తీసుకుని హత్తుకుంది. "నాయనా, నీ మనసు కూడా రాముడి మనసంత స్వచ్ఛమైనది."',
+      },
+      {
+        scene: { bg: 'palace', props: [['glow', 310, 100, 1.1], ['chariot', 310, 100, 1], ['cloud', 60, 45, 0.8], ['person', 160, 198, 1.45, { female: true, skin: 'fair', cloth: '#f4ead2', pallu: '#c9952a', hair: '#555', raise: true }], ['person', 225, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['flowers', 90, 196, 1], ['flowers', 300, 196, 1]] },
+        en: 'For fourteen long years Kausalyā waited. Every evening she lit a lamp and prayed, "Keep my Rāma safe." Bharata looked after the kingdom with Rāma\'s sandals on the throne, and every day he came to touch her feet. The seasons came and went, again and again. Then one day Hanumān arrived with joyful news: "Rāma is coming home!" The whole city was decorated with flowers and lamps. Kausalyā hurried out. The Puṣpaka chariot landed, and Rāma ran straight to his mother and bowed at her feet. Kausalyā lifted his face in her hands and smiled through happy tears. "My child, you have come home."',
+        te: 'పద్నాలుగు సుదీర్ఘ సంవత్సరాలు కౌసల్య ఎదురుచూసింది. ప్రతి సాయంత్రం దీపం వెలిగించి "నా రాముడిని క్షేమంగా చూడు దేవా," అని ప్రార్థించేది. భరతుడు రాముడి పాదుకలను సింహాసనం మీద ఉంచి రాజ్యాన్ని చూసుకున్నాడు, రోజూ వచ్చి ఆమె పాదాలకు నమస్కరించేవాడు. ఋతువులు వచ్చాయి, వెళ్ళాయి, మళ్ళీ మళ్ళీ. చివరకు ఒక రోజు హనుమంతుడు సంతోషకరమైన వార్త తెచ్చాడు: "రాముడు తిరిగి వస్తున్నాడు!" నగరమంతా పూలతో, దీపాలతో అలంకరించారు. కౌసల్య గబగబా బయటకు వచ్చింది. పుష్పక విమానం దిగింది. రాముడు నేరుగా తల్లి దగ్గరకు పరుగెత్తి ఆమె పాదాలకు నమస్కరించాడు. కౌసల్య అతడి ముఖాన్ని చేతుల్లోకి తీసుకుని ఆనందబాష్పాలతో నవ్వింది. "నాయనా, ఇంటికి వచ్చేశావు."',
+      },
+    ],
+  },
 ];

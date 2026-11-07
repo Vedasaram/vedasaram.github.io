@@ -98,13 +98,13 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Sītā Is Found in the Furrow (Rāmāyaṇa) — sita-is-found-in-the-furrow
 - [x] Aśvatthāmā and the Jewel on His Forehead (Mahābhārata) — ashvatthama-and-the-jewel
 - [x] Rāma's Bridge Is Blessed — Rāmeśvaram (Rāmāyaṇa) — ramas-bridge-is-blessed-rameshvaram
+- [x] Ulūpī and Arjuna's Journey (Mahābhārata) — ulupi-and-arjunas-journey
+- [x] Hanumān Tests Arjuna's Arrow Bridge (Mahābhārata, folk tradition) — hanuman-tests-arjunas-arrow-bridge
+- [x] Kausalyā Waits for Rāma (Rāmāyaṇa) — kausalya-waits-for-rama
 
 ## Next
-- [ ] Ulūpī and Arjuna's Journey (Mahābhārata) — Ulūpī, Arjuna
-- [ ] Hanumān Tests Arjuna's Arrow Bridge (folk tradition) — Hanumān, Arjuna, Kṛṣṇa
 - [ ] Babhruvāhana Meets His Father (Mahābhārata) — Babhruvāhana, Arjuna, Citrāṅgadā
 - [ ] The Story of Satyavatī and Vyāsa's Birth (Mahābhārata) — Satyavatī, Parāśara, Vyāsa
-- [ ] Kauśalyā Waits for Rāma (Rāmāyaṇa) — Kausalyā
 - [ ] Kabandha, the Headless Giant (Rāmāyaṇa) — Kabandha, Rāma, Lakṣmaṇa
 - [ ] Droṇa's Childhood Friend Drupada (Mahābhārata) — Droṇa, Drupada
 - [ ] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — Agastya, Rāma
