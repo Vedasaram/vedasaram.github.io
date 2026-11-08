@@ -48,11 +48,15 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Harihara and Bukka (vijayanagara) — founding of Vijayanagara on the Tuṅgabhadrā; Vidyāraṇya tradition; Gaṅgādevī's Madhurāvijayam
 - [ ] Kṛṣṇadevarāya (krishnadevaraya) — Vijayanagara at its height; Raichur; Āmuktamālyada; the aṣṭadiggajas; Tenāli Rāmakṛṣṇa (mark folk tales); Domingos Paes and Nuniz
 - [ ] Rāṇā Sāṅgā (sanga) — Mewar's great warrior; Khanwa (1527); his wounds
 - [ ] Mahārāṇā Pratāp (pratap) — Haldīghāṭī (1576); Cetak; years in the hills; Bhāmāshāh; recovering Mewar
 - [ ] Chatrapati Śivājī (shivaji) — Jījābāī; Toraṇa and Rāyagaḍh; Afzal Khān at Pratāpgaḍh; Shāyista Khān; Āgrā and the escape; the coronation of 1674; the navy; the southern campaign
+- [ ] Rāṇā Kumbhā (kumbha) — Mewar's builder-king; Kumbhalgarh and the Vijaya Stambha at Chittor; wars with Malwa and Gujarat; the scholar of music (Saṅgītarāja); his death at his son's hand
+- [ ] Ahilyābāī Holkar (ahilya) — widowed young; ruling Malwa from Maheshwar; temple rebuilding across India (Kāśī Viśvanāth, 1780); justice and trade; John Malcolm's account
+- [ ] Amoghavarṣa I (amoghavarsha) — Rāṣṭrakūṭa boy-king; Mānyakheṭa; Kavirājamārga; Jain faith and Praśnottara Ratnamālikā; Arab travellers' praise
+- [ ] Mihira Bhoja (mihirabhoja) — Gurjara-Pratīhāra of Kanauj; Gwalior inscription; the Arab traveller Sulaymān; wars with Pālas and Rāṣṭrakūṭas
+- [ ] Rāṇī Lakṣmībāī (lakshmibai) — Manikarnika of Kāśī; Jhansi; the doctrine of lapse; 1857; the siege of Jhansi; Kalpi and Gwalior (1858)
 
 Add more when fewer than five remain: e.g. Puṣyamitra Śuṅga, Rudradāman's rival kings, Kumāragupta,
 Yaśodharman, Śaśāṅka, Mihira Bhoja, Dharmapāla, Amoghavarṣa I, Kṛṣṇa III, Vikramāditya VI, Hoysaḷa
@@ -76,3 +80,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Bhoja of Dhārā (bhoja) — 9 chapters — 2026-11-05
 - [x] Gaṇapatideva and Rudramadevī (kakatiya) — 9 chapters — 2026-11-06
 - [x] Pṛthvīrāja III Cauhān (prithviraj) — 9 chapters — 2026-11-07
+- [x] Harihara and Bukka (vijayanagara) — 8 chapters — 2026-11-08

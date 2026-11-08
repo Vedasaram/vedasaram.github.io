@@ -27,6 +27,7 @@
     ['bhoja', 'Bhoja', 'భోజరాజు', 'Paramāra · Dhārā · the scholar-king', 'పరమార · ధారా · పండిత రాజు', '📚', 'linear-gradient(160deg,#1a0a2a,#b07a3a)'],
     ['kakatiya', 'Rudramadevī', 'రుద్రమదేవి', 'Gaṇapatideva & Rudramadevī · Kākatīyas of Orugallu', 'గణపతిదేవుడు, రుద్రమదేవి · ఓరుగల్లు కాకతీయులు', '🏯', 'linear-gradient(160deg,#2a0a1a,#c0902a)'],
     ['prithviraj', 'Pṛthvīrāja', 'పృథ్వీరాజ్', 'Cauhān · Ajmer and Delhi · the battles of Tarāin', 'చౌహాన్ · అజ్మీర్, ఢిల్లీ · తరాయిన్ యుద్ధాలు', '🏹', 'linear-gradient(160deg,#1a0a0a,#b0602a)'],
+    ['vijayanagara', 'Harihara & Bukka', 'హరిహర బుక్కరాయలు', 'Saṅgama brothers · founders of Vijayanagara', 'సంగమ సోదరులు · విజయనగర స్థాపకులు', '🏛️', 'linear-gradient(160deg,#1a1206,#b08a3a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
