@@ -6217,7 +6217,18 @@ function render(){
   }).join('');
 
   // Saṅkalpam
+  // Place (dēśa): in India the traditional Jambūdvīpe…; elsewhere the form used by most Telugu priests abroad
+  const inIndia = loc.lat > 6 && loc.lat < 37.5 && loc.lon > 68 && loc.lon < 97.5;
+  const lc = x => x.toLowerCase();
+  const nk = N.nak[r.naks[0].idx], yg = N.yoga[r.yogas[0].idx], kr = N.karana[r.karanas[0].idx];
   const sank = [
+    ['mamōpātta samasta duritakṣaya dvārā śrī paramēśvara prītyarthaṃ,', 'మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం,'],
+    ['śubhē śōbhanē muhūrtē, śrī mahāviṣṇōrājñayā pravartamānasya,', 'శుభే శోభనే ముహూర్తే, శ్రీ మహావిష్ణోరాజ్ఞయా ప్రవర్తమానస్య,'],
+    ['adya brahmaṇaḥ dvitīya parārdhē, śvētavarāha kalpē,', 'అద్య బ్రహ్మణః ద్వితీయ పరార్ధే, శ్వేతవరాహ కల్పే,'],
+    ['vaivasvata manvantarē, kaliyugē prathama pādē,', 'వైవస్వత మన్వంతరే, కలియుగే ప్రథమ పాదే,'],
+    inIndia ? ['jambūdvīpē, bhāratavarṣē, bharatakhaṇḍē, mērōḥ dakṣiṇa digbhāgē,', 'జంబూద్వీపే, భారతవర్షే, భరతఖండే, మేరోః దక్షిణ దిగ్భాగే,']
+            : ['krauñcadvīpē, ramaṇakavarṣē, aindrakhaṇḍē,', 'క్రౌంచద్వీపే, రమణకవర్షే, ఐంద్రఖండే,'],
+    ['asmin vartamāna vyāvahārika cāndramānēna,', 'అస్మిన్ వర్తమాన వ్యావహారిక చాంద్రమానేన,'],
     [`śrī ${N.samvatsara[r.samvatsara][0].toLowerCase()} nāma saṃvatsarē`, `శ్రీ ${N.samvatsara[r.samvatsara][1]} నామ సంవత్సరే`],
     r.ayana ? ['dakṣiṇāyanē','దక్షిణాయనే'] : ['uttarāyaṇē','ఉత్తరాయణే'],
     N.rituLoc[r.ritu],
@@ -6225,6 +6236,8 @@ function render(){
     r.paksha ? ['kṛṣṇa pakṣē','కృష్ణ పక్షే'] : ['śukla pakṣē','శుక్ల పక్షే'],
     N.tithiLoc[r.tithiNameIdx],
     N.vasaraLoc[r.weekday],
+    [`${lc(nk[0])} nakṣatra yuktāyāṃ, ${lc(yg[0])} yōga, ${lc(kr[0])} karaṇa,`, `${nk[1]} నక్షత్ర యుక్తాయాం, ${yg[1]} యోగ, ${kr[1]} కరణ,`],
+    ['ēvaṃ guṇa viśēṣaṇa viśiṣṭāyāṃ, śubha tithau', 'ఏవం గుణ విశేషణ విశిష్టాయాం, శుభ తిథౌ'],
   ];
   $('tSank').innerHTML = dual(L.sank);
   $('sank').innerHTML = sank.map(p => `<p>${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('');
