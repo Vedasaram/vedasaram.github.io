@@ -1224,6 +1224,15 @@ body.hs-lock { overflow: hidden; }
 #view-panch .sank:before{content:'॥ ॐ ॥';position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--bg);color:var(--accent2);padding:0 10px;font-size:1rem;white-space:nowrap}
 #view-panch .sank p{margin:0;font-family:var(--serif);font-size:1.2rem;line-height:1.7}
 #view-panch .sank p .en{display:block;font-size:.85rem;line-height:1.3;color:var(--fg3);font-style:italic;margin-bottom:6px}
+#view-panch .sank p.sk-core{color:var(--accent);font-weight:600}
+#view-panch .sank p.sk-local{color:var(--fg2);font-size:1.05rem;font-style:italic;background:var(--tag-bg);padding:3px 8px;margin:0 -4px}
+#view-panch .sank p.sk-core + p.sk-local{border-radius:10px 10px 0 0;padding-top:7px;margin-top:4px}
+#view-panch .sank p.sk-local:has(+ p.sk-core){border-radius:0 0 10px 10px;padding-bottom:7px;margin-bottom:4px}
+#view-panch .sank p.sk-core + p.sk-local:has(+ p.sk-core){border-radius:10px}
+#view-panch .sank .sk-key{display:flex;justify-content:center;align-items:center;gap:6px;flex-wrap:wrap;margin-top:14px;font-size:.75rem;color:var(--fg3)}
+#view-panch .sank .sk-sw{width:12px;height:12px;border-radius:3px;display:inline-block;margin-left:8px}
+#view-panch .sank .sk-sw.core{background:var(--accent)}
+#view-panch .sank .sk-sw.local{background:var(--tag-bg);border:1px solid var(--border)}
 #view-panch .share{display:block;width:100%;margin-top:22px;padding:14px;border:none;border-radius:14px;background:var(--accent);color:var(--bg);font-weight:700;font-size:1rem;cursor:pointer}
 #view-panch .foot{font-size:.74rem;color:var(--fg3);text-align:center;margin-top:12px;line-height:1.5}
 </style>
@@ -6070,6 +6079,110 @@ const L = {
   until:['until','వరకు'], now:['now','ఇప్పుడు'], share:['Share this panchāṅgam','ఈ పంచాంగం పంపండి'],
   today:['Back to today','ఈ రోజుకు వెళ్ళండి'], useLoc:['📍 Use my location','📍 నా ప్రదేశం వాడండి'],
 };
+// ── Saṅkalpam place details: nearby mountains, ocean and river, worked out from the location ──
+// Rough outlines (lat, lon) of the main rivers, coasts and ranges where family and friends live.
+const SANK_GEO = (() => {
+  const rivers = [
+    // [Sanskrit genitive, Telugu genitive, points]
+    ['gaṅgāyāḥ','గంగాయాః',[[30.1,78.3],[29.95,78.16],[27.9,79.9],[26.45,80.35],[25.45,81.85],[25.3,83.0],[25.6,85.15],[25.2,87.0],[24.0,88.2],[22.6,88.35]]],
+    ['yamunāyāḥ','యమునాయాః',[[30.35,77.6],[28.6,77.25],[27.18,78.0],[26.5,79.3],[25.45,81.85]]],
+    ['gōdāvaryāḥ','గోదావర్యాః',[[19.95,73.8],[19.5,75.3],[18.8,77.5],[18.85,79.0],[18.0,80.6],[17.5,81.3],[17.0,81.78],[16.6,82.2]]],
+    ['kṛṣṇāyāḥ','కృష్ణాయాః',[[17.95,73.65],[16.85,74.6],[16.4,76.0],[16.3,77.4],[16.15,78.3],[16.08,78.9],[16.52,80.0],[16.5,80.62],[15.95,81.1]]],
+    ['tuṅgabhadrāyāḥ','తుంగభద్రాయాః',[[14.0,75.7],[15.3,76.3],[15.35,76.47],[15.9,78.05]]],
+    ['mūsī nadyāḥ','మూసీ నద్యాః',[[17.35,78.2],[17.37,78.48],[17.2,79.3],[16.9,79.85]]],
+    ['pinākinyāḥ','పినాకిన్యాః',[[13.6,77.6],[14.6,78.0],[14.45,79.0],[14.6,80.15]]],
+    ['kāvēryāḥ','కావేర్యాః',[[12.4,75.6],[12.42,76.7],[12.2,77.2],[11.6,77.8],[10.85,78.7],[11.1,79.8]]],
+    ['narmadāyāḥ','నర్మదాయాః',[[22.7,81.75],[23.15,79.95],[22.75,77.7],[22.2,76.1],[21.8,73.65],[21.65,72.9]]],
+    ['mahānadyāḥ','మహానద్యాః',[[20.5,82.0],[21.5,83.9],[20.5,85.85],[20.3,86.6]]],
+    ['brahmaputrasya','బ్రహ్మపుత్రస్య',[[27.8,95.5],[26.2,91.75],[25.9,89.9]]],
+    ['sābaramatyāḥ','సాబరమత్యాః',[[23.6,72.9],[23.03,72.58],[22.3,72.5]]],
+    ['tāpyāḥ','తాప్యాః',[[21.3,77.0],[21.2,74.5],[21.18,72.83]]],
+    ['vaigai nadyāḥ','వైగై నద్యాః',[[9.6,77.6],[9.93,78.12],[9.35,79.0]]],
+    ['Delaware nadyāḥ','డెలావేర్ నద్యాః',[[42.0,-75.3],[41.35,-74.7],[40.86,-75.08],[40.55,-75.06],[40.22,-74.77],[40.0,-75.05],[39.85,-75.25],[39.5,-75.55]]],
+    ['Raritan nadyāḥ','రారిటన్ నద్యాః',[[40.57,-74.69],[40.55,-74.55],[40.49,-74.45],[40.5,-74.3]]],
+    ['Musconetcong nadyāḥ','మస్కనెట్‌కాంగ్ నద్యాః',[[40.92,-74.68],[40.85,-74.8],[40.75,-74.95],[40.6,-75.15]]],
+    ['Hudson nadyāḥ','హడ్సన్ నద్యాః',[[43.3,-73.6],[42.65,-73.75],[42.1,-73.95],[41.5,-73.98],[41.0,-73.9],[40.7,-74.02]]],
+    ['Schuylkill nadyāḥ','స్కూకిల్ నద్యాః',[[40.7,-76.2],[40.3,-75.6],[40.0,-75.2],[39.9,-75.2]]],
+    ['Potomac nadyāḥ','పొటోమాక్ నద్యాః',[[39.6,-77.8],[39.3,-77.5],[38.95,-77.12],[38.85,-77.04],[38.4,-77.0],[38.0,-76.4]]],
+    ['Susquehanna nadyāḥ','సస్క్వెహానా నద్యాః',[[42.0,-75.9],[41.2,-76.4],[40.25,-76.9],[39.55,-76.1]]],
+    ['Connecticut nadyāḥ','కనెక్టికట్ నద్యాః',[[44.5,-72.0],[43.0,-72.45],[42.1,-72.6],[41.75,-72.65],[41.3,-72.35]]],
+    ['Charles nadyāḥ','చార్లెస్ నద్యాః',[[42.25,-71.35],[42.36,-71.2],[42.37,-71.07]]],
+    ['Mississippi nadyāḥ','మిసిసిపి నద్యాః',[[47.2,-95.2],[45.0,-93.25],[43.0,-91.2],[41.5,-90.6],[38.6,-90.18],[37.0,-89.15],[35.15,-90.05],[32.3,-90.9],[30.45,-91.2],[29.95,-90.07],[29.2,-89.3]]],
+    ['Missouri nadyāḥ','మిస్సోరి నద్యాః',[[47.5,-111.3],[46.8,-100.8],[42.5,-96.4],[41.25,-95.92],[39.1,-94.6],[38.6,-91.0],[38.8,-90.12]]],
+    ['Ohio nadyāḥ','ఒహాయో నద్యాః',[[40.45,-80.0],[39.4,-81.45],[38.4,-82.6],[39.1,-84.5],[38.25,-85.75],[37.0,-89.15]]],
+    ['Chattahoochee nadyāḥ','చట్టహూచీ నద్యాః',[[34.6,-83.75],[34.0,-84.3],[33.85,-84.45],[33.4,-84.9],[32.45,-84.98],[30.7,-84.85]]],
+    ['Trinity nadyāḥ','ట్రినిటీ నద్యాః',[[33.2,-97.1],[32.78,-96.85],[32.0,-96.0],[30.8,-95.0],[29.75,-94.7]]],
+    ['Rio Grande nadyāḥ','రియో గ్రాండే నద్యాః',[[37.7,-106.6],[35.1,-106.68],[32.3,-106.8],[31.75,-106.45],[29.5,-104.3],[29.8,-101.4],[27.5,-99.5],[25.95,-97.15]]],
+    ['Colorado nadyāḥ','కొలరాడో నద్యాః',[[40.1,-105.9],[39.1,-108.5],[38.2,-109.9],[36.9,-111.5],[36.1,-114.4],[34.5,-114.4],[32.7,-114.7]]],
+    ['Sacramento nadyāḥ','శాక్రమెంటో నద్యాః',[[40.6,-122.4],[39.7,-121.95],[38.58,-121.5],[38.05,-121.8]]],
+    ['Columbia nadyāḥ','కొలంబియా నద్యాః',[[49.0,-117.6],[46.2,-119.1],[45.6,-121.2],[45.6,-122.6],[46.2,-123.9]]],
+    ['Sammamish nadyāḥ','సమ్మామిష్ నద్యాః',[[47.58,-122.09],[47.66,-122.12],[47.73,-122.16],[47.76,-122.21],[47.757,-122.25]]],
+  ];
+  const seas = [
+    ['Atlantic mahāsāgarasya','అట్లాంటిక్ మహాసాగరస్య',[[44.8,-66.95],[43.6,-70.2],[42.36,-71.0],[41.5,-71.3],[41.0,-72.5],[40.6,-73.8],[40.2,-74.0],[39.4,-74.4],[38.9,-74.9],[38.3,-75.1],[36.9,-75.98],[35.2,-75.5],[34.2,-77.8],[32.8,-79.9],[32.0,-80.85],[30.3,-81.4],[28.4,-80.6],[26.7,-80.03],[25.77,-80.13]],['paścima','పశ్చిమ']],
+    ['praśānta mahāsāgarasya','ప్రశాంత మహాసాగరస్య',[[48.4,-124.7],[47.0,-124.2],[46.2,-124.0],[44.6,-124.07],[42.0,-124.2],[40.4,-124.4],[38.3,-123.0],[37.8,-122.5],[36.6,-121.9],[35.4,-120.9],[34.4,-119.7],[34.0,-118.5],[33.7,-118.3],[32.7,-117.2]],['pūrva','పూర్వ']],
+    ['pūrva samudrasya','పూర్వ సముద్రస్య',[[21.6,87.5],[20.25,86.7],[19.3,84.9],[18.3,84.0],[17.68,83.3],[16.9,82.25],[16.0,81.1],[15.4,80.1],[14.4,80.15],[13.08,80.29],[11.9,79.83],[10.75,79.85],[10.3,79.3]],['paścima','పశ్చిమ']],
+    ['paścima samudrasya','పశ్చిమ సముద్రస్య',[[23.0,68.6],[21.6,69.6],[20.9,70.4],[19.0,72.8],[17.0,73.3],[15.4,73.8],[14.0,74.5],[12.9,74.8],[11.25,75.77],[9.95,76.26],[8.5,76.95],[8.08,77.55]],['pūrva','పూర్వ']],
+  ];
+  const ranges = [
+    ['Appalachian parvatānāṃ','అపలాచియన్ పర్వతానాం',[[34.5,-84.5],[36.0,-82.0],[37.5,-80.5],[39.5,-78.5],[40.8,-76.5],[41.5,-75.0],[42.2,-74.2],[44.0,-72.8],[45.0,-71.0]],350],
+    ['Rocky parvatānāṃ','రాకీ పర్వతానాం',[[49.0,-114.0],[47.0,-113.0],[45.0,-110.5],[43.0,-109.5],[40.5,-106.0],[39.0,-106.0],[37.0,-105.5],[35.7,-105.8]],350],
+    ['Cascade parvatānāṃ','క్యాస్కేడ్ పర్వతానాం',[[49.0,-121.5],[47.4,-121.4],[46.2,-121.5],[44.4,-121.8],[42.5,-122.2],[41.4,-122.2]],250],
+  ];
+  const R = 6371, rad = Math.PI / 180;
+  // nearest point on a polyline (flat-earth projection is fine at these distances)
+  function nearest(lat, lon, pts) {
+    const k = Math.cos(lat * rad), P = ([a, b]) => [b * k * rad * R, a * rad * R], q = P([lat, lon]);
+    let best = { d: Infinity };
+    for (let i = 0; i < pts.length - 1; i++) {
+      const a = P(pts[i]), b = P(pts[i + 1]), dx = b[0] - a[0], dy = b[1] - a[1];
+      const t = Math.max(0, Math.min(1, ((q[0] - a[0]) * dx + (q[1] - a[1]) * dy) / (dx * dx + dy * dy || 1)));
+      const x = a[0] + t * dx, y = a[1] + t * dy, d = Math.hypot(q[0] - x, q[1] - y);
+      if (d < best.d) best = { d, ex: q[0] - x, ny: q[1] - y };
+    }
+    return best;   // d in km; (ex, ny) = how far east / north the place is from that point
+  }
+  const DIR8 = [['uttara','ఉత్తర'],['īśānya','ఈశాన్య'],['pūrva','పూర్వ'],['āgnēya','ఆగ్నేయ'],['dakṣiṇa','దక్షిణ'],['nairṛti','నైరృతి'],['paścima','పశ్చిమ'],['vāyavya','వాయవ్య']];
+  const dir = (ex, ny, n) => { const b = (Math.atan2(ex, ny) / rad + 360) % 360; return n === 8 ? DIR8[Math.round(b / 45) % 8] : DIR8[(Math.round(b / 90) % 4) * 2]; };
+  const latOf = (pts, lon) => {            // a river's latitude where it crosses this longitude (for "between" tests)
+    for (let i = 0; i < pts.length - 1; i++) {
+      const [a1, o1] = pts[i], [a2, o2] = pts[i + 1];
+      if ((lon - o1) * (lon - o2) <= 0 && o1 !== o2) return a1 + (a2 - a1) * (lon - o1) / (o2 - o1);
+    }
+    return null;
+  };
+  return function (lat, lon) {
+    const lines = [];
+    const telugu = lat > 12.6 && lat < 19.95 && lon > 76.75 && lon < 84.8;
+    const india = lat > 6 && lat < 37.5 && lon > 68 && lon < 97.5;
+    // Mountain
+    if (telugu) {
+      const n = nearest(lat, lon, [[16.07, 78.87], [16.0701, 78.8701]]), d = dir(n.ex, n.ny, 8);
+      if (n.d > 15) lines.push([`śrīśailasya ${d[0]} pradēśē,`, `శ్రీశైలస్య ${d[1]} ప్రదేశే,`]);
+    } else if (india) {
+      lines.push(lat < 22.8 ? ['vindhyasya dakṣiṇa digbhāgē,', 'వింధ్యస్య దక్షిణ దిగ్భాగే,'] : ['vindhyasya uttara digbhāgē,', 'వింధ్యస్య ఉత్తర దిగ్భాగే,']);
+    } else {
+      let best = null;
+      for (const [sa, te, pts, max] of ranges) { const n = nearest(lat, lon, pts); if (n.d < max && (!best || n.d < best.n.d)) best = { sa, te, n }; }
+      if (best) { const d = dir(best.n.ex, best.n.ny, 8); lines.push([`${best.sa} ${d[0]} digbhāgē,`, `${best.te} ${d[1]} దిగ్భాగే,`]); }
+    }
+    // Ocean
+    let sea = null;
+    for (const [sa, te, pts, side] of seas) { const n = nearest(lat, lon, pts); if (n.d < 200 && (!sea || n.d < sea.n.d)) sea = { sa, te, n, side }; }
+    if (sea) { const d = sea.side; lines.push([`${sea.sa} ${d[0]} tīrē,`, `${sea.te} ${d[1]} తీరే,`]); }
+    // River: Kṛṣṇā–Godāvarī country is named the traditional way; elsewhere the nearest river within 50 km
+    const kr = latOf(rivers[3][2], lon), gd = latOf(rivers[2][2], lon);
+    if (telugu && kr !== null && gd !== null && lat > kr && lat < gd) {
+      lines.push(['kṛṣṇā gōdāvaryōḥ madhya pradēśē,', 'కృష్ణా గోదావర్యోః మధ్య ప్రదేశే,']);
+    } else {
+      let riv = null;
+      for (const [sa, te, pts] of rivers) { const n = nearest(lat, lon, pts); if (n.d < 50 && (!riv || n.d < riv.n.d)) riv = { sa, te, n }; }
+      if (riv) { const d = dir(riv.n.ex, riv.n.ny, 4); lines.push([`${riv.sa} ${d[0]} tīrē,`, `${riv.te} ${d[1]} తీరే,`]); }
+    }
+    return lines;
+  };
+})();
+
 const PRESETS = [
   {name:'East Windsor, NJ',   lat:40.2626, lon:-74.5254,  tz:'America/New_York'},
   {name:'Old Bridge, NJ',     lat:40.4140, lon:-74.3654,  tz:'America/New_York'},
@@ -6228,6 +6341,7 @@ function render(){
     ['vaivasvata manvantarē, kaliyugē prathama pādē,', 'వైవస్వత మన్వంతరే, కలియుగే ప్రథమ పాదే,'],
     inIndia ? ['jambūdvīpē, bhāratavarṣē, bharatakhaṇḍē, mērōḥ dakṣiṇa digbhāgē,', 'జంబూద్వీపే, భారతవర్షే, భరతఖండే, మేరోః దక్షిణ దిగ్భాగే,']
             : ['krauñcadvīpē, ramaṇakavarṣē, aindrakhaṇḍē,', 'క్రౌంచద్వీపే, రమణకవర్షే, ఐంద్రఖండే,'],
+    ...SANK_GEO(loc.lat, loc.lon).map(x => Object.assign(x, { local: true })),
     ['asmin vartamāna vyāvahārika cāndramānēna,', 'అస్మిన్ వర్తమాన వ్యావహారిక చాంద్రమానేన,'],
     [`śrī ${N.samvatsara[r.samvatsara][0].toLowerCase()} nāma saṃvatsarē`, `శ్రీ ${N.samvatsara[r.samvatsara][1]} నామ సంవత్సరే`],
     r.ayana ? ['dakṣiṇāyanē','దక్షిణాయనే'] : ['uttarāyaṇē','ఉత్తరాయణే'],
@@ -6240,7 +6354,8 @@ function render(){
     ['ēvaṃ guṇa viśēṣaṇa viśiṣṭāyāṃ, śubha tithau', 'ఏవం గుణ విశేషణ విశిష్టాయాం, శుభ తిథౌ'],
   ];
   $('tSank').innerHTML = dual(L.sank);
-  $('sank').innerHTML = sank.map(p => `<p>${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('');
+  $('sank').innerHTML = sank.map(p => `<p class="${p.local ? 'sk-local' : 'sk-core'}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('')
+    + (sank.some(p => p.local) ? `<div class="sk-key"><span class="sk-sw core"></span>${pick(['Traditional saṅkalpam','సంప్రదాయ సంకల్పం'])}<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}</div>` : '');
 
   $('share').textContent = pick(L.share);
   $('foot').textContent = `${loc.name}, local time. ⁺¹ means the next morning (after midnight, before the next sunrise) · ⁺¹ = మరుసటి రోజు తెల్లవారుజాము.`;
