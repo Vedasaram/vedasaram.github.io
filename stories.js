@@ -2406,4 +2406,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'babhruvahana-meets-his-father',
+    added: '2026-11-08',
+    epic: 'Mahabharata',
+    chars: ['Babhruvāhana', 'Arjuna', 'Citrāṅgadā', 'Ulūpī'],
+    title: { en: 'Babhruvāhana Meets His Father', te: 'తండ్రిని కలిసిన బభ్రువాహనుడు' },
+    moral: { en: 'Respect and courage go together — and love can heal every wound.', te: 'గౌరవం, ధైర్యం కలిసే ఉంటాయి — ప్రేమ ప్రతి గాయాన్నీ మాన్పుతుంది.' },
+    cover: { bg: 'palace', props: [['horse', 80, 198, 1], ['archer', 190, 198, 1.4, { crown: true }], ['person', 300, 198, 1.4, { crown: true, cloth: '#a83a3a' }], ['cloud', 340, 40, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['horse', 70, 198, 0.95], ['archer', 155, 198, 1.35, { crown: true }], ['person', 255, 198, 1.35, { crown: true, cloth: '#a83a3a', raise: true }], ['flowers', 315, 198, 1], ['pot', 355, 198, 0.8]] },
+        en: 'After the great war, King Yudhiṣṭhira performed a grand horse sacrifice. A beautiful horse was set free to wander from kingdom to kingdom, and Arjuna followed it with his bow, Gāṇḍīva. Wherever it went, kings either welcomed it or fought for it. At last the horse trotted into Maṇipura. The young king there was Babhruvāhana — Arjuna\'s own son, born to Princess Citrāṅgadā long ago, when Arjuna had passed that way on his travels. Babhruvāhana had never seen his father. Overjoyed, he came out of the city gates with his head bowed, carrying flowers, jewels and gifts. "Welcome, Father!" he said.',
+        te: 'కురుక్షేత్ర యుద్ధం ముగిసిన తరువాత ధర్మరాజు గొప్ప అశ్వమేధ యాగం చేశాడు. ఒక అందమైన గుర్రాన్ని రాజ్యం నుండి రాజ్యానికి స్వేచ్ఛగా తిరగడానికి వదిలారు. అర్జునుడు తన గాండీవ ధనుస్సుతో దాని వెంట వెళ్ళాడు. గుర్రం వెళ్ళిన చోటల్లా రాజులు దానికి స్వాగతం పలికారు, లేదా దాని కోసం యుద్ధం చేశారు. చివరకు గుర్రం మణిపురం చేరింది. అక్కడి రాజు బభ్రువాహనుడు — అర్జునుడి సొంత కొడుకే! చాలా కాలం క్రితం అర్జునుడు తీర్థయాత్రలో ఆ దారిన వెళ్ళినప్పుడు చిత్రాంగదకు పుట్టిన బిడ్డ. బభ్రువాహనుడు తండ్రిని ఎప్పుడూ చూడలేదు. ఎంతో సంతోషంతో, తల వంచుకుని, పూలు, నగలు, కానుకలు పట్టుకుని నగర ద్వారం బయటకు వచ్చాడు. "నాన్నగారూ, స్వాగతం!" అన్నాడు.',
+      },
+      {
+        scene: { bg: 'forest', props: [['archer', 95, 198, 1.35, { crown: true }], ['arrow', 200, 95, 1], ['person', 200, 198, 1.05, { female: true, skin: 'fair', cloth: '#2a8a7a', pallu: '#9ad0c0' }], ['archer', 305, 198, 1.35, { crown: true, cloth: '#a83a3a', flip: true }]] },
+        en: 'But Arjuna frowned. "I come guarding this horse as a warrior," he said. "A true kṣatriya does not meet a warrior with gifts. He meets him with his bow! Are you my son, or are you afraid?" Babhruvāhana\'s face fell. Just then Ulūpī, the Nāga princess who was also Arjuna\'s wife, rose up out of the earth. "Child," she said kindly, "your father wants to see your courage. Fight him — it is your duty." So Babhruvāhana put on his armour and rode out. What a battle it was! Father and son shot arrow after arrow, and Arjuna smiled with pride at his son\'s skill. But at last one of Babhruvāhana\'s arrows struck Arjuna, and the great archer fell to the ground and lay still. Babhruvāhana fainted with grief beside him.',
+        te: 'కానీ అర్జునుడు ముఖం చిట్లించాడు. "నేను ఈ గుర్రాన్ని కాపాడే యోధుడిగా వచ్చాను," అన్నాడు. "నిజమైన క్షత్రియుడు యోధుడిని కానుకలతో కాదు, విల్లుతో ఎదుర్కొంటాడు! నువ్వు నా కొడుకువేనా, లేక భయపడుతున్నావా?" బభ్రువాహనుడి ముఖం వాడిపోయింది. అప్పుడే అర్జునుడి భార్య అయిన నాగకన్య ఉలూపి భూమిలో నుండి పైకి వచ్చింది. "నాయనా," అని ప్రేమగా అంది, "మీ నాన్నగారు నీ ధైర్యం చూడాలనుకుంటున్నారు. ఆయనతో యుద్ధం చెయ్యి — అది నీ ధర్మం." అందుకే బభ్రువాహనుడు కవచం ధరించి యుద్ధానికి బయలుదేరాడు. ఎంత గొప్ప యుద్ధమో! తండ్రీ కొడుకులు బాణం మీద బాణం వేశారు. కొడుకు నైపుణ్యం చూసి అర్జునుడు గర్వంగా నవ్వాడు. కానీ చివరకు బభ్రువాహనుడి బాణం ఒకటి అర్జునుడికి తగిలింది. ఆ గొప్ప విలుకాడు నేల మీద పడి కదలకుండా ఉండిపోయాడు. బభ్రువాహనుడు దుఃఖంతో ఆయన పక్కనే స్పృహ తప్పి పడిపోయాడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 100, 198, 1.3, { female: true, skin: 'fair', cloth: '#2a8a7a', pallu: '#9ad0c0', raise: true }], ['glow', 195, 198, 0.95], ['archer', 195, 198, 1.35, { crown: true }], ['person', 290, 198, 1.3, { female: true, cloth: '#c0392b', pallu: '#f0c040' }], ['person', 350, 198, 1.2, { crown: true, cloth: '#a83a3a' }]] },
+        en: 'Queen Citrāṅgadā came running and wept. "Ulūpī, you told my son to fight. Now bring his father back!" But Ulūpī was calm. She held up a glowing jewel — the magic Sañjīvanī gem of the Nāgas. She placed it on Arjuna\'s chest, and slowly he opened his eyes, as if waking from a deep sleep. Babhruvāhana woke too and fell at his father\'s feet. Then Ulūpī explained. "In the war, Arjuna brought down grandfather Bhīṣma while hiding behind Śikhaṇḍin. For that, Bhīṣma\'s brothers, the Vasus, declared that one day he must fall at his own son\'s hand. Now that debt is paid." Arjuna hugged his brave son. "You are truly my child," he said, and he invited them all to the great sacrifice in Hastināpura.',
+        te: 'రాణి చిత్రాంగద పరుగెత్తుకుంటూ వచ్చి ఏడ్చింది. "ఉలూపీ, నువ్వే నా కొడుకును యుద్ధం చేయమన్నావు. ఇప్పుడు వాడి తండ్రిని తిరిగి తీసుకురా!" ఉలూపి మాత్రం ప్రశాంతంగా ఉంది. ఆమె మెరిసిపోతున్న ఒక మణిని పైకి ఎత్తింది — అది నాగుల దగ్గర ఉండే సంజీవని మణి. దాన్ని అర్జునుడి గుండె మీద ఉంచింది. గాఢ నిద్ర నుండి లేచినట్లుగా అర్జునుడు నెమ్మదిగా కళ్ళు తెరిచాడు. బభ్రువాహనుడికి కూడా స్పృహ వచ్చి, తండ్రి పాదాల మీద పడ్డాడు. అప్పుడు ఉలూపి అసలు సంగతి చెప్పింది. "యుద్ధంలో అర్జునుడు శిఖండిని ముందు పెట్టుకుని తాత భీష్ముడిని పడగొట్టాడు. అందుకు భీష్ముడి సోదరులైన వసువులు, ఒక రోజు అర్జునుడు తన కొడుకు చేతిలోనే పడాలని శపించారు. ఇప్పుడు ఆ శాపం తీరిపోయింది." అర్జునుడు తన ధీరుడైన కొడుకును కౌగిలించుకున్నాడు. "నువ్వు నిజంగా నా బిడ్డవే," అన్నాడు. హస్తినాపురంలో జరిగే యాగానికి అందరినీ ఆహ్వానించాడు.',
+      },
+    ],
+  },
+  {
+    id: 'satyavati-and-vyasas-birth',
+    added: '2026-11-08',
+    epic: 'Mahabharata',
+    chars: ['Satyavatī', 'Parāśara', 'Vyāsa'],
+    title: { en: 'Satyavatī and the Birth of Vyāsa', te: 'సత్యవతి — వ్యాసుడి జననం' },
+    moral: { en: 'Great souls can come from the humblest places.', te: 'గొప్పవాళ్ళు ఎంత సామాన్యమైన చోటి నుండైనా రావచ్చు.' },
+    cover: { bg: 'river', props: [['sun', 350, 50, 0.9], ['person', 195, 200, 0.95, { female: true, cloth: '#3a6ab0', pallu: '#f0c040' }], ['boat', 205, 212, 1.4], ['lotus', 70, 212, 0.8], ['cloud', 90, 50, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'river', props: [['person', 80, 190, 1.2, { cloth: '#a8622a' }], ['person', 225, 200, 0.95, { female: true, cloth: '#3a6ab0', pallu: '#f0c040' }], ['boat', 235, 212, 1.4], ['bird', 330, 70, 0.9], ['cloud', 150, 45, 0.9]] },
+        en: 'Long ago, on the banks of the river Yamunā, lived the chief of the fishermen and his daughter, Satyavatī. She was kind and hard-working. Every day she rowed a little boat, carrying travellers across the wide river. But one thing made her sad. Her body always smelled of fish, so people called her Matsyagandhī — "the girl who smells of fish." Some travellers wrinkled their noses and turned away. Satyavatī did not complain. She kept rowing with a smile, helping everyone who came down to the riverbank.',
+        te: 'చాలా కాలం క్రితం యమునా నది ఒడ్డున బెస్తవారి నాయకుడు, అతని కూతురు సత్యవతి ఉండేవారు. సత్యవతి మంచి మనసున్న అమ్మాయి, కష్టపడి పనిచేసేది. రోజూ ఒక చిన్న పడవ నడుపుతూ ప్రయాణికులను వెడల్పైన నదికి ఆవలి ఒడ్డుకు చేర్చేది. కానీ ఆమెను బాధపెట్టే విషయం ఒకటి ఉండేది. ఆమె ఒంటి నుండి ఎప్పుడూ చేపల వాసన వచ్చేది. అందుకే అందరూ ఆమెను మత్స్యగంధి — "చేపల వాసన గల అమ్మాయి" — అని పిలిచేవారు. కొందరు ప్రయాణికులు ముక్కు ముడుచుకుని ముఖం తిప్పుకునేవారు. అయినా సత్యవతి ఎవరినీ నిందించలేదు. చిరునవ్వుతో పడవ నడుపుతూ, నది ఒడ్డుకు వచ్చిన ప్రతి ఒక్కరికీ సహాయం చేస్తూనే ఉంది.',
+      },
+      {
+        scene: { bg: 'river', props: [['person', 180, 200, 0.95, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['person', 228, 200, 0.95, { female: true, cloth: '#3a6ab0', pallu: '#f0c040' }], ['boat', 205, 212, 1.6], ['flowers', 60, 182, 1], ['flowers', 345, 180, 1], ['cloud', 300, 45, 0.9]] },
+        en: 'One day a great sage named Parāśara came to the river. "Please take me across, child," he said. Satyavatī helped him into the boat and rowed gently through the water. The sage saw her goodness and was pleased. "You have served me well," he said. "I give you two blessings. From today your body will carry the sweet smell of flowers, so lovely that it will be noticed a yojana away. And you will have a son who will be wiser than anyone in the world." At once a beautiful fragrance spread over the river. From then on people called her Yojanagandhā — "she whose fragrance travels far."',
+        te: 'ఒక రోజు పరాశరుడు అనే గొప్ప మహర్షి నది దగ్గరకు వచ్చాడు. "అమ్మాయీ, నన్ను ఆవలి ఒడ్డుకు చేర్చు," అన్నాడు. సత్యవతి ఆయనను పడవలోకి ఎక్కించుకుని నెమ్మదిగా తెడ్డు వేసింది. ఆమె మంచితనం చూసి మహర్షి సంతోషించాడు. "నువ్వు నాకు చక్కగా సేవ చేశావు," అన్నాడు. "నీకు రెండు వరాలు ఇస్తున్నాను. ఈ రోజు నుండి నీ శరీరం పువ్వుల సువాసనతో నిండి ఉంటుంది — ఒక యోజనం దూరం వరకు ఆ పరిమళం తెలుస్తుంది. అంతే కాదు, లోకంలో అందరికంటే జ్ఞానవంతుడైన కొడుకు నీకు పుడతాడు." వెంటనే నది మీద అంతటా మధురమైన సువాసన వ్యాపించింది. అప్పటి నుండి అందరూ ఆమెను యోజనగంధి — "దూరం వరకు పరిమళం వ్యాపించేది" — అని పిలిచారు.',
+      },
+      {
+        scene: { bg: 'river', props: [['tree', 50, 190, 0.9], ['person', 150, 190, 1.3, { female: true, cloth: '#3a6ab0', pallu: '#f0c040' }], ['person', 240, 190, 1.2, { skin: 'dark', cloth: '#f4ead2', raise: true }], ['hut', 340, 188, 0.8], ['sun', 360, 40, 0.7]] },
+        en: 'By the sage\'s blessing, a baby boy was born to Satyavatī on a little island in the middle of the Yamunā. He was dark like a rain cloud, so he was named Kṛṣṇa, and because he was born on an island, he was called Dvaipāyana. It is said that this wonder-child grew up almost at once! He touched his mother\'s feet. "Mother, I must go to the forest to pray and learn. But whenever you need me, just think of me, and I will come." Satyavatī blessed him with tears of joy. That boy became the great sage Vyāsa, who divided the Vedas into four and gave the world the Mahābhārata.',
+        te: 'మహర్షి వరం వల్ల, యమునా నది మధ్యలో ఉన్న ఒక చిన్న దీవిలో సత్యవతికి ఒక మగబిడ్డ పుట్టాడు. ఆ బిడ్డ వాన మబ్బులా నల్లగా ఉన్నాడు, అందుకే కృష్ణుడు అని పేరు పెట్టారు. ద్వీపంలో పుట్టాడు కాబట్టి ద్వైపాయనుడు అని కూడా పిలిచారు. ఆ అద్భుత బాలుడు పుట్టిన వెంటనే పెద్దవాడైపోయాడని చెబుతారు! అతడు తల్లి పాదాలకు నమస్కరించాడు. "అమ్మా, నేను తపస్సు చేయడానికి, విద్య నేర్చుకోవడానికి అడవికి వెళ్ళాలి. కానీ నీకు నా అవసరం ఎప్పుడు వచ్చినా, ఒక్కసారి నన్ను తలచుకో, వెంటనే వస్తాను." సత్యవతి ఆనందబాష్పాలతో అతడిని దీవించింది. ఆ బాలుడే వేదాలను నాలుగుగా విభజించి, లోకానికి మహాభారతాన్ని అందించిన మహర్షి వేదవ్యాసుడు.',
+      },
+    ],
+  },
+  {
+    id: 'kabandha-the-headless-giant',
+    added: '2026-11-08',
+    epic: 'Ramayana',
+    chars: ['Kabandha', 'Rāma', 'Lakṣmaṇa'],
+    title: { en: 'Kabandha, the Headless Giant', te: 'తల లేని రాక్షసుడు కబంధుడు' },
+    moral: { en: 'Stay calm and brave in danger — and kindness can free even a monster.', te: 'ఆపదలో శాంతంగా, ధైర్యంగా ఉండాలి — దయ రాక్షసుడికైనా విముక్తి ఇస్తుంది.' },
+    cover: { bg: 'forest', props: [['tree', 40, 198, 0.9], ['archer', 110, 198, 1.3, { skin: 'blue', cloth: '#f0c040' }], ['kabandha', 270, 198, 1.4]] },
+    pages: [
+      {
+        scene: { bg: 'forest', props: [['tree', 40, 198, 1], ['person', 115, 198, 1.3, { skin: 'blue', cloth: '#f0c040' }], ['person', 170, 198, 1.25, { skin: 'fair', cloth: '#e0703a', raise: true }], ['kabandha', 275, 198, 1.4]] },
+        en: 'After saying goodbye to the brave bird Jaṭāyu, Rāma and Lakṣmaṇa walked deep into a dark, thick forest, searching for Sītā. The trees grew close together, and strange sounds echoed all around. Suddenly they came face to face with a terrible giant. He had no head and no neck! His face was in the middle of his huge belly, with one fiery eye on his chest and a wide mouth full of sharp teeth. His two arms were so long they could reach for miles. Before the brothers could move, the long arms grabbed them both. "Ha!" roared the giant. "Two tasty little men for my dinner!"',
+        te: 'సాహసి అయిన జటాయువుకు వీడ్కోలు చెప్పిన తరువాత, రాముడు, లక్ష్మణుడు సీతాదేవిని వెతుకుతూ చీకటిగా, దట్టంగా ఉన్న ఒక అడవిలోకి వెళ్ళారు. చెట్లు దగ్గర దగ్గరగా ఉన్నాయి, చుట్టూ వింత వింత శబ్దాలు వినిపిస్తున్నాయి. హఠాత్తుగా వారి ఎదుట ఒక భయంకరమైన రాక్షసుడు నిలబడ్డాడు. వాడికి తల లేదు, మెడ లేదు! వాడి ముఖం పెద్ద పొట్ట మధ్యలో ఉంది. ఛాతీ మీద మంటలా మెరిసే ఒకే ఒక కన్ను, పదునైన పళ్ళతో వెడల్పైన నోరు. వాడి రెండు చేతులూ ఎంత పొడవంటే, ఆమడ దూరం వరకు అందుతాయి. అన్నదమ్ములు కదిలేలోపే ఆ పొడవాటి చేతులు ఇద్దరినీ పట్టేసుకున్నాయి. "హహ్హా!" అని గర్జించాడు రాక్షసుడు. "ఈ రోజు భోజనానికి ఇద్దరు చిన్న మనుషులు దొరికారు!"',
+      },
+      {
+        scene: { bg: 'forest', props: [['archer', 100, 198, 1.3, { skin: 'blue', cloth: '#f0c040' }], ['archer', 165, 198, 1.25, { skin: 'fair', cloth: '#e0703a' }], ['kabandha', 290, 198, 1.2], ['tree', 375, 198, 0.9]] },
+        en: 'Lakṣmaṇa cried out, "Brother, save yourself! Let him take me instead!" But Rāma stayed calm. "Do not be afraid, Lakṣmaṇa. All his strength is in his arms. Let us cut them off together." Quick as lightning, Rāma drew his sword and cut off the giant\'s right arm, and Lakṣmaṇa cut off his left. The giant crashed to the ground with a great thud. But instead of being angry, he looked happy! "Who are you, noble heroes?" he asked. When he heard the name Rāma, tears filled his one big eye. "At last! I have waited so long for you."',
+        te: 'లక్ష్మణుడు "అన్నయ్యా, నువ్వు తప్పించుకో! నిన్ను వదిలి వాడు నన్ను తీసుకుపోనీ!" అని అరిచాడు. కానీ రాముడు ప్రశాంతంగా ఉన్నాడు. "భయపడకు లక్ష్మణా. వీడి బలమంతా ఈ చేతుల్లోనే ఉంది. ఇద్దరం కలిసి వాటిని నరికేద్దాం." మెరుపు వేగంతో రాముడు కత్తి దూసి రాక్షసుడి కుడి చేతిని నరికాడు, లక్ష్మణుడు ఎడమ చేతిని నరికాడు. ఆ రాక్షసుడు ధడాలున నేల మీద పడ్డాడు. కానీ కోపపడకుండా వాడు సంతోషించాడు! "మహావీరులారా, మీరెవరు?" అని అడిగాడు. రాముడి పేరు వినగానే వాడి పెద్ద కంటిలో నీళ్ళు తిరిగాయి. "చివరకు వచ్చారా! మీ కోసం ఎంతో కాలంగా ఎదురుచూస్తున్నాను."',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 90, 198, 1.3, { skin: 'blue', cloth: '#f0c040' }], ['fire', 200, 198, 1.3], ['glow', 200, 110, 1.1], ['chariot', 200, 100, 1], ['person', 310, 198, 1.25, { skin: 'fair', cloth: '#e0703a' }], ['cloud', 340, 40, 0.8]] },
+        en: '"My name is Kabandha," he said. "Once I was handsome and strong, but I loved to frighten the sages by taking this ugly shape. A sage cursed me to stay this way. Then I foolishly fought Indra, and his thunderbolt pushed my head down into my body. Indra said I would be free only when Rāma cut off my arms. Now please light a fire for me, as is proper, and I shall be free." The brothers did so. From the flames rose a shining being in bright clothes, seated in a heavenly chariot. "Go to Lake Pampā," he said. "There lives Sugrīva, the monkey prince. Make friends with him — he will help you find Sītā." And he flew up into the sky.',
+        te: '"నా పేరు కబంధుడు," అన్నాడు వాడు. "ఒకప్పుడు నేను అందంగా, బలంగా ఉండేవాడిని. కానీ ఈ వికార రూపం ధరించి మునులను భయపెట్టడం నాకు సరదాగా ఉండేది. ఒక ముని నేను ఎప్పటికీ ఇలాగే ఉండిపోవాలని శపించాడు. తరువాత తెలివితక్కువగా ఇంద్రుడితో యుద్ధానికి దిగాను. ఆయన వజ్రాయుధం దెబ్బకు నా తల నా శరీరంలోకి దిగిపోయింది. రాముడు నా చేతులు నరికినప్పుడే నాకు విముక్తి కలుగుతుందని ఇంద్రుడు చెప్పాడు. ఇప్పుడు శాస్త్ర ప్రకారం నా కోసం అగ్ని వెలిగించండి, నాకు విముక్తి కలుగుతుంది." అన్నదమ్ములు అలాగే చేశారు. ఆ మంటల్లో నుండి మెరిసే బట్టలు ధరించిన ఒక దివ్యపురుషుడు దివ్య విమానంలో కూర్చుని పైకి లేచాడు. "పంపా సరస్సు దగ్గరకు వెళ్ళండి," అన్నాడు. "అక్కడ వానర వీరుడు సుగ్రీవుడు ఉంటాడు. అతనితో స్నేహం చేయండి — సీతాదేవిని వెతకడంలో అతడు మీకు సహాయం చేస్తాడు." అని చెప్పి ఆకాశంలోకి ఎగిరిపోయాడు.',
+      },
+    ],
+  },
 ];

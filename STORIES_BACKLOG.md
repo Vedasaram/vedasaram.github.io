@@ -101,11 +101,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Ulūpī and Arjuna's Journey (Mahābhārata) — ulupi-and-arjunas-journey
 - [x] Hanumān Tests Arjuna's Arrow Bridge (Mahābhārata, folk tradition) — hanuman-tests-arjunas-arrow-bridge
 - [x] Kausalyā Waits for Rāma (Rāmāyaṇa) — kausalya-waits-for-rama
+- [x] Babhruvāhana Meets His Father (Mahābhārata) — babhruvahana-meets-his-father
+- [x] Satyavatī and the Birth of Vyāsa (Mahābhārata) — satyavati-and-vyasas-birth
+- [x] Kabandha, the Headless Giant (Rāmāyaṇa) — kabandha-the-headless-giant
 
 ## Next
-- [ ] Babhruvāhana Meets His Father (Mahābhārata) — Babhruvāhana, Arjuna, Citrāṅgadā
-- [ ] The Story of Satyavatī and Vyāsa's Birth (Mahābhārata) — Satyavatī, Parāśara, Vyāsa
-- [ ] Kabandha, the Headless Giant (Rāmāyaṇa) — Kabandha, Rāma, Lakṣmaṇa
 - [ ] Droṇa's Childhood Friend Drupada (Mahābhārata) — Droṇa, Drupada
 - [ ] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — Agastya, Rāma
 - [ ] Bhīma and the Poisoned Sweets (Mahābhārata) — Bhīma, Duryodhana, Vāsuki
