@@ -45,6 +45,7 @@
     ['aruni', 'Uddālaka Āruṇi', 'ఉద్దాలక ఆరుణి', 'Who taught “You are That”', '“తత్త్వమసి” బోధించిన గురువు', '🧂', 'linear-gradient(160deg,#2a1a0a,#c0a060)'],
     ['jaimini', 'Jaimini', 'జైమిని', 'Keeper of the Sāmaveda, founder of Mīmāṃsā', 'సామవేద సంరక్షకుడు, మీమాంసా సూత్రకర్త', '🎶', 'linear-gradient(160deg,#1a1a3a,#6a6ab0)'],
     ['garga', 'Garga', 'గర్గాచార్యుడు', 'Who named Kṛṣṇa and Balarāma', 'కృష్ణ బలరాములకు పేరు పెట్టిన ముని', '⭐', 'linear-gradient(160deg,#0a1a2a,#4a7aa0)'],
+    ['shandilya', 'Śāṇḍilya', 'శాండిల్యుడు', 'Who said “All this is Brahman”', '“సర్వం ఖల్విదం బ్రహ్మ” అన్న మహర్షి', '🌾', 'linear-gradient(160deg,#2a2a0a,#a09a3a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
