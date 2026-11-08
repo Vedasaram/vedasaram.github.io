@@ -1233,6 +1233,29 @@ body.hs-lock { overflow: hidden; }
 #view-panch .sank .sk-sw{width:12px;height:12px;border-radius:3px;display:inline-block;margin-left:8px}
 #view-panch .sank .sk-sw.core{background:var(--accent)}
 #view-panch .sank .sk-sw.local{background:var(--tag-bg);border:1px solid var(--border)}
+#view-panch .sank p.sk-mine{color:var(--accent2);font-weight:600;border-left:3px solid var(--accent2);padding-left:10px;margin:2px 0;text-align:center}
+#view-panch .sank .sk-sw.mine{background:var(--accent2)}
+#view-panch .sank .gt-btn{display:inline-block;margin:0 auto 14px;border:1px solid var(--border);background:var(--bg);color:var(--accent);font:600 .9rem/1 inherit;font-family:inherit;padding:10px 14px;border-radius:20px;cursor:pointer}
+.gt-ov{display:none;position:fixed;inset:0;z-index:210;background:rgba(0,0,0,.5);align-items:flex-end;justify-content:center}
+.gt-ov.open{display:flex}
+.gt-sheet{background:var(--bg);width:100%;max-width:520px;height:86vh;height:86dvh;border-radius:22px 22px 0 0;display:flex;flex-direction:column;animation:sheetUp .25s ease;box-shadow:0 -6px 36px rgba(0,0,0,.3)}
+.gt-head{display:flex;align-items:center;justify-content:space-between;padding:16px 16px 10px;color:var(--fg);font-size:1.05rem}
+.gt-x{border:0;background:var(--accent);color:var(--bg);font:700 .88rem/1 inherit;font-family:inherit;padding:9px 16px;border-radius:18px;cursor:pointer}
+.gt-q{margin:0 16px 10px;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:var(--card-bg);color:var(--fg);font-size:1rem;font-family:inherit;outline:none}
+.gt-q:focus{border-color:var(--accent)}
+.gt-list{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:0 16px calc(20px + env(safe-area-inset-bottom,0px))}
+.gt-item{background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:12px 14px;margin-bottom:10px;cursor:pointer}
+.gt-item.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.gt-name{font-size:1.05rem;font-weight:700;color:var(--fg);display:flex;align-items:baseline;gap:8px}
+.gt-name small{font-weight:500;color:var(--fg3);font-size:.8rem}
+.gt-tick{margin-left:auto;color:var(--accent)}
+.gt-pv{margin-top:8px;padding:8px 10px;border-radius:10px;background:var(--bg);font-size:.9rem;color:var(--fg2);line-height:1.6}
+.gt-pv.on{background:var(--tag-bg);color:var(--fg)}
+.gt-n{display:block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--fg3)}
+.gt-r i{font-style:normal;color:var(--fg3);font-size:.8em;margin-left:3px}
+.gt-r.link{color:var(--accent);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:pointer}
+.gt-dot{margin:0 6px;color:var(--fg3)}
+.gt-none{color:var(--fg3);text-align:center;padding:30px 10px}
 #view-panch .share{display:block;width:100%;margin-top:22px;padding:14px;border:none;border-radius:14px;background:var(--accent);color:var(--bg);font-weight:700;font-size:1rem;cursor:pointer}
 #view-panch .foot{font-size:.74rem;color:var(--fg3);text-align:center;margin-top:12px;line-height:1.5}
 </style>
@@ -6251,6 +6274,116 @@ const ICONS = {
   karana:'<svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>',
 };
 
+// ── Gōtram & pravara (for the saṅkalpam). Pravaras as given in the traditional
+//    pravara lists (Baudhāyana / Āpastamba pravarādhyāyas as used by Telugu families);
+//    where families follow different forms, each form is offered.
+const RSI = {   // pravara ṛṣi → [IAST, Telugu, Great Sages key if a life story exists]
+  angirasa:['Āṅgirasa','ఆంగీరస','angiras'], barhaspatya:['Bārhaspatya','బార్హస్పత్య','brihaspati'], bharadvaja:['Bhāradvāja','భారద్వాజ','bharadvaja'],
+  kashyapa:['Kāśyapa','కాశ్యప','kashyapa'], avatsara:['Āvatsāra','ఆవత్సార'], naidhruva:['Naidhruva','నైధ్రువ'], daivala:['Daivala','దైవల'], asita:['Asita','అసిత'],
+  shandilya:['Śāṇḍilya','శాండిల్య','shandilya'], raibhya:['Raibhya','రైభ్య'],
+  vasishtha:['Vāsiṣṭha','వాసిష్ఠ','vasishtha'], maitravaruna:['Maitrāvaruṇa','మైత్రావరుణ'], kaundinya:['Kauṇḍinya','కౌండిన్య'],
+  shaktya:['Śāktya','శాక్త్య'], parasharya:['Pārāśarya','పారాశర్య'], aindrapramada:['Aindrapramada','ఐంద్రప్రమద'], abharadvasavya:['Ābharadvasavya','ఆభరద్వసవ్య'],
+  bhargava:['Bhārgava','భార్గవ','bhrigu'], cyavana:['Cyāvana','చ్యావన','cyavana'], apnavana:['Āpnavāna','ఆప్నవాన'], aurva:['Aurva','ఔర్వ'], jamadagnya:['Jāmadagnya','జామదగ్న్య','jamadagni'],
+  vaitahavya:['Vaitahavya','వైతహవ్య'], savetasa:['Sāvetasa','సావేతస'], shaunahotra:['Śaunahotra','శౌనహోత్ర'], gartsamada:['Gārtsamada','గార్త్సమద'],
+  atreya:['Ātreya','ఆత్రేయ','atri'], archananasa:['Ārcanānasa','ఆర్చనానస'], shyavashva:['Śyāvāśva','శ్యావాశ్వ'],
+  vaishvamitra:['Vaiśvāmitra','వైశ్వామిత్ర','vishvamitra'], aghamarshana:['Āghamarṣaṇa','ఆఘమర్షణ'], kaushika:['Kauśika','కౌశిక'], devarata:['Dēvarāta','దేవరాత'], audala:['Audala','ఔదల'],
+  madhucchandasa:['Mādhucchandasa','మాధుచ్ఛందస'], dhananjaya:['Dhānañjaya','ధానంజయ'], katya:['Kātya','కాత్య'], atkila:['Ātkila','ఆత్కీల'], kalabodhana:['Kālabōdhana','కాలబోధన'],
+  ayasya:['Āyāsya','ఆయాస్య'], gautama:['Gautama','గౌతమ','gautama'], ambarisha:['Ambarīṣa','అంబరీష'], yauvanashva:['Yauvanāśva','యౌవనాశ్వ'],
+  bharmyashva:['Bhārmyaśva','భార్మ్యశ్వ'], maudgalya:['Maudgalya','మౌద్గల్య'], tarkshya:['Tārkṣya','తార్క్ష్య'],
+  mandhatra:['Māndhātra','మాంధాత్ర'], kautsa:['Kautsa','కౌత్స'], paurukutsa:['Paurukutsa','పౌరుకుత్స'], trasadasyava:['Trāsadasyava','త్రాసదస్యవ'],
+  amahiyava:['Āmahīyava','ఆమహీయవ'], aurukshaya:['Aurukṣaya','ఔరుక్షయ'],
+  ajamidha:['Ājamīḍha','ఆజమీఢ'], kanva:['Kāṇva','కాణ్వ','kanva'], agastya:['Āgastya','ఆగస్త్య','agastya'], dardhacyuta:['Dārḍhacyuta','దార్ఢచ్యుత'], saumavaha:['Saumavāha','సౌమవాహ'],
+  shainya:['Śainya','శైన్య'], gargya:['Gārgya','గార్గ్య','garga'], parshadashva:['Pārṣadaśva','పార్షదశ్వ'], rathitara:['Rāthītara','రాథీతర'], vairupa:['Vairūpa','వైరూప'],
+  gaurivita:['Gaurivīta','గౌరివీత'], sankritya:['Sāṅkṛtya','సాంకృత్య'],
+};
+const GOTRAS = [   // [IAST, Telugu, other spellings for search, pravara forms]
+  ['Svatantra Kapisa','స్వతంత్ర కపిస','swatantra swathantra svatantra kapisa kapi kapila kapisasa',[['angirasa','amahiyava','aurukshaya']]],
+  ['Bhāradvāja','భారద్వాజ','bharadwaj bharadwaja bharadvaja bharadwajasa',[['angirasa','barhaspatya','bharadvaja']]],
+  ['Kāśyapa','కాశ్యప','kashyap kasyapa kashyapa naidhruva kasyapasa',[['kashyapa','avatsara','naidhruva'],['kashyapa','avatsara','daivala']]],
+  ['Śāṇḍilya','శాండిల్య','sandilya shandilya sandilyasa',[['kashyapa','avatsara','shandilya'],['kashyapa','daivala','asita']]],
+  ['Raibhya','రైభ్య','raibhya rebha',[['kashyapa','avatsara','raibhya']]],
+  ['Vasiṣṭha','వసిష్ఠ','vasishta vashishta vasista vasishtha',[['vasishtha'],['vasishtha','aindrapramada','abharadvasavya']]],
+  ['Kauṇḍinya','కౌండిన్య','kaundinya koundinya kaundinyasa',[['vasishtha','maitravaruna','kaundinya']]],
+  ['Parāśara','పరాశర','parasara parashara',[['vasishtha','shaktya','parasharya']]],
+  ['Upamanyu','ఉపమన్యు','upamanyu',[['vasishtha','aindrapramada','abharadvasavya']]],
+  ['Kapiñjala','కపింజల','kapinjala',[['vasishtha','aindrapramada','abharadvasavya']]],
+  ['Śrīvatsa','శ్రీవత్స','srivatsa sreevatsa vatsa srivatsasa jamadagni',[['bhargava','cyavana','apnavana','aurva','jamadagnya']]],
+  ['Sāvarṇa','సావర్ణ','savarna savarni',[['bhargava','cyavana','apnavana','aurva','jamadagnya']]],
+  ['Vādhūla','వాధూల','vadhula vathula vadula vadhulasa',[['bhargava','vaitahavya','savetasa']]],
+  ['Mauna Bhārgava','మౌన భార్గవ','mauna bhargava mounabhargava',[['bhargava','vaitahavya','savetasa']]],
+  ['Śaunaka','శౌనక','saunaka shaunaka gritsamada',[['bhargava','shaunahotra','gartsamada']]],
+  ['Ātrēya','ఆత్రేయ','atreya athreya atri',[['atreya','archananasa','shyavashva']]],
+  ['Kauśika','కౌశిక','kausika kaushika kowsika',[['vaishvamitra','aghamarshana','kaushika']]],
+  ['Viśvāmitra','విశ్వామిత్ర','viswamitra vishwamitra visvamitra',[['vaishvamitra','devarata','audala']]],
+  ['Śālaṅkāyana','శాలంకాయన','salankayana',[['vaishvamitra','aghamarshana','devarata']]],
+  ['Sāṅkhyāyana','సాంఖ్యాయన','sankhyayana',[['vaishvamitra','aghamarshana','devarata']]],
+  ['Kālabōdhana','కాలబోధన','kalabodhana kalabhavasa',[['vaishvamitra','aghamarshana','kalabodhana']]],
+  ['Dhanañjaya','ధనంజయ','dhananjaya',[['vaishvamitra','madhucchandasa','dhananjaya']]],
+  ['Kātyāyana','కాత్యాయన','katyayana',[['vaishvamitra','katya','atkila']]],
+  ['Gautama','గౌతమ','gautama gowtama goutama gautamasa',[['angirasa','ayasya','gautama']]],
+  ['Hārita','హరిత','harita haritasa haritha',[['angirasa','ambarisha','yauvanashva']]],
+  ['Maudgalya','మౌద్గల్య','maudgalya moudgalya mudgala',[['angirasa','bharmyashva','maudgalya'],['tarkshya','bharmyashva','maudgalya']]],
+  ['Kutsa','కుత్స','kutsa koutsa kautsa',[['angirasa','mandhatra','kautsa']]],
+  ['Śaṭhamarṣaṇa','శఠమర్షణ','sathamarshana shatamarshana',[['angirasa','paurukutsa','trasadasyava']]],
+  ['Viṣṇuvṛddha','విష్ణువృద్ధ','vishnuvriddha vishnuvardhana',[['angirasa','paurukutsa','trasadasyava']]],
+  ['Kāṇva','కాణ్వ','kanva kanwa',[['angirasa','ajamidha','kanva']]],
+  ['Agastya','అగస్త్య','agastya agasthya',[['agastya','dardhacyuta','saumavaha']]],
+  ['Gārgya','గార్గ్య','gargya gargi garga',[['angirasa','barhaspatya','bharadvaja','shainya','gargya'],['angirasa','shainya','gargya']]],
+  ['Bādarāyaṇa','బాదరాయణ','badarayana',[['angirasa','parshadashva','rathitara']]],
+  ['Rāthītara','రాథీతర','rathitara rathitarasa',[['angirasa','vairupa','parshadashva']]],
+  ['Saṅkṛti','సంకృతి','sankriti sankruti sankritya',[['angirasa','gaurivita','sankritya']]],
+];
+const ARSHEYA = { 1:['ēkārṣēya','ఏకార్షేయ'], 2:['dvyārṣēya','ద్వ్యార్షేయ'], 3:['trayārṣēya','త్రయార్షేయ'], 5:['pañcārṣēya','పంచార్షేయ'], 7:['saptārṣēya','సప్తార్షేయ'] };
+const gotraNorm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-zఀ-౿ ]/g, '');
+let myGotra = store.get('vedic_gotra', null);   // { i: index in GOTRAS, v: pravara form }
+const gotraSel = () => (myGotra && GOTRAS[myGotra.i]) ? { g: GOTRAS[myGotra.i], p: GOTRAS[myGotra.i][3][myGotra.v || 0] || GOTRAS[myGotra.i][3][0] } : null;
+function gotraLines() {
+  const s = gotraSel(); if (!s) return [];
+  const n = ARSHEYA[s.p.length] || ARSHEYA[3];
+  return [
+    [`${s.p.map(k => RSI[k][0].toLowerCase()).join(' ')} ${n[0]} pravarānvita,`, `${s.p.map(k => RSI[k][1]).join(' ')} ${n[1]} ప్రవరాన్విత,`],
+    [`${s.g[0].toLowerCase()} gōtrōdbhavasya,`, `${s.g[1]} గోత్రోద్భవస్య,`],
+  ];
+}
+function openGotra() {
+  let ov = document.getElementById('pn-gotra-ov');
+  if (!ov) {
+    ov = document.createElement('div'); ov.id = 'pn-gotra-ov'; ov.className = 'gt-ov';
+    ov.addEventListener('click', e => { if (e.target === ov) closeGotra(); });
+    document.body.appendChild(ov);
+  }
+  ov.innerHTML = `<div class="gt-sheet" role="dialog" aria-label="Gotram">
+    <div class="gt-head"><b>${pick(['Choose your gōtram','మీ గోత్రం ఎంచుకోండి'])}</b><button class="gt-x" onclick="closeGotra()">${pick(['Done','సరే'])}</button></div>
+    <input class="gt-q" id="pn-gt-q" type="search" placeholder="${pick(['Search gōtram — e.g. Kapisa, Bharadwaja','గోత్రం వెతకండి — ఉదా. కపిస, భారద్వాజ'])}" autocomplete="off">
+    <div class="gt-list" id="pn-gt-list"></div></div>`;
+  ov.classList.add('open');
+  const q = document.getElementById('pn-gt-q');
+  q.addEventListener('input', () => drawGotraList(q.value));
+  drawGotraList('');
+}
+function drawGotraList(q) {
+  const n = gotraNorm(q.trim());
+  const list = GOTRAS.map((g, i) => ({ g, i })).filter(({ g }) => !n || gotraNorm(g[0] + ' ' + g[1] + ' ' + g[2]).includes(n));
+  const sel = myGotra ? myGotra.i : -1;
+  const rsi = k => { const r = RSI[k]; const nm = lang === 'en' ? r[0] : lang === 'te' ? r[1] : `${r[1]} <i>${r[0]}</i>`;
+    return r[2] ? `<a class="gt-r link" onclick="event.stopPropagation();closeGotra();openSage('${r[2]}')">${nm}</a>` : `<span class="gt-r">${nm}</span>`; };
+  document.getElementById('pn-gt-list').innerHTML = list.length ? list.map(({ g, i }) => `
+    <div class="gt-item${i === sel ? ' on' : ''}" onclick="pickGotra(${i},0)">
+      <div class="gt-name">${lang === 'en' ? g[0] : g[1]}${lang === 'both' ? `<small>${g[0]}</small>` : ''}${i === sel ? '<span class="gt-tick">✓</span>' : ''}</div>
+      ${g[3].map((p, v) => `<div class="gt-pv${i === sel && (myGotra.v || 0) === v ? ' on' : ''}" onclick="event.stopPropagation();pickGotra(${i},${v})">
+        <span class="gt-n">${pick(ARSHEYA[p.length] || ARSHEYA[3])}${g[3].length > 1 ? ` · ${pick(['form','విధం'])} ${v + 1}` : ''}</span>${p.map(rsi).join('<span class="gt-dot">·</span>')}</div>`).join('')}
+    </div>`).join('') : `<p class="gt-none">${pick(['Not in the list yet — tell us your gōtram and its pravara and it will be added.','ఈ జాబితాలో ఇంకా లేదు — మీ గోత్రం, ప్రవర తెలియజేయండి, చేర్చబడుతుంది.'])}</p>`;
+  if (myGotra && !n) { const on = document.querySelector('#pn-gt-list .gt-item.on'); if (on) on.scrollIntoView({ block: 'center' }); }
+}
+function pickGotra(i, v) {
+  myGotra = (myGotra && myGotra.i === i && (myGotra.v || 0) === v) ? null : { i, v };
+  store.set('vedic_gotra', myGotra);
+  drawGotraList(document.getElementById('pn-gt-q').value);
+  render();
+}
+function closeGotra() { const ov = document.getElementById('pn-gotra-ov'); if (ov) ov.classList.remove('open'); }
+window.openGotra = openGotra; window.closeGotra = closeGotra; window.pickGotra = pickGotra;
+
 function render(){
   lang = settings.language || 'both';
   const y = cur.getUTCFullYear(), mo = cur.getUTCMonth(), dd = cur.getUTCDate();
@@ -6351,11 +6484,14 @@ function render(){
     N.tithiLoc[r.tithiNameIdx],
     N.vasaraLoc[r.weekday],
     [`${lc(nk[0])} nakṣatra yuktāyāṃ, ${lc(yg[0])} yōga, ${lc(kr[0])} karaṇa,`, `${nk[1]} నక్షత్ర యుక్తాయాం, ${yg[1]} యోగ, ${kr[1]} కరణ,`],
-    ['ēvaṃ guṇa viśēṣaṇa viśiṣṭāyāṃ, śubha tithau', 'ఏవం గుణ విశేషణ విశిష్టాయాం, శుభ తిథౌ'],
+    ['ēvaṃ guṇa viśēṣaṇa viśiṣṭāyāṃ, śubha tithau,', 'ఏవం గుణ విశేషణ విశిష్టాయాం, శుభ తిథౌ,'],
+    ...gotraLines().map(x => Object.assign(x, { mine: true })),
   ];
   $('tSank').innerHTML = dual(L.sank);
-  $('sank').innerHTML = sank.map(p => `<p class="${p.local ? 'sk-local' : 'sk-core'}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('')
-    + (sank.some(p => p.local) ? `<div class="sk-key"><span class="sk-sw core"></span>${pick(['Traditional saṅkalpam','సంప్రదాయ సంకల్పం'])}<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}</div>` : '');
+  const gs = gotraSel();
+  $('sank').innerHTML = `<button class="gt-btn" onclick="openGotra()">🕉 ${gs ? `${pick(['Gōtram','గోత్రం'])}: <b>${pick([gs.g[0], gs.g[1]])}</b>` : pick(['Add your gōtram & pravara','మీ గోత్రం, ప్రవర చేర్చండి'])} ▾</button>`
+    + sank.map(p => `<p class="${p.mine ? 'sk-mine' : p.local ? 'sk-local' : 'sk-core'}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('')
+    + (sank.some(p => p.local || p.mine) ? `<div class="sk-key"><span class="sk-sw core"></span>${pick(['Traditional saṅkalpam','సంప్రదాయ సంకల్పం'])}<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}${gs ? `<span class="sk-sw mine"></span>${pick(['Your gōtram','మీ గోత్రం'])}` : ''}</div>` : '');
 
   $('share').textContent = pick(L.share);
   $('foot').textContent = `${loc.name}, local time. ⁺¹ means the next morning (after midnight, before the next sunrise) · ⁺¹ = మరుసటి రోజు తెల్లవారుజాము.`;
