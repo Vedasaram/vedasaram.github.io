@@ -1268,6 +1268,22 @@ body.hs-lock { overflow: hidden; }
 .gt-r.link{color:var(--accent);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:pointer}
 .gt-dot{margin:0 6px;color:var(--fg3)}
 .gt-none{color:var(--fg3);text-align:center;padding:30px 10px}
+#view-panch .sank .sk-mode{display:inline-flex;background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:3px;gap:2px;margin:0 6px 12px}
+#view-panch .sank .sk-mode button{border:0;background:none;color:var(--fg2);font:600 .88rem/1 inherit;font-family:inherit;padding:9px 16px;border-radius:9px;cursor:pointer}
+#view-panch .sank .sk-mode button.on{background:var(--accent);color:var(--bg)}
+.gt-own{font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent2);background:var(--tag-bg);padding:3px 7px;border-radius:8px;align-self:center}
+.gt-acts{display:flex;gap:8px;margin-top:8px}
+.gt-acts button{border:1px solid var(--border);background:var(--bg);color:var(--fg2);font:600 .8rem/1 inherit;font-family:inherit;padding:7px 10px;border-radius:9px;cursor:pointer}
+.gt-add{display:block;width:100%;margin:4px 0 12px;padding:14px;border:1.5px dashed var(--accent);border-radius:14px;background:none;color:var(--accent);font:700 .95rem/1 inherit;font-family:inherit;cursor:pointer}
+.gt-form{background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.gt-ftitle{font-weight:700;color:var(--fg);font-size:1.05rem}
+.gt-form label{display:flex;flex-direction:column;gap:5px;font-size:.78rem;font-weight:600;color:var(--fg2)}
+.gt-form input,.gt-form textarea{font:500 1rem/1.4 inherit;font-family:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:10px;outline:none;resize:vertical}
+.gt-form input:focus,.gt-form textarea:focus{border-color:var(--accent)}
+.gt-fnote{font-size:.76rem;color:var(--fg3);margin:0}
+.gt-fbtns{display:flex;gap:10px;justify-content:flex-end}
+.gt-fbtns button{border:1px solid var(--border);background:var(--bg);color:var(--fg2);font:700 .9rem/1 inherit;font-family:inherit;padding:11px 18px;border-radius:12px;cursor:pointer}
+.gt-fbtns button.pri{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 #view-panch .share{display:block;width:100%;margin-top:22px;padding:14px;border:none;border-radius:14px;background:var(--accent);color:var(--bg);font-weight:700;font-size:1rem;cursor:pointer}
 #view-panch .foot{font-size:.74rem;color:var(--fg3);text-align:center;margin-top:12px;line-height:1.5}
 </style>
@@ -6347,15 +6363,36 @@ const GOTRAS = [   // [IAST, Telugu, other spellings for search, pravara forms]
   ['Rāthītara','రాథీతర','rathitara rathitarasa',[['angirasa','vairupa','parshadashva']]],
   ['Saṅkṛti','సంకృతి','sankriti sankruti sankritya',[['angirasa','gaurivita','sankritya']]],
 ];
-const ARSHEYA = { 1:['ēkārṣēya','ఏకార్షేయ'], 2:['dvyārṣēya','ద్వ్యార్షేయ'], 3:['trayārṣēya','త్రయార్షేయ'], 5:['pañcārṣēya','పంచార్షేయ'], 7:['saptārṣēya','సప్తార్షేయ'] };
+const ARSHEYA = { 1:['ēkārṣēya','ఏకార్షేయ'], 2:['dvyārṣēya','ద్వ్యార్షేయ'], 3:['trayārṣēya','త్రయార్షేయ'], 4:['caturārṣēya','చతురార్షేయ'], 5:['pañcārṣēya','పంచార్షేయ'], 6:['ṣaḍārṣēya','షడార్షేయ'], 7:['saptārṣēya','సప్తార్షేయ'] };
 const gotraNorm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-zఀ-౿ ]/g, '');
 let myGotra = store.get('vedic_gotra', null);   // { i: index in GOTRAS, v: pravara form }
-const gotraSel = () => (myGotra && GOTRAS[myGotra.i]) ? { g: GOTRAS[myGotra.i], p: GOTRAS[myGotra.i][3][myGotra.v || 0] || GOTRAS[myGotra.i][3][0] } : null;
+// Gōtrams people add themselves (saved on their phone only). Each: { id, name, te, rsis: [en…], rsisTe: [te…] }
+let myGotras = store.get('vedic_gotra_custom', []);
+const RSI_BY_NAME = {};
+const rsiKey = t => gotraNorm(t).replace(/\s+/g, '').replace(/o[uw]/g, 'au').replace(/h/g, '').replace(/w/g, 'v').replace(/(.)\1+/g, '$1').replace(/a$/, '');
+Object.keys(RSI).forEach(k => { RSI_BY_NAME[rsiKey(RSI[k][0])] = RSI[k]; RSI_BY_NAME[rsiKey(k)] = RSI[k]; });
+function customRsi(c) {   // ṛṣis of a custom gōtram as [IAST, Telugu, sage key]
+  return c.rsis.map((en, j) => {
+    const known = RSI_BY_NAME[rsiKey(en)];
+    const te = (c.rsisTe || [])[j] || (known ? known[1] : en);
+    return [known ? known[0] : en, te, known ? (known[2] || '') : ''];
+  });
+}
+const gotraSel = () => {
+  if (!myGotra) return null;
+  if (myGotra.c) {
+    const c = myGotras.find(x => x.id === myGotra.c); if (!c) return null;
+    return { g: [c.name, c.te || c.name], r: customRsi(c) };
+  }
+  const g = GOTRAS[myGotra.i]; if (!g) return null;
+  const p = g[3][myGotra.v || 0] || g[3][0];
+  return { g, r: p.map(k => RSI[k]) };
+};
 function gotraLines() {
   const s = gotraSel(); if (!s) return [];
-  const n = ARSHEYA[s.p.length] || ARSHEYA[3];
+  const n = ARSHEYA[s.r.length] || ['', ''];
   return [
-    [`${s.p.map(k => RSI[k][0].toLowerCase()).join(' ')} ${n[0]} pravarānvita,`, `${s.p.map(k => RSI[k][1]).join(' ')} ${n[1]} ప్రవరాన్విత,`],
+    [`${s.r.map(r => r[0].toLowerCase()).join(' ')} ${n[0]} pravarānvita,`, `${s.r.map(r => r[1]).join(' ')} ${n[1]} ప్రవరాన్విత,`],
     [`${s.g[0].toLowerCase()} gōtrōdbhavasya,`, `${s.g[1]} గోత్రోద్భవస్య,`],
   ];
 }
@@ -6364,12 +6401,12 @@ const SAKHAS = [['kṛṣṇa yajuś','కృష్ణ యజుః'],['śukla y
 const TITLES = [['śarmā','శర్మా'],['varmā','వర్మా'],['guptā','గుప్తా'],['dāsaḥ','దాసః']];
 function abhivadanamLines() {
   const s = gotraSel(); if (!s) return null;
-  const m = myGotra, n = ARSHEYA[s.p.length] || ARSHEYA[3];
+  const m = myGotra, n = ARSHEYA[s.r.length] || ['', ''];
   const su = SUTRAS[m.su || 0], sk = SAKHAS[m.sk || 0], ti = TITLES[m.ti || 0], nm = (m.name || '').trim();
   return [
     ['catussāgara paryantaṃ', 'చతుస్సాగర పర్యంతం'],
     ['gō brāhmaṇēbhyaḥ śubhaṃ bhavatu', 'గో బ్రాహ్మణేభ్యః శుభం భవతు'],
-    ...s.p.map(k => Object.assign([RSI[k][0].toLowerCase(), RSI[k][1]], { sage: RSI[k][2] || '' })),
+    ...s.r.map(r => Object.assign([r[0].toLowerCase(), r[1]], { sage: r[2] || '' })),
     [`${n[0]} pravarānvita`, `${n[1]} ప్రవరాన్విత`],
     [`${s.g[0].toLowerCase()} gōtraḥ`, `${s.g[1]} గోత్రః`],
     [`${su[0]} sūtraḥ`, `${su[1]} సూత్రః`],
@@ -6411,26 +6448,83 @@ function drawGotraList(q) {
   drawGotraOpts();
   const n = gotraNorm(q.trim());
   const list = GOTRAS.map((g, i) => ({ g, i })).filter(({ g }) => !n || gotraNorm(g[0] + ' ' + g[1] + ' ' + g[2]).includes(n));
-  const sel = myGotra ? myGotra.i : -1;
-  const rsi = k => { const r = RSI[k]; const nm = lang === 'en' ? r[0] : lang === 'te' ? r[1] : `${r[1]} <i>${r[0]}</i>`;
+  const mine = myGotras.filter(c => !n || gotraNorm(c.name + ' ' + (c.te || '') + ' ' + c.rsis.join(' ')).includes(n));
+  const sel = myGotra && !myGotra.c ? myGotra.i : -1, selC = myGotra && myGotra.c;
+  const rsiHtml = r => { const nm = lang === 'en' ? r[0] : lang === 'te' ? r[1] : (r[1] !== r[0] ? `${r[1]} <i>${r[0]}</i>` : r[0]);
     return r[2] ? `<a class="gt-r link" onclick="event.stopPropagation();closeGotra();openSage('${r[2]}')">${nm}</a>` : `<span class="gt-r">${nm}</span>`; };
-  document.getElementById('pn-gt-list').innerHTML = list.length ? list.map(({ g, i }) => `
+  const nameHtml = (en, te) => `${lang === 'en' ? en : te}${lang === 'both' && te !== en ? `<small>${en}</small>` : ''}`;
+  const count = k => (ARSHEYA[k] ? pick(ARSHEYA[k]) : `${k} ${pick(['ṛṣis','ఋషులు'])}`);
+  const custom = mine.map(c => { const r = customRsi(c), on = c.id === selC; return `
+    <div class="gt-item${on ? ' on' : ''}" onclick="pickMyGotra('${c.id}')">
+      <div class="gt-name">${nameHtml(c.name, c.te || c.name)}<span class="gt-own">${pick(['Added by you','మీరు చేర్చినది'])}</span>${on ? '<span class="gt-tick">✓</span>' : ''}</div>
+      <div class="gt-pv${on ? ' on' : ''}"><span class="gt-n">${count(r.length)}</span>${r.map(rsiHtml).join('<span class="gt-dot">·</span>')}</div>
+      <div class="gt-acts"><button onclick="event.stopPropagation();gotraForm('${c.id}')">✎ ${pick(['Edit','మార్చు'])}</button><button onclick="event.stopPropagation();deleteMyGotra('${c.id}')">🗑 ${pick(['Delete','తొలగించు'])}</button></div>
+    </div>`; }).join('');
+  const base = list.map(({ g, i }) => `
     <div class="gt-item${i === sel ? ' on' : ''}" onclick="pickGotra(${i},0)">
-      <div class="gt-name">${lang === 'en' ? g[0] : g[1]}${lang === 'both' ? `<small>${g[0]}</small>` : ''}${i === sel ? '<span class="gt-tick">✓</span>' : ''}</div>
+      <div class="gt-name">${nameHtml(g[0], g[1])}${i === sel ? '<span class="gt-tick">✓</span>' : ''}</div>
       ${g[3].map((p, v) => `<div class="gt-pv${i === sel && (myGotra.v || 0) === v ? ' on' : ''}" onclick="event.stopPropagation();pickGotra(${i},${v})">
-        <span class="gt-n">${pick(ARSHEYA[p.length] || ARSHEYA[3])}${g[3].length > 1 ? ` · ${pick(['form','విధం'])} ${v + 1}` : ''}</span>${p.map(rsi).join('<span class="gt-dot">·</span>')}</div>`).join('')}
-    </div>`).join('') : `<p class="gt-none">${pick(['Not in the list yet — tell us your gōtram and its pravara and it will be added.','ఈ జాబితాలో ఇంకా లేదు — మీ గోత్రం, ప్రవర తెలియజేయండి, చేర్చబడుతుంది.'])}</p>`;
+        <span class="gt-n">${count(p.length)}${g[3].length > 1 ? ` · ${pick(['form','విధం'])} ${v + 1}` : ''}</span>${p.map(k => rsiHtml(RSI[k])).join('<span class="gt-dot">·</span>')}</div>`).join('')}
+    </div>`).join('');
+  const none = !list.length && !mine.length ? `<p class="gt-none">${pick(['Not in the list — add it below with its ṛṣis.','జాబితాలో లేదు — క్రింద ఋషులతో సహా చేర్చండి.'])}</p>` : '';
+  document.getElementById('pn-gt-list').innerHTML = custom + base + none
+    + `<button class="gt-add" onclick="gotraForm()">＋ ${pick(['Add your gōtram & ṛṣis','మీ గోత్రం, ఋషులు చేర్చండి'])}</button>`;
   if (myGotra && !n) { const on = document.querySelector('#pn-gt-list .gt-item.on'); if (on) on.scrollIntoView({ block: 'center' }); }
 }
+function keepOpts() { return myGotra ? { su: myGotra.su, sk: myGotra.sk, ti: myGotra.ti, name: myGotra.name } : {}; }
 function pickGotra(i, v) {
-  const keep = myGotra ? { su: myGotra.su, sk: myGotra.sk, ti: myGotra.ti, name: myGotra.name } : {};
-  myGotra = (myGotra && myGotra.i === i && (myGotra.v || 0) === v) ? null : Object.assign(keep, { i, v });
+  myGotra = (myGotra && !myGotra.c && myGotra.i === i && (myGotra.v || 0) === v) ? null : Object.assign(keepOpts(), { i, v });
   store.set('vedic_gotra', myGotra);
   drawGotraList(document.getElementById('pn-gt-q').value);
   render();
 }
+function pickMyGotra(id) {
+  myGotra = (myGotra && myGotra.c === id) ? null : Object.assign(keepOpts(), { c: id });
+  store.set('vedic_gotra', myGotra);
+  drawGotraList(document.getElementById('pn-gt-q').value);
+  render();
+}
+function deleteMyGotra(id) {
+  if (!confirm(pick(['Delete this gōtram?', 'ఈ గోత్రం తొలగించాలా?']))) return;
+  myGotras = myGotras.filter(c => c.id !== id); store.set('vedic_gotra_custom', myGotras);
+  if (myGotra && myGotra.c === id) { myGotra = null; store.set('vedic_gotra', null); }
+  drawGotraList(document.getElementById('pn-gt-q').value); render();
+}
+// Form to add or edit a gōtram with its ṛṣis
+function gotraForm(id) {
+  const c = id ? myGotras.find(x => x.id === id) : null;
+  const q = document.getElementById('pn-gt-q').value.trim();
+  const esc2 = v => String(v || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  document.getElementById('pn-gt-opts').innerHTML = '';
+  document.getElementById('pn-gt-list').innerHTML = `<div class="gt-form">
+    <div class="gt-ftitle">${c ? pick(['Edit gōtram','గోత్రం మార్చండి']) : pick(['Add your gōtram','మీ గోత్రం చేర్చండి'])}</div>
+    <label>${pick(['Gōtram (English letters)','గోత్రం (ఇంగ్లీష్ అక్షరాల్లో)'])}<input id="gf-name" value="${esc2(c ? c.name : (/[a-z]/i.test(q) ? q : ''))}" placeholder="e.g. Kaundinya"></label>
+    <label>${pick(['Gōtram in Telugu (optional)','గోత్రం తెలుగులో (ఐచ్ఛికం)'])}<input id="gf-te" value="${esc2(c ? c.te : (/[ఀ-౿]/.test(q) ? q : ''))}" placeholder="ఉదా. కౌండిన్య"></label>
+    <label>${pick(['Ṛṣis (pravara) — one per line, in order','ఋషులు (ప్రవర) — వరుసగా, ఒక్కో పంక్తికి ఒకరు'])}<textarea id="gf-rsis" rows="4" placeholder="Vasishtha&#10;Maitravaruna&#10;Kaundinya">${esc2(c ? c.rsis.join('\n') : '')}</textarea></label>
+    <label>${pick(['Ṛṣis in Telugu (optional, same order)','ఋషులు తెలుగులో (ఐచ్ఛికం, అదే వరుసలో)'])}<textarea id="gf-rsiste" rows="4" placeholder="వాసిష్ఠ&#10;మైత్రావరుణ&#10;కౌండిన్య">${esc2(c ? (c.rsisTe || []).join('\n') : '')}</textarea></label>
+    <p class="gt-fnote">${pick(['Known ṛṣi names (e.g. Angirasa, Kashyapa) get their Telugu spelling and Great Sages link automatically. Saved only on this phone.','తెలిసిన ఋషుల పేర్లకు (ఉదా. ఆంగీరస, కాశ్యప) తెలుగు అక్షరాలు, మహర్షుల కథ లింక్ తనంతట అవే వస్తాయి. ఈ ఫోన్‌లో మాత్రమే దాచబడుతుంది.'])}</p>
+    <div class="gt-fbtns"><button onclick="drawGotraList(document.getElementById('pn-gt-q').value)">${pick(['Cancel','రద్దు'])}</button>
+      <button class="pri" onclick="saveMyGotra('${c ? c.id : ''}')">${pick(['Save','దాచు'])}</button></div>
+  </div>`;
+  document.getElementById('gf-name').focus();
+}
+function saveMyGotra(id) {
+  const v = x => document.getElementById(x).value;
+  const lines = t => t.split(/[\n,]+/).map(x => x.trim()).filter(Boolean);
+  const name = v('gf-name').trim(), te = v('gf-te').trim(), rsis = lines(v('gf-rsis')), rsisTe = lines(v('gf-rsiste'));
+  if (!name && !te) { alert(pick(['Please enter the gōtram name.', 'దయచేసి గోత్రం పేరు ఇవ్వండి.'])); return; }
+  if (!rsis.length && !rsisTe.length) { alert(pick(['Please enter at least one ṛṣi.', 'కనీసం ఒక ఋషి పేరు ఇవ్వండి.'])); return; }
+  const rec = { id: id || ('g' + Date.now().toString(36)), name: name || te, te: te || '', rsis: rsis.length ? rsis : rsisTe, rsisTe };
+  myGotras = id ? myGotras.map(c => c.id === id ? rec : c) : myGotras.concat(rec);
+  store.set('vedic_gotra_custom', myGotras);
+  myGotra = Object.assign(keepOpts(), { c: rec.id }); store.set('vedic_gotra', myGotra);
+  document.getElementById('pn-gt-q').value = '';
+  drawGotraList(''); render();
+}
 function closeGotra() { const ov = document.getElementById('pn-gotra-ov'); if (ov) ov.classList.remove('open'); }
+window.setSankFull = v => { store.set('vedic_sank_full', !!v); render(); };
 window.openGotra = openGotra; window.closeGotra = closeGotra; window.pickGotra = pickGotra;
+Object.assign(window, { pickMyGotra, deleteMyGotra, gotraForm, saveMyGotra, drawGotraList });
 
 function render(){
   lang = settings.language || 'both';
@@ -6539,18 +6633,21 @@ function render(){
   ];
   $('tSank').innerHTML = dual(L.sank);
   const gs = gotraSel();
+  const full = store.get('vedic_sank_full', false);
+  const shown = full ? sank : sank.filter(p => p.orig);
   const line = p => `<p class="${p.mine ? 'sk-mine' : p.local ? 'sk-local' : p.orig ? 'sk-o' : 'sk-core'}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`;
   let body = '', i = 0;
-  while (i < sank.length) {
-    if (sank[i].orig) {
-      let j = i; while (j < sank.length && sank[j].orig) j++;
-      body += `<div class="sk-orig"><span class="sk-otag">${pick(['Original saṅkalpam','మూల సంకల్పం'])}</span>${sank.slice(i, j).map(line).join('')}</div>`;
+  while (i < shown.length) {
+    if (shown[i].orig && full) {
+      let j = i; while (j < shown.length && shown[j].orig) j++;
+      body += `<div class="sk-orig"><span class="sk-otag">${pick(['Original saṅkalpam','మూల సంకల్పం'])}</span>${shown.slice(i, j).map(line).join('')}</div>`;
       i = j;
-    } else { body += line(sank[i]); i++; }
+    } else { body += line(shown[i]); i++; }
   }
-  $('sank').innerHTML = `<button class="gt-btn" onclick="openGotra()">🕉 ${gs ? `${pick(['Gōtram','గోత్రం'])}: <b>${pick([gs.g[0], gs.g[1]])}</b>` : pick(['Add your gōtram & pravara','మీ గోత్రం, ప్రవర చేర్చండి'])} ▾</button>`
+  $('sank').innerHTML = `<div class="sk-mode"><button class="${full ? '' : 'on'}" onclick="setSankFull(false)">${pick(['Basic','సంక్షిప్త'])}</button><button class="${full ? 'on' : ''}" onclick="setSankFull(true)">${pick(['Full','పూర్తి'])}</button></div>`
+    + `<button class="gt-btn" onclick="openGotra()">🕉 ${gs ? `${pick(['Gōtram','గోత్రం'])}: <b>${pick([gs.g[0], gs.g[1]])}</b>` : pick(['Add your gōtram & pravara','మీ గోత్రం, ప్రవర చేర్చండి'])} ▾</button>`
     + body
-    + `<div class="sk-key"><span class="sk-sw orig"></span>${pick(['Original','మూల సంకల్పం'])}<span class="sk-sw core"></span>${pick(['Full saṅkalpam','పూర్తి సంకల్పం'])}${sank.some(p => p.local) ? `<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}` : ''}${gs ? `<span class="sk-sw mine"></span>${pick(['Your gōtram','మీ గోత్రం'])}` : ''}</div>`;
+    + (!full ? '' : `<div class="sk-key"><span class="sk-sw orig"></span>${pick(['Original','మూల సంకల్పం'])}<span class="sk-sw core"></span>${pick(['Full saṅkalpam','పూర్తి సంకల్పం'])}${sank.some(p => p.local) ? `<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}` : ''}${gs ? `<span class="sk-sw mine"></span>${pick(['Your gōtram','మీ గోత్రం'])}` : ''}</div>`);
 
   // Abhivādanam (pravara) for the chosen gōtram
   const ab = abhivadanamLines();
@@ -6571,7 +6668,7 @@ function render(){
   add('tithi', r.tithis, N.tithi, 'name'); add('nak', r.naks, N.nak); add('yoga', r.yogas, N.yoga); add('karana', r.karanas, N.karana);
   lines.push(`${lab('sunRasi')}:${N.rasi[r.sunRasi][li]}`, `${lab('moonRasi')}:${N.rasi[r.moonRasi][li]}`);
   timings.forEach(([k, s]) => lines.push(`${lab(k)}:${T(s.start)}-${T(s.end)}`));
-  lines.push('', ...sank.map(p => p[li]));
+  lines.push('', ...(store.get('vedic_sank_full', false) ? sank : sank.filter(p => p.orig)).map(p => p[li]));
   shareText = lines.join('\n');
 }
 
