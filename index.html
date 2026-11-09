@@ -6374,7 +6374,7 @@ function abhivadanamLines() {
     [`${s.g[0].toLowerCase()} gōtraḥ`, `${s.g[1]} గోత్రః`],
     [`${su[0]} sūtraḥ`, `${su[1]} సూత్రః`],
     [`${sk[0]} śākhādhyāyī`, `${sk[1]} శాఖాధ్యాయీ`],
-    Object.assign([`${nm || '(nāma)'} ${ti[0]} ahaṃ bhō abhivādayē`, `${nm || '(నామ)'} ${ti[1]} అహం భో అభివాదయే`], { cls: nm ? '' : 'ab-blank' }),
+    Object.assign([`${nm || '[your name]'} ${ti[0]} ahaṃ bhō abhivādayē`, `${nm || '[మీ పేరు]'} ${ti[1]} అహం భో అభివాదయే`], { cls: nm ? '' : 'ab-blank' }),
   ];
 }
 function setGotraOpt(k, v) { if (!myGotra) return; myGotra[k] = v; store.set('vedic_gotra', myGotra); render(); }
@@ -6401,7 +6401,7 @@ function drawGotraOpts() {
   if (!myGotra) { el.innerHTML = ''; return; }
   const opt = (arr, cur) => arr.map((x, i) => `<option value="${i}"${i === (cur || 0) ? ' selected' : ''}>${pick([x[0], x[1]])}</option>`).join('');
   el.innerHTML = `<div class="gt-opts">
-    <label>${pick(['Name','పేరు'])}<input id="pn-gt-name" value="${(myGotra.name || '').replace(/"/g, '&quot;')}" placeholder="${pick(['e.g. Hari','ఉదా. హరి'])}" oninput="setGotraOpt('name', this.value)"></label>
+    <label>${pick(['Name','పేరు'])}<input id="pn-gt-name" value="${(myGotra.name || '').replace(/"/g, '&quot;')}" placeholder="${pick(['Your name','మీ పేరు'])}" oninput="setGotraOpt('name', this.value)"></label>
     <label>${pick(['Ending','ముగింపు'])}<select onchange="setGotraOpt('ti', +this.value)">${opt(TITLES, myGotra.ti)}</select></label>
     <label>${pick(['Sūtram','సూత్రం'])}<select onchange="setGotraOpt('su', +this.value)">${opt(SUTRAS, myGotra.su)}</select></label>
     <label>${pick(['Śākhā','శాఖ'])}<select onchange="setGotraOpt('sk', +this.value)">${opt(SAKHAS, myGotra.sk)}</select></label>
