@@ -346,10 +346,20 @@
   const newStories = () => (window.KIDS_STORIES || []).filter(isNewStory).length;
 
   // ═════════════ HUB ═════════════
+  // Hindi mode: chrome in Hindi; story text stays English until the Hindi text is ready
+  const KHI = () => typeof settings !== 'undefined' && settings.language === 'hi';
+  const K = (en, hi) => KHI() ? hi : en;
   window.renderKids = function () {
     const el = document.getElementById('view-kids');
     const n = newStories();
-    el.innerHTML = `<div class="kz">
+    el.innerHTML = KHI() ? `<div class="kz">
+      <div class="kz-hero"><span class="kz-float">अ</span><h2>बच्चों का कोना</h2><p>तेलुगु सीखें और कहानियाँ पढ़ें</p></div>
+      <div class="kz-doors">
+        <button class="kz-door tel" onclick="openTelugu('')"><span class="big te">అఆ</span>
+          <span><h3>तेलुगु सीखें</h3><p class="te">తెలుగు నేర్చుకుందాం</p><p>पहले अक्षरों से पढ़ने तक, 7 स्तरों में</p></span></button>
+        <button class="kz-door sto" onclick="openStories('')"><span class="big">📖</span>
+          <span><h3>कहानियाँ ${n ? `<span class="kz-badge">${n} नई</span>` : ''}</h3><p>रामायण और महाभारत की कथाएँ (अभी अंग्रेज़ी में)</p></span></button>
+      </div></div>` : `<div class="kz">
       <div class="kz-hero"><span class="kz-float">అ</span><h2>Kids Corner</h2><p>పిల్లల కోసం · Learn Telugu and read stories</p></div>
       <div class="kz-doors">
         <button class="kz-door tel" onclick="openTelugu('')"><span class="big te">అఆ</span>
@@ -690,16 +700,16 @@
       if (charFilter && !counts[charFilter]) charFilter = '';
       const list = inEpic.filter(x => !charFilter || (x.chars || []).includes(charFilter));
       el.innerHTML = `<div class="kz">
-        <button class="kz-back" onclick="openKids()">‹ Kids Corner</button>
-        <div class="kz-hero"><span class="kz-float">📖</span><h2>Stories</h2><p class="te">కథలు · a new story every day</p></div>
-        <div class="kz-filter" data-noswipe>${[['all', 'All'], ['Ramayana', 'Rāmāyaṇa'], ['Mahabharata', 'Mahābhārata']].map(([k, t]) =>
+        <button class="kz-back" onclick="openKids()">‹ ${K('Kids Corner', 'बच्चों का कोना')}</button>
+        <div class="kz-hero"><span class="kz-float">📖</span><h2>${K('Stories', 'कहानियाँ')}</h2><p class="te">${K('కథలు · a new story every day', 'हर दिन एक नई कहानी')}</p></div>
+        <div class="kz-filter" data-noswipe>${[['all', K('All', 'सभी')], ['Ramayana', K('Rāmāyaṇa', 'रामायण')], ['Mahabharata', K('Mahābhārata', 'महाभारत')]].map(([k, t]) =>
           `<button class="${filter === k ? 'on' : ''}" onclick="kzFilter('${k}')">${t}</button>`).join('')}</div>
-        <div class="kz-filter kz-chars" data-noswipe><button class="${charFilter ? '' : 'on'}" onclick="kzChar('')">All characters</button>${chars.map(c =>
+        <div class="kz-filter kz-chars" data-noswipe><button class="${charFilter ? '' : 'on'}" onclick="kzChar('')">${K('All characters', 'सभी पात्र')}</button>${chars.map(c =>
           `<button class="${charFilter === c ? 'on' : ''}" onclick="kzChar('${c.replace(/'/g, "\\'")}')">${c} <small>${counts[c]}</small></button>`).join('')}</div>
-        <p class="kz-count">${list.length} ${list.length === 1 ? 'story' : 'stories'}${charFilter ? ` about ${charFilter}` : ''}</p>
+        <p class="kz-count">${KHI() ? `${list.length} कहानियाँ${charFilter ? ` — ${charFilter}` : ''}` : `${list.length} ${list.length === 1 ? 'story' : 'stories'}${charFilter ? ` about ${charFilter}` : ''}`}</p>
         ${list.map(x => `<button class="kz-story" onclick="openStories('${x.id}')">${kidsScene(x.cover || x.pages[0].scene)}
-          <div class="meta"><h3>${esc(x.title.en)}${isNewStory(x) ? '<span class="kz-badge">NEW</span>' : ''}<span class="te">${x.title.te}</span></h3>
-          <p>${x.epic === 'Ramayana' ? 'Rāmāyaṇa' : 'Mahābhārata'} · ${x.pages.length} pages${prog.read[x.id] ? ' · read ✓' : ''}</p>${x.chars ? `<p class="kz-who">${x.chars.join(', ')}</p>` : ''}</div></button>`).join('') || '<p>No stories yet.</p>'}
+          <div class="meta"><h3>${esc(x.title.en)}${isNewStory(x) ? '<span class="kz-badge">NEW</span>' : ''}${KHI() ? '' : `<span class="te">${x.title.te}</span>`}</h3>
+          <p>${KHI() ? `${x.epic === 'Ramayana' ? 'रामायण' : 'महाभारत'} · ${x.pages.length} पृष्ठ${prog.read[x.id] ? ' · पढ़ ली ✓' : ''}` : `${x.epic === 'Ramayana' ? 'Rāmāyaṇa' : 'Mahābhārata'} · ${x.pages.length} pages${prog.read[x.id] ? ' · read ✓' : ''}`}</p>${x.chars ? `<p class="kz-who">${x.chars.join(', ')}</p>` : ''}</div></button>`).join('') || `<p>${K('No stories yet.', 'अभी कोई कहानी नहीं।')}</p>`}
       </div>`;
       const on = el.querySelector('.kz-chars .on');
       if (on) { const row = on.parentElement; row.scrollLeft = Math.max(0, on.offsetLeft - row.offsetLeft - (row.clientWidth - on.offsetWidth) / 2); }
@@ -708,22 +718,22 @@
     if (curStory !== s.id) { curStory = s.id; page = 0; }
     page = Math.min(page, s.pages.length - 1);
     if (!prog.read[s.id]) { prog.read[s.id] = new Date().toISOString().slice(0, 10); save(prog); }
-    const L = lang(), P = s.pages[page], last = page === s.pages.length - 1;
+    const L = lang() === 'hi' ? 'en' : lang(), P = s.pages[page], last = page === s.pages.length - 1;
     const text = (en, te) => (L === 'en' ? `<div class="txt">${en}</div>` : L === 'te' ? `<div class="txt te">${te}</div>` : `<div class="txt te">${te}</div><div class="txt">${en}</div>`);
     const idx = all.indexOf(s), next = all[idx + 1];
     el.innerHTML = `<div class="kz kz-reader" id="kz-reader" data-noswipe>
-      <div style="display:flex;justify-content:space-between;align-items:center"><button class="kz-back" onclick="openStories('')">‹ All stories</button>
+      <div style="display:flex;justify-content:space-between;align-items:center"><button class="kz-back" onclick="openStories('')">‹ ${K('All stories', 'सभी कहानियाँ')}</button>
       <div class="kz-langs">${[['en', 'EN'], ['both', 'Both'], ['te', 'తెలుగు']].map(([k, t]) => `<button class="${L === k ? 'on' : ''}" onclick="setLanguage('${k}');renderStories()">${t}</button>`).join('')}</div></div>
       <div class="scene">${kidsScene(P.scene)}</div>
       <div class="ttl">${L === 'en' ? esc(s.title.en) : s.title.te}${L === 'both' ? ` <span style="font-weight:400;font-size:1rem;color:var(--fg3)">${esc(s.title.en)}</span>` : ''}</div>
-      <div class="pg">Page ${page + 1} of ${s.pages.length}</div>
+      ${KHI() ? '<div class="pg" style="color:var(--accent)">हिन्दी अनुवाद जल्द आ रहा है — अभी अंग्रेज़ी में</div>' : ''}<div class="pg">${KHI() ? `पृष्ठ ${page + 1} / ${s.pages.length}` : `Page ${page + 1} of ${s.pages.length}`}</div>
       ${text(P.en, P.te)}
-      ${last ? `<div class="moral"><b>${L === 'en' ? 'The lesson' : L === 'te' ? 'నీతి' : 'నీతి · The lesson'}</b>${L !== 'en' ? `<div class="te" style="font-size:1.05rem">${s.moral.te}</div>` : ''}${L !== 'te' ? `<div>${esc(s.moral.en)}</div>` : ''}</div>` : ''}
+      ${last ? `<div class="moral"><b>${KHI() ? 'सीख' : L === 'en' ? 'The lesson' : L === 'te' ? 'నీతి' : 'నీతి · The lesson'}</b>${L !== 'en' ? `<div class="te" style="font-size:1.05rem">${s.moral.te}</div>` : ''}${L !== 'te' ? `<div>${esc(s.moral.en)}</div>` : ''}</div>` : ''}
       <div class="nav">
-        <button class="kz-btn soft" ${page === 0 ? 'disabled style="opacity:.4"' : ''} onclick="kzPage(-1)">‹ Back</button>
+        <button class="kz-btn soft" ${page === 0 ? 'disabled style="opacity:.4"' : ''} onclick="kzPage(-1)">‹ ${K('Back', 'पीछे')}</button>
         <div class="dots">${s.pages.map((_, i) => `<i class="${i === page ? 'on' : ''}"></i>`).join('')}</div>
-        ${last ? (next ? `<button class="kz-btn" onclick="openStories('${next.id}')">Next story ›</button>` : `<button class="kz-btn" onclick="openStories('')">All stories</button>`)
-               : `<button class="kz-btn" onclick="kzPage(1)">Next ›</button>`}
+        ${last ? (next ? `<button class="kz-btn" onclick="openStories('${next.id}')">${K('Next story', 'अगली कहानी')} ›</button>` : `<button class="kz-btn" onclick="openStories('')">${K('All stories', 'सभी कहानियाँ')}</button>`)
+               : `<button class="kz-btn" onclick="kzPage(1)">${K('Next', 'आगे')} ›</button>`}
       </div></div>`;
     // Swipe left = next page, swipe right = previous page (or back to the list on page 1)
     const r = document.getElementById('kz-reader');

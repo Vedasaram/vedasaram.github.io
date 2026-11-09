@@ -42,7 +42,7 @@
 
   let S = { done: {}, pos: {}, opened: {}, last: '', fs: 1 };
   try { Object.assign(S, JSON.parse(localStorage.getItem('vedic_kings') || '{}')); } catch (e) {}
-  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return ['en', 'te', 'both'].includes(l) ? l : 'both'; };
+  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return l === 'hi' ? 'en' : ['en', 'te', 'both'].includes(l) ? l : 'both'; };   // Hindi: English until the Hindi text is ready
   const save = () => { try { localStorage.setItem('vedic_kings', JSON.stringify(S)); } catch (e) {} };
 
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');

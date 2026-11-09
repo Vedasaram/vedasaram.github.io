@@ -15,7 +15,7 @@
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(BM)); } catch (e) {} };
   const savePh = () => { try { localStorage.setItem(PKEY, JSON.stringify(PH)); return true; } catch (e) { return false; } };
   const LANG = () => (typeof settings !== 'undefined' && settings.language) || 'en';
-  const T = (en, te) => LANG() === 'te' ? te : en;
+  const T = (en, te, hi) => LANG() === 'te' ? te : LANG() === 'hi' ? (hi || en) : en;
   const e = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
   // ── Bookmark styles ──
@@ -210,33 +210,33 @@
   // ── Place / move / remove ──
   function place(cur) {
     BM.marks[cur.topic] = { title: cur.title, titleTe: cur.titleTe, where: cur.where, whereTe: cur.whereTe, loc: cur.loc, at: (d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`)(new Date()) };
-    save(); refresh(); toast(T('Bookmark placed', 'బుక్‌మార్క్ పెట్టాం'), T(cur.where, cur.whereTe));
+    save(); refresh(); toast(T('Bookmark placed', 'బుక్‌మార్క్ పెట్టాం', 'बुकमार्क लगा दिया'), T(cur.where, cur.whereTe));
   }
   window.bmPlaceHere = () => { const c = current(); if (c) place(c); bmClose(); };
-  window.bmRemove = topic => { delete BM.marks[topic]; save(); refresh(); bmClose(); if (window.bmRenderSettings) bmRenderSettings(); toast(T('Bookmark removed', 'బుక్‌మార్క్ తీసేశాం'), ''); };
+  window.bmRemove = topic => { delete BM.marks[topic]; save(); refresh(); bmClose(); if (window.bmRenderSettings) bmRenderSettings(); toast(T('Bookmark removed', 'బుక్‌మార్క్ తీసేశాం', 'बुकमार्क हटा दिया'), ''); };
   window.bmTap = function () {
     const c = current();
     if (!c) { bmOpenList(); return; }
     const m = BM.marks[c.topic];
     if (!m) { place(c); return; }
     const here = sameLoc(m.loc, c.loc);
-    sheet(`<div class="bm-sh-t">${ribbon(BM.style, 22)}<div><b>${e(T(c.title, c.titleTe))}</b><small>${here ? T('Your bookmark is on this spot', 'బుక్‌మార్క్ ఇక్కడే ఉంది') : T('Your bookmark', 'మీ బుక్‌మార్క్') + ': ' + e(T(m.where, m.whereTe))}</small></div></div>
-      ${here ? '' : `<button class="bm-act" onclick="bmGo('${c.topic}')">↪ ${T('Go to my bookmark', 'బుక్‌మార్క్ దగ్గరకు వెళ్ళండి')}</button>
-      <button class="bm-act" onclick="bmPlaceHere()">🔖 ${T('Move bookmark here', 'బుక్‌మార్క్ ఇక్కడికి మార్చండి')}<small>${e(T(c.where, c.whereTe))}</small></button>`}
-      <button class="bm-act" onclick="bmRemove('${c.topic}')">✕ ${T('Remove this bookmark', 'ఈ బుక్‌మార్క్ తీసేయండి')}</button>
-      <button class="bm-act soft" onclick="bmOpenList()">☰ ${T('All bookmarks', 'అన్ని బుక్‌మార్క్‌లు')}</button>`);
+    sheet(`<div class="bm-sh-t">${ribbon(BM.style, 22)}<div><b>${e(T(c.title, c.titleTe))}</b><small>${here ? T('Your bookmark is on this spot', 'బుక్‌మార్క్ ఇక్కడే ఉంది', 'आपका बुकमार्क यहीं है') : T('Your bookmark', 'మీ బుక్‌మార్క్', 'आपका बुकमार्क') + ': ' + e(T(m.where, m.whereTe))}</small></div></div>
+      ${here ? '' : `<button class="bm-act" onclick="bmGo('${c.topic}')">↪ ${T('Go to my bookmark', 'బుక్‌మార్క్ దగ్గరకు వెళ్ళండి', 'मेरे बुकमार्क पर जाएँ')}</button>
+      <button class="bm-act" onclick="bmPlaceHere()">🔖 ${T('Move bookmark here', 'బుక్‌మార్క్ ఇక్కడికి మార్చండి', 'बुकमार्क यहाँ लाएँ')}<small>${e(T(c.where, c.whereTe))}</small></button>`}
+      <button class="bm-act" onclick="bmRemove('${c.topic}')">✕ ${T('Remove this bookmark', 'ఈ బుక్‌మార్క్ తీసేయండి', 'यह बुकमार्क हटाएँ')}</button>
+      <button class="bm-act soft" onclick="bmOpenList()">☰ ${T('All bookmarks', 'అన్ని బుక్‌మార్క్‌లు', 'सभी बुकमार्क')}</button>`);
   };
 
   // ── Lists (sheet and Settings) ──
   function listHtml() {
     const ks = Object.keys(BM.marks).sort((a, b) => (BM.marks[b].at || '').localeCompare(BM.marks[a].at || ''));
-    if (!ks.length) return `<div class="bm-empty">${T('No bookmarks yet. Open any text and tap the 🔖 button at the top to place one.', 'ఇంకా బుక్‌మార్క్‌లు లేవు. ఏదైనా పాఠం తెరిచి పైన ఉన్న 🔖 బటన్ నొక్కండి.')}</div>`;
+    if (!ks.length) return `<div class="bm-empty">${T('No bookmarks yet. Open any text and tap the 🔖 button at the top to place one.', 'ఇంకా బుక్‌మార్క్‌లు లేవు. ఏదైనా పాఠం తెరిచి పైన ఉన్న 🔖 బటన్ నొక్కండి.', 'अभी कोई बुकमार्क नहीं है। कोई भी पाठ खोलें और ऊपर 🔖 बटन दबाएँ।')}</div>`;
     const both = LANG() === 'both';
     return ks.map(k => { const m = BM.marks[k]; return `<div class="bm-row">
       <button class="bm-row-go" onclick="bmGo('${k}')">${ribbon(BM.style, 20)}<span class="bm-row-tx"><b>${e(T(m.title, m.titleTe))}${both ? ` <span class="te">${e(m.titleTe)}</span>` : ''}</b><small>${e(T(m.where, m.whereTe))}</small>${both ? `<small class="te">${e(m.whereTe)}</small>` : ''}</span></button>
       <button class="bm-row-x" onclick="bmRemove('${k}')" aria-label="Remove">✕</button></div>`; }).join('');
   }
-  window.bmOpenList = () => sheet(`<div class="bm-sh-h">🔖 ${T('My bookmarks', 'నా బుక్‌మార్క్‌లు')}</div>${listHtml()}`);
+  window.bmOpenList = () => sheet(`<div class="bm-sh-h">🔖 ${T('My bookmarks', 'నా బుక్‌మార్క్‌లు', 'मेरे बुकमार्क')}</div>${listHtml()}`);
 
   function stylesHtml() {
     return GROUPS.map(([g, en, te]) => {
@@ -244,7 +244,7 @@
         ? PH.map(p => ['ph:' + p.id]).concat([['add']])
         : STYLES.filter(s => s[1] === g);
       return `<div class="bm-grp">${e(T(en, te))}</div><div class="bm-grid">${items.map(s => {
-        if (s[0] === 'add') return `<div class="bm-chip add"><span class="bm-plus">＋</span><span class="bm-nm">${T('Add photo', 'ఫోటో జోడించండి')}</span><input type="file" accept="image/*" class="bm-file" onclick="event.stopPropagation()" onchange="bmAddPhoto(this)" aria-label="Add photo"></div>`;
+        if (s[0] === 'add') return `<div class="bm-chip add"><span class="bm-plus">＋</span><span class="bm-nm">${T('Add photo', 'ఫోటో జోడించండి', 'फ़ोटो जोड़ें')}</span><input type="file" accept="image/*" class="bm-file" onclick="event.stopPropagation()" onchange="bmAddPhoto(this)" aria-label="Add photo"></div>`;
         const id = s[0], st = style(id), on = BM.style === id;
         return `<div class="bm-chip${on ? ' on' : ''}" onclick="bmSetStyle('${id}')">${ribbon(id, 30)}<span class="bm-nm">${e(T(st[2], st[3]))}</span>${g === 'photo' ? `<button class="bm-del" onclick="event.stopPropagation();bmDelPhoto('${id}')" aria-label="Delete photo">✕</button>` : ''}</div>`;
       }).join('')}</div>`;
@@ -253,9 +253,9 @@
   window.bmCount = () => Object.keys(BM.marks || {}).length;
   window.bmRenderSettings = function () {
     const box = document.getElementById('bm-settings'); if (!box) return;
-    box.innerHTML = `<div class="home-settings-section"><div class="home-settings-label">🔖 ${T('Bookmarks', 'బుక్‌మార్క్‌లు')}</div><div class="bm-list">${listHtml()}</div></div>
-      <div class="home-settings-section"><div class="home-settings-label">${T('Bookmark style', 'బుక్‌మార్క్ రూపం')}</div>
-      <div class="bm-hint">${T('Pick the picture for your bookmark ribbon — or add your own photos (a god, your car…).', 'మీ బుక్‌మార్క్ బొమ్మను ఎంచుకోండి — లేదా మీ సొంత ఫోటోలు (దేవుడు, మీ కారు…) జోడించండి.')}</div>${stylesHtml()}</div>`;
+    box.innerHTML = `<div class="home-settings-section"><div class="home-settings-label">🔖 ${T('Bookmarks', 'బుక్‌మార్క్‌లు', 'बुकमार्क')}</div><div class="bm-list">${listHtml()}</div></div>
+      <div class="home-settings-section"><div class="home-settings-label">${T('Bookmark style', 'బుక్‌మార్క్ రూపం', 'बुकमार्क का रूप')}</div>
+      <div class="bm-hint">${T('Pick the picture for your bookmark ribbon — or add your own photos (a god, your car…).', 'మీ బుక్‌మార్క్ బొమ్మను ఎంచుకోండి — లేదా మీ సొంత ఫోటోలు (దేవుడు, మీ కారు…) జోడించండి.', 'अपने बुकमार्क रिबन के लिए चित्र चुनें — या अपनी फ़ोटो (भगवान, आपकी कार…) जोड़ें।')}</div>${stylesHtml()}</div>`;
   };
   window.bmSetStyle = id => { BM.style = id; save(); bmRenderSettings(); refresh(); };
   window.bmDelPhoto = id => {
@@ -269,7 +269,7 @@
   window.bmAddPhoto = async function (input) {
     const f = input.files && input.files[0];
     if (!f) return;
-    toast(T('Adding photo…', 'ఫోటో జోడిస్తున్నాం…'), '');
+    toast(T('Adding photo…', 'ఫోటో జోడిస్తున్నాం…', 'फ़ोटो जोड़ रहे हैं…'), '');
     const W = 180, H = 288;
     const draw = src => {
       const iw = src.width || src.naturalWidth, ih = src.height || src.naturalHeight;
@@ -303,12 +303,12 @@
       } catch (err2) { src = null; }
     }
     input.value = '';
-    if (!src) { toast(T('Could not read this photo', 'ఈ ఫోటోను చదవలేకపోయాం'), T('Please try another photo', 'దయచేసి వేరే ఫోటో ప్రయత్నించండి')); return; }
+    if (!src) { toast(T('Could not read this photo', 'ఈ ఫోటోను చదవలేకపోయాం', 'यह फ़ोटो पढ़ी नहीं जा सकी'), T('Please try another photo', 'దయచేసి వేరే ఫోటో ప్రయత్నించండి', 'कृपया कोई दूसरी फ़ोटो आज़माएँ')); return; }
     const p = { id: Date.now().toString(36), src };
     PH.push(p);
-    if (!savePh()) { PH.pop(); toast(T('Phone storage is full', 'ఫోన్‌లో స్థలం లేదు'), T('Delete a photo and try again', 'ఒక ఫోటో తీసేసి మళ్ళీ ప్రయత్నించండి')); return; }
+    if (!savePh()) { PH.pop(); toast(T('Phone storage is full', 'ఫోన్‌లో స్థలం లేదు', 'फ़ोन में जगह नहीं है'), T('Delete a photo and try again', 'ఒక ఫోటో తీసేసి మళ్ళీ ప్రయత్నించండి', 'एक फ़ोटो हटाकर फिर कोशिश करें')); return; }
     BM.style = 'ph:' + p.id; save(); bmRenderSettings(); refresh();
-    toast(T('Photo added', 'ఫోటో జోడించాం'), T('It is now your bookmark', 'ఇదే ఇప్పుడు మీ బుక్‌మార్క్'));
+    toast(T('Photo added', 'ఫోటో జోడించాం', 'फ़ोटो जुड़ गई'), T('It is now your bookmark', 'ఇదే ఇప్పుడు మీ బుక్‌మార్క్', 'अब यही आपका बुकमार्क है'));
   };
 
   // ── Sheet + toast ──

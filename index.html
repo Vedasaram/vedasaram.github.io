@@ -1286,6 +1286,11 @@ body.hs-lock { overflow: hidden; }
 .gt-fbtns button.pri{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 #view-panch .share{display:block;width:100%;margin-top:22px;padding:14px;border:none;border-radius:14px;background:var(--accent);color:var(--bg);font-weight:700;font-size:1rem;cursor:pointer}
 #view-panch .foot{font-size:.74rem;color:var(--fg3);text-align:center;margin-top:12px;line-height:1.5}
+
+/* Hindi mode: the books are shown in English until their Hindi text is ready, so hide their Telugu lines */
+html[lang=hi] .rmy .te:not(button), html[lang=hi] .rmy .h1te, html[lang=hi] .rmy .kte, html[lang=hi] .rmy .optitle-te, html[lang=hi] .rmy .tt,
+html[lang=hi] .rmy .para-te, html[lang=hi] .rmy .sk-te, html[lang=hi] .rmy-poster-te, html[lang=hi] .rmy-poster-byte, html[lang=hi] .rmy-sheet .te { display: none !important; }
+html[lang=hi] .rmy:not(.rmy-read)::before { content: 'हिन्दी अनुवाद जल्द आ रहा है — तब तक कथा अंग्रेज़ी में पढ़ें'; display: block; margin: 10px 16px 0; padding: 8px 12px; border-radius: 10px; background: var(--card-bg, #fff8ec); border: 1px solid var(--border, #e8d9c0); color: var(--accent, #a0400c); font-size: .85rem; text-align: center; }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600&display=swap">
@@ -1298,23 +1303,23 @@ body.hs-lock { overflow: hidden; }
   <button id="btn-home" onclick="showView('home')" style="background:none;border:none;cursor:pointer;padding:4px 6px;color:var(--accent);font-size:1.1rem;" title="Home">🏠</button>
   <h1 id="topbar-title">Vedasaram</h1>
   <div class="section-tabs" id="section-tabs">
-    <button class="stab active" data-sec="gita" onclick="switchSection('gita')">Gītā</button>
-    <button class="stab" data-sec="rudram" onclick="switchSection('rudram')">Rudram</button>
-    <button class="stab" data-sec="vsn" onclick="switchSection('vsn')">VSN</button>
-    <button class="stab" data-sec="hc" onclick="switchSection('hc')">HC</button>
-    <button class="stab" data-sec="songs" onclick="switchSection('songs')">Songs</button>
-    <button class="stab" data-sec="lalita" onclick="switchSection('lalita')">Lalitā</button>
-    <button class="stab" data-sec="nrsimha" onclick="switchSection('nrsimha')">Nṛsiṃha</button>
-    <button class="stab" data-sec="rama" onclick="switchSection('rama')">Rāma</button>
-    <button class="stab" data-sec="panch" onclick="openPanch()">Panchāṅgam</button>
-    <button class="stab" data-sec="ramayana" onclick="openRamayana()">Rāmāyaṇa</button>
-    <button class="stab" data-sec="mahabharata" onclick="openMahabharata()">Bhāratam</button>
-    <button class="stab" data-sec="sages" onclick="openSages()">Sages</button>
-    <button class="stab" data-sec="kings" onclick="openKings()">Kings</button>
-    <button class="stab" data-sec="vedas" onclick="openVedas()">Vedas</button>
-    <button class="stab" data-sec="kids" onclick="openKids()">Kids</button>
+    <button class="stab active" data-sec="gita" onclick="switchSection('gita')" data-en="Gītā" data-hi="गीता">Gītā</button>
+    <button class="stab" data-sec="rudram" onclick="switchSection('rudram')" data-en="Rudram" data-hi="रुद्रम्">Rudram</button>
+    <button class="stab" data-sec="vsn" onclick="switchSection('vsn')" data-en="VSN" data-hi="सहस्रनाम">VSN</button>
+    <button class="stab" data-sec="hc" onclick="switchSection('hc')" data-en="HC" data-hi="चालीसा">HC</button>
+    <button class="stab" data-sec="songs" onclick="switchSection('songs')" data-en="Songs" data-hi="प्रार्थना">Songs</button>
+    <button class="stab" data-sec="lalita" onclick="switchSection('lalita')" data-en="Lalitā" data-hi="ललिता">Lalitā</button>
+    <button class="stab" data-sec="nrsimha" onclick="switchSection('nrsimha')" data-en="Nṛsiṃha" data-hi="नृसिंह">Nṛsiṃha</button>
+    <button class="stab" data-sec="rama" onclick="switchSection('rama')" data-en="Rāma" data-hi="राम">Rāma</button>
+    <button class="stab" data-sec="panch" onclick="openPanch()" data-en="Panchāṅgam" data-hi="पंचांग">Panchāṅgam</button>
+    <button class="stab" data-sec="ramayana" onclick="openRamayana()" data-en="Rāmāyaṇa" data-hi="रामायण">Rāmāyaṇa</button>
+    <button class="stab" data-sec="mahabharata" onclick="openMahabharata()" data-en="Bhāratam" data-hi="महाभारत">Bhāratam</button>
+    <button class="stab" data-sec="sages" onclick="openSages()" data-en="Sages" data-hi="ऋषि">Sages</button>
+    <button class="stab" data-sec="kings" onclick="openKings()" data-en="Kings" data-hi="राजा">Kings</button>
+    <button class="stab" data-sec="vedas" onclick="openVedas()" data-en="Vedas" data-hi="वेद">Vedas</button>
+    <button class="stab" data-sec="kids" onclick="openKids()" data-en="Kids" data-hi="बच्चे">Kids</button>
   </div>
-  <button id="btn-recite" onclick="startRecite()">▶ Recite</button>
+  <button id="btn-recite" onclick="startRecite()" data-en="▶ Recite" data-hi="▶ पाठ करें">▶ Recite</button>
 </div>
 
 <!-- Main content area -->
@@ -1351,7 +1356,7 @@ body.hs-lock { overflow: hidden; }
     <div class="sky-top">
       <label class="place"><span aria-hidden="true">📍</span><span id="pn-placeName"></span><select id="pn-loc" aria-label="Location"></select></label>
       <div class="langs" role="group" aria-label="Language">
-        <button data-l="en">EN</button><button data-l="both">Both</button><button data-l="te">తెలుగు</button>
+        <button data-l="en">EN</button><button data-l="both">Both</button><button data-l="te">తెలుగు</button><button data-l="hi">हिन्दी</button>
       </div>
     </div>
     <div class="datenav">
@@ -1399,31 +1404,31 @@ body.hs-lock { overflow: hidden; }
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
     </svg>
-    <span>Home</span>
+    <span data-en="Home" data-hi="होम">Home</span>
   </button>
   <button class="bnav-btn" id="bnav-practice" onclick="showView('practice')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
     </svg>
-    <span>Practice</span>
+    <span data-en="Practice" data-hi="अभ्यास">Practice</span>
   </button>
   <button class="bnav-btn" id="bnav-index" onclick="showView('index')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
     </svg>
-    <span>Index</span>
+    <span data-en="Index" data-hi="सूची">Index</span>
   </button>
   <button class="bnav-btn" id="bnav-library" onclick="showView('library')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
     </svg>
-    <span>Library</span>
+    <span data-en="Library" data-hi="पुस्तकालय">Library</span>
   </button>
   <button class="bnav-btn" id="bnav-progress" onclick="showView('progress')">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
     </svg>
-    <span>Progress</span>
+    <span data-en="Progress" data-hi="प्रगति">Progress</span>
   </button>
 </nav>
 
@@ -3643,7 +3648,7 @@ const SETTINGS_DEFAULTS = {
 const PRACTICE_FONT_SIZES = ['1.1rem','1.35rem','1.6rem','1.9rem'];
 const RECITE_FONT_SIZES   = ['1.5rem','1.9rem','2.4rem','3rem'];
 const FONT_LABELS = ['S','M','L','XL'];
-const BUILD_DATE = '2026-10-21';
+const BUILD_DATE = '2026-11-09';
 
 let settings = {...SETTINGS_DEFAULTS};
 try {
@@ -3846,7 +3851,8 @@ function updateTopbar() {
   const activeSec = VIEW_TAB[state.view] || state.section;
   document.querySelectorAll('.stab').forEach(b => b.classList.toggle('active', b.dataset.sec === activeSec));
   if (VIEW_TAB[state.view]) {
-    t.textContent = state.view === 'panch' ? 'Panchāṅgam' : VIEW_TAB[state.view] === 'ramayana' ? 'Śrī Rāmāyaṇa' : VIEW_TAB[state.view] === 'mahabharata' ? 'Śrī Mahābhāratam' : VIEW_TAB[state.view] === 'sages' ? 'Great Sages' : VIEW_TAB[state.view] === 'kings' ? 'Great Kings' : VIEW_TAB[state.view] === 'vedas' ? 'The Vedas' : 'Kids Corner';
+    const hi = settings.language === 'hi';
+    t.textContent = state.view === 'panch' ? (hi ? 'पंचांग' : 'Panchāṅgam') : VIEW_TAB[state.view] === 'ramayana' ? (hi ? 'श्री रामायण' : 'Śrī Rāmāyaṇa') : VIEW_TAB[state.view] === 'mahabharata' ? (hi ? 'श्री महाभारत' : 'Śrī Mahābhāratam') : VIEW_TAB[state.view] === 'sages' ? (hi ? 'महान ऋषि' : 'Great Sages') : VIEW_TAB[state.view] === 'kings' ? (hi ? 'महान राजा' : 'Great Kings') : VIEW_TAB[state.view] === 'vedas' ? (hi ? 'वेद' : 'The Vedas') : (hi ? 'बच्चों का कोना' : 'Kids Corner');
     recBtn.style.display = 'none';
     const tabs = document.getElementById('section-tabs'), act = tabs.querySelector('.stab.active');
     if (act) tabs.scrollLeft = Math.max(0, act.offsetLeft - tabs.offsetLeft - (tabs.clientWidth - act.offsetWidth) / 2);
@@ -3854,16 +3860,16 @@ function updateTopbar() {
   }
   if (state.section === 'gita') {
     const m = GITA_META[state.chapter];
-    t.textContent = m ? (settings.language === 'te' ? 'అ.' + state.chapter + ' — ' + GITA_TE_CH[state.chapter].name : 'Ch.' + state.chapter + ' — ' + m.yoga) : TT('Bhagavad Gītā', 'భగవద్గీత');
+    t.textContent = m ? (SL() === 'te' ? 'అ.' + state.chapter + ' — ' + GITA_TE_CH[state.chapter].name : 'Ch.' + state.chapter + ' — ' + m.yoga) : TT('Bhagavad Gītā', 'భగవద్గీత', 'भगवद्गीता');
   } else if (state.section === 'rudram') {
-    t.textContent = state.rudramPart === 'namakam' ? TT('Namakam','నమకం') : state.rudramPart === 'chamakam' ? TT('Chamakam','చమకం') : TT('Śrī Rudram','శ్రీ రుద్రం');
+    t.textContent = state.rudramPart === 'namakam' ? TT('Namakam', 'నమకం', 'नमकम्') : state.rudramPart === 'chamakam' ? TT('Chamakam', 'చమకం', 'चमकम्') : TT('Śrī Rudram', 'శ్రీ రుద్రం', 'श्री रुद्रम्');
   } else if (coll()) {
     const sg = coll().data[state.chapter];
-    t.textContent = sg ? TT(sg.title, sg.titleTe || sg.title) : TT(coll().name, coll().nameTe || coll().name);
+    t.textContent = sg ? TT(sg.title, sg.titleTe || sg.title, hiName(sg.titleTe)) : TT(coll().name, coll().nameTe || coll().name, hiName(coll().nameTe));
   } else if (state.section === 'hc') {
-    t.textContent = TT('Hanumān Chālīsā','హనుమాన్ చాలీసా');
+    t.textContent = TT('Hanumān Chālīsā', 'హనుమాన్ చాలీసా', 'हनुमान चालीसा');
   } else {
-    t.textContent = TT('Viṣṇu Sahasranāmam','విష్ణు సహస్రనామం');
+    t.textContent = TT('Viṣṇu Sahasranāmam', 'విష్ణు సహస్రనామం', 'विष्णु सहस्रनाम');
   }
   // Show recite button only in practice view and when content available
   const hasContent = (state.section === 'gita' && GITA_DATA[state.chapter]?.length > 0) ||
@@ -3920,8 +3926,8 @@ function renderHome() {
   </svg>`;
 
   // Language buttons
-  const langBtns = ['en','both','te'].map(v => {
-    const labels = {en:'English', both:'Both', te:'తెలుగు'};
+  const langBtns = ['en','both','te','hi'].map(v => {
+    const labels = {en:'English', both:'Both', te:'తెలుగు', hi:'हिन्दी'};
     const sel = settings.language === v;
     return `<button class="home-lang-btn${sel?' active':''}" onclick="setLanguage('${v}');renderHome()">${labels[v]}</button>`;
   }).join('');
@@ -3937,9 +3943,9 @@ function renderHome() {
       ${mandala}
       <div class="home-title">Veda<span>saram</span></div>
       <div class="home-title-script">వేదసారం · वेदसारम्</div>
-      <div class="home-subtitle">Sacred Texts · Learn &amp; Recite</div>
+      <div class="home-subtitle">${TT('Sacred Texts · Learn &amp; Recite', 'Sacred Texts · Learn &amp; Recite', 'पवित्र ग्रंथ · सीखें और पाठ करें')}</div>
       <button class="home-enter-btn" onclick="showView('library')">
-        🪔 Begin Sādhana
+        🪔 ${TT('Begin Sādhana', 'Begin Sādhana', 'साधना आरंभ करें')}
       </button>
     </div>
 
@@ -3975,6 +3981,17 @@ function renderLibrary() {
     { key:'rama',  icon:'🛡️', name:'Śrī Rāma',               desc:'Rāma Rakṣā · Stotrams',    action:"switchSection('rama')",     gradient:'linear-gradient(160deg,#0a2a4a,#2a8a9a)', dot:'#2a8a9a', tradition:'Stotra', photo:'icons/tile-rama.jpg', photoPos:'center center' },
     { key:'lalita',icon:'🌺', name:'Śrī Lalitā',             desc:'Sahasranāmam · Stotrams',  action:"switchSection('lalita')",   gradient:'linear-gradient(160deg,#3a0a4a,#8030a0)', dot:'#8030a0', tradition:'Stotra', photo:'data:image/jpeg;base64,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', photoPos:'center 35%' },
   ];
+  // Hindi names for the tiles (Hindi mode)
+  const HI_TILES = {
+    gita:['भगवद्गीता','18 अध्याय · 700 श्लोक'], rudram:['श्री शिव','रुद्रम् · दक्षिणामूर्ति'], vsn:['विष्णु सहस्रनाम','1000 नाम · 108 श्लोक'],
+    hc:['हनुमान चालीसा','40 चौपाई · तुलसीदास'], songs:['प्रार्थनाएँ','भक्ति गीत'], panch:['पंचांग','दैनिक पंचांग'],
+    ramayana:['श्री रामायण','वाल्मीकि · कथा रूप में'], mahabharata:['श्री महाभारत','व्यास · कथा रूप में'],
+    sages:['महान ऋषि','महर्षियों का पूरा जीवन'], kings:['महान राजा','महाराजाओं का जीवन'], vedas:['वेद','सरल भाषा में'],
+    kids:['बच्चों का कोना','तेलुगु सीखें · कहानियाँ'], nrsimha:['श्री लक्ष्मी नृसिंह','करावलम्ब · स्तोत्र'],
+    rama:['श्री राम','राम रक्षा · स्तोत्र'], lalita:['श्री ललिता','सहस्रनाम · स्तोत्र'],
+  };
+  const HI_TRAD = { 'Itihāsa':'इतिहास', 'Stotra':'स्तोत्र', 'Bhajan':'भजन', 'Kālam':'काल', 'Veda':'वेद', 'Children':'बच्चे' };
+  if (settings.language === 'hi') texts.forEach(t => { const h = HI_TILES[t.key]; if (h) { t.name = h[0]; t.desc = h[1]; } t.tradHi = HI_TRAD[t.tradition]; });
   LIB_TILES = texts;
   const ordered = libOrdered(texts);
   if (libArrange) { renderArrange(el, ordered); return; }
@@ -3997,7 +4014,7 @@ function renderLibrary() {
         <div class="home-tile-bg" style="background:${t.gradient}"></div>
         ${hasPhoto ? `<div class="home-tile-photo" style="background-image:url('${t.photo}');background-position:${photoPos}"></div>` : ''}
         ${hasPhoto ? `<div class="home-tile-photo-overlay"></div>` : ''}
-        ${t.soon ? `<div class="home-tile-badge">SOON</div>` : ''}
+        ${t.soon ? `<div class="home-tile-badge">${TT('SOON', 'SOON', 'जल्द')}</div>` : ''}
         <div class="home-tile-content">
           <span class="home-tile-icon">${t.icon}</span>
           <div class="home-tile-name${hasPhoto?' photo-name':''}">${t.name}</div>
@@ -4015,7 +4032,7 @@ function renderLibrary() {
     }
     content = `<div class="home-list">`;
     for (const [grp, items] of groups) {
-      content += `<div class="home-list-group-label">${grp}</div>`;
+      content += `<div class="home-list-group-label">${(items[0] && items[0].tradHi) || grp}</div>`;
       for (const t of items) {
         content += `<div class="home-list-row${t.soon?' coming-soon':''}" ${t.soon ? '' : `onclick="${t.action}"`}>
           <div class="home-list-dot" style="background:${t.dot}"></div>
@@ -4033,7 +4050,7 @@ function renderLibrary() {
   el.innerHTML = `
   <div class="lib-header">
     <button class="lib-back-btn" onclick="showView('home')" title="Back">‹</button>
-    <div class="lib-header-title">Choose a Text</div>
+    <div class="lib-header-title">${TT('Choose a Text', 'Choose a Text', 'पाठ चुनें')}</div>
     ${layoutBtns}
   </div>
   <div class="lib-content">
@@ -4063,7 +4080,7 @@ function renderArrange(el, ordered) {
     return `<div class="arr-row${off ? ' off' : ''}" data-key="${t.key}">
       <span class="arr-handle" title="Drag">☰</span>
       <span class="arr-dot" style="background:${t.gradient}">${t.icon}</span>
-      <div class="arr-name">${t.name}${off ? '<small>Hidden</small>' : ''}</div>
+      <div class="arr-name">${t.name}${off ? `<small>${TT('Hidden', 'Hidden', 'छिपा')}</small>` : ''}</div>
       <button class="arr-btn" ${i === 0 ? 'disabled' : ''} onclick="arrMove('${t.key}',-1)" title="Move up">▲</button>
       <button class="arr-btn" ${i === ordered.length - 1 ? 'disabled' : ''} onclick="arrMove('${t.key}',1)" title="Move down">▼</button>
       <button class="arr-btn arr-eye" onclick="arrHide('${t.key}')" title="${off ? 'Show' : 'Hide'}">${off ? '🙈' : '👁'}</button>
@@ -4072,13 +4089,13 @@ function renderArrange(el, ordered) {
   el.innerHTML = `
   <div class="lib-header">
     <button class="lib-back-btn" onclick="setArrange(false)" title="Done">‹</button>
-    <div class="lib-header-title">Arrange Tiles</div>
-    <button class="arr-done" onclick="setArrange(false)">Done</button>
+    <div class="lib-header-title">${TT('Arrange Tiles', 'Arrange Tiles', 'टाइलें सजाएँ')}</div>
+    <button class="arr-done" onclick="setArrange(false)">${TT('Done', 'Done', 'ठीक है')}</button>
   </div>
   <div class="lib-content">
-    <div class="arr-help">Drag ☰ or use ▲ ▼ to reorder. 👁 hides a tile. Saved on this phone.</div>
+    <div class="arr-help">${TT('Drag ☰ or use ▲ ▼ to reorder. 👁 hides a tile. Saved on this phone.', 'Drag ☰ or use ▲ ▼ to reorder. 👁 hides a tile. Saved on this phone.', 'क्रम बदलने के लिए ☰ खींचें या ▲ ▼ दबाएँ। 👁 से टाइल छिपती है। इसी फ़ोन पर सहेजा जाता है।')}</div>
     <div class="arr-list" id="arr-list" data-noswipe>${rows}</div>
-    <button class="arr-reset" onclick="arrReset()">Reset to default</button>
+    <button class="arr-reset" onclick="arrReset()">${TT('Reset to default', 'Reset to default', 'पहले जैसा करें')}</button>
   </div>`;
   arrDragInit(document.getElementById('arr-list'));
 }
@@ -4180,18 +4197,18 @@ function renderSettingsSheet(slide) {
       <span class="hs-sw" style="background:${th.bg}"><span style="background:${th.card}"></span><i style="background:${th.accent}"></i><b style="background:${th.gold}"></b></span>
       <span class="hs-tn">${th.label}</span></button>`;
   const autoChip = `<button class="hs-theme${cur === 'auto' ? ' on' : ''}" onclick="setTheme('auto')" aria-label="Auto">
-      <span class="hs-sw hs-auto"><span></span></span><span class="hs-tn">${TT('Auto', 'ఆటో')}</span></button>`;
+      <span class="hs-sw hs-auto"><span></span></span><span class="hs-tn">${TT('Auto', 'ఆటో', 'ऑटो')}</span></button>`;
   const sizes = FONT_LABELS.map((l, i) => [i, l]);
   const music = settings.splashMusic !== false;
-  const thName = cur === 'auto' ? TT('Auto', 'ఆటో') : (THEMES.find(t => t.id === cur) || {}).label || '';
-  const langName = { en: 'English', both: TT('Both', 'రెండూ'), te: 'తెలుగు' }[settings.language] || '';
+  const thName = cur === 'auto' ? TT('Auto', 'ఆటో', 'ऑटो') : (THEMES.find(t => t.id === cur) || {}).label || '';
+  const langName = { en: 'English', both: TT('Both', 'రెండూ', 'दोनों'), te: 'తెలుగు', hi: 'हिन्दी' }[settings.language] || '';
   const nBm = window.bmCount ? bmCount() : 0;
   const PAGES = {
-    themes:    { icon: '🎨', t: TT('Themes', 'థీమ్‌లు'),               v: thName },
-    reading:   { icon: '📖', t: TT('Script & text size', 'లిపి & అక్షర పరిమాణం'), v: `${langName} · ${FONT_LABELS[settings.practiceFontSize]}` },
-    sound:     { icon: '🔔', t: TT('Opening music', 'ప్రారంభ సంగీతం'),  v: music ? TT('On', 'ఆన్') : TT('Off', 'ఆఫ్') },
-    bookmarks: { icon: '🔖', t: TT('Bookmarks', 'బుక్‌మార్క్‌లు'),       v: nBm ? String(nBm) : '' },
-    app:       { icon: 'ℹ️', t: TT('App & updates', 'యాప్ & అప్‌డేట్‌లు'), v: BUILD_DATE },
+    themes:    { icon: '🎨', t: TT('Themes', 'థీమ్‌లు', 'थीम'),               v: thName },
+    reading:   { icon: '📖', t: TT('Script & text size', 'లిపి & అక్షర పరిమాణం', 'लिपि और अक्षर का आकार'), v: `${langName} · ${FONT_LABELS[settings.practiceFontSize]}` },
+    sound:     { icon: '🔔', t: TT('Opening music', 'ప్రారంభ సంగీతం', 'शुरुआती संगीत'),  v: music ? TT('On', 'ఆన్', 'चालू') : TT('Off', 'ఆఫ్', 'बंद') },
+    bookmarks: { icon: '🔖', t: TT('Bookmarks', 'బుక్‌మార్క్‌లు', 'बुकमार्क'),       v: nBm ? String(nBm) : '' },
+    app:       { icon: 'ℹ️', t: TT('App & updates', 'యాప్ & అప్‌డేట్‌లు', 'ऐप और अपडेट'), v: BUILD_DATE },
   };
   const row = k => `<button class="hs-item" onclick="hsOpen('${k}')">
       <span class="hs-ic">${PAGES[k].icon}</span><span class="hs-it">${PAGES[k].t}</span>
@@ -4204,50 +4221,50 @@ function renderSettingsSheet(slide) {
       <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्</div>`;
   } else if (hsPage === 'themes') {
     inner = `<div class="hs-card">
-        <div class="hs-sub">${TT('Light themes', 'లేత రంగులు')}</div>
+        <div class="hs-sub">${TT('Light themes', 'లేత రంగులు', 'हल्के रंग')}</div>
         <div class="hs-themes">${THEMES.filter(t => t.group === 'light').map(chip).join('')}</div>
-        <div class="hs-sub">${TT('Dark themes', 'ముదురు రంగులు')}</div>
+        <div class="hs-sub">${TT('Dark themes', 'ముదురు రంగులు', 'गहरे रंग')}</div>
         <div class="hs-themes">${THEMES.filter(t => t.group === 'dark').map(chip).join('')}${autoChip}</div>
-        <div class="hs-note">${TT('Auto follows your phone: Ivory by day, Temple at night.', 'ఆటో: పగలు ఐవరీ, రాత్రి టెంపుల్ — మీ ఫోన్‌ను అనుసరిస్తుంది.')}</div>
+        <div class="hs-note">${TT('Auto follows your phone: Ivory by day, Temple at night.', 'ఆటో: పగలు ఐవరీ, రాత్రి టెంపుల్ — మీ ఫోన్‌ను అనుసరిస్తుంది.', 'ऑटो आपके फ़ोन के अनुसार चलता है: दिन में आइवरी, रात में टेंपल।')}</div>
       </div>`;
   } else if (hsPage === 'reading') {
     inner = `<div class="hs-card">
-        <div class="hs-row"><div><div class="hs-l">${TT('Script', 'లిపి')}</div><div class="hs-d">${TT('How verses are shown', 'శ్లోకాలు ఎలా కనిపించాలి')}</div></div>
-          ${seg([['en', 'English'], ['both', TT('Both', 'రెండూ')], ['te', 'తెలుగు']], settings.language, 'setSheetLanguage')}</div>
-        <div class="hs-row"><div><div class="hs-l">${TT('Practice text', 'అభ్యాస అక్షరాలు')}</div><div class="hs-d">${TT('Size while reading', 'చదివేటప్పుడు పరిమాణం')}</div></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Script', 'లిపి', 'लिपि')}</div><div class="hs-d">${TT('How verses are shown', 'శ్లోకాలు ఎలా కనిపించాలి', 'श्लोक कैसे दिखें')}</div></div>
+          ${seg([['en', 'English'], ['both', TT('Both', 'రెండూ', 'दोनों')], ['te', 'తెలుగు'], ['hi', 'हिन्दी']], settings.language, 'setSheetLanguage')}</div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Practice text', 'అభ్యాస అక్షరాలు', 'अभ्यास पाठ')}</div><div class="hs-d">${TT('Size while reading', 'చదివేటప్పుడు పరిమాణం', 'पढ़ते समय आकार')}</div></div>
           ${seg(sizes, settings.practiceFontSize, "setFontSize.bind(null,'practice')")}</div>
-        <div class="hs-row"><div><div class="hs-l">${TT('Recite text', 'పారాయణ అక్షరాలు')}</div><div class="hs-d">${TT('Size on the recite screen', 'పారాయణ తెరపై పరిమాణం')}</div></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Recite text', 'పారాయణ అక్షరాలు', 'पाठ (पारायण)')}</div><div class="hs-d">${TT('Size on the recite screen', 'పారాయణ తెరపై పరిమాణం', 'पारायण स्क्रीन पर आकार')}</div></div>
           ${seg(sizes, settings.reciteFontSize, "setFontSize.bind(null,'recite')")}</div>
       </div>
-      <div class="hs-card hs-preview"><div class="hs-d">${TT('Preview', 'నమూనా')}</div>
+      <div class="hs-card hs-preview"><div class="hs-d">${TT('Preview', 'నమూనా', 'नमूना')}</div>
         <div style="font-size:${PRACTICE_FONT_SIZES[settings.practiceFontSize]};color:var(--fg);line-height:1.5;margin-top:6px">
-        ${settings.language !== 'te' ? '<div>karmaṇyēvādhikārastē mā phalēṣu kadāchana</div>' : ''}${settings.language !== 'en' ? '<div>కర్మణ్యేవాధికారస్తే మా ఫలేషు కదాచన</div>' : ''}</div></div>`;
+        ${SL() !== 'te' ? '<div>karmaṇyēvādhikārastē mā phalēṣu kadāchana</div>' : ''}${SL() !== 'en' ? '<div>కర్మణ్యేవాధికారస్తే మా ఫలేషు కదాచన</div>' : ''}</div></div>`;
   } else if (hsPage === 'sound') {
     inner = `<div class="hs-card">
-        <div class="hs-row"><div><div class="hs-l">${TT('Play when the app opens', 'యాప్ తెరిచినప్పుడు వినిపించు')}</div><div class="hs-d">${TT('Tanpura, flute in Rāga Mohanam and a temple bell', 'తంబూర, మోహన రాగంలో వేణువు, గుడి గంట')}</div></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Play when the app opens', 'యాప్ తెరిచినప్పుడు వినిపించు', 'ऐप खुलने पर बजाएँ')}</div><div class="hs-d">${TT('Tanpura, flute in Rāga Mohanam and a temple bell', 'తంబూర, మోహన రాగంలో వేణువు, గుడి గంట', 'तानपुरा, राग मोहनम् में बाँसुरी और मंदिर की घंटी')}</div></div>
           <button class="hs-switch${music ? ' on' : ''}" role="switch" aria-checked="${music}" onclick="setSplashMusic(${!music})"><span></span></button></div>
-        <div class="hs-row"><div><div class="hs-l">${TT('Listen', 'వినండి')}</div><div class="hs-d">${TT('About 5 seconds', 'సుమారు 5 సెకన్లు')}</div></div>
-          <button class="hs-mini wide" onclick="previewJingle()">▶ ${TT('Play', 'ప్లే')}</button></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Listen', 'వినండి', 'सुनें')}</div><div class="hs-d">${TT('About 5 seconds', 'సుమారు 5 సెకన్లు', 'लगभग 5 सेकंड')}</div></div>
+          <button class="hs-mini wide" onclick="previewJingle()">▶ ${TT('Play', 'ప్లే', 'चलाएँ')}</button></div>
       </div>
-      <div class="hs-note" style="margin:10px 6px">${TT('On iPhone, tap the 🔔 during the opening animation to hear it — iPhones allow sound only after a tap.', 'ఐఫోన్‌లో ప్రారంభ యానిమేషన్ సమయంలో 🔔 నొక్కండి — ట్యాప్ చేసిన తర్వాతే ఐఫోన్ శబ్దాన్ని అనుమతిస్తుంది.')}</div>`;
+      <div class="hs-note" style="margin:10px 6px">${TT('On iPhone, tap the 🔔 during the opening animation to hear it — iPhones allow sound only after a tap.', 'ఐఫోన్‌లో ప్రారంభ యానిమేషన్ సమయంలో 🔔 నొక్కండి — ట్యాప్ చేసిన తర్వాతే ఐఫోన్ శబ్దాన్ని అనుమతిస్తుంది.', 'iPhone पर सुनने के लिए शुरुआती एनिमेशन के दौरान 🔔 पर टैप करें — iPhone टैप के बाद ही आवाज़ चलाने देता है।')}</div>`;
   } else if (hsPage === 'bookmarks') {
     inner = `<div class="hs-card"><div id="bm-settings"></div></div>`;
   } else if (hsPage === 'app') {
     inner = `<div class="hs-card">
-        <div class="hs-row"><div><div class="hs-l">${TT('Check for updates', 'కొత్త వెర్షన్')}</div><div class="hs-d" id="update-status">Version ${BUILD_DATE}</div></div>
-          <button class="hs-mini wide" onclick="checkForUpdates(this)">${TT('Refresh', 'రిఫ్రెష్')}</button></div>
-        <div class="hs-row"><div><div class="hs-l">${TT('Reset progress', 'ప్రగతి తొలగించు')}</div><div class="hs-d">${TT('Clear all completed verse marks', 'పూర్తి చేసిన గుర్తులన్నీ తీసేస్తుంది')}</div></div>
-          <button class="hs-mini wide danger" onclick="resetProgress()">${TT('Reset', 'తొలగించు')}</button></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Check for updates', 'కొత్త వెర్షన్', 'नया संस्करण देखें')}</div><div class="hs-d" id="update-status">Version ${BUILD_DATE}</div></div>
+          <button class="hs-mini wide" onclick="checkForUpdates(this)">${TT('Refresh', 'రిఫ్రెష్', 'रीफ़्रेश')}</button></div>
+        <div class="hs-row"><div><div class="hs-l">${TT('Reset progress', 'ప్రగతి తొలగించు', 'प्रगति हटाएँ')}</div><div class="hs-d">${TT('Clear all completed verse marks', 'పూర్తి చేసిన గుర్తులన్నీ తీసేస్తుంది', 'पूरे किए गए श्लोकों के सभी निशान हटाएँ')}</div></div>
+          <button class="hs-mini wide danger" onclick="resetProgress()">${TT('Reset', 'తొలగించు', 'हटाएँ')}</button></div>
       </div>
-      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्<br>${TT('Free for family and friends', 'కుటుంబం, స్నేహితుల కోసం ఉచితం')}</div>`;
+      <div class="hs-foot">Vedasaram · వేదసారం · वेदसारम्<br>${TT('Free for family and friends', 'కుటుంబం, స్నేహితుల కోసం ఉచితం', 'परिवार और मित्रों के लिए निःशुल्क')}</div>`;
   }
-  const title = hsPage ? PAGES[hsPage].t : TT('Settings', 'సెట్టింగ్‌లు');
-  const back = hsPage ? `<button class="hs-back" onclick="hsOpen('')">‹ ${TT('Settings', 'సెట్టింగ్‌లు')}</button>` : '<span></span>';
+  const title = hsPage ? PAGES[hsPage].t : TT('Settings', 'సెట్టింగ్‌లు', 'सेटिंग्स');
+  const back = hsPage ? `<button class="hs-back" onclick="hsOpen('')">‹ ${TT('Settings', 'సెట్టింగ్‌లు', 'सेटिंग्स')}</button>` : '<span></span>';
   m.innerHTML = `<div class="home-settings-sheet" role="dialog" aria-label="Settings">
     <div class="hs-head">
       <div class="home-settings-handle"></div>
       <div class="hs-bar">${back}<div class="home-settings-title">${title}</div>
-        <button class="hs-done" onclick="closeHomeSettings()">${TT('Done', 'సరే')}</button></div>
+        <button class="hs-done" onclick="closeHomeSettings()">${TT('Done', 'సరే', 'ठीक है')}</button></div>
     </div>
     <div class="hs-body${slide ? (hsPage ? ' hs-in' : ' hs-out') : ''}">${inner}</div>
   </div>`;
@@ -4459,24 +4476,24 @@ function renderSongPractice(el) {
   const hasPrev = idx > 0, hasNext = idx < C.order.length - 1;
   let html = `
   <div class="chapter-nav">
-    <button class="chapter-nav-btn" ${hasPrev ? `onclick="navChapter(-1)"` : 'disabled'}>${TT('← Prev','← వెనుక')}</button>
-    <div class="chapter-nav-title" style="cursor:pointer" onclick="${C.allAction || "showView('index')"}">${TT(C.all,'☰ అన్నీ')}</div>
-    <button class="chapter-nav-btn" ${hasNext ? `onclick="navChapter(1)"` : 'disabled'}>${TT('Next →','తరువాత →')}</button>
+    <button class="chapter-nav-btn" ${hasPrev ? `onclick="navChapter(-1)"` : 'disabled'}>${TT('← Prev', '← వెనుక', '← पिछला')}</button>
+    <div class="chapter-nav-title" style="cursor:pointer" onclick="${C.allAction || "showView('index')"}">${TT(C.all,'☰ అన్నీ','☰ सभी')}</div>
+    <button class="chapter-nav-btn" ${hasNext ? `onclick="navChapter(1)"` : 'disabled'}>${TT('Next →', 'తరువాత →', 'अगला →')}</button>
   </div>
   <div class="chapter-header">
-    <div class="chapter-num te">${TT(C.name, C.nameTe || C.name)}</div>
-    <h2>${esc(settings.language === 'te' && song.titleTe ? song.titleTe : song.title)}</h2>
+    <div class="chapter-num te">${TT(C.name, C.nameTe || C.name, hiName(C.nameTe))}</div>
+    <h2>${esc(SL() === 'te' && song.titleTe ? song.titleTe : song.title)}</h2>
     ${song.sub ? `<div class="subtitle">${esc(song.sub)}</div>` : ''}
   </div>`;
   for (const v of song.verses) {
     const key = `${state.section}_${state.chapter}_${v.n}`;
-    if (v.h) html += `<div class="coll-head">${esc(settings.language === 'te' && v.hTe ? v.hTe : v.h)}</div>`;
+    if (v.h) html += `<div class="coll-head">${esc(SL() === 'te' && v.hTe ? v.hTe : v.h)}</div>`;
     const isDone = done.has(key);
     const isExpanded = state.expandedVerse === key;
     const te = songTeLines(song, v.n);
     // If the song has no Telugu text, always show the English lines
-    const showEn = settings.language !== 'te' || !te;
-    const showTe = settings.language !== 'en' && te;
+    const showEn = SL() !== 'te' || !te;
+    const showTe = SL() !== 'en' && te;
     let linesHtml = '';
     if (showEn) {
       linesHtml = v.tlines.map((ln, i) => {
@@ -4499,14 +4516,14 @@ function renderSongPractice(el) {
 function renderDhyanaPractice(el) {
   let html = `
   <div class="chapter-nav">
-    <button class="chapter-nav-btn" disabled>${TT('← Prev','← వెనుక')}</button>
-    <div class="chapter-nav-title">${TT('Dhyāna Śloka','ధ్యాన శ్లోకాలు')}</div>
-    <button class="chapter-nav-btn" onclick="goToChapter('gita','1')">${TT('Next →','తరువాత →')}</button>
+    <button class="chapter-nav-btn" disabled>${TT('← Prev', '← వెనుక', '← पिछला')}</button>
+    <div class="chapter-nav-title">${TT('Dhyāna Śloka', 'ధ్యాన శ్లోకాలు', 'ध्यान श्लोक')}</div>
+    <button class="chapter-nav-btn" onclick="goToChapter('gita','1')">${TT('Next →', 'తరువాత →', 'अगला →')}</button>
   </div>
   <div class="chapter-header">
-    <div class="chapter-num te">${TT('Bhagavad Gītā · Dhyāna Śloka','శ్రీమద్భగవద్గీత · ధ్యాన శ్లోకాలు')}</div>
-    <h2 class="te">${TT('Gītā Dhyānam','గీతా ధ్యానం')}</h2>
-    <div class="subtitle te">${TT('14 Invocation Verses before the Gītā','గీతా పారాయణకు ముందు 14 ధ్యాన శ్లోకాలు')}</div>
+    <div class="chapter-num te">${TT('Bhagavad Gītā · Dhyāna Śloka', 'శ్రీమద్భగవద్గీత · ధ్యాన శ్లోకాలు', 'भगवद्गीता · ध्यान श्लोक')}</div>
+    <h2 class="te">${TT('Gītā Dhyānam', 'గీతా ధ్యానం', 'गीता ध्यानम्')}</h2>
+    <div class="subtitle te">${TT('14 Invocation Verses before the Gītā', 'గీతా పారాయణకు ముందు 14 ధ్యాన శ్లోకాలు', 'गीता से पहले के 14 ध्यान श्लोक')}</div>
   </div>`;
   for (const s of DHYANA_DATA) {
     const key = `gita_dhyana_${s.n}`;
@@ -4515,11 +4532,11 @@ function renderDhyanaPractice(el) {
     // Use provided Telugu dhyana text (1-based index)
     const teLines = DHYANA_TE_DATA[s.n - 1] || [];
     const linesHtml = s.tlines.map((ln,i) => {
-      const enLine = settings.language !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+      const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
       const rawTeLn = teLines[i] || null;
       const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-      const teLine = (settings.language !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-      const br = (i < s.tlines.length-1 && settings.language !== 'te') ? '<br>' : '';
+      const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+      const br = (i < s.tlines.length-1 && SL() !== 'te') ? '<br>' : '';
       return enLine + teLine + br;
     }).join('');
     html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4535,17 +4552,17 @@ function renderVSNPractice(el) {
   // Entire VSN is ONE continuous page — all sections from Invocation to Phalaśruti
   let html = `
   <div class="chapter-header">
-    <div class="chapter-num te">${TT('Viṣṇu Sahasranāmam','శ్రీ విష్ణు సహస్రనామ స్తోత్రం')}</div>
-    <h2 class="te">${TT('Complete Text','సంపూర్ణ పాఠం')}</h2>
-    <div class="subtitle te">${TT('Invocation · Dhyānam · 1000 Names · Phalaśruti','పూర్వపీఠిక · ధ్యానం · సహస్ర నామాలు · ఫలశ్రుతి')}</div>
+    <div class="chapter-num te">${TT('Viṣṇu Sahasranāmam', 'శ్రీ విష్ణు సహస్రనామ స్తోత్రం', 'विष्णु सहस्रनाम')}</div>
+    <h2 class="te">${TT('Complete Text', 'సంపూర్ణ పాఠం', 'संपूर्ण पाठ')}</h2>
+    <div class="subtitle te">${TT('Invocation · Dhyānam · 1000 Names · Phalaśruti', 'పూర్వపీఠిక · ధ్యానం · సహస్ర నామాలు · ఫలశ్రుతి', 'आवाहन · ध्यानम् · 1000 नाम · फलश्रुति')}</div>
   </div>
   <div class="chapter-invocation">
-    ${settings.language !== 'te' ? `<span class="vline">ōṃ śrī viṣṇave namaḥ</span><br>
-    <span class="vline">harīḥ ōṃ</span>` : ''}${settings.language === 'both' ? '<br>' : ''}${settings.language !== 'en' ? `<span class="vline-te">ఓం శ్రీ విష్ణవే నమః</span><span class="vline-te">హరిః ఓం</span>` : ''}
+    ${SL() !== 'te' ? `<span class="vline">ōṃ śrī viṣṇave namaḥ</span><br>
+    <span class="vline">harīḥ ōṃ</span>` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">ఓం శ్రీ విష్ణవే నమః</span><span class="vline-te">హరిః ఓం</span>` : ''}
   </div>`;
 
   // Section heading labels
-  const SEC_LABELS = settings.language === 'te' ? {
+  const SEC_LABELS = SL() === 'te' ? {
     preamble: 'ప్రారంభం',
     purva: 'పూర్వపీఠిక',
     dhyanam: 'ధ్యానం',
@@ -4570,7 +4587,7 @@ function renderVSNPractice(el) {
     }
     // Numbered sloka group header
     if (isNumbered && sec === '1') {
-      html += `<div class="chapter-section-hdr" style="margin:20px 0 8px;font-size:0.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;opacity:0.8">${TT('Nāma Slokas 1–108','నామ శ్లోకాలు 1–108')}</div>`;
+      html += `<div class="chapter-section-hdr" style="margin:20px 0 8px;font-size:0.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;opacity:0.8">${TT('Nāma Slokas 1–108', 'నామ శ్లోకాలు 1–108', 'नाम श्लोक 1–108')}</div>`;
     }
 
     for (const s of slokas) {
@@ -4581,18 +4598,18 @@ function renderVSNPractice(el) {
       const teSlokas = VSN_TE_DATA[sec] || [];
       // Telugu nāma slokas are all stored with n:1, so match numbered sections by position
       const teSloka = teSlokas.find(x => x.n === s.n) || (isNumbered ? teSlokas[slokas.indexOf(s)] : null);
-      const slokaNumLabel = isNumbered ? `<div class="verse-num">${TT('Śloka','శ్లోకం')} ${sec}</div>` : '';
+      const slokaNumLabel = isNumbered ? `<div class="verse-num">${TT('Śloka', 'శ్లోకం', 'श्लोक')} ${sec}</div>` : '';
       const cleanTe = t => t.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd();
       // Telugu-only: skip verses with no Telugu text, and show every Telugu line of the verse
-      if (settings.language === 'te' && !teSloka) continue;
-      const linesHtml = (settings.language === 'te')
+      if (SL() === 'te' && !teSloka) continue;
+      const linesHtml = (SL() === 'te')
         ? teSloka.tlines.map(t => `<span class="vline-te">${esc(cleanTe(t))}</span>`).join('')
         : s.tlines.map((ln, i) => {
-        const enLine = settings.language !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+        const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
         const rawTeLn = (teSloka && teSloka.tlines[i]) ? teSloka.tlines[i] : null;
         const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-        const teLine = (settings.language !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-        const br = (i < s.tlines.length - 1 && settings.language !== 'te') ? '<br>' : '';
+        const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+        const br = (i < s.tlines.length - 1 && SL() !== 'te') ? '<br>' : '';
         return enLine + teLine + br;
       }).join('');
       html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4611,16 +4628,16 @@ function renderHCPractice(el) {
   // Hanuman Chalisa — one continuous scrollable page
   let html = `
   <div class="chapter-header">
-    <div class="chapter-num te">${TT('Hanumān Chālīsā','శ్రీ హనుమాన్ చాలీసా')}</div>
-    <h2 class="te">${TT('Complete Text','సంపూర్ణ పాఠం')}</h2>
-    <div class="subtitle te">${TT('Dōhā · Dhyānam · 40 Chaupāī · Closing Dōhā','దోహా · ధ్యానం · 40 చౌపాయీలు · చివరి దోహా')}</div>
+    <div class="chapter-num te">${TT('Hanumān Chālīsā', 'శ్రీ హనుమాన్ చాలీసా', 'हनुमान चालीसा')}</div>
+    <h2 class="te">${TT('Complete Text', 'సంపూర్ణ పాఠం', 'संपूर्ण पाठ')}</h2>
+    <div class="subtitle te">${TT('Dōhā · Dhyānam · 40 Chaupāī · Closing Dōhā', 'దోహా · ధ్యానం · 40 చౌపాయీలు · చివరి దోహా', 'दोहा · ध्यानम् · 40 चौपाई · समापन दोहा')}</div>
   </div>
   <div class="chapter-invocation">
-    ${settings.language !== 'te' ? `<span class="vline">śrī hanumantē namaḥ</span><br>
-    <span class="vline">jai śrī rāma</span>` : ''}${settings.language === 'both' ? '<br>' : ''}${settings.language !== 'en' ? `<span class="vline-te">శ్రీ హనుమతే నమః</span><span class="vline-te">జై శ్రీ రామ</span>` : ''}
+    ${SL() !== 'te' ? `<span class="vline">śrī hanumantē namaḥ</span><br>
+    <span class="vline">jai śrī rāma</span>` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">శ్రీ హనుమతే నమః</span><span class="vline-te">జై శ్రీ రామ</span>` : ''}
   </div>`;
 
-  const SEC_LABELS = settings.language === 'te' ? {
+  const SEC_LABELS = SL() === 'te' ? {
     doha1: 'దోహా — ప్రారంభం',
     dhyana: 'ధ్యానం',
     doha2: 'దోహా — ముగింపు',
@@ -4639,7 +4656,7 @@ function renderHCPractice(el) {
       html += `<div class="chapter-section-hdr" style="margin:20px 0 8px;font-size:0.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;opacity:0.8">${secLabel}</div>`;
     }
     if (isNumbered && sec === '1') {
-      html += `<div class="chapter-section-hdr" style="margin:20px 0 8px;font-size:0.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;opacity:0.8">${TT('Chaupāī 1–40','చౌపాయీలు 1–40')}</div>`;
+      html += `<div class="chapter-section-hdr" style="margin:20px 0 8px;font-size:0.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.07em;opacity:0.8">${TT('Chaupāī 1–40', 'చౌపాయీలు 1–40', 'चौपाई 1–40')}</div>`;
     }
     for (const s of slokas) {
       const key = `hc_${sec}_${s.n}`;
@@ -4647,13 +4664,13 @@ function renderHCPractice(el) {
       const isExpanded = state.expandedVerse === key;
       const teSlokas = HC_TE_DATA[sec] || [];
       const teSloka = teSlokas.find(x => x.n === s.n);
-      const numLabel = isNumbered ? `<div class="verse-num">${TT('Chaupāī','చౌపాయీ')} ${sec}</div>` : '';
+      const numLabel = isNumbered ? `<div class="verse-num">${TT('Chaupāī', 'చౌపాయీ', 'चौपाई')} ${sec}</div>` : '';
       const linesHtml = s.tlines.map((ln, i) => {
-        const enLine = settings.language !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+        const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
         const rawTeLn = (teSloka && teSloka.tlines[i]) ? teSloka.tlines[i] : null;
         const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-        const teLine = (settings.language !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-        const br = (i < s.tlines.length - 1 && settings.language !== 'te') ? '<br>' : '';
+        const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+        const br = (i < s.tlines.length - 1 && SL() !== 'te') ? '<br>' : '';
         return enLine + teLine + br;
       }).join('');
       html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4689,7 +4706,7 @@ function renderGitaPractice(el) {
     'kṣētrakṣētrajñavibhāgayōgaḥ','guṇatrayavibhāgayōgaḥ','puruṣōttamaprāptiyōgaḥ',
     'daivāsurasampadvibhāgayōgaḥ','śraddhātrayavibhāgayōgaḥ','mokṣasannyāsayōgaḥ'];
   const yogaName = YOGA_NAMES[chNum] || '';
-  const L = settings.language;
+  const L = SL();
   const teInv = GITA_TE_CH[chNum];
   const invEn = `<span class="vline">ōṃ śrī paramātmanē namaḥ</span><br>
     <span class="vline">atha ${ordinal}'dhyāyaḥ</span><br>
@@ -4731,7 +4748,7 @@ function renderGitaPractice(el) {
     let spkHtml = '';
     if (v.spk && v.spk !== prevSpk) {
       const spkNames = { 'arjuna':'Arjuna','bhagavān':'Śrī Bhagavān','sañjaya':'Sañjaya','dhṛtarāṣṭra':'Dhṛtarāṣṭra' };
-      if (settings.language === 'te') {
+      if (SL() === 'te') {
         // Telugu mode — show Telugu speaker label if available, else hide
         spkHtml = teSpkLine ? `<span class="spk-tag">${esc(teSpkLine)}</span>` : '';
       } else {
@@ -4743,17 +4760,17 @@ function renderGitaPractice(el) {
     // Render IAST lines and Telugu lines independently (they have different line counts)
     // IAST: 4 half-lines; Telugu: 2 full lines — never pair them 1:1
     let linesHtml = '';
-    if (settings.language !== 'te') {
+    if (SL() !== 'te') {
       // Show IAST lines
       linesHtml += v.tlines.map((ln, i) => {
         const br = (i < v.tlines.length - 1) ? '<br>' : '';
         return `<span class="vline">${esc(ln)}</span>${br}`;
       }).join('');
     }
-    if (settings.language !== 'en' && teVLines.length > 0) {
+    if (SL() !== 'en' && teVLines.length > 0) {
       // Show Telugu lines as an independent block (not paired with IAST count)
       // Strip embedded ॥N॥ verse markers — render code adds its own verse-num span
-      if (settings.language !== 'te' && v.tlines.length > 0) linesHtml += '<br>';
+      if (SL() !== 'te' && v.tlines.length > 0) linesHtml += '<br>';
       linesHtml += teVLines.map((teLn, i) => {
         const cleanLn = teLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd();
         const br = (i < teVLines.length - 1) ? '<br>' : '';
@@ -4784,21 +4801,21 @@ function renderRudramPractice(el) {
   if (part !== 'namakam' && part !== 'chamakam') {
     el.innerHTML = `
     <div class="chapter-header">
-      <div class="chapter-num te">${TT('Śrī Śiva','శ్రీ శివ')}</div>
-      <h2 class="te">${TT('Choose a Text','పాఠం ఎంచుకోండి')}</h2>
+      <div class="chapter-num te">${TT('Śrī Śiva', 'శ్రీ శివ', 'श्री शिव')}</div>
+      <h2 class="te">${TT('Choose a Text', 'పాఠం ఎంచుకోండి', 'पाठ चुनें')}</h2>
     </div>
     <div class="rudram-choose">
       <button class="rudram-choice" onclick="chooseRudramPart('namakam')">
-        <div class="rc-name">${TT('Namakam','నమకం')}</div>
-        <div class="rc-desc">${TT('11 Anuvakas · namastē rudra manyava','11 అనువాకాలు · నమస్తే రుద్ర మన్యవ')}</div>
+        <div class="rc-name">${TT('Namakam', 'నమకం', 'नमकम्')}</div>
+        <div class="rc-desc">${TT('11 Anuvakas · namastē rudra manyava', '11 అనువాకాలు · నమస్తే రుద్ర మన్యవ', '11 अनुवाक · नमस्ते रुद्र मन्यव')}</div>
       </button>
       <button class="rudram-choice" onclick="chooseRudramPart('chamakam')">
-        <div class="rc-name">${TT('Chamakam','చమకం')}</div>
-        <div class="rc-desc">${TT('11 Anuvakas · Closing Prayer · agnāviṣṇū sajōṣasā','11 అనువాకాలు · ముగింపు ప్రార్థన · అగ్నావిష్ణూ సజోషసా')}</div>
+        <div class="rc-name">${TT('Chamakam', 'చమకం', 'चमकम्')}</div>
+        <div class="rc-desc">${TT('11 Anuvakas · Closing Prayer · agnāviṣṇū sajōṣasā', '11 అనువాకాలు · ముగింపు ప్రార్థన · అగ్నావిష్ణూ సజోషసా', '11 अनुवाक · समापन प्रार्थना · अग्नाविष्णू सजोषसा')}</div>
       </button>
       <button class="rudram-choice" onclick="goToChapter('shiva','dakshinamurthy')">
-        <div class="rc-name">${TT('Dakṣiṇāmūrti Stōtram','దక్షిణామూర్తి స్తోత్రం')}</div>
-        <div class="rc-desc">${TT('Ādi Śaṅkarācārya · Dhyānam · 10 ślokas','ఆది శంకరాచార్య · ధ్యానం · 10 శ్లోకాలు')}</div>
+        <div class="rc-name">${TT('Dakṣiṇāmūrti Stōtram', 'దక్షిణామూర్తి స్తోత్రం', 'दक्षिणामूर्ति स्तोत्रम्')}</div>
+        <div class="rc-desc">${TT('Ādi Śaṅkarācārya · Dhyānam · 10 ślokas', 'ఆది శంకరాచార్య · ధ్యానం · 10 శ్లోకాలు', 'आदि शंकराचार्य · ध्यानम् · 10 श्लोक')}</div>
       </button>
     </div>`;
     return;
@@ -4807,17 +4824,17 @@ function renderRudramPractice(el) {
   const isNam = (part === 'namakam');
   let html = `
   <div class="rudram-switch">
-    <button class="${isNam ? 'active' : ''}" onclick="chooseRudramPart('namakam')">${TT('Namakam','నమకం')}</button>
-    <button class="${isNam ? '' : 'active'}" onclick="chooseRudramPart('chamakam')">${TT('Chamakam','చమకం')}</button>
+    <button class="${isNam ? 'active' : ''}" onclick="chooseRudramPart('namakam')">${TT('Namakam', 'నమకం', 'नमकम्')}</button>
+    <button class="${isNam ? '' : 'active'}" onclick="chooseRudramPart('chamakam')">${TT('Chamakam', 'చమకం', 'चमकम्')}</button>
   </div>
   <div class="chapter-header">
-    <div class="chapter-num te">${TT('Śrī Rudram','శ్రీ రుద్రం')}</div>
-    <h2 class="te">${isNam ? TT('Namakam','నమకం') : TT('Chamakam','చమకం')}</h2>
-    <div class="subtitle te">${isNam ? TT('11 Anuvakas','11 అనువాకాలు') : TT('11 Anuvakas · Closing Prayer','11 అనువాకాలు · ముగింపు ప్రార్థన')}</div>
+    <div class="chapter-num te">${TT('Śrī Rudram', 'శ్రీ రుద్రం', 'श्री रुद्रम्')}</div>
+    <h2 class="te">${isNam ? TT('Namakam', 'నమకం', 'नमकम्') : TT('Chamakam', 'చమకం', 'चमकम्')}</h2>
+    <div class="subtitle te">${isNam ? TT('11 Anuvakas', '11 అనువాకాలు', '11 अनुवाक') : TT('11 Anuvakas · Closing Prayer', '11 అనువాకాలు · ముగింపు ప్రార్థన', '11 अनुवाक · समापन प्रार्थना')}</div>
   </div>
   <div class="chapter-invocation">
-    ${settings.language !== 'te' ? `<span class="vline">ōṃ namaḥ śivāya</span>${isNam ? `<br>
-    <span class="vline">ōṃ namas tē rudra manyava</span>` : ''}` : ''}${settings.language === 'both' ? '<br>' : ''}${settings.language !== 'en' ? `<span class="vline-te">ఓం నమః శివాయ</span>${isNam ? '<span class="vline-te">ఓం నమస్తే రుద్ర మన్యవ</span>' : ''}` : ''}
+    ${SL() !== 'te' ? `<span class="vline">ōṃ namaḥ śivāya</span>${isNam ? `<br>
+    <span class="vline">ōṃ namas tē rudra manyava</span>` : ''}` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">ఓం నమః శివాయ</span>${isNam ? '<span class="vline-te">ఓం నమస్తే రుద్ర మన్యవ</span>' : ''}` : ''}
   </div>`;
 
   const keys = isNam
@@ -4831,22 +4848,22 @@ function renderRudramPractice(el) {
       lines = nmBlock ? nmBlock[0].tlines : (RUDRAM_DATA[k] || []);
       const teBlock = NAMAKAM_TE_DATA[k];
       teLines = teBlock ? teBlock[0].tlines : null;
-      label = settings.language === 'te' ? ('అనువాకం ' + k) : ('Anuvaka ' + k + ' — ' + (RUDRAM_META[k] || '').replace(/^Anuvaka \d+ — /, ''));
+      label = SL() === 'te' ? ('అనువాకం ' + k) : ('Anuvaka ' + k + ' — ' + (RUDRAM_META[k] || '').replace(/^Anuvaka \d+ — /, ''));
     } else {
       const cmBlock = CHAMAKAM_DATA[k];
       lines = cmBlock ? cmBlock[0].tlines : [];
       const cmTeBlock = CHAMAKAM_TE_DATA[k];
       teLines = cmTeBlock ? cmTeBlock[0].tlines : null;
-      label = (k === 'closing') ? TT('Closing Prayer','ముగింపు ప్రార్థన') : (TT('Anuvaka ','అనువాకం ') + k);
+      label = (k === 'closing') ? TT('Closing Prayer', 'ముగింపు ప్రార్థన', 'समापन प्रार्थना') : (TT('Anuvaka ', 'అనువాకం ', 'अनुवाक ') + k);
     }
 
     html += `<div class="chapter-section-hdr" style="margin:16px 0 4px;font-size:0.78rem;font-weight:600;color:var(--accent);opacity:0.65">${label}</div>`;
     html += `<div class="rudram-anuvaka"><div class="rudram-lines">`;
     lines.forEach((ln, i) => {
-      const enPart = settings.language !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+      const enPart = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
       const rawTeLn = (teLines && teLines[i]) ? teLines[i] : null;
       const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-      const tePart = (settings.language !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+      const tePart = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
       html += enPart + tePart;
     });
     html += `</div></div>`;
@@ -4886,8 +4903,8 @@ function renderIndex() {
       <div class="idx-section-hdr">
         <span class="idx-section-icon" style="background:linear-gradient(135deg,#7b3a10,#b8720a)">🪷</span>
         <div>
-          <div class="idx-section-title">${TT('Bhagavad Gītā','శ్రీమద్భగవద్గీత')}</div>
-          <div class="idx-section-sub">${TT('18 Chapters · 700 Verses','18 అధ్యాయాలు · 700 శ్లోకాలు')}</div>
+          <div class="idx-section-title">${TT('Bhagavad Gītā', 'శ్రీమద్భగవద్గీత', 'भगवद्गीता')}</div>
+          <div class="idx-section-sub">${TT('18 Chapters · 700 Verses', '18 అధ్యాయాలు · 700 శ్లోకాలు', '18 अध्याय · 700 श्लोक')}</div>
         </div>
       </div>
       <div class="idx-list">`;
@@ -4898,8 +4915,8 @@ function renderIndex() {
     html += `<div class="idx-row${isDhyanaCurrent ? ' current' : ''}" onclick="goToChapter('gita','dhyana')">
       <div class="idx-row-num" style="font-size:0.65rem">ध्यान</div>
       <div class="idx-row-body">
-        <div class="idx-row-name">${TT('Gītā Dhyānam','గీతా ధ్యానం')}</div>
-        <div class="idx-row-meta">${TT('Dhyāna Śloka · 14 verses','ధ్యాన శ్లోకాలు · 14')}</div>
+        <div class="idx-row-name">${TT('Gītā Dhyānam', 'గీతా ధ్యానం', 'गीता ध्यानम्')}</div>
+        <div class="idx-row-meta">${TT('Dhyāna Śloka · 14 verses', 'ధ్యాన శ్లోకాలు · 14', 'ध्यान श्लोक · 14 श्लोक')}</div>
         <div class="idx-prog"><div class="idx-prog-fill" style="width:${dhyanaPct}%"></div></div>
       </div>
       <div class="idx-row-pct">${dhyanaPct}%</div>
@@ -4914,8 +4931,8 @@ function renderIndex() {
       html += `<div class="idx-row${isCurrent ? ' current' : ''}" onclick="goToChapter('gita','${cs}')">
         <div class="idx-row-num">${TT('Ch.' + c, String(c))}</div>
         <div class="idx-row-body">
-          <div class="idx-row-name">${settings.language === 'te' ? GITA_TE_CH[cs].name : (meta?.yoga || 'Chapter '+c)}</div>
-          <div class="idx-row-meta">${settings.language === 'te' ? GITA_TE_CH[cs].sub + ' · ' + total + ' శ్లోకాలు' : (meta?.subtitle || '') + ' · ' + total + 'v'}</div>
+          <div class="idx-row-name">${SL() === 'te' ? GITA_TE_CH[cs].name : (meta?.yoga || 'Chapter '+c)}</div>
+          <div class="idx-row-meta">${SL() === 'te' ? GITA_TE_CH[cs].sub + ' · ' + total + ' శ్లోకాలు' : (meta?.subtitle || '') + ' · ' + total + 'v'}</div>
           <div class="idx-prog"><div class="idx-prog-fill" style="width:${pct}%"></div></div>
         </div>
         <div class="idx-row-pct">${pct}%</div>
@@ -4943,7 +4960,7 @@ function renderIndex() {
       html += `<div class="idx-row${state.chapter === k ? ' current' : ''}" onclick="goToChapter('${sec}','${k}')">
         <div class="idx-row-num">${i + 1}</div>
         <div class="idx-row-body">
-          <div class="idx-row-name">${esc(settings.language === 'te' && song.titleTe ? song.titleTe : song.title)}</div>
+          <div class="idx-row-name">${esc(SL() === 'te' && song.titleTe ? song.titleTe : song.title)}</div>
           <div class="idx-row-meta">${song.sub ? esc(song.sub) + ' · ' : ''}${total} ${song.unit || 'verses'}</div>
         </div>
         <div class="idx-row-pct">${pct}%</div>
@@ -5016,7 +5033,7 @@ function renderProgress() {
     gitaTotal += total; gitaDone += d;
     const pct = total ? Math.round(d/total*100) : 0;
     html += `<div class="prog-row">
-      <span class="prog-label">${settings.language === 'te' ? c + '. ' + GITA_TE_CH[cs].name : 'Ch.' + c + ' ' + (GITA_META[cs]?.subtitle||'')}</span>
+      <span class="prog-label">${SL() === 'te' ? c + '. ' + GITA_TE_CH[cs].name : 'Ch.' + c + ' ' + (GITA_META[cs]?.subtitle||'')}</span>
       <div class="prog-bar"><div class="prog-fill" style="width:${pct}%"></div></div>
       <span class="prog-pct">${pct}%</span>
     </div>`;
@@ -5086,7 +5103,7 @@ function buildReciteItems() {
       const teLines = DHYANA_TE_DATA[s.n - 1] || [];
       items.push({
         id: `gita_dhyana_${s.n}`,
-        label: TT('Dhyānam · ','ధ్యానం · ') + s.n,
+        label: TT('Dhyānam · ', 'ధ్యానం · ', 'ध्यानम् · ') + s.n,
         lines: s.tlines.slice(0, 4),
         teLines,
         n: s.n,
@@ -5103,14 +5120,14 @@ function buildReciteItems() {
       // Attach speaker label only when it changes
       const rawTe0 = (GITA_TE_DATA[parseInt(state.chapter)] && GITA_TE_DATA[parseInt(state.chapter)][v.n]) || [];
       const teSpk0 = (rawTe0.length && teSpeakers.includes(rawTe0[0])) ? rawTe0[0] : null;
-      const spkLabel = (v.spk && v.spk !== prevSpk) ? (settings.language === 'te' ? teSpk0 : (spkNames[v.spk] || v.spk) + ' uvāca') : null;
+      const spkLabel = (v.spk && v.spk !== prevSpk) ? (SL() === 'te' ? teSpk0 : (spkNames[v.spk] || v.spk) + ' uvāca') : null;
       if (v.spk) prevSpk = v.spk;
       // Look up Telugu lines; strip speaker line if present
       const rawTeLines = (GITA_TE_DATA[chNum] && GITA_TE_DATA[chNum][v.n]) ? GITA_TE_DATA[chNum][v.n] : [];
       const teLines = (rawTeLines.length > 0 && teSpeakers.includes(rawTeLines[0])) ? rawTeLines.slice(1) : rawTeLines;
       items.push({
         id: `gita_ch${state.chapter}_v${v.n}`,
-        label: TT(`Ch.${state.chapter} · ${v.n}`, `అధ్యాయం ${state.chapter} · ${v.n}`),
+        label: TT(`Ch.${state.chapter} · ${v.n}`, `అధ్యాయం ${state.chapter} · ${v.n}`, `अध्याय ${state.chapter} · ${v.n}`),
         lines: allLines.slice(0, 4),
         teLines,
         spk: spkLabel,
@@ -5143,7 +5160,7 @@ function buildReciteItems() {
       const cardTeLines = teLines ? teLines.slice(i, i+4) : [];
       items.push({
         id: `${isCham ? 'chamakam' : 'rudram'}_an${an}_g${Math.floor(i/4)}`,
-        label: settings.language === 'te' ? ((isCham ? 'చమకం' : 'నమకం') + ' · అనువాకం ' + an) : isCham ? ('Chamakam · Anuvaka ' + an) : (RUDRAM_META[an] || 'Anuvaka ' + an),
+        label: SL() === 'te' ? ((isCham ? 'చమకం' : 'నమకం') + ' · అనువాకం ' + an) : isCham ? ('Chamakam · Anuvaka ' + an) : (RUDRAM_META[an] || 'Anuvaka ' + an),
         lines: cardLines,
         teLines: cardTeLines,
       });
@@ -5153,7 +5170,7 @@ function buildReciteItems() {
     // Load ALL VSN sections in order as one continuous recite list
     for (const sec of VSN_SECTIONS_ORDER) {
       const slokas = VSN_DATA[sec] || [];
-      const secLabel = settings.language === 'te' ? ({preamble:'ప్రారంభం', purva:'పూర్వపీఠిక', dhyanam:'ధ్యానం', phala:'ఫలశ్రుతి'}[sec] || ('శ్లోకం ' + sec)) : (VSN_META[sec] || ('Śloka ' + sec));
+      const secLabel = SL() === 'te' ? ({preamble:'ప్రారంభం', purva:'పూర్వపీఠిక', dhyanam:'ధ్యానం', phala:'ఫలశ్రుతి'}[sec] || ('శ్లోకం ' + sec)) : (VSN_META[sec] || ('Śloka ' + sec));
       const teSlokas = VSN_TE_DATA[sec] || [];
       const secNumbered = !isNaN(parseInt(sec));
       for (const s of slokas) {
@@ -5174,7 +5191,7 @@ function buildReciteItems() {
       const te = songTeLines(song, v.n);
       items.push({
         id: `${state.section}_${state.chapter}_${v.n}`,
-        label: (settings.language === 'te' && song.titleTe ? song.titleTe : song.title) + ' · ' + (v.label || v.n),
+        label: (SL() === 'te' && song.titleTe ? song.titleTe : song.title) + ' · ' + (v.label || v.n),
         lines: v.tlines,
         teLines: te || [],
         forceEn: !te,      // no Telugu for this song — show English even in Telugu-only mode
@@ -5185,7 +5202,7 @@ function buildReciteItems() {
     // Hanuman Chalisa — all sections in order
     for (const sec of HC_SECTIONS_ORDER) {
       const slokas = HC_DATA[sec] || [];
-      const secLabel = settings.language === 'te' ? ({doha1:'దోహా · ప్రారంభం', dhyana:'ధ్యానం', doha2:'దోహా · ముగింపు'}[sec] || ('చౌపాయీ ' + sec)) : (HC_META[sec] || sec);
+      const secLabel = SL() === 'te' ? ({doha1:'దోహా · ప్రారంభం', dhyana:'ధ్యానం', doha2:'దోహా · ముగింపు'}[sec] || ('చౌపాయీ ' + sec)) : (HC_META[sec] || sec);
       const teSlokas = HC_TE_DATA[sec] || [];
       for (const s of slokas) {
         const teSloka = teSlokas.find(x => x.n === s.n);
@@ -5343,20 +5360,20 @@ function renderRecite() {
   if (!item) return;
   
   document.getElementById('recite-section-label').textContent =
-    state.section === 'gita' ? TT('Bhagavad Gītā','శ్రీమద్భగవద్గీత') :
-    coll() ? TT(coll().name, coll().nameTe || coll().name) :
-    state.section === 'hc' ? TT('Hanumān Chālīsā','హనుమాన్ చాలీసా') :
-    state.section === 'rudram' ? TT('Śrī Rudram','శ్రీ రుద్రం') : TT('Viṣṇu Sahasranāmam','విష్ణు సహస్రనామం');
+    state.section === 'gita' ? TT('Bhagavad Gītā', 'శ్రీమద్భగవద్గీత', 'भगवद्गीता') :
+    coll() ? TT(coll().name, coll().nameTe || coll().name, hiName(coll().nameTe)) :
+    state.section === 'hc' ? TT('Hanumān Chālīsā', 'హనుమాన్ చాలీసా', 'हनुमान चालीसा') :
+    state.section === 'rudram' ? TT('Śrī Rudram', 'శ్రీ రుద్రం', 'श्री रुद्रम्') : TT('Viṣṇu Sahasranāmam', 'విష్ణు సహస్రనామం', 'विष्णु सहस्रनाम');
   document.getElementById('recite-verse-label').textContent = item.label || '';
   
   // Speaker tag (shown above lines when speaker changes)
   const linesEl = document.getElementById('recite-lines');
   const spkHtml = item.spk ? `<div class="recite-spk">${esc(item.spk)}</div>` : '';
   linesEl.innerHTML = spkHtml + item.lines.map((ln, i) => {
-    const enLine = (settings.language !== 'te' || item.forceEn) ? `<div class="recite-line">${esc(ln)}</div>` : '';
+    const enLine = (SL() !== 'te' || item.forceEn) ? `<div class="recite-line">${esc(ln)}</div>` : '';
     const rawTeLn = item.teLines && item.teLines[i] ? item.teLines[i] : null;
     const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-    const teLine = (settings.language !== 'en' && teLn) ? `<div class="recite-line-te">${esc(teLn)}</div>` : '';
+    const teLine = (SL() !== 'en' && teLn) ? `<div class="recite-line-te">${esc(teLn)}</div>` : '';
     return enLine + teLine;
   }).join('');
   
@@ -5372,8 +5389,24 @@ function renderRecite() {
 }
 
 // ─────────────── UTILITIES ───────────────
-// Pick the Telugu text when the app is in Telugu-only mode
-function TT(en, te) { return settings.language === 'te' ? te : en; }
+// Pick the Telugu text in Telugu-only mode, the Hindi text in Hindi mode (English when no Hindi is given)
+function TT(en, te, hi) { const l = settings.language; return l === 'te' ? te : l === 'hi' ? (hi || en) : en; }
+// Script/content mode for parts that have no Hindi yet (scripture texts, book chapters): Hindi → English
+function SL() { return settings.language === 'hi' ? 'en' : settings.language; }
+// Telugu script → Devanagari, letter for letter. Right for Sanskrit names and mantras (not for Telugu prose).
+function te2dev(s) {
+  return String(s).replace(/[\u0C00-\u0C7F]/g, ch => {
+    const c = ch.charCodeAt(0);
+    if (c === 0x0C0E) return 'ए'; if (c === 0x0C12) return 'ओ';
+    if (c === 0x0C46) return 'े'; if (c === 0x0C4A) return 'ो';
+    if (c === 0x0C55 || c === 0x0C56) return '';
+    return String.fromCharCode(c - 0x300);
+  });
+}
+// A Sanskrit name in Telugu script → Devanagari as Hindi readers write it (word-final ం → म्)
+const HI_NAMES = { 'ప్రార్థనలు': 'प्रार्थनाएँ' };
+function hiName(te) { return te && (HI_NAMES[te] || te2dev(String(te).replace(/ం(?=$|[\s,.;:·)\]])/g, 'మ్'))); }
+window.TT = TT; window.SL = SL; window.te2dev = te2dev; window.hiName = hiName;
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
@@ -5493,8 +5526,8 @@ function renderSettings() {
           <div class="settings-desc">Choose script for verse text</div>
         </div>
         <div class="settings-control" style="gap:6px">
-          ${['en','both','te'].map(v => {
-            const labels = {en:'English',both:'Both',te:'తెలుగు'};
+          ${['en','both','te','hi'].map(v => {
+            const labels = {en:'English',both:'Both',te:'తెలుగు',hi:'हिन्दी'};
             const sel = settings.language === v;
             return `<button class="sz-btn" style="width:auto;padding:0 12px;font-size:0.82rem;border-radius:8px;${sel?'background:var(--accent);color:#fff;border-color:var(--accent)':''}" onclick="setLanguage('${v}')">${labels[v]}</button>`;
           }).join('')}
@@ -5586,8 +5619,15 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   } catch(e) {}
 })();
 
+// Static labels marked data-en / data-hi follow the language
+function applyStaticLang() {
+  document.querySelectorAll('[data-hi]').forEach(e => { e.textContent = settings.language === 'hi' ? e.dataset.hi : e.dataset.en; });
+  document.documentElement.lang = settings.language === 'hi' ? 'hi' : settings.language === 'te' ? 'te' : 'en';
+}
+document.addEventListener('DOMContentLoaded', () => { try { applyStaticLang(); } catch (e) {} });
 function setLanguage(lang) {
   settings.language = lang;
+  applyStaticLang();
   saveSettings();
   renderSettings();
   if (state.view === 'practice') renderPractice();
@@ -5911,18 +5951,18 @@ const PANCH = (function () {
 
   // ── Names: [IAST, Telugu] ──
   const N = {
-    tithi: [['Pāḍyami','పాడ్యమి'],['Vidiya','విదియ'],['Tadiya','తదియ'],['Cavithi','చవితి'],['Pañcami','పంచమి'],
-      ['Ṣaṣṭhi','షష్ఠి'],['Saptami','సప్తమి'],['Aṣṭami','అష్టమి'],['Navami','నవమి'],['Daśami','దశమి'],
-      ['Ēkādaśi','ఏకాదశి'],['Dvādaśi','ద్వాదశి'],['Trayōdaśi','త్రయోదశి'],['Caturdaśi','చతుర్దశి'],['Pūrṇima','పూర్ణిమ'],['Amāvāsya','అమావాస్య']],
+    tithi: [['Pāḍyami','పాడ్యమి','प्रतिपदा'],['Vidiya','విదియ','द्वितीया'],['Tadiya','తదియ','तृतीया'],['Cavithi','చవితి','चतुर्थी'],['Pañcami','పంచమి','पंचमी'],
+      ['Ṣaṣṭhi','షష్ఠి','षष्ठी'],['Saptami','సప్తమి','सप्तमी'],['Aṣṭami','అష్టమి','अष्टमी'],['Navami','నవమి','नवमी'],['Daśami','దశమి','दशमी'],
+      ['Ēkādaśi','ఏకాదశి','एकादशी'],['Dvādaśi','ద్వాదశి','द्वादशी'],['Trayōdaśi','త్రయోదశి','त्रयोदशी'],['Caturdaśi','చతుర్దశి','चतुर्दशी'],['Pūrṇima','పూర్ణిమ','पूर्णिमा'],['Amāvāsya','అమావాస్య','अमावस्या']],
     tithiLoc: [['prathamāyāṃ','ప్రథమాయాం'],['dvitīyāyāṃ','ద్వితీయాయాం'],['tṛtīyāyāṃ','తృతీయాయాం'],['caturthyāṃ','చతుర్థ్యాం'],
       ['pañcamyāṃ','పంచమ్యాం'],['ṣaṣṭhyāṃ','షష్ఠ్యాం'],['saptamyāṃ','సప్తమ్యాం'],['aṣṭamyāṃ','అష్టమ్యాం'],['navamyāṃ','నవమ్యాం'],
       ['daśamyāṃ','దశమ్యాం'],['ēkādaśyāṃ','ఏకాదశ్యాం'],['dvādaśyāṃ','ద్వాదశ్యాం'],['trayōdaśyāṃ','త్రయోదశ్యాం'],
       ['caturdaśyāṃ','చతుర్దశ్యాం'],['pūrṇimāyāṃ','పూర్ణిమాయాం'],['amāvāsyāyāṃ','అమావాస్యాయాం']],
-    nak: [['Aśvinī','అశ్విని'],['Bharaṇī','భరణి'],['Kṛttikā','కృత్తిక'],['Rōhiṇī','రోహిణి'],['Mṛgaśira','మృగశిర'],['Ārdrā','ఆర్ద్ర'],
-      ['Punarvasu','పునర్వసు'],['Puṣyami','పుష్యమి'],['Āślēṣa','ఆశ్లేష'],['Makha','మఖ'],['Pubba','పుబ్బ'],['Uttara','ఉత్తర'],
-      ['Hasta','హస్త'],['Citta','చిత్త'],['Svāti','స్వాతి'],['Viśākha','విశాఖ'],['Anūrādha','అనూరాధ'],['Jyēṣṭha','జ్యేష్ఠ'],
-      ['Mūla','మూల'],['Pūrvāṣāḍha','పూర్వాషాఢ'],['Uttarāṣāḍha','ఉత్తరాషాఢ'],['Śravaṇaṃ','శ్రవణం'],['Dhaniṣṭha','ధనిష్ఠ'],
-      ['Śatabhiṣaṃ','శతభిషం'],['Pūrvābhādra','పూర్వాభాద్ర'],['Uttarābhādra','ఉత్తరాభాద్ర'],['Rēvati','రేవతి']],
+    nak: [['Aśvinī','అశ్విని','अश्विनी'],['Bharaṇī','భరణి','भरणी'],['Kṛttikā','కృత్తిక','कृत्तिका'],['Rōhiṇī','రోహిణి','रोहिणी'],['Mṛgaśira','మృగశిర','मृगशिरा'],['Ārdrā','ఆర్ద్ర','आर्द्रा'],
+      ['Punarvasu','పునర్వసు','पुनर्वसु'],['Puṣyami','పుష్యమి','पुष्य'],['Āślēṣa','ఆశ్లేష','आश्लेषा'],['Makha','మఖ','मघा'],['Pubba','పుబ్బ','पूर्वा फाल्गुनी'],['Uttara','ఉత్తర','उत्तरा फाल्गुनी'],
+      ['Hasta','హస్త','हस्त'],['Citta','చిత్త','चित्रा'],['Svāti','స్వాతి','स्वाति'],['Viśākha','విశాఖ','विशाखा'],['Anūrādha','అనూరాధ','अनुराधा'],['Jyēṣṭha','జ్యేష్ఠ','ज्येष्ठा'],
+      ['Mūla','మూల','मूल'],['Pūrvāṣāḍha','పూర్వాషాఢ','पूर्वाषाढ़ा'],['Uttarāṣāḍha','ఉత్తరాషాఢ','उत्तराषाढ़ा'],['Śravaṇaṃ','శ్రవణం','श्रवण'],['Dhaniṣṭha','ధనిష్ఠ','धनिष्ठा'],
+      ['Śatabhiṣaṃ','శతభిషం','शतभिषा'],['Pūrvābhādra','పూర్వాభాద్ర','पूर्वा भाद्रपद'],['Uttarābhādra','ఉత్తరాభాద్ర','उत्तरा भाद्रपद'],['Rēvati','రేవతి','रेवती']],
     yoga: [['Viṣkambha','విష్కంభ'],['Prīti','ప్రీతి'],['Āyuṣmān','ఆయుష్మాన్'],['Saubhāgya','సౌభాగ్య'],['Śōbhana','శోభన'],
       ['Atigaṇḍa','అతిగండ'],['Sukarma','సుకర్మ'],['Dhṛti','ధృతి'],['Śūla','శూల'],['Gaṇḍa','గండ'],['Vṛddhi','వృద్ధి'],
       ['Dhruva','ధ్రువ'],['Vyāghāta','వ్యాఘాత'],['Harṣaṇa','హర్షణ'],['Vajra','వజ్ర'],['Siddhi','సిద్ధి'],['Vyatīpāta','వ్యతీపాత'],
@@ -5930,16 +5970,16 @@ const PANCH = (function () {
       ['Śukla','శుక్ల'],['Brahma','బ్రహ్మ'],['Aindra','ఐంద్ర'],['Vaidhṛti','వైధృతి']],
     karana: [['Bava','బవ'],['Bālava','బాలవ'],['Kaulava','కౌలవ'],['Taitila','తైతిల'],['Garaja','గరజ'],['Vaṇija','వణిజ'],
       ['Viṣṭi','విష్టి'],['Śakuni','శకుని'],['Catuṣpāt','చతుష్పాత్'],['Nāgava','నాగవ'],['Kiṃstughna','కింస్తుఘ్న']],
-    rasi: [['Mēṣa','మేష'],['Vṛṣabha','వృషభ'],['Mithuna','మిథున'],['Karkāṭaka','కర్కాటక'],['Siṃha','సింహ'],['Kanyā','కన్యా'],
-      ['Tulā','తులా'],['Vṛścika','వృశ్చిక'],['Dhanus','ధనుస్సు'],['Makara','మకర'],['Kumbha','కుంభ'],['Mīna','మీన']],
-    masa: [['Caitra','చైత్ర'],['Vaiśākha','వైశాఖ'],['Jyēṣṭha','జ్యేష్ఠ'],['Āṣāḍha','ఆషాఢ'],['Śrāvaṇa','శ్రావణ'],['Bhādrapada','భాద్రపద'],
-      ['Āśvayuja','ఆశ్వయుజ'],['Kārtika','కార్తీక'],['Mārgaśira','మార్గశిర'],['Puṣya','పుష్య'],['Māgha','మాఘ'],['Phālguna','ఫాల్గుణ']],
+    rasi: [['Mēṣa','మేష','मेष'],['Vṛṣabha','వృషభ','वृषभ'],['Mithuna','మిథున','मिथुन'],['Karkāṭaka','కర్కాటక','कर्क'],['Siṃha','సింహ','सिंह'],['Kanyā','కన్యా','कन्या'],
+      ['Tulā','తులా','तुला'],['Vṛścika','వృశ్చిక','वृश्चिक'],['Dhanus','ధనుస్సు','धनु'],['Makara','మకర','मकर'],['Kumbha','కుంభ','कुंभ'],['Mīna','మీన','मीन']],
+    masa: [['Caitra','చైత్ర','चैत्र'],['Vaiśākha','వైశాఖ','वैशाख'],['Jyēṣṭha','జ్యేష్ఠ','ज्येष्ठ'],['Āṣāḍha','ఆషాఢ','आषाढ़'],['Śrāvaṇa','శ్రావణ','श्रावण'],['Bhādrapada','భాద్రపద','भाद्रपद'],
+      ['Āśvayuja','ఆశ్వయుజ','आश्विन'],['Kārtika','కార్తీక','कार्तिक'],['Mārgaśira','మార్గశిర','मार्गशीर्ष'],['Puṣya','పుష్య','पौष'],['Māgha','మాఘ','माघ'],['Phālguna','ఫాల్గుణ','फाल्गुन']],
     rituLoc: [['vasantaṛtau','వసంతఋతౌ'],['grīṣmaṛtau','గ్రీష్మఋతౌ'],['varṣaṛtau','వర్షఋతౌ'],['śaradṛtau','శరదృతౌ'],
       ['hēmantaṛtau','హేమంతఋతౌ'],['śiśiraṛtau','శిశిరఋతౌ']],
     vasaraLoc: [['bhānu vāsarē','భాను వాసరే'],['indu vāsarē','ఇందు వాసరే'],['bhauma vāsarē','భౌమ వాసరే'],['saumya vāsarē','సౌమ్య వాసరే'],
       ['guru vāsarē','గురు వాసరే'],['bhṛgu vāsarē','భృగు వాసరే'],['sthira vāsarē','స్థిర వాసరే']],
-    weekday: [['Sunday','ఆదివారం'],['Monday','సోమవారం'],['Tuesday','మంగళవారం'],['Wednesday','బుధవారం'],
-      ['Thursday','గురువారం'],['Friday','శుక్రవారం'],['Saturday','శనివారం']],
+    weekday: [['Sunday','ఆదివారం','रविवार'],['Monday','సోమవారం','सोमवार'],['Tuesday','మంగళవారం','मंगलवार'],['Wednesday','బుధవారం','बुधवार'],
+      ['Thursday','గురువారం','गुरुवार'],['Friday','శుక్రవారం','शुक्रवार'],['Saturday','శనివారం','शनिवार']],
     samvatsara: [['Prabhava','ప్రభవ'],['Vibhava','విభవ'],['Śukla','శుక్ల'],['Pramōdūta','ప్రమోదూత'],['Prajōtpatti','ప్రజోత్పత్తి'],
       ['Āṅgīrasa','ఆంగీరస'],['Śrīmukha','శ్రీముఖ'],['Bhāva','భావ'],['Yuva','యువ'],['Dhātu','ధాత'],['Īśvara','ఈశ్వర'],
       ['Bahudhānya','బహుధాన్య'],['Pramādi','ప్రమాది'],['Vikrama','విక్రమ'],['Vṛṣa','వృష'],['Citrabhānu','చిత్రభాను'],
@@ -6121,16 +6161,17 @@ if (typeof module !== 'undefined') module.exports = PANCH;
 
 const N = PANCH.N, hms = PANCH.hms;
 const MONTHS_TE = ['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జూలై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
+const MONTHS_HI = ['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर'];
 const MONTHS_EN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 const L = {
-  sunrise:['Sunrise','సూర్యోదయం'], sunset:['Sunset','సూర్యాస్తమయం'], moonrise:['Moonrise','చంద్రోదయం'],
-  tithi:['Tithi','తిథి'], nak:['Nakṣatram','నక్షత్రం'], yoga:['Yōgam','యోగం'], karana:['Karaṇam','కరణం'],
-  sunRasi:['Sūrya rāśi','సూర్యరాశి'], moonRasi:['Candra rāśi','చంద్రరాశి'],
-  rahu:['Rāhu kālam','రాహుకాలం'], yama:['Yamagaṇḍam','యమగండం'], gulika:['Gulika','గుళిక'], abhijit:['Abhijit','అభిజిత్'],
-  durm:['Durmuhūrtam','దుర్ముహూర్తం'], varjyam:['Varjyam','వర్జ్యం'], amrita:['Amṛta kālam','అమృతకాలం'],
-  limbs:['Pañcāṅgam','పంచాంగం'], times:['Timings','సమయాలు'], sank:['Saṅkalpam','సంకల్పం'],
-  until:['until','వరకు'], now:['now','ఇప్పుడు'], share:['Share this panchāṅgam','ఈ పంచాంగం పంపండి'],
-  today:['Back to today','ఈ రోజుకు వెళ్ళండి'], useLoc:['📍 Use my location','📍 నా ప్రదేశం వాడండి'],
+  sunrise:['Sunrise','సూర్యోదయం','सूर्योदय'], sunset:['Sunset','సూర్యాస్తమయం','सूर्यास्त'], moonrise:['Moonrise','చంద్రోదయం','चंद्रोदय'],
+  tithi:['Tithi','తిథి','तिथि'], nak:['Nakṣatram','నక్షత్రం','नक्षत्र'], yoga:['Yōgam','యోగం','योग'], karana:['Karaṇam','కరణం','करण'],
+  sunRasi:['Sūrya rāśi','సూర్యరాశి','सूर्य राशि'], moonRasi:['Candra rāśi','చంద్రరాశి','चंद्र राशि'],
+  rahu:['Rāhu kālam','రాహుకాలం','राहु काल'], yama:['Yamagaṇḍam','యమగండం','यमगंड'], gulika:['Gulika','గుళిక','गुलिक'], abhijit:['Abhijit','అభిజిత్','अभिजित्'],
+  durm:['Durmuhūrtam','దుర్ముహూర్తం','दुर्मुहूर्त'], varjyam:['Varjyam','వర్జ్యం','वर्ज्य'], amrita:['Amṛta kālam','అమృతకాలం','अमृत काल'],
+  limbs:['Pañcāṅgam','పంచాంగం','पंचांग'], times:['Timings','సమయాలు','समय'], sank:['Saṅkalpam','సంకల్పం','संकल्प'],
+  until:['until','వరకు','तक'], now:['now','ఇప్పుడు','अभी'], share:['Share this panchāṅgam','ఈ పంచాంగం పంపండి','यह पंचांग भेजें'],
+  today:['Back to today','ఈ రోజుకు వెళ్ళండి','आज पर लौटें'], useLoc:['📍 Use my location','📍 నా ప్రదేశం వాడండి','📍 मेरा स्थान लें'],
 };
 // ── Saṅkalpam place details: nearby mountains, ocean and river, worked out from the location ──
 // Rough outlines (lat, lon) of the main rivers, coasts and ranges where family and friends live.
@@ -6261,9 +6302,10 @@ goToday();
 let shareText = '';
 
 const $ = id => document.getElementById('pn-' + id);
-const pick = pair => lang === 'en' ? pair[0] : pair[1];
+// Hindi: the given Hindi text, else the Telugu-script Sanskrit written in Devanagari
+const pick = pair => lang === 'en' ? pair[0] : lang === 'hi' ? (pair[2] || hiName(pair[1])) : pair[1];
 const dual = pair => lang === 'both' ? `${pair[1]}<small>${pair[0]}</small>` : pick(pair);
-const nameOf = (table, i) => lang === 'en' ? table[i][0] : lang === 'te' ? table[i][1] : `${table[i][1]}<i>${table[i][0]}</i>`;
+const nameOf = (table, i) => lang === 'en' ? table[i][0] : lang === 'te' ? table[i][1] : lang === 'hi' ? pick(table[i]) : `${table[i][1]}<i>${table[i][0]}</i>`;
 
 // ── Location picker ──
 function fillLocations(){
@@ -6276,7 +6318,7 @@ function fillLocations(){
     if (sel.value === 'gps') { useMyLocation(); return; }
     loc = opts[+sel.value]; store.set('vedic_panch_loc', loc); goToday(); render();
   };
-  $('placeName').textContent = loc.name;
+  $('placeName').textContent = lang === 'hi' && loc.name === 'My location' ? 'मेरा स्थान' : loc.name;
 }
 function useMyLocation(){
   if (!navigator.geolocation) { alert('This device cannot share its location. Pick a place from the list.'); fillLocations(); return; }
@@ -6427,8 +6469,8 @@ function openGotra() {
     document.body.appendChild(ov);
   }
   ov.innerHTML = `<div class="gt-sheet" role="dialog" aria-label="Gotram">
-    <div class="gt-head"><b>${pick(['Choose your gōtram','మీ గోత్రం ఎంచుకోండి'])}</b><button class="gt-x" onclick="closeGotra()">${pick(['Done','సరే'])}</button></div>
-    <input class="gt-q" id="pn-gt-q" type="search" placeholder="${pick(['Search gōtram — e.g. Kapisa, Bharadwaja','గోత్రం వెతకండి — ఉదా. కపిస, భారద్వాజ'])}" autocomplete="off">
+    <div class="gt-head"><b>${pick(['Choose your gōtram', 'మీ గోత్రం ఎంచుకోండి', 'अपना गोत्र चुनें'])}</b><button class="gt-x" onclick="closeGotra()">${pick(['Done', 'సరే', 'ठीक है'])}</button></div>
+    <input class="gt-q" id="pn-gt-q" type="search" placeholder="${pick(['Search gōtram — e.g. Kapisa, Bharadwaja', 'గోత్రం వెతకండి — ఉదా. కపిస, భారద్వాజ', 'गोत्र खोजें — जैसे कपिस, भारद्वाज'])}" autocomplete="off">
     <div class="gt-list" id="pn-gt-list"></div></div>`;
   ov.querySelector('.gt-list').insertAdjacentHTML('beforebegin', '<div id="pn-gt-opts"></div>');
   ov.classList.add('open');
@@ -6441,10 +6483,10 @@ function drawGotraOpts() {
   if (!myGotra) { el.innerHTML = ''; return; }
   const opt = (arr, cur) => arr.map((x, i) => `<option value="${i}"${i === (cur || 0) ? ' selected' : ''}>${pick([x[0], x[1]])}</option>`).join('');
   el.innerHTML = `<div class="gt-opts">
-    <label>${pick(['Name','పేరు'])}<input id="pn-gt-name" value="${(myGotra.name || '').replace(/"/g, '&quot;')}" placeholder="${pick(['Your name','మీ పేరు'])}" oninput="setGotraOpt('name', this.value)"></label>
-    <label>${pick(['Ending','ముగింపు'])}<select onchange="setGotraOpt('ti', +this.value)">${opt(TITLES, myGotra.ti)}</select></label>
-    <label>${pick(['Sūtram','సూత్రం'])}<select onchange="setGotraOpt('su', +this.value)">${opt(SUTRAS, myGotra.su)}</select></label>
-    <label>${pick(['Śākhā','శాఖ'])}<select onchange="setGotraOpt('sk', +this.value)">${opt(SAKHAS, myGotra.sk)}</select></label>
+    <label>${pick(['Name', 'పేరు', 'नाम'])}<input id="pn-gt-name" value="${(myGotra.name || '').replace(/"/g, '&quot;')}" placeholder="${pick(['Your name', 'మీ పేరు', 'आपका नाम'])}" oninput="setGotraOpt('name', this.value)"></label>
+    <label>${pick(['Ending', 'ముగింపు', 'अंत'])}<select onchange="setGotraOpt('ti', +this.value)">${opt(TITLES, myGotra.ti)}</select></label>
+    <label>${pick(['Sūtram', 'సూత్రం', 'सूत्र'])}<select onchange="setGotraOpt('su', +this.value)">${opt(SUTRAS, myGotra.su)}</select></label>
+    <label>${pick(['Śākhā', 'శాఖ', 'शाखा'])}<select onchange="setGotraOpt('sk', +this.value)">${opt(SAKHAS, myGotra.sk)}</select></label>
   </div>`;
 }
 function drawGotraList(q) {
@@ -6453,25 +6495,25 @@ function drawGotraList(q) {
   const list = GOTRAS.map((g, i) => ({ g, i })).filter(({ g }) => !n || gotraNorm(g[0] + ' ' + g[1] + ' ' + g[2]).includes(n));
   const mine = myGotras.filter(c => !n || gotraNorm(c.name + ' ' + (c.te || '') + ' ' + c.rsis.join(' ')).includes(n));
   const sel = myGotra && !myGotra.c ? myGotra.i : -1, selC = myGotra && myGotra.c;
-  const rsiHtml = r => { const nm = lang === 'en' ? r[0] : lang === 'te' ? r[1] : (r[1] !== r[0] ? `${r[1]} <i>${r[0]}</i>` : r[0]);
+  const rsiHtml = r => { const nm = lang === 'en' ? r[0] : lang === 'te' ? r[1] : lang === 'hi' ? pick(r) : (r[1] !== r[0] ? `${r[1]} <i>${r[0]}</i>` : r[0]);
     return r[2] ? `<a class="gt-r link" onclick="event.stopPropagation();closeGotra();openSage('${r[2]}')">${nm}</a>` : `<span class="gt-r">${nm}</span>`; };
-  const nameHtml = (en, te) => `${lang === 'en' ? en : te}${lang === 'both' && te !== en ? `<small>${en}</small>` : ''}`;
-  const count = k => (ARSHEYA[k] ? pick(ARSHEYA[k]) : `${k} ${pick(['ṛṣis','ఋషులు'])}`);
+  const nameHtml = (en, te) => `${lang === 'en' ? en : lang === 'hi' ? (/[ఀ-౿]/.test(te) ? hiName(te) : en) : te}${lang === 'both' && te !== en ? `<small>${en}</small>` : ''}`;
+  const count = k => (ARSHEYA[k] ? pick(ARSHEYA[k]) : `${k} ${pick(['ṛṣis', 'ఋషులు', 'ऋषि'])}`);
   const custom = mine.map(c => { const r = customRsi(c), on = c.id === selC; return `
     <div class="gt-item${on ? ' on' : ''}" onclick="pickMyGotra('${c.id}')">
-      <div class="gt-name">${nameHtml(c.name, c.te || c.name)}<span class="gt-own">${pick(['Added by you','మీరు చేర్చినది'])}</span>${on ? '<span class="gt-tick">✓</span>' : ''}</div>
+      <div class="gt-name">${nameHtml(c.name, c.te || c.name)}<span class="gt-own">${pick(['Added by you', 'మీరు చేర్చినది', 'आपने जोड़ा'])}</span>${on ? '<span class="gt-tick">✓</span>' : ''}</div>
       <div class="gt-pv${on ? ' on' : ''}"><span class="gt-n">${count(r.length)}</span>${r.map(rsiHtml).join('<span class="gt-dot">·</span>')}</div>
-      <div class="gt-acts"><button onclick="event.stopPropagation();gotraForm('${c.id}')">✎ ${pick(['Edit','మార్చు'])}</button><button onclick="event.stopPropagation();deleteMyGotra('${c.id}')">🗑 ${pick(['Delete','తొలగించు'])}</button></div>
+      <div class="gt-acts"><button onclick="event.stopPropagation();gotraForm('${c.id}')">✎ ${pick(['Edit', 'మార్చు', 'बदलें'])}</button><button onclick="event.stopPropagation();deleteMyGotra('${c.id}')">🗑 ${pick(['Delete', 'తొలగించు', 'हटाएँ'])}</button></div>
     </div>`; }).join('');
   const base = list.map(({ g, i }) => `
     <div class="gt-item${i === sel ? ' on' : ''}" onclick="pickGotra(${i},0)">
       <div class="gt-name">${nameHtml(g[0], g[1])}${i === sel ? '<span class="gt-tick">✓</span>' : ''}</div>
       ${g[3].map((p, v) => `<div class="gt-pv${i === sel && (myGotra.v || 0) === v ? ' on' : ''}" onclick="event.stopPropagation();pickGotra(${i},${v})">
-        <span class="gt-n">${count(p.length)}${g[3].length > 1 ? ` · ${pick(['form','విధం'])} ${v + 1}` : ''}</span>${p.map(k => rsiHtml(RSI[k])).join('<span class="gt-dot">·</span>')}</div>`).join('')}
+        <span class="gt-n">${count(p.length)}${g[3].length > 1 ? ` · ${pick(['form', 'విధం', 'प्रकार'])} ${v + 1}` : ''}</span>${p.map(k => rsiHtml(RSI[k])).join('<span class="gt-dot">·</span>')}</div>`).join('')}
     </div>`).join('');
-  const none = !list.length && !mine.length ? `<p class="gt-none">${pick(['Not in the list — add it below with its ṛṣis.','జాబితాలో లేదు — క్రింద ఋషులతో సహా చేర్చండి.'])}</p>` : '';
+  const none = !list.length && !mine.length ? `<p class="gt-none">${pick(['Not in the list — add it below with its ṛṣis.', 'జాబితాలో లేదు — క్రింద ఋషులతో సహా చేర్చండి.', 'सूची में नहीं है — नीचे इसके ऋषियों सहित जोड़ें।'])}</p>` : '';
   document.getElementById('pn-gt-list').innerHTML = custom + base + none
-    + `<button class="gt-add" onclick="gotraForm()">＋ ${pick(['Add your gōtram & ṛṣis','మీ గోత్రం, ఋషులు చేర్చండి'])}</button>`;
+    + `<button class="gt-add" onclick="gotraForm()">＋ ${pick(['Add your gōtram & ṛṣis', 'మీ గోత్రం, ఋషులు చేర్చండి', 'अपना गोत्र और ऋषि जोड़ें'])}</button>`;
   if (myGotra && !n) { const on = document.querySelector('#pn-gt-list .gt-item.on'); if (on) on.scrollIntoView({ block: 'center' }); }
 }
 function keepOpts() { return myGotra ? { su: myGotra.su, sk: myGotra.sk, ti: myGotra.ti, name: myGotra.name } : {}; }
@@ -6488,7 +6530,7 @@ function pickMyGotra(id) {
   render();
 }
 function deleteMyGotra(id) {
-  if (!confirm(pick(['Delete this gōtram?', 'ఈ గోత్రం తొలగించాలా?']))) return;
+  if (!confirm(pick(['Delete this gōtram?', 'ఈ గోత్రం తొలగించాలా?', 'यह गोत्र हटाएँ?']))) return;
   myGotras = myGotras.filter(c => c.id !== id); store.set('vedic_gotra_custom', myGotras);
   if (myGotra && myGotra.c === id) { myGotra = null; store.set('vedic_gotra', null); }
   drawGotraList(document.getElementById('pn-gt-q').value); render();
@@ -6500,14 +6542,14 @@ function gotraForm(id) {
   const esc2 = v => String(v || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
   document.getElementById('pn-gt-opts').innerHTML = '';
   document.getElementById('pn-gt-list').innerHTML = `<div class="gt-form">
-    <div class="gt-ftitle">${c ? pick(['Edit gōtram','గోత్రం మార్చండి']) : pick(['Add your gōtram','మీ గోత్రం చేర్చండి'])}</div>
-    <label>${pick(['Gōtram (English letters)','గోత్రం (ఇంగ్లీష్ అక్షరాల్లో)'])}<input id="gf-name" value="${esc2(c ? c.name : (/[a-z]/i.test(q) ? q : ''))}" placeholder="e.g. Kaundinya"></label>
-    <label>${pick(['Gōtram in Telugu (optional)','గోత్రం తెలుగులో (ఐచ్ఛికం)'])}<input id="gf-te" value="${esc2(c ? c.te : (/[ఀ-౿]/.test(q) ? q : ''))}" placeholder="ఉదా. కౌండిన్య"></label>
-    <label>${pick(['Ṛṣis (pravara) — one per line, in order','ఋషులు (ప్రవర) — వరుసగా, ఒక్కో పంక్తికి ఒకరు'])}<textarea id="gf-rsis" rows="4" placeholder="Vasishtha&#10;Maitravaruna&#10;Kaundinya">${esc2(c ? c.rsis.join('\n') : '')}</textarea></label>
-    <label>${pick(['Ṛṣis in Telugu (optional, same order)','ఋషులు తెలుగులో (ఐచ్ఛికం, అదే వరుసలో)'])}<textarea id="gf-rsiste" rows="4" placeholder="వాసిష్ఠ&#10;మైత్రావరుణ&#10;కౌండిన్య">${esc2(c ? (c.rsisTe || []).join('\n') : '')}</textarea></label>
-    <p class="gt-fnote">${pick(['Known ṛṣi names (e.g. Angirasa, Kashyapa) get their Telugu spelling and Great Sages link automatically. Saved only on this phone.','తెలిసిన ఋషుల పేర్లకు (ఉదా. ఆంగీరస, కాశ్యప) తెలుగు అక్షరాలు, మహర్షుల కథ లింక్ తనంతట అవే వస్తాయి. ఈ ఫోన్‌లో మాత్రమే దాచబడుతుంది.'])}</p>
-    <div class="gt-fbtns"><button onclick="drawGotraList(document.getElementById('pn-gt-q').value)">${pick(['Cancel','రద్దు'])}</button>
-      <button class="pri" onclick="saveMyGotra('${c ? c.id : ''}')">${pick(['Save','దాచు'])}</button></div>
+    <div class="gt-ftitle">${c ? pick(['Edit gōtram', 'గోత్రం మార్చండి', 'गोत्र बदलें']) : pick(['Add your gōtram', 'మీ గోత్రం చేర్చండి', 'अपना गोत्र जोड़ें'])}</div>
+    <label>${pick(['Gōtram (English letters)', 'గోత్రం (ఇంగ్లీష్ అక్షరాల్లో)', 'गोत्र (अंग्रेज़ी अक्षरों में)'])}<input id="gf-name" value="${esc2(c ? c.name : (/[a-z]/i.test(q) ? q : ''))}" placeholder="e.g. Kaundinya"></label>
+    <label>${pick(['Gōtram in Telugu (optional)', 'గోత్రం తెలుగులో (ఐచ్ఛికం)', 'गोत्र तेलुगु में (वैकल्पिक)'])}<input id="gf-te" value="${esc2(c ? c.te : (/[ఀ-౿]/.test(q) ? q : ''))}" placeholder="ఉదా. కౌండిన్య"></label>
+    <label>${pick(['Ṛṣis (pravara) — one per line, in order', 'ఋషులు (ప్రవర) — వరుసగా, ఒక్కో పంక్తికి ఒకరు', 'ऋषि (प्रवर) — क्रम से, हर पंक्ति में एक'])}<textarea id="gf-rsis" rows="4" placeholder="Vasishtha&#10;Maitravaruna&#10;Kaundinya">${esc2(c ? c.rsis.join('\n') : '')}</textarea></label>
+    <label>${pick(['Ṛṣis in Telugu (optional, same order)', 'ఋషులు తెలుగులో (ఐచ్ఛికం, అదే వరుసలో)', 'ऋषि तेलुगु में (वैकल्पिक, उसी क्रम में)'])}<textarea id="gf-rsiste" rows="4" placeholder="వాసిష్ఠ&#10;మైత్రావరుణ&#10;కౌండిన్య">${esc2(c ? (c.rsisTe || []).join('\n') : '')}</textarea></label>
+    <p class="gt-fnote">${pick(['Known ṛṣi names (e.g. Angirasa, Kashyapa) get their Telugu spelling and Great Sages link automatically. Saved only on this phone.', 'తెలిసిన ఋషుల పేర్లకు (ఉదా. ఆంగీరస, కాశ్యప) తెలుగు అక్షరాలు, మహర్షుల కథ లింక్ తనంతట అవే వస్తాయి. ఈ ఫోన్‌లో మాత్రమే దాచబడుతుంది.', 'जाने-माने ऋषियों (जैसे आंगिरस, काश्यप) के नाम की वर्तनी और "महान ऋषि" की कथा का लिंक अपने आप जुड़ जाता है। केवल इसी फ़ोन पर सहेजा जाता है।'])}</p>
+    <div class="gt-fbtns"><button onclick="drawGotraList(document.getElementById('pn-gt-q').value)">${pick(['Cancel', 'రద్దు', 'रद्द करें'])}</button>
+      <button class="pri" onclick="saveMyGotra('${c ? c.id : ''}')">${pick(['Save', 'దాచు', 'सहेजें'])}</button></div>
   </div>`;
   document.getElementById('gf-name').focus();
 }
@@ -6515,8 +6557,8 @@ function saveMyGotra(id) {
   const v = x => document.getElementById(x).value;
   const lines = t => t.split(/[\n,]+/).map(x => x.trim()).filter(Boolean);
   const name = v('gf-name').trim(), te = v('gf-te').trim(), rsis = lines(v('gf-rsis')), rsisTe = lines(v('gf-rsiste'));
-  if (!name && !te) { alert(pick(['Please enter the gōtram name.', 'దయచేసి గోత్రం పేరు ఇవ్వండి.'])); return; }
-  if (!rsis.length && !rsisTe.length) { alert(pick(['Please enter at least one ṛṣi.', 'కనీసం ఒక ఋషి పేరు ఇవ్వండి.'])); return; }
+  if (!name && !te) { alert(pick(['Please enter the gōtram name.', 'దయచేసి గోత్రం పేరు ఇవ్వండి.', 'कृपया गोत्र का नाम लिखें।'])); return; }
+  if (!rsis.length && !rsisTe.length) { alert(pick(['Please enter at least one ṛṣi.', 'కనీసం ఒక ఋషి పేరు ఇవ్వండి.', 'कम से कम एक ऋषि का नाम लिखें।'])); return; }
   const rec = { id: id || ('g' + Date.now().toString(36)), name: name || te, te: te || '', rsis: rsis.length ? rsis : rsisTe, rsisTe };
   myGotras = id ? myGotras.map(c => c.id === id ? rec : c) : myGotras.concat(rec);
   store.set('vedic_gotra_custom', myGotras);
@@ -6543,11 +6585,13 @@ function render(){
   // Header
   fillLocations();
   const en = `${N.weekday[r.weekday][0]}, ${MONTHS_EN[mo]} ${dd}`, te = `${N.weekday[r.weekday][1]}, ${MONTHS_TE[mo]} ${dd}`;
-  $('dMain').textContent = (lang === 'en' ? en : te) + (y !== ty ? `, ${y}` : '');
+  const hiD = `${N.weekday[r.weekday][2]}, ${dd} ${MONTHS_HI[mo]}`;
+  $('dMain').textContent = (lang === 'en' ? en : lang === 'hi' ? hiD : te) + (y !== ty ? `, ${y}` : '');
   const ti = r.tithis[0].name;
   const lunarEn = `${N.samvatsara[r.samvatsara][0]} year, ${r.adhika?'Adhika ':''}${N.masa[r.masa][0]} ${r.paksha?'Kṛṣṇa':'Śukla'} ${N.tithi[ti][0]}`;
   const lunarTe = `${N.samvatsara[r.samvatsara][1]} నామ సంవత్సరం, ${r.adhika?'అధిక ':''}${N.masa[r.masa][1]} ${r.paksha?'బహుళ':'శుద్ధ'} ${N.tithi[ti][1]}`;
-  $('dSub').innerHTML = lang === 'en' ? lunarEn : lang === 'te' ? lunarTe : `${lunarTe}<br>${en}`;
+  const lunarHi = `${hiName(N.samvatsara[r.samvatsara][1])} नाम संवत्सर, ${r.adhika?'अधिक ':''}${N.masa[r.masa][2]} ${r.paksha?'कृष्ण':'शुक्ल'} पक्ष ${N.tithi[ti][2]}`;
+  $('dSub').innerHTML = lang === 'en' ? lunarEn : lang === 'te' ? lunarTe : lang === 'hi' ? lunarHi : `${lunarTe}<br>${en}`;
   $('date').value = `${y}-${String(mo+1).padStart(2,'0')}-${String(dd).padStart(2,'0')}`;
   $('today').textContent = pick(L.today); $('today').classList.toggle('show', !isToday);
   document.querySelectorAll('#view-panch .langs button').forEach(b => b.classList.toggle('on', b.dataset.l === lang));
@@ -6588,7 +6632,7 @@ function render(){
   visible(r.karanas,r.nextSunrise).forEach(s => lh += limbRow('karana', ICONS.karana, N.karana, s, s.idx));
   $('limbs').innerHTML = lh;
   $('rasi').innerHTML = [['sunRasi', r.sunRasi], ['moonRasi', r.moonRasi]].map(([k, i]) =>
-    `<div><div class="what">${pick(L[k])}</div><div class="name">${lang==='en'?N.rasi[i][0]:N.rasi[i][1]}</div>${lang==='both'?`<div class="what">${N.rasi[i][0]}</div>`:''}</div>`).join('');
+    `<div><div class="what">${pick(L[k])}</div><div class="name">${lang==='en'?N.rasi[i][0]:lang==='hi'?N.rasi[i][2]:N.rasi[i][1]}</div>${lang==='both'?`<div class="what">${N.rasi[i][0]}</div>`:''}</div>`).join('');
 
   // Timings, sunrise to next sunrise
   $('tTimes').innerHTML = dual(L.times);
@@ -6629,8 +6673,8 @@ function render(){
       r.paksha ? ['kṛṣṇa pakṣē','కృష్ణ పక్షే'] : ['śukla pakṣē','శుక్ల పక్షే'],
       N.tithiLoc[r.tithiNameIdx],
       N.vasaraLoc[r.weekday],
-    ].map(x => Object.assign([x[0], x[1]], { orig: true })),
-    [`${lc(nk[0])} nakṣatra yuktāyāṃ, ${lc(yg[0])} yōga, ${lc(kr[0])} karaṇa,`, `${nk[1]} నక్షత్ర యుక్తాయాం, ${yg[1]} యోగ, ${kr[1]} కరణ,`],
+    ].map(x => Object.assign([x[0], x[1], x[2]], { orig: true })),
+    [`${lc(nk[0])} nakṣatra yuktāyāṃ, ${lc(yg[0])} yōga, ${lc(kr[0])} karaṇa,`, `${nk[1]} నక్షత్ర యుక్తాయాం, ${yg[1]} యోగ, ${kr[1]} కరణ,`, `${nk[2]} नक्षत्र युक्तायाम्, ${hiName(yg[1])} योग, ${hiName(kr[1])} करण,`],
     ['ēvaṃ guṇa viśēṣaṇa viśiṣṭāyāṃ, śubha tithau,', 'ఏవం గుణ విశేషణ విశిష్టాయాం, శుభ తిథౌ,'],
     ...gotraLines().map(x => Object.assign(x, { mine: true })),
   ];
@@ -6638,40 +6682,41 @@ function render(){
   const gs = gotraSel();
   const full = store.get('vedic_sank_full', false);
   const shown = full ? sank : sank.filter(p => p.orig);
-  const line = p => `<p class="${p.mine ? 'sk-mine' : p.local ? 'sk-local' : p.orig ? 'sk-o' : 'sk-core'}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`;
+  const line = p => `<p class="${p.mine ? 'sk-mine' : p.local ? 'sk-local' : p.orig ? 'sk-o' : 'sk-core'}">${pick(p)}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`;
   let body = '', i = 0;
   while (i < shown.length) {
     if (shown[i].orig && full) {
       let j = i; while (j < shown.length && shown[j].orig) j++;
-      body += `<div class="sk-orig"><span class="sk-otag">${pick(['Original saṅkalpam','మూల సంకల్పం'])}</span>${shown.slice(i, j).map(line).join('')}</div>`;
+      body += `<div class="sk-orig"><span class="sk-otag">${pick(['Original saṅkalpam', 'మూల సంకల్పం', 'मूल संकल्प'])}</span>${shown.slice(i, j).map(line).join('')}</div>`;
       i = j;
     } else { body += line(shown[i]); i++; }
   }
-  $('sank').innerHTML = `<div class="sk-mode"><button class="${full ? '' : 'on'}" onclick="setSankFull(false)">${pick(['Basic','సంక్షిప్త'])}</button><button class="${full ? 'on' : ''}" onclick="setSankFull(true)">${pick(['Full','పూర్తి'])}</button></div>`
-    + `<button class="gt-btn" onclick="openGotra()">🕉 ${gs ? `${pick(['Gōtram','గోత్రం'])}: <b>${pick([gs.g[0], gs.g[1]])}</b>` : pick(['Add your gōtram & pravara','మీ గోత్రం, ప్రవర చేర్చండి'])} ▾</button>`
+  $('sank').innerHTML = `<div class="sk-mode"><button class="${full ? '' : 'on'}" onclick="setSankFull(false)">${pick(['Basic', 'సంక్షిప్త', 'संक्षिप्त'])}</button><button class="${full ? 'on' : ''}" onclick="setSankFull(true)">${pick(['Full', 'పూర్తి', 'पूर्ण'])}</button></div>`
+    + `<button class="gt-btn" onclick="openGotra()">🕉 ${gs ? `${pick(['Gōtram', 'గోత్రం', 'गोत्र'])}: <b>${pick([gs.g[0], gs.g[1]])}</b>` : pick(['Add your gōtram & pravara', 'మీ గోత్రం, ప్రవర చేర్చండి', 'अपना गोत्र और प्रवर जोड़ें'])} ▾</button>`
     + body
-    + (!full ? '' : `<div class="sk-key"><span class="sk-sw orig"></span>${pick(['Original','మూల సంకల్పం'])}<span class="sk-sw core"></span>${pick(['Full saṅkalpam','పూర్తి సంకల్పం'])}${sank.some(p => p.local) ? `<span class="sk-sw local"></span>${pick(['Places near you','మీ దగ్గరి ప్రదేశాలు'])}` : ''}${gs ? `<span class="sk-sw mine"></span>${pick(['Your gōtram','మీ గోత్రం'])}` : ''}</div>`);
+    + (!full ? '' : `<div class="sk-key"><span class="sk-sw orig"></span>${pick(['Original', 'మూల సంకల్పం', 'मूल संकल्प'])}<span class="sk-sw core"></span>${pick(['Full saṅkalpam', 'పూర్తి సంకల్పం', 'पूर्ण संकल्प'])}${sank.some(p => p.local) ? `<span class="sk-sw local"></span>${pick(['Places near you', 'మీ దగ్గరి ప్రదేశాలు', 'आपके निकट के स्थान'])}` : ''}${gs ? `<span class="sk-sw mine"></span>${pick(['Your gōtram', 'మీ గోత్రం', 'आपका गोत्र'])}` : ''}</div>`);
 
   // Abhivādanam (pravara) for the chosen gōtram
   const ab = abhivadanamLines();
-  $('tAbhi').innerHTML = ab ? dual(['Abhivādanam (Pravara)', 'అభివాదనం (ప్రవర)']) : '';
+  $('tAbhi').innerHTML = ab ? dual(['Abhivādanam (Pravara)', 'అభివాదనం (ప్రవర)', 'अभिवादनम् (प्रवर)']) : '';
   $('abhi').style.display = ab ? '' : 'none';
   if (ab) $('abhi').innerHTML = ab.map(p => p.sage
-      ? `<p class="ab-r">${p.sage ? `<a onclick="openSage('${p.sage}')">${lang==='en'?p[0]:p[1]}</a>` : ''}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`
-      : `<p class="${p.cls || ''}">${lang==='en'?p[0]:p[1]}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('')
-    + `<button class="gt-btn" style="margin:14px auto 0" onclick="openGotra()">✎ ${pick(['Name, sūtram, śākhā','పేరు, సూత్రం, శాఖ'])}</button>`;
+      ? `<p class="ab-r">${p.sage ? `<a onclick="openSage('${p.sage}')">${pick(p)}</a>` : ''}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`
+      : `<p class="${p.cls || ''}">${pick(p)}${lang==='both'?`<span class="en">${p[0]}</span>`:''}</p>`).join('')
+    + `<button class="gt-btn" style="margin:14px auto 0" onclick="openGotra()">✎ ${pick(['Name, sūtram, śākhā', 'పేరు, సూత్రం, శాఖ', 'नाम, सूत्र, शाखा'])}</button>`;
 
   $('share').textContent = pick(L.share);
-  $('foot').textContent = `${loc.name}, local time. ⁺¹ means the next morning (after midnight, before the next sunrise) · ⁺¹ = మరుసటి రోజు తెల్లవారుజాము.`;
+  $('foot').textContent = lang === 'hi' ? `${loc.name === 'My location' ? 'मेरा स्थान' : loc.name}, स्थानीय समय। ⁺¹ का अर्थ है अगली सुबह (आधी रात के बाद, अगले सूर्योदय से पहले)। यह पंचांग अमांत (तेलुगु) पद्धति से है।`
+    : `${loc.name}, local time. ⁺¹ means the next morning (after midnight, before the next sunrise) · ⁺¹ = మరుసటి రోజు తెల్లవారుజాము.`;
 
   // Plain text in the priest's message format, for sharing
-  const li = lang === 'en' ? 0 : 1, lab = k => L[k][li];
-  const lines = [li ? te : en, `${lab('sunrise')}:${T(r.sunrise)}`, `${lab('sunset')}:${T(r.sunset)}`, `${lab('moonrise')}:${T(r.moonrise)}`];
-  const add = (k, spans, table, key) => visible(spans, r.nextSunrise).forEach(s => lines.push(`${lab(k)}:${table[key ? s[key] : s.idx][li]} ${T(s.end)}`));
+  const li = lang === 'en' ? 0 : 1, lab = k => pick(L[k]);
+  const lines = [lang === 'hi' ? hiD : li ? te : en, `${lab('sunrise')}:${T(r.sunrise)}`, `${lab('sunset')}:${T(r.sunset)}`, `${lab('moonrise')}:${T(r.moonrise)}`];
+  const add = (k, spans, table, key) => visible(spans, r.nextSunrise).forEach(s => lines.push(`${lab(k)}:${pick(table[key ? s[key] : s.idx])} ${T(s.end)}`));
   add('tithi', r.tithis, N.tithi, 'name'); add('nak', r.naks, N.nak); add('yoga', r.yogas, N.yoga); add('karana', r.karanas, N.karana);
-  lines.push(`${lab('sunRasi')}:${N.rasi[r.sunRasi][li]}`, `${lab('moonRasi')}:${N.rasi[r.moonRasi][li]}`);
+  lines.push(`${lab('sunRasi')}:${pick(N.rasi[r.sunRasi])}`, `${lab('moonRasi')}:${pick(N.rasi[r.moonRasi])}`);
   timings.forEach(([k, s]) => lines.push(`${lab(k)}:${T(s.start)}-${T(s.end)}`));
-  lines.push('', ...(store.get('vedic_sank_full', false) ? sank : sank.filter(p => p.orig)).map(p => p[li]));
+  lines.push('', ...(store.get('vedic_sank_full', false) ? sank : sank.filter(p => p.orig)).map(p => pick(p)));
   shareText = lines.join('\n');
 }
 
