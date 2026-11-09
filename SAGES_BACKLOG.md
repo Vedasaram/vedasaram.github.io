@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] The Vālakhilyas (valakhilyas) — sixty thousand thumb-sized sages born of Kratu; hanging from the bough Garuḍa carried; the sacrifice that made Garuḍa against Indra's pride; the Vālakhilya hymns of the Ṛgveda and their place before the Sun's chariot (MBh Ādi, Ṛgveda, Viṣṇu Purāṇa).
 - [ ] Parāśara (parashara) — Vasiṣṭha's grandson, born after his father Śakti was devoured by Kalmāṣapāda; the sacrifice to burn all rākṣasas that Vasiṣṭha and Pulastya stopped; Satyavatī and the island birth of Vyāsa; teller of the Viṣṇu Purāṇa to Maitreya (MBh Ādi, Viṣṇu Purāṇa, Bhāgavata).
 - [ ] Mudgala (mudgala) — the gleaner who fed Durvāsa six times without anger and refused a heaven that must end (MBh Āraṇyaka Parva); Mudgala and Mudgalānī's chariot race in the Ṛgveda (Ṛgveda 10).
 - [ ] Ṛbhu and Nidāgha (ribhu) — Brahmā's son who returned again and again to teach his pupil Nidāgha the one Self; “which is the king and which the elephant?” (Viṣṇu Purāṇa, Book 2; later Ṛbhu Gītā).
@@ -92,3 +91,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Jaimini (jaimini) — 11 chapters — 2026-11-06
 - [x] Garga (garga) — 10 chapters — 2026-11-07
 - [x] Śāṇḍilya (shandilya) — 10 chapters — 2026-11-08
+- [x] The Vālakhilyas (valakhilyas) — 10 chapters — 2026-11-09
