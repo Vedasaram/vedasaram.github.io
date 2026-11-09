@@ -850,6 +850,9 @@
     plough: (o = {}) => { const c = o.gold ? '#e0b040' : '#8a5a2a';
       return `<path d="M-46 -2 L-20 -10 L-16 -2Z" fill="#9a9a9a"/><path d="M-50 4 Q-10 -2 40 4" stroke="#7a5230" stroke-width="3" fill="none" opacity=".6"/><line x1="-22" y1="-6" x2="-40" y2="-56" stroke="${c}" stroke-width="5" stroke-linecap="round"/><line x1="-48" y1="-56" x2="-32" y2="-58" stroke="${c}" stroke-width="5" stroke-linecap="round"/><line x1="-24" y1="-10" x2="54" y2="-34" stroke="${c}" stroke-width="5" stroke-linecap="round"/><line x1="50" y1="-42" x2="58" y2="-26" stroke="${c}" stroke-width="4" stroke-linecap="round"/>`;
     },
+    snake: (o = {}) => { const c = o.color || '#3f8a5a';
+      return `<ellipse cx="-4" cy="-6" rx="30" ry="7" fill="${c}"/><ellipse cx="-6" cy="-12" rx="20" ry="6" fill="${c}"/><path d="M10 -14 Q22 -36 8 -56" stroke="${c}" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M10 -16 Q20 -36 8 -54" stroke="#e8d27a" stroke-width="3" fill="none" opacity=".7"/><ellipse cx="8" cy="-64" rx="14" ry="12" fill="${c}"/><ellipse cx="8" cy="-62" rx="6" ry="7" fill="#e8d27a" opacity=".6"/><circle cx="4" cy="-67" r="1.6" fill="#222"/><circle cx="12" cy="-67" r="1.6" fill="#222"/><path d="M8 -54 V-48 M8 -48 l-3 4 M8 -48 l3 4" stroke="#d33" stroke-width="1.2" fill="none"/>`;
+    },
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };

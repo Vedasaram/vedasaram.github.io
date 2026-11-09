@@ -104,11 +104,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Babhruvāhana Meets His Father (Mahābhārata) — babhruvahana-meets-his-father
 - [x] Satyavatī and the Birth of Vyāsa (Mahābhārata) — satyavati-and-vyasas-birth
 - [x] Kabandha, the Headless Giant (Rāmāyaṇa) — kabandha-the-headless-giant
+- [x] Droṇa and His Childhood Friend Drupada (Mahābhārata) — drona-and-his-friend-drupada
+- [x] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — agastyas-gift-of-weapons
+- [x] Bhīma and the Poisoned Sweets (Mahābhārata) — bhima-and-the-poisoned-sweets
 
 ## Next
-- [ ] Droṇa's Childhood Friend Drupada (Mahābhārata) — Droṇa, Drupada
-- [ ] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — Agastya, Rāma
-- [ ] Bhīma and the Poisoned Sweets (Mahābhārata) — Bhīma, Duryodhana, Vāsuki
 - [ ] Ahalyā's Son Śatānanda Welcomes Rāma (Rāmāyaṇa) — Śatānanda, Janaka, Rāma
 - [ ] Kṛpa and Kṛpī, the Twins Found in the Grass (Mahābhārata) — Kṛpa, Kṛpī, Śantanu
 - [ ] Bharadvāja's Feast for Bharata's Army (Rāmāyaṇa) — Bharadvāja, Bharata
