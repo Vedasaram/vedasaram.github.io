@@ -6394,11 +6394,14 @@ function gotraLines() {
   return [
     [`${s.r.map(r => r[0].toLowerCase()).join(' ')} ${n[0]} pravarānvita,`, `${s.r.map(r => r[1]).join(' ')} ${n[1]} ప్రవరాన్విత,`],
     [`${s.g[0].toLowerCase()} gōtrōdbhavasya,`, `${s.g[1]} గోత్రోద్భవస్య,`],
+    (() => { const t = TITLES_GEN[(myGotra && myGotra.ti) || 0], nm = ((myGotra && myGotra.name) || '').trim();
+      return [`${nm || '[your name]'} ${t[0]} nāmadhēyasya,`, `${nm || '[మీ పేరు]'} ${t[1]} నామధేయస్య,`]; })(),
   ];
 }
 const SUTRAS = [['āpastamba','ఆపస్తంబ'],['bōdhāyana','బోధాయన'],['āśvalāyana','ఆశ్వలాయన'],['kātyāyana','కాత్యాయన'],['drāhyāyaṇa','ద్రాహ్యాయణ'],['hiraṇyakēśi','హిరణ్యకేశి'],['vaikhānasa','వైఖానస']];
 const SAKHAS = [['kṛṣṇa yajuś','కృష్ణ యజుః'],['śukla yajuś','శుక్ల యజుః'],['ṛk','ఋక్'],['sāma','సామ'],['atharva','అథర్వ']];
 const TITLES = [['śarmā','శర్మా'],['varmā','వర్మా'],['guptā','గుప్తా'],['dāsaḥ','దాసః']];
+const TITLES_GEN = [['śarmaṇaḥ','శర్మణః'],['varmaṇaḥ','వర్మణః'],['guptasya','గుప్తస్య'],['dāsasya','దాసస్య']];   // '… of the one named'
 function abhivadanamLines() {
   const s = gotraSel(); if (!s) return null;
   const m = myGotra, n = ARSHEYA[s.r.length] || ['', ''];
