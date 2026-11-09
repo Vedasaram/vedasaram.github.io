@@ -28,6 +28,7 @@
     ['kakatiya', 'Rudramadevī', 'రుద్రమదేవి', 'Gaṇapatideva & Rudramadevī · Kākatīyas of Orugallu', 'గణపతిదేవుడు, రుద్రమదేవి · ఓరుగల్లు కాకతీయులు', '🏯', 'linear-gradient(160deg,#2a0a1a,#c0902a)'],
     ['prithviraj', 'Pṛthvīrāja', 'పృథ్వీరాజ్', 'Cauhān · Ajmer and Delhi · the battles of Tarāin', 'చౌహాన్ · అజ్మీర్, ఢిల్లీ · తరాయిన్ యుద్ధాలు', '🏹', 'linear-gradient(160deg,#1a0a0a,#b0602a)'],
     ['vijayanagara', 'Harihara & Bukka', 'హరిహర బుక్కరాయలు', 'Saṅgama brothers · founders of Vijayanagara', 'సంగమ సోదరులు · విజయనగర స్థాపకులు', '🏛️', 'linear-gradient(160deg,#1a1206,#b08a3a)'],
+    ['krishnadevaraya', 'Kṛṣṇadevarāya', 'శ్రీకృష్ణదేవరాయలు', 'Vijayanagara at its height · poet of Āmuktamālyada', 'విజయనగర వైభవం · ఆముక్తమాల్యద కవి', '🏵️', 'linear-gradient(160deg,#2a0a06,#d0a030)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js

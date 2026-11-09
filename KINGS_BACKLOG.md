@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Kṛṣṇadevarāya (krishnadevaraya) — Vijayanagara at its height; Raichur; Āmuktamālyada; the aṣṭadiggajas; Tenāli Rāmakṛṣṇa (mark folk tales); Domingos Paes and Nuniz
 - [ ] Rāṇā Sāṅgā (sanga) — Mewar's great warrior; Khanwa (1527); his wounds
 - [ ] Mahārāṇā Pratāp (pratap) — Haldīghāṭī (1576); Cetak; years in the hills; Bhāmāshāh; recovering Mewar
 - [ ] Chatrapati Śivājī (shivaji) — Jījābāī; Toraṇa and Rāyagaḍh; Afzal Khān at Pratāpgaḍh; Shāyista Khān; Āgrā and the escape; the coronation of 1674; the navy; the southern campaign
@@ -81,3 +80,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Gaṇapatideva and Rudramadevī (kakatiya) — 9 chapters — 2026-11-06
 - [x] Pṛthvīrāja III Cauhān (prithviraj) — 9 chapters — 2026-11-07
 - [x] Harihara and Bukka (vijayanagara) — 8 chapters — 2026-11-08
+- [x] Kṛṣṇadevarāya (krishnadevaraya) — 9 chapters — 2026-11-09
