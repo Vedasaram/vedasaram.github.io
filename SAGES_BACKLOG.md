@@ -42,11 +42,15 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Parāśara (parashara) — Vasiṣṭha's grandson, born after his father Śakti was devoured by Kalmāṣapāda; the sacrifice to burn all rākṣasas that Vasiṣṭha and Pulastya stopped; Satyavatī and the island birth of Vyāsa; teller of the Viṣṇu Purāṇa to Maitreya (MBh Ādi, Viṣṇu Purāṇa, Bhāgavata).
 - [ ] Mudgala (mudgala) — the gleaner who fed Durvāsa six times without anger and refused a heaven that must end (MBh Āraṇyaka Parva); Mudgala and Mudgalānī's chariot race in the Ṛgveda (Ṛgveda 10).
 - [ ] Ṛbhu and Nidāgha (ribhu) — Brahmā's son who returned again and again to teach his pupil Nidāgha the one Self; “which is the king and which the elephant?” (Viṣṇu Purāṇa, Book 2; later Ṛbhu Gītā).
 - [ ] Vāmadeva (vamadeva) — seer of the fourth maṇḍala of the Ṛgveda, who knew the Self while still in the womb; the Vāmadeva of the Aitareya and Bṛhadāraṇyaka Upaniṣads (Ṛgveda 4, Aitareya Upaniṣad, Bṛhadāraṇyaka 1.4).
 - [ ] Raikva (raikva) — the man with the cart in the Chāndogya, sought out by King Jānaśruti after two swans spoke of him; he turned away gifts until the king came humbly (Chāndogya Upaniṣad 4.1–4.3).
+- [ ] Saubhari (saubhari) — the sage who did tapas under the Yamunā, envied a king-fish with its family, married all fifty daughters of Māndhātā, and at last turned back to renunciation (Viṣṇu Purāṇa 4; Bhāgavata 9; Ṛgveda 8 seer).
+- [ ] Dīrghatamas (dirghatamas) — the seer born blind, cast adrift on the river by his own sons, rescued by King Bali; father of Aṅga, Vaṅga and the eastern kings; seer of the Asya Vāmīya hymn “the One the wise call by many names” (Ṛgveda 1.140–164; MBh Ādi; Purāṇas).
+- [ ] Pippalāda (pippalada) — Dadhīci's son raised under a pippala tree, his anger at the gods for his father's death, Śiva's calming of it; the teacher who answers six questions in the Praśna Upaniṣad (Praśna Upaniṣad; Śiva Purāṇa; Brahma Purāṇa — later tellings marked).
+- [ ] Asita Devala (devala) — named by Arjuna in the Gītā as a witness to Kṛṣṇa's divinity; Devala and the hidden yogī Jaigīṣavya at the Ādityatīrtha; the curse on Hūhū who became the crocodile of Gajendra (MBh Śalya and Śānti; Bhagavad Gītā 10; Bhāgavata 8).
+- [ ] Marīci (marici) — first of Brahmā's mind-born sons and of the Saptarṣis, father of Kaśyapa; his wife Kalā/Sambhūti and their line; the sons cursed to be born again (Purāṇas; Mahābhārata; Bhāgavata 3–4).
 
 Add more when fewer than five remain: e.g. Pulastya, Kaṇva, Uttaṅka, Dhaumya, Lomaśa, Māṇḍavya,
 Śuka, Jaimini, Vālakhilyas, the four Kumāras, Upamanyu, Āruṇi, Sāndīpani, Garga, Śāṇḍilya, Cyavana.
@@ -92,3 +96,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Garga (garga) — 10 chapters — 2026-11-07
 - [x] Śāṇḍilya (shandilya) — 10 chapters — 2026-11-08
 - [x] The Vālakhilyas (valakhilyas) — 10 chapters — 2026-11-09
+- [x] Parāśara (parashara) — 12 chapters — 2026-11-10
