@@ -2562,4 +2562,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'shatananda-welcomes-rama',
+    added: '2026-11-10',
+    epic: 'Ramayana',
+    chars: ['Śatānanda', 'Janaka', 'Rāma', 'Lakṣmaṇa', 'Viśvāmitra'],
+    title: { en: 'Ahalyā\'s Son Śatānanda Welcomes Rāma', te: 'రాముడికి శతానందుడి స్వాగతం' },
+    moral: { en: 'Help one person, and you bring joy to a whole family.', te: 'ఒక్కరికి చేసిన సహాయం ఒక కుటుంబమంతటికీ ఆనందాన్ని ఇస్తుంది.' },
+    cover: { bg: 'palace', props: [['person', 110, 198, 1.35, { skin: 'blue', cloth: '#f0c040', tilak: true }], ['person', 165, 198, 1.25, { skin: 'fair', cloth: '#d9772a' }], ['glow', 250, 200, 1], ['person', 250, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true, flip: true }]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 70, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 120, 198, 1.2, { skin: 'blue', cloth: '#f0c040', tilak: true }], ['person', 160, 198, 1.1, { skin: 'fair', cloth: '#d9772a' }], ['fire', 220, 200, 0.9], ['person', 290, 198, 1.45, { cloth: '#a8392a', crown: true, flip: true }], ['person', 345, 198, 1.35, { cloth: '#f4ead2', beard: true, flip: true }]] },
+        en: 'After Ahalyā was freed from her curse, Sage Viśvāmitra led Rāma and Lakṣmaṇa on to the city of Mithilā. King Janaka was holding a great yajña there, and sages had come from every land. As soon as Janaka heard that Viśvāmitra had arrived, he hurried out with his chief priest, Śatānanda, to welcome him with folded hands. Then the king\'s eyes fell on the two boys. "Who are these princes, Guru?" he asked. "They walk like young lions and shine like the sun and the moon." "They are Rāma and Lakṣmaṇa, the sons of King Daśaratha," said Viśvāmitra. "And on the way here, Rāma set Ahalyā free."',
+        te: 'అహల్యకు శాపం నుంచి విముక్తి కలిగిన తరువాత, విశ్వామిత్ర మహర్షి రామలక్ష్మణులను మిథిలా నగరానికి తీసుకువెళ్ళాడు. అక్కడ జనక మహారాజు ఒక గొప్ప యజ్ఞం చేస్తున్నాడు. ఎన్నో దేశాల నుంచి ఋషులు వచ్చారు. విశ్వామిత్రుడు వచ్చాడని వినగానే జనకుడు తన పురోహితుడైన శతానందుడితో కలిసి ఎదురు వెళ్ళి, చేతులు జోడించి స్వాగతం పలికాడు. అప్పుడు రాజు చూపు ఆ ఇద్దరు బాలుర మీద పడింది. "గురువర్యా, ఈ రాకుమారులు ఎవరు?" అని అడిగాడు. "సింహం పిల్లల్లా నడుస్తున్నారు, సూర్యచంద్రుల్లా వెలిగిపోతున్నారు." "వీళ్ళు దశరథ మహారాజు కుమారులు, రాముడు, లక్ష్మణుడు," అన్నాడు విశ్వామిత్రుడు. "ఇక్కడికి వచ్చే దారిలో రాముడు అహల్యను శాపం నుంచి విడిపించాడు."',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 90, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 150, 198, 1.2, { skin: 'blue', cloth: '#f0c040', tilak: true }], ['person', 270, 198, 1.45, { cloth: '#f4ead2', beard: true, raise: true, flip: true }], ['lotus', 330, 200, 0.9]] },
+        en: 'When Śatānanda heard his mother\'s name, his whole body trembled with joy. For Śatānanda was the eldest son of Sage Gautama and Ahalyā! For many long years he had not seen his mother. "O great sage," he asked Viśvāmitra eagerly, "did you really bring this prince to my mother? Did she welcome Rāma with flowers and water, as a guest should be welcomed? And my father — has he come back to her?" "Yes, Śatānanda," said Viśvāmitra kindly. "Your mother is free. She honoured Rāma as her guest, and Gautama has come home to live with her in the āśrama once more." Tears of happiness filled Śatānanda\'s eyes.',
+        te: 'తన తల్లి పేరు వినగానే శతానందుడి ఒళ్ళు ఆనందంతో పులకించిపోయింది. ఎందుకంటే శతానందుడు గౌతమ మహర్షి, అహల్యల పెద్ద కొడుకు! ఎన్నో ఏళ్ళుగా అతను తన తల్లిని చూడలేదు. "మహర్షీ," అని ఆత్రంగా అడిగాడు, "మీరు నిజంగా ఈ రాకుమారుణ్ణి మా అమ్మ దగ్గరకు తీసుకువెళ్ళారా? అతిథికి ఇవ్వాల్సిన పూలు, నీళ్ళతో అమ్మ రాముడికి స్వాగతం పలికిందా? మరి మా నాన్నగారు — అమ్మ దగ్గరకు తిరిగి వచ్చారా?" "అవును శతానందా," అని ప్రేమగా చెప్పాడు విశ్వామిత్రుడు. "మీ అమ్మ శాపం తీరిపోయింది. ఆమె రాముడికి అతిథి మర్యాదలు చేసింది. గౌతముడు కూడా ఇంటికి తిరిగి వచ్చి ఆమెతో ఆశ్రమంలో ఉంటున్నాడు." ఆనందంతో శతానందుడి కళ్ళు చెమ్మగిల్లాయి.',
+      },
+      {
+        scene: { bg: 'ashram', props: [['person', 80, 198, 1.4, { cloth: '#a8392a', crown: true }], ['tree', 150, 196, 0.8], ['glow', 220, 200, 0.9], ['person', 220, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd', flip: true }], ['sun', 360, 45, 0.8]] },
+        en: 'Śatānanda turned to Rāma with folded hands. "Welcome, Rāma! By freeing my mother, you have brought joy back to our whole family. And you are blessed to travel with Viśvāmitra. Do you know how great he is? Listen." Long ago, said Śatānanda, Viśvāmitra was a mighty king. He tried to take Sage Vasiṣṭha\'s wish-giving cow by force, but all his armies could not defeat the sage\'s calm power. So the king gave up his crown and began tapas, for years and years. He stumbled in many tests, yet he never gave up, until at last Vasiṣṭha himself called him a brahmarṣi. Rāma listened with shining eyes. And in Janaka\'s palace, the great bow of Śiva was waiting for him…',
+        te: 'శతానందుడు రాముడి వైపు తిరిగి చేతులు జోడించాడు. "స్వాగతం రామా! మా అమ్మను విడిపించి మా కుటుంబమంతటికీ మళ్ళీ సంతోషాన్ని తెచ్చావు. విశ్వామిత్రుడి వంటి గురువుతో కలిసి ప్రయాణం చేస్తున్నావు, నువ్వు ఎంతో అదృష్టవంతుడివి. ఆయన ఎంత గొప్పవాడో తెలుసా? విను." ఒకప్పుడు విశ్వామిత్రుడు ఒక బలమైన రాజు అని శతానందుడు చెప్పాడు. వసిష్ఠ మహర్షి దగ్గర ఉన్న కోరికలు తీర్చే ఆవును బలవంతంగా తీసుకుపోవాలని చూశాడు. కానీ ఆయన సైన్యాలన్నీ కలిసినా మహర్షి శాంత శక్తి ముందు ఓడిపోయాయి. అప్పుడు ఆ రాజు కిరీటం వదిలేసి, ఏళ్ళ తరబడి తపస్సు చేశాడు. ఎన్నో పరీక్షల్లో తడబడ్డాడు, కానీ పట్టు వదలలేదు. చివరకు వసిష్ఠుడే ఆయనను బ్రహ్మర్షి అని పిలిచాడు. రాముడు మెరిసే కళ్ళతో విన్నాడు. జనకుడి భవనంలో శివధనుస్సు అతని కోసం ఎదురుచూస్తోంది…',
+      },
+    ],
+  },
+  {
+    id: 'kripa-and-kripi-the-twins',
+    added: '2026-11-10',
+    epic: 'Mahabharata',
+    chars: ['Kṛpa', 'Kṛpī', 'Śantanu', 'Śaradvān'],
+    title: { en: 'Kṛpa and Kṛpī, the Twins Found in the Grass', te: 'గడ్డిలో దొరికిన కవలలు — కృపుడు, కృపి' },
+    moral: { en: 'Kindness shown to a helpless child can raise a hero.', te: 'నిస్సహాయులైన పిల్లలపై చూపే దయ ఒక వీరుణ్ణి తయారుచేస్తుంది.' },
+    cover: { bg: 'forest', props: [['person', 110, 198, 1.45, { cloth: '#3a6ab0', crown: true }], ['basket', 220, 198, 1.1], ['basket', 280, 198, 1.1, { glow: false }], ['bow', 330, 198, 0.9], ['sun', 360, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'forest', props: [['archer', 120, 198, 1.4, { cloth: '#f4ead2' }], ['tree', 250, 196, 1], ['person', 320, 198, 1.3, { female: true, skin: 'fair', cloth: '#f08aa8', pallu: '#ffcf3f', flip: true }], ['cloud', 210, 40, 0.9]] },
+        en: 'Sage Gautama had a son named Śaradvān, and it is said that he was born holding arrows in his tiny hands! Śaradvān grew up loving the bow more than anything. In a quiet forest he practised archery and did tapas, until he knew the secret of every weapon in the world. Up in heaven, Indra began to worry. "This young sage is growing too powerful," he thought. "I must break his tapas." So Indra sent a lovely heavenly dancer named Jānapadī down to the forest. When Śaradvān opened his eyes and saw her, he was so startled that his bow and arrows slipped from his hands.',
+        te: 'గౌతమ మహర్షికి శరద్వంతుడు అనే కొడుకు ఉండేవాడు. అతను పుట్టినప్పుడే చిట్టి చేతుల్లో బాణాలు పట్టుకుని పుట్టాడని అంటారు! శరద్వంతుడికి అన్నిటికంటే విల్లు అంటేనే ఇష్టం. ఒక ప్రశాంతమైన అడవిలో విలువిద్య సాధన చేస్తూ, తపస్సు చేస్తూ, ప్రపంచంలోని ప్రతి అస్త్రం రహస్యాన్నీ నేర్చుకున్నాడు. స్వర్గంలో ఇంద్రుడికి భయం పట్టుకుంది. "ఈ యువ ముని చాలా శక్తిమంతుడవుతున్నాడు," అనుకున్నాడు. "ఇతని తపస్సు భంగం చేయాలి." అందుకని జానపది అనే అందమైన అప్సరసను అడవికి పంపాడు. శరద్వంతుడు కళ్ళు తెరిచి ఆమెను చూడగానే ఎంతగా ఉలిక్కిపడ్డాడంటే, అతని చేతుల్లోంచి విల్లు, బాణాలు జారి కింద పడిపోయాయి.',
+      },
+      {
+        scene: { bg: 'forest', props: [['horse', 70, 198, 1.1], ['person', 150, 198, 1.45, { cloth: '#3a6ab0', crown: true }], ['basket', 250, 198, 1.1], ['bow', 300, 198, 0.8], ['arrow', 340, 196, 0.8]] },
+        en: 'But Śaradvān did not let his tapas be broken. Quietly he rose and walked away, deeper into the forest, leaving his bow, his arrows and his deerskin behind. And there, it is said, by the power of his tapas, a clump of tall reed grass parted — and in it lay two tiny babies, a boy and a girl! Soon after, King Śantanu of Hastināpura came riding by on a hunt. One of his soldiers spotted the twins, with a bow and arrows lying beside them. "These must be the children of a great brāhmaṇa archer," said the king softly. His heart melted. "I will take them home and raise them as my own."',
+        te: 'కానీ శరద్వంతుడు తన తపస్సును భంగం కానివ్వలేదు. మెల్లగా లేచి, తన విల్లు, బాణాలు, జింక చర్మం అక్కడే వదిలేసి అడవి లోపలికి వెళ్ళిపోయాడు. అక్కడ ఆయన తపశ్శక్తి వల్ల ఒక పొడవాటి రెల్లు గడ్డి పొద విడిపోయి, అందులో ఇద్దరు చిన్నారి పాపలు కనిపించారని అంటారు — ఒక అబ్బాయి, ఒక అమ్మాయి! కొంతసేపటికి హస్తినాపుర రాజు శంతనుడు వేటకు వస్తూ అటుగా వచ్చాడు. ఆయన సైనికుల్లో ఒకడు ఆ కవల పిల్లలను చూశాడు. వారి పక్కనే విల్లు, బాణాలు పడి ఉన్నాయి. "వీళ్ళు ఒక గొప్ప బ్రాహ్మణ విలుకాడి పిల్లలై ఉంటారు," అన్నాడు రాజు మృదువుగా. ఆయన మనసు కరిగిపోయింది. "వీళ్ళను ఇంటికి తీసుకువెళ్ళి నా సొంత పిల్లల్లా పెంచుతాను."',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 80, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['archer', 135, 198, 1.25, { cloth: '#7a5ab0' }], ['targetTree', 255, 196, 1], ['person', 330, 198, 1.25, { female: true, skin: 'fair', cloth: '#3f8a5a', pallu: '#f0c040', flip: true }]] },
+        en: 'Śantanu raised the twins in his palace with great love. Because they had been saved by his kṛpā — his kindness — he named them Kṛpa and Kṛpī. Far away, Śaradvān learned through his tapas where his children were. He came quietly to the palace and told Kṛpa, "I am your father." Then he taught his son all four branches of archery and every weapon he knew. Kṛpa grew into a great teacher, Kṛpācārya, and taught the young Pāṇḍava and Kaurava princes. Kṛpī married the brave Droṇa and became the mother of Aśvatthāmā. And it is said that Kṛpa is one of the few who live on forever, even today.',
+        te: 'శంతనుడు ఆ కవలలను తన భవనంలో ఎంతో ప్రేమగా పెంచాడు. తన కృప — అంటే దయ — వల్ల బతికారు కాబట్టి వాళ్ళకు కృపుడు, కృపి అని పేర్లు పెట్టాడు. ఎక్కడో దూరంగా ఉన్న శరద్వంతుడు తన తపశ్శక్తితో తన పిల్లలు ఎక్కడ ఉన్నారో తెలుసుకున్నాడు. మెల్లగా భవనానికి వచ్చి, "నేను నీ తండ్రిని," అని కృపుడితో చెప్పాడు. తరువాత తనకు తెలిసిన నాలుగు రకాల విలువిద్యనూ, అన్ని అస్త్రాలనూ కొడుకుకు నేర్పాడు. కృపుడు కృపాచార్యుడనే గొప్ప గురువుగా ఎదిగి, చిన్నారి పాండవులకూ కౌరవులకూ విద్య నేర్పాడు. కృపి వీరుడైన ద్రోణుణ్ణి పెళ్ళి చేసుకుని అశ్వత్థామకు తల్లి అయింది. కృపుడు చిరంజీవి అని, ఈ రోజుకీ జీవించే ఉన్నాడని అంటారు.',
+      },
+    ],
+  },
+  {
+    id: 'bharadvajas-feast-for-bharata',
+    added: '2026-11-10',
+    epic: 'Ramayana',
+    chars: ['Bharadvāja', 'Bharata', 'Vasiṣṭha'],
+    title: { en: 'Bharadvāja\'s Feast for Bharata\'s Army', te: 'భరతుడి సైన్యానికి భరద్వాజుడి విందు' },
+    moral: { en: 'Even a feast fit for the gods cannot turn a loving heart from its goal.', te: 'దేవతల విందు కూడా ప్రేమ నిండిన మనసును దాని లక్ష్యం నుంచి మళ్ళించలేదు.' },
+    cover: { bg: 'ashram', props: [['person', 110, 198, 1.45, { cloth: '#d9772a', beard: true, hair: '#ddd', raise: true }], ['fire', 175, 200, 0.9], ['person', 240, 198, 1.35, { cloth: '#f4ead2', flip: true }], ['bananas', 300, 200, 0.9], ['pot', 345, 200, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'forest', props: [['elephant', 50, 190, 0.6], ['horse', 110, 192, 0.7], ['person', 180, 198, 1.35, { cloth: '#f4ead2' }], ['person', 230, 198, 1.35, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['hut', 330, 190, 1], ['person', 285, 198, 1.4, { cloth: '#d9772a', beard: true, hair: '#ddd', flip: true }]] },
+        en: 'Bharata was on his way to the forest to bring Rāma home. Behind him came a huge army, the three queens and crowds of people from Ayodhyā. Near Prayāga, where the Gaṅgā meets the Yamunā, stood the āśrama of the great sage Bharadvāja. Bharata left the army far behind, took off his royal ornaments, and walked in humbly with Guru Vasiṣṭha. The sage welcomed them kindly. Then he looked at Bharata closely. "You rule Ayodhyā now, prince. Why have you come to the forest with so many soldiers? Surely you do not mean to harm Rāma, so that the kingdom stays yours?"',
+        te: 'రాముణ్ణి తిరిగి ఇంటికి తీసుకురావడానికి భరతుడు అడవికి బయలుదేరాడు. అతని వెనకాల పెద్ద సైన్యం, ముగ్గురు రాణులు, అయోధ్య ప్రజలు గుంపులు గుంపులుగా వస్తున్నారు. గంగా యమునలు కలిసే ప్రయాగ దగ్గర భరద్వాజ మహర్షి ఆశ్రమం ఉంది. భరతుడు సైన్యాన్ని దూరంగా ఆపి, తన రాజ ఆభరణాలు తీసేసి, వసిష్ఠ గురువుతో కలిసి వినయంగా లోపలికి నడిచాడు. మహర్షి వాళ్ళకు ప్రేమగా స్వాగతం పలికాడు. తరువాత భరతుణ్ణి నిశితంగా చూశాడు. "రాకుమారా, ఇప్పుడు అయోధ్య నీ చేతిలో ఉంది. ఇంత మంది సైనికులతో అడవికి ఎందుకు వచ్చావు? రాజ్యం నీకే ఉండాలని రాముడికి హాని చేయాలని రాలేదు కదా?"',
+      },
+      {
+        scene: { bg: 'ashram', props: [['person', 100, 198, 1.45, { cloth: '#d9772a', beard: true, hair: '#ddd', raise: true }], ['glow', 170, 200, 1.2], ['fire', 170, 200, 1], ['person', 245, 198, 1.35, { cloth: '#f4ead2', flip: true }], ['person', 290, 198, 1.35, { cloth: '#f4ead2', beard: true, hair: '#ddd', flip: true }]] },
+        en: 'Bharata\'s eyes filled with tears. "Holy one, if even you think this of me, I am truly unlucky! I never wanted the kingdom. I have come to fall at Rāma\'s feet and bring him home to be king." Bharadvāja smiled. "I knew it, my son. I only asked so that the whole world would hear how pure your heart is. Rāma is living on the hill of Citrakūṭa. Stay with us tonight, and let your whole army be my guests." Bharata hesitated. "My army is enormous, holy one. How can a small āśrama feed so many?" The sage only smiled. He sat before his sacred fire and called upon Viśvakarmā, the builder of the gods, and upon the rivers and the gods themselves to come and help him.',
+        te: 'భరతుడి కళ్ళలో నీళ్ళు తిరిగాయి. "స్వామీ, మీరు కూడా నా గురించి ఇలా అనుకుంటే, నా అంత దురదృష్టవంతుడు ఎవరూ ఉండరు! నాకు రాజ్యం ఎప్పుడూ వద్దు. రాముడి పాదాల మీద పడి, ఆయనను రాజుగా ఇంటికి తీసుకువెళ్ళడానికే వచ్చాను." భరద్వాజుడు చిరునవ్వు నవ్వాడు. "నాకు తెలుసు నాయనా. నీ మనసు ఎంత స్వచ్ఛమైనదో లోకమంతా వినాలనే అలా అడిగాను. రాముడు చిత్రకూట పర్వతం మీద ఉంటున్నాడు. ఈ రాత్రి మాతో ఉండు. నీ సైన్యమంతా నాకు అతిథులే." భరతుడు సంకోచించాడు. "స్వామీ, నా సైన్యం చాలా పెద్దది. చిన్న ఆశ్రమం ఇంత మందికి ఎలా భోజనం పెడుతుంది?" మహర్షి చిరునవ్వు మాత్రమే నవ్వాడు. తన హోమాగ్ని ముందు కూర్చుని, దేవశిల్పి విశ్వకర్మనూ, నదులనూ, దేవతలనూ తనకు సాయం చేయడానికి రమ్మని పిలిచాడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['bananas', 60, 200, 1], ['pot', 105, 200, 0.9], ['berries', 150, 200, 1], ['drum', 210, 200, 1], ['person', 270, 198, 1.2, { cloth: '#a8392a' }], ['person', 330, 198, 1.35, { cloth: '#f4ead2', flip: true }], ['flowers', 375, 200, 0.8]] },
+        en: 'At once the forest turned into a shining city! There were grand halls and soft beds, trees heavy with fruit, rivers of sweet milk, and heaps of rice and sweets. Heavenly musicians played and sang. The soldiers feasted and danced. "We are not going to Ayodhyā or to the forest," they laughed. "We are staying right here!" But Bharata hardly ate a thing. He was thinking only of Rāma. In the morning, the whole city vanished like a dream. As Bharata said goodbye, he spoke angrily of his mother Kaikeyī. "Do not blame her, Bharata," said the sage gently. "Rāma\'s going to the forest will bring great good to the world." Then he showed Bharata the road to Citrakūṭa.',
+        te: 'క్షణంలో అడవి అంతా మెరిసిపోయే నగరంగా మారిపోయింది! పెద్ద పెద్ద మందిరాలు, మెత్తని పడకలు, పండ్లతో వంగిపోయిన చెట్లు, తియ్యని పాల నదులు, అన్నం, మిఠాయిల రాశులు! దేవలోక గాయకులు పాటలు పాడారు. సైనికులు కడుపునిండా తిని నాట్యం చేశారు. "మేము అయోధ్యకూ వెళ్ళం, అడవికీ వెళ్ళం," అని నవ్వుతూ అన్నారు. "ఇక్కడే ఉండిపోతాం!" కానీ భరతుడు దాదాపు ఏమీ తినలేదు. అతని మనసంతా రాముడి మీదే ఉంది. తెల్లవారేసరికి ఆ నగరమంతా కలలాగా మాయమైపోయింది. వీడ్కోలు చెప్పేటప్పుడు భరతుడు తన తల్లి కైకేయి గురించి కోపంగా మాట్లాడాడు. "భరతా, ఆమెను నిందించకు," అన్నాడు మహర్షి మృదువుగా. "రాముడు అడవికి వెళ్ళడం వల్ల లోకానికి ఎంతో మేలు జరుగుతుంది." తరువాత చిత్రకూటానికి దారి చూపించాడు.',
+      },
+    ],
+  },
 ];

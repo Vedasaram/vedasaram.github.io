@@ -107,11 +107,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Droṇa and His Childhood Friend Drupada (Mahābhārata) — drona-and-his-friend-drupada
 - [x] Sage Agastya's Gift of Weapons (Rāmāyaṇa) — agastyas-gift-of-weapons
 - [x] Bhīma and the Poisoned Sweets (Mahābhārata) — bhima-and-the-poisoned-sweets
+- [x] Ahalyā's Son Śatānanda Welcomes Rāma (Rāmāyaṇa) — shatananda-welcomes-rama
+- [x] Kṛpa and Kṛpī, the Twins Found in the Grass (Mahābhārata) — kripa-and-kripi-the-twins
+- [x] Bharadvāja's Feast for Bharata's Army (Rāmāyaṇa) — bharadvajas-feast-for-bharata
 
 ## Next
-- [ ] Ahalyā's Son Śatānanda Welcomes Rāma (Rāmāyaṇa) — Śatānanda, Janaka, Rāma
-- [ ] Kṛpa and Kṛpī, the Twins Found in the Grass (Mahābhārata) — Kṛpa, Kṛpī, Śantanu
-- [ ] Bharadvāja's Feast for Bharata's Army (Rāmāyaṇa) — Bharadvāja, Bharata
 - [ ] Vidura, Born to Be Wise (Mahābhārata) — Vidura, Vyāsa
 - [ ] Sugrīva Forgets His Promise (Rāmāyaṇa) — Sugrīva, Lakṣmaṇa, Tārā
 - [ ] Uttaṅka and the Queen's Earrings (Mahābhārata) — Uttaṅka
