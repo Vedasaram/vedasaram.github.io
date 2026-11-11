@@ -48,13 +48,17 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Mahārāṇā Pratāp (pratap) — Haldīghāṭī (1576); Cetak; years in the hills; Bhāmāshāh; recovering Mewar
 - [ ] Chatrapati Śivājī (shivaji) — Jījābāī; Toraṇa and Rāyagaḍh; Afzal Khān at Pratāpgaḍh; Shāyista Khān; Āgrā and the escape; the coronation of 1674; the navy; the southern campaign
 - [ ] Rāṇā Kumbhā (kumbha) — Mewar's builder-king; Kumbhalgarh and the Vijaya Stambha at Chittor; wars with Malwa and Gujarat; the scholar of music (Saṅgītarāja); his death at his son's hand
 - [ ] Ahilyābāī Holkar (ahilya) — widowed young; ruling Malwa from Maheshwar; temple rebuilding across India (Kāśī Viśvanāth, 1780); justice and trade; John Malcolm's account
 - [ ] Amoghavarṣa I (amoghavarsha) — Rāṣṭrakūṭa boy-king; Mānyakheṭa; Kavirājamārga; Jain faith and Praśnottara Ratnamālikā; Arab travellers' praise
 - [ ] Mihira Bhoja (mihirabhoja) — Gurjara-Pratīhāra of Kanauj; Gwalior inscription; the Arab traveller Sulaymān; wars with Pālas and Rāṣṭrakūṭas
 - [ ] Rāṇī Lakṣmībāī (lakshmibai) — Manikarnika of Kāśī; Jhansi; the doctrine of lapse; 1857; the siege of Jhansi; Kalpi and Gwalior (1858)
+- [ ] Vikramāditya VI (vikramaditya6) — Kalyāṇa Cālukya; the Cālukya-Vikrama era (1076); Bilhaṇa's Vikramāṅkadevacarita; Vijñāneśvara's Mitākṣarā; wars with the Cōḷas and Hoysaḷas
+- [ ] Hoysaḷa Viṣṇuvardhana (vishnuvardhana) — Biṭṭideva; Rāmānuja and the turn to Vaiṣṇavism (tradition); Queen Śāntalā; Talakāḍ won from the Cōḷas; the temples of Belur
+- [ ] Prolaya and Kāpaya Nāyaka (musunuri) — the Musunūri Nāyakas; freeing the Telugu country after Orugallu fell; the Vilasa grant; Warangal retaken (1336); the Bahmanī wars
+- [ ] Chhatrasāl Bundelā (chhatrasal) — boyhood in the Bundelkhand forests; meeting Śivājī; war with Aurangzeb's governors; Prāṇnāth and Panna's diamonds; Bājī Rāo's help (1729)
+- [ ] Bājī Rāo I (bajirao) — Peśvā at twenty; Palkhed (1728); Bundelkhand; the dash to Delhi (1737); Bhopal (1738); death on the Narmadā (1740)
 
 Add more when fewer than five remain: e.g. Puṣyamitra Śuṅga, Rudradāman's rival kings, Kumāragupta,
 Yaśodharman, Śaśāṅka, Mihira Bhoja, Dharmapāla, Amoghavarṣa I, Kṛṣṇa III, Vikramāditya VI, Hoysaḷa
@@ -81,3 +85,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Harihara and Bukka (vijayanagara) — 8 chapters — 2026-11-08
 - [x] Kṛṣṇadevarāya (krishnadevaraya) — 9 chapters — 2026-11-09
 - [x] Rāṇā Sāṅgā (sanga) — 9 chapters — 2026-11-10
+- [x] Mahārāṇā Pratāp (pratap) — 8 chapters — 2026-11-11
