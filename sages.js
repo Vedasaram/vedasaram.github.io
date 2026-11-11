@@ -48,6 +48,7 @@
     ['shandilya', 'Śāṇḍilya', 'శాండిల్యుడు', 'Who said “All this is Brahman”', '“సర్వం ఖల్విదం బ్రహ్మ” అన్న మహర్షి', '🌾', 'linear-gradient(160deg,#2a2a0a,#a09a3a)'],
     ['valakhilyas', 'The Vālakhilyas', 'వాలఖిల్యులు', 'Thumb-sized sages before the Sun', 'సూర్యుని ముందు నడిచే బొటనవేలంత మునులు', '🍃', 'linear-gradient(160deg,#2a1a06,#e0b040)'],
     ['parashara', 'Parāśara', 'పరాశరుడు', 'Father of Vyāsa, teller of the Viṣṇu Purāṇa', 'వ్యాసుని తండ్రి, విష్ణు పురాణ కర్త', '🌫️', 'linear-gradient(160deg,#0a2a2a,#4a9a9a)'],
+    ['mudgala', 'Mudgala', 'ముద్గలుడు', 'The gleaner who turned down heaven', 'స్వర్గాన్ని వద్దన్న పరిగె ముని', '🌾', 'linear-gradient(160deg,#3a2a0a,#c8a040)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
