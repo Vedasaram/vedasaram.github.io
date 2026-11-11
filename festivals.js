@@ -212,6 +212,8 @@
   var WD_HI = ['रविवार','सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार'];
   var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var MON_TE = ['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జూలై','ఆగ','సెప్టె','అక్టో','నవం','డిసెం'];
+  // Short weekday on the date badge (Fri / 13 / Nov)
+  var WD_SHORT = [['Sun','Mon','Tue','Wed','Thu','Fri','Sat'], ['ఆది','సోమ','మంగళ','బుధ','గురు','శుక్ర','శని'], ['रवि','सोम','मंगल','बुध','गुरु','शुक्र','शनि']];
   var WD = [['Sunday','ఆదివారం'],['Monday','సోమవారం'],['Tuesday','మంగళవారం'],['Wednesday','బుధవారం'],['Thursday','గురువారం'],['Friday','శుక్రవారం'],['Saturday','శనివారం']];
 
   function loc() {
@@ -293,6 +295,7 @@
       '.fest-cube .dt{position:absolute;top:6px;right:6px;background:#fffaf0;color:#3a1a06;border-radius:7px;padding:2px 5px;' +
       'text-align:center;font:700 .82rem/1.05 -apple-system,system-ui,sans-serif;min-width:26px}' +
       '.fest-cube .dt small{display:block;font-size:.6rem;font-weight:600;opacity:.75}' +
+      '.fest-cube .dt small.wd{font-size:.58rem;font-weight:700;opacity:.9;text-transform:uppercase;letter-spacing:.03em}' +
       '.fest-cube .nm{font-family:"Crimson Text",Georgia,serif;font-weight:700;font-size:.92rem;line-height:1.1;text-align:center;' +
       'text-shadow:0 1px 4px rgba(0,0,0,.4);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}' +
       '.fest-cube .te{font-size:.7rem;opacity:.9;margin-top:2px;font-family:"Noto Sans Telugu",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}' +
@@ -325,7 +328,7 @@
     var f = byId[it.id], a = parts(it.date), lg = lang();
     var H = FEST_HI[f.id], nm = lg === 'te' ? f.te : lg === 'hi' && H ? H[0] : f.en;
     return '<div class="fest-cube' + (it.date === todayIso ? ' today' : '') + '" style="background:linear-gradient(160deg,' + f.g + ')" onclick="openFestival(\'' + it.id + '\',\'' + it.date + '\')">' +
-      '<div class="dt">' + (it.date === todayIso ? (lg === 'te' ? 'నేడు' : lg === 'hi' ? 'आज' : 'Today') : a[2] + '<small>' + (lg === 'te' ? MON_TE[a[1] - 1] : lg === 'hi' ? MON_HI[a[1] - 1] : MON[a[1] - 1]) + '</small>') + '</div>' +
+      '<div class="dt">' + (it.date === todayIso ? (lg === 'te' ? 'నేడు' : lg === 'hi' ? 'आज' : 'Today') : '<small class="wd">' + WD_SHORT[lg === 'te' ? 1 : lg === 'hi' ? 2 : 0][new Date(+a[0], a[1] - 1, +a[2]).getDay()] + '</small>' + a[2] + '<small>' + (lg === 'te' ? MON_TE[a[1] - 1] : lg === 'hi' ? MON_HI[a[1] - 1] : MON[a[1] - 1]) + '</small>') + '</div>' +
       '<div class="ic">' + f.icon + '</div><div class="nm">' + nm + '</div>' +
       (lg === 'both' ? '<div class="te">' + f.te + '</div>' : '') + '</div>';
   }
