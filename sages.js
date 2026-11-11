@@ -27,7 +27,7 @@
     ['kapila', 'Kapila', 'కపిలుడు', 'Founder of Sāṅkhya', 'సాంఖ్య దర్శన కర్త', '🕉️', 'linear-gradient(160deg,#3a1a0a,#c06a2a)'],
     ['jamadagni', 'Jamadagni & Paraśurāma', 'జమదగ్ని, పరశురాముడు', 'Father and son of the axe', 'పరశువు పట్టిన తండ్రీ కొడుకులు', '🪓', 'linear-gradient(160deg,#3a0a1a,#b02a5a)'],
     ['yajnavalkya', 'Yājñavalkya', 'యాజ్ఞవల్క్యుడు', 'Seer of the Śukla Yajurveda', 'శుక్ల యజుర్వేద ద్రష్ట', '☀️', 'linear-gradient(160deg,#4a2a06,#e0a020)'],
-    ['angiras', 'Aṅgirasa', 'ఆంగీరసుడు', 'With Aamahaiya and Orukshaya', 'ఆమహయ్య, ఔరుక్షయలతో', '🔥', 'linear-gradient(160deg,#3a1a06,#e0802a)'],
+    ['angiras', 'Aṅgirasa', 'ఆంగీరసుడు', 'With Aamyahavya and Orukshaya', 'ఆమ్యహవ్య, ఔరుక్షయలతో', '🔥', 'linear-gradient(160deg,#3a1a06,#e0802a)'],
     ['kashyapa', 'Kaśyapa', 'కశ్యపుడు', 'Father of all creatures', 'సకల జీవుల తండ్రి', '🐢', 'linear-gradient(160deg,#0a2a1a,#2a8a5a)'],
     ['ashtavakra', 'Aṣṭāvakra', 'అష్టావక్రుడు', 'The boy who won the debate', 'వాదంలో గెలిచిన బాలుడు', '🪷', 'linear-gradient(160deg,#2a1a3a,#8a5ac0)'],
     ['rishyashringa', 'Ṛṣyaśṛṅga', 'ఋష్యశృంగుడు', 'Who brought the rain', 'వర్షం తెచ్చిన ముని', '🦌', 'linear-gradient(160deg,#0a2a3a,#3a8ab0)'],

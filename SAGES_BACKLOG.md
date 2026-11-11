@@ -60,7 +60,7 @@ icon, gradient) — add it at the end of the list.
 - [x] Viśvāmitra (vishvamitra) — 13 chapters — 2026-10-17
 - [x] Vasiṣṭha (vasishtha) — 9 chapters — 2026-10-17
 - [x] Śukrācārya (shukracharya) — 9 chapters — 2026-10-17
-- [x] Angirasa, with Aamahaiya and Orukshaya (angiras) — 11 chapters — 2026-10-17
+- [x] Angirasa, with Aamyahavya and Orukshaya (angiras) — 11 chapters — 2026-10-17
 - [x] Agastya (agastya) — 12 chapters — 2026-10-18
 - [x] Bhṛgu (bhrigu) — 11 chapters — 2026-10-19
 - [x] Nārada (narada) — 12 chapters — 2026-10-20

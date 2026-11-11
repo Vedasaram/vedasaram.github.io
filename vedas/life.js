@@ -214,7 +214,7 @@ window.VEDA_CHAPTERS = (window.VEDA_CHAPTERS || []).concat([
   [
    ["p", "When you go to a temple and the priest offers an archana in your name, he usually asks: “*Gotram?*” — your family line. A *gotra* is a lineage traced back, father to son, to one of the great ṛṣis — {vasishtha|Vasiṣṭha}, {bhrigu|Bhṛgu}, {angiras|Aṅgiras}, Bharadvāja, Kaśyapa, Atri, Viśvāmitra, Agastya and others. Saying your gotra is a way of saying: I am a descendant of a seer of the Veda.", "మీరు గుడికి వెళ్ళినప్పుడు, పూజారి మీ పేరు మీద అర్చన చేస్తూ సాధారణంగా అడుగుతాడు: “*గోత్రం?*” — మీ వంశం. *గోత్రం* అంటే తండ్రి నుండి కొడుకుకు, గొప్ప ఋషులలో ఒకరి వరకు వెనక్కి వెళ్ళే వంశం — {vasishtha|వసిష్ఠుడు}, {bhrigu|భృగువు}, {angiras|అంగిరసుడు}, భరద్వాజుడు, కశ్యపుడు, అత్రి, విశ్వామిత్రుడు, అగస్త్యుడు, ఇతరులు. మీ గోత్రం చెప్పడం అంటే: నేను ఒక వేద ద్రష్ట వంశీయుడిని అని చెప్పడం."],
    ["p", "The *pravara* goes one step further. It names the one, three or (rarely) five most famous ṛṣis of that line. The pravara came from the yajña: when a priest called on Agni, he named the ancestors of the person performing the rite, reminding Agni, “this family has always honoured you.”", "*ప్రవర* ఇంకొక అడుగు ముందుకు వెళ్తుంది. అది ఆ వంశంలోని అతి ప్రసిద్ధ ఒకటి, మూడు లేదా (అరుదుగా) ఐదుగురు ఋషుల పేర్లు చెబుతుంది. ప్రవర యజ్ఞం నుండి వచ్చింది: ఋత్విజుడు అగ్నిని పిలిచినప్పుడు, కర్మ చేసేవాడి పూర్వీకుల పేర్లు చెప్పేవాడు — “ఈ కుటుంబం ఎప్పుడూ నిన్ను గౌరవించింది” అని అగ్నికి గుర్తు చేస్తూ."],
-   ["sglink", "The pravara — Aṅgirasa, Āmahīyava, Aurukṣaya", "ప్రవర — ఆంగీరస, ఆమహీయవ, ఔరుక్షయ", "an-11"]
+   ["sglink", "The pravara — Aṅgirasa, Āmyahavya, Aurukṣaya", "ప్రవర — ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ", "an-11"]
   ],
   [
    ["h", "One Sentence That Says Everything", "అన్నీ చెప్పే ఒకే వాక్యం"],

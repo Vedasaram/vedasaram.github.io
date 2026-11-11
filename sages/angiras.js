@@ -1,4 +1,4 @@
-// Great Sages — Angirasa, with Aamahaiya and Orukshaya. Retold by Hari Pokkuluri.
+// Great Sages — Angirasa, with Aamyahavya and Orukshaya. Retold by Hari Pokkuluri.
 // Told from the Ṛgveda, the Brāhmaṇas, the Muṇḍaka Upaniṣad, the Mahābhārata and the Purāṇas,
 // in fresh original wording. Block format: see the top of ramayana.js and sages.js.
 window.SAGE_PLAN = Object.assign(window.SAGE_PLAN || {}, { angiras: [
@@ -10,15 +10,15 @@ window.SAGE_PLAN = Object.assign(window.SAGE_PLAN || {}, { angiras: [
   ["Nābhānediṣṭha's Thousand Cows", "Aitareya Brāhmaṇa · Ṛgveda"],
   ["King Citraketu's Son", "Bhāgavata Purāṇa, Book 6"],
   ["Śaunaka's Question — the Muṇḍaka Upaniṣad", "Muṇḍaka Upaniṣad · Atharvaveda"],
-  ["Aamahaiya — the Seer of Soma", "Ṛgveda 9.61 · Sāmaveda"],
+  ["Aamyahavya — the Seer of Soma", "Ṛgveda 9.61 · Sāmaveda"],
   ["Orukshaya — the Seer of Agni", "Ṛgveda 10.118"],
-  ["The Pravara — Angirasa · Aamahaiya · Orukshaya", "Śrauta and Gṛhya Sūtras · family tradition"],
+  ["The Pravara — Angirasa · Aamyahavya · Orukshaya", "Śrauta and Gṛhya Sūtras · family tradition"],
   ["The Great Family — Bharadvāja, Garga, Droṇa, Gotama", "Caraka Saṃhitā · Bhāgavata · Mahābhārata · Ṛgveda"]
 ] });
 window.RMY_WHO = Object.assign({
   "angiras": { "av": "🔥", "en": "Angirasa (Aṅgiras)", "te": "ఆంగీరసుడు (అంగిరసుడు)", "d": "One of Brahmā's mind-born sons and one of the first seven sages, born, the Veda says, from glowing embers. Father of Bṛhaspati and ancestor of a great family of Vedic seers.", "dt": "బ్రహ్మ మానస పుత్రులలో ఒకరు, తొలి సప్తర్షులలో ఒకరు. వేదం ప్రకారం నిప్పు కణికల నుండి పుట్టినవాడు. బృహస్పతి తండ్రి, ఎందరో వైదిక ఋషుల వంశానికి మూలపురుషుడు." },
-  "amahiyu": { "av": "🌙", "en": "Aamahaiya (Amahīyu)", "te": "ఆమహయ్య (అమహీయుడు)", "d": "A seer of Aṅgiras' family, to whom Ṛgveda hymn 9.61, to Soma, was revealed. His descendants are called Āmahīyava.", "dt": "అంగిరస వంశపు ఋషి. సోమునికి చెందిన ఋగ్వేద సూక్తం 9.61 ఆయనకు దర్శనమైంది. ఆయన వంశీయులను ఆమహీయవులు అంటారు." },
-  "urukshaya": { "av": "🔥", "en": "Orukshaya (Urukṣaya)", "te": "ఔరుక్షయ (ఉరుక్షయుడు)", "d": "A seer of Aamahaiya's line, to whom Ṛgveda hymn 10.118, to Agni, was revealed. His descendants are called Aurukṣaya.", "dt": "ఆమహయ్య వంశపు ఋషి. అగ్నికి చెందిన ఋగ్వేద సూక్తం 10.118 ఆయనకు దర్శనమైంది. ఆయన వంశీయులను ఔరుక్షయులు అంటారు." },
+  "amahiyu": { "av": "🌙", "en": "Aamyahavya (Amahīyu)", "te": "ఆమ్యహవ్య (అమహీయుడు)", "d": "A seer of Aṅgiras' family, to whom Ṛgveda hymn 9.61, to Soma, was revealed. His descendants are called Āmahīyava.", "dt": "అంగిరస వంశపు ఋషి. సోమునికి చెందిన ఋగ్వేద సూక్తం 9.61 ఆయనకు దర్శనమైంది. ఆయన వంశీయులను ఆమహీయవులు అంటారు." },
+  "urukshaya": { "av": "🔥", "en": "Orukshaya (Urukṣaya)", "te": "ఔరుక్షయ (ఉరుక్షయుడు)", "d": "A seer of Aamyahavya's line, to whom Ṛgveda hymn 10.118, to Agni, was revealed. His descendants are called Aurukṣaya.", "dt": "ఆమ్యహవ్య వంశపు ఋషి. అగ్నికి చెందిన ఋగ్వేద సూక్తం 10.118 ఆయనకు దర్శనమైంది. ఆయన వంశీయులను ఔరుక్షయులు అంటారు." },
   "garga": { "av": "📿", "en": "Garga", "te": "గర్గుడు", "d": "A sage of Bharadvāja's line, family priest of the Yadus, who secretly named Kṛṣṇa and Balarāma in Nanda's cowshed.", "dt": "భరద్వాజ వంశపు ముని, యదువంశ పురోహితుడు. నందుని గోశాలలో రహస్యంగా కృష్ణ బలరాములకు నామకరణం చేశాడు." },
   "drona": { "av": "🏹", "en": "Droṇa", "te": "ద్రోణాచార్యుడు", "d": "Son of the sage Bharadvāja, born from a vessel (droṇa); teacher of archery to the Kauravas and Pāṇḍavas.", "dt": "భరద్వాజ మహర్షి కుమారుడు, ద్రోణం (కలశం) నుండి పుట్టినవాడు; కౌరవ పాండవులకు ధనుర్విద్య గురువు." },
   "gotama": { "av": "🧘", "en": "Gotama Rāhūgaṇa", "te": "గోతమ రాహూగణుడు", "d": "A Ṛgveda seer of the Aṅgiras family, of Rahūgaṇa's line; father of the seers Vāmadeva and Nodhas.", "dt": "అంగిరస వంశపు ఋగ్వేద ద్రష్ట, రహూగణ వంశీయుడు; వామదేవుడు, నోధసుడు అనే ఋషులకు తండ్రి." },
@@ -247,12 +247,12 @@ window.SAGE_CHAPTERS = (window.SAGE_CHAPTERS || []).concat([
 },
 {
  id: "an-9", sage: "angiras", n: 9, order: 1909, date: "2026-10-17",
- title: "Aamahaiya — the Seer of Soma", titleTe: "ఆమహయ్య — సోమ మంత్ర ద్రష్ట",
+ title: "Aamyahavya — the Seer of Soma", titleTe: "ఆమ్యహవ్య — సోమ మంత్ర ద్రష్ట",
  src: "Ṛgveda 9.61 · Sāmaveda",
  who: ["amahiyu", "angiras", "indra"],
  pages: [
   [
-   ["p", "Now we come to two seers who are not famous for stories at all — only for what they saw. In the family of Aṅgiras there was a ṛṣi named Amahīyu. His descendants are called Āmahīyava, and in many Telugu families the name is recited as {amahiyu|Aamahaiya} (ఆమహయ్య).", "ఇప్పుడు కథల వల్ల కాకుండా, తాము దర్శించిన మంత్రాల వల్ల మాత్రమే ప్రసిద్ధులైన ఇద్దరు ఋషుల దగ్గరికి వస్తున్నాం. అంగిరసుని వంశంలో అమహీయుడు అనే ఋషి ఉండేవాడు. ఆయన వంశీయులను ఆమహీయవులు అంటారు; ఎన్నో తెలుగు కుటుంబాలలో ఈ పేరును {amahiyu|ఆమహయ్య} అని పఠిస్తారు."],
+   ["p", "Now we come to two seers who are not famous for stories at all — only for what they saw. In the family of Aṅgiras there was a ṛṣi named Amahīyu. His descendants are called Āmahīyava, and in many Telugu families the name is recited as {amahiyu|Aamyahavya} (ఆమ్యహవ్య).", "ఇప్పుడు కథల వల్ల కాకుండా, తాము దర్శించిన మంత్రాల వల్ల మాత్రమే ప్రసిద్ధులైన ఇద్దరు ఋషుల దగ్గరికి వస్తున్నాం. అంగిరసుని వంశంలో అమహీయుడు అనే ఋషి ఉండేవాడు. ఆయన వంశీయులను ఆమహీయవులు అంటారు; ఎన్నో తెలుగు కుటుంబాలలో ఈ పేరును {amahiyu|ఆమ్యహవ్య} అని పఠిస్తారు."],
    ["p", "Let us be honest from the start: the Purāṇas and the epics tell no stories about Amahīyu. We do not know where he lived, whom he married, or what he did. What we have is what made him a ṛṣi — a hymn of the Ṛgveda that was revealed to him, and that has been chanted, word for word, for thousands of years. In the Vedic tradition, that is the greatest thing a person can leave behind.", "మొదటే నిజాయితీగా చెప్పుకుందాం: పురాణాలు, ఇతిహాసాలు అమహీయుని గురించి కథలు చెప్పవు. ఆయన ఎక్కడ నివసించాడో, ఎవరిని వివాహం చేసుకున్నాడో, ఏమి చేశాడో మనకు తెలియదు. మన దగ్గర ఉన్నది ఆయనను ఋషిని చేసినది — ఆయనకు దర్శనమైన ఒక ఋగ్వేద సూక్తం; వేలాది సంవత్సరాలుగా అక్షరం తప్పకుండా జపించబడుతున్నది. వైదిక సంప్రదాయంలో మనిషి వదిలి వెళ్ళగల గొప్ప వారసత్వం అదే."],
    ["dyk", "👁️", "A ṛṣi is called a mantra-draṣṭā, a “seer of mantras.” The tradition says the hymns were not made up by the ṛṣis; they were seen or heard by them in deep meditation. That is why the Veda is called śruti, “that which was heard.”", "ఋషిని మంత్ర ద్రష్ట — “మంత్రాలను దర్శించినవాడు” — అంటారు. సూక్తాలను ఋషులు కల్పించలేదని, గాఢ ధ్యానంలో వారు వాటిని దర్శించారని లేదా విన్నారని సంప్రదాయం చెబుతుంది. అందుకే వేదాన్ని శ్రుతి — “వినబడినది” — అంటారు."]
   ],
@@ -260,7 +260,7 @@ window.SAGE_CHAPTERS = (window.SAGE_CHAPTERS || []).concat([
    ["h", "Ṛgveda 9.61 — a Hymn to Soma", "ఋగ్వేదం 9.61 — సోమునికి సూక్తం"],
    ["p", "The ninth book of the Ṛgveda is entirely for Soma Pavamāna — Soma “as he is being purified,” the sacred juice pressed and strained through wool for the yajña, and also the divine drink of joy and immortality. Hymn 9.61, seen by Amahīyu of Aṅgiras' family, is a long one — thirty verses.", "ఋగ్వేదపు తొమ్మిదవ మండలం పూర్తిగా సోమ పవమానునికి — “శుద్ధి చేయబడుతున్న” సోమునికి — చెందినది. యజ్ఞం కోసం పిండి, ఉన్ని వడపోతలో వడకట్టే పవిత్ర రసం అది; ఆనందానికీ అమృతత్వానికీ దివ్యపానం కూడా. అంగిరస వంశపు అమహీయుడు దర్శించిన 9.61 సూక్తం పెద్దది — ముప్పై మంత్రాలు."],
    ["p", "In it, the seer asks Soma to flow around and pour down his streams for the gods' feast. He remembers how, in Soma's joy, Indra broke the strongholds of Śambara for King Divodāsa, and helped Turvaśa and Yadu. He sings that Soma's birth is high — born in heaven, received by the earth — and that it brings great protection and great fame. And at the end he asks Soma to purify himself and make the people glorious, to drive away all who hate, and to guard the worshippers with sharp weapons against the slanderer.", "దానిలో ఋషి దేవతల విందు కోసం చుట్టూ ప్రవహించి తన ధారలు కురిపించమని సోముణ్ణి కోరతాడు. సోమానందంలో ఇంద్రుడు దివోదాస మహారాజు కోసం శంబరుని దుర్గాలను ఎలా బద్దలుకొట్టాడో, తుర్వశునికీ యదువుకీ ఎలా సహాయం చేశాడో గుర్తుచేసుకుంటాడు. సోముని జన్మ ఉన్నతమైనదని — స్వర్గంలో పుట్టి భూమి చేత స్వీకరించబడినదని — అది గొప్ప రక్షణనూ గొప్ప కీర్తినీ ఇస్తుందని పాడతాడు. చివరిలో, తనను తాను శుద్ధి చేసుకుని ప్రజలను కీర్తిమంతులను చేయమని, ద్వేషించేవారందరినీ తరిమేయమని, నిందించేవారి నుండి పదునైన ఆయుధాలతో భక్తులను కాపాడమని సోముణ్ణి కోరతాడు."],
-   ["dyk", "🔗", "Turvaśa and Yadu, named in Aamahaiya's hymn, are two of the five peoples descended from King Yayāti's sons — the same names that appear in Śukrācārya's story and in the Battle of the Ten Kings.", "ఆమహయ్య సూక్తంలో పేర్కొన్న తుర్వశుడు, యదువు యయాతి కుమారుల నుండి వచ్చిన ఐదు జాతులలో ఇద్దరు — శుక్రాచార్యుని కథలోనూ, దశరాజ యుద్ధంలోనూ కనిపించే అవే పేర్లు."],
+   ["dyk", "🔗", "Turvaśa and Yadu, named in Aamyahavya's hymn, are two of the five peoples descended from King Yayāti's sons — the same names that appear in Śukrācārya's story and in the Battle of the Ten Kings.", "ఆమ్యహవ్య సూక్తంలో పేర్కొన్న తుర్వశుడు, యదువు యయాతి కుమారుల నుండి వచ్చిన ఐదు జాతులలో ఇద్దరు — శుక్రాచార్యుని కథలోనూ, దశరాజ యుద్ధంలోనూ కనిపించే అవే పేర్లు."],
    ["sglink", "Read about Yadu and Turvasu in Śukrācārya's life", "శుక్రాచార్యుని జీవితంలో యదు, తుర్వసుల గురించి చదవండి", "sk-5"]
   ],
   [
@@ -271,11 +271,11 @@ window.SAGE_CHAPTERS = (window.SAGE_CHAPTERS || []).concat([
   ]
  ],
  remember: [
-  ["{amahiyu|Aamahaiya} (Amahīyu) was a seer of Aṅgiras' family.", "{amahiyu|ఆమహయ్య} (అమహీయుడు) అంగిరస వంశపు ఋషి."],
+  ["{amahiyu|Aamyahavya} (Amahīyu) was a seer of Aṅgiras' family.", "{amahiyu|ఆమ్యహవ్య} (అమహీయుడు) అంగిరస వంశపు ఋషి."],
   ["He is the seer of Ṛgveda 9.61, a thirty-verse hymn to Soma.", "ఆయన ఋగ్వేదం 9.61 — సోమునికి ముప్పై మంత్రాల సూక్తం — ద్రష్ట."],
   ["Sāmaveda melodies called Āmahīyava carry his name.", "ఆమహీయవ అనే సామవేద గానాలు ఆయన పేరును కలిగి ఉన్నాయి."]
  ],
- think: ["We know almost nothing about Aamahaiya's life — only the hymn he saw. Would you rather be remembered for your story, or for one true thing you gave the world?", "ఆమహయ్య జీవితం గురించి మనకు దాదాపు ఏమీ తెలియదు — ఆయన దర్శించిన సూక్తం తప్ప. మీ కథ కోసం గుర్తుండిపోవాలనుకుంటారా, లేదా లోకానికి మీరు ఇచ్చిన ఒక సత్యమైన వస్తువు కోసమా?"]
+ think: ["We know almost nothing about Aamyahavya's life — only the hymn he saw. Would you rather be remembered for your story, or for one true thing you gave the world?", "ఆమ్యహవ్య జీవితం గురించి మనకు దాదాపు ఏమీ తెలియదు — ఆయన దర్శించిన సూక్తం తప్ప. మీ కథ కోసం గుర్తుండిపోవాలనుకుంటారా, లేదా లోకానికి మీరు ఇచ్చిన ఒక సత్యమైన వస్తువు కోసమా?"]
 },
 {
  id: "an-10", sage: "angiras", n: 10, order: 1910, date: "2026-10-17",
@@ -295,27 +295,27 @@ window.SAGE_CHAPTERS = (window.SAGE_CHAPTERS || []).concat([
   ],
   [
    ["h", "Three Generations of Light", "మూడు తరాల వెలుగు"],
-   ["p", "Put the three together and see the shape of the family. Aṅgiras — born from Agni's embers, the father of the hymn-singers who freed the light from the dark cave. Aamahaiya — his descendant, who sang to Soma, the drink of joy and immortality. Orukshaya — Aamahaiya's descendant, who sang to Agni, the guardian fire that burns away darkness.", "ముగ్గురినీ కలిపి చూస్తే ఆ వంశపు ఆకారం కనిపిస్తుంది. ఆంగీరసుడు — అగ్ని కణికల నుండి పుట్టినవాడు, చీకటి గుహ నుండి వెలుగును విడిపించిన మంత్రగాయకుల తండ్రి. ఆమహయ్య — ఆయన వంశీయుడు, ఆనందానికీ అమృతత్వానికీ పానీయమైన సోముణ్ణి కీర్తించాడు. ఔరుక్షయ — ఆమహయ్య వంశీయుడు, చీకటిని కాల్చేసే రక్షకాగ్నిని కీర్తించాడు."],
+   ["p", "Put the three together and see the shape of the family. Aṅgiras — born from Agni's embers, the father of the hymn-singers who freed the light from the dark cave. Aamyahavya — his descendant, who sang to Soma, the drink of joy and immortality. Orukshaya — Aamyahavya's descendant, who sang to Agni, the guardian fire that burns away darkness.", "ముగ్గురినీ కలిపి చూస్తే ఆ వంశపు ఆకారం కనిపిస్తుంది. ఆంగీరసుడు — అగ్ని కణికల నుండి పుట్టినవాడు, చీకటి గుహ నుండి వెలుగును విడిపించిన మంత్రగాయకుల తండ్రి. ఆమ్యహవ్య — ఆయన వంశీయుడు, ఆనందానికీ అమృతత్వానికీ పానీయమైన సోముణ్ణి కీర్తించాడు. ఔరుక్షయ — ఆమ్యహవ్య వంశీయుడు, చీకటిని కాల్చేసే రక్షకాగ్నిని కీర్తించాడు."],
    ["p", "Fire, Soma, fire again. Light from the beginning to the end. And these are the three names that are recited together, to this day, as a pravara — the subject of the last chapter.", "అగ్ని, సోముడు, మళ్ళీ అగ్ని. ఆది నుండి అంతం వరకు వెలుగు. ఈ మూడు పేర్లనే ఈ రోజుకీ కలిపి ప్రవరగా పఠిస్తారు — అదే చివరి అధ్యాయం."],
    ["src", "Ṛgveda 10.118 (ṛṣi: Urukṣaya Āmahīyava, according to the Ṛgveda Anukramaṇī; deity: Agni Rakṣohan; 9 verses). No narrative about Urukṣaya is found in the Purāṇas or epics.", "ఋగ్వేదం 10.118 (ఋషి: ఋగ్వేద అనుక్రమణి ప్రకారం ఉరుక్షయ ఆమహీయవుడు; దేవత: అగ్ని రక్షోహన్; 9 మంత్రాలు). ఉరుక్షయుని గురించి పురాణాలలో, ఇతిహాసాలలో కథ లేదు."]
   ]
  ],
  remember: [
-  ["{urukshaya|Orukshaya} (Urukṣaya Āmahīyava) was a seer of Aamahaiya's line.", "{urukshaya|ఔరుక్షయ} (ఉరుక్షయ ఆమహీయవుడు) ఆమహయ్య వంశపు ఋషి."],
+  ["{urukshaya|Orukshaya} (Urukṣaya Āmahīyava) was a seer of Aamyahavya's line.", "{urukshaya|ఔరుక్షయ} (ఉరుక్షయ ఆమహీయవుడు) ఆమ్యహవ్య వంశపు ఋషి."],
   ["He is the seer of Ṛgveda 10.118, nine verses to Agni the protector.", "ఆయన ఋగ్వేదం 10.118 — రక్షకుడైన అగ్నికి తొమ్మిది మంత్రాలు — ద్రష్ట."],
   ["His name, “wide dwelling,” shines inside his own hymn.", "“విశాల నివాసం” అనే ఆయన పేరు ఆయన సూక్తంలోనే ప్రకాశిస్తుంది."]
  ],
- think: ["Aṅgiras, Aamahaiya and Orukshaya all sang of light — fire and Soma. What “light” would you like to carry forward from your own family?", "ఆంగీరస, ఆమహయ్య, ఔరుక్షయ ముగ్గురూ వెలుగును — అగ్నినీ సోమునీ — కీర్తించారు. మీ కుటుంబం నుండి మీరు ఏ “వెలుగు”ను ముందుకు తీసుకెళ్ళాలనుకుంటున్నారు?"]
+ think: ["Aṅgiras, Aamyahavya and Orukshaya all sang of light — fire and Soma. What “light” would you like to carry forward from your own family?", "ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ ముగ్గురూ వెలుగును — అగ్నినీ సోమునీ — కీర్తించారు. మీ కుటుంబం నుండి మీరు ఏ “వెలుగు”ను ముందుకు తీసుకెళ్ళాలనుకుంటున్నారు?"]
 },
 {
  id: "an-11", sage: "angiras", n: 11, order: 1911, date: "2026-10-17",
- title: "The Pravara — Angirasa · Aamahaiya · Orukshaya", titleTe: "ప్రవర — ఆంగీరస · ఆమహయ్య · ఔరుక్షయ",
+ title: "The Pravara — Angirasa · Aamyahavya · Orukshaya", titleTe: "ప్రవర — ఆంగీరస · ఆమ్యహవ్య · ఔరుక్షయ",
  src: "Śrauta and Gṛhya Sūtras · family tradition",
  who: ["angiras", "amahiyu", "urukshaya", "agni"],
  pages: [
   [
    ["p", "Every family in the Vedic tradition belongs to a gotra — a line traced back to a great ṛṣi. And with the gotra comes a pravara: a short list of the most distinguished ṛṣis among one's ancestors, usually three, sometimes one, two or five. When a person says the pravara, they are saying, in effect: “These are the seers from whom I come.”", "వైదిక సంప్రదాయంలోని ప్రతి కుటుంబమూ ఒక గోత్రానికి చెందుతుంది — ఒక మహర్షి వరకు గుర్తించే వంశం. గోత్రంతో పాటు ప్రవర వస్తుంది: పూర్వీకులలో అత్యంత విశిష్టులైన ఋషుల చిన్న జాబితా — సాధారణంగా ముగ్గురు, కొన్నిసార్లు ఒకరు, ఇద్దరు లేదా ఐదుగురు. ప్రవర చెప్పినప్పుడు, సారాంశంలో ఇలా చెబుతున్నారు: “నేను ఈ ఋషుల నుండి వచ్చాను.”"],
-   ["p", "The three names of this pravara are each a family form. Āṅgirasa means “of Aṅgiras' line.” Āmahīyava means “of Amahīyu's line.” Aurukṣaya means “of Urukṣaya's line.” Families recite them in the familiar spoken way: Angirasa, Aamahaiya, Orukshaya — ఆంగీరస, ఆమహయ్య, ఔరుక్షయ. A pravara of three is called trayārṣeya, “of three ṛṣis.”", "ఈ ప్రవరలోని మూడు పేర్లూ వంశ వాచకాలే. ఆంగీరస అంటే “అంగిరసుని వంశీయుడు.” ఆమహీయవ అంటే “అమహీయుని వంశీయుడు.” ఔరుక్షయ అంటే “ఉరుక్షయుని వంశీయుడు.” కుటుంబాలు వీటిని సుపరిచితమైన వాడుక రూపంలో పఠిస్తాయి: ఆంగీరస, ఆమహయ్య, ఔరుక్షయ. ముగ్గురు ఋషుల ప్రవరను త్రయార్షేయం — “మూడు ఋషుల” — అంటారు."]
+   ["p", "The three names of this pravara are each a family form. Āṅgirasa means “of Aṅgiras' line.” Āmahīyava means “of Amahīyu's line.” Aurukṣaya means “of Urukṣaya's line.” Families recite them in the familiar spoken way: Angirasa, Aamyahavya, Orukshaya — ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ. A pravara of three is called trayārṣeya, “of three ṛṣis.”", "ఈ ప్రవరలోని మూడు పేర్లూ వంశ వాచకాలే. ఆంగీరస అంటే “అంగిరసుని వంశీయుడు.” ఆమహీయవ అంటే “అమహీయుని వంశీయుడు.” ఔరుక్షయ అంటే “ఉరుక్షయుని వంశీయుడు.” కుటుంబాలు వీటిని సుపరిచితమైన వాడుక రూపంలో పఠిస్తాయి: ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ. ముగ్గురు ఋషుల ప్రవరను త్రయార్షేయం — “మూడు ఋషుల” — అంటారు."]
   ],
   [
    ["h", "Where the Pravara Came From", "ప్రవర ఎక్కడి నుండి వచ్చింది"],
@@ -325,9 +325,9 @@ window.SAGE_CHAPTERS = (window.SAGE_CHAPTERS || []).concat([
   [
    ["h", "How It Is Said Today", "ఈ రోజు ఎలా చెబుతారు"],
    ["p", "The pravara is said at many moments of life: at the upanayanam, when a boy first learns the Gāyatrī; every day in sandhyāvandana, in the abhivādana, the formal greeting with which one bows to elders and teachers; at weddings; and in rites for the ancestors. In the abhivādana, a person names their pravara, their gotra, the Veda-sūtra they follow, and their own name. For this pravara it takes this shape (fill in the family's own gotra, sūtra, śākhā and name):", "జీవితంలో ఎన్నో సందర్భాలలో ప్రవర చెబుతారు: ఉపనయనంలో — బాలుడు మొదట గాయత్రి నేర్చుకున్నప్పుడు; ప్రతి రోజూ సంధ్యావందనంలోని అభివాదనలో — పెద్దలకూ గురువులకూ నమస్కరించే విధిపూర్వక వందనం; వివాహాలలో; పితృ కర్మలలో. అభివాదనలో మనిషి తన ప్రవర, గోత్రం, అనుసరించే వేద సూత్రం, తన పేరు చెబుతాడు. ఈ ప్రవరకు అది ఈ రూపంలో ఉంటుంది (కుటుంబపు సొంత గోత్రం, సూత్రం, శాఖ, పేరు నింపుకోవాలి):"],
-   ["sloka", ["చతుస్సాగరపర్యంతం గోబ్రాహ్మణేభ్యః శుభం భవతు ।", "ఆంగీరస ఆమహయ్య ఔరుక్షయ త్రయార్షేయ ప్రవరాన్విత", "… గోత్రః … సూత్రః … శాఖాధ్యాయీ … శర్మా అహం భో అభివాదయే ॥"], ["catussāgaraparyantaṃ go-brāhmaṇebhyaḥ śubhaṃ bhavatu |", "āṅgirasa āmahīyava aurukṣaya trayārṣeya pravarānvita", "… gotraḥ … sūtraḥ … śākhādhyāyī … śarmā ahaṃ bho abhivādaye ||"], "“May all be well with the cows and the learned, to the shores of the four oceans. I, of the three-ṛṣi pravara Āṅgirasa, Āmahīyava, Aurukṣaya, of … gotra, following … sūtra, student of the … śākhā, named … Śarmā, offer my respectful greeting.”", "“నాలుగు సముద్రాల తీరాల వరకు గోవులకూ బ్రాహ్మణులకూ శుభం కలుగుగాక. ఆంగీరస, ఆమహయ్య, ఔరుక్షయ అనే త్రయార్షేయ ప్రవర గల, … గోత్రుడు, … సూత్రుడు, … శాఖాధ్యాయి అయిన … శర్మ అనే నేను నమస్కరిస్తున్నాను.”"],
+   ["sloka", ["చతుస్సాగరపర్యంతం గోబ్రాహ్మణేభ్యః శుభం భవతు ।", "ఆంగీరస ఆమ్యహవ్య ఔరుక్షయ త్రయార్షేయ ప్రవరాన్విత", "… గోత్రః … సూత్రః … శాఖాధ్యాయీ … శర్మా అహం భో అభివాదయే ॥"], ["catussāgaraparyantaṃ go-brāhmaṇebhyaḥ śubhaṃ bhavatu |", "āṅgirasa āmyahavya aurukṣaya trayārṣeya pravarānvita", "… gotraḥ … sūtraḥ … śākhādhyāyī … śarmā ahaṃ bho abhivādaye ||"], "“May all be well with the cows and the learned, to the shores of the four oceans. I, of the three-ṛṣi pravara Āṅgirasa, Āmahīyava, Aurukṣaya, of … gotra, following … sūtra, student of the … śākhā, named … Śarmā, offer my respectful greeting.”", "“నాలుగు సముద్రాల తీరాల వరకు గోవులకూ బ్రాహ్మణులకూ శుభం కలుగుగాక. ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ అనే త్రయార్షేయ ప్రవర గల, … గోత్రుడు, … సూత్రుడు, … శాఖాధ్యాయి అయిన … శర్మ అనే నేను నమస్కరిస్తున్నాను.”"],
    ["dyk", "💍", "Families also use the pravara at weddings: by old rule, a bride and groom should not share the same gotra or pravara ṛṣis.", "కుటుంబాలు వివాహాలలో కూడా ప్రవరను ఉపయోగిస్తాయి: పూర్వ నియమం ప్రకారం వధూవరులకు ఒకే గోత్రం గానీ ఒకే ప్రవర ఋషులు గానీ ఉండకూడదు."],
-   ["p", "So whenever these three names are said — Angirasa, Aamahaiya, Orukshaya — a person is connecting themselves, in one breath, to a sage born of fire at the beginning of creation, to a seer who sang to Soma, and to a seer who sang to Agni, and through them to the light those hymns were seen for.", "అంటే ఈ మూడు పేర్లు — ఆంగీరస, ఆమహయ్య, ఔరుక్షయ — చెప్పిన ప్రతిసారీ, మనిషి ఒకే శ్వాసలో సృష్టి ఆరంభంలో అగ్ని నుండి పుట్టిన మహర్షితో, సోముణ్ణి కీర్తించిన ఋషితో, అగ్నిని కీర్తించిన ఋషితో — వారి ద్వారా ఆ మంత్రాలు దర్శించబడిన వెలుగుతో — తనను తాను జోడించుకుంటున్నాడు."],
+   ["p", "So whenever these three names are said — Angirasa, Aamyahavya, Orukshaya — a person is connecting themselves, in one breath, to a sage born of fire at the beginning of creation, to a seer who sang to Soma, and to a seer who sang to Agni, and through them to the light those hymns were seen for.", "అంటే ఈ మూడు పేర్లు — ఆంగీరస, ఆమ్యహవ్య, ఔరుక్షయ — చెప్పిన ప్రతిసారీ, మనిషి ఒకే శ్వాసలో సృష్టి ఆరంభంలో అగ్ని నుండి పుట్టిన మహర్షితో, సోముణ్ణి కీర్తించిన ఋషితో, అగ్నిని కీర్తించిన ఋషితో — వారి ద్వారా ఆ మంత్రాలు దర్శించబడిన వెలుగుతో — తనను తాను జోడించుకుంటున్నాడు."],
    ["src", "Baudhāyana, Āpastamba and Āśvalāyana Śrauta Sūtras (the pravara lists and the calling of Agni); the Gṛhya Sūtras (upanayana and marriage); the abhivādana form as recited in South Indian, including Telugu, family tradition. Spoken forms of the names vary by region and family.", "బౌధాయన, ఆపస్తంబ, ఆశ్వలాయన శ్రౌత సూత్రాలు (ప్రవర జాబితాలు, అగ్ని ఆవాహన); గృహ్య సూత్రాలు (ఉపనయనం, వివాహం); దక్షిణ భారత — తెలుగు సహా — కుటుంబ సంప్రదాయంలో పఠించే అభివాదన రూపం. పేర్ల వాడుక రూపాలు ప్రాంతాన్ని బట్టి, కుటుంబాన్ని బట్టి మారుతాయి."]
   ]
  ],
