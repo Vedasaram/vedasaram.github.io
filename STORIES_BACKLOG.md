@@ -110,11 +110,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Ahalyā's Son Śatānanda Welcomes Rāma (Rāmāyaṇa) — shatananda-welcomes-rama
 - [x] Kṛpa and Kṛpī, the Twins Found in the Grass (Mahābhārata) — kripa-and-kripi-the-twins
 - [x] Bharadvāja's Feast for Bharata's Army (Rāmāyaṇa) — bharadvajas-feast-for-bharata
+- [x] Vidura, Born to Be Wise (Mahābhārata) — vidura-born-to-be-wise
+- [x] Sugrīva Forgets His Promise (Rāmāyaṇa) — sugriva-forgets-his-promise
+- [x] Uttaṅka and the Queen's Earrings (Mahābhārata) — uttanka-and-the-queens-earrings
 
 ## Next
-- [ ] Vidura, Born to Be Wise (Mahābhārata) — Vidura, Vyāsa
-- [ ] Sugrīva Forgets His Promise (Rāmāyaṇa) — Sugrīva, Lakṣmaṇa, Tārā
-- [ ] Uttaṅka and the Queen's Earrings (Mahābhārata) — Uttaṅka
 - [ ] Hanumān Finds Sītā's Jewels (Rāmāyaṇa) — Hanumān, Sugrīva, Rāma
 - [ ] Sāvitrī and Satyavān (Mahābhārata) — Sāvitrī, Satyavān, Yama
 - [ ] Rāvaṇa Lifts Mount Kailāsa (Rāmāyaṇa) — Rāvaṇa, Śiva
