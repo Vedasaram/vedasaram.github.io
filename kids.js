@@ -346,7 +346,7 @@
   const newStories = () => (window.KIDS_STORIES || []).filter(isNewStory).length;
 
   // ═════════════ HUB ═════════════
-  // Hindi mode: chrome in Hindi; story text stays English until the Hindi text is ready
+  // Hindi mode: chrome in Hindi; story text in Hindi when its Hindi is ready (hi/hi.js puts it in the te field), else English
   const KHI = () => typeof settings !== 'undefined' && settings.language === 'hi';
   const K = (en, hi) => KHI() ? hi : en;
   window.renderKids = function () {
@@ -708,7 +708,7 @@
           `<button class="${charFilter === c ? 'on' : ''}" onclick="kzChar('${c.replace(/'/g, "\\'")}')">${c} <small>${counts[c]}</small></button>`).join('')}</div>
         <p class="kz-count">${KHI() ? `${list.length} कहानियाँ${charFilter ? ` — ${charFilter}` : ''}` : `${list.length} ${list.length === 1 ? 'story' : 'stories'}${charFilter ? ` about ${charFilter}` : ''}`}</p>
         ${list.map(x => `<button class="kz-story" onclick="openStories('${x.id}')">${kidsScene(x.cover || x.pages[0].scene)}
-          <div class="meta"><h3>${esc(x.title.en)}${isNewStory(x) ? '<span class="kz-badge">NEW</span>' : ''}${KHI() ? '' : `<span class="te">${x.title.te}</span>`}</h3>
+          <div class="meta"><h3>${KHI() ? esc(x.title.te) : esc(x.title.en)}${isNewStory(x) ? '<span class="kz-badge">NEW</span>' : ''}${KHI() ? '' : `<span class="te">${x.title.te}</span>`}</h3>
           <p>${KHI() ? `${x.epic === 'Ramayana' ? 'रामायण' : 'महाभारत'} · ${x.pages.length} पृष्ठ${prog.read[x.id] ? ' · पढ़ ली ✓' : ''}` : `${x.epic === 'Ramayana' ? 'Rāmāyaṇa' : 'Mahābhārata'} · ${x.pages.length} pages${prog.read[x.id] ? ' · read ✓' : ''}`}</p>${x.chars ? `<p class="kz-who">${x.chars.join(', ')}</p>` : ''}</div></button>`).join('') || `<p>${K('No stories yet.', 'अभी कोई कहानी नहीं।')}</p>`}
       </div>`;
       const on = el.querySelector('.kz-chars .on');
@@ -718,7 +718,7 @@
     if (curStory !== s.id) { curStory = s.id; page = 0; }
     page = Math.min(page, s.pages.length - 1);
     if (!prog.read[s.id]) { prog.read[s.id] = new Date().toISOString().slice(0, 10); save(prog); }
-    const L = lang() === 'hi' ? 'en' : lang(), P = s.pages[page], last = page === s.pages.length - 1;
+    const L = lang() === 'hi' ? 'te' : lang(), P = s.pages[page], last = page === s.pages.length - 1;
     const text = (en, te) => (L === 'en' ? `<div class="txt">${en}</div>` : L === 'te' ? `<div class="txt te">${te}</div>` : `<div class="txt te">${te}</div><div class="txt">${en}</div>`);
     const idx = all.indexOf(s), next = all[idx + 1];
     el.innerHTML = `<div class="kz kz-reader" id="kz-reader" data-noswipe>
@@ -726,7 +726,7 @@
       <div class="kz-langs">${[['en', 'EN'], ['both', 'Both'], ['te', 'తెలుగు']].map(([k, t]) => `<button class="${L === k ? 'on' : ''}" onclick="setLanguage('${k}');renderStories()">${t}</button>`).join('')}</div></div>
       <div class="scene">${kidsScene(P.scene)}</div>
       <div class="ttl">${L === 'en' ? esc(s.title.en) : s.title.te}${L === 'both' ? ` <span style="font-weight:400;font-size:1rem;color:var(--fg3)">${esc(s.title.en)}</span>` : ''}</div>
-      ${KHI() ? '<div class="pg" style="color:var(--accent)">हिन्दी अनुवाद जल्द आ रहा है — अभी अंग्रेज़ी में</div>' : ''}<div class="pg">${KHI() ? `पृष्ठ ${page + 1} / ${s.pages.length}` : `Page ${page + 1} of ${s.pages.length}`}</div>
+      ${KHI() && !s._hi ? '<div class="pg" style="color:var(--accent)">हिन्दी अनुवाद जल्द आ रहा है — अभी अंग्रेज़ी में</div>' : ''}<div class="pg">${KHI() ? `पृष्ठ ${page + 1} / ${s.pages.length}` : `Page ${page + 1} of ${s.pages.length}`}</div>
       ${text(P.en, P.te)}
       ${last ? `<div class="moral"><b>${KHI() ? 'सीख' : L === 'en' ? 'The lesson' : L === 'te' ? 'నీతి' : 'నీతి · The lesson'}</b>${L !== 'en' ? `<div class="te" style="font-size:1.05rem">${s.moral.te}</div>` : ''}${L !== 'te' ? `<div>${esc(s.moral.en)}</div>` : ''}</div>` : ''}
       <div class="nav">
@@ -775,7 +775,7 @@
     cloud: () => `<g fill="#fff" opacity=".95"><circle cx="-16" cy="-14" r="12"/><circle cx="0" cy="-20" r="15"/><circle cx="17" cy="-13" r="11"/><rect x="-28" y="-14" width="56" height="12" rx="6"/></g>`,
     tree: () => `<rect x="-6" y="-46" width="12" height="46" fill="#7a5230"/><circle cx="0" cy="-62" r="26" fill="#4f9d4f"/><circle cx="-20" cy="-50" r="18" fill="#5aab58"/><circle cx="20" cy="-50" r="18" fill="#5aab58"/>`,
     palm: () => `<path d="M-3 0 Q4 -40 0 -80 L6 -80 Q10 -40 5 0Z" fill="#8a6a3a"/><g fill="#4f9d4f">${[-60, -20, 20, 60, 100, 140].map(a => `<ellipse cx="0" cy="-80" rx="34" ry="7" transform="rotate(${a} 0 -80) translate(26 0)"/>`).join('')}</g>`,
-    stones: () => `<g><ellipse cx="-22" cy="-10" rx="22" ry="11" fill="#9a9a9a"/><ellipse cx="18" cy="-12" rx="24" ry="12" fill="#8a8a8a"/><ellipse cx="-2" cy="-26" rx="20" ry="10" fill="#a8a8a8"/></g><g fill="#7a2a1a" font-size="8" font-family="Noto Sans Telugu,sans-serif" text-anchor="middle"><text x="-22" y="-7">శ్రీరామ</text><text x="18" y="-9">శ్రీరామ</text><text x="-2" y="-23">శ్రీరామ</text></g>`,
+    stones: () => `<g><ellipse cx="-22" cy="-10" rx="22" ry="11" fill="#9a9a9a"/><ellipse cx="18" cy="-12" rx="24" ry="12" fill="#8a8a8a"/><ellipse cx="-2" cy="-26" rx="20" ry="10" fill="#a8a8a8"/></g><g fill="#7a2a1a" font-size="8" font-family="Noto Sans Telugu,sans-serif" text-anchor="middle">${[[-22, -7], [18, -9], [-2, -23]].map(([x, y]) => `<text x="${x}" y="${y}">${KHI() ? 'श्रीराम' : 'శ్రీరామ'}</text>`).join('')}</g>`,
     rock: () => `<path d="M-30 0 Q-28 -26 -6 -30 Q20 -34 30 -10 L32 0Z" fill="#8a8a8a"/><path d="M-10 -26 Q4 -30 14 -24" stroke="#b0b0b0" stroke-width="3" fill="none"/>`,
     squirrel: () => `<path d="M10 -6 Q40 -10 34 -40 Q30 -58 16 -50 Q28 -40 18 -24Z" fill="#a8723a"/><ellipse cx="-2" cy="-12" rx="16" ry="11" fill="#b8823f"/><circle cx="-16" cy="-22" r="8" fill="#b8823f"/><circle cx="-19" cy="-24" r="1.6" fill="#222"/><path d="M-14 -29 l2 -5 l3 5Z" fill="#a8723a"/><g stroke="#f4e2c0" stroke-width="1.6"><path d="M-8 -20 Q0 -23 8 -18"/><path d="M-8 -16 Q0 -19 9 -14"/><path d="M-8 -12 Q0 -15 9 -10"/></g>`,
     monkey: (o = {}) => `<g fill="${o.color || '#9a6a3a'}"><path d="M14 -18 Q34 -24 30 -48" stroke="${o.color || '#9a6a3a'}" stroke-width="4" fill="none"/><ellipse cx="0" cy="-20" rx="14" ry="18"/><circle cx="0" cy="-46" r="12"/><circle cx="-12" cy="-48" r="5"/><circle cx="12" cy="-48" r="5"/></g><ellipse cx="0" cy="-43" rx="8" ry="7" fill="#e8c49a"/><circle cx="-3" cy="-46" r="1.4" fill="#222"/><circle cx="3" cy="-46" r="1.4" fill="#222"/>${o.stone ? '<ellipse cx="0" cy="-66" rx="16" ry="8" fill="#9a9a9a"/>' : ''}`,

@@ -31,7 +31,7 @@
   let S = { done: {}, pos: {}, opened: {}, last: '', mode: '', fs: 1 };
   try { Object.assign(S, JSON.parse(localStorage.getItem('vedic_rmy') || '{}')); } catch (e) {}
   // Language follows the app-wide setting (Home / Settings), so both always agree
-  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return l === 'hi' ? 'en' : ['en', 'te', 'both'].includes(l) ? l : 'both'; };   // Hindi: English until the Hindi text is ready
+  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return l === 'hi' ? 'te' : ['en', 'te', 'both'].includes(l) ? l : 'both'; };   // Hindi: the Telugu column holds the Hindi (or English) text — see hi/hi.js
   const save = () => { try { localStorage.setItem('vedic_rmy', JSON.stringify(S)); } catch (e) {} };
 
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');

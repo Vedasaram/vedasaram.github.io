@@ -1287,10 +1287,8 @@ body.hs-lock { overflow: hidden; }
 #view-panch .share{display:block;width:100%;margin-top:22px;padding:14px;border:none;border-radius:14px;background:var(--accent);color:var(--bg);font-weight:700;font-size:1rem;cursor:pointer}
 #view-panch .foot{font-size:.74rem;color:var(--fg3);text-align:center;margin-top:12px;line-height:1.5}
 
-/* Hindi mode: the books are shown in English until their Hindi text is ready, so hide their Telugu lines */
-html[lang=hi] .rmy .te:not(button), html[lang=hi] .rmy .h1te, html[lang=hi] .rmy .kte, html[lang=hi] .rmy .optitle-te, html[lang=hi] .rmy .tt,
-html[lang=hi] .rmy .para-te, html[lang=hi] .rmy .sk-te, html[lang=hi] .rmy-poster-te, html[lang=hi] .rmy-poster-byte, html[lang=hi] .rmy-sheet .te { display: none !important; }
-html[lang=hi] .rmy:not(.rmy-read)::before { content: 'हिन्दी अनुवाद जल्द आ रहा है — तब तक कथा अंग्रेज़ी में पढ़ें'; display: block; margin: 10px 16px 0; padding: 8px 12px; border-radius: 10px; background: var(--card-bg, #fff8ec); border: 1px solid var(--border, #e8d9c0); color: var(--accent, #a0400c); font-size: .85rem; text-align: center; }
+/* Hindi mode: the books show Hindi (or English, for chapters whose Hindi is not ready) in their Telugu column (hi/hi.js); the reader's own language buttons are hidden */
+html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !important; }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600&display=swap">
@@ -6746,6 +6744,8 @@ function openPanch() {
 }
 </script>
 <script src="audio/index.js"></script>
+<script src="hi/hi.js"></script><script src="hi/files.js"></script><script src="hi/ui.js"></script>
+<script>if (HI.on()) { (window.HI_FILES || []).forEach(f => document.write('<script src="' + f + '"><\/script>')); HI.loaded = true; }</script>
 <script src="stories.js"></script>
 <script src="kids.js"></script>
 <script src="festivals.js"></script>
@@ -6850,5 +6850,6 @@ function openPanch() {
 <script src="vedas/acharyas.js"></script>
 <script src="vedas.js"></script>
 <script src="bookmarks.js"></script>
+<script>if (HI.on()) HI.apply(); HI.watch();</script>
 </body>
 </html>

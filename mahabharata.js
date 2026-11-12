@@ -45,7 +45,7 @@
 
   let S = { done: {}, pos: {}, opened: {}, last: '', fs: 1 };
   try { Object.assign(S, JSON.parse(localStorage.getItem('vedic_mbh') || '{}')); } catch (e) {}
-  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return l === 'hi' ? 'en' : ['en', 'te', 'both'].includes(l) ? l : 'both'; };   // Hindi: English until the Hindi text is ready
+  const MODE = () => { const l = (typeof settings !== 'undefined' && settings.language) || 'both'; return l === 'hi' ? 'te' : ['en', 'te', 'both'].includes(l) ? l : 'both'; };   // Hindi: the Telugu column holds the Hindi (or English) text — see hi/hi.js
   const save = () => { try { localStorage.setItem('vedic_mbh', JSON.stringify(S)); } catch (e) {} };
 
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
