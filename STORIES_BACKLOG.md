@@ -113,11 +113,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Vidura, Born to Be Wise (Mahābhārata) — vidura-born-to-be-wise
 - [x] Sugrīva Forgets His Promise (Rāmāyaṇa) — sugriva-forgets-his-promise
 - [x] Uttaṅka and the Queen's Earrings (Mahābhārata) — uttanka-and-the-queens-earrings
+- [x] Hanumān Finds Sītā's Jewels (Rāmāyaṇa) — hanuman-finds-sitas-jewels
+- [x] Sāvitrī and Satyavān (Mahābhārata) — savitri-and-satyavan
+- [x] Rāvaṇa Lifts Mount Kailāsa (Rāmāyaṇa) — ravana-lifts-mount-kailasa
 
 ## Next
-- [ ] Hanumān Finds Sītā's Jewels (Rāmāyaṇa) — Hanumān, Sugrīva, Rāma
-- [ ] Sāvitrī and Satyavān (Mahābhārata) — Sāvitrī, Satyavān, Yama
-- [ ] Rāvaṇa Lifts Mount Kailāsa (Rāmāyaṇa) — Rāvaṇa, Śiva
 - [ ] Nala and Damayantī (Mahābhārata) — Nala, Damayantī
 - [ ] Bhagīratha Brings Down the Gaṅgā (Rāmāyaṇa) — Bhagīratha, Gaṅgā, Śiva
 - [ ] Gaṅgā and King Śantanu (Mahābhārata) — Gaṅgā, Śantanu, Bhīṣma
@@ -135,3 +135,33 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [ ] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — Arjuna, the apsarās
 - [ ] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — Sītā, Vālmīki
 - [ ] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — Parīkṣit, Uttarā, Kṛṣṇa
+- [ ] Ṛṣyaśṛṅga, the Boy Who Brought the Rain (Rāmāyaṇa) — Ṛṣyaśṛṅga, Śāntā, Daśaratha
+- [ ] Garuḍa Brings the Nectar (Mahābhārata) — Garuḍa, Vinatā, Kadrū
+- [ ] The Monkeys Raid the Honey Garden (Rāmāyaṇa) — Aṅgada, Hanumān, Dadhimukha, Sugrīva
+- [ ] Āruṇi, the Student Who Became a Dam (Mahābhārata) — Āruṇi, Dhaumya
+- [ ] Triśaṅku's Own Heaven (Rāmāyaṇa) — Triśaṅku, Viśvāmitra
+- [ ] Śakuntalā and Brave Little Bharata (Mahābhārata) — Śakuntalā, Duṣyanta, Bharata
+- [ ] Śunaḥśepa Saved by Viśvāmitra (Rāmāyaṇa) — Śunaḥśepa, Viśvāmitra, Ambarīṣa
+- [ ] Yayāti and Puru's Gift of Youth (Mahābhārata) — Yayāti, Puru, Devayānī
+- [ ] Atri and Anasūyā Bless Sītā (Rāmāyaṇa) — Anasūyā, Atri, Sītā
+- [ ] Kaca and Devayānī — the Secret of Life (Mahābhārata) — Kaca, Devayānī, Śukrācārya
+- [ ] Sutīkṣṇa Waits for Rāma (Rāmāyaṇa) — Sutīkṣṇa, Rāma, Sītā
+- [ ] Pāṇḍu and the Deer-Sage's Curse (Mahābhārata) — Pāṇḍu, Kuntī, Mādrī
+- [ ] Svayamprabhā's Magic Cave (Rāmāyaṇa) — Aṅgada, Hanumān, Svayamprabhā
+- [ ] Gāndhārī's Hundred Sons (Mahābhārata) — Gāndhārī, Vyāsa, Dhṛtarāṣṭra
+- [ ] Maināka, the Mountain Who Rose to Help Hanumān (Rāmāyaṇa) — Hanumān, Maināka, Siṃhikā
+- [ ] Karṇa Arrives at the Tournament (Mahābhārata) — Karṇa, Duryodhana, Arjuna
+- [ ] Saramā Comforts Sītā (Rāmāyaṇa) — Saramā, Sītā, Vibhīṣaṇa
+- [ ] Arjuna, Kṛṣṇa and the Khāṇḍava Forest (Mahābhārata) — Arjuna, Kṛṣṇa, Agni
+- [ ] Vāli Catches Rāvaṇa in His Tail (Rāmāyaṇa) — Vāli, Rāvaṇa
+- [ ] Maya Builds the Magic Hall (Mahābhārata) — Maya, Arjuna, Yudhiṣṭhira
+- [ ] Rāvaṇa Meets King Kārtavīrya Arjuna (Rāmāyaṇa) — Rāvaṇa, Kārtavīrya Arjuna, Pulastya
+- [ ] Subhadrā and Arjuna (Mahābhārata) — Subhadrā, Arjuna, Kṛṣṇa, Balarāma
+- [ ] Śatrughna and the Demon Lavaṇa (Rāmāyaṇa) — Śatrughna, Lavaṇa
+- [ ] Aśvatthāmā and the Cup of Rice-Milk (Mahābhārata) — Aśvatthāmā, Droṇa, Kṛpī
+- [ ] Lava and Kuśa Catch the Royal Horse (Rāmāyaṇa tradition) — Lava, Kuśa, Śatrughna
+- [ ] Nahuṣa the Serpent Questions Yudhiṣṭhira (Mahābhārata) — Nahuṣa, Yudhiṣṭhira, Bhīma
+- [ ] Bharata's Bad Dream (Rāmāyaṇa) — Bharata, Śatrughna
+- [ ] King Śibi and the Dove (Mahābhārata) — Śibi, Agni, Indra
+- [ ] Rāma Promises to Protect the Sages of Daṇḍaka (Rāmāyaṇa) — Rāma, Sītā, Lakṣmaṇa
+- [ ] Agastya Drinks the Ocean (Mahābhārata) — Agastya, Indra

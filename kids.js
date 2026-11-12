@@ -863,6 +863,7 @@
     snake: (o = {}) => { const c = o.color || '#3f8a5a';
       return `<ellipse cx="-4" cy="-6" rx="30" ry="7" fill="${c}"/><ellipse cx="-6" cy="-12" rx="20" ry="6" fill="${c}"/><path d="M10 -14 Q22 -36 8 -56" stroke="${c}" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M10 -16 Q20 -36 8 -54" stroke="#e8d27a" stroke-width="3" fill="none" opacity=".7"/><ellipse cx="8" cy="-64" rx="14" ry="12" fill="${c}"/><ellipse cx="8" cy="-62" rx="6" ry="7" fill="#e8d27a" opacity=".6"/><circle cx="4" cy="-67" r="1.6" fill="#222"/><circle cx="12" cy="-67" r="1.6" fill="#222"/><path d="M8 -54 V-48 M8 -48 l-3 4 M8 -48 l3 4" stroke="#d33" stroke-width="1.2" fill="none"/>`;
     },
+    kailasa: () => `<path d="M-60 0 L-6 -98 L60 0Z" fill="#8a8fa8"/><path d="M-6 -98 L60 0 H30 Z" fill="#7a7f99"/><path d="M-6 -98 L-26 -62 L-14 -66 L-4 -56 L6 -66 L16 -60Z" fill="#fff"/>`,
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };
