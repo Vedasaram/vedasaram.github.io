@@ -31,6 +31,7 @@
     ['krishnadevaraya', 'Kṛṣṇadevarāya', 'శ్రీకృష్ణదేవరాయలు', 'Vijayanagara at its height · poet of Āmuktamālyada', 'విజయనగర వైభవం · ఆముక్తమాల్యద కవి', '🏵️', 'linear-gradient(160deg,#2a0a06,#d0a030)'],
     ['sanga', 'Rāṇā Sāṅgā', 'రాణా సాంగా', 'Saṅgrāma Siṃha · Mewar · Khanwa, 1527', 'సంగ్రామ సింహుడు · మేవాడ్ · ఖాన్వా, 1527', '⚔️', 'linear-gradient(160deg,#2a0606,#c0502a)'],
     ['pratap', 'Pratāp', 'మహారాణా ప్రతాప్', 'Mahārāṇā of Mewar · Haldīghāṭī, 1576', 'మేవాడ్ మహారాణా · హల్దీఘాటీ, 1576', '🐴', 'linear-gradient(160deg,#1a0a02,#b07020)'],
+    ['shivaji', 'Śivājī', 'ఛత్రపతి శివాజీ', 'Chatrapati · founder of the Maratha kingdom', 'ఛత్రపతి · మరాఠా రాజ్య స్థాపకుడు', '🚩', 'linear-gradient(160deg,#2a0a02,#e07a1a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
