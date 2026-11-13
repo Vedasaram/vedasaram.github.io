@@ -34,7 +34,7 @@ for (const f of files) {
 const onDisk = [];
 (function walk(d) { for (const n of fs.readdirSync(path.join(L.root, d))) { const p = d + '/' + n; if (fs.statSync(path.join(L.root, p)).isDirectory()) walk(p); else if (p.endsWith('.js')) onDisk.push(p); } })('hi');
 for (const f of onDisk) {
-  if (!['hi/hi.js', 'hi/files.js', 'hi/ui.js'].includes(f) && !files.includes(f)) errs.push(`${f} is not listed in hi/files.js`);
+  if (!['hi/hi.js', 'hi/files.js', 'hi/ui.js', 'hi/scripture.js'].includes(f) && !files.includes(f)) errs.push(`${f} is not listed in hi/files.js`);
   if (!sw.includes(`'./${f}'`)) errs.push(`sw.js: SHELL is missing './${f}'`);
 }
 if (!index.includes('<script src="hi/hi.js"></script><script src="hi/files.js"></script><script src="hi/ui.js"></script>')) errs.push('index.html: hi/ scripts not loaded');

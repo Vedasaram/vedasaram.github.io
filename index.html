@@ -1295,6 +1295,7 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
 </head>
 <body>
 <script src="splash.js"></script>
+<script src="hi/scripture.js"></script>
 
 <!-- Top bar (hidden on home) -->
 <div id="topbar" style="display:none">
@@ -3859,7 +3860,7 @@ function updateTopbar() {
   }
   if (state.section === 'gita') {
     const m = GITA_META[state.chapter];
-    t.textContent = m ? (SL() === 'te' ? 'అ.' + state.chapter + ' — ' + GITA_TE_CH[state.chapter].name : 'Ch.' + state.chapter + ' — ' + m.yoga) : TT('Bhagavad Gītā', 'భగవద్గీత', 'भगवद्गीता');
+    t.textContent = m ? (HX() ? 'अ.' + state.chapter + ' — ' + SCR_HI.GITA_CH[state.chapter].name : SL() === 'te' ? 'అ.' + state.chapter + ' — ' + GITA_TE_CH[state.chapter].name : 'Ch.' + state.chapter + ' — ' + m.yoga) : TT('Bhagavad Gītā', 'భగవద్గీత', 'भगवद्गीता');
   } else if (state.section === 'rudram') {
     t.textContent = state.rudramPart === 'namakam' ? TT('Namakam', 'నమకం', 'नमकम्') : state.rudramPart === 'chamakam' ? TT('Chamakam', 'చమకం', 'चमकम्') : TT('Śrī Rudram', 'శ్రీ రుద్రం', 'श्री रुद्रम्');
   } else if (coll()) {
@@ -4529,13 +4530,13 @@ function renderDhyanaPractice(el) {
     const isDone = done.has(key);
     const isExpanded = state.expandedVerse === key;
     // Use provided Telugu dhyana text (1-based index)
-    const teLines = DHYANA_TE_DATA[s.n - 1] || [];
+    const teLines = DHYANA_T()[s.n - 1] || [];
     const linesHtml = s.tlines.map((ln,i) => {
-      const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+      const enLine = SX() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
       const rawTeLn = teLines[i] || null;
       const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-      const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-      const br = (i < s.tlines.length-1 && SL() !== 'te') ? '<br>' : '';
+      const teLine = (SX() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+      const br = (i < s.tlines.length-1 && SX() !== 'te') ? '<br>' : '';
       return enLine + teLine + br;
     }).join('');
     html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4556,12 +4557,17 @@ function renderVSNPractice(el) {
     <div class="subtitle te">${TT('Invocation · Dhyānam · 1000 Names · Phalaśruti', 'పూర్వపీఠిక · ధ్యానం · సహస్ర నామాలు · ఫలశ్రుతి', 'आवाहन · ध्यानम् · 1000 नाम · फलश्रुति')}</div>
   </div>
   <div class="chapter-invocation">
-    ${SL() !== 'te' ? `<span class="vline">ōṃ śrī viṣṇave namaḥ</span><br>
-    <span class="vline">harīḥ ōṃ</span>` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">ఓం శ్రీ విష్ణవే నమః</span><span class="vline-te">హరిః ఓం</span>` : ''}
+    ${SX() !== 'te' ? `<span class="vline">ōṃ śrī viṣṇave namaḥ</span><br>
+    <span class="vline">harīḥ ōṃ</span>` : ''}${SX() === 'both' ? '<br>' : ''}${SX() !== 'en' ? `<span class="vline-te">${TX('', 'ఓం శ్రీ విష్ణవే నమః', 'ॐ श्री विष्णवे नमः')}</span><span class="vline-te">${TX('', 'హరిః ఓం', 'हरिः ॐ')}</span>` : ''}
   </div>`;
 
   // Section heading labels
-  const SEC_LABELS = SL() === 'te' ? {
+  const SEC_LABELS = HX() ? {
+    preamble: 'आरंभ',
+    purva: 'पूर्व पीठिका',
+    dhyanam: 'ध्यानम्',
+    phala: 'फलश्रुति',
+  } : SX() === 'te' ? {
     preamble: 'ప్రారంభం',
     purva: 'పూర్వపీఠిక',
     dhyanam: 'ధ్యానం',
@@ -4593,22 +4599,23 @@ function renderVSNPractice(el) {
       const key = `vsn_${sec}_${s.n}`;
       const isDone = done.has(key);
       const isExpanded = state.expandedVerse === key;
-      const speakerLabel = s.speaker ? `<div class="verse-speaker">${esc(s.speaker)}</div>` : '';
-      const teSlokas = VSN_TE_DATA[sec] || [];
+      const teSlokas = VSN_T()[sec] || [];
       // Telugu nāma slokas are all stored with n:1, so match numbered sections by position
       const teSloka = teSlokas.find(x => x.n === s.n) || (isNumbered ? teSlokas[slokas.indexOf(s)] : null);
+      const spk = HX() ? (teSloka && teSloka.speaker) : s.speaker;
+      const speakerLabel = spk ? `<div class="verse-speaker">${esc(spk)}</div>` : '';
       const slokaNumLabel = isNumbered ? `<div class="verse-num">${TT('Śloka', 'శ్లోకం', 'श्लोक')} ${sec}</div>` : '';
       const cleanTe = t => t.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd();
       // Telugu-only: skip verses with no Telugu text, and show every Telugu line of the verse
-      if (SL() === 'te' && !teSloka) continue;
-      const linesHtml = (SL() === 'te')
+      if (SX() === 'te' && !teSloka) continue;
+      const linesHtml = (SX() === 'te')
         ? teSloka.tlines.map(t => `<span class="vline-te">${esc(cleanTe(t))}</span>`).join('')
         : s.tlines.map((ln, i) => {
-        const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+        const enLine = SX() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
         const rawTeLn = (teSloka && teSloka.tlines[i]) ? teSloka.tlines[i] : null;
         const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-        const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-        const br = (i < s.tlines.length - 1 && SL() !== 'te') ? '<br>' : '';
+        const teLine = (SX() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+        const br = (i < s.tlines.length - 1 && SX() !== 'te') ? '<br>' : '';
         return enLine + teLine + br;
       }).join('');
       html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4632,11 +4639,15 @@ function renderHCPractice(el) {
     <div class="subtitle te">${TT('Dōhā · Dhyānam · 40 Chaupāī · Closing Dōhā', 'దోహా · ధ్యానం · 40 చౌపాయీలు · చివరి దోహా', 'दोहा · ध्यानम् · 40 चौपाई · समापन दोहा')}</div>
   </div>
   <div class="chapter-invocation">
-    ${SL() !== 'te' ? `<span class="vline">śrī hanumantē namaḥ</span><br>
-    <span class="vline">jai śrī rāma</span>` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">శ్రీ హనుమతే నమః</span><span class="vline-te">జై శ్రీ రామ</span>` : ''}
+    ${SX() !== 'te' ? `<span class="vline">śrī hanumantē namaḥ</span><br>
+    <span class="vline">jai śrī rāma</span>` : ''}${SX() === 'both' ? '<br>' : ''}${SX() !== 'en' ? `<span class="vline-te">${TX('', 'శ్రీ హనుమతే నమః', 'श्री हनुमते नमः')}</span><span class="vline-te">${TX('', 'జై శ్రీ రామ', 'जय श्री राम')}</span>` : ''}
   </div>`;
 
-  const SEC_LABELS = SL() === 'te' ? {
+  const SEC_LABELS = HX() ? {
+    doha1: 'दोहा — आरंभ',
+    dhyana: 'ध्यानम्',
+    doha2: 'दोहा — समापन',
+  } : SX() === 'te' ? {
     doha1: 'దోహా — ప్రారంభం',
     dhyana: 'ధ్యానం',
     doha2: 'దోహా — ముగింపు',
@@ -4661,15 +4672,15 @@ function renderHCPractice(el) {
       const key = `hc_${sec}_${s.n}`;
       const isDone = done.has(key);
       const isExpanded = state.expandedVerse === key;
-      const teSlokas = HC_TE_DATA[sec] || [];
+      const teSlokas = HC_T()[sec] || [];
       const teSloka = teSlokas.find(x => x.n === s.n);
       const numLabel = isNumbered ? `<div class="verse-num">${TT('Chaupāī', 'చౌపాయీ', 'चौपाई')} ${sec}</div>` : '';
       const linesHtml = s.tlines.map((ln, i) => {
-        const enLine = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+        const enLine = SX() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
         const rawTeLn = (teSloka && teSloka.tlines[i]) ? teSloka.tlines[i] : null;
         const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-        const teLine = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
-        const br = (i < s.tlines.length - 1 && SL() !== 'te') ? '<br>' : '';
+        const teLine = (SX() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+        const br = (i < s.tlines.length - 1 && SX() !== 'te') ? '<br>' : '';
         return enLine + teLine + br;
       }).join('');
       html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
@@ -4705,24 +4716,24 @@ function renderGitaPractice(el) {
     'kṣētrakṣētrajñavibhāgayōgaḥ','guṇatrayavibhāgayōgaḥ','puruṣōttamaprāptiyōgaḥ',
     'daivāsurasampadvibhāgayōgaḥ','śraddhātrayavibhāgayōgaḥ','mokṣasannyāsayōgaḥ'];
   const yogaName = YOGA_NAMES[chNum] || '';
-  const L = SL();
-  const teInv = GITA_TE_CH[chNum];
+  const L = SX();
+  const teInv = GITA_CH_T()[chNum];
   const invEn = `<span class="vline">ōṃ śrī paramātmanē namaḥ</span><br>
     <span class="vline">atha ${ordinal}'dhyāyaḥ</span><br>
     <span class="vline">${yogaName}</span>`;
-  const invTe = teInv ? `<span class="vline-te">ఓం శ్రీ పరమాత్మనే నమః</span>
-    <span class="vline-te">అథ ${teInv.ord}</span>
+  const invTe = teInv ? `<span class="vline-te">${TX('', 'ఓం శ్రీ పరమాత్మనే నమః', 'ॐ श्री परमात्मने नमः')}</span>
+    <span class="vline-te">${TX('', 'అథ ', 'अथ ')}${teInv.ord}</span>
     <span class="vline-te">${teInv.yoga}</span>` : '';
 
   let html = `
   <div class="chapter-nav">
-    <button class="chapter-nav-btn" onclick="navChapter(-1)" ${hasPrev ? '' : 'disabled'}>${L === 'te' ? '← వెనుక' : '← Prev'}</button>
-    <div class="chapter-nav-title">${L === 'te' ? `అధ్యాయం ${chNum} / 18` : `Ch.${chNum} of 18`}</div>
-    <button class="chapter-nav-btn" onclick="navChapter(1)" ${hasNext ? '' : 'disabled'}>${L === 'te' ? 'తరువాత →' : 'Next →'}</button>
+    <button class="chapter-nav-btn" onclick="navChapter(-1)" ${hasPrev ? '' : 'disabled'}>${TX('← Prev', '← వెనుక', '← पिछला')}</button>
+    <div class="chapter-nav-title">${TX(`Ch.${chNum} of 18`, `అధ్యాయం ${chNum} / 18`, `अध्याय ${chNum} / 18`)}</div>
+    <button class="chapter-nav-btn" onclick="navChapter(1)" ${hasNext ? '' : 'disabled'}>${TX('Next →', 'తరువాత →', 'अगला →')}</button>
   </div>
   <div class="chapter-header">
     ${L === 'te' && teInv ? `
-    <div class="chapter-num te">శ్రీమద్భగవద్గీత · ${chNum}వ అధ్యాయము</div>
+    <div class="chapter-num te">${TX('', `శ్రీమద్భగవద్గీత · ${chNum}వ అధ్యాయము`, `श्रीमद्भगवद्गीता · अध्याय ${chNum}`)}</div>
     <h2 class="te">${teInv.name}</h2>
     <div class="subtitle te">${teInv.sub}</div>` : `
     <div class="chapter-num">Bhagavad Gītā · Chapter ${ch}</div>
@@ -4740,14 +4751,14 @@ function renderGitaPractice(el) {
     const isDone = done.has(key);
     const isExpanded = state.expandedVerse === key;
     // Look up provided Telugu verse text first (need speaker from it)
-    const teVerseLines = (GITA_TE_DATA[chNum] && GITA_TE_DATA[chNum][v.n]) ? GITA_TE_DATA[chNum][v.n] : [];
-    const teSpeakers = ["సంజయ ఉవాచ","శ్రీ భగవానువాచ","అర్జున ఉవాచ","ధృతరాష్ట్ర ఉవాచ","భగవానువాచ"];
+    const teVerseLines = (GITA_T()[chNum] && GITA_T()[chNum][v.n]) ? GITA_T()[chNum][v.n] : [];
+    const teSpeakers = GITA_SPEAKERS;
     const teSpkLine = (teVerseLines.length > 0 && teSpeakers.includes(teVerseLines[0])) ? teVerseLines[0] : null;
     const teVLines = teSpkLine ? teVerseLines.slice(1) : teVerseLines;
     let spkHtml = '';
     if (v.spk && v.spk !== prevSpk) {
       const spkNames = { 'arjuna':'Arjuna','bhagavān':'Śrī Bhagavān','sañjaya':'Sañjaya','dhṛtarāṣṭra':'Dhṛtarāṣṭra' };
-      if (SL() === 'te') {
+      if (SX() === 'te') {
         // Telugu mode — show Telugu speaker label if available, else hide
         spkHtml = teSpkLine ? `<span class="spk-tag">${esc(teSpkLine)}</span>` : '';
       } else {
@@ -4759,17 +4770,17 @@ function renderGitaPractice(el) {
     // Render IAST lines and Telugu lines independently (they have different line counts)
     // IAST: 4 half-lines; Telugu: 2 full lines — never pair them 1:1
     let linesHtml = '';
-    if (SL() !== 'te') {
+    if (SX() !== 'te') {
       // Show IAST lines
       linesHtml += v.tlines.map((ln, i) => {
         const br = (i < v.tlines.length - 1) ? '<br>' : '';
         return `<span class="vline">${esc(ln)}</span>${br}`;
       }).join('');
     }
-    if (SL() !== 'en' && teVLines.length > 0) {
+    if (SX() !== 'en' && teVLines.length > 0) {
       // Show Telugu lines as an independent block (not paired with IAST count)
       // Strip embedded ॥N॥ verse markers — render code adds its own verse-num span
-      if (SL() !== 'te' && v.tlines.length > 0) linesHtml += '<br>';
+      if (SX() !== 'te' && v.tlines.length > 0) linesHtml += '<br>';
       linesHtml += teVLines.map((teLn, i) => {
         const cleanLn = teLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd();
         const br = (i < teVLines.length - 1) ? '<br>' : '';
@@ -4832,8 +4843,8 @@ function renderRudramPractice(el) {
     <div class="subtitle te">${isNam ? TT('11 Anuvakas', '11 అనువాకాలు', '11 अनुवाक') : TT('11 Anuvakas · Closing Prayer', '11 అనువాకాలు · ముగింపు ప్రార్థన', '11 अनुवाक · समापन प्रार्थना')}</div>
   </div>
   <div class="chapter-invocation">
-    ${SL() !== 'te' ? `<span class="vline">ōṃ namaḥ śivāya</span>${isNam ? `<br>
-    <span class="vline">ōṃ namas tē rudra manyava</span>` : ''}` : ''}${SL() === 'both' ? '<br>' : ''}${SL() !== 'en' ? `<span class="vline-te">ఓం నమః శివాయ</span>${isNam ? '<span class="vline-te">ఓం నమస్తే రుద్ర మన్యవ</span>' : ''}` : ''}
+    ${SX() !== 'te' ? `<span class="vline">ōṃ namaḥ śivāya</span>${isNam ? `<br>
+    <span class="vline">ōṃ namas tē rudra manyava</span>` : ''}` : ''}${SX() === 'both' ? '<br>' : ''}${SX() !== 'en' ? `<span class="vline-te">${TX('', 'ఓం నమః శివాయ', 'ॐ नमः शिवाय')}</span>${isNam ? `<span class="vline-te">${TX('', 'ఓం నమస్తే రుద్ర మన్యవ', 'ॐ नमस्ते रुद्र मन्यव')}</span>` : ''}` : ''}
   </div>`;
 
   const keys = isNam
@@ -4845,13 +4856,13 @@ function renderRudramPractice(el) {
     if (isNam) {
       const nmBlock = NAMAKAM_DATA[k];
       lines = nmBlock ? nmBlock[0].tlines : (RUDRAM_DATA[k] || []);
-      const teBlock = NAMAKAM_TE_DATA[k];
+      const teBlock = NAM_T()[k];
       teLines = teBlock ? teBlock[0].tlines : null;
-      label = SL() === 'te' ? ('అనువాకం ' + k) : ('Anuvaka ' + k + ' — ' + (RUDRAM_META[k] || '').replace(/^Anuvaka \d+ — /, ''));
+      label = HX() ? ('अनुवाक ' + k) : SX() === 'te' ? ('అనువాకం ' + k) : ('Anuvaka ' + k + ' — ' + (RUDRAM_META[k] || '').replace(/^Anuvaka \d+ — /, ''));
     } else {
       const cmBlock = CHAMAKAM_DATA[k];
       lines = cmBlock ? cmBlock[0].tlines : [];
-      const cmTeBlock = CHAMAKAM_TE_DATA[k];
+      const cmTeBlock = CHAM_T()[k];
       teLines = cmTeBlock ? cmTeBlock[0].tlines : null;
       label = (k === 'closing') ? TT('Closing Prayer', 'ముగింపు ప్రార్థన', 'समापन प्रार्थना') : (TT('Anuvaka ', 'అనువాకం ', 'अनुवाक ') + k);
     }
@@ -4859,10 +4870,10 @@ function renderRudramPractice(el) {
     html += `<div class="chapter-section-hdr" style="margin:16px 0 4px;font-size:0.78rem;font-weight:600;color:var(--accent);opacity:0.65">${label}</div>`;
     html += `<div class="rudram-anuvaka"><div class="rudram-lines">`;
     lines.forEach((ln, i) => {
-      const enPart = SL() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
+      const enPart = SX() !== 'te' ? `<span class="vline">${esc(ln)}</span>` : '';
       const rawTeLn = (teLines && teLines[i]) ? teLines[i] : null;
       const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-      const tePart = (SL() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
+      const tePart = (SX() !== 'en' && teLn) ? `<span class="vline-te">${esc(teLn)}</span>` : '';
       html += enPart + tePart;
     });
     html += `</div></div>`;
@@ -4930,8 +4941,8 @@ function renderIndex() {
       html += `<div class="idx-row${isCurrent ? ' current' : ''}" onclick="goToChapter('gita','${cs}')">
         <div class="idx-row-num">${TT('Ch.' + c, String(c))}</div>
         <div class="idx-row-body">
-          <div class="idx-row-name">${SL() === 'te' ? GITA_TE_CH[cs].name : (meta?.yoga || 'Chapter '+c)}</div>
-          <div class="idx-row-meta">${SL() === 'te' ? GITA_TE_CH[cs].sub + ' · ' + total + ' శ్లోకాలు' : (meta?.subtitle || '') + ' · ' + total + 'v'}</div>
+          <div class="idx-row-name">${HX() ? SCR_HI.GITA_CH[cs].name : SL() === 'te' ? GITA_TE_CH[cs].name : (meta?.yoga || 'Chapter '+c)}</div>
+          <div class="idx-row-meta">${HX() ? SCR_HI.GITA_CH[cs].sub + ' · ' + total + ' श्लोक' : SL() === 'te' ? GITA_TE_CH[cs].sub + ' · ' + total + ' శ్లోకాలు' : (meta?.subtitle || '') + ' · ' + total + 'v'}</div>
           <div class="idx-prog"><div class="idx-prog-fill" style="width:${pct}%"></div></div>
         </div>
         <div class="idx-row-pct">${pct}%</div>
@@ -5032,7 +5043,7 @@ function renderProgress() {
     gitaTotal += total; gitaDone += d;
     const pct = total ? Math.round(d/total*100) : 0;
     html += `<div class="prog-row">
-      <span class="prog-label">${SL() === 'te' ? c + '. ' + GITA_TE_CH[cs].name : 'Ch.' + c + ' ' + (GITA_META[cs]?.subtitle||'')}</span>
+      <span class="prog-label">${HX() ? c + '. ' + SCR_HI.GITA_CH[cs].name : SL() === 'te' ? c + '. ' + GITA_TE_CH[cs].name : 'Ch.' + c + ' ' + (GITA_META[cs]?.subtitle||'')}</span>
       <div class="prog-bar"><div class="prog-fill" style="width:${pct}%"></div></div>
       <span class="prog-pct">${pct}%</span>
     </div>`;
@@ -5099,7 +5110,7 @@ function buildReciteItems() {
   
   if (state.section === 'gita' && state.chapter === 'dhyana') {
     for (const s of DHYANA_DATA) {
-      const teLines = DHYANA_TE_DATA[s.n - 1] || [];
+      const teLines = DHYANA_T()[s.n - 1] || [];
       items.push({
         id: `gita_dhyana_${s.n}`,
         label: TT('Dhyānam · ', 'ధ్యానం · ', 'ध्यानम् · ') + s.n,
@@ -5110,19 +5121,19 @@ function buildReciteItems() {
     }
   } else if (state.section === 'gita') {
     const spkNames = { 'dhṛtarāṣṭra':'Dhṛtarāṣṭra','arjuna':'Arjuna','bhagavān':'Śrī Bhagavān','sañjaya':'Sañjaya' };
-    const teSpeakers = ["సంజయ ఉవాచ","శ్రీ భగవానువాచ","అర్జున ఉవాచ","ధృతరాష్ట్ర ఉవాచ","భగవానువాచ"];
+    const teSpeakers = GITA_SPEAKERS;
     let prevSpk = null;
     const chNum = parseInt(state.chapter);
     const verses = GITA_DATA[state.chapter] || [];
     for (const v of verses) {
       const allLines = [...v.tlines];
       // Attach speaker label only when it changes
-      const rawTe0 = (GITA_TE_DATA[parseInt(state.chapter)] && GITA_TE_DATA[parseInt(state.chapter)][v.n]) || [];
+      const rawTe0 = (GITA_T()[parseInt(state.chapter)] && GITA_T()[parseInt(state.chapter)][v.n]) || [];
       const teSpk0 = (rawTe0.length && teSpeakers.includes(rawTe0[0])) ? rawTe0[0] : null;
-      const spkLabel = (v.spk && v.spk !== prevSpk) ? (SL() === 'te' ? teSpk0 : (spkNames[v.spk] || v.spk) + ' uvāca') : null;
+      const spkLabel = (v.spk && v.spk !== prevSpk) ? (SX() === 'te' ? teSpk0 : (spkNames[v.spk] || v.spk) + ' uvāca') : null;
       if (v.spk) prevSpk = v.spk;
       // Look up Telugu lines; strip speaker line if present
-      const rawTeLines = (GITA_TE_DATA[chNum] && GITA_TE_DATA[chNum][v.n]) ? GITA_TE_DATA[chNum][v.n] : [];
+      const rawTeLines = (GITA_T()[chNum] && GITA_T()[chNum][v.n]) ? GITA_T()[chNum][v.n] : [];
       const teLines = (rawTeLines.length > 0 && teSpeakers.includes(rawTeLines[0])) ? rawTeLines.slice(1) : rawTeLines;
       items.push({
         id: `gita_ch${state.chapter}_v${v.n}`,
@@ -5142,7 +5153,7 @@ function buildReciteItems() {
       const ks = (an === '11') ? ['11', 'closing'] : [an];
       lines = []; teLines = [];
       for (const k of ks) {
-        const b = CHAMAKAM_DATA[k], tb = CHAMAKAM_TE_DATA[k];
+        const b = CHAMAKAM_DATA[k], tb = CHAM_T()[k];
         const l = b ? b[0].tlines : [];
         const tl = tb ? tb[0].tlines : [];
         l.forEach((x, i) => { lines.push(x); teLines.push(tl[i] || ''); });
@@ -5150,7 +5161,7 @@ function buildReciteItems() {
     } else {
       const nmBlock = NAMAKAM_DATA[an];
       lines = nmBlock ? nmBlock[0].tlines : (RUDRAM_DATA[an] || []);
-      const teBlock = NAMAKAM_TE_DATA[an];
+      const teBlock = NAM_T()[an];
       teLines = teBlock ? teBlock[0].tlines : null;
     }
     // Group every 4 lines into a card
@@ -5159,7 +5170,7 @@ function buildReciteItems() {
       const cardTeLines = teLines ? teLines.slice(i, i+4) : [];
       items.push({
         id: `${isCham ? 'chamakam' : 'rudram'}_an${an}_g${Math.floor(i/4)}`,
-        label: SL() === 'te' ? ((isCham ? 'చమకం' : 'నమకం') + ' · అనువాకం ' + an) : isCham ? ('Chamakam · Anuvaka ' + an) : (RUDRAM_META[an] || 'Anuvaka ' + an),
+        label: HX() ? ((isCham ? 'चमकम्' : 'नमकम्') + ' · अनुवाक ' + an) : SL() === 'te' ? ((isCham ? 'చమకం' : 'నమకం') + ' · అనువాకం ' + an) : isCham ? ('Chamakam · Anuvaka ' + an) : (RUDRAM_META[an] || 'Anuvaka ' + an),
         lines: cardLines,
         teLines: cardTeLines,
       });
@@ -5169,8 +5180,8 @@ function buildReciteItems() {
     // Load ALL VSN sections in order as one continuous recite list
     for (const sec of VSN_SECTIONS_ORDER) {
       const slokas = VSN_DATA[sec] || [];
-      const secLabel = SL() === 'te' ? ({preamble:'ప్రారంభం', purva:'పూర్వపీఠిక', dhyanam:'ధ్యానం', phala:'ఫలశ్రుతి'}[sec] || ('శ్లోకం ' + sec)) : (VSN_META[sec] || ('Śloka ' + sec));
-      const teSlokas = VSN_TE_DATA[sec] || [];
+      const secLabel = HX() ? ({preamble:'आरंभ', purva:'पूर्व पीठिका', dhyanam:'ध्यानम्', phala:'फलश्रुति'}[sec] || ('श्लोक ' + sec)) : SL() === 'te' ? ({preamble:'ప్రారంభం', purva:'పూర్వపీఠిక', dhyanam:'ధ్యానం', phala:'ఫలశ్రుతి'}[sec] || ('శ్లోకం ' + sec)) : (VSN_META[sec] || ('Śloka ' + sec));
+      const teSlokas = VSN_T()[sec] || [];
       const secNumbered = !isNaN(parseInt(sec));
       for (const s of slokas) {
         const teSloka = teSlokas.find(x => x.n === s.n) || (secNumbered ? teSlokas[slokas.indexOf(s)] : null);
@@ -5201,8 +5212,8 @@ function buildReciteItems() {
     // Hanuman Chalisa — all sections in order
     for (const sec of HC_SECTIONS_ORDER) {
       const slokas = HC_DATA[sec] || [];
-      const secLabel = SL() === 'te' ? ({doha1:'దోహా · ప్రారంభం', dhyana:'ధ్యానం', doha2:'దోహా · ముగింపు'}[sec] || ('చౌపాయీ ' + sec)) : (HC_META[sec] || sec);
-      const teSlokas = HC_TE_DATA[sec] || [];
+      const secLabel = HX() ? ({doha1:'दोहा · आरंभ', dhyana:'ध्यानम्', doha2:'दोहा · समापन'}[sec] || ('चौपाई ' + sec)) : SL() === 'te' ? ({doha1:'దోహా · ప్రారంభం', dhyana:'ధ్యానం', doha2:'దోహా · ముగింపు'}[sec] || ('చౌపాయీ ' + sec)) : (HC_META[sec] || sec);
+      const teSlokas = HC_T()[sec] || [];
       for (const s of slokas) {
         const teSloka = teSlokas.find(x => x.n === s.n);
         items.push({
@@ -5368,11 +5379,16 @@ function renderRecite() {
   // Speaker tag (shown above lines when speaker changes)
   const linesEl = document.getElementById('recite-lines');
   const spkHtml = item.spk ? `<div class="recite-spk">${esc(item.spk)}</div>` : '';
+  const RL = coll() ? SL() : SX();
+  const clean = t => t.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd();
+  if (RL === 'te' && !item.forceEn && item.teLines && item.teLines.some(Boolean)) {
+    linesEl.innerHTML = spkHtml + item.teLines.filter(Boolean).map(t => `<div class="recite-line-te">${esc(clean(t))}</div>`).join('');
+  } else
   linesEl.innerHTML = spkHtml + item.lines.map((ln, i) => {
-    const enLine = (SL() !== 'te' || item.forceEn) ? `<div class="recite-line">${esc(ln)}</div>` : '';
+    const enLine = (RL !== 'te' || item.forceEn) ? `<div class="recite-line">${esc(ln)}</div>` : '';
     const rawTeLn = item.teLines && item.teLines[i] ? item.teLines[i] : null;
     const teLn = rawTeLn ? rawTeLn.replace(/[॥|]\s*\d+\s*[॥|]\s*$/, '').trimEnd() : null;
-    const teLine = (SL() !== 'en' && teLn) ? `<div class="recite-line-te">${esc(teLn)}</div>` : '';
+    const teLine = (RL !== 'en' && teLn) ? `<div class="recite-line-te">${esc(teLn)}</div>` : '';
     return enLine + teLine;
   }).join('');
   
@@ -5405,6 +5421,20 @@ function te2dev(s) {
 // A Sanskrit name in Telugu script → Devanagari as Hindi readers write it (word-final ం → म्)
 const HI_NAMES = { 'ప్రార్థనలు': 'प्रार्थनाएँ' };
 function hiName(te) { return te && (HI_NAMES[te] || te2dev(String(te).replace(/ం(?=$|[\s,.;:·)\]])/g, 'మ్'))); }
+// Scripture screens in Hindi mode: the Devanagari texts Hari supplied (hi/scripture.js → SCR_HI) take the Telugu
+// column, so they render like Telugu-only mode. SX() is the script mode for those screens, TX() their labels.
+function HX() { return settings.language === 'hi' && !!window.SCR_HI; }
+function SX() { return HX() ? 'te' : SL(); }
+function TX(en, te, hi) { return HX() ? hi : SL() === 'te' ? te : en; }
+function VSN_T() { return HX() ? SCR_HI.VSN : VSN_TE_DATA; }
+function HC_T() { return HX() ? SCR_HI.HC : HC_TE_DATA; }
+function NAM_T() { return HX() ? SCR_HI.NAMAKAM : NAMAKAM_TE_DATA; }
+function CHAM_T() { return HX() ? SCR_HI.CHAMAKAM : CHAMAKAM_TE_DATA; }
+function GITA_T() { return HX() ? SCR_HI.GITA : GITA_TE_DATA; }
+function GITA_CH_T() { return HX() ? SCR_HI.GITA_CH : GITA_TE_CH; }
+function DHYANA_T() { return HX() ? SCR_HI.DHYANA : DHYANA_TE_DATA; }
+// Speaker lines that open a Gītā verse (Telugu and Devanagari)
+const GITA_SPEAKERS = ["సంజయ ఉవాచ","శ్రీ భగవానువాచ","అర్జున ఉవాచ","ధృతరాష్ట్ర ఉవాచ","భగవానువాచ","संजय उवाच","श्री भगवानुवाच","अर्जुन उवाच","धृतराष्ट्र उवाच","भगवानुवाच"];
 window.TT = TT; window.SL = SL; window.te2dev = te2dev; window.hiName = hiName;
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');

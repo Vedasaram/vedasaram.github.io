@@ -4,6 +4,12 @@ Hindi (हिन्दी) for everything in the app **except the scripture text
 Śrī Rudram / Śiva stotrams, Viṣṇu Sahasranāmam, Hanumān Chālīsā, Lalitā, Nṛsiṃha and Rāma stotrams and the
 prayer songs. Never write Hindi for those and never change them.
 
+Hari has since supplied the Devanagari text of Viṣṇu Sahasranāmam, Rudram (Namakam, Chamakam) and Hanumān
+Chālīsā himself; with the Gītā (the app's own Gītā, letter for letter — his Gītā PDF uses the old Sanskrit 99
+font) they are in `hi/scripture.js` (`window.SCR_HI`) and show in Hindi mode via `HX()/SX()/TX()` in index.html.
+That file is his text: the daily run never edits it. The other stotrams and songs stay as they are until he
+sends their Hindi.
+
 Already in Hindi before this file: the app screens, library tiles, Panchāṅgam, festivals (`FEST_HI`) and the
 Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html. This backlog is for the
 **book chapters and kids stories**, which are written in English + Telugu.
