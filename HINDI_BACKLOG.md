@@ -83,59 +83,6 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
    Bump the CACHE version in sw.js by one. Commit "Hindi: <items>" and push.
 
 ## Next
-- [ ] story: kunti-meets-karna-by-the-river
-- [ ] story: the-victory-at-lanka
-- [ ] story: arjuna-chooses-krishna
-- [ ] story: sitas-return-and-the-fire
-- [ ] story: krishnas-song-the-gita
-- [ ] story: the-pushpaka-flight-home
-- [ ] story: barbarika-the-boy-with-three-arrows
-- [ ] story: ramas-coronation
-- [ ] story: abhimanyu-learns-in-the-womb
-- [ ] story: hanuman-opens-his-heart
-- [ ] story: abhimanyu-and-the-chakravyuha
-- [ ] story: lava-and-kusha-sing-the-ramayana
-- [ ] story: bhishma-on-the-bed-of-arrows
-- [ ] story: how-valmiki-became-a-poet
-- [ ] story: ghatotkacha-saves-the-pandavas
-- [ ] story: shravana-kumara-and-dasharatha
-- [ ] story: the-mongoose-with-the-golden-side
-- [ ] story: hanuman-and-kalanemi
-- [ ] story: yudhishthira-and-the-faithful-dog
-- [ ] story: shurpanakha-comes-to-panchavati
-- [ ] story: krishna-and-sudamas-handful-of-rice
-- [ ] story: sumitras-blessing-to-lakshmana
-- [ ] story: shikhandis-story
-- [ ] story: urmilas-long-sleep
-- [ ] story: sahadeva-the-wise-youngest-brother
-- [ ] story: mandodaris-advice
-- [ ] story: nakula-the-most-handsome-pandava
-- [ ] story: taras-wise-words
-- [ ] story: shakuni-and-the-game-of-dice
-- [ ] story: jambavan-the-oldest-bear
-- [ ] story: draupadis-endless-sari
-- [ ] story: nala-and-nila-the-floating-stone-engineers
-- [ ] story: gandharis-blindfold
-- [ ] story: hanuman-and-surasa
-- [ ] story: sanjaya-who-saw-the-war-from-afar
-- [ ] story: sita-is-found-in-the-furrow
-- [ ] story: ashvatthama-and-the-jewel
-- [ ] story: ramas-bridge-is-blessed-rameshvaram
-- [ ] story: ulupi-and-arjunas-journey
-- [ ] story: hanuman-tests-arjunas-arrow-bridge
-- [ ] story: kausalya-waits-for-rama
-- [ ] story: babhruvahana-meets-his-father
-- [ ] story: satyavati-and-vyasas-birth
-- [ ] story: kabandha-the-headless-giant
-- [ ] story: drona-and-his-friend-drupada
-- [ ] story: agastyas-gift-of-weapons
-- [ ] story: bhima-and-the-poisoned-sweets
-- [ ] story: shatananda-welcomes-rama
-- [ ] story: kripa-and-kripi-the-twins
-- [ ] story: bharadvajas-feast-for-bharata
-- [ ] story: vidura-born-to-be-wise
-- [ ] story: sugriva-forgets-his-promise
-- [ ] story: uttanka-and-the-queens-earrings
 - [ ] sages/vishvamitra.js
 - [ ] sages/vasishtha.js
 - [ ] sages/shukracharya.js
@@ -176,6 +123,7 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [ ] sages/valakhilyas.js
 - [ ] sages/parashara.js
 - [ ] sages/mudgala.js
+- [ ] sages/ribhu.js
 - [ ] kings/chandragupta.js
 - [ ] kings/ashoka.js
 - [ ] kings/shatakarni.js
@@ -196,6 +144,7 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [ ] kings/krishnadevaraya.js
 - [ ] kings/sanga.js
 - [ ] kings/pratap.js
+- [ ] kings/shivaji.js
 - [ ] ramayana/bala.js
 - [ ] ramayana/ayodhya.js
 - [ ] ramayana/aranya.js
@@ -285,3 +234,59 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [x] story: indrajit-the-cloud-warrior — 2026-11-12
 - [x] story: viduras-simple-meal-for-krishna — 2026-11-12
 - [x] story: ravanas-ten-heads-and-brahmas-boon — 2026-11-12
+- [x] story: kunti-meets-karna-by-the-river — 2026-11-15
+- [x] story: the-victory-at-lanka — 2026-11-15
+- [x] story: arjuna-chooses-krishna — 2026-11-15
+- [x] story: sitas-return-and-the-fire — 2026-11-15
+- [x] story: krishnas-song-the-gita — 2026-11-15
+- [x] story: the-pushpaka-flight-home — 2026-11-15
+- [x] story: barbarika-the-boy-with-three-arrows — 2026-11-15
+- [x] story: ramas-coronation — 2026-11-15
+- [x] story: abhimanyu-learns-in-the-womb — 2026-11-15
+- [x] story: hanuman-opens-his-heart — 2026-11-15
+- [x] story: abhimanyu-and-the-chakravyuha — 2026-11-15
+- [x] story: lava-and-kusha-sing-the-ramayana — 2026-11-15
+- [x] story: bhishma-on-the-bed-of-arrows — 2026-11-15
+- [x] story: how-valmiki-became-a-poet — 2026-11-15
+- [x] story: ghatotkacha-saves-the-pandavas — 2026-11-15
+- [x] story: shravana-kumara-and-dasharatha — 2026-11-15
+- [x] story: the-mongoose-with-the-golden-side — 2026-11-15
+- [x] story: hanuman-and-kalanemi — 2026-11-15
+- [x] story: yudhishthira-and-the-faithful-dog — 2026-11-15
+- [x] story: shurpanakha-comes-to-panchavati — 2026-11-15
+- [x] story: krishna-and-sudamas-handful-of-rice — 2026-11-15
+- [x] story: sumitras-blessing-to-lakshmana — 2026-11-15
+- [x] story: shikhandis-story — 2026-11-15
+- [x] story: urmilas-long-sleep — 2026-11-15
+- [x] story: sahadeva-the-wise-youngest-brother — 2026-11-15
+- [x] story: mandodaris-advice — 2026-11-15
+- [x] story: nakula-the-most-handsome-pandava — 2026-11-15
+- [x] story: taras-wise-words — 2026-11-15
+- [x] story: shakuni-and-the-game-of-dice — 2026-11-15
+- [x] story: jambavan-the-oldest-bear — 2026-11-15
+- [x] story: draupadis-endless-sari — 2026-11-15
+- [x] story: nala-and-nila-the-floating-stone-engineers — 2026-11-15
+- [x] story: gandharis-blindfold — 2026-11-15
+- [x] story: hanuman-and-surasa — 2026-11-15
+- [x] story: sanjaya-who-saw-the-war-from-afar — 2026-11-15
+- [x] story: sita-is-found-in-the-furrow — 2026-11-15
+- [x] story: ashvatthama-and-the-jewel — 2026-11-15
+- [x] story: ramas-bridge-is-blessed-rameshvaram — 2026-11-15
+- [x] story: ulupi-and-arjunas-journey — 2026-11-15
+- [x] story: hanuman-tests-arjunas-arrow-bridge — 2026-11-15
+- [x] story: kausalya-waits-for-rama — 2026-11-15
+- [x] story: babhruvahana-meets-his-father — 2026-11-15
+- [x] story: satyavati-and-vyasas-birth — 2026-11-15
+- [x] story: kabandha-the-headless-giant — 2026-11-15
+- [x] story: drona-and-his-friend-drupada — 2026-11-15
+- [x] story: agastyas-gift-of-weapons — 2026-11-15
+- [x] story: bhima-and-the-poisoned-sweets — 2026-11-15
+- [x] story: shatananda-welcomes-rama — 2026-11-15
+- [x] story: kripa-and-kripi-the-twins — 2026-11-15
+- [x] story: bharadvajas-feast-for-bharata — 2026-11-15
+- [x] story: vidura-born-to-be-wise — 2026-11-15
+- [x] story: sugriva-forgets-his-promise — 2026-11-15
+- [x] story: uttanka-and-the-queens-earrings — 2026-11-15
+- [x] story: hanuman-finds-sitas-jewels — 2026-11-15
+- [x] story: savitri-and-satyavan — 2026-11-15
+- [x] story: ravana-lifts-mount-kailasa — 2026-11-15
