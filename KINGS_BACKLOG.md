@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Rāṇā Kumbhā (kumbha) — Mewar's builder-king; Kumbhalgarh and the Vijaya Stambha at Chittor; wars with Malwa and Gujarat; the scholar of music (Saṅgītarāja); his death at his son's hand
 - [ ] Ahilyābāī Holkar (ahilya) — widowed young; ruling Malwa from Maheshwar; temple rebuilding across India (Kāśī Viśvanāth, 1780); justice and trade; John Malcolm's account
 - [ ] Amoghavarṣa I (amoghavarsha) — Rāṣṭrakūṭa boy-king; Mānyakheṭa; Kavirājamārga; Jain faith and Praśnottara Ratnamālikā; Arab travellers' praise
 - [ ] Mihira Bhoja (mihirabhoja) — Gurjara-Pratīhāra of Kanauj; Gwalior inscription; the Arab traveller Sulaymān; wars with Pālas and Rāṣṭrakūṭas
@@ -86,3 +85,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Rāṇā Sāṅgā (sanga) — 9 chapters — 2026-11-10
 - [x] Mahārāṇā Pratāp (pratap) — 8 chapters — 2026-11-11
 - [x] Chatrapati Śivājī (shivaji) — 9 chapters — 2026-11-12
+- [x] Rāṇā Kumbhā (kumbha) — 9 chapters — 2026-11-15
