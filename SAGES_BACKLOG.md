@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Vāmadeva (vamadeva) — seer of the fourth maṇḍala of the Ṛgveda, who knew the Self while still in the womb; the Vāmadeva of the Aitareya and Bṛhadāraṇyaka Upaniṣads (Ṛgveda 4, Aitareya Upaniṣad, Bṛhadāraṇyaka 1.4).
 - [ ] Raikva (raikva) — the man with the cart in the Chāndogya, sought out by King Jānaśruti after two swans spoke of him; he turned away gifts until the king came humbly (Chāndogya Upaniṣad 4.1–4.3).
 - [ ] Saubhari (saubhari) — the sage who did tapas under the Yamunā, envied a king-fish with its family, married all fifty daughters of Māndhātā, and at last turned back to renunciation (Viṣṇu Purāṇa 4; Bhāgavata 9; Ṛgveda 8 seer).
 - [ ] Dīrghatamas (dirghatamas) — the seer born blind, cast adrift on the river by his own sons, rescued by King Bali; father of Aṅga, Vaṅga and the eastern kings; seer of the Asya Vāmīya hymn “the One the wise call by many names” (Ṛgveda 1.140–164; MBh Ādi; Purāṇas).
@@ -97,3 +96,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Parāśara (parashara) — 12 chapters — 2026-11-10
 - [x] Mudgala (mudgala) — 9 chapters — 2026-11-11
 - [x] Ṛbhu and Nidāgha (ribhu) — 9 chapters — 2026-11-12
+- [x] Vāmadeva (vamadeva) — 10 chapters — 2026-11-15
