@@ -2796,4 +2796,87 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'nala-and-damayanti',
+    added: '2026-11-15',
+    epic: 'Mahabharata',
+    chars: ['Nala', 'Damayantī', 'Kali', 'Ṛtuparṇa'],
+    title: { en: 'Nala and Damayantī', te: 'నలుడు, దమయంతి' },
+    moral: { en: 'True love and patience can find their way through the darkest forest.', te: 'నిజమైన ప్రేమ, ఓర్పు ఉంటే ఎంత చీకటి అడవిలోనైనా దారి దొరుకుతుంది.' },
+    cover: { bg: 'palace', props: [['person', 150, 198, 1.5, { cloth: '#3a6ab0', crown: true }], ['person', 250, 198, 1.45, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040' }], ['bird', 200, 80, 1.4, { color: '#f0d060' }]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 130, 198, 1.5, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040', raise: true }], ['bird', 200, 150, 1.5, { color: '#f0d060' }], ['flowers', 300, 198, 1.1], ['lotus', 60, 205, 0.9]] },
+        en: 'Long ago, Nala, the king of Niṣadha, was handsome, kind and the finest charioteer in the land. One day in his garden he caught a swan with golden wings. "Please let me go," said the swan, "and I will help you." Nala opened his hands. The swan flew far away to the kingdom of Vidarbha, where lived the princess Damayantī, the loveliest and wisest girl in the world. "There is a king named Nala," the swan told her, "as good as he is brave. You two are made for each other." Then it flew back and told Nala all about Damayantī. Without ever meeting, the two began to love each other.',
+        te: 'చాలా కాలం క్రితం నిషధ దేశాన్ని నలుడు అనే రాజు పాలించేవాడు. అతడు అందగాడు, దయగలవాడు, రథం నడపడంలో అతడిని మించినవాడు లేడు. ఒక రోజు తోటలో అతడు బంగారు రెక్కల హంసను పట్టుకున్నాడు. "నన్ను వదిలేయండి రాజా, మీకు సహాయం చేస్తాను," అంది హంస. నలుడు చేతులు తెరిచాడు. హంస ఎగిరి దూరాన ఉన్న విదర్భ దేశానికి వెళ్ళింది. అక్కడ దమయంతి అనే రాకుమారి ఉండేది — లోకంలోనే అందమైనది, తెలివైనది. "నలుడు అనే రాజు ఉన్నాడు. ఆయన ఎంత ధైర్యవంతుడో అంత మంచివాడు. మీ ఇద్దరూ ఒకరి కోసం ఒకరు పుట్టారు," అని ఆమెతో చెప్పింది. తిరిగి వచ్చి నలుడికి దమయంతి గురించి చెప్పింది. ఒకరినొకరు చూడకుండానే ఇద్దరి మనసులూ కలిశాయి.',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 70, 198, 1.2, { cloth: '#c9952a', crown: true }], ['person', 135, 198, 1.2, { cloth: '#c9952a', crown: true }], ['person', 200, 198, 1.2, { cloth: '#3a6ab0', crown: true }], ['person', 265, 198, 1.2, { cloth: '#c9952a', crown: true }], ['person', 330, 198, 1.2, { cloth: '#c9952a', crown: true }], ['flowers', 200, 120, 0.9]] },
+        en: 'Damayantī\'s father held a svayaṃvara, where she would choose her own husband. Kings came from everywhere — and so did four gods, Indra, Agni, Varuṇa and Yama, who also wished to marry her! To trick her, all four took Nala\'s face. Damayantī saw five Nalas standing in a row! She folded her hands and prayed, "O gods, show me the true Nala." Then she looked closely. Four of them did not blink. Their feet did not touch the ground. Their garlands stayed fresh, and they cast no shadow. Only one blinked, sweated a little and stood on the earth. She placed her garland around the real Nala\'s neck. The gods smiled and blessed them both.',
+        te: 'దమయంతి తండ్రి స్వయంవరం ఏర్పాటు చేశాడు. అందులో ఆమె తనకు నచ్చిన వరుడిని తానే ఎంచుకుంటుంది. ఎన్నో దేశాల రాజులు వచ్చారు. ఇంద్రుడు, అగ్ని, వరుణుడు, యముడు అనే నలుగురు దేవతలు కూడా ఆమెను పెళ్ళాడాలని వచ్చారు! ఆమెను మోసం చేయడానికి నలుగురూ నలుడి రూపం ధరించారు. దమయంతికి వరుసగా ఐదుగురు నలులు కనిపించారు! ఆమె చేతులు జోడించి, "దేవతలారా, అసలైన నలుడిని నాకు చూపించండి," అని ప్రార్థించింది. తరువాత జాగ్రత్తగా చూసింది. నలుగురు కనురెప్పలు ఆర్పడం లేదు. వారి పాదాలు నేలను తాకడం లేదు. వారి మాలలు వాడలేదు, వారికి నీడ లేదు. ఒక్కడే రెప్పలు ఆర్పుతున్నాడు, కొంచెం చెమట పట్టింది, నేల మీద నిలబడ్డాడు. ఆమె అసలైన నలుడి మెడలో మాల వేసింది. దేవతలు నవ్వి ఇద్దరినీ ఆశీర్వదించారు.',
+      },
+      {
+        scene: { bg: 'forest', props: [['dice', 90, 196, 1.1], ['person', 180, 198, 1.4, { cloth: '#8a7a6a' }], ['person', 250, 198, 1.35, { female: true, skin: 'fair', cloth: '#b0a090', pallu: '#d9577a' }], ['tree', 340, 196, 1.1], ['snake', 60, 205, 0.8]] },
+        en: 'But the dark spirit Kali was jealous. He crept into Nala\'s mind and made him play dice with his brother Puṣkara. Nala lost and lost — his gold, his army, even his kingdom! He and Damayantī wandered into the forest with nothing. Nala was so ashamed that he slipped away one night, hoping she would go home to her father, where she would be safe. Brave Damayantī searched and searched, and at last reached her father\'s house. Meanwhile, Nala saved a great snake named Karkoṭaka from a forest fire. The snake bit him — not to hurt him, but to change his looks so no one would know him, and to make Kali suffer inside him.',
+        te: 'కానీ కలి అనే దుష్ట శక్తికి అసూయ కలిగింది. వాడు నలుడి మనసులోకి దూరి, తమ్ముడు పుష్కరుడితో జూదం ఆడేలా చేశాడు. నలుడు ఓడిపోతూనే ఉన్నాడు — బంగారం, సైన్యం, చివరికి రాజ్యం కూడా పోయింది! నలుడు, దమయంతి ఏమీ లేకుండా అడవిలోకి వెళ్ళారు. నలుడికి ఎంతో సిగ్గు వేసింది. దమయంతి తండ్రి ఇంటికి వెళ్ళి సుఖంగా ఉంటుందని ఆశించి, ఒక రాత్రి ఆమెకు చెప్పకుండా వెళ్ళిపోయాడు. ధైర్యవంతురాలైన దమయంతి ఎంతో వెతికి, చివరికి తండ్రి ఇంటికి చేరుకుంది. ఇంతలో నలుడు కార్కోటకుడు అనే పెద్ద పామును అడవి మంటల నుంచి కాపాడాడు. ఆ పాము అతడిని కాటు వేసింది — బాధపెట్టడానికి కాదు, ఎవరూ గుర్తుపట్టకుండా అతని రూపం మార్చడానికి, అతనిలోని కలిని బాధపెట్టడానికి.',
+      },
+      {
+        scene: { bg: 'palace', props: [['chariot', 130, 198, 1.4], ['person', 250, 198, 1.4, { skin: 'dark', cloth: '#8a7a6a' }], ['person', 320, 198, 1.4, { female: true, skin: 'fair', cloth: '#d9577a', pallu: '#f0c040' }]] },
+        en: 'Now Nala, looking small and plain, became Bāhuka, the charioteer of King Ṛtuparṇa. Damayantī never gave up hope. She sent a message: "Damayantī will choose a new husband tomorrow!" Only the great Nala could drive a chariot so far in one day — and that was her clever test. Bāhuka drove Ṛtuparṇa\'s chariot like the wind! On the way, the king taught him the secret of dice, and Kali ran out of Nala at last. When the chariot reached Vidarbha, Damayantī knew. Nala put on the magic cloth the snake had given him, and his true form returned. Husband and wife wept with joy. Soon Nala won back his kingdom, and they lived happily ever after.',
+        te: 'ఇప్పుడు చిన్నగా, మామూలుగా కనిపించే నలుడు ‘బాహుకుడు’ అనే పేరుతో ఋతుపర్ణ మహారాజుకు సారథి అయ్యాడు. దమయంతి ఆశ వదులుకోలేదు. "రేపే దమయంతి మళ్ళీ వరుడిని ఎంచుకుంటుంది!" అని కబురు పంపింది. ఒక్క రోజులో అంత దూరం రథం నడపగలవాడు నలుడు ఒక్కడే — అదే ఆమె తెలివైన పరీక్ష. బాహుకుడు ఋతుపర్ణుడి రథాన్ని గాలిలా పరుగెత్తించాడు! దారిలో రాజు అతడికి పాచికల రహస్యం నేర్పాడు. చివరికి కలి నలుడిని వదిలి పారిపోయాడు. రథం విదర్భ చేరగానే దమయంతి గుర్తుపట్టింది. పాము ఇచ్చిన మాయ వస్త్రాన్ని నలుడు కప్పుకోగానే అతని అసలు రూపం వచ్చింది. భార్యాభర్తలు ఆనందంతో కన్నీళ్ళు పెట్టుకున్నారు. త్వరలోనే నలుడు తన రాజ్యాన్ని తిరిగి గెలుచుకున్నాడు. ఇద్దరూ సంతోషంగా జీవించారు.',
+      },
+    ],
+  },
+  {
+    id: 'bhagiratha-brings-down-the-ganga',
+    added: '2026-11-15',
+    epic: 'Ramayana',
+    chars: ['Bhagīratha', 'Gaṅgā', 'Śiva', 'Brahmā', 'Viśvāmitra'],
+    title: { en: 'Bhagīratha Brings Down the Gaṅgā', te: 'గంగను భూమికి తెచ్చిన భగీరథుడు' },
+    moral: { en: 'Never give up — patient effort can bring even a river down from heaven.', te: 'పట్టు వదలకుండా ప్రయత్నిస్తే, ఆకాశ గంగనైనా భూమికి తేవచ్చు.' },
+    cover: { bg: 'river', props: [['linga', 300, 196, 1.2], ['person', 140, 198, 1.5, { cloth: '#c9952a', crown: true, raise: true }], ['lotus', 220, 212, 1], ['cloud', 230, 50, 1], ['sun', 360, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['person', 110, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 190, 198, 1.2, { skin: 'blue', cloth: '#f0c040' }], ['person', 235, 198, 1.15, { cloth: '#e8a23a' }]] },
+        en: 'As young Rāma and Lakṣmaṇa walked with the sage Viśvāmitra, they reached the banks of the Gaṅgā. "Why is this river so holy?" asked Rāma. Viśvāmitra smiled and began a story. "Long ago, your ancestor King Sagara had sixty thousand sons. When his sacred horse went missing, the sons dug deep into the earth looking for it. There they found the horse grazing beside the great sage Kapila, who was deep in meditation. \'Thief!\' they shouted rudely. The sage opened his eyes, and with a flash of his fiery glance, all sixty thousand princes became heaps of ash. Only the holy waters of the heavenly Gaṅgā could free their souls and send them to heaven."',
+        te: 'బాల రాముడు, లక్ష్మణుడు విశ్వామిత్ర మహర్షితో నడుస్తూ గంగానది ఒడ్డుకు చేరారు. "ఈ నది ఇంత పవిత్రమైనది ఎందుకు, గురువుగారూ?" అని అడిగాడు రాముడు. విశ్వామిత్రుడు చిరునవ్వు నవ్వి కథ చెప్పడం మొదలుపెట్టాడు. "చాలా కాలం క్రితం మీ వంశానికి చెందిన సగర మహారాజుకు అరవై వేల మంది కొడుకులు ఉండేవారు. ఆయన యాగాశ్వం కనిపించకుండా పోతే, ఆ కొడుకులు దాని కోసం భూమిని లోతుగా తవ్వారు. అక్కడ కపిల మహర్షి ధ్యానంలో ఉన్నాడు, పక్కనే గుర్రం మేస్తోంది. ‘దొంగ!’ అని వాళ్ళు మర్యాద లేకుండా అరిచారు. మహర్షి కళ్ళు తెరిచాడు. ఆ చూపులోని అగ్నికి అరవై వేల మందీ బూడిద కుప్పలైపోయారు. ఆకాశ గంగ పవిత్ర జలం తాకితేనే వారికి స్వర్గం దొరుకుతుంది."',
+      },
+      {
+        scene: { bg: 'mountain', props: [['person', 120, 198, 1.4, { cloth: '#c9952a', crown: true, raise: true }], ['sun', 70, 50, 0.9], ['linga', 290, 196, 1.2], ['cloud', 300, 40, 1]] },
+        en: '"Sagara\'s grandson tried, and so did his son, but neither could bring the Gaṅgā down. Then came Bhagīratha. He left his throne and went to the Himālayas to pray. For a thousand years he stood with his arms raised, eating almost nothing. At last Brahmā appeared. \'Gaṅgā will come down,\' he said. \'But she is so mighty that her fall would crack the earth in two. Only Lord Śiva can catch her.\' So Bhagīratha prayed again, standing on one toe for a whole year. Śiva was pleased. \'I will hold her,\' he said. Proud Gaṅgā thought, \'I will sweep Śiva away to the underworld!\' She roared down from the sky."',
+        te: '"సగరుడి మనవడు ప్రయత్నించాడు, ఆయన కొడుకు కూడా ప్రయత్నించాడు, కానీ ఎవరూ గంగను దించలేకపోయారు. తరువాత భగీరథుడు వచ్చాడు. ఆయన రాజ్యాన్ని వదిలి హిమాలయాలకు తపస్సుకు వెళ్ళాడు. వెయ్యి సంవత్సరాలు చేతులు పైకెత్తి, దాదాపు ఏమీ తినకుండా తపస్సు చేశాడు. చివరికి బ్రహ్మదేవుడు ప్రత్యక్షమయ్యాడు. ‘గంగ కిందికి వస్తుంది. కానీ ఆమె వేగానికి భూమి రెండుగా చీలిపోతుంది. శివుడు ఒక్కడే ఆమెను పట్టుకోగలడు,’ అన్నాడు. భగీరథుడు మళ్ళీ ఒక్క కాలి బొటనవేలి మీద నిలబడి ఏడాది పాటు ప్రార్థించాడు. శివుడు ప్రసన్నుడై, ‘నేను పట్టుకుంటాను,’ అన్నాడు. గర్వంతో గంగ, ‘శివుడిని పాతాళానికి కొట్టుకుపోయేలా చేస్తాను!’ అనుకుంది. గర్జిస్తూ ఆకాశం నుంచి దూకింది."',
+      },
+      {
+        scene: { bg: 'river', props: [['chariot', 90, 198, 1.3], ['person', 170, 198, 1.3, { cloth: '#c9952a', crown: true, raise: true }], ['person', 290, 198, 1.3, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['lotus', 220, 210, 0.9]] },
+        en: '"But Śiva simply caught her in his thick, matted hair! Gaṅgā swirled and swirled and could not find her way out. Humbled, she begged to be let free, and Śiva gently let out a small stream. Then Bhagīratha rode ahead in his chariot, and Gaṅgā followed him, dancing and sparkling. On the way her waters flooded the sacrifice of the sage Jahnu, who drank up the whole river in anger! Bhagīratha pleaded, and Jahnu let her out through his ear — so she is also called Jāhnavī. At last Gaṅgā reached the ashes of the sixty thousand princes, and their souls rose to heaven." Rāma bowed to the river. To this day, a great effort is called a \'Bhagīratha effort\'.',
+        te: '"కానీ శివుడు ఆమెను తన దట్టమైన జటాజూటంలో పట్టేశాడు! గంగ అందులో గిరగిరా తిరిగింది, బయటకు దారి దొరకలేదు. గర్వం తగ్గి విడిపించమని వేడుకుంది. శివుడు దయతో ఒక చిన్న ధారను వదిలాడు. భగీరథుడు రథం మీద ముందు వెళ్తుంటే, గంగ నాట్యం చేస్తూ, మెరుస్తూ అతని వెనకే వచ్చింది. దారిలో జహ్ను మహర్షి యాగశాల ఆమె నీటిలో మునిగింది. కోపంతో ఆ ముని నదినంతా తాగేశాడు! భగీరథుడు బతిమాలగా, జహ్నువు చెవి నుంచి ఆమెను బయటకు వదిలాడు — అందుకే ఆమెకు జాహ్నవి అని కూడా పేరు. చివరికి గంగ అరవై వేల మంది రాకుమారుల బూడిదను తాకింది. వారు స్వర్గానికి చేరారు." రాముడు నదికి నమస్కరించాడు. ఈనాటికీ ఎంతో పట్టుదలతో చేసే ప్రయత్నాన్ని ‘భగీరథ ప్రయత్నం’ అంటాం.',
+      },
+    ],
+  },
+  {
+    id: 'ganga-and-king-santanu',
+    added: '2026-11-15',
+    epic: 'Mahabharata',
+    chars: ['Gaṅgā', 'Śantanu', 'Bhīṣma', 'Vasiṣṭha'],
+    title: { en: 'Gaṅgā and King Śantanu', te: 'గంగాదేవి, శంతన మహారాజు' },
+    moral: { en: 'A promise is a promise — and some things happen for reasons we cannot see.', te: 'ఇచ్చిన మాట నిలబెట్టుకోవాలి — కొన్ని విషయాల వెనుక మనకు కనిపించని కారణాలు ఉంటాయి.' },
+    cover: { bg: 'river', props: [['person', 150, 198, 1.5, { cloth: '#c9952a', crown: true }], ['person', 250, 198, 1.5, { female: true, skin: 'fair', cloth: '#4a90c2', pallu: '#fff' }], ['lotus', 330, 210, 1], ['sun', 60, 50, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['person', 100, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 230, 198, 1.1, { cloth: '#c9952a', crown: true }], ['person', 280, 198, 1.1, { cloth: '#e8a23a', crown: true }], ['person', 330, 198, 1.1, { cloth: '#3a6ab0', crown: true }]] },
+        en: 'In heaven lived eight shining gods called the Vasus. One day, on a visit to the sage Vasiṣṭha\'s āśrama, the youngest Vasu\'s wife saw the sage\'s wonderful wish-giving cow, Nandinī. "I want her!" she said. So the Vasus led the cow away. When Vasiṣṭha found out, he said, "For this, you will all be born on earth as humans!" The Vasus fell at his feet. The sage softened. "Seven of you will return to heaven soon after birth. But Prabhāsa, who took the cow, must live a long life on earth — a great and good life." The Vasus then went to Gaṅgā, the river goddess. "Please be our mother on earth, and free us quickly." Gaṅgā agreed.',
+        te: 'స్వర్గంలో వసువులు అనే ఎనిమిది మంది తేజస్సు గల దేవతలు ఉండేవారు. ఒక రోజు వారు వసిష్ఠ మహర్షి ఆశ్రమానికి వెళ్ళారు. అక్కడ కోరినవన్నీ ఇచ్చే నందిని అనే అద్భుతమైన ఆవును చూసి, చిన్న వసువు భార్య, "నాకు అది కావాలి!" అంది. అందుకే వసువులు ఆ ఆవును తీసుకుపోయారు. వసిష్ఠుడికి తెలియగానే, "ఈ తప్పుకు మీరంతా భూమి మీద మనుషులుగా పుడతారు!" అన్నాడు. వసువులు ఆయన కాళ్ళ మీద పడ్డారు. ముని మనసు కరిగింది. "మీలో ఏడుగురు పుట్టిన వెంటనే స్వర్గానికి తిరిగి వస్తారు. కానీ ఆవును తీసుకెళ్ళిన ప్రభాసుడు మాత్రం భూమి మీద చాలా కాలం జీవిస్తాడు — గొప్ప, మంచి జీవితం." తరువాత వసువులు గంగాదేవి దగ్గరకు వెళ్ళి, "భూమి మీద మాకు తల్లివై, మమ్మల్ని త్వరగా విడిపించు," అని వేడుకున్నారు. గంగ ఒప్పుకుంది.',
+      },
+      {
+        scene: { bg: 'river', props: [['person', 140, 198, 1.5, { cloth: '#c9952a', crown: true, raise: true }], ['person', 260, 198, 1.5, { female: true, skin: 'fair', cloth: '#4a90c2', pallu: '#fff' }], ['tree', 360, 196, 1], ['lotus', 60, 210, 0.9]] },
+        en: 'One day King Śantanu of Hastināpura was walking by the river when he saw a beautiful lady, glowing like moonlight. "Will you be my queen?" he asked. "I will," she said, "but you must make me a promise. Whatever I do, you must never stop me or ask me why. If you do, I will leave you at once." Śantanu loved her so much that he agreed. They were very happy together. But a strange thing happened. Each time a baby was born, the queen carried it to the river and gave it back to the waters. Śantanu was heartbroken, but he remembered his promise and said nothing. It happened seven times. It is said each baby was a Vasu, flying home to heaven.',
+        te: 'ఒక రోజు హస్తినాపుర రాజు శంతనుడు నది ఒడ్డున నడుస్తుండగా, వెన్నెలలా వెలిగిపోతున్న ఒక అందమైన స్త్రీ కనిపించింది. "నా రాణివి అవుతావా?" అని అడిగాడు. "అవుతాను," అందామె, "కానీ మీరు ఒక మాట ఇవ్వాలి. నేను ఏం చేసినా, మీరు నన్ను ఆపకూడదు, ఎందుకని అడగకూడదు. అడిగిన మరుక్షణమే నేను వెళ్ళిపోతాను." ఆమె మీది ప్రేమతో శంతనుడు ఒప్పుకున్నాడు. ఇద్దరూ ఎంతో సంతోషంగా ఉన్నారు. కానీ ఒక వింత జరిగింది. ప్రతిసారీ బిడ్డ పుట్టగానే, రాణి ఆ బిడ్డను నదికి తీసుకెళ్ళి నీటికే అప్పగించేది. శంతనుడి గుండె బద్దలైంది, కానీ ఇచ్చిన మాట గుర్తుంచుకుని ఏమీ అనలేదు. అలా ఏడుసార్లు జరిగింది. ప్రతి బిడ్డా ఒక వసువు, స్వర్గానికి తిరిగి వెళ్ళిపోయాడని చెబుతారు.',
+      },
+      {
+        scene: { bg: 'river', props: [['person', 110, 198, 1.45, { cloth: '#c9952a', crown: true, raise: true }], ['person', 230, 198, 1.5, { female: true, skin: 'fair', cloth: '#4a90c2', pallu: '#fff' }], ['basket', 270, 175, 0.6], ['archer', 340, 198, 1.2, { cloth: '#3a6ab0' }]] },
+        en: 'When the eighth baby was born, Śantanu could bear it no longer. "Stop!" he cried. "Who are you, and why do you do this?" The lady turned and smiled sadly. "I am Gaṅgā, the river goddess. Those seven babies were Vasus, and I set them free as I promised them. This eighth one will live. But you have broken your promise, so I must go." Holding the baby, she vanished into the river. Years later, she came back with a tall, shining young prince. "This is your son, Devavrata. I have taught him everything." Śantanu hugged him with joy. This boy would one day be known to the whole world as the great Bhīṣma.',
+        te: 'ఎనిమిదో బిడ్డ పుట్టినప్పుడు శంతనుడు ఇక తట్టుకోలేకపోయాడు. "ఆగు!" అని అరిచాడు. "నువ్వు ఎవరు? ఎందుకిలా చేస్తున్నావు?" ఆమె వెనక్కి తిరిగి బాధగా నవ్వింది. "నేను గంగాదేవిని. ఆ ఏడుగురు బిడ్డలూ వసువులు. వారికి ఇచ్చిన మాట ప్రకారం వారిని విడిపించాను. ఈ ఎనిమిదో బిడ్డ బతుకుతాడు. కానీ మీరు మాట తప్పారు, అందుకే నేను వెళ్ళాలి." బిడ్డను ఎత్తుకుని ఆమె నదిలో మాయమైంది. చాలా ఏళ్ళ తరువాత ఆమె ఒక పొడవైన, తేజస్వి అయిన యువరాజుతో తిరిగి వచ్చింది. "ఇతడు మీ కొడుకు దేవవ్రతుడు. ఇతనికి అన్ని విద్యలూ నేర్పాను." శంతనుడు ఆనందంతో కొడుకును కౌగిలించుకున్నాడు. ఈ బాలుడే తరువాత లోకమంతా పొగిడే మహానుభావుడు భీష్ముడు అయ్యాడు.',
+      },
+    ],
+  },
 ];

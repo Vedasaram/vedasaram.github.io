@@ -116,11 +116,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Hanumān Finds Sītā's Jewels (Rāmāyaṇa) — hanuman-finds-sitas-jewels
 - [x] Sāvitrī and Satyavān (Mahābhārata) — savitri-and-satyavan
 - [x] Rāvaṇa Lifts Mount Kailāsa (Rāmāyaṇa) — ravana-lifts-mount-kailasa
+- [x] Nala and Damayantī (Mahābhārata) — nala-and-damayanti
+- [x] Bhagīratha Brings Down the Gaṅgā (Rāmāyaṇa) — bhagiratha-brings-down-the-ganga
+- [x] Gaṅgā and King Śantanu (Mahābhārata) — ganga-and-king-santanu
 
 ## Next
-- [ ] Nala and Damayantī (Mahābhārata) — Nala, Damayantī
-- [ ] Bhagīratha Brings Down the Gaṅgā (Rāmāyaṇa) — Bhagīratha, Gaṅgā, Śiva
-- [ ] Gaṅgā and King Śantanu (Mahābhārata) — Gaṅgā, Śantanu, Bhīṣma
 - [ ] Viśvāmitra Becomes a Brahmarṣi (Rāmāyaṇa) — Viśvāmitra, Vasiṣṭha
 - [ ] Aṣṭāvakra, the Boy Who Won the Debate (Mahābhārata) — Aṣṭāvakra, Janaka
 - [ ] Māṇḍavī and Śrutakīrti, the Other Brides of Ayodhyā (Rāmāyaṇa) — Māṇḍavī, Śrutakīrti, Bharata, Śatrughna
