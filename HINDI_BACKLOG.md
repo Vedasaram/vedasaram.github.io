@@ -124,6 +124,7 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [ ] sages/parashara.js
 - [ ] sages/mudgala.js
 - [ ] sages/ribhu.js
+- [ ] sages/vamadeva.js
 - [ ] kings/chandragupta.js
 - [ ] kings/ashoka.js
 - [ ] kings/shatakarni.js
@@ -145,6 +146,7 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [ ] kings/sanga.js
 - [ ] kings/pratap.js
 - [ ] kings/shivaji.js
+- [ ] kings/kumbha.js
 - [ ] ramayana/bala.js
 - [ ] ramayana/ayodhya.js
 - [ ] ramayana/aranya.js
