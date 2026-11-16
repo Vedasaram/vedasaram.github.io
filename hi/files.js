@@ -107,4 +107,6 @@ window.HI_FILES = [
   'hi/stories/hanuman-finds-sitas-jewels.js',
   'hi/stories/savitri-and-satyavan.js',
   'hi/stories/ravana-lifts-mount-kailasa.js',
+  'hi/sages/vishvamitra.js',
+  'hi/sages/vasishtha.js',
 ];
