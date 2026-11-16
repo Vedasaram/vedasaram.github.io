@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Raikva (raikva) — the man with the cart in the Chāndogya, sought out by King Jānaśruti after two swans spoke of him; he turned away gifts until the king came humbly (Chāndogya Upaniṣad 4.1–4.3).
 - [ ] Saubhari (saubhari) — the sage who did tapas under the Yamunā, envied a king-fish with its family, married all fifty daughters of Māndhātā, and at last turned back to renunciation (Viṣṇu Purāṇa 4; Bhāgavata 9; Ṛgveda 8 seer).
 - [ ] Dīrghatamas (dirghatamas) — the seer born blind, cast adrift on the river by his own sons, rescued by King Bali; father of Aṅga, Vaṅga and the eastern kings; seer of the Asya Vāmīya hymn “the One the wise call by many names” (Ṛgveda 1.140–164; MBh Ādi; Purāṇas).
 - [ ] Pippalāda (pippalada) — Dadhīci's son raised under a pippala tree, his anger at the gods for his father's death, Śiva's calming of it; the teacher who answers six questions in the Praśna Upaniṣad (Praśna Upaniṣad; Śiva Purāṇa; Brahma Purāṇa — later tellings marked).
@@ -97,3 +96,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Mudgala (mudgala) — 9 chapters — 2026-11-11
 - [x] Ṛbhu and Nidāgha (ribhu) — 9 chapters — 2026-11-12
 - [x] Vāmadeva (vamadeva) — 10 chapters — 2026-11-15
+- [x] Raikva (raikva) — 10 chapters — 2026-11-16

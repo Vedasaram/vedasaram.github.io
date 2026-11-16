@@ -51,6 +51,7 @@
     ['mudgala', 'Mudgala', 'ముద్గలుడు', 'The gleaner who turned down heaven', 'స్వర్గాన్ని వద్దన్న పరిగె ముని', '🌾', 'linear-gradient(160deg,#3a2a0a,#c8a040)'],
     ['ribhu', 'Ṛbhu & Nidāgha', 'ఋభువు, నిదాఘుడు', 'Which is the king, which the elephant?', '“ఏది రాజు, ఏది ఏనుగు?” అన్న గురువు', '🐘', 'linear-gradient(160deg,#1a2a3a,#7a9ab0)'],
     ['vamadeva', 'Vāmadeva', 'వామదేవుడు', 'Who knew the Self in the womb', 'గర్భంలోనే ఆత్మను తెలుసుకున్న ద్రష్ట', '🦅', 'linear-gradient(160deg,#2a1406,#c07a3a)'],
+    ['raikva', 'Raikva', 'రైక్వుడు', 'The sage under the cart who could not be bought', 'కానుకలకు లొంగని బండి రైక్వుడు', '🛞', 'linear-gradient(160deg,#2a1a0a,#a08050)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
