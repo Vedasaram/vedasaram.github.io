@@ -33,6 +33,7 @@
     ['pratap', 'Pratāp', 'మహారాణా ప్రతాప్', 'Mahārāṇā of Mewar · Haldīghāṭī, 1576', 'మేవాడ్ మహారాణా · హల్దీఘాటీ, 1576', '🐴', 'linear-gradient(160deg,#1a0a02,#b07020)'],
     ['shivaji', 'Śivājī', 'ఛత్రపతి శివాజీ', 'Chatrapati · founder of the Maratha kingdom', 'ఛత్రపతి · మరాఠా రాజ్య స్థాపకుడు', '🚩', 'linear-gradient(160deg,#2a0a02,#e07a1a)'],
     ['kumbha', 'Rāṇā Kumbhā', 'రాణా కుంభ', 'Mewar · Kumbhalgarh and the Tower of Victory', 'మేవాడ్ · కుంభల్‌గఢ్, విజయ స్తంభం', '🗼', 'linear-gradient(160deg,#2a1406,#c08a3a)'],
+    ['ahilya', 'Ahilyābāī', 'అహల్యాబాయి', 'Holkar ruler of Malwa · Maheshwar and Kāśī', 'మాల్వా హోల్కర్ రాణి · మహేశ్వర్, కాశీ', '🛕', 'linear-gradient(160deg,#2a0a1a,#c07a3a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js

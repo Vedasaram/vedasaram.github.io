@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Ahilyābāī Holkar (ahilya) — widowed young; ruling Malwa from Maheshwar; temple rebuilding across India (Kāśī Viśvanāth, 1780); justice and trade; John Malcolm's account
 - [ ] Amoghavarṣa I (amoghavarsha) — Rāṣṭrakūṭa boy-king; Mānyakheṭa; Kavirājamārga; Jain faith and Praśnottara Ratnamālikā; Arab travellers' praise
 - [ ] Mihira Bhoja (mihirabhoja) — Gurjara-Pratīhāra of Kanauj; Gwalior inscription; the Arab traveller Sulaymān; wars with Pālas and Rāṣṭrakūṭas
 - [ ] Rāṇī Lakṣmībāī (lakshmibai) — Manikarnika of Kāśī; Jhansi; the doctrine of lapse; 1857; the siege of Jhansi; Kalpi and Gwalior (1858)
@@ -86,3 +85,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Mahārāṇā Pratāp (pratap) — 8 chapters — 2026-11-11
 - [x] Chatrapati Śivājī (shivaji) — 9 chapters — 2026-11-12
 - [x] Rāṇā Kumbhā (kumbha) — 9 chapters — 2026-11-15
+- [x] Ahilyābāī Holkar (ahilya) — 8 chapters — 2026-11-16
