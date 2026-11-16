@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vedasaram has moved</title>
+<meta http-equiv="refresh" content="0; url=/">
+<script>
+// The app moved from vedasaram.github.io/vedic-path/ to vedasaram.github.io/ when the repository was renamed.
+// Drop the old service worker (it kept serving an old saved copy) and go to the new address.
+(async () => {
+  try { if ('serviceWorker' in navigator) for (const r of await navigator.serviceWorker.getRegistrations()) if (r.scope.includes('/vedic-path/')) await r.unregister(); } catch (e) {}
+  location.replace('/' + location.hash);
+})();
+</script>
+<style>body{font-family:sans-serif;background:#faf6ef;color:#5a2a10;text-align:center;padding:40px 16px}</style>
+</head><body>
+<p>Vedasaram has moved to <a href="/">vedasaram.github.io</a>.</p>
+<p>వేదసారం కొత్త చిరునామా: <a href="/">vedasaram.github.io</a></p>
+</body></html>
