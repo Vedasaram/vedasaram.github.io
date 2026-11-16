@@ -864,6 +864,7 @@
       return `<ellipse cx="-4" cy="-6" rx="30" ry="7" fill="${c}"/><ellipse cx="-6" cy="-12" rx="20" ry="6" fill="${c}"/><path d="M10 -14 Q22 -36 8 -56" stroke="${c}" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M10 -16 Q20 -36 8 -54" stroke="#e8d27a" stroke-width="3" fill="none" opacity=".7"/><ellipse cx="8" cy="-64" rx="14" ry="12" fill="${c}"/><ellipse cx="8" cy="-62" rx="6" ry="7" fill="#e8d27a" opacity=".6"/><circle cx="4" cy="-67" r="1.6" fill="#222"/><circle cx="12" cy="-67" r="1.6" fill="#222"/><path d="M8 -54 V-48 M8 -48 l-3 4 M8 -48 l3 4" stroke="#d33" stroke-width="1.2" fill="none"/>`;
     },
     kailasa: () => `<path d="M-60 0 L-6 -98 L60 0Z" fill="#8a8fa8"/><path d="M-6 -98 L60 0 H30 Z" fill="#7a7f99"/><path d="M-6 -98 L-26 -62 L-14 -66 L-4 -56 L6 -66 L16 -60Z" fill="#fff"/>`,
+    cow: () => `<path d="M-26 -36 Q-36 -26 -32 -12" stroke="#f4f0e6" stroke-width="3" fill="none"/><g fill="#f4f0e6"><ellipse cx="0" cy="-34" rx="28" ry="15"/>${[-20, -10, 10, 20].map(x => `<rect x="${x - 3}" y="-26" width="6" height="26" rx="2"/>`).join('')}<ellipse cx="32" cy="-46" rx="9" ry="12"/></g><circle cx="-8" cy="-38" r="6" fill="#b8865a"/><circle cx="10" cy="-30" r="4" fill="#b8865a"/><ellipse cx="35" cy="-38" rx="6" ry="4" fill="#e8b8a8"/><circle cx="30" cy="-49" r="1.4" fill="#222"/><path d="M26 -56 Q22 -64 26 -68 M38 -56 Q42 -64 38 -68" stroke="#c9a26b" stroke-width="3" fill="none"/>`,
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };

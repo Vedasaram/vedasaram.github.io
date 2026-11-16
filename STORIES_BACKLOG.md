@@ -119,11 +119,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Nala and Damayantī (Mahābhārata) — nala-and-damayanti
 - [x] Bhagīratha Brings Down the Gaṅgā (Rāmāyaṇa) — bhagiratha-brings-down-the-ganga
 - [x] Gaṅgā and King Śantanu (Mahābhārata) — ganga-and-king-santanu
+- [x] Viśvāmitra Becomes a Brahmarṣi (Rāmāyaṇa) — vishvamitra-becomes-brahmarshi
+- [x] Aṣṭāvakra, the Boy Who Won the Debate (Mahābhārata) — ashtavakra-wins-the-debate
+- [x] Māṇḍavī and Śrutakīrti, the Other Brides of Ayodhyā (Rāmāyaṇa) — mandavi-and-shrutakirti
 
 ## Next
-- [ ] Viśvāmitra Becomes a Brahmarṣi (Rāmāyaṇa) — Viśvāmitra, Vasiṣṭha
-- [ ] Aṣṭāvakra, the Boy Who Won the Debate (Mahābhārata) — Aṣṭāvakra, Janaka
-- [ ] Māṇḍavī and Śrutakīrti, the Other Brides of Ayodhyā (Rāmāyaṇa) — Māṇḍavī, Śrutakīrti, Bharata, Śatrughna
 - [ ] Duryodhana Falls in the Hall of Illusions (Mahābhārata) — Duryodhana, Bhīma, Draupadī
 - [ ] The Crow and Sītā at Citrakūṭa (Rāmāyaṇa) — Rāma, Sītā, Jayanta
 - [ ] Jarāsandha and Bhīma's Great Wrestle (Mahābhārata) — Jarāsandha, Bhīma, Kṛṣṇa
