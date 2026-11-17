@@ -109,4 +109,7 @@ window.HI_FILES = [
   'hi/stories/ravana-lifts-mount-kailasa.js',
   'hi/sages/vishvamitra.js',
   'hi/sages/vasishtha.js',
+  'hi/sages/shukracharya.js',
+  'hi/sages/agastya.js',
+  'hi/sages/bhrigu.js',
 ];
