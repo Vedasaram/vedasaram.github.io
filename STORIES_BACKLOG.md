@@ -122,11 +122,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Viśvāmitra Becomes a Brahmarṣi (Rāmāyaṇa) — vishvamitra-becomes-brahmarshi
 - [x] Aṣṭāvakra, the Boy Who Won the Debate (Mahābhārata) — ashtavakra-wins-the-debate
 - [x] Māṇḍavī and Śrutakīrti, the Other Brides of Ayodhyā (Rāmāyaṇa) — mandavi-and-shrutakirti
+- [x] Duryodhana Falls in the Hall of Illusions (Mahābhārata) — duryodhana-in-the-hall-of-illusions
+- [x] The Crow and Sītā at Citrakūṭa (Rāmāyaṇa) — the-crow-and-sita-at-chitrakuta
+- [x] Jarāsandha and Bhīma's Great Wrestle (Mahābhārata) — jarasandha-and-bhimas-great-wrestle
 
 ## Next
-- [ ] Duryodhana Falls in the Hall of Illusions (Mahābhārata) — Duryodhana, Bhīma, Draupadī
-- [ ] The Crow and Sītā at Citrakūṭa (Rāmāyaṇa) — Rāma, Sītā, Jayanta
-- [ ] Jarāsandha and Bhīma's Great Wrestle (Mahābhārata) — Jarāsandha, Bhīma, Kṛṣṇa
 - [ ] Rāma Meets Paraśurāma on the Road (Rāmāyaṇa) — Paraśurāma, Rāma, Daśaratha
 - [ ] Kīcaka and the Brave Sairandhrī (Mahābhārata) — Draupadī, Bhīma, Kīcaka
 - [ ] Hanumān in the Aśoka Garden Meets the Demon Guards (Rāmāyaṇa) — Hanumān, Akṣa
