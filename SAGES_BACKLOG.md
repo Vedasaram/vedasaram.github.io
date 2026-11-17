@@ -42,11 +42,15 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Saubhari (saubhari) — the sage who did tapas under the Yamunā, envied a king-fish with its family, married all fifty daughters of Māndhātā, and at last turned back to renunciation (Viṣṇu Purāṇa 4; Bhāgavata 9; Ṛgveda 8 seer).
 - [ ] Dīrghatamas (dirghatamas) — the seer born blind, cast adrift on the river by his own sons, rescued by King Bali; father of Aṅga, Vaṅga and the eastern kings; seer of the Asya Vāmīya hymn “the One the wise call by many names” (Ṛgveda 1.140–164; MBh Ādi; Purāṇas).
 - [ ] Pippalāda (pippalada) — Dadhīci's son raised under a pippala tree, his anger at the gods for his father's death, Śiva's calming of it; the teacher who answers six questions in the Praśna Upaniṣad (Praśna Upaniṣad; Śiva Purāṇa; Brahma Purāṇa — later tellings marked).
 - [ ] Asita Devala (devala) — named by Arjuna in the Gītā as a witness to Kṛṣṇa's divinity; Devala and the hidden yogī Jaigīṣavya at the Ādityatīrtha; the curse on Hūhū who became the crocodile of Gajendra (MBh Śalya and Śānti; Bhagavad Gītā 10; Bhāgavata 8).
 - [ ] Marīci (marici) — first of Brahmā's mind-born sons and of the Saptarṣis, father of Kaśyapa; his wife Kalā/Sambhūti and their line; the sons cursed to be born again (Purāṇas; Mahābhārata; Bhāgavata 3–4).
+- [ ] Gālava (galava) — Viśvāmitra's devoted pupil who insisted on a teacher's fee, the quest for eight hundred white horses with one black ear, Garuḍa's help, and Mādhavī (MBh Udyoga Parva).
+- [ ] Ṛcīka (ricika) — Bhṛgu's grandson who won Satyavatī of Gādhi's house with a thousand black-eared horses, the two bowls of charu that were swapped, father of Jamadagni (MBh Vana & Anuśāsana; Viṣṇu Purāṇa 4).
+- [ ] Śṛṅgī and Śamīka (shamika) — the silent sage on whom King Parīkṣit hung a dead snake, his angry son's curse of Takṣaka's bite, and Śamīka's grief and warning (MBh Ādi; Bhāgavata 1.18).
+- [ ] Matanga (matanga) — the sage of the Ṛṣyamūka forest whose curse kept Vālin away, and whose āśrama Śabarī kept for Rāma (Vālmīki Rāmāyaṇa, Araṇya & Kiṣkindhā; MBh Anuśāsana on his own tapas).
+- [ ] Jaratkāru (jaratkaru) — the ascetic who saw his ancestors hanging over a pit, married the serpent-princess of his own name, left her at a slight, and fathered Āstīka who stopped Janamejaya's snake sacrifice (MBh Ādi).
 
 Add more when fewer than five remain: e.g. Pulastya, Kaṇva, Uttaṅka, Dhaumya, Lomaśa, Māṇḍavya,
 Śuka, Jaimini, Vālakhilyas, the four Kumāras, Upamanyu, Āruṇi, Sāndīpani, Garga, Śāṇḍilya, Cyavana.
@@ -97,3 +101,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Ṛbhu and Nidāgha (ribhu) — 9 chapters — 2026-11-12
 - [x] Vāmadeva (vamadeva) — 10 chapters — 2026-11-15
 - [x] Raikva (raikva) — 10 chapters — 2026-11-16
+- [x] Saubhari (saubhari) — 9 chapters — 2026-11-17
