@@ -865,6 +865,7 @@
     },
     kailasa: () => `<path d="M-60 0 L-6 -98 L60 0Z" fill="#8a8fa8"/><path d="M-6 -98 L60 0 H30 Z" fill="#7a7f99"/><path d="M-6 -98 L-26 -62 L-14 -66 L-4 -56 L6 -66 L16 -60Z" fill="#fff"/>`,
     cow: () => `<path d="M-26 -36 Q-36 -26 -32 -12" stroke="#f4f0e6" stroke-width="3" fill="none"/><g fill="#f4f0e6"><ellipse cx="0" cy="-34" rx="28" ry="15"/>${[-20, -10, 10, 20].map(x => `<rect x="${x - 3}" y="-26" width="6" height="26" rx="2"/>`).join('')}<ellipse cx="32" cy="-46" rx="9" ry="12"/></g><circle cx="-8" cy="-38" r="6" fill="#b8865a"/><circle cx="10" cy="-30" r="4" fill="#b8865a"/><ellipse cx="35" cy="-38" rx="6" ry="4" fill="#e8b8a8"/><circle cx="30" cy="-49" r="1.4" fill="#222"/><path d="M26 -56 Q22 -64 26 -68 M38 -56 Q42 -64 38 -68" stroke="#c9a26b" stroke-width="3" fill="none"/>`,
+    axe: () => `<line x1="0" y1="0" x2="0" y2="-90" stroke="#7a4a1a" stroke-width="4" stroke-linecap="round"/><path d="M2 -88 Q28 -96 32 -74 Q28 -58 2 -66Z" fill="#c8c8d4" stroke="#8a8a9a" stroke-width="1.2"/>`, // Paraśurāma's axe (paraśu)
     pool: () => `<ellipse cx="0" cy="-10" rx="72" ry="14" fill="#c9a26b"/><ellipse cx="0" cy="-10" rx="64" ry="10.5" fill="#4a9bd0"/><g stroke="#cfe9f7" stroke-width="1.6" fill="none" opacity=".8"><path d="M-44 -11 q8 -3 16 0 t16 0"/><path d="M8 -8 q8 -3 16 0 t16 0"/></g>`,
   };
   function kidsScene(scene) {

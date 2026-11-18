@@ -125,11 +125,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Duryodhana Falls in the Hall of Illusions (Mahābhārata) — duryodhana-in-the-hall-of-illusions
 - [x] The Crow and Sītā at Citrakūṭa (Rāmāyaṇa) — the-crow-and-sita-at-chitrakuta
 - [x] Jarāsandha and Bhīma's Great Wrestle (Mahābhārata) — jarasandha-and-bhimas-great-wrestle
+- [x] Rāma Meets Paraśurāma on the Road (Rāmāyaṇa) — rama-meets-parashurama
+- [x] Kīcaka and the Brave Sairandhrī (Mahābhārata) — kichaka-and-the-brave-sairandhri
+- [x] Hanumān in the Aśoka Garden Meets the Demon Guards (Rāmāyaṇa) — hanuman-in-the-ashoka-garden
 
 ## Next
-- [ ] Rāma Meets Paraśurāma on the Road (Rāmāyaṇa) — Paraśurāma, Rāma, Daśaratha
-- [ ] Kīcaka and the Brave Sairandhrī (Mahābhārata) — Draupadī, Bhīma, Kīcaka
-- [ ] Hanumān in the Aśoka Garden Meets the Demon Guards (Rāmāyaṇa) — Hanumān, Akṣa
 - [ ] Śiśupāla's Hundred Mistakes (Mahābhārata) — Śiśupāla, Kṛṣṇa
 - [ ] Lakṣmaṇa Learns from the Dying Rāvaṇa (Rāmāyaṇa tradition) — Lakṣmaṇa, Rāvaṇa, Rāma
 - [ ] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — Arjuna, the apsarās
