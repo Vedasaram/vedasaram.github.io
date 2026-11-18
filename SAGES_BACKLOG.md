@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Dīrghatamas (dirghatamas) — the seer born blind, cast adrift on the river by his own sons, rescued by King Bali; father of Aṅga, Vaṅga and the eastern kings; seer of the Asya Vāmīya hymn “the One the wise call by many names” (Ṛgveda 1.140–164; MBh Ādi; Purāṇas).
 - [ ] Pippalāda (pippalada) — Dadhīci's son raised under a pippala tree, his anger at the gods for his father's death, Śiva's calming of it; the teacher who answers six questions in the Praśna Upaniṣad (Praśna Upaniṣad; Śiva Purāṇa; Brahma Purāṇa — later tellings marked).
 - [ ] Asita Devala (devala) — named by Arjuna in the Gītā as a witness to Kṛṣṇa's divinity; Devala and the hidden yogī Jaigīṣavya at the Ādityatīrtha; the curse on Hūhū who became the crocodile of Gajendra (MBh Śalya and Śānti; Bhagavad Gītā 10; Bhāgavata 8).
 - [ ] Marīci (marici) — first of Brahmā's mind-born sons and of the Saptarṣis, father of Kaśyapa; his wife Kalā/Sambhūti and their line; the sons cursed to be born again (Purāṇas; Mahābhārata; Bhāgavata 3–4).
@@ -102,3 +101,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Vāmadeva (vamadeva) — 10 chapters — 2026-11-15
 - [x] Raikva (raikva) — 10 chapters — 2026-11-16
 - [x] Saubhari (saubhari) — 9 chapters — 2026-11-17
+- [x] Dīrghatamas (dirghatamas) — 11 chapters — 2026-11-18
