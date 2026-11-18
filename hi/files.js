@@ -112,4 +112,7 @@ window.HI_FILES = [
   'hi/sages/shukracharya.js',
   'hi/sages/agastya.js',
   'hi/sages/bhrigu.js',
+  'hi/sages/brihaspati.js',
+  'hi/sages/narada.js',
+  'hi/sages/vyasa.js',
 ];

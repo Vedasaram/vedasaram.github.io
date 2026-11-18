@@ -83,9 +83,6 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
    Bump the CACHE version in sw.js by one. Commit "Hindi: <items>" and push.
 
 ## Next
-- [ ] sages/brihaspati.js
-- [ ] sages/narada.js
-- [ ] sages/vyasa.js
 - [ ] sages/valmiki.js
 - [ ] sages/durvasa.js
 - [ ] sages/atri.js
@@ -185,6 +182,11 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [ ] story: mandavi-and-shrutakirti
 - [ ] sages/raikva.js
 - [ ] kings/ahilya.js
+- [ ] story: duryodhana-in-the-hall-of-illusions
+- [ ] story: the-crow-and-sita-at-chitrakuta
+- [ ] story: jarasandha-and-bhimas-great-wrestle
+- [ ] sages/saubhari.js
+- [ ] kings/amoghavarsha.js
 
 ## Done
 - [x] Hindi framework (hi/hi.js, hi/ui.js, tools) — 2026-11-12
@@ -300,3 +302,6 @@ Kids Corner screens (`K()/KHI()` in kids.js), via `TT(en, te, hi)` in index.html
 - [x] sages/shukracharya.js — 2026-11-17
 - [x] sages/agastya.js — 2026-11-17
 - [x] sages/bhrigu.js — 2026-11-17
+- [x] sages/brihaspati.js — 2026-11-18
+- [x] sages/narada.js — 2026-11-18
+- [x] sages/vyasa.js — 2026-11-18
