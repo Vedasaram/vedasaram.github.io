@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Rāṇī Lakṣmībāī (lakshmibai) — Manikarnika of Kāśī; Jhansi; the doctrine of lapse; 1857; the siege of Jhansi; Kalpi and Gwalior (1858)
 - [ ] Vikramāditya VI (vikramaditya6) — Kalyāṇa Cālukya; the Cālukya-Vikrama era (1076); Bilhaṇa's Vikramāṅkadevacarita; Vijñāneśvara's Mitākṣarā; wars with the Cōḷas and Hoysaḷas
 - [ ] Hoysaḷa Viṣṇuvardhana (vishnuvardhana) — Biṭṭideva; Rāmānuja and the turn to Vaiṣṇavism (tradition); Queen Śāntalā; Talakāḍ won from the Cōḷas; the temples of Belur
 - [ ] Prolaya and Kāpaya Nāyaka (musunuri) — the Musunūri Nāyakas; freeing the Telugu country after Orugallu fell; the Vilasa grant; Warangal retaken (1336); the Bahmanī wars
@@ -86,3 +85,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Ahilyābāī Holkar (ahilya) — 8 chapters — 2026-11-16
 - [x] Amoghavarṣa I (amoghavarsha) — 8 chapters — 2026-11-17
 - [x] Mihira Bhoja (mihirabhoja) — 9 chapters — 2026-11-18
+- [x] Rāṇī Lakṣmībāī (lakshmibai) — 9 chapters — 2026-11-19

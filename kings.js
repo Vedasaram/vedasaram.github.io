@@ -36,6 +36,7 @@
     ['ahilya', 'Ahilyābāī', 'అహల్యాబాయి', 'Holkar ruler of Malwa · Maheshwar and Kāśī', 'మాల్వా హోల్కర్ రాణి · మహేశ్వర్, కాశీ', '🛕', 'linear-gradient(160deg,#2a0a1a,#c07a3a)'],
     ['amoghavarsha', 'Amoghavarṣa', 'అమోఘవర్షుడు', 'Nṛpatuṅga · Rāṣṭrakūṭa · the scholar-king of Mānyakheṭa', 'నృపతుంగుడు · రాష్ట్రకూట · మాన్యఖేట పండిత రాజు', '🪔', 'linear-gradient(160deg,#1a0a2a,#c08a4a)'],
     ['mihirabhoja', 'Mihira Bhoja', 'మిహిర భోజుడు', 'Gurjara-Pratīhāra · Kanauj · the Ādivarāha king', 'గుర్జర-ప్రతీహార · కనౌజ్ · ఆదివరాహ రాజు', '🐗', 'linear-gradient(160deg,#0a1a1a,#b0862a)'],
+    ['lakshmibai', 'Lakṣmībāī', 'ఝాన్సీ లక్ష్మీబాయి', 'Rāṇī of Jhansi · 1857–58', 'ఝాన్సీ రాణి · 1857–58', '🗡️', 'linear-gradient(160deg,#2a0a0a,#c0602a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
