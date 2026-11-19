@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Pippalāda (pippalada) — Dadhīci's son raised under a pippala tree, his anger at the gods for his father's death, Śiva's calming of it; the teacher who answers six questions in the Praśna Upaniṣad (Praśna Upaniṣad; Śiva Purāṇa; Brahma Purāṇa — later tellings marked).
 - [ ] Asita Devala (devala) — named by Arjuna in the Gītā as a witness to Kṛṣṇa's divinity; Devala and the hidden yogī Jaigīṣavya at the Ādityatīrtha; the curse on Hūhū who became the crocodile of Gajendra (MBh Śalya and Śānti; Bhagavad Gītā 10; Bhāgavata 8).
 - [ ] Marīci (marici) — first of Brahmā's mind-born sons and of the Saptarṣis, father of Kaśyapa; his wife Kalā/Sambhūti and their line; the sons cursed to be born again (Purāṇas; Mahābhārata; Bhāgavata 3–4).
 - [ ] Gālava (galava) — Viśvāmitra's devoted pupil who insisted on a teacher's fee, the quest for eight hundred white horses with one black ear, Garuḍa's help, and Mādhavī (MBh Udyoga Parva).
@@ -102,3 +101,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Raikva (raikva) — 10 chapters — 2026-11-16
 - [x] Saubhari (saubhari) — 9 chapters — 2026-11-17
 - [x] Dīrghatamas (dirghatamas) — 11 chapters — 2026-11-18
+- [x] Pippalāda (pippalada) — 10 chapters — 2026-11-19
