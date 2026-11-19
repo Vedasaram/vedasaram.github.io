@@ -128,11 +128,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Rāma Meets Paraśurāma on the Road (Rāmāyaṇa) — rama-meets-parashurama
 - [x] Kīcaka and the Brave Sairandhrī (Mahābhārata) — kichaka-and-the-brave-sairandhri
 - [x] Hanumān in the Aśoka Garden Meets the Demon Guards (Rāmāyaṇa) — hanuman-in-the-ashoka-garden
+- [x] Śiśupāla's Hundred Mistakes (Mahābhārata) — shishupalas-hundred-mistakes
+- [x] Lakṣmaṇa Learns from the Dying Rāvaṇa (Rāmāyaṇa) — lakshmana-learns-from-ravana
+- [x] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — arjuna-and-the-five-crocodiles
 
 ## Next
-- [ ] Śiśupāla's Hundred Mistakes (Mahābhārata) — Śiśupāla, Kṛṣṇa
-- [ ] Lakṣmaṇa Learns from the Dying Rāvaṇa (Rāmāyaṇa tradition) — Lakṣmaṇa, Rāvaṇa, Rāma
-- [ ] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — Arjuna, the apsarās
 - [ ] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — Sītā, Vālmīki
 - [ ] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — Parīkṣit, Uttarā, Kṛṣṇa
 - [ ] Ṛṣyaśṛṅga, the Boy Who Brought the Rain (Rāmāyaṇa) — Ṛṣyaśṛṅga, Śāntā, Daśaratha
