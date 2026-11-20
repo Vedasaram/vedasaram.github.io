@@ -1295,7 +1295,7 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
   border:1px solid var(--accent); background:transparent; color:var(--accent); font-size:0.78rem; font-weight:600;
   font-family:inherit; cursor:pointer; opacity:0.85; }
 .mean-btn:active { opacity:1; background:rgba(200,120,20,0.12); }
-#meaning-sheet { position:fixed; inset:0; z-index:9000; background:var(--bg); display:none; flex-direction:column; }
+#meaning-sheet { position:fixed; inset:0; z-index:100000; background:var(--bg); display:none; flex-direction:column; }
 #meaning-sheet.open { display:flex; }
 .ms-bar { display:flex; align-items:center; gap:10px; padding:calc(10px + env(safe-area-inset-top)) 14px 10px;
   border-bottom:1px solid var(--border, rgba(0,0,0,0.1)); }
@@ -1303,16 +1303,16 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
   padding:5px 14px; font-weight:600; font-size:0.9rem; font-family:inherit; cursor:pointer; }
 .ms-title { font-weight:700; color:var(--accent); font-size:0.95rem; }
 .ms-body { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:18px 18px calc(30px + env(safe-area-inset-bottom)); }
-.ms-verse { font-size:1.05rem; line-height:1.9; padding-bottom:14px; margin-bottom:16px; border-bottom:1px solid var(--border, rgba(0,0,0,0.1)); }
+.ms-verse { font-size:1.15rem; line-height:1.9; padding-bottom:14px; margin-bottom:16px; border-bottom:1px solid var(--border, rgba(0,0,0,0.1)); }
 .ms-verse .verse-num { display:none; }
-.ms-verse .vline-te { font-size:1.05rem; }
-.ms-h { font-size:0.78rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent); margin:14px 0 6px; }
-.ms-text { font-size:1.02rem; line-height:1.75; color:var(--fg); }
+.ms-verse .vline-te { font-size:1.15rem; }
+.ms-h { font-size:0.85rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent); margin:14px 0 6px; }
+.ms-text { font-size:1.2rem; line-height:1.75; color:var(--fg); }
 .ms-text + .ms-text { margin-top:10px; }
 .ms-names { list-style:none; padding:0; margin:0; }
-.ms-names li { padding:9px 0; border-bottom:1px dashed var(--border, rgba(0,0,0,0.12)); line-height:1.55; }
+.ms-names li { font-size:1.12rem; padding:10px 0; border-bottom:1px dashed var(--border, rgba(0,0,0,0.12)); line-height:1.55; }
 .ms-names b { color:var(--accent); }
-.ms-names .ms-n2 { display:block; color:var(--fg2); font-size:0.93rem; }
+.ms-names .ms-n2 { display:block; color:var(--fg2); font-size:1.02rem; }
 .rep-badge { display:inline-block; margin:2px 0 6px; padding:2px 10px; border-radius:12px; font-size:0.78rem; font-weight:700;
   background:var(--accent); color:#fff; letter-spacing:0.02em; }
 /* ── New-update banner on the home page ── */
@@ -5758,6 +5758,7 @@ function openMeaning(key) {
     }).join('') + '</ul>';
   }
   const sheet = document.getElementById('meaning-sheet');
+  if (sheet.parentNode !== document.body) document.body.appendChild(sheet);   // iPhone: keep it above the top bar
   sheet.querySelector('.ms-title').textContent = title;
   sheet.querySelector('.ms-back').textContent = TT('← Back', '← వెనుకకు', '← वापस');
   const body = sheet.querySelector('.ms-body');
