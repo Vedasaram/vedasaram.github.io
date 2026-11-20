@@ -48,11 +48,15 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Vikramāditya VI (vikramaditya6) — Kalyāṇa Cālukya; the Cālukya-Vikrama era (1076); Bilhaṇa's Vikramāṅkadevacarita; Vijñāneśvara's Mitākṣarā; wars with the Cōḷas and Hoysaḷas
 - [ ] Hoysaḷa Viṣṇuvardhana (vishnuvardhana) — Biṭṭideva; Rāmānuja and the turn to Vaiṣṇavism (tradition); Queen Śāntalā; Talakāḍ won from the Cōḷas; the temples of Belur
 - [ ] Prolaya and Kāpaya Nāyaka (musunuri) — the Musunūri Nāyakas; freeing the Telugu country after Orugallu fell; the Vilasa grant; Warangal retaken (1336); the Bahmanī wars
 - [ ] Chhatrasāl Bundelā (chhatrasal) — boyhood in the Bundelkhand forests; meeting Śivājī; war with Aurangzeb's governors; Prāṇnāth and Panna's diamonds; Bājī Rāo's help (1729)
 - [ ] Bājī Rāo I (bajirao) — Peśvā at twenty; Palkhed (1728); Bundelkhand; the dash to Delhi (1737); Bhopal (1738); death on the Narmadā (1740)
+- [ ] Puṣyamitra Śuṅga (pushyamitra) — the last Maurya overthrown (Purāṇas, Bāṇa); the two Aśvamedhas (Ayodhyā inscription of Dhanadeva); the Yavana wars (Mālavikāgnimitra, Patañjali); Buddhist accounts and how historians weigh them
+- [ ] Yaśodharman (yashodharman) — Aulikara king of Daśapura (Mandsaur); the Mandsaur victory pillars; the defeat of the Hūṇa Mihirakula (about 528); a short-lived empire
+- [ ] Dharmapāla (dharmapala) — Pāla king of Bengal; Gopāla chosen king (Khalimpur plate); the Kanauj contest with the Pratīhāras and Rāṣṭrakūṭas; Vikramaśīla; Buddhist faith and Hindu subjects
+- [ ] Mahādajī Śinde (mahadji) — survivor of Pānipat (1761); the Treaty of Salbai (1782); master of Delhi and protector of Shah Alam; de Boigne's battalions; Lālsot and Pāṭan
+- [ ] Ranjīt Siṃh (ranjit) — Lahore taken (1799); uniting the Sikh misls; the Treaty of Amritsar (1809); the Koh-i-Nūr; Multān, Kashmir and Peshawar; the Golden Temple's gilding; the Fauj-i-Khās
 
 Add more when fewer than five remain: e.g. Puṣyamitra Śuṅga, Rudradāman's rival kings, Kumāragupta,
 Yaśodharman, Śaśāṅka, Mihira Bhoja, Dharmapāla, Amoghavarṣa I, Kṛṣṇa III, Vikramāditya VI, Hoysaḷa
@@ -86,3 +90,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Amoghavarṣa I (amoghavarsha) — 8 chapters — 2026-11-17
 - [x] Mihira Bhoja (mihirabhoja) — 9 chapters — 2026-11-18
 - [x] Rāṇī Lakṣmībāī (lakshmibai) — 9 chapters — 2026-11-19
+- [x] Vikramāditya VI (vikramanka) — 8 chapters — 2026-11-20
