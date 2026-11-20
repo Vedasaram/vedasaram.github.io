@@ -1289,6 +1289,37 @@ body.hs-lock { overflow: hidden; }
 
 /* Hindi mode: the books show Hindi (or English, for chapters whose Hindi is not ready) in their Telugu column (hi/hi.js); the reader's own language buttons are hidden */
 html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !important; }
+
+/* ── Meaning button + meaning sheet ── */
+.mean-btn { display:inline-flex; align-items:center; gap:4px; margin-top:8px; padding:3px 11px; border-radius:14px;
+  border:1px solid var(--accent); background:transparent; color:var(--accent); font-size:0.78rem; font-weight:600;
+  font-family:inherit; cursor:pointer; opacity:0.85; }
+.mean-btn:active { opacity:1; background:rgba(200,120,20,0.12); }
+#meaning-sheet { position:fixed; inset:0; z-index:9000; background:var(--bg); display:none; flex-direction:column; }
+#meaning-sheet.open { display:flex; }
+.ms-bar { display:flex; align-items:center; gap:10px; padding:calc(10px + env(safe-area-inset-top)) 14px 10px;
+  border-bottom:1px solid var(--border, rgba(0,0,0,0.1)); }
+.ms-back { border:1px solid var(--accent); background:transparent; color:var(--accent); border-radius:16px;
+  padding:5px 14px; font-weight:600; font-size:0.9rem; font-family:inherit; cursor:pointer; }
+.ms-title { font-weight:700; color:var(--accent); font-size:0.95rem; }
+.ms-body { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:18px 18px calc(30px + env(safe-area-inset-bottom)); }
+.ms-verse { font-size:1.05rem; line-height:1.9; padding-bottom:14px; margin-bottom:16px; border-bottom:1px solid var(--border, rgba(0,0,0,0.1)); }
+.ms-verse .verse-num { display:none; }
+.ms-verse .vline-te { font-size:1.05rem; }
+.ms-h { font-size:0.78rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent); margin:14px 0 6px; }
+.ms-text { font-size:1.02rem; line-height:1.75; color:var(--fg); }
+.ms-text + .ms-text { margin-top:10px; }
+.ms-names { list-style:none; padding:0; margin:0; }
+.ms-names li { padding:9px 0; border-bottom:1px dashed var(--border, rgba(0,0,0,0.12)); line-height:1.55; }
+.ms-names b { color:var(--accent); }
+.ms-names .ms-n2 { display:block; color:var(--fg2); font-size:0.93rem; }
+/* ── New-update banner on the home page ── */
+.update-banner { display:none; position:absolute; left:50%; transform:translateX(-50%); top:calc(58px + env(safe-area-inset-top));
+  z-index:5; max-width:90%; align-items:center; gap:8px; padding:9px 16px; border-radius:22px; border:none;
+  background:linear-gradient(135deg,#f0c040,#d08a10); color:#3a1a00; font-weight:700; font-size:0.9rem; font-family:inherit;
+  box-shadow:0 4px 16px rgba(0,0,0,0.35); cursor:pointer; white-space:nowrap; animation:ubPulse 2.4s ease-in-out infinite; }
+.update-banner.show { display:inline-flex; }
+@keyframes ubPulse { 0%,100% { box-shadow:0 4px 16px rgba(0,0,0,0.35); } 50% { box-shadow:0 4px 22px rgba(240,192,64,0.7); } }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600&display=swap">
@@ -1326,6 +1357,7 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
 <div id="main">
   <!-- Home view -->
   <div class="view active" id="view-home"></div>
+  <div id="meaning-sheet"><div class="ms-bar"><button class="ms-back" onclick="meaningBack()">← Back</button><div class="ms-title"></div></div><div class="ms-body"></div></div>
   <!-- Practice view -->
   <div class="view" id="view-practice"></div>
   <!-- Index view -->
@@ -3786,6 +3818,7 @@ function navRecord() {
   } catch (e) {}
 }
 window.addEventListener('popstate', e => {
+  if (meaningOpen) { closeMeaningSheet(); return; }   // back from a Meaning page: the verse page is left exactly as it was
   const s = e.state;
   if (!s || s.app !== 'vedasaram') return;
   if (state.reciting) stopRecite();
@@ -3799,6 +3832,7 @@ window.addEventListener('popstate', e => {
   } finally { navRestoring = false; }
 });
 function goBack() {
+  if (meaningOpen) { meaningBack(); return; }
   if (state.view === 'home') return;
   const cur = history.state;
   if (cur && cur.app === 'vedasaram' && cur.idx > 0) history.back();
@@ -3939,6 +3973,7 @@ function renderHome() {
 
   el.innerHTML = `
   <div class="home-screen">
+    <button id="update-banner" class="update-banner${updatePending() ? ' show' : ''}" onclick="applyUpdate()">✨ ${TT('New update available — tap to refresh', 'కొత్త అప్‌డేట్ వచ్చింది — రిఫ్రెష్ చేయడానికి నొక్కండి', 'नया अपडेट उपलब्ध — रिफ्रेश के लिए दबाएँ')}</button>
     <div class="home-hero-topbar">
       <button class="home-icon-btn" onclick="location.reload()" title="Refresh">↺</button>
       <button class="home-icon-btn" onclick="openHomeSettings()" title="Settings">⚙</button>
@@ -4631,7 +4666,7 @@ function renderVSNPractice(el) {
         <span class="verse-done-mark">✓</span>
         ${slokaNumLabel}
         ${speakerLabel}
-        <div class="verse-text">${linesHtml}</div>
+        <div class="verse-text">${linesHtml}</div>${meanBtn(key)}
       </div>`;
     }
   }
@@ -4801,7 +4836,7 @@ function renderGitaPractice(el) {
     html += `<div class="verse-block${isDone?' done':''}${isExpanded?' expanded':''}" data-key="${key}" onclick="toggleVerse('${key}')">
       <span class="verse-done-mark">✓</span>
       <div class="verse-text">${spkHtml}${linesHtml}<span class="verse-num">॥ ${v.n} ॥</span></div>
-      ${meaningHtml}
+      ${meaningHtml}${meanBtn(key)}
     </div>`;
   }
 
@@ -5641,25 +5676,96 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   });
 }
 
-// On load: silently check if a newer version exists and reload if so
-(function autoUpdate() {
+// ─────────────── NEW-UPDATE BANNER ───────────────
+// Every published update changes the cache name in sw.js. When it differs from the version this phone last
+// refreshed to, the home page shows a banner; tapping it clears the saved copy and reloads the app.
+const VER_KEY = 'vedasaram_ver';
+let remoteVer = null;
+function checkNewVersion() {
+  if (location.protocol === 'file:') return;
+  fetch('sw.js?t=' + Date.now(), { cache: 'no-store' })
+    .then(r => r.ok ? r.text() : '')
+    .then(t => {
+      const m = t.match(/const CACHE = '([^']+)'/);
+      if (!m) return;
+      remoteVer = m[1];
+      let seen = null; try { seen = localStorage.getItem(VER_KEY); } catch (e) {}
+      if (!seen) { try { localStorage.setItem(VER_KEY, remoteVer); } catch (e) {} return; }   // first visit: nothing to announce
+      showUpdateBanner(seen !== remoteVer);
+    }).catch(() => {});
+}
+function updatePending() {
+  let seen = null; try { seen = localStorage.getItem(VER_KEY); } catch (e) {}
+  return !!(remoteVer && seen && seen !== remoteVer);
+}
+function showUpdateBanner(on) {
+  const b = document.getElementById('update-banner');
+  if (b) b.classList.toggle('show', !!on);
+}
+async function applyUpdate() {
+  const b = document.getElementById('update-banner');
+  if (b) b.textContent = TT('Updating…', 'అప్‌డేట్ అవుతోంది…', 'अपडेट हो रहा है…');
+  try { if (remoteVer) localStorage.setItem(VER_KEY, remoteVer); } catch (e) {}
   try {
-    const CACHE_KEY = 'vedic_etag';
-    const url = location.href.split('?')[0];
-    fetch(url, { method: 'HEAD', cache: 'no-store' })
-      .then(r => {
-        const etag = r.headers.get('etag') || r.headers.get('last-modified') || '';
-        const saved = localStorage.getItem(CACHE_KEY) || '';
-        if (saved && etag && saved !== etag) {
-          // New version available — reload silently
-          localStorage.setItem(CACHE_KEY, etag);
-          location.reload(true);
-        } else if (etag) {
-          localStorage.setItem(CACHE_KEY, etag);
-        }
-      }).catch(() => {});
-  } catch(e) {}
-})();
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.getRegistration();
+      if (reg) await reg.update().catch(() => {});
+    }
+    if (window.caches) { const names = await caches.keys(); await Promise.all(names.map(n => caches.delete(n))); }
+  } catch (e) {}
+  location.replace(location.href.split('?')[0].split('#')[0] + '?v=' + Date.now());
+}
+checkNewVersion();
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkNewVersion(); });
+setInterval(checkNewVersion, 30 * 60 * 1000);
+
+// ─────────────── MEANING PAGE ───────────────
+// A small "Meaning" button on each verse opens its meaning over the page; Back (button, swipe or phone back)
+// closes it and leaves the verse page exactly where it was.
+let meaningOpen = false;
+function meanBtn(key) {
+  if (!window.MEANINGS || !MEANINGS[key]) return '';
+  return `<button class="mean-btn" onclick="event.stopPropagation();openMeaning('${key}')">📖 ${TT('Meaning', 'అర్థం', 'अर्थ')}</button>`;
+}
+function openMeaning(key) {
+  const m = window.MEANINGS && MEANINGS[key];
+  if (!m) return;
+  const L = settings.language;                        // en | both | te | hi
+  const blk = document.querySelector(`.verse-block[data-key="${key}"] .verse-text`);
+  const pick = (en, te, hi) => L === 'hi' ? [hi || en] : L === 'te' ? [te || en] : L === 'both' ? [en, te].filter(Boolean) : [en];
+  let title = '';
+  const g = key.match(/^gita_ch(\d+)_v(\d+)$/), v = key.match(/^vsn_([^_]+)_(\d+)$/);
+  if (g) title = TT(`Gītā ${g[1]}.${g[2]}`, `గీత ${g[1]}.${g[2]}`, `गीता ${g[1]}.${g[2]}`);
+  else if (v) title = isNaN(+v[1]) ? TT('Viṣṇu Sahasranāmam', 'విష్ణు సహస్రనామం', 'विष्णु सहस्रनाम')
+                                  : TT(`Viṣṇu Sahasranāmam · Śloka ${v[1]}`, `విష్ణు సహస్రనామం · శ్లోకం ${v[1]}`, `विष्णु सहस्रनाम · श्लोक ${v[1]}`);
+  let html = blk ? `<div class="ms-verse">${blk.innerHTML}</div>` : '';
+  html += `<div class="ms-h">${TT('Meaning', 'భావం', 'भावार्थ')}</div>` + pick(m.en, m.te, m.hi).map(t => `<div class="ms-text">${esc(t)}</div>`).join('');
+  if (m.names && m.names.length) {
+    html += `<div class="ms-h">${TT('The Names', 'నామాల అర్థం', 'नामों का अर्थ')}</div><ul class="ms-names">` + m.names.map(n => {
+      const [iast, te, en, teM, hiM] = n;
+      const nm = L === 'te' ? te : L === 'hi' ? hiName(te) : L === 'both' ? `${iast} · ${te}` : iast;
+      const means = pick(en, teM, hiM);
+      return `<li><b>${esc(nm)}</b> — ${esc(means[0])}${means[1] ? `<span class="ms-n2">${esc(means[1])}</span>` : ''}</li>`;
+    }).join('') + '</ul>';
+  }
+  const sheet = document.getElementById('meaning-sheet');
+  sheet.querySelector('.ms-title').textContent = title;
+  sheet.querySelector('.ms-back').textContent = TT('← Back', '← వెనుకకు', '← वापस');
+  const body = sheet.querySelector('.ms-body');
+  body.innerHTML = html; body.scrollTop = 0;
+  sheet.classList.add('open');
+  meaningOpen = true;
+  try { history.pushState({ app: 'vedasaram-meaning' }, ''); } catch (e) {}
+}
+function closeMeaningSheet() {
+  meaningOpen = false;
+  const sheet = document.getElementById('meaning-sheet');
+  if (sheet) sheet.classList.remove('open');
+}
+function meaningBack() {
+  if (history.state && history.state.app === 'vedasaram-meaning') history.back();   // popstate closes it
+  else closeMeaningSheet();
+}
 
 // Static labels marked data-en / data-hi follow the language
 function applyStaticLang() {
@@ -6789,6 +6895,8 @@ function openPanch() {
 <script src="audio/index.js"></script>
 <script src="hi/hi.js"></script><script src="hi/files.js"></script><script src="hi/ui.js"></script>
 <script>if (HI.on()) { (window.HI_FILES || []).forEach(f => document.write('<script src="' + f + '"><\/script>')); HI.loaded = true; }</script>
+<script src="meanings/gita.js"></script>
+<script src="meanings/vsn.js"></script>
 <script src="stories.js"></script>
 <script src="kids.js"></script>
 <script src="festivals.js"></script>
