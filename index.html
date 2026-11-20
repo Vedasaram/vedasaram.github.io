@@ -1309,6 +1309,7 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
 .ms-h { font-size:0.85rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent); margin:14px 0 6px; }
 .ms-text { font-size:1.2rem; line-height:1.75; color:var(--fg); }
 .ms-text + .ms-text { margin-top:10px; }
+.ms-simple { margin-top:18px; padding:12px 14px; border-radius:10px; background:var(--card-bg, rgba(200,120,20,0.07)); border-left:3px solid var(--accent); }
 .ms-names { list-style:none; padding:0; margin:0; }
 .ms-names li { font-size:1.12rem; padding:10px 0; border-bottom:1px dashed var(--border, rgba(0,0,0,0.12)); line-height:1.55; }
 .ms-names b { color:var(--accent); }
@@ -5757,6 +5758,9 @@ function openMeaning(key) {
       return `<li><b>${esc(nm)}</b> — ${esc(means[0])}${means[1] ? `<span class="ms-n2">${esc(means[1])}</span>` : ''}</li>`;
     }).join('') + '</ul>';
   }
+  const sw = window.SIMPLE && SIMPLE[key];
+  if (sw) html += `<div class="ms-simple"><div class="ms-h">${TT('In simple words', 'సరళంగా చెప్పాలంటే', 'सरल शब्दों में')}</div>` +
+    pick(sw.en, sw.te, sw.hi).map(t => `<div class="ms-text">${esc(t)}</div>`).join('') + '</div>';
   const sheet = document.getElementById('meaning-sheet');
   if (sheet.parentNode !== document.body) document.body.appendChild(sheet);   // iPhone: keep it above the top bar
   sheet.querySelector('.ms-title').textContent = title;
@@ -6907,6 +6911,8 @@ function openPanch() {
 <script>if (HI.on()) { (window.HI_FILES || []).forEach(f => document.write('<script src="' + f + '"><\/script>')); HI.loaded = true; }</script>
 <script src="meanings/gita.js"></script>
 <script src="meanings/vsn.js"></script>
+<script src="meanings/gita-simple.js"></script>
+<script src="meanings/vsn-simple.js"></script>
 <script src="stories.js"></script>
 <script src="kids.js"></script>
 <script src="festivals.js"></script>

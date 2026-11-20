@@ -12,6 +12,11 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 - Entry: `{ en: "...", te: "...", hi: "..." }`. VSN nāma ślokas also carry
   `names: [[IAST name, Telugu name, English, Telugu, Hindi], ...]`.
 - The app picks the language from settings (English, Telugu, Both = English + Telugu, Hindi).
+- **In simple words** (shown in a box at the bottom of the Meaning page): `meanings/gita-simple.js` and
+  `meanings/vsn-simple.js` — `window.SIMPLE = Object.assign(window.SIMPLE || {}, { key: {en, te, hi} })`, same keys.
+  Hari asked for this: a layman's explanation, NOT a literal translation — what the verse is really saying and why it
+  matters in everyday life, 2–4 warm, plain sentences, the way you'd explain it to a family member or a teenager.
+  Every Gītā verse that gets a meaning must also get a simple-words entry. Gītā Chapter 12 is the model.
 
 ## Hari's requirements
 
@@ -47,5 +52,5 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Done
 
-- [x] Gītā Chapter 12 — 20 verses — 2026-11-19
-- [x] VSN complete — invocation, Pūrva Pīṭhikā, Dhyānam, nāma ślokas 1–108, Phalaśruti (171) — 2026-11-19
+- [x] Gītā Chapter 12 — 20 verses (meaning + simple words) — 2026-11-19
+- [x] VSN complete — invocation, Pūrva Pīṭhikā, Dhyānam, nāma ślokas 1–108, Phalaśruti (171), meaning + simple words — 2026-11-19
