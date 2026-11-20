@@ -55,6 +55,7 @@
     ['saubhari', 'Saubhari', 'సౌభరి', 'The sage under the river who wed fifty princesses', 'యాభై మంది రాకుమార్తెలను పెళ్ళాడిన జలతపస్వి', '🐟', 'linear-gradient(160deg,#06283a,#3a8aa8)'],
     ['dirghatamas', 'Dīrghatamas', 'దీర్ఘతముడు', 'The blind seer of “Truth is one”', '“ఏకం సత్” దర్శించిన అంధ ఋషి', '👁️', 'linear-gradient(160deg,#0a0a2a,#5a4a9a)'],
     ['pippalada', 'Pippalāda', 'పిప్పలాదుడు', 'Orphan of the fig tree, teacher of the Praśna Upaniṣad', 'రావిచెట్టు బిడ్డ, ప్రశ్నోపనిషత్తు గురువు', '🌳', 'linear-gradient(160deg,#0a2a0a,#4a8a3a)'],
+    ['devala', 'Asita Devala', 'అసిత దేవలుడు', 'The host who became his guest’s pupil', 'అతిథికే శిష్యుడైన గృహస్థు', '🌅', 'linear-gradient(160deg,#2a1a2a,#a0607a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
