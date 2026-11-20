@@ -31,7 +31,6 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Gītā — Next (in this order)
 
-- [ ] Chapter 1
 - [ ] Chapter 2
 - [ ] Chapter 3
 - [ ] Chapter 4
@@ -52,5 +51,6 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Done
 
+- [x] Gītā Chapter 1 — 47 verses (meaning + simple words) — 2026-11-20
 - [x] Gītā Chapter 12 — 20 verses (meaning + simple words) — 2026-11-19
 - [x] VSN complete — invocation, Pūrva Pīṭhikā, Dhyānam, nāma ślokas 1–108, Phalaśruti (171), meaning + simple words — 2026-11-19
