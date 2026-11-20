@@ -1313,6 +1313,8 @@ html[lang=hi] .rmy-read .rbar .lang, html[lang=hi] .kz-langs { display: none !im
 .ms-names li { padding:9px 0; border-bottom:1px dashed var(--border, rgba(0,0,0,0.12)); line-height:1.55; }
 .ms-names b { color:var(--accent); }
 .ms-names .ms-n2 { display:block; color:var(--fg2); font-size:0.93rem; }
+.rep-badge { display:inline-block; margin:2px 0 6px; padding:2px 10px; border-radius:12px; font-size:0.78rem; font-weight:700;
+  background:var(--accent); color:#fff; letter-spacing:0.02em; }
 /* ── New-update banner on the home page ── */
 .update-banner { display:none; position:absolute; left:50%; transform:translateX(-50%); top:calc(58px + env(safe-area-inset-top));
   z-index:5; max-width:90%; align-items:center; gap:8px; padding:9px 16px; border-radius:22px; border:none;
@@ -2800,6 +2802,11 @@ const VSN_TE_DATA = {
   ],
 };
 
+// Ślokas traditionally chanted more than once (shown with a "× N" mark; recite mode plays them N times)
+const VSN_REPEAT = { 'phala_27': 3 };
+function repeatBadge(n) {
+  return n > 1 ? `<span class="rep-badge">× ${n} ${TT('times', 'సార్లు', 'बार')}</span>` : '';
+}
 const VSN_SECTIONS_ORDER = [
   'preamble', 'purva', 'dhyanam',
   ...Array.from({length:108}, (_,i) => String(i+1)),
@@ -4666,6 +4673,7 @@ function renderVSNPractice(el) {
         <span class="verse-done-mark">✓</span>
         ${slokaNumLabel}
         ${speakerLabel}
+        ${repeatBadge(VSN_REPEAT[sec + '_' + s.n])}
         <div class="verse-text">${linesHtml}</div>${meanBtn(key)}
       </div>`;
     }
@@ -5233,9 +5241,10 @@ function buildReciteItems() {
       const secNumbered = !isNaN(parseInt(sec));
       for (const s of slokas) {
         const teSloka = teSlokas.find(x => x.n === s.n) || (secNumbered ? teSlokas[slokas.indexOf(s)] : null);
-        items.push({
+        const reps = VSN_REPEAT[sec + '_' + s.n] || 1;
+        for (let r = 1; r <= reps; r++) items.push({
           id: `vsn_${sec}_${s.n}`,
-          label: secLabel + ' · ' + s.n,
+          label: secLabel + ' · ' + s.n + (reps > 1 ? ` (${r}/${reps})` : ''),
           lines: s.tlines,
           teLines: teSloka ? teSloka.tlines : [],
           sec,
