@@ -48,4 +48,4 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 ## Done
 
 - [x] Gītā Chapter 12 — 20 verses — 2026-11-19
-- [x] VSN invocation + nāma ślokas 1–5 — 2026-11-19
+- [x] VSN complete — invocation, Pūrva Pīṭhikā, Dhyānam, nāma ślokas 1–108, Phalaśruti (171) — 2026-11-19
