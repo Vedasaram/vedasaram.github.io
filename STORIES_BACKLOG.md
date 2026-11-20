@@ -131,11 +131,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Śiśupāla's Hundred Mistakes (Mahābhārata) — shishupalas-hundred-mistakes
 - [x] Lakṣmaṇa Learns from the Dying Rāvaṇa (Rāmāyaṇa) — lakshmana-learns-from-ravana
 - [x] Arjuna's Pilgrimage and the Five Crocodiles (Mahābhārata) — arjuna-and-the-five-crocodiles
+- [x] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — sita-in-valmikis-ashrama
+- [x] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — parikshit-the-baby-saved-by-krishna
+- [x] Ṛṣyaśṛṅga, the Boy Who Brought the Rain (Rāmāyaṇa) — rishyashringa-brings-the-rain
 
 ## Next
-- [ ] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — Sītā, Vālmīki
-- [ ] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — Parīkṣit, Uttarā, Kṛṣṇa
-- [ ] Ṛṣyaśṛṅga, the Boy Who Brought the Rain (Rāmāyaṇa) — Ṛṣyaśṛṅga, Śāntā, Daśaratha
 - [ ] Garuḍa Brings the Nectar (Mahābhārata) — Garuḍa, Vinatā, Kadrū
 - [ ] The Monkeys Raid the Honey Garden (Rāmāyaṇa) — Aṅgada, Hanumān, Dadhimukha, Sugrīva
 - [ ] Āruṇi, the Student Who Became a Dam (Mahābhārata) — Āruṇi, Dhaumya
