@@ -239,6 +239,368 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "संजय ने कहा: रणभूमि में ऐसा कहकर, शोक से व्याकुल मन वाला अर्जुन बाणों सहित धनुष त्यागकर रथ के पिछले भाग में बैठ गया।"
 },
 
+// ── Chapter 2 · Sāṅkhya Yoga ──
+"gita_ch2_v1": {
+  en: "Sañjaya said: To Arjuna, overcome with pity, his eyes full of tears and troubled, sinking in sorrow, Madhusūdana spoke these words.",
+  te: "సంజయుడు అన్నాడు: జాలితో నిండిపోయి, కన్నీళ్ళతో నిండిన కళ్ళతో కలవరపడుతూ, దుఃఖంలో మునిగిపోయిన అర్జునునితో మధుసూదనుడు ఈ మాటలు అన్నాడు.",
+  hi: "संजय ने कहा: करुणा से घिरे, आँसुओं से भरी व्याकुल आँखों वाले और शोक में डूबे अर्जुन से मधुसूदन ने ये वचन कहे।"
+},
+"gita_ch2_v2": {
+  en: "The Lord said: Arjuna, where has this weakness come upon you at such a critical hour? It does not suit a noble person; it leads neither to heaven nor to honour.",
+  te: "శ్రీ భగవానుడు అన్నాడు: అర్జునా! ఇంత కీలకమైన సమయంలో ఈ మనోదౌర్బల్యం నీకు ఎక్కడి నుండి వచ్చింది? ఇది శ్రేష్ఠులకు తగినది కాదు; స్వర్గాన్నీ ఇవ్వదు, కీర్తినీ ఇవ్వదు.",
+  hi: "श्री भगवान ने कहा: हे अर्जुन! इस संकट की घड़ी में यह मोह तुम पर कहाँ से आ गया? यह श्रेष्ठ पुरुषों के योग्य नहीं है; यह न स्वर्ग देता है, न यश।"
+},
+"gita_ch2_v3": {
+  en: "Do not give in to this unmanliness, Pārtha; it is not worthy of you. Shake off this petty weakness of heart and stand up, scorcher of foes!",
+  te: "పార్థా! ఈ పిరికితనానికి లొంగిపోకు; ఇది నీకు తగదు. ఈ అల్పమైన హృదయ దౌర్బల్యాన్ని వదిలించుకుని లే, పరంతపా!",
+  hi: "हे पार्थ! इस कायरता के वश में मत हो; यह तुम्हें शोभा नहीं देती। हृदय की इस तुच्छ दुर्बलता को त्यागकर उठ खड़े हो, हे परंतप!"
+},
+"gita_ch2_v4": {
+  en: "Arjuna said: Madhusūdana, how can I fight back with arrows in battle against Bhīṣma and Droṇa, who are worthy of my worship?",
+  te: "అర్జునుడు అన్నాడు: మధుసూదనా! పూజింపదగిన భీష్ముని, ద్రోణుని పైకి యుద్ధంలో నేను బాణాలతో ఎలా ఎదురు దాడి చేయగలను?",
+  hi: "अर्जुन ने कहा: हे मधुसूदन! पूजा के योग्य भीष्म और द्रोण पर मैं युद्ध में बाणों से कैसे प्रहार करूँ?"
+},
+"gita_ch2_v5": {
+  en: "Better to live in this world even by begging than to kill these noble elders. If I kill them, even the pleasures I enjoy here would be stained with their blood, however much I may gain.",
+  te: "ఈ మహానుభావులైన గురువులను చంపడం కంటే ఈ లోకంలో భిక్షమెత్తుకుని బ్రతకడమే మేలు. వారిని చంపితే, నేను అనుభవించే సుఖాలన్నీ వారి రక్తంతో తడిసినవే అవుతాయి.",
+  hi: "इन महान गुरुजनों को मारने से तो इस संसार में भीख माँगकर जीना भी अच्छा है। उन्हें मारकर जो भी सुख भोगूँगा, वे सब उनके रक्त से सने होंगे।"
+},
+"gita_ch2_v6": {
+  en: "We do not even know which is better for us — that we win or that they win. The sons of Dhṛtarāṣṭra stand before us, and if we kill them we would not even wish to live.",
+  te: "మనం గెలవడం మంచిదా, వాళ్ళు గెలవడం మంచిదా — ఏది శ్రేయస్కరమో కూడా మాకు తెలియడం లేదు. ఎవరిని చంపితే మేము బ్రతకాలని కూడా కోరుకోమో, ఆ ధృతరాష్ట్రుని కుమారులే మా ఎదుట నిలిచి ఉన్నారు.",
+  hi: "हम यह भी नहीं जानते कि हमारे लिए क्या अच्छा है — हम जीतें या वे जीतें। जिन्हें मारकर हम जीना भी नहीं चाहेंगे, वही धृतराष्ट्र के पुत्र हमारे सामने खड़े हैं।"
+},
+"gita_ch2_v7": {
+  en: "My natural strength is overpowered by weakness and my mind is confused about what is right. I ask You: tell me for certain what is best for me. I am Your disciple; I have taken refuge in You — teach me.",
+  te: "దైన్యం నా సహజ స్వభావాన్ని కప్పేసింది; ఏది ధర్మమో తెలియక నా మనసు అయోమయంలో ఉంది. నిన్ను అడుగుతున్నాను — నాకు నిజంగా ఏది శ్రేయస్కరమో నిశ్చయంగా చెప్పు. నేను నీ శిష్యుణ్ణి, నిన్ను శరణు వేడాను — నాకు బోధించు.",
+  hi: "दीनता ने मेरे स्वभाव को दबा लिया है और धर्म के विषय में मेरा मन उलझ गया है। मैं आपसे पूछता हूँ — जो निश्चित रूप से मेरे लिए कल्याणकारी हो, वह बताइए। मैं आपका शिष्य हूँ, आपकी शरण में आया हूँ — मुझे उपदेश दीजिए।"
+},
+"gita_ch2_v8": {
+  en: "Even if I won an unrivalled, prosperous kingdom on earth, or even lordship over the gods, I see nothing that could remove this grief that is drying up my senses.",
+  te: "భూమిపై ఎదురులేని, సంపన్నమైన రాజ్యం దక్కినా, దేవతలపై ఆధిపత్యం దక్కినా సరే — నా ఇంద్రియాలను ఎండిపోయేలా చేస్తున్న ఈ శోకాన్ని పోగొట్టేది ఏదీ నాకు కనిపించడం లేదు.",
+  hi: "पृथ्वी पर निष्कंटक, समृद्ध राज्य मिल जाए या देवताओं का आधिपत्य भी — मुझे ऐसा कुछ नहीं दिखता जो मेरी इंद्रियों को सुखा देने वाले इस शोक को दूर कर सके।"
+},
+"gita_ch2_v9": {
+  en: "Sañjaya said: Having spoken thus to Hṛṣīkeśa, Arjuna, the conqueror of sleep, said to Govinda, ‘I will not fight,’ and fell silent.",
+  te: "సంజయుడు అన్నాడు: హృషీకేశునితో ఇలా చెప్పి, నిద్రను జయించిన అర్జునుడు గోవిందునితో ‘నేను యుద్ధం చేయను’ అని పలికి మౌనంగా ఉండిపోయాడు.",
+  hi: "संजय ने कहा: हृषीकेश से ऐसा कहकर, निद्रा को जीतने वाले अर्जुन ने गोविंद से ‘मैं युद्ध नहीं करूँगा’ कहा और चुप हो गया।"
+},
+"gita_ch2_v10": {
+  en: "Then, O Bhārata, between the two armies, Hṛṣīkeśa, as if smiling, spoke these words to the grieving Arjuna.",
+  te: "భారతా! అప్పుడు రెండు సైన్యాల మధ్య, దుఃఖిస్తున్న అర్జునునితో హృషీకేశుడు చిరునవ్వు నవ్వుతున్నట్లుగా ఈ మాటలు అన్నాడు.",
+  hi: "हे भारत! तब दोनों सेनाओं के बीच, शोक करते अर्जुन से हृषीकेश ने मानो मुस्कुराते हुए ये वचन कहे।"
+},
+"gita_ch2_v11": {
+  en: "The Lord said: You grieve for those who need no grieving, and yet you speak words that sound wise. The truly wise grieve neither for the dead nor for the living.",
+  te: "శ్రీ భగవానుడు అన్నాడు: దుఃఖించనక్కరలేని వారి కోసం నువ్వు దుఃఖిస్తున్నావు, అయినా జ్ఞానుల్లా మాట్లాడుతున్నావు. నిజమైన జ్ఞానులు చనిపోయినవారి కోసం గానీ, బ్రతికున్నవారి కోసం గానీ శోకించరు.",
+  hi: "श्री भगवान ने कहा: तुम उनके लिए शोक कर रहे हो जो शोक के योग्य नहीं, और फिर भी ज्ञानियों जैसी बातें करते हो। सच्चे ज्ञानी न मरे हुओं के लिए शोक करते हैं, न जीवितों के लिए।"
+},
+"gita_ch2_v12": {
+  en: "Never was there a time when I did not exist, nor you, nor these kings; nor will any of us ever cease to exist in the future.",
+  te: "నేను లేని కాలం ఎప్పుడూ లేదు; నువ్వు గానీ, ఈ రాజులు గానీ లేని కాలమూ లేదు. ఇకముందు కూడా మనమెవ్వరం లేకుండా పోము.",
+  hi: "ऐसा कभी नहीं था कि मैं न रहा हूँ, या तुम न रहे हो, या ये राजा न रहे हों; और न ही आगे कभी ऐसा होगा कि हम सब न रहें।"
+},
+"gita_ch2_v13": {
+  en: "Just as the embodied soul passes through childhood, youth and old age in this body, so it passes into another body. The steady person is not confused by this.",
+  te: "ఈ దేహంలో ఉన్న ఆత్మకు బాల్యం, యౌవనం, ముసలితనం ఎలా వస్తాయో, అలాగే మరో దేహం కూడా వస్తుంది. ధీరుడు దీనికి కలవరపడడు.",
+  hi: "जैसे देहधारी आत्मा इस शरीर में बचपन, जवानी और बुढ़ापे से गुज़रती है, वैसे ही उसे दूसरा शरीर मिलता है। धीर पुरुष इससे मोहित नहीं होता।"
+},
+"gita_ch2_v14": {
+  en: "Contact of the senses with their objects brings cold and heat, pleasure and pain. They come and go and do not last — bear them patiently, Arjuna.",
+  te: "కౌంతేయా! ఇంద్రియాలు విషయాలను తాకినప్పుడు చలి-వేడి, సుఖ-దుఃఖాలు కలుగుతాయి. అవి వచ్చిపోయేవి, శాశ్వతం కానివి — భారతా, వాటిని ఓర్పుతో సహించు.",
+  hi: "हे कौंतेय! इंद्रियों का विषयों से संपर्क सर्दी-गर्मी और सुख-दुःख देता है। ये आते-जाते हैं, स्थायी नहीं हैं — हे भारत, इन्हें धैर्य से सहन करो।"
+},
+"gita_ch2_v15": {
+  en: "The steady person whom these do not disturb, who stays the same in pain and pleasure — that person, best of men, becomes fit for immortality.",
+  te: "పురుషశ్రేష్ఠా! ఇవి ఎవరిని కలవరపెట్టవో, సుఖదుఃఖాలలో ఎవరు సమంగా, ధీరంగా ఉంటారో — ఆ మనిషే అమృతత్వానికి (మోక్షానికి) అర్హుడవుతాడు.",
+  hi: "हे पुरुषश्रेष्ठ! जिसे ये व्याकुल नहीं करते, जो सुख-दुःख में समान और धीर रहता है — वही अमृतत्व (मोक्ष) के योग्य होता है।"
+},
+"gita_ch2_v16": {
+  en: "The unreal has no lasting existence, and the real never ceases to be. Those who see the truth have understood the nature of both.",
+  te: "అసత్యమైనదానికి ఉనికి లేదు; సత్యమైనదానికి నాశనం లేదు. తత్త్వం తెలిసినవారు ఈ రెండింటి నిజస్వరూపాన్నీ గ్రహించారు.",
+  hi: "असत् का अस्तित्व नहीं है और सत् का अभाव नहीं है। तत्त्वदर्शियों ने इन दोनों का सच्चा स्वरूप जान लिया है।"
+},
+"gita_ch2_v17": {
+  en: "Know that That which pervades this whole world is indestructible. No one can bring about the destruction of the imperishable.",
+  te: "ఈ సమస్త జగత్తునూ వ్యాపించి ఉన్నది నాశనం లేనిదని తెలుసుకో. నాశనం లేని దానిని ఎవ్వరూ నాశనం చేయలేరు.",
+  hi: "जिससे यह सारा जगत व्याप्त है, उसे अविनाशी जानो। उस अविनाशी का विनाश कोई नहीं कर सकता।"
+},
+"gita_ch2_v18": {
+  en: "These bodies of the eternal, indestructible and immeasurable soul are said to have an end. Therefore, fight, O Bhārata.",
+  te: "నిత్యమైన, నాశనం లేని, అంచనాకు అందని ఆత్మ ధరించిన ఈ దేహాలు మాత్రమే అంతమయ్యేవి. కాబట్టి భారతా, యుద్ధం చెయ్యి.",
+  hi: "नित्य, अविनाशी और अपरिमेय आत्मा के ये शरीर नाशवान कहे गए हैं। इसलिए हे भारत, युद्ध करो।"
+},
+"gita_ch2_v19": {
+  en: "One who thinks the soul is a killer, and one who thinks it is killed — both do not understand. The soul neither kills nor is killed.",
+  te: "ఆత్మ చంపుతుందని అనుకునేవాడూ, ఆత్మ చంపబడుతుందని అనుకునేవాడూ — ఇద్దరూ నిజం తెలియనివారే. ఆత్మ ఎవరినీ చంపదు, చంపబడదు.",
+  hi: "जो आत्मा को मारने वाला समझता है और जो उसे मरा हुआ मानता है — दोनों ही सत्य नहीं जानते। आत्मा न मारती है, न मारी जाती है।"
+},
+"gita_ch2_v20": {
+  en: "The soul is never born and never dies; it did not come into being and will not cease to be. Unborn, eternal, everlasting and ancient, it is not killed when the body is killed.",
+  te: "ఆత్మ ఎప్పుడూ పుట్టదు, ఎప్పుడూ చావదు; ఒకప్పుడు పుట్టి, మళ్ళీ లేకుండా పోయేది కాదు. పుట్టుక లేనిది, నిత్యమైనది, శాశ్వతమైనది, సనాతనమైనది — దేహం చంపబడినా ఇది చంపబడదు.",
+  hi: "आत्मा न कभी जन्म लेती है, न मरती है; न यह होकर फिर न होने वाली है। यह अजन्मा, नित्य, शाश्वत और पुरातन है — शरीर के मारे जाने पर भी यह नहीं मरती।"
+},
+"gita_ch2_v21": {
+  en: "Pārtha, one who knows the soul to be indestructible, eternal, unborn and unchanging — how can such a person kill anyone, or cause anyone to be killed?",
+  te: "పార్థా! ఆత్మను నాశనం లేనిదిగా, నిత్యమైనదిగా, పుట్టుక లేనిదిగా, మార్పు లేనిదిగా తెలుసుకున్నవాడు ఎవరినైనా ఎలా చంపగలడు? ఎవరిని చంపించగలడు?",
+  hi: "हे पार्थ! जो आत्मा को अविनाशी, नित्य, अजन्मा और अविकारी जानता है, वह किसे कैसे मार सकता है, या किसे मरवा सकता है?"
+},
+"gita_ch2_v22": {
+  en: "Just as a person throws away worn-out clothes and puts on new ones, so the embodied soul leaves worn-out bodies and enters new ones.",
+  te: "మనిషి పాతబడిన బట్టలను విడిచి కొత్త బట్టలు ఎలా ధరిస్తాడో, అలాగే దేహంలోని ఆత్మ పాతబడిన శరీరాలను విడిచి కొత్త శరీరాలను పొందుతుంది.",
+  hi: "जैसे मनुष्य पुराने वस्त्र छोड़कर नए वस्त्र पहन लेता है, वैसे ही आत्मा जीर्ण शरीरों को छोड़कर नए शरीरों में प्रवेश करती है।"
+},
+"gita_ch2_v23": {
+  en: "Weapons cannot cut the soul, fire cannot burn it, water cannot wet it, and wind cannot dry it.",
+  te: "ఆయుధాలు ఆత్మను నరకలేవు, అగ్ని దీనిని కాల్చలేదు, నీరు తడపలేదు, గాలి ఎండబెట్టలేదు.",
+  hi: "आत्मा को शस्त्र काट नहीं सकते, आग जला नहीं सकती, जल भिगो नहीं सकता और वायु सुखा नहीं सकती।"
+},
+"gita_ch2_v24": {
+  en: "It cannot be cut, burnt, wetted or dried. It is eternal, present everywhere, stable, unmoving and timeless.",
+  te: "ఇది నరకబడనిది, కాల్చబడనిది, తడపబడనిది, ఎండబడనిది. ఇది నిత్యమైనది, అంతటా ఉన్నది, స్థిరమైనది, కదలనిది, సనాతనమైనది.",
+  hi: "यह न काटी जा सकती है, न जलाई, न भिगोई, न सुखाई। यह नित्य, सर्वव्यापी, स्थिर, अचल और सनातन है।"
+},
+"gita_ch2_v25": {
+  en: "It is said to be unseen, beyond thought and unchanging. Knowing it to be so, you should not grieve.",
+  te: "ఇది కంటికి కనిపించనిది, ఆలోచనకు అందనిది, మార్పు లేనిది అని చెబుతారు. దీనిని ఇలా తెలుసుకుని, నువ్వు శోకించకూడదు.",
+  hi: "इसे अव्यक्त, अचिंत्य और अविकारी कहा जाता है। इसे ऐसा जानकर तुम्हें शोक नहीं करना चाहिए।"
+},
+"gita_ch2_v26": {
+  en: "And even if you think the soul is constantly born and constantly dies, mighty-armed one, even then you should not grieve.",
+  te: "మహాబాహూ! ఒకవేళ ఆత్మ ఎప్పుడూ పుడుతూ, ఎప్పుడూ చనిపోతూ ఉంటుందని నువ్వు అనుకున్నా సరే — అప్పుడు కూడా నువ్వు ఇలా దుఃఖించనక్కరలేదు.",
+  hi: "हे महाबाहो! यदि तुम आत्मा को सदा जन्म लेने वाली और सदा मरने वाली भी मानो, तब भी तुम्हें इस प्रकार शोक नहीं करना चाहिए।"
+},
+"gita_ch2_v27": {
+  en: "For death is certain for whatever is born, and birth is certain for whatever dies. So you should not grieve over what cannot be avoided.",
+  te: "పుట్టినవానికి మరణం తప్పదు; మరణించినవానికి మళ్ళీ పుట్టుక తప్పదు. కాబట్టి తప్పించుకోలేని విషయం గురించి నువ్వు శోకించకూడదు.",
+  hi: "जो जन्मा है उसकी मृत्यु निश्चित है, और जो मरा है उसका जन्म निश्चित है। इसलिए जो टल नहीं सकता, उस पर तुम्हें शोक नहीं करना चाहिए।"
+},
+"gita_ch2_v28": {
+  en: "Beings are unseen before birth, seen in the middle, and unseen again after death, O Bhārata. What is there to lament in this?",
+  te: "భారతా! ప్రాణులు పుట్టుకకు ముందు కనిపించవు, మధ్యలో కనిపిస్తాయి, మరణం తర్వాత మళ్ళీ కనిపించవు. ఇందులో విలపించడానికి ఏముంది?",
+  hi: "हे भारत! प्राणी जन्म से पहले अप्रकट, बीच में प्रकट और मृत्यु के बाद फिर अप्रकट हो जाते हैं। इसमें विलाप की क्या बात है?"
+},
+"gita_ch2_v29": {
+  en: "Some look upon the soul as a wonder, some speak of it as a wonder, and some hear of it as a wonder; yet even after hearing, no one truly knows it.",
+  te: "కొందరు ఆత్మను ఒక అద్భుతంగా చూస్తారు; కొందరు అద్భుతంగా వర్ణిస్తారు; మరికొందరు అద్భుతంగా వింటారు. అయినా విన్న తర్వాత కూడా దీనిని పూర్తిగా తెలుసుకున్నవారు ఎవరూ లేరు.",
+  hi: "कोई आत्मा को आश्चर्य की तरह देखता है, कोई आश्चर्य की तरह उसका वर्णन करता है, और कोई आश्चर्य की तरह सुनता है; फिर भी सुनकर भी कोई इसे पूरी तरह नहीं जानता।"
+},
+"gita_ch2_v30": {
+  en: "The soul dwelling in every body can never be slain, O Bhārata. Therefore you should not grieve for any being.",
+  te: "భారతా! అందరి దేహాల్లో ఉన్న ఆత్మ ఎప్పటికీ చంపబడదు. కాబట్టి ఏ ప్రాణి గురించీ నువ్వు శోకించకూడదు.",
+  hi: "हे भारत! सबके शरीर में रहने वाली यह आत्मा सदा अवध्य है। इसलिए किसी भी प्राणी के लिए तुम्हें शोक नहीं करना चाहिए।"
+},
+"gita_ch2_v31": {
+  en: "Looking at your own duty too, you should not waver. For a warrior there is nothing better than a righteous battle.",
+  te: "నీ స్వధర్మాన్ని చూసుకున్నా కూడా నువ్వు తడబడకూడదు. క్షత్రియునికి ధర్మయుద్ధం కంటే శ్రేయస్కరమైనది మరొకటి లేదు.",
+  hi: "अपने स्वधर्म को देखकर भी तुम्हें डगमगाना नहीं चाहिए। क्षत्रिय के लिए धर्मयुद्ध से बढ़कर कल्याणकारी और कुछ नहीं है।"
+},
+"gita_ch2_v32": {
+  en: "Happy are the warriors, Pārtha, who meet such a battle that comes on its own, like an open door to heaven.",
+  te: "పార్థా! తనంతట తానే వచ్చిన, తెరిచిన స్వర్గద్వారంలాంటి ఇలాంటి యుద్ధం అదృష్టవంతులైన క్షత్రియులకే లభిస్తుంది.",
+  hi: "हे पार्थ! अपने आप आया हुआ, खुले स्वर्गद्वार जैसा ऐसा युद्ध भाग्यशाली क्षत्रियों को ही मिलता है।"
+},
+"gita_ch2_v33": {
+  en: "But if you will not fight this righteous war, then you will abandon your duty and your good name, and you will incur sin.",
+  te: "కానీ ఈ ధర్మయుద్ధాన్ని నువ్వు చేయకపోతే, నీ స్వధర్మాన్నీ, కీర్తినీ పోగొట్టుకుని పాపాన్ని పొందుతావు.",
+  hi: "परंतु यदि तुम यह धर्मयुद्ध नहीं करोगे, तो अपना स्वधर्म और कीर्ति खोकर पाप के भागी बनोगे।"
+},
+"gita_ch2_v34": {
+  en: "People will speak of your dishonour for ever. And for one who has been respected, dishonour is worse than death.",
+  te: "లోకులు నీ అపకీర్తిని ఎప్పటికీ చెప్పుకుంటారు. గౌరవం పొందినవానికి అపకీర్తి మరణం కంటే ఘోరమైనది.",
+  hi: "लोग सदा तुम्हारी अपकीर्ति की चर्चा करेंगे। और सम्मानित व्यक्ति के लिए अपकीर्ति मृत्यु से भी बढ़कर है।"
+},
+"gita_ch2_v35": {
+  en: "The great chariot-warriors will think you withdrew from battle out of fear, and those who held you in high esteem will think little of you.",
+  te: "నువ్వు భయంతో యుద్ధం నుండి వెనక్కి తగ్గావని మహారథులు అనుకుంటారు. నిన్ను ఎంతో గౌరవించినవారి దృష్టిలో నువ్వు చులకనైపోతావు.",
+  hi: "महारथी समझेंगे कि तुम डरकर युद्ध से हट गए, और जो तुम्हें बहुत मानते थे, उनकी दृष्टि में तुम छोटे हो जाओगे।"
+},
+"gita_ch2_v36": {
+  en: "Your enemies will say many unspeakable things, mocking your strength. What could be more painful than that?",
+  te: "నీ శత్రువులు నీ సామర్థ్యాన్ని హేళన చేస్తూ, అనకూడని మాటలెన్నో అంటారు. అంతకంటే బాధాకరమైనది ఇంకేముంటుంది?",
+  hi: "तुम्हारे शत्रु तुम्हारे सामर्थ्य की निंदा करते हुए बहुत-सी न कहने योग्य बातें कहेंगे। इससे बढ़कर दुःख और क्या होगा?"
+},
+"gita_ch2_v37": {
+  en: "If you are killed, you will reach heaven; if you win, you will enjoy the earth. So rise, son of Kuntī, determined to fight.",
+  te: "యుద్ధంలో చనిపోతే స్వర్గాన్ని పొందుతావు; గెలిస్తే భూమిని అనుభవిస్తావు. కాబట్టి కౌంతేయా, యుద్ధం చేయాలనే దృఢ నిశ్చయంతో లే.",
+  hi: "मारे गए तो स्वर्ग पाओगे, जीत गए तो पृथ्वी का भोग करोगे। इसलिए हे कौंतेय, युद्ध का दृढ़ निश्चय करके उठो।"
+},
+"gita_ch2_v38": {
+  en: "Treating pleasure and pain, gain and loss, victory and defeat as the same, get ready for battle. In this way you will not incur sin.",
+  te: "సుఖదుఃఖాలనూ, లాభనష్టాలనూ, జయాపజయాలనూ సమానంగా భావించి యుద్ధానికి సిద్ధమవ్వు. ఇలా చేస్తే నీకు పాపం అంటదు.",
+  hi: "सुख-दुःख, लाभ-हानि और जय-पराजय को समान मानकर युद्ध के लिए तैयार हो जाओ। ऐसा करने से तुम्हें पाप नहीं लगेगा।"
+},
+"gita_ch2_v39": {
+  en: "So far I have taught you the wisdom of Sāṅkhya, knowledge of the Self. Now hear the wisdom of Yoga; joined with it, Pārtha, you will break free from the bondage of action.",
+  te: "ఇంతవరకు నీకు సాంఖ్యజ్ఞానాన్ని (ఆత్మజ్ఞానాన్ని) చెప్పాను. ఇప్పుడు యోగబుద్ధిని గురించి విను. పార్థా, ఆ బుద్ధితో కూడితే కర్మబంధం నుండి విడుదలవుతావు.",
+  hi: "अब तक मैंने तुम्हें सांख्य (आत्मज्ञान) की बुद्धि बताई। अब योग की बुद्धि सुनो; हे पार्थ, उससे युक्त होकर तुम कर्म के बंधन से छूट जाओगे।"
+},
+"gita_ch2_v40": {
+  en: "On this path no effort is ever wasted and there is no harm from falling short. Even a little of this dharma protects one from great fear.",
+  te: "ఈ మార్గంలో చేసిన ప్రయత్నం ఎప్పుడూ వృథా కాదు; అసంపూర్ణంగా ఆగిపోయినా హాని ఉండదు. ఈ ధర్మం కొంచెం ఆచరించినా గొప్ప భయం నుండి కాపాడుతుంది.",
+  hi: "इस मार्ग में किया गया प्रयास कभी व्यर्थ नहीं जाता और अधूरा रहने पर भी कोई हानि नहीं होती। इस धर्म का थोड़ा-सा पालन भी बड़े भय से रक्षा करता है।"
+},
+"gita_ch2_v41": {
+  en: "Here, joy of the Kurus, the resolute mind is single and focused; but the thoughts of the irresolute are many-branched and endless.",
+  te: "కురునందనా! ఈ మార్గంలో నిశ్చయమైన బుద్ధి ఒక్కటే, ఏకాగ్రమైనది. నిశ్చయం లేనివారి ఆలోచనలు అనేక కొమ్మలుగా, అంతులేకుండా చీలిపోతాయి.",
+  hi: "हे कुरुनंदन! इस मार्ग में निश्चयवाली बुद्धि एक ही होती है; पर अनिश्चयी लोगों की बुद्धियाँ अनेक शाखाओं वाली और अनंत होती हैं।"
+},
+"gita_ch2_v42": {
+  en: "Pārtha, the unwise speak flowery words; they delight in the letter of the Vedas and say there is nothing beyond it —",
+  te: "పార్థా! అవివేకులు పూలవంటి ఆకర్షణీయమైన మాటలు పలుకుతారు; వేదాల్లోని కర్మకాండ మాటలలోనే ఆనందిస్తూ, ఇంతకు మించి ఇంకేమీ లేదని అంటారు —",
+  hi: "हे पार्थ! अज्ञानी लोग फूलों जैसी लुभावनी बातें करते हैं; वे वेदों के कर्मकांड वाले वचनों में ही रमे रहते हैं और कहते हैं कि इसके आगे कुछ नहीं है —"
+},
+"gita_ch2_v43": {
+  en: "— full of desires, intent on heaven, they praise many special rituals that promise rebirth as the reward of action and aim at pleasure and power.",
+  te: "— కోరికలతో నిండి, స్వర్గమే పరమ లక్ష్యంగా భావిస్తూ, భోగాలనూ ఐశ్వర్యాన్నీ ఇచ్చే, మళ్ళీ జన్మనే ఫలంగా ఇచ్చే ఎన్నో ప్రత్యేక కర్మలను వారు పొగుడుతారు.",
+  hi: "— कामनाओं से भरे, स्वर्ग को ही परम मानने वाले वे भोग और ऐश्वर्य दिलाने वाले, और कर्मफल के रूप में फिर जन्म देने वाले अनेक विशेष कर्मकांडों का गुणगान करते हैं।"
+},
+"gita_ch2_v44": {
+  en: "Those who cling to pleasure and power, whose minds are carried away by such words, do not attain the resolute mind that rests in meditation.",
+  te: "భోగాలకూ ఐశ్వర్యానికీ అతుక్కుపోయి, ఆ మాటలకు మనసు కొట్టుకుపోయినవారికి సమాధిలో నిలిచే నిశ్చయమైన బుద్ధి కలగదు.",
+  hi: "जो भोग और ऐश्वर्य में आसक्त हैं और जिनका मन उन वचनों से हर लिया गया है, उनकी निश्चयवाली बुद्धि समाधि में स्थिर नहीं होती।"
+},
+"gita_ch2_v45": {
+  en: "The Vedas deal with the three guṇas; rise above the three guṇas, Arjuna. Be free from the pairs of opposites, always rooted in purity, unconcerned with getting and keeping, and centred in the Self.",
+  te: "అర్జునా! వేదాలు త్రిగుణాలకు సంబంధించిన విషయాలను చెబుతాయి; నువ్వు త్రిగుణాలకు అతీతుడివి కా. ద్వంద్వాలకు అతీతంగా, ఎల్లప్పుడూ సత్త్వంలో నిలిచి, సంపాదించడం-కాపాడుకోవడం అనే చింత లేకుండా, ఆత్మనిష్ఠుడివై ఉండు.",
+  hi: "हे अर्जुन! वेद तीन गुणों के विषयों का वर्णन करते हैं; तुम तीनों गुणों से ऊपर उठो। द्वंद्वों से मुक्त, सदा सत्त्व में स्थित, पाने और बचाने की चिंता से रहित और आत्मनिष्ठ बनो।"
+},
+"gita_ch2_v46": {
+  en: "Whatever use there is for a small well when there is water flooding everywhere, that much use is there in all the Vedas for a brāhmaṇa who knows the truth.",
+  te: "అంతటా నీళ్ళు నిండిపోయినప్పుడు చిన్న బావితో ఎంత ప్రయోజనమో, తత్త్వం తెలిసిన బ్రహ్మజ్ఞానికి వేదాలన్నిటితో అంతే ప్రయోజనం.",
+  hi: "चारों ओर जल से भर जाने पर एक छोटे कुएँ का जितना प्रयोजन रहता है, सत्य को जानने वाले ब्रह्मज्ञानी के लिए सब वेदों का उतना ही प्रयोजन रहता है।"
+},
+"gita_ch2_v47": {
+  en: "Your right is to the work alone, never to its fruits. Do not let the result be your motive, and do not be attached to doing nothing.",
+  te: "నీకు కర్మ చేయడంలోనే అధికారం ఉంది, దాని ఫలాల మీద ఎప్పుడూ లేదు. ఫలం కోసమే పని చేసేవాడివి కాకు; అలాగని పని చేయకుండా ఉండటంపైనా ఆసక్తి పెట్టుకోకు.",
+  hi: "तुम्हारा अधिकार केवल कर्म पर है, उसके फलों पर कभी नहीं। फल को कर्म का कारण मत बनाओ, और कर्म न करने में भी आसक्ति मत रखो।"
+},
+"gita_ch2_v48": {
+  en: "Established in yoga, do your work, Dhanañjaya, giving up attachment and staying the same in success and failure. This evenness of mind is called yoga.",
+  te: "ధనంజయా! యోగంలో నిలిచి, ఆసక్తిని విడిచిపెట్టి, విజయంలోనూ వైఫల్యంలోనూ సమంగా ఉంటూ కర్మలు చెయ్యి. ఈ సమత్వమే యోగం అనబడుతుంది.",
+  hi: "हे धनंजय! योग में स्थित होकर, आसक्ति त्यागकर और सफलता-असफलता में समान रहकर कर्म करो। यही समत्व योग कहलाता है।"
+},
+"gita_ch2_v49": {
+  en: "Action done for its rewards is far inferior to action done with this balanced understanding, Dhanañjaya. Take refuge in that understanding; pitiable are those who work only for results.",
+  te: "ధనంజయా! సమత్వబుద్ధితో చేసే కర్మ కంటే ఫలం కోసం చేసే కర్మ చాలా తక్కువస్థాయిది. ఆ బుద్ధినే ఆశ్రయించు; ఫలం కోసమే పనిచేసేవారు దీనులు.",
+  hi: "हे धनंजय! समत्व-बुद्धि से किए कर्म की तुलना में फल के लिए किया गया कर्म बहुत निम्न है। उसी बुद्धि की शरण लो; केवल फल के लिए कर्म करने वाले दयनीय हैं।"
+},
+"gita_ch2_v50": {
+  en: "One joined with this wisdom leaves behind both good and bad deeds even here. So devote yourself to yoga — yoga is skill in action.",
+  te: "సమత్వబుద్ధితో కూడినవాడు ఇక్కడే పుణ్యపాపాలు రెండింటినీ దాటిపోతాడు. కాబట్టి యోగాన్ని ఆశ్రయించు — కర్మలలో నైపుణ్యమే యోగం.",
+  hi: "इस बुद्धि से युक्त व्यक्ति यहीं पुण्य और पाप दोनों से ऊपर उठ जाता है। इसलिए योग में लग जाओ — कर्मों में कुशलता ही योग है।"
+},
+"gita_ch2_v51": {
+  en: "The wise, joined with this understanding, give up the fruits born of action; freed from the bondage of birth, they reach the state beyond all sorrow.",
+  te: "ఈ బుద్ధితో కూడిన జ్ఞానులు కర్మల నుండి పుట్టే ఫలాన్ని విడిచిపెట్టి, జన్మబంధం నుండి విముక్తులై, ఏ దుఃఖమూ లేని పరమపదాన్ని చేరుకుంటారు.",
+  hi: "इस बुद्धि से युक्त ज्ञानी कर्म से उत्पन्न फल को त्यागकर, जन्म के बंधन से मुक्त होकर, दुःखरहित परम पद को प्राप्त होते हैं।"
+},
+"gita_ch2_v52": {
+  en: "When your understanding crosses beyond the thicket of delusion, you will become indifferent to all that you have heard and all that is yet to be heard.",
+  te: "నీ బుద్ధి మోహమనే దట్టమైన పొదను దాటినప్పుడు, ఇంతవరకు విన్నదాని పట్లా, ఇకముందు వినబోయేదాని పట్లా నీకు వైరాగ్యం కలుగుతుంది.",
+  hi: "जब तुम्हारी बुद्धि मोह की दलदल को पार कर लेगी, तब तुम सुने हुए और सुने जाने वाले सब विषयों से विरक्त हो जाओगे।"
+},
+"gita_ch2_v53": {
+  en: "When your mind, now confused by many conflicting teachings, stands firm and unmoving in meditation, then you will attain yoga.",
+  te: "రకరకాల శాస్త్రవాక్యాలు విని కలవరపడిన నీ బుద్ధి, ఎప్పుడు కదలకుండా స్థిరంగా సమాధిలో నిలుస్తుందో, అప్పుడు నువ్వు యోగాన్ని పొందుతావు.",
+  hi: "अनेक प्रकार की बातें सुनकर भ्रमित हुई तुम्हारी बुद्धि जब समाधि में अचल और स्थिर हो जाएगी, तब तुम योग को प्राप्त करोगे।"
+},
+"gita_ch2_v54": {
+  en: "Arjuna said: Keśava, what are the marks of one whose wisdom is steady, who is established in meditation? How does such a person speak, how do they sit, how do they walk?",
+  te: "అర్జునుడు అన్నాడు: కేశవా! సమాధిలో నిలిచిన స్థితప్రజ్ఞుని లక్షణాలు ఏమిటి? స్థిరబుద్ధి గలవాడు ఎలా మాట్లాడతాడు, ఎలా కూర్చుంటాడు, ఎలా నడుచుకుంటాడు?",
+  hi: "अर्जुन ने कहा: हे केशव! समाधि में स्थित स्थितप्रज्ञ के क्या लक्षण हैं? स्थिर बुद्धि वाला कैसे बोलता है, कैसे बैठता है, कैसे चलता है?"
+},
+"gita_ch2_v55": {
+  en: "The Lord said: Pārtha, when a person gives up all the desires that arise in the mind and is content in the Self by the Self alone, then they are called one of steady wisdom.",
+  te: "శ్రీ భగవానుడు అన్నాడు: పార్థా! మనసులో పుట్టే కోరికలన్నిటినీ విడిచిపెట్టి, తనలో తానే తృప్తిగా ఉండేవాడిని స్థితప్రజ్ఞుడు అంటారు.",
+  hi: "श्री भगवान ने कहा: हे पार्थ! जब मनुष्य मन में उठने वाली सब कामनाओं को त्याग देता है और अपने आप में ही संतुष्ट रहता है, तब वह स्थितप्रज्ञ कहलाता है।"
+},
+"gita_ch2_v56": {
+  en: "One whose mind is not shaken by sorrows, who does not crave pleasures, and who is free from attachment, fear and anger — such a sage is called one of steady mind.",
+  te: "దుఃఖాలలో కలవరపడని మనసు గలవాడు, సుఖాల కోసం ఆరాటపడనివాడు, రాగం, భయం, కోపం లేనివాడు — అలాంటి మునిని స్థిరబుద్ధి గలవాడు అంటారు.",
+  hi: "जिसका मन दुःखों में विचलित नहीं होता, जो सुखों की लालसा नहीं करता, और जो राग, भय और क्रोध से मुक्त है — वह मुनि स्थिरबुद्धि कहलाता है।"
+},
+"gita_ch2_v57": {
+  en: "One who is unattached everywhere, who neither rejoices on getting what is pleasant nor hates what is unpleasant — that person's wisdom is firmly established.",
+  te: "ఎక్కడా అతిగా అంటిపెట్టుకోనివాడు, మంచి జరిగినప్పుడు పొంగిపోనివాడు, చెడు జరిగినప్పుడు ద్వేషించనివాడు — అతని ప్రజ్ఞ స్థిరమైనది.",
+  hi: "जो सब जगह आसक्ति रहित है, जो शुभ पाकर न हर्षित होता है और न अशुभ से द्वेष करता है — उसकी बुद्धि स्थिर है।"
+},
+"gita_ch2_v58": {
+  en: "When one can withdraw the senses from their objects completely, as a tortoise draws in its limbs, then that person's wisdom is firmly established.",
+  te: "తాబేలు తన అవయవాలను లోపలికి ముడుచుకున్నట్లు, ఎవరు తన ఇంద్రియాలను విషయాల నుండి పూర్తిగా వెనక్కి తీసుకోగలరో, వారి ప్రజ్ఞ స్థిరమైనది.",
+  hi: "जैसे कछुआ अपने अंगों को भीतर समेट लेता है, वैसे ही जब मनुष्य अपनी इंद्रियों को विषयों से पूरी तरह हटा लेता है, तब उसकी बुद्धि स्थिर होती है।"
+},
+"gita_ch2_v59": {
+  en: "When a person stops feeding the senses, the objects fall away, but the taste for them remains. Even that taste disappears once the Supreme is seen.",
+  te: "ఇంద్రియాలకు ఆహారం ఇవ్వడం మానేస్తే విషయాలు దూరమవుతాయి, కానీ వాటిపై రుచి (ఆసక్తి) మిగిలే ఉంటుంది. పరమాత్మను దర్శించిన తర్వాత ఆ రుచి కూడా పోతుంది.",
+  hi: "इंद्रियों को विषय न देने से विषय तो छूट जाते हैं, पर उनका रस (लालसा) बना रहता है। परमात्मा का दर्शन होने पर वह रस भी मिट जाता है।"
+},
+"gita_ch2_v60": {
+  en: "Son of Kuntī, the turbulent senses forcibly carry away the mind even of a wise person who is striving.",
+  te: "కౌంతేయా! ప్రయత్నిస్తున్న వివేకవంతుని మనసును కూడా అల్లకల్లోలం చేసే ఇంద్రియాలు బలవంతంగా లాక్కుపోతాయి.",
+  hi: "हे कौंतेय! प्रयत्न करते हुए बुद्धिमान पुरुष के मन को भी ये उपद्रवी इंद्रियाँ बलपूर्वक हर ले जाती हैं।"
+},
+"gita_ch2_v61": {
+  en: "Restraining them all, one should sit in yoga, devoted to Me. For one whose senses are under control, wisdom is firmly established.",
+  te: "వాటన్నిటినీ అదుపులో పెట్టుకుని, నన్నే పరమంగా భావిస్తూ యోగంలో కూర్చోవాలి. ఎవరి ఇంద్రియాలు వశంలో ఉంటాయో, వారి ప్రజ్ఞ స్థిరమైనది.",
+  hi: "उन सबको वश में करके, मुझे परम मानकर योग में बैठना चाहिए। जिसकी इंद्रियाँ वश में हैं, उसकी बुद्धि स्थिर है।"
+},
+"gita_ch2_v62": {
+  en: "When a person keeps thinking about sense objects, attachment to them grows. From attachment comes desire, and from desire comes anger.",
+  te: "విషయాల గురించే ఆలోచిస్తూ ఉండే మనిషికి వాటిపై ఆసక్తి పుడుతుంది. ఆసక్తి నుండి కోరిక పుడుతుంది; కోరిక నుండి కోపం పుడుతుంది.",
+  hi: "विषयों का चिंतन करते रहने से मनुष्य को उनमें आसक्ति हो जाती है। आसक्ति से कामना पैदा होती है, और कामना से क्रोध।"
+},
+"gita_ch2_v63": {
+  en: "From anger comes delusion; from delusion, loss of memory; from loss of memory, the ruin of judgement; and with judgement ruined, one is destroyed.",
+  te: "కోపం నుండి మోహం (అవివేకం) కలుగుతుంది; మోహం నుండి జ్ఞాపకశక్తి చెదిరిపోతుంది; జ్ఞాపకం చెదిరితే బుద్ధి నశిస్తుంది; బుద్ధి నశిస్తే మనిషి పతనమవుతాడు.",
+  hi: "क्रोध से मोह (भ्रम) होता है, मोह से स्मृति भ्रमित होती है, स्मृति भ्रष्ट होने से बुद्धि का नाश होता है, और बुद्धि के नाश से मनुष्य का पतन हो जाता है।"
+},
+"gita_ch2_v64": {
+  en: "But one who moves among sense objects with senses under control, free from attraction and aversion, and who is self-disciplined, attains inner peace.",
+  te: "కానీ రాగద్వేషాలు లేకుండా, తన వశంలో ఉన్న ఇంద్రియాలతో విషయాల మధ్య తిరుగుతూ, మనసును అదుపులో ఉంచుకున్నవాడు ప్రశాంతతను (ప్రసాదాన్ని) పొందుతాడు.",
+  hi: "परंतु जो राग-द्वेष से रहित, वश में की हुई इंद्रियों से विषयों के बीच विचरता है और जिसका मन संयमित है, वह प्रसन्नता (आंतरिक शांति) प्राप्त करता है।"
+},
+"gita_ch2_v65": {
+  en: "In that peace, all sorrows come to an end; for the mind of one who is at peace soon becomes steady.",
+  te: "ఆ ప్రశాంతతలో అతని దుఃఖాలన్నీ తొలగిపోతాయి. ప్రసన్నమైన మనసు గలవాని బుద్ధి త్వరగా స్థిరపడుతుంది.",
+  hi: "उस प्रसन्नता में उसके सब दुःखों का अंत हो जाता है; क्योंकि प्रसन्न चित्त वाले की बुद्धि शीघ्र ही स्थिर हो जाती है।"
+},
+"gita_ch2_v66": {
+  en: "One who is not disciplined has no steady understanding and no deep contemplation. Without contemplation there is no peace, and without peace, how can there be happiness?",
+  te: "మనసును అదుపులో పెట్టుకోనివానికి స్థిరమైన బుద్ధి ఉండదు, ధ్యానభావమూ ఉండదు. ధ్యానం లేనివానికి శాంతి లేదు; శాంతి లేనివానికి సుఖం ఎక్కడిది?",
+  hi: "जो संयमी नहीं है, उसकी बुद्धि स्थिर नहीं होती और न ही उसमें ध्यान का भाव होता है। ध्यान के बिना शांति नहीं, और अशांत को सुख कहाँ?"
+},
+"gita_ch2_v67": {
+  en: "When the mind follows the wandering senses, it carries away one's wisdom, just as the wind carries away a boat on the water.",
+  te: "తిరుగుతున్న ఇంద్రియాల వెంట మనసు పరుగెత్తితే, గాలి నీటిలోని పడవను కొట్టుకుపోయేలా చేసినట్లు, అది మనిషి ప్రజ్ఞను లాక్కుపోతుంది.",
+  hi: "जब मन भटकती इंद्रियों के पीछे चलता है, तो वह मनुष्य की बुद्धि को वैसे ही हर लेता है, जैसे हवा पानी में नाव को बहा ले जाती है।"
+},
+"gita_ch2_v68": {
+  en: "Therefore, mighty-armed one, the one whose senses are fully withdrawn from their objects — that person's wisdom is firmly established.",
+  te: "కాబట్టి మహాబాహూ! ఎవరి ఇంద్రియాలు విషయాల నుండి పూర్తిగా అదుపులో ఉంటాయో, వారి ప్రజ్ఞ స్థిరమైనది.",
+  hi: "इसलिए हे महाबाहो! जिसकी इंद्रियाँ विषयों से पूरी तरह वश में हैं, उसकी बुद्धि स्थिर है।"
+},
+"gita_ch2_v69": {
+  en: "What is night for all beings, the self-controlled one is awake in; and what all beings are awake in is night for the sage who sees.",
+  te: "అందరికీ రాత్రిగా ఉన్నదానిలో సంయమి మేల్కొని ఉంటాడు; అందరూ మేల్కొని ఉన్నదానిని, తత్త్వం చూసే ముని రాత్రిగా భావిస్తాడు.",
+  hi: "जो सब प्राणियों के लिए रात है, उसमें संयमी जागता है; और जिसमें सब प्राणी जागते हैं, वह तत्त्व को देखने वाले मुनि के लिए रात है।"
+},
+"gita_ch2_v70": {
+  en: "As rivers flow into the ocean, which is ever being filled yet stays still within its bounds, so the one into whom all desires enter in the same way finds peace — not the one who chases desires.",
+  te: "నదులు ఎన్ని వచ్చి చేరినా సముద్రం నిండుగా, తన హద్దుల్లో నిశ్చలంగా ఉంటుంది. అలాగే కోరికలన్నీ ఎవరిలోకి ప్రవేశించినా కదలకుండా ఉంటాడో, అతడే శాంతిని పొందుతాడు — కోరికల వెంట పరుగెత్తేవాడు కాదు.",
+  hi: "जैसे नदियाँ उस समुद्र में आकर समा जाती हैं जो सब ओर से भरता रहकर भी अपनी मर्यादा में अचल रहता है, वैसे ही जिसमें सब कामनाएँ समा जाती हैं, वही शांति पाता है — कामनाओं के पीछे भागने वाला नहीं।"
+},
+"gita_ch2_v71": {
+  en: "One who gives up all desires and moves about free from longing, without the sense of ‘mine’ and without ego, attains peace.",
+  te: "కోరికలన్నిటినీ విడిచిపెట్టి, ఆశ లేకుండా, ‘నాది’ అనే మమకారం, ‘నేను’ అనే అహంకారం లేకుండా జీవించేవాడు శాంతిని పొందుతాడు.",
+  hi: "जो मनुष्य सब कामनाओं को त्यागकर, लालसा रहित, ममता रहित और अहंकार रहित होकर विचरता है, वह शांति प्राप्त करता है।"
+},
+"gita_ch2_v72": {
+  en: "This, Pārtha, is the state of Brahman. Having reached it, one is no longer deluded. Remaining in it even at the hour of death, one attains the freedom of Brahman.",
+  te: "పార్థా! ఇదే బ్రాహ్మీ స్థితి. దీనిని పొందినవాడు మళ్ళీ మోహంలో పడడు. అంత్యకాలంలో కూడా ఈ స్థితిలో నిలిచినవాడు బ్రహ్మనిర్వాణాన్ని (మోక్షాన్ని) పొందుతాడు.",
+  hi: "हे पार्थ! यही ब्राह्मी स्थिति है। इसे पाकर मनुष्य फिर मोहित नहीं होता। अंतकाल में भी इसमें स्थित रहकर वह ब्रह्मनिर्वाण (मोक्ष) प्राप्त करता है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",

@@ -31,7 +31,6 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Gītā — Next (in this order)
 
-- [ ] Chapter 2
 - [ ] Chapter 3
 - [ ] Chapter 4
 - [ ] Chapter 5
@@ -50,6 +49,8 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 - [ ] Gītā Dhyānam (keys `gita_dhyana_<n>` — add a meaning button to renderDhyanaPractice the same way as renderGitaPractice)
 
 ## Done
+
+- [x] Gītā Chapter 2 — 72 verses (meaning + simple words) — 2026-11-21
 
 - [x] Gītā Chapter 1 — 47 verses (meaning + simple words) — 2026-11-20
 - [x] Gītā Chapter 12 — 20 verses (meaning + simple words) — 2026-11-19
