@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Marīci (marici) — first of Brahmā's mind-born sons and of the Saptarṣis, father of Kaśyapa; his wife Kalā/Sambhūti and their line; the sons cursed to be born again (Purāṇas; Mahābhārata; Bhāgavata 3–4).
 - [ ] Gālava (galava) — Viśvāmitra's devoted pupil who insisted on a teacher's fee, the quest for eight hundred white horses with one black ear, Garuḍa's help, and Mādhavī (MBh Udyoga Parva).
 - [ ] Ṛcīka (ricika) — Bhṛgu's grandson who won Satyavatī of Gādhi's house with a thousand black-eared horses, the two bowls of charu that were swapped, father of Jamadagni (MBh Vana & Anuśāsana; Viṣṇu Purāṇa 4).
 - [ ] Śṛṅgī and Śamīka (shamika) — the silent sage on whom King Parīkṣit hung a dead snake, his angry son's curse of Takṣaka's bite, and Śamīka's grief and warning (MBh Ādi; Bhāgavata 1.18).
@@ -102,3 +101,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Dīrghatamas (dirghatamas) — 11 chapters — 2026-11-18
 - [x] Pippalāda (pippalada) — 10 chapters — 2026-11-19
 - [x] Asita Devala (devala) — 11 chapters — 2026-11-20
+- [x] Marīci (marici) — 10 chapters — 2026-11-21
