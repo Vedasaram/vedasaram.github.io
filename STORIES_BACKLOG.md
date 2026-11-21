@@ -134,11 +134,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Sītā in Vālmīki's Āśrama (Rāmāyaṇa) — sita-in-valmikis-ashrama
 - [x] Parīkṣit, the Baby Saved by Kṛṣṇa (Mahābhārata) — parikshit-the-baby-saved-by-krishna
 - [x] Ṛṣyaśṛṅga, the Boy Who Brought the Rain (Rāmāyaṇa) — rishyashringa-brings-the-rain
+- [x] Garuḍa Brings the Nectar (Mahābhārata) — garuda-brings-the-nectar
+- [x] The Monkeys Raid the Honey Garden (Rāmāyaṇa) — monkeys-raid-the-honey-garden
+- [x] Āruṇi, the Student Who Became a Dam (Mahābhārata) — aruni-the-student-who-became-a-dam
 
 ## Next
-- [ ] Garuḍa Brings the Nectar (Mahābhārata) — Garuḍa, Vinatā, Kadrū
-- [ ] The Monkeys Raid the Honey Garden (Rāmāyaṇa) — Aṅgada, Hanumān, Dadhimukha, Sugrīva
-- [ ] Āruṇi, the Student Who Became a Dam (Mahābhārata) — Āruṇi, Dhaumya
 - [ ] Triśaṅku's Own Heaven (Rāmāyaṇa) — Triśaṅku, Viśvāmitra
 - [ ] Śakuntalā and Brave Little Bharata (Mahābhārata) — Śakuntalā, Duṣyanta, Bharata
 - [ ] Śunaḥśepa Saved by Viśvāmitra (Rāmāyaṇa) — Śunaḥśepa, Viśvāmitra, Ambarīṣa

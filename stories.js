@@ -3284,4 +3284,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'garuda-brings-the-nectar',
+    added: '2026-11-21',
+    epic: 'Mahabharata',
+    chars: ['Garuḍa', 'Vinatā', 'Kadrū', 'Indra'],
+    title: { en: 'Garuḍa Brings the Nectar', te: 'అమృతం తెచ్చిన గరుత్మంతుడు' },
+    moral: { en: 'Love for your mother makes you brave; honesty makes you great.', te: 'అమ్మ మీద ప్రేమ ధైర్యాన్ని ఇస్తుంది; నిజాయితీ గొప్పతనాన్ని ఇస్తుంది.' },
+    cover: { bg: 'sky', props: [['sun', 350, 55, 1], ['cloud', 70, 60, 1], ['cloud', 300, 120, 0.8], ['eagle', 190, 130, 1.8], ['glow', 200, 150, 0.6], ['pot', 200, 150, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['person', 70, 198, 1.3, { female: true, skin: 'wheat', cloth: '#d9577a', pallu: '#f0c040' }], ['person', 135, 198, 1.3, { female: true, skin: 'fair', cloth: '#3f8a5a', pallu: '#7a5ab0' }], ['horse', 245, 198, 1.3, { color: '#f4f4f4' }], ['snake', 300, 198, 0.7], ['cloud', 220, 40, 0.9]] },
+        en: 'Long ago, the great sage Kaśyapa had two wives, Vinatā and Kadrū. Kadrū became the mother of a thousand shining serpents. Vinatā had two eggs. From the first came Aruṇa, who became the charioteer of the Sun. The second egg was still waiting to hatch. One day the two sisters saw Uccaiḥśravas, the snow-white horse of the gods. "Its tail is black," said Kadrū. "No, it is white all over," said Vinatā. They made a bet: whoever lost would become the other\'s servant. That night Kadrū asked her serpent sons to hang on the horse\'s tail like black hairs. In the morning the tail looked dark — and poor Vinatā had to become Kadrū\'s servant.',
+        te: 'చాలా కాలం క్రితం కశ్యప మహర్షికి వినత, కద్రువ అని ఇద్దరు భార్యలు ఉండేవారు. కద్రువకు వెయ్యి మంది నాగులు పుట్టారు. వినతకు రెండు గుడ్లు ఉన్నాయి. మొదటి గుడ్డు నుంచి అనూరుడు పుట్టాడు, అతడు సూర్యుడికి రథసారథి అయ్యాడు. రెండో గుడ్డు ఇంకా పగలలేదు. ఒక రోజు ఆ అక్కాచెల్లెళ్ళు దేవతల తెల్లని గుర్రం ఉచ్చైఃశ్రవాన్ని చూశారు. "దాని తోక నల్లగా ఉంది," అంది కద్రువ. "కాదు, అది మొత్తం తెల్లగానే ఉంది," అంది వినత. ఓడినవారు గెలిచినవారికి దాసి కావాలని ఇద్దరూ పందెం వేసుకున్నారు. ఆ రాత్రి కద్రువ తన నాగ కొడుకులను ఆ గుర్రం తోకకు నల్లని వెంట్రుకల్లా వేలాడమని చెప్పింది. తెల్లవారేసరికి తోక నల్లగా కనిపించింది — పాపం, వినత కద్రువకు దాసి అయింది.',
+      },
+      {
+        scene: { bg: 'palace', props: [['cloud', 60, 50, 0.9], ['eagle', 140, 115, 1.4], ['fire', 250, 198, 1.3], ['glow', 330, 198, 0.8], ['pot', 330, 198, 1.1], ['snake', 380, 198, 0.7, { flip: true }]] },
+        en: 'At last the second egg cracked open, and out burst Garuḍa — so bright and mighty that the gods thought a new sun had risen! When he learned that his mother was a servant, he went to the serpents. "What must I do to set her free?" "Bring us amṛta, the nectar of immortality, from the heavens," they hissed. Garuḍa flew up like a storm. Around the nectar blazed a ring of fire; he drank up whole rivers and poured them on the flames. Next was a whirling wheel of sharp blades; he made himself tiny and slipped between the spokes. Two fierce serpent guards glared at him; he blinded them with dust from his wings. Then he grabbed the pot of nectar and flew off — without taking a single sip.',
+        te: 'చివరకు రెండో గుడ్డు పగిలి గరుత్మంతుడు బయటకు వచ్చాడు. అతని తేజస్సు చూసి కొత్త సూర్యుడు ఉదయించాడేమో అని దేవతలే అనుకున్నారు! తన తల్లి దాసిగా ఉందని తెలిసి, అతడు నాగుల దగ్గరకు వెళ్ళాడు. "మా అమ్మను విడిపించాలంటే నేను ఏం చేయాలి?" "స్వర్గం నుంచి అమృతం తీసుకురా," అని బుసకొట్టారు నాగులు. గరుత్మంతుడు తుఫానులా ఆకాశంలోకి ఎగిరాడు. అమృతం చుట్టూ మంటలు భగభగ మండుతున్నాయి; అతడు నదుల నీళ్ళు తాగి ఆ మంటల మీద కుమ్మరించి ఆర్పేశాడు. తరువాత పదునైన అంచులున్న ఒక చక్రం గిర్రున తిరుగుతోంది; అతడు చిన్నగా మారి దాని ఆకుల మధ్య నుంచి దూరిపోయాడు. ఇద్దరు భయంకరమైన సర్పాలు కాపలా ఉన్నాయి; రెక్కలతో దుమ్ము రేపి వాటి కళ్ళు కప్పేశాడు. అమృత కలశాన్ని పట్టుకుని ఎగిరిపోయాడు — ఒక్క చుక్క కూడా తాగకుండా.',
+      },
+      {
+        scene: { bg: 'forest', props: [['person', 80, 198, 1.35, { female: true, skin: 'wheat', cloth: '#d9577a', pallu: '#f0c040', raise: true }], ['eagle', 175, 150, 1.1], ['glow', 250, 198, 0.6], ['pot', 250, 196, 0.9], ['flowers', 250, 200, 1.4], ['snake', 320, 198, 0.75, { flip: true }], ['snake', 365, 198, 0.65, { flip: true }]] },
+        en: 'Lord Viṣṇu saw all this and was delighted. "You carried the nectar but did not drink it. Ask for a boon!" Garuḍa asked to live forever without nectar. Viṣṇu made him immortal and gave him a place on his flag, and Garuḍa became Viṣṇu\'s carrier. Indra came too, and the two became friends. "The serpents must not drink it," said Indra. Garuḍa agreed. He set the pot down on soft kuśa grass before the serpents. "Here is your nectar. My mother is free!" While the serpents went to bathe before drinking, Indra quietly carried the pot back to heaven. The serpents licked the grass where it had stood — and it is said that is why snakes have forked tongues!',
+        te: 'ఇదంతా చూసిన శ్రీమహావిష్ణువు ఎంతో సంతోషించాడు. "అమృతాన్ని మోసుకెళ్తున్నా ఒక్క చుక్క కూడా తాగలేదు. ఏదైనా వరం కోరుకో!" అన్నాడు. అమృతం లేకుండానే చిరంజీవిగా ఉండాలని గరుత్మంతుడు కోరాడు. విష్ణువు అతనికి అమరత్వం ఇచ్చి, తన ధ్వజం మీద స్థానం ఇచ్చాడు. గరుత్మంతుడు విష్ణువుకు వాహనం అయ్యాడు. ఇంద్రుడు కూడా వచ్చి గరుత్మంతుడితో స్నేహం చేశాడు. "నాగులు అమృతం తాగకూడదు," అన్నాడు ఇంద్రుడు. గరుత్మంతుడు సరేనన్నాడు. అతడు అమృత కలశాన్ని మెత్తని దర్భల మీద పెట్టి, "ఇదిగో మీ అమృతం. ఇక మా అమ్మ దాసి కాదు!" అన్నాడు. నాగులు స్నానానికి వెళ్ళగానే ఇంద్రుడు ఆ కలశాన్ని నెమ్మదిగా స్వర్గానికి తీసుకుపోయాడు. కలశం ఉన్న చోట దర్భలను నాగులు నాకాయి — అందుకే పాముల నాలుక చీలి ఉంటుందని అంటారు!',
+      },
+    ],
+  },
+  {
+    id: 'monkeys-raid-the-honey-garden',
+    added: '2026-11-21',
+    epic: 'Ramayana',
+    chars: ['Aṅgada', 'Hanumān', 'Dadhimukha', 'Sugrīva'],
+    title: { en: 'The Monkeys Raid the Honey Garden', te: 'మధువనంలో వానరుల సందడి' },
+    moral: { en: 'Wise people look for the reason behind what others do.', te: 'ఇతరులు చేసే పని వెనుక కారణాన్ని తెలివైనవారు గుర్తిస్తారు.' },
+    cover: { bg: 'forest', props: [['tree', 110, 196, 1.3], ['tree', 300, 196, 1.2], ['bee', 170, 80, 0.8], ['bee', 250, 60, 0.7], ['monkey', 150, 198, 1.2, { color: '#d9772a' }], ['pot', 205, 198, 1], ['monkey', 260, 198, 1.1, { flip: true }]] },
+    pages: [
+      {
+        scene: { bg: 'forest', props: [['sun', 360, 45, 0.8], ['tree', 300, 196, 1.3], ['monkey', 70, 198, 1.2, { color: '#d9772a' }], ['monkey', 130, 198, 1.1], ['monkey', 185, 198, 1.05, { color: '#b8823f' }], ['bee', 290, 110, 0.7], ['pot', 330, 198, 0.9]] },
+        en: 'Hanumān had leapt back across the ocean with wonderful news: he had found Sītā in Laṅkā! The monkey search party, led by young Prince Aṅgada, cheered and hugged one another. Laughing and singing, they set off north to tell King Sugrīva and Rāma. On the way they came to Madhuvana, the Honey Forest — King Sugrīva\'s own favourite garden. Its trees dripped with golden honey, and no one was allowed to touch it. It was guarded by Sugrīva\'s old uncle, Dadhimukha. The tired, happy monkeys looked at the honey. Then they looked at Aṅgada. "We have done a great task," smiled Aṅgada. "Go on — enjoy yourselves!"',
+        te: 'హనుమంతుడు సముద్రాన్ని దాటి గొప్ప శుభవార్తతో తిరిగి వచ్చాడు — లంకలో సీతాదేవిని చూశాడు! యువరాజు అంగదుడి నాయకత్వంలోని వానరులంతా ఆనందంతో కేకలు వేసి ఒకరినొకరు కౌగిలించుకున్నారు. నవ్వుతూ, పాడుతూ సుగ్రీవుడికి, రాముడికి ఈ వార్త చెప్పడానికి ఉత్తరానికి బయలుదేరారు. దారిలో వారికి మధువనం కనిపించింది. అది సుగ్రీవ మహారాజుకు ఎంతో ఇష్టమైన తోట. అక్కడి చెట్ల నుంచి బంగారు రంగు తేనె కారుతోంది. దాన్ని ఎవరూ ముట్టుకోకూడదు. సుగ్రీవుడి మేనమామ, ముసలివాడైన దధిముఖుడు ఆ తోటకు కాపలా. అలసిపోయి సంతోషంగా ఉన్న వానరులు తేనె వైపు చూశారు. తరువాత అంగదుడి వైపు చూశారు. "మనం గొప్ప పని చేశాం," అని చిరునవ్వు నవ్వాడు అంగదుడు. "వెళ్ళండి — హాయిగా తినండి!"',
+      },
+      {
+        scene: { bg: 'forest', props: [['tree', 120, 196, 1.3], ['monkey', 120, 120, 0.9, { flip: true }], ['bee', 200, 70, 0.7], ['pot', 60, 198, 0.8], ['monkey', 180, 198, 1.1, { color: '#d9772a' }], ['monkey', 240, 198, 1], ['monkey', 330, 198, 1.25, { color: '#c8b8a0', flip: true }]] },
+        en: 'What a feast it was! The monkeys climbed every tree and gulped down the honey. They danced, tumbled, sang silly songs and swung from the branches. Some threw honeycombs at each other; others fell asleep in a sticky heap. Old Dadhimukha came running with his guards. "Stop! This is the king\'s garden!" But the merry monkeys would not listen, and in all the fun they pushed the guards right out of the garden. Dadhimukha dusted himself off and hurried away to Sugrīva. "My king," he puffed, "Aṅgada and his monkeys have eaten all your honey and ruined your lovely garden!"',
+        te: 'అది ఎంత గొప్ప విందో! వానరులు ప్రతి చెట్టూ ఎక్కి తేనె గటగటా తాగారు. నాట్యం చేశారు, పల్టీలు కొట్టారు, సరదా పాటలు పాడారు, కొమ్మల మీద ఊగారు. కొందరు తేనెపట్లను ఒకరి మీద ఒకరు విసురుకున్నారు; మరికొందరు జిగట జిగటగా ఒకరి మీద ఒకరు పడి నిద్రపోయారు. ముసలి దధిముఖుడు తన కాపలాదారులతో పరుగెత్తుకొచ్చాడు. "ఆగండి! ఇది మహారాజు తోట!" కానీ ఆటపాటల్లో మునిగిన వానరులు వినలేదు. సరదాగా తోసుకుంటూ కాపలాదారులను తోట బయటకు నెట్టేశారు. దధిముఖుడు ఒంటికి అంటిన దుమ్ము దులుపుకుని సుగ్రీవుడి దగ్గరకు గబగబా వెళ్ళాడు. "మహారాజా," అని ఆయాసపడుతూ అన్నాడు, "అంగదుడు, అతని వానరులు మీ తేనె అంతా తాగేశారు, మీ అందమైన తోటను పాడు చేశారు!"',
+      },
+      {
+        scene: { bg: 'mountain', props: [['person', 70, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['person', 125, 198, 1.3, { skin: 'fair', cloth: '#d9772a', crown: true }], ['monkey', 200, 198, 1.3, { color: '#b8823f' }], ['monkey', 270, 198, 1.2, { color: '#c8b8a0', flip: true }], ['monkey', 340, 198, 1.3, { color: '#d9772a', flip: true }], ['sun', 360, 40, 0.8]] },
+        en: 'Rāma and Lakṣmaṇa were sitting beside Sugrīva. To Dadhimukha\'s surprise, the king\'s face lit up with joy. "Do not worry, uncle," said Sugrīva. "Aṅgada would never dare to touch my garden unless he had wonderful news. They have found Sītā! And I am sure it was Hanumān who did it." Rāma\'s eyes filled with hope. "Go back and tell them to come here at once," Sugrīva told Dadhimukha. Dadhimukha hurried back and said kindly to Aṅgada, "Forgive me for scolding you. The king wants you now!" Soon the monkeys came flying through the sky, and Hanumān bowed before Rāma. "I have seen Mother Sītā," he said.',
+        te: 'రాముడు, లక్ష్మణుడు సుగ్రీవుడి పక్కనే కూర్చుని ఉన్నారు. దధిముఖుడు ఆశ్చర్యపోయేలా సుగ్రీవుడి ముఖం సంతోషంతో వెలిగిపోయింది. "బాధపడకండి మామయ్యా," అన్నాడు సుగ్రీవుడు. "శుభవార్త లేకపోతే అంగదుడు నా తోటను ముట్టుకోవడానికి ఎప్పుడూ సాహసించడు. వాళ్ళు సీతాదేవిని కనుగొన్నారు! ఆ పని చేసింది తప్పకుండా హనుమంతుడే." రాముడి కళ్ళలో ఆశ నిండింది. "వెనక్కి వెళ్ళి వాళ్ళను వెంటనే ఇక్కడికి రమ్మని చెప్పండి," అన్నాడు సుగ్రీవుడు. దధిముఖుడు గబగబా తిరిగి వెళ్ళి, "నిన్ను కోప్పడినందుకు క్షమించు నాయనా. మహారాజు మిమ్మల్ని వెంటనే రమ్మంటున్నారు!" అని అంగదుడితో ప్రేమగా చెప్పాడు. కాసేపటికే వానరులు ఆకాశంలో ఎగురుతూ వచ్చారు. హనుమంతుడు రాముడికి నమస్కరించి, "సీతమ్మను చూశాను," అన్నాడు.',
+      },
+    ],
+  },
+  {
+    id: 'aruni-the-student-who-became-a-dam',
+    added: '2026-11-21',
+    epic: 'Mahabharata',
+    chars: ['Āruṇi', 'Dhaumya'],
+    title: { en: 'Āruṇi, the Student Who Became a Dam', te: 'గట్టుగా మారిన శిష్యుడు ఆరుణి' },
+    moral: { en: 'Do your task with your whole heart, and blessings will follow.', te: 'పనిని మనస్ఫూర్తిగా చేస్తే ఆశీస్సులు తప్పక వస్తాయి.' },
+    cover: { bg: 'river', props: [['cloud', 120, 50, 1.1], ['cloud', 260, 45, 1], ['rain', 190, 120, 1.3], ['lying', 210, 200, 1.1, { skin: 'wheat', cloth: '#e8d29a' }], ['tree', 360, 180, 0.9]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['cloud', 150, 45, 1], ['rain', 230, 110, 1], ['person', 80, 198, 1.4, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['person', 150, 198, 1, { skin: 'wheat', cloth: '#e8d29a' }], ['person', 190, 198, 0.95, { skin: 'fair', cloth: '#e8a23a' }], ['person', 230, 198, 0.95, { skin: 'dark', cloth: '#e8a23a' }], ['cow', 280, 198, 0.8]] },
+        en: 'Long ago, in a quiet forest āśrama, lived a teacher named Dhaumya. Children came from far away to learn from him. They fetched water, looked after the cows and worked in the fields — and in between, they learned the Vedas. One of his students was a boy named Āruṇi, from the land of Pāñcāla. One evening, after heavy rain, water came rushing down the hillside. "Āruṇi," called Dhaumya, "the bank around our rice field has broken. If the water rushes through, our crop will be ruined. Go and close the gap." Āruṇi bowed. "Yes, Guru!" And off he ran through the rain.',
+        te: 'చాలా కాలం క్రితం, ఒక ప్రశాంతమైన అడవిలోని ఆశ్రమంలో ధౌమ్యుడు అనే గురువు ఉండేవారు. దూరదూరాల నుంచి పిల్లలు ఆయన దగ్గర చదువుకోవడానికి వచ్చేవారు. వాళ్ళు నీళ్ళు తెచ్చేవారు, ఆవులను చూసుకునేవారు, పొలంలో పని చేసేవారు — మధ్యమధ్యలో వేదాలు నేర్చుకునేవారు. ఆ శిష్యులలో పాంచాల దేశానికి చెందిన ఆరుణి అనే పిల్లవాడు ఒకడు. ఒక సాయంత్రం, పెద్ద వాన తరువాత కొండ మీది నుంచి నీళ్ళు ఉరకలు వేస్తూ వచ్చాయి. "ఆరుణీ," అని పిలిచారు ధౌమ్యుడు, "మన వరి పొలం గట్టు తెగిపోయింది. నీళ్ళు అలా పోతే పంట పాడైపోతుంది. వెళ్ళి ఆ గండిని మూసెయ్యి." ఆరుణి నమస్కరించాడు. "అలాగే గురువుగారూ!" అని వానలో పరుగెత్తాడు.',
+      },
+      {
+        scene: { bg: 'river', props: [['cloud', 90, 45, 1], ['cloud', 300, 40, 0.9], ['rain', 110, 120, 1.1], ['rain', 300, 120, 1], ['rock', 110, 198, 0.9], ['lying', 230, 200, 1.15, { skin: 'wheat', cloth: '#e8d29a' }]] },
+        en: 'At the field, Āruṇi found a wide gap in the mud wall, with water pouring through. He scooped up handfuls of mud and pressed them into the gap. The water washed them away. He piled up stones and sticks. The water pushed them aside. Āruṇi thought hard. "My teacher asked me to stop the water. There must be a way." Then he had an idea. He lay down in the gap himself, pressing his body against the broken bank. The water stopped! The cold mud soaked his clothes, the night grew dark, and frogs croaked all around him — but Āruṇi did not move.',
+        te: 'పొలం దగ్గరకు వెళ్ళి చూస్తే, మట్టి గట్టులో పెద్ద గండి పడింది, దాంట్లోంచి నీళ్ళు ధారగా పోతున్నాయి. ఆరుణి దోసిళ్ళతో మట్టి తీసి ఆ గండిలో అదిమాడు. నీళ్ళు దాన్ని కొట్టుకుపోయాయి. రాళ్ళు, కర్రలు పేర్చాడు. నీళ్ళు వాటినీ పక్కకు నెట్టేశాయి. ఆరుణి బాగా ఆలోచించాడు. "నీళ్ళను ఆపమని గురువుగారు చెప్పారు. ఏదో ఒక దారి ఉండాలి." అప్పుడు అతనికి ఒక ఉపాయం తట్టింది. తానే ఆ గండిలో అడ్డంగా పడుకుని, తెగిన గట్టుకు తన ఒంటిని ఆనించాడు. నీళ్ళు ఆగిపోయాయి! చల్లని బురదకు బట్టలు తడిసిపోయాయి, చీకటి పడింది, చుట్టూ కప్పలు బెకబెకమంటున్నాయి — అయినా ఆరుణి కదలలేదు.',
+      },
+      {
+        scene: { bg: 'night', props: [['moon', 340, 70, 1], ['person', 130, 198, 1.45, { skin: 'wheat', cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['glow', 220, 198, 1], ['person', 220, 198, 1.15, { skin: 'wheat', cloth: '#e8d29a' }]] },
+        en: 'Back at the āśrama, Dhaumya counted his students at supper. "Where is Āruṇi?" "He went to the field and has not come back," they said. The teacher took a lamp and walked out into the night. "Āruṇi of Pāñcāla! Where are you, my child?" From the dark came a voice. "Here, Guru! I am lying in the gap so the water cannot get through." Then Āruṇi rose up out of the mud and stood before his teacher, shivering but smiling. Dhaumya hugged him. "Because you rose up out of the bank, you shall be called Uddālaka. All the Vedas will shine in your mind." And Uddālaka Āruṇi grew up to be one of the greatest teachers of ancient India.',
+        te: 'ఆశ్రమంలో రాత్రి భోజనం దగ్గర ధౌమ్యుడు శిష్యులను లెక్కపెట్టారు. "ఆరుణి ఎక్కడ?" "పొలానికి వెళ్ళాడు, ఇంకా తిరిగి రాలేదు," అన్నారు శిష్యులు. గురువుగారు దీపం పట్టుకుని చీకట్లో బయలుదేరారు. "పాంచాలుడా ఆరుణీ! ఎక్కడున్నావు నాయనా?" చీకట్లోంచి ఒక గొంతు వినిపించింది. "ఇక్కడే గురువుగారూ! నీళ్ళు పోకుండా గండిలో పడుకున్నాను." అప్పుడు ఆరుణి బురదలోంచి లేచి, వణుకుతూనే చిరునవ్వుతో గురువుగారి ముందు నిలబడ్డాడు. ధౌమ్యుడు అతడిని ప్రేమగా కౌగిలించుకున్నారు. "నువ్వు గట్టులోంచి పైకి లేచావు కాబట్టి ఇక నుంచి నిన్ను ఉద్దాలకుడు అని పిలుస్తారు. వేదాలన్నీ నీ మనసులో వెలుగుతాయి." ఆ ఉద్దాలక ఆరుణి పెద్దయ్యాక మన దేశంలోని గొప్ప గురువులలో ఒకరయ్యారు.',
+      },
+    ],
+  },
 ];
