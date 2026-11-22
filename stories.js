@@ -3362,4 +3362,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'trishankus-own-heaven',
+    added: '2026-11-22',
+    epic: 'Ramayana',
+    chars: ['Triśaṅku', 'Viśvāmitra', 'Vasiṣṭha', 'Indra'],
+    title: { en: 'Triśaṅku\'s Own Heaven', te: 'త్రిశంకు స్వర్గం' },
+    moral: { en: 'Not every wish is wise — but a friend in trouble deserves our help.', te: 'ప్రతి కోరికా మంచిది కాదు — కానీ కష్టంలో ఉన్నవాడికి సహాయం చేయడం మన ధర్మం.' },
+    cover: { bg: 'night', props: [['moon', 350, 70, 0.9], ['glow', 220, 120, 1.2], ['person', 220, 118, 1.2, { cloth: '#7a5ab0', crown: true, raise: true }], ['fire', 110, 198, 1], ['person', 60, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }]] },
+    pages: [
+      {
+        scene: { bg: 'palace', props: [['person', 130, 198, 1.45, { cloth: '#7a5ab0', crown: true, raise: true }], ['person', 270, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd', flip: true }], ['cloud', 200, 40, 0.9]] },
+        en: 'Long ago, in the family of the Sun, there lived a king named Triśaṅku. He had everything a king could want — and still he wanted more. "I wish to go to heaven," he said, "not after my life is over, but now, in this very body!" He went to his family guru, the great Sage Vasiṣṭha. Vasiṣṭha shook his head. "That cannot be done, O King. No one enters heaven with a body of flesh." Triśaṅku would not give up. He went to Vasiṣṭha\'s sons and asked them instead. They grew angry. "You are going against our father!" they said, and they cursed him. At once his silk clothes turned dark and rough, his gold ornaments became iron, and people turned away from him.',
+        te: 'చాలా కాలం క్రితం, సూర్యవంశంలో త్రిశంకుడు అనే రాజు ఉండేవాడు. రాజుకు కావలసినవన్నీ అతడికి ఉన్నాయి — అయినా ఇంకా ఏదో కావాలనిపించింది. "నేను స్వర్గానికి వెళ్ళాలి," అన్నాడు. "చనిపోయాక కాదు, ఇప్పుడే, ఈ శరీరంతోనే!" అతడు తమ కులగురువైన వసిష్ఠ మహర్షి దగ్గరకు వెళ్ళాడు. వసిష్ఠుడు తల అడ్డంగా ఊపాడు. "రాజా, అది జరగని పని. ఈ శరీరంతో ఎవరూ స్వర్గానికి వెళ్ళలేరు." త్రిశంకుడు పట్టు వదలలేదు. వసిష్ఠుడి కుమారుల దగ్గరకు వెళ్ళి వాళ్ళను అడిగాడు. వాళ్ళకు కోపం వచ్చింది. "మా తండ్రి మాటకు ఎదురు వెళతావా?" అంటూ అతడిని శపించారు. వెంటనే అతడి పట్టు బట్టలు నల్లగా, ముతకగా మారిపోయాయి. బంగారు నగలు ఇనుముగా మారాయి. ప్రజలంతా అతడిని చూసి దూరంగా వెళ్ళిపోయారు.',
+      },
+      {
+        scene: { bg: 'ashram', props: [['person', 100, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['fire', 175, 198, 1], ['person', 250, 198, 1.35, { cloth: '#4a4a4a', hair: '#555', flip: true }], ['cloud', 120, 40, 0.9]] },
+        en: 'Sad and alone, Triśaṅku walked into the forest until he reached the āśrama of Viśvāmitra. Viśvāmitra had once been a king himself, and he had an old rivalry with Vasiṣṭha. When he heard the story, his heart melted. "Do not cry, King. You came to me for shelter, and I will not turn you away. I will send you to heaven in this very body!" He called sages from all over the land to a great fire-sacrifice. Most of them came, for they feared his temper. Then Viśvāmitra poured offerings into the fire and called the gods to come and take their share. But not a single god came.',
+        te: 'దుఃఖంతో, ఒంటరిగా త్రిశంకుడు అడవిలో నడుస్తూ విశ్వామిత్రుడి ఆశ్రమానికి చేరుకున్నాడు. విశ్వామిత్రుడు కూడా ఒకప్పుడు రాజే. వసిష్ఠుడితో ఆయనకు పాత పోటీ ఉంది. త్రిశంకుడి కథ విని ఆయన మనసు కరిగిపోయింది. "ఏడవకు రాజా. నువ్వు నన్ను శరణు కోరి వచ్చావు. నిన్ను నేను వదిలిపెట్టను. ఈ శరీరంతోనే నిన్ను స్వర్గానికి పంపిస్తాను!" అన్నాడు. దేశంలోని మునులందరినీ ఒక పెద్ద యాగానికి పిలిచాడు. ఆయన కోపానికి భయపడి చాలామంది వచ్చారు. విశ్వామిత్రుడు అగ్నిలో హవిస్సు వేసి, తమ భాగం తీసుకోవడానికి రమ్మని దేవతలను పిలిచాడు. కానీ ఒక్క దేవుడు కూడా రాలేదు.',
+      },
+      {
+        scene: { bg: 'night', props: [['glow', 250, 110, 1.1], ['person', 250, 108, 1.15, { cloth: '#7a5ab0', crown: true, raise: true }], ['person', 80, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['fire', 150, 198, 0.9], ['cloud', 340, 40, 0.8]] },
+        en: 'Viśvāmitra\'s eyes blazed. "Then I will send him myself, by the power of my tapas!" And Triśaṅku rose up, up into the sky, all the way to the gates of heaven. But Indra, king of the gods, said, "You do not belong here. Go back!" and pushed him down. "Save me, Viśvāmitra!" cried Triśaṅku, falling head first. "Stop!" thundered the sage — and Triśaṅku stopped, hanging in the sky. Then Viśvāmitra began to make new stars in the southern sky, a whole new heaven! The gods hurried to him. "Please, great sage, calm down!" At last they agreed: Triśaṅku would stay up there, shining among Viśvāmitra\'s stars, in a heaven of his very own.',
+        te: 'విశ్వామిత్రుడి కళ్ళు నిప్పులు కురిశాయి. "అయితే నా తపశ్శక్తితో నేనే పంపిస్తాను!" అన్నాడు. వెంటనే త్రిశంకుడు పైకి, ఇంకా పైకి, ఆకాశంలో స్వర్గ ద్వారం వరకు వెళ్ళాడు. కానీ దేవతల రాజైన ఇంద్రుడు "నీకు ఇక్కడ చోటు లేదు. వెనక్కి పో!" అంటూ కిందకు తోసేశాడు. "విశ్వామిత్రా, నన్ను కాపాడు!" అని అరుస్తూ త్రిశంకుడు తలకిందులుగా పడిపోసాగాడు. "ఆగు!" అని ముని గర్జించాడు — త్రిశంకుడు ఆకాశంలోనే ఆగిపోయాడు. తరువాత విశ్వామిత్రుడు దక్షిణ ఆకాశంలో కొత్త నక్షత్రాలను సృష్టించడం మొదలుపెట్టాడు — ఒక కొత్త స్వర్గమే! దేవతలు పరుగున వచ్చారు. "మహర్షీ, శాంతించండి!" చివరకు అందరూ ఒప్పుకున్నారు: త్రిశంకుడు విశ్వామిత్రుడి నక్షత్రాల మధ్య, తనకంటూ ఒక స్వర్గంలో, అక్కడే వెలుగుతూ ఉంటాడు.',
+      },
+    ],
+  },
+  {
+    id: 'shakuntala-and-brave-little-bharata',
+    added: '2026-11-22',
+    epic: 'Mahabharata',
+    chars: ['Śakuntalā', 'Duṣyanta', 'Bharata', 'Kaṇva'],
+    title: { en: 'Śakuntalā and Brave Little Bharata', te: 'శకుంతల, ధీరుడైన చిన్నారి భరతుడు' },
+    moral: { en: 'Truth spoken bravely cannot stay hidden for long.', te: 'ధైర్యంగా చెప్పిన సత్యం ఎంతో కాలం దాగి ఉండదు.' },
+    cover: { bg: 'forest', props: [['person', 150, 198, 1.45, { female: true, cloth: '#e8a0b0', pallu: true }], ['person', 205, 198, 0.95, { cloth: '#f0c040', raise: true }], ['deer', 300, 196, 1.1], ['bird', 90, 90, 1], ['sun', 350, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'ashram', props: [['archer', 90, 198, 1.4, { cloth: '#a8392a', crown: true }], ['person', 200, 198, 1.4, { female: true, cloth: '#e8a0b0', pallu: true, flip: true }], ['deer', 260, 196, 0.9], ['bird', 200, 80, 0.9], ['flowers', 150, 198, 1]] },
+        en: 'One day King Duṣyanta went hunting in a deep forest and came upon the peaceful āśrama of Sage Kaṇva. The sage was away, but a gentle young woman welcomed the king with fruit and cool water. "I am Śakuntalā," she said. "When I was a tiny baby, I was left alone in the forest, and the birds — the śakuntas — sheltered me with their wings. Sage Kaṇva found me and raised me as his own daughter." Duṣyanta loved her at once, and she loved him too. They were married there in the forest. "I must return to my city now," said the king, "but I will send for you soon."',
+        te: 'ఒక రోజు దుష్యంత మహారాజు వేటకు వెళ్ళి దట్టమైన అడవిలో కణ్వ మహర్షి ఆశ్రమానికి చేరుకున్నాడు. మహర్షి ఆ సమయంలో అక్కడ లేరు. కానీ ఒక సౌమ్యమైన యువతి పండ్లు, చల్లని నీళ్ళతో రాజుకు స్వాగతం పలికింది. "నా పేరు శకుంతల," అంది ఆమె. "నేను చిన్న పాపగా ఉన్నప్పుడు అడవిలో ఒంటరిగా ఉండిపోయాను. శకుంతాలనే పక్షులు తమ రెక్కలతో నన్ను కాపాడాయి. కణ్వ మహర్షి నన్ను చూసి తన సొంత కూతురిలా పెంచారు." దుష్యంతుడికి ఆమె వెంటనే నచ్చింది, ఆమెకూ అతడు నచ్చాడు. అక్కడే అడవిలో వాళ్ళిద్దరూ పెళ్ళి చేసుకున్నారు. "ఇప్పుడు నేను నా నగరానికి వెళ్ళాలి," అన్నాడు రాజు. "త్వరలోనే నిన్ను పిలిపిస్తాను."',
+      },
+      {
+        scene: { bg: 'forest', props: [['elephant', 280, 198, 0.75], ['person', 200, 198, 1, { cloth: '#f0c040', raise: true }], ['person', 90, 198, 1.4, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['tree', 360, 196, 0.8], ['bird', 140, 70, 0.8]] },
+        en: 'Days became months, and months became years, but no message came from the king. Śakuntalā gave birth to a baby boy in the āśrama. He grew up strong and fearless. By the time he was six, he was catching lion cubs and young elephants and tying them to the trees! He rode on their backs and laughed while the animals grumbled. The sages called him Sarvadamana — "the one who tames everything." One day Kaṇva said, "My daughter, a son belongs with his father. Take the boy to King Duṣyanta." So Śakuntalā held her son\'s hand and set off for the royal city.',
+        te: 'రోజులు నెలలయ్యాయి, నెలలు సంవత్సరాలయ్యాయి, కానీ రాజు నుంచి ఏ కబురూ రాలేదు. ఆశ్రమంలోనే శకుంతలకు ఒక మగబిడ్డ పుట్టాడు. ఆ పిల్లవాడు బలంగా, భయం లేకుండా పెరిగాడు. ఆరేళ్ళు వచ్చేసరికి సింహం పిల్లలను, ఏనుగు పిల్లలను పట్టుకుని చెట్లకు కట్టేసేవాడు! వాటి వీపుల మీద ఎక్కి సవారీ చేస్తూ నవ్వేవాడు, ఆ జంతువులు గుర్రుమనేవి. మునులు అతడిని సర్వదమనుడు — "అన్నిటినీ లొంగదీసేవాడు" — అని పిలిచేవారు. ఒక రోజు కణ్వుడు, "అమ్మా, కొడుకు తండ్రి దగ్గర ఉండాలి. ఈ పిల్లవాడిని దుష్యంత మహారాజు దగ్గరకు తీసుకువెళ్ళు," అన్నారు. శకుంతల కొడుకు చేయి పట్టుకుని రాజధానికి బయలుదేరింది.',
+      },
+      {
+        scene: { bg: 'court', props: [['throne', 300, 196, 1.2], ['person', 300, 190, 1.3, { cloth: '#a8392a', crown: true, raise: true, flip: true }], ['person', 120, 198, 1.4, { female: true, cloth: '#e8a0b0', pallu: true, raise: true }], ['person', 180, 198, 0.95, { cloth: '#f0c040' }], ['glow', 220, 90, 0.8]] },
+        en: 'In the great hall, Śakuntalā stood before the king. "Here is your son," she said. But Duṣyanta, worried about what his courtiers would think, said, "I do not know you." Śakuntalā\'s eyes flashed. "O King, truth is greater than a thousand sacrifices! Do not turn away from your own child." Just then a voice rang out from the sky: "Duṣyanta, she speaks the truth. This is your son. Cherish him, and call him Bharata!" The king came down from his throne with tears of joy and hugged them both. "I knew," he said softly, "but now all my people know too." Little Bharata grew up to be so great a king that our land is still called Bhārata.',
+        te: 'పెద్ద సభలో శకుంతల రాజు ముందు నిలబడింది. "ఇతడు మీ కొడుకు," అంది. కానీ సభలోని వాళ్ళు ఏమనుకుంటారో అని భయపడి దుష్యంతుడు, "నువ్వెవరో నాకు తెలియదు," అన్నాడు. శకుంతల కళ్ళు మెరిశాయి. "రాజా, వెయ్యి యాగాల కంటే సత్యం గొప్పది! మీ సొంత బిడ్డను కాదనకండి." అప్పుడే ఆకాశం నుంచి ఒక వాణి వినిపించింది: "దుష్యంతా, ఆమె చెప్పేది నిజం. ఇతడు నీ కొడుకే. ఇతడిని ప్రేమగా పోషించు, భరతుడు అని పేరు పెట్టు!" రాజు ఆనంద బాష్పాలతో సింహాసనం దిగి వచ్చి ఇద్దరినీ కౌగిలించుకున్నాడు. "నాకు ముందే తెలుసు," అన్నాడు మెల్లగా, "కానీ ఇప్పుడు నా ప్రజలందరికీ తెలిసింది." ఆ చిన్నారి భరతుడు ఎంత గొప్ప రాజు అయ్యాడంటే, మన దేశాన్ని ఇప్పటికీ భారతదేశం అని పిలుస్తున్నాం.',
+      },
+    ],
+  },
+  {
+    id: 'shunahshepa-saved-by-vishvamitra',
+    added: '2026-11-22',
+    epic: 'Ramayana',
+    chars: ['Śunaḥśepa', 'Viśvāmitra', 'Ambarīṣa', 'Indra'],
+    title: { en: 'Śunaḥśepa Saved by Viśvāmitra', te: 'శునఃశేపుడిని కాపాడిన విశ్వామిత్రుడు' },
+    moral: { en: 'When all seems lost, ask for help and keep faith — help will come.', te: 'అంతా అయిపోయిందనిపించినా సహాయం అడుగు, నమ్మకం వదలకు — సహాయం తప్పక వస్తుంది.' },
+    cover: { bg: 'river', props: [['person', 150, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd', raise: true }], ['glow', 230, 198, 0.9], ['person', 230, 198, 1.05, { cloth: '#e8d29a', raise: true, flip: true }], ['lotus', 320, 205, 0.8], ['sun', 350, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'mountain', props: [['person', 70, 198, 1.45, { cloth: '#3a6ab0', crown: true }], ['cow', 150, 198, 1], ['person', 240, 198, 1.35, { cloth: '#f4ead2', beard: true, hair: '#ddd', flip: true }], ['person', 290, 198, 1, { cloth: '#e8d29a', flip: true }], ['person', 330, 198, 1.1, { female: true, cloth: '#c9952a', pallu: true, flip: true }]] },
+        en: 'King Ambarīṣa of Ayodhyā was performing a great sacrifice when Indra quietly stole the sacred horse. "This is bad," said the priest. "Bring back the horse — or the old rule says a boy must be offered in its place." The king searched everywhere but could not find the horse. At last he came to a mountain where Sage Ṛcīka lived with his wife and three sons. "I will give you a hundred thousand cows for one of your sons," said the king. "Not my eldest," said the father. "Not my youngest," said the mother. The middle son, Śunaḥśepa, looked down sadly. "Then I suppose it must be me," he said, and went with the king.',
+        te: 'అయోధ్య రాజైన అంబరీషుడు ఒక గొప్ప యాగం చేస్తుండగా, ఇంద్రుడు రహస్యంగా యాగాశ్వాన్ని దొంగిలించాడు. "ఇది మంచిది కాదు," అన్నాడు పురోహితుడు. "గుర్రాన్ని తిరిగి తీసుకురండి — లేకపోతే పాత నియమం ప్రకారం దానికి బదులుగా ఒక బాలుడిని సమర్పించాలి." రాజు అన్ని చోట్లా వెతికాడు, కానీ గుర్రం దొరకలేదు. చివరకు ఒక పర్వతం మీద భార్యతో, ముగ్గురు కొడుకులతో ఉంటున్న ఋచీక మహర్షి దగ్గరకు వచ్చాడు. "మీ కొడుకుల్లో ఒకరిని ఇస్తే లక్ష గోవులు ఇస్తాను," అన్నాడు రాజు. "పెద్దవాడిని ఇవ్వను," అన్నాడు తండ్రి. "చిన్నవాడిని ఇవ్వను," అంది తల్లి. మధ్యవాడైన శునఃశేపుడు దిగులుగా తల దించుకున్నాడు. "అయితే నేనే వెళ్ళాలి కదా," అంటూ రాజుతో బయలుదేరాడు.',
+      },
+      {
+        scene: { bg: 'river', props: [['person', 110, 198, 1.45, { cloth: '#f4ead2', beard: true, hair: '#ddd' }], ['person', 185, 198, 1.05, { cloth: '#e8d29a', raise: true, flip: true }], ['lotus', 300, 205, 0.9], ['tree', 360, 190, 0.8], ['cloud', 230, 45, 0.9]] },
+        en: 'On the way, the king stopped to rest beside the holy lake of Puṣkara. There Śunaḥśepa saw a sage deep in meditation. It was Viśvāmitra — his own mother\'s brother! The boy ran and fell at his feet, tears streaming down his face. "Uncle, I have no father, no mother, no friend left to help me. Please save me!" Viśvāmitra lifted him up gently. First he asked his own sons to go in the boy\'s place, but they laughed and refused, and the sage sent them away in anger. Then he whispered to Śunaḥśepa, "Listen carefully, child. I will teach you two sacred hymns. When the time comes, sing them with all your heart."',
+        te: 'దారిలో రాజు పవిత్రమైన పుష్కర సరస్సు దగ్గర విశ్రాంతి తీసుకోవడానికి ఆగాడు. అక్కడ శునఃశేపుడు ధ్యానంలో ఉన్న ఒక మహర్షిని చూశాడు. ఆయన విశ్వామిత్రుడు — తన తల్లికి సొంత అన్న, అంటే మేనమామ! ఆ బాలుడు పరుగున వెళ్ళి ఆయన కాళ్ళ మీద పడ్డాడు. కన్నీళ్ళు కారుతున్నాయి. "మామయ్యా, నాకు తండ్రీ లేడు, తల్లీ లేదు, సహాయం చేసే స్నేహితుడూ లేడు. దయచేసి నన్ను కాపాడండి!" విశ్వామిత్రుడు అతడిని ప్రేమగా లేవనెత్తాడు. మొదట బాలుడికి బదులుగా వెళ్ళమని తన కొడుకులను అడిగాడు. వాళ్ళు నవ్వి కుదరదన్నారు. కోపంతో ముని వాళ్ళను పంపేశాడు. తరువాత శునఃశేపుడి చెవిలో, "బాగా విను నాయనా. నీకు రెండు పవిత్రమైన మంత్రాలు నేర్పిస్తాను. సమయం వచ్చినప్పుడు వాటిని మనస్ఫూర్తిగా పాడు," అన్నాడు.',
+      },
+      {
+        scene: { bg: 'ashram', props: [['fire', 150, 198, 1.1], ['glow', 220, 198, 1], ['person', 220, 198, 1.05, { cloth: '#e8d29a', raise: true }], ['cloud', 300, 98, 1.1], ['person', 300, 88, 1, { cloth: '#3a6ab0', crown: true, raise: true, flip: true }], ['person', 70, 198, 1.4, { cloth: '#3a6ab0', crown: true }]] },
+        en: 'At the sacrifice, Śunaḥśepa was tied to the wooden post with a red garland around his neck. Everyone fell silent. Then the boy lifted his face to the sky and began to sing the two hymns Viśvāmitra had taught him, praising Indra and the gods. His voice was small but clear and full of faith. Up in heaven, Indra heard him and was deeply pleased. "Such a sweet song, from such a brave heart!" At once the ropes fell away. Indra blessed Śunaḥśepa with a long and happy life — and he blessed King Ambarīṣa too, so that his sacrifice was complete. The boy who had no one to help him had found a friend after all.',
+        te: 'యాగశాలలో శునఃశేపుడిని ఎర్రని పూలమాల వేసి చెక్క స్తంభానికి కట్టేశారు. అందరూ నిశ్శబ్దంగా ఉండిపోయారు. అప్పుడు ఆ బాలుడు ఆకాశం వైపు ముఖం ఎత్తి, విశ్వామిత్రుడు నేర్పిన రెండు మంత్రాలను పాడటం మొదలుపెట్టాడు, ఇంద్రుడినీ దేవతలనూ స్తుతిస్తూ. అతడి గొంతు చిన్నదే, కానీ స్పష్టంగా, నమ్మకంతో నిండి ఉంది. స్వర్గంలో ఇంద్రుడు అది విని ఎంతో సంతోషించాడు. "ఎంత మధురమైన పాట, ఎంత ధైర్యమైన మనసు!" వెంటనే తాళ్ళు ఊడిపోయాయి. ఇంద్రుడు శునఃశేపుడికి దీర్ఘాయువు, సంతోషకరమైన జీవితం ప్రసాదించాడు — అంబరీష మహారాజు యాగం కూడా పూర్తయ్యేలా ఆశీర్వదించాడు. సహాయం చేసేవాళ్ళే లేరనుకున్న ఆ బాలుడికి చివరకు ఒక స్నేహితుడు దొరికాడు.',
+      },
+    ],
+  },
 ];

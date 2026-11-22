@@ -137,11 +137,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Garuḍa Brings the Nectar (Mahābhārata) — garuda-brings-the-nectar
 - [x] The Monkeys Raid the Honey Garden (Rāmāyaṇa) — monkeys-raid-the-honey-garden
 - [x] Āruṇi, the Student Who Became a Dam (Mahābhārata) — aruni-the-student-who-became-a-dam
+- [x] Triśaṅku's Own Heaven (Rāmāyaṇa) — trishankus-own-heaven
+- [x] Śakuntalā and Brave Little Bharata (Mahābhārata) — shakuntala-and-brave-little-bharata
+- [x] Śunaḥśepa Saved by Viśvāmitra (Rāmāyaṇa) — shunahshepa-saved-by-vishvamitra
 
 ## Next
-- [ ] Triśaṅku's Own Heaven (Rāmāyaṇa) — Triśaṅku, Viśvāmitra
-- [ ] Śakuntalā and Brave Little Bharata (Mahābhārata) — Śakuntalā, Duṣyanta, Bharata
-- [ ] Śunaḥśepa Saved by Viśvāmitra (Rāmāyaṇa) — Śunaḥśepa, Viśvāmitra, Ambarīṣa
 - [ ] Yayāti and Puru's Gift of Youth (Mahābhārata) — Yayāti, Puru, Devayānī
 - [ ] Atri and Anasūyā Bless Sītā (Rāmāyaṇa) — Anasūyā, Atri, Sītā
 - [ ] Kaca and Devayānī — the Secret of Life (Mahābhārata) — Kaca, Devayānī, Śukrācārya
