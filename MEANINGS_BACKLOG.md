@@ -31,7 +31,6 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Gītā — Next (in this order)
 
-- [ ] Chapter 3
 - [ ] Chapter 4
 - [ ] Chapter 5
 - [ ] Chapter 6
@@ -50,6 +49,7 @@ when it has a meaning. Tapping it opens the verse with its meaning over the page
 
 ## Done
 
+- [x] Gītā Chapter 3 — 43 verses (meaning + simple words) — 2026-11-22
 - [x] Gītā Chapter 2 — 72 verses (meaning + simple words) — 2026-11-21
 
 - [x] Gītā Chapter 1 — 47 verses (meaning + simple words) — 2026-11-20

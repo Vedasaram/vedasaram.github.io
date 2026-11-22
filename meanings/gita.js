@@ -601,6 +601,223 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "हे पार्थ! यही ब्राह्मी स्थिति है। इसे पाकर मनुष्य फिर मोहित नहीं होता। अंतकाल में भी इसमें स्थित रहकर वह ब्रह्मनिर्वाण (मोक्ष) प्राप्त करता है।"
 },
 
+// ── Chapter 3 · Karma Yoga ──
+"gita_ch3_v1": {
+  en: "Arjuna said: Janārdana, if You hold that understanding is better than action, then why, Keśava, do You push me into this terrible deed?",
+  te: "అర్జునుడు అన్నాడు: జనార్దనా! కర్మ కంటే జ్ఞానమే శ్రేష్ఠమని నీ అభిప్రాయమైతే, కేశవా, మరి ఈ భయంకరమైన కర్మలో నన్నెందుకు దించుతున్నావు?",
+  hi: "अर्जुन ने कहा: हे जनार्दन! यदि आपके मत में कर्म से ज्ञान श्रेष्ठ है, तो हे केशव, आप मुझे इस भयंकर कर्म में क्यों लगा रहे हैं?"
+},
+"gita_ch3_v2": {
+  en: "Your mixed-sounding words seem to confuse my mind. So tell me clearly the one thing by which I may reach the highest good.",
+  te: "కలగలిసినట్టున్న నీ మాటలతో నా బుద్ధి గందరగోళంలో పడుతోంది. నాకు శ్రేయస్సు కలిగే ఆ ఒక్క మార్గాన్ని నిశ్చయంగా చెప్పు.",
+  hi: "आपके मिले-जुले से लगते वचनों से मेरी बुद्धि भ्रमित-सी हो रही है। इसलिए निश्चय करके वह एक बात बताइए जिससे मेरा कल्याण हो।"
+},
+"gita_ch3_v3": {
+  en: "The Lord said: Sinless one, I have taught before that there are two paths in this world — the path of knowledge for those inclined to reflection, and the path of action for those inclined to work.",
+  te: "శ్రీ భగవానుడు అన్నాడు: పాపరహితుడా! ఈ లోకంలో రెండు రకాల నిష్ఠలు ఉన్నాయని నేను ముందే చెప్పాను — విచారణ చేసేవారికి జ్ఞానయోగం, కర్మ చేసేవారికి కర్మయోగం.",
+  hi: "श्री भगवान ने कहा: हे निष्पाप! इस संसार में दो प्रकार की निष्ठा मैंने पहले बताई है — चिंतनशील लोगों के लिए ज्ञानयोग और कर्मशील लोगों के लिए कर्मयोग।"
+},
+"gita_ch3_v4": {
+  en: "A person does not reach freedom from action simply by not starting any work, nor does one attain perfection merely by giving things up.",
+  te: "పని మొదలుపెట్టకుండా ఉండినంత మాత్రాన మనిషికి కర్మబంధం నుండి విముక్తి రాదు; కేవలం విడిచిపెట్టినంత మాత్రాన సిద్ధి కూడా లభించదు.",
+  hi: "केवल कर्म आरंभ न करने से मनुष्य कर्म से मुक्त नहीं होता, और केवल त्याग कर देने से ही सिद्धि नहीं मिलती।"
+},
+"gita_ch3_v5": {
+  en: "No one can remain even for a moment without doing something. Everyone is driven to act, whether they wish it or not, by the qualities born of nature.",
+  te: "ఎవరూ ఒక్క క్షణమైనా ఏ పనీ చేయకుండా ఉండలేరు. ప్రకృతి నుండి పుట్టిన గుణాలు ప్రతి ఒక్కరినీ ఇష్టం ఉన్నా లేకపోయినా పని చేయిస్తాయి.",
+  hi: "कोई भी एक क्षण भी बिना कुछ किए नहीं रह सकता। प्रकृति से उत्पन्न गुण हर किसी से, चाहे वह चाहे या न चाहे, कर्म करवाते हैं।"
+},
+"gita_ch3_v6": {
+  en: "One who holds the organs of action still but sits dwelling in the mind on the objects of the senses is deluded, and is called a pretender.",
+  te: "కర్మేంద్రియాలను బలవంతంగా ఆపి, మనసులో మాత్రం ఇంద్రియ విషయాలనే తలచుకుంటూ కూర్చునేవాడు మూఢుడు; వాణ్ణి కపటాచారి అంటారు.",
+  hi: "जो कर्मेंद्रियों को रोककर बैठा रहता है पर मन में इंद्रियों के विषयों का ही चिंतन करता है, वह मूढ़ है और उसे पाखंडी कहा जाता है।"
+},
+"gita_ch3_v7": {
+  en: "But one who controls the senses with the mind, Arjuna, and without attachment takes up the yoga of action with the organs of action — that person excels.",
+  te: "కానీ అర్జునా! మనసుతో ఇంద్రియాలను అదుపులో ఉంచుకుని, ఆసక్తి లేకుండా కర్మేంద్రియాలతో కర్మయోగాన్ని ఆచరించేవాడే శ్రేష్ఠుడు.",
+  hi: "परंतु हे अर्जुन! जो मन से इंद्रियों को वश में करके, आसक्ति के बिना कर्मेंद्रियों से कर्मयोग करता है, वही श्रेष्ठ है।"
+},
+"gita_ch3_v8": {
+  en: "Do your prescribed duty, for action is better than inaction. Without action, even the upkeep of your body would not be possible.",
+  te: "నీకు నిర్ణయించిన కర్తవ్యాన్ని చెయ్యి; పని చేయకపోవడం కంటే చేయడమే మేలు. పని లేకుండా నీ శరీర యాత్ర కూడా సాగదు.",
+  hi: "तुम अपना नियत कर्म करो, क्योंकि कर्म न करने से कर्म करना श्रेष्ठ है। बिना कर्म के तो तुम्हारे शरीर का निर्वाह भी नहीं हो सकता।"
+},
+"gita_ch3_v9": {
+  en: "This world is bound by action, except for action done as an offering (yajña). So, son of Kuntī, do your work for that purpose, free from attachment.",
+  te: "యజ్ఞం కోసం (భగవదర్పణగా) చేసే కర్మ తప్ప మిగిలిన కర్మలన్నీ ఈ లోకాన్ని బంధిస్తాయి. కాబట్టి కౌంతేయా! ఆసక్తిని విడిచి ఆ భావంతోనే కర్మ చెయ్యి.",
+  hi: "यज्ञ (अर्पण) के लिए किए गए कर्म के सिवा अन्य कर्मों से यह संसार बँधता है। इसलिए हे कौंतेय! आसक्ति छोड़कर उसी भाव से कर्म करो।"
+},
+"gita_ch3_v10": {
+  en: "In the beginning, the Creator brought forth beings together with yajña and said: 'By this you shall prosper; let this be the giver of all you desire.'",
+  te: "సృష్టి ప్రారంభంలో ప్రజాపతి యజ్ఞంతో పాటే ప్రజలను సృష్టించి ఇలా అన్నాడు: 'దీనివల్ల మీరు వృద్ధి చెందండి; ఇది మీరు కోరినవన్నీ ఇచ్చే కామధేనువు అగుగాక.'",
+  hi: "सृष्टि के आरंभ में प्रजापति ने यज्ञ के साथ प्रजा को रचकर कहा: 'इससे तुम बढ़ो; यह तुम्हारी इच्छित वस्तुएँ देने वाली कामधेनु हो।'"
+},
+"gita_ch3_v11": {
+  en: "'Nourish the gods with this, and let the gods nourish you. Nourishing one another, you will reach the highest good.'",
+  te: "'దీనితో మీరు దేవతలను సంతోషపెట్టండి, ఆ దేవతలు మిమ్మల్ని పోషిస్తారు. ఇలా ఒకరినొకరు పోషించుకుంటూ మీరు పరమ శ్రేయస్సును పొందుతారు.'",
+  hi: "'इससे तुम देवताओं को संतुष्ट करो और वे देवता तुम्हें संतुष्ट करें। इस प्रकार एक-दूसरे का पोषण करते हुए तुम परम कल्याण पाओगे।'"
+},
+"gita_ch3_v12": {
+  en: "'Pleased by yajña, the gods will give you the enjoyments you desire.' One who enjoys their gifts without offering anything back to them is simply a thief.",
+  te: "'యజ్ఞంతో సంతృప్తులైన దేవతలు మీరు కోరిన భోగాలను ఇస్తారు.' వారు ఇచ్చినవాటిని వారికి తిరిగి అర్పించకుండా తానే అనుభవించేవాడు నిజంగా దొంగే.",
+  hi: "'यज्ञ से संतुष्ट देवता तुम्हें इच्छित भोग देंगे।' जो उनके दिए हुए को उन्हें अर्पित किए बिना स्वयं भोगता है, वह चोर ही है।"
+},
+"gita_ch3_v13": {
+  en: "The good who eat what remains after the offering are freed from all wrongs. But the wicked who cook only for themselves eat sin.",
+  te: "యజ్ఞం తర్వాత మిగిలినదాన్ని తినే సజ్జనులు అన్ని పాపాల నుండి విముక్తులవుతారు. కేవలం తమ కోసమే వండుకునే పాపులు పాపాన్నే తింటారు.",
+  hi: "यज्ञ से बचा हुआ अन्न खाने वाले सज्जन सब पापों से छूट जाते हैं। पर जो केवल अपने लिए पकाते हैं, वे पापी पाप ही खाते हैं।"
+},
+"gita_ch3_v14": {
+  en: "Living beings come from food; food comes from rain; rain comes from yajña; and yajña is born of action.",
+  te: "అన్నం వల్ల ప్రాణులు పుడతాయి; వర్షం వల్ల అన్నం పండుతుంది; యజ్ఞం వల్ల వర్షం కురుస్తుంది; యజ్ఞం కర్మ నుండి పుడుతుంది.",
+  hi: "अन्न से प्राणी उत्पन्न होते हैं; वर्षा से अन्न होता है; यज्ञ से वर्षा होती है; और यज्ञ कर्म से उत्पन्न होता है।"
+},
+"gita_ch3_v15": {
+  en: "Know that action comes from the Veda, and the Veda comes from the Imperishable. Therefore the all-pervading Brahman is always present in yajña.",
+  te: "కర్మ వేదం నుండి పుట్టిందని, వేదం అక్షర పరబ్రహ్మ నుండి వచ్చిందని తెలుసుకో. కాబట్టి సర్వవ్యాపకమైన బ్రహ్మం ఎల్లప్పుడూ యజ్ఞంలో నిలిచి ఉంది.",
+  hi: "जानो कि कर्म वेद से उत्पन्न है और वेद अविनाशी परमात्मा से। इसलिए सर्वव्यापी ब्रह्म सदा यज्ञ में प्रतिष्ठित है।"
+},
+"gita_ch3_v16": {
+  en: "One who does not help turn this wheel that has been set in motion, Pārtha, but lives for sensual pleasure in a sinful way, lives in vain.",
+  te: "పార్థా! ఇలా తిరుగుతున్న ఈ చక్రాన్ని అనుసరించకుండా, ఇంద్రియ సుఖాలలోనే మునిగి పాపపు జీవితం గడిపేవాడి బ్రతుకు వ్యర్థం.",
+  hi: "हे पार्थ! जो इस प्रकार चलाए गए चक्र के अनुसार नहीं चलता और इंद्रियों के सुख में डूबा पापमय जीवन जीता है, उसका जीना व्यर्थ है।"
+},
+"gita_ch3_v17": {
+  en: "But for the person who delights only in the Self, is content in the Self and fully satisfied in the Self alone, there is no duty left to do.",
+  te: "కానీ ఆత్మలోనే ఆనందించేవాడు, ఆత్మలోనే తృప్తి పొందేవాడు, ఆత్మలోనే సంతుష్టుడైన మనిషికి చేయవలసిన కర్తవ్యం అంటూ ఏదీ ఉండదు.",
+  hi: "परंतु जो मनुष्य आत्मा में ही रमता है, आत्मा में ही तृप्त है और आत्मा में ही संतुष्ट है, उसके लिए कोई कर्तव्य शेष नहीं रहता।"
+},
+"gita_ch3_v18": {
+  en: "Such a person gains nothing by acting and loses nothing by not acting in this world, and depends on no being for anything.",
+  te: "అలాంటివాడికి ఈ లోకంలో పని చేయడం వల్ల పొందేదీ లేదు, చేయకపోవడం వల్ల పోయేదీ లేదు. ఏ ప్రాణిపైనా అతడు దేనికోసమూ ఆధారపడడు.",
+  hi: "ऐसे व्यक्ति को इस संसार में न कर्म करने से कुछ पाना है, न न करने से कुछ खोना है; और उसे किसी प्राणी पर किसी बात के लिए निर्भर नहीं रहना पड़ता।"
+},
+"gita_ch3_v19": {
+  en: "Therefore, always do the work that has to be done, without attachment. By working without attachment, a person reaches the Supreme.",
+  te: "కాబట్టి ఆసక్తి లేకుండా చేయవలసిన పనిని ఎల్లప్పుడూ చక్కగా చెయ్యి. ఆసక్తి లేకుండా కర్మ చేసే మనిషి పరమాత్మను చేరుకుంటాడు.",
+  hi: "इसलिए आसक्ति के बिना सदा अपना कर्तव्य कर्म भली-भाँति करो। आसक्ति रहित होकर कर्म करने वाला मनुष्य परमात्मा को पाता है।"
+},
+"gita_ch3_v20": {
+  en: "Janaka and others reached perfection through action alone. And even just for the good and guidance of the world, you should act.",
+  te: "జనకుడు మొదలైనవారు కర్మ ద్వారానే సిద్ధిని పొందారు. లోకహితం (లోకసంగ్రహం) దృష్టిలో ఉంచుకుని అయినా నువ్వు కర్మ చేయాలి.",
+  hi: "जनक आदि ने कर्म के द्वारा ही सिद्धि प्राप्त की थी। लोक-कल्याण (लोकसंग्रह) को देखते हुए भी तुम्हें कर्म करना चाहिए।"
+},
+"gita_ch3_v21": {
+  en: "Whatever a great person does, others follow. Whatever standard such a person sets, the world goes by it.",
+  te: "శ్రేష్ఠుడు ఏది ఆచరిస్తాడో మిగిలినవారూ అదే చేస్తారు. అతడు దేనిని ప్రమాణంగా పెడతాడో లోకం దానినే అనుసరిస్తుంది.",
+  hi: "श्रेष्ठ व्यक्ति जो-जो आचरण करता है, दूसरे लोग भी वैसा ही करते हैं। वह जो मानक स्थापित करता है, संसार उसी का अनुसरण करता है।"
+},
+"gita_ch3_v22": {
+  en: "Pārtha, in all the three worlds there is nothing I have to do, nothing I lack and nothing I need to gain — and yet I go on working.",
+  te: "పార్థా! మూడు లోకాలలోనూ నేను చేయవలసినది ఏదీ లేదు; నాకు లేనిదీ, పొందవలసినదీ ఏదీ లేదు — అయినా నేను కర్మలో నిమగ్నమై ఉంటాను.",
+  hi: "हे पार्थ! तीनों लोकों में मेरा कोई कर्तव्य नहीं है, न कोई वस्तु अप्राप्त है जिसे मुझे पाना हो — फिर भी मैं कर्म में लगा रहता हूँ।"
+},
+"gita_ch3_v23": {
+  en: "For if I ever stopped working tirelessly, Pārtha, people everywhere would follow my path.",
+  te: "పార్థా! నేను ఎప్పుడైనా అలసట లేకుండా కర్మ చేయడం మానేస్తే, మనుషులందరూ అన్ని విధాలా నా మార్గాన్నే అనుసరిస్తారు.",
+  hi: "हे पार्थ! यदि मैं कभी आलस्य छोड़कर कर्म में न लगा रहूँ, तो मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करेंगे।"
+},
+"gita_ch3_v24": {
+  en: "If I did not act, these worlds would fall into ruin; I would be the cause of confusion and disorder, and would bring harm to all these beings.",
+  te: "నేను కర్మ చేయకపోతే ఈ లోకాలన్నీ నశిస్తాయి; అస్తవ్యస్తతకు నేనే కారణమవుతాను, ఈ ప్రజలందరినీ నాశనం చేసినవాడినవుతాను.",
+  hi: "यदि मैं कर्म न करूँ तो ये सब लोक नष्ट हो जाएँ; मैं अव्यवस्था (संकर) का कारण बनूँ और इन सब प्रजाओं का नाश करने वाला हो जाऊँ।"
+},
+"gita_ch3_v25": {
+  en: "Bhārata, just as the unwise work with attachment, the wise should work just as hard, but without attachment, wishing for the good of the world.",
+  te: "భారతా! అజ్ఞానులు ఆసక్తితో ఎలా కర్మ చేస్తారో, జ్ఞాని కూడా లోకహితాన్ని కోరుతూ, ఆసక్తి లేకుండా అలాగే కర్మ చేయాలి.",
+  hi: "हे भारत! जैसे अज्ञानी आसक्त होकर कर्म करते हैं, वैसे ही ज्ञानी को लोक-कल्याण की इच्छा से, आसक्ति रहित होकर कर्म करना चाहिए।"
+},
+"gita_ch3_v26": {
+  en: "The wise should not unsettle the minds of the unknowing who are attached to their work. Instead, working steadily themselves, they should inspire others to do all their duties well.",
+  te: "కర్మలపై ఆసక్తి ఉన్న అజ్ఞానుల బుద్ధిని జ్ఞాని కలవరపెట్టకూడదు. తానే యోగయుక్తుడై చక్కగా కర్మలు చేస్తూ, వారితోనూ అన్ని కర్మలను ప్రీతిగా చేయించాలి.",
+  hi: "ज्ञानी को कर्म में आसक्त अज्ञानियों की बुद्धि में भ्रम नहीं पैदा करना चाहिए। बल्कि स्वयं योगयुक्त होकर अच्छी तरह कर्म करते हुए उन्हें भी सब कर्मों में लगाए रखना चाहिए।"
+},
+"gita_ch3_v27": {
+  en: "All actions are in truth carried out by the qualities (guṇas) of nature. But one whose mind is clouded by ego thinks, 'I am the doer.'",
+  te: "నిజానికి అన్ని కర్మలూ ప్రకృతి గుణాల చేతనే జరుగుతున్నాయి. కానీ అహంకారంతో మోహితుడైనవాడు 'నేనే కర్తను' అనుకుంటాడు.",
+  hi: "वास्तव में सब कर्म प्रकृति के गुणों द्वारा किए जाते हैं। परंतु अहंकार से मोहित व्यक्ति मानता है कि 'मैं कर्ता हूँ'।"
+},
+"gita_ch3_v28": {
+  en: "But one who knows the truth about the guṇas and their workings, mighty-armed one, understands that it is the guṇas acting among the guṇas, and so is not attached.",
+  te: "కానీ మహాబాహూ! గుణాల గురించి, వాటి కర్మల విభాగం గురించి తత్త్వం తెలిసినవాడు 'గుణాలు గుణాలలోనే వర్తిస్తున్నాయి' అని గ్రహించి ఆసక్తుడు కాడు.",
+  hi: "परंतु हे महाबाहो! गुणों और कर्मों के विभाग का तत्त्व जानने वाला समझता है कि 'गुण ही गुणों में बरत रहे हैं', और इसलिए आसक्त नहीं होता।"
+},
+"gita_ch3_v29": {
+  en: "Those deluded by the guṇas of nature get attached to the works of the guṇas. One who knows the whole truth should not disturb these people of partial understanding.",
+  te: "ప్రకృతి గుణాలతో మోహితులైనవారు గుణకర్మలలో ఆసక్తులవుతారు. అన్నీ తెలిసిన జ్ఞాని, సగం మాత్రమే తెలిసిన ఆ మందబుద్ధులను కలవరపెట్టకూడదు.",
+  hi: "प्रकृति के गुणों से मोहित लोग गुणों के कर्मों में आसक्त होते हैं। पूरा सत्य जानने वाला ज्ञानी उन अधूरी समझ वाले लोगों को विचलित न करे।"
+},
+"gita_ch3_v30": {
+  en: "Offer all your actions to Me, with your mind on the Self. Free from craving and from 'mine', and with the fever of grief gone, fight.",
+  te: "ఆత్మ మీద మనసు నిలిపి, నీ కర్మలన్నిటినీ నాకు అర్పించు. ఆశ లేకుండా, 'నాది' అనే మమకారం లేకుండా, మనోవ్యాకులత విడిచి యుద్ధం చెయ్యి.",
+  hi: "अपना मन आत्मा में लगाकर सारे कर्म मुझे अर्पित कर दो। आशा और ममता से रहित होकर, और मन का संताप छोड़कर युद्ध करो।"
+},
+"gita_ch3_v31": {
+  en: "Those who always follow this teaching of Mine with faith and without finding fault are also freed from the bondage of action.",
+  te: "శ్రద్ధతో, దోషదృష్టి లేకుండా నా ఈ ఉపదేశాన్ని నిత్యం ఆచరించే మనుషులు కూడా కర్మబంధం నుండి విముక్తులవుతారు.",
+  hi: "जो मनुष्य श्रद्धा के साथ और दोष देखे बिना मेरे इस मत का सदा पालन करते हैं, वे भी कर्मों के बंधन से छूट जाते हैं।"
+},
+"gita_ch3_v32": {
+  en: "But those who find fault with this teaching and do not follow it — know them to be confused about all knowledge, without discernment, and lost.",
+  te: "కానీ నా ఈ బోధలో దోషాలు వెతుకుతూ దానిని ఆచరించనివారు — వారు సర్వజ్ఞానం విషయంలో మూఢులని, వివేకం లేనివారని, నశించినవారని తెలుసుకో.",
+  hi: "परंतु जो इस मत में दोष निकालते हुए इसका पालन नहीं करते — उन्हें सब ज्ञान में भ्रमित, विवेकहीन और नष्ट हुआ जानो।"
+},
+"gita_ch3_v33": {
+  en: "Even a wise person acts according to their own nature. All beings follow their nature — what will mere suppression achieve?",
+  te: "జ్ఞాని కూడా తన స్వభావానికి తగినట్టే ప్రవర్తిస్తాడు. ప్రాణులన్నీ తమ ప్రకృతినే అనుసరిస్తాయి — బలవంతంగా అణచిపెడితే ఏం లాభం?",
+  hi: "ज्ञानी भी अपनी प्रकृति के अनुसार ही चेष्टा करता है। सभी प्राणी अपनी प्रकृति के अनुसार चलते हैं — केवल दबाने से क्या होगा?"
+},
+"gita_ch3_v34": {
+  en: "Liking and disliking lie in wait in every sense for its objects. Do not come under their power, for they are enemies on one's path.",
+  te: "ప్రతి ఇంద్రియానికీ దాని విషయాల పట్ల ఇష్టం, అయిష్టం (రాగద్వేషాలు) పొంచి ఉంటాయి. వాటికి లొంగిపోకు; అవి మనిషి దారిలో అడ్డుపడే శత్రువులు.",
+  hi: "हर इंद्रिय के अपने विषयों में राग और द्वेष छिपे रहते हैं। उनके वश में मत होओ, क्योंकि वे मनुष्य के मार्ग के शत्रु हैं।"
+},
+"gita_ch3_v35": {
+  en: "Better is one's own duty, even done imperfectly, than another's duty done well. Better even to die in one's own duty; the duty of another is full of fear.",
+  te: "చక్కగా చేసిన పరధర్మం కంటే, లోపాలతో చేసినా స్వధర్మమే మేలు. స్వధర్మంలో మరణించినా శ్రేయస్కరమే; పరధర్మం భయాన్ని కలిగిస్తుంది.",
+  hi: "भली-भाँति किए गए पराए धर्म से, कमियों वाला अपना धर्म श्रेष्ठ है। अपने धर्म में मरना भी कल्याणकारी है; पराया धर्म भय देने वाला है।"
+},
+"gita_ch3_v36": {
+  en: "Arjuna said: Then what drives a person to do wrong, Vārṣṇeya, even against their own wish, as if pushed by force?",
+  te: "అర్జునుడు అన్నాడు: వార్ష్ణేయా! మరి మనిషి తనకు ఇష్టం లేకపోయినా, ఎవరో బలవంతంగా నెట్టినట్టు, దేని ప్రేరణతో పాపం చేస్తాడు?",
+  hi: "अर्जुन ने कहा: हे वार्ष्णेय! तो फिर मनुष्य न चाहते हुए भी, मानो बलपूर्वक लगाया गया हो, किसकी प्रेरणा से पाप करता है?"
+},
+"gita_ch3_v37": {
+  en: "The Lord said: It is desire, it is anger, born of the quality of rajas — all-devouring and greatly sinful. Know this to be the enemy here.",
+  te: "శ్రీ భగవానుడు అన్నాడు: అది కామమే, అది క్రోధమే — రజోగుణం నుండి పుట్టినది. ఎంత తిన్నా తీరని, మహాపాపకారి అయిన దీనినే ఇక్కడ శత్రువుగా తెలుసుకో.",
+  hi: "श्री भगवान ने कहा: यह काम है, यह क्रोध है, जो रजोगुण से उत्पन्न होता है। यह कभी तृप्त न होने वाला और महापापी है — इसे ही यहाँ शत्रु जानो।"
+},
+"gita_ch3_v38": {
+  en: "As fire is covered by smoke, a mirror by dust, and an unborn child by the womb, so is this (knowledge) covered by desire.",
+  te: "పొగతో అగ్ని, దుమ్ముతో అద్దం, మావితో గర్భంలోని శిశువు ఎలా కప్పబడి ఉంటాయో, అలాగే కామంతో ఈ జ్ఞానం కప్పబడి ఉంది.",
+  hi: "जैसे धुएँ से अग्नि, धूल से दर्पण और झिल्ली से गर्भ ढका रहता है, वैसे ही काम से यह (ज्ञान) ढका रहता है।"
+},
+"gita_ch3_v39": {
+  en: "Son of Kuntī, the wisdom of even the wise is covered by this constant enemy in the form of desire, which is like a fire that can never be filled.",
+  te: "కౌంతేయా! ఎన్నటికీ నిండని అగ్ని లాంటి, జ్ఞానులకు నిత్య శత్రువైన ఈ కామరూపం చేత జ్ఞానుల జ్ఞానం కూడా కప్పబడి ఉంటుంది.",
+  hi: "हे कौंतेय! कभी तृप्त न होने वाली अग्नि के समान, ज्ञानियों के नित्य शत्रु इस कामरूप से ज्ञानियों का ज्ञान भी ढका रहता है।"
+},
+"gita_ch3_v40": {
+  en: "The senses, the mind and the intellect are said to be its hiding places. Through them it covers knowledge and deludes the embodied soul.",
+  te: "ఇంద్రియాలు, మనసు, బుద్ధి — ఇవే దీని నివాస స్థానాలని చెబుతారు. వీటి ద్వారానే ఇది జ్ఞానాన్ని కప్పి దేహంలో ఉన్న జీవుణ్ణి మోహింపజేస్తుంది.",
+  hi: "इंद्रियाँ, मन और बुद्धि इसके निवास-स्थान कहे जाते हैं। इन्हीं के द्वारा यह ज्ञान को ढककर देहधारी जीव को मोहित करता है।"
+},
+"gita_ch3_v41": {
+  en: "Therefore, best of the Bharatas, first bring your senses under control, and then strike down this sinful thing that destroys knowledge and wisdom.",
+  te: "కాబట్టి భరతశ్రేష్ఠా! ముందుగా ఇంద్రియాలను అదుపులోకి తెచ్చుకుని, జ్ఞానవిజ్ఞానాలను నాశనం చేసే ఈ పాపిష్ఠి కామాన్ని నిర్మూలించు.",
+  hi: "इसलिए हे भरतश्रेष्ठ! पहले इंद्रियों को वश में करके ज्ञान और विज्ञान का नाश करने वाले इस पापी काम को मार डालो।"
+},
+"gita_ch3_v42": {
+  en: "The senses are said to be higher than the body; the mind is higher than the senses; the intellect is higher than the mind; and higher than the intellect is He — the Self.",
+  te: "శరీరం కంటే ఇంద్రియాలు గొప్పవి అంటారు; ఇంద్రియాల కంటే మనసు గొప్పది; మనసు కంటే బుద్ధి గొప్పది; బుద్ధి కంటే గొప్పది ఆత్మ.",
+  hi: "कहते हैं कि इंद्रियाँ (शरीर से) सूक्ष्म और श्रेष्ठ हैं; इंद्रियों से मन श्रेष्ठ है; मन से बुद्धि श्रेष्ठ है; और जो बुद्धि से भी परे है, वह आत्मा है।"
+},
+"gita_ch3_v43": {
+  en: "Thus knowing the Self to be beyond the intellect, and steadying the mind by the Self, mighty-armed one, slay this enemy in the form of desire, so hard to overcome.",
+  te: "ఇలా బుద్ధి కంటే అతీతమైన ఆత్మను తెలుసుకుని, ఆత్మబలంతో మనసును స్థిరపరచుకుని, మహాబాహూ! జయించడానికి కష్టమైన కామరూపమనే ఈ శత్రువును సంహరించు.",
+  hi: "इस प्रकार बुद्धि से परे आत्मा को जानकर, आत्मा के बल से मन को स्थिर करके, हे महाबाहो! इस कठिनाई से जीते जाने वाले कामरूपी शत्रु को मार डालो।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",
