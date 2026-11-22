@@ -42,11 +42,15 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Gālava (galava) — Viśvāmitra's devoted pupil who insisted on a teacher's fee, the quest for eight hundred white horses with one black ear, Garuḍa's help, and Mādhavī (MBh Udyoga Parva).
 - [ ] Ṛcīka (ricika) — Bhṛgu's grandson who won Satyavatī of Gādhi's house with a thousand black-eared horses, the two bowls of charu that were swapped, father of Jamadagni (MBh Vana & Anuśāsana; Viṣṇu Purāṇa 4).
 - [ ] Śṛṅgī and Śamīka (shamika) — the silent sage on whom King Parīkṣit hung a dead snake, his angry son's curse of Takṣaka's bite, and Śamīka's grief and warning (MBh Ādi; Bhāgavata 1.18).
 - [ ] Matanga (matanga) — the sage of the Ṛṣyamūka forest whose curse kept Vālin away, and whose āśrama Śabarī kept for Rāma (Vālmīki Rāmāyaṇa, Araṇya & Kiṣkindhā; MBh Anuśāsana on his own tapas).
 - [ ] Jaratkāru (jaratkaru) — the ascetic who saw his ancestors hanging over a pit, married the serpent-princess of his own name, left her at a slight, and fathered Āstīka who stopped Janamejaya's snake sacrifice (MBh Ādi).
+- [ ] Kaṇḍu (kandu) — the sage of the Gomatī whose tapas Indra broke with the apsaras Pramlocā, the centuries that passed “like one evening”, his shame and return to tapas, and their daughter Māriṣā, mother of Dakṣa (Viṣṇu Purāṇa 1; Bhāgavata 4).
+- [ ] Jaḍabharata (jadabharata) — King Bharata, son of Ṛṣabha, who gave up a kingdom and was reborn as a deer for loving a fawn, then as the “dull” brāhmaṇa who would not speak, carried King Rahūgaṇa's palanquin and taught him (Bhāgavata 5; Viṣṇu Purāṇa 2).
+- [ ] Śvetaketu (shvetaketu) — Āruṇi's proud son who came home “full of himself”, learnt “That thou art”, was humbled before King Pravāhaṇa, and in the Mahābhārata laid down the rule of marriage (Chāndogya and Bṛhadāraṇyaka Upaniṣads; MBh Ādi).
+- [ ] Nāciketas (naciketas) — the boy given to Death by his angry father, three nights at Yama's door, three boons and the secret of the Self (Taittirīya Brāhmaṇa; Kaṭha Upaniṣad; MBh Anuśāsana).
+- [ ] Ekata, Dvita and Trita (trita) — the three Āptya brothers, Trita left in the well by his brothers, his soma-sacrifice from the pit, and Trita in the Ṛgveda (Ṛgveda 1.105; MBh Śalya).
 
 Add more when fewer than five remain: e.g. Pulastya, Kaṇva, Uttaṅka, Dhaumya, Lomaśa, Māṇḍavya,
 Śuka, Jaimini, Vālakhilyas, the four Kumāras, Upamanyu, Āruṇi, Sāndīpani, Garga, Śāṇḍilya, Cyavana.
@@ -102,3 +106,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Pippalāda (pippalada) — 10 chapters — 2026-11-19
 - [x] Asita Devala (devala) — 11 chapters — 2026-11-20
 - [x] Marīci (marici) — 10 chapters — 2026-11-21
+- [x] Gālava (galava) — 11 chapters — 2026-11-22
