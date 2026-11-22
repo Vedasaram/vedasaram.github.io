@@ -126,4 +126,9 @@ window.HI_FILES = [
   'hi/sages/jamadagni.js',
   'hi/sages/yajnavalkya.js',
   'hi/sages/angiras.js',
+  'hi/sages/kashyapa.js',
+  'hi/sages/ashtavakra.js',
+  'hi/sages/rishyashringa.js',
+  'hi/sages/cyavana.js',
+  'hi/sages/uttanka.js',
 ];
