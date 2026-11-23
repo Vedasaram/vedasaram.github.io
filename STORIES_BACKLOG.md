@@ -140,11 +140,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Triśaṅku's Own Heaven (Rāmāyaṇa) — trishankus-own-heaven
 - [x] Śakuntalā and Brave Little Bharata (Mahābhārata) — shakuntala-and-brave-little-bharata
 - [x] Śunaḥśepa Saved by Viśvāmitra (Rāmāyaṇa) — shunahshepa-saved-by-vishvamitra
+- [x] Yayāti and Puru's Gift of Youth (Mahābhārata) — yayati-and-purus-gift
+- [x] Atri and Anasūyā Bless Sītā (Rāmāyaṇa) — anasuya-blesses-sita
+- [x] Kaca and Devayānī — the Secret of Life (Mahābhārata) — kaca-and-devayani
 
 ## Next
-- [ ] Yayāti and Puru's Gift of Youth (Mahābhārata) — Yayāti, Puru, Devayānī
-- [ ] Atri and Anasūyā Bless Sītā (Rāmāyaṇa) — Anasūyā, Atri, Sītā
-- [ ] Kaca and Devayānī — the Secret of Life (Mahābhārata) — Kaca, Devayānī, Śukrācārya
 - [ ] Sutīkṣṇa Waits for Rāma (Rāmāyaṇa) — Sutīkṣṇa, Rāma, Sītā
 - [ ] Pāṇḍu and the Deer-Sage's Curse (Mahābhārata) — Pāṇḍu, Kuntī, Mādrī
 - [ ] Svayamprabhā's Magic Cave (Rāmāyaṇa) — Aṅgada, Hanumān, Svayamprabhā
