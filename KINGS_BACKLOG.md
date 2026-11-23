@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Chhatrasāl Bundelā (chhatrasal) — boyhood in the Bundelkhand forests; meeting Śivājī; war with Aurangzeb's governors; Prāṇnāth and Panna's diamonds; Bājī Rāo's help (1729)
 - [ ] Bājī Rāo I (bajirao) — Peśvā at twenty; Palkhed (1728); Bundelkhand; the dash to Delhi (1737); Bhopal (1738); death on the Narmadā (1740)
 - [ ] Puṣyamitra Śuṅga (pushyamitra) — the last Maurya overthrown (Purāṇas, Bāṇa); the two Aśvamedhas (Ayodhyā inscription of Dhanadeva); the Yavana wars (Mālavikāgnimitra, Patañjali); Buddhist accounts and how historians weigh them
 - [ ] Yaśodharman (yashodharman) — Aulikara king of Daśapura (Mandsaur); the Mandsaur victory pillars; the defeat of the Hūṇa Mihirakula (about 528); a short-lived empire
@@ -91,3 +90,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Vikramāditya VI (vikramanka) — 8 chapters — 2026-11-20
 - [x] Hoysaḷa Viṣṇuvardhana (vishnuvardhana) — 8 chapters — 2026-11-21
 - [x] Prolaya and Kāpaya Nāyaka (musunuri) — 8 chapters — 2026-11-22
+- [x] Chhatrasāl Bundelā (chhatrasal) — 8 chapters — 2026-11-23

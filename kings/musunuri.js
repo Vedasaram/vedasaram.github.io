@@ -24,7 +24,7 @@ window.RMY_WHO = Object.assign({
 }, window.RMY_WHO || {});
 window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
 {
- id: "mn-1", king: "musunuri", n: 1, order: 3001, date: "2026-11-22",
+ id: "mn-1", king: "musunuri", n: 1, order: 2901, date: "2026-11-22",
  title: "When Orugallu Fell", titleTe: "ఓరుగల్లు పడిపోయినప్పుడు",
  src: "Baranī · ʿIṣāmī · Vilasa grant · Kākatīya inscriptions",
  who: ["prataparudra", "ghiyath", "mbtughluq", "barani", "prolaya", "kapaya"],
@@ -54,7 +54,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["When the king they served was gone, each nāyaka had to choose: serve, wait, or fight. What do you think made that choice so hard?", "తాము సేవ చేసిన రాజు లేనప్పుడు ప్రతి నాయకుడూ ఎంచుకోవాల్సి వచ్చింది: సేవ చేయడమా, వేచి ఉండడమా, పోరాడడమా. ఆ ఎంపిక ఎందుకు అంత కష్టమై ఉంటుందని మీరు అనుకుంటున్నారు?"]
 },
 {
- id: "mn-2", king: "musunuri", n: 2, order: 3002, date: "2026-11-22",
+ id: "mn-2", king: "musunuri", n: 2, order: 2902, date: "2026-11-22",
  title: "What the Vilasa Plate Remembers", titleTe: "విలస పత్రం గుర్తుంచుకున్నది",
  src: "Vilasa grant of Prolaya Nāyaka · Persian histories",
  who: ["prolaya", "prataparudra", "maqbul"],
@@ -84,7 +84,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["Every record is written by someone who wants something. How can we still learn the truth from a source that is trying to make its writer look good?", "ప్రతి శాసనమూ ఏదో కోరుకునే వ్యక్తే రాయిస్తాడు. రాయించినవాణ్ణి గొప్పగా చూపించాలని ప్రయత్నించే ఆధారం నుండి కూడా నిజాన్ని మనం ఎలా తెలుసుకోగలం?"]
 },
 {
- id: "mn-3", king: "musunuri", n: 3, order: 3003, date: "2026-11-22",
+ id: "mn-3", king: "musunuri", n: 3, order: 2903, date: "2026-11-22",
  title: "The Forest Fort of Rekapalli", titleTe: "రేకపల్లి అటవీ దుర్గం",
  src: "Vilasa grant · Mallavaram inscription (1325) · Godāvarī chiefs' grants",
  who: ["prolaya", "prolayavema"],
@@ -113,7 +113,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["Prolaya chose the forest and the river gorge instead of open ground. Why can the place you choose to stand matter as much as the size of your army?", "ప్రోలయుడు బయలు నేలకు బదులు అడవినీ నదీ లోయనూ ఎంచుకున్నాడు. సైన్యం ఎంత పెద్దదో, నిలబడే చోటు కూడా అంతే ముఖ్యం ఎందుకవుతుంది?"]
 },
 {
- id: "mn-4", king: "musunuri", n: 4, order: 3004, date: "2026-11-22",
+ id: "mn-4", king: "musunuri", n: 4, order: 2904, date: "2026-11-22",
  title: "The Sultan's Sick Army and a Cousin's Sword", titleTe: "సుల్తాను సేనకు జబ్బు, దాయాది చేతిలో కత్తి",
  src: "Baranī · Ibn Baṭṭūṭa · Vilasa grant · Kaluvacheru grant",
  who: ["prolaya", "kapaya", "mbtughluq", "barani", "ibnbattuta"],
@@ -142,7 +142,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["The rising succeeded partly because of an epidemic no one planned. How much of history do you think is shaped by chance, and how much by people ready to seize it?", "ఎవరూ ఊహించని ఒక అంటువ్యాధి వల్ల కూడా ఆ తిరుగుబాటు ఫలించింది. చరిత్రలో ఎంత భాగం అదృష్టం వల్ల, ఎంత భాగం ఆ అవకాశాన్ని అందుకోవడానికి సిద్ధంగా ఉన్నవారి వల్ల జరుగుతుందని మీరు అనుకుంటున్నారు?"]
 },
 {
- id: "mn-5", king: "musunuri", n: 5, order: 3005, date: "2026-11-22",
+ id: "mn-5", king: "musunuri", n: 5, order: 2905, date: "2026-11-22",
  title: "Orugallu Free Again", titleTe: "మళ్ళీ స్వతంత్రమైన ఓరుగల్లు",
  src: "Firishta · Persian histories · Kaluvacheru grant (1423)",
  who: ["kapaya", "maqbul", "ballala3", "firishta", "harihara1"],
@@ -172,7 +172,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["Malik Maqbūl lost Warangal yet rose to be chief minister in Delhi. What does his life tell us about how mixed and surprising people's loyalties were in those years?", "మాలిక్ మఖ్బూల్ వరంగల్‌ను కోల్పోయినా ఢిల్లీలో ప్రధాన మంత్రి అయ్యాడు. ఆ సంవత్సరాల్లో మనుషుల విధేయతలు ఎంత కలగలిసి, ఎంత ఆశ్చర్యకరంగా ఉండేవో అతని జీవితం మనకు ఏమి చెబుతుంది?"]
 },
 {
- id: "mn-6", king: "musunuri", n: 6, order: 3006, date: "2026-11-22",
+ id: "mn-6", king: "musunuri", n: 6, order: 2906, date: "2026-11-22",
  title: "A Rebel Helps a Rebel — the Bahmanīs Are Born", titleTe: "తిరుగుబాటుదారునికి తిరుగుబాటుదారుని సాయం — బహమనీల పుట్టుక",
  src: "Firishta · Persian histories",
  who: ["kapaya", "mbtughluq", "bahmanshah", "firishta"],
@@ -201,7 +201,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["Kāpaya helped a rebel who then turned against him. Is it wise to help one enemy against another? What would you have weighed before deciding?", "కాపయుడు సహాయం చేసిన తిరుగుబాటుదారుడే తర్వాత అతనిపై తిరిగాడు. ఒక శత్రువుకు వ్యతిరేకంగా మరో శత్రువుకు సహాయం చేయడం తెలివైన పనేనా? నిర్ణయించే ముందు మీరైతే ఏమేమి ఆలోచిస్తారు?"]
 },
 {
- id: "mn-7", king: "musunuri", n: 7, order: 3007, date: "2026-11-22",
+ id: "mn-7", king: "musunuri", n: 7, order: 2907, date: "2026-11-22",
  title: "Golconda and the Turquoise Throne", titleTe: "గోల్కొండ, వైడూర్య సింహాసనం",
  src: "Firishta (from Bahmanī chronicles)",
  who: ["kapaya", "vinayakadeva", "bmshah1", "bukka1", "firishta"],
@@ -231,7 +231,7 @@ window.KING_CHAPTERS = (window.KING_CHAPTERS || []).concat([
  think: ["Kāpaya gave up a fort and a throne to end a war that had cost him his son. When is it wiser to pay a heavy price for peace than to keep fighting?", "కొడుకును కోల్పోయిన యుద్ధాన్ని ముగించడానికి కాపయుడు ఒక కోటనూ సింహాసనాన్నీ వదులుకున్నాడు. పోరాడుతూనే ఉండటం కంటే భారీ మూల్యం చెల్లించి శాంతి కొనడం ఎప్పుడు తెలివైన పని?"]
 },
 {
- id: "mn-8", king: "musunuri", n: 8, order: 3008, date: "2026-11-22",
+ id: "mn-8", king: "musunuri", n: 8, order: 2908, date: "2026-11-22",
  title: "Bhīmavaram — the End and What Followed", titleTe: "భీమవరం — ముగింపు, ఆ తర్వాత",
  src: "Recherla inscriptions · Velugōṭivāri Vaṃśāvaḷi · Reddi grants",
  who: ["kapaya", "anapota", "prolaya", "prolayavema", "prataparudra"],

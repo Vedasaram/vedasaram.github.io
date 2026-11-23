@@ -40,6 +40,7 @@
     ['vikramanka', 'Vikramāditya VI', 'ఆరవ విక్రమాదిత్యుడు', 'Kalyāṇa Cālukya · the Cālukya-Vikrama era', 'కళ్యాణి చాళుక్య · చాళుక్య-విక్రమ శకం', '⚖️', 'linear-gradient(160deg,#1a0a1a,#a07a2a)'],
     ['vishnuvardhana', 'Viṣṇuvardhana', 'విష్ణువర్ధనుడు', 'Hoysaḷa · Talakāḍ and the temples of Belur', 'హొయసళ · తలకాడు, బేలూరు ఆలయాలు', '🐅', 'linear-gradient(160deg,#0a1a12,#7a9a5a)'],
     ['musunuri', 'Musunūri', 'ముసునూరి నాయకులు', 'Prolaya & Kāpaya Nāyaka · Orugallu freed', 'ప్రోలయ, కాపయ నాయకులు · ఓరుగల్లు విముక్తి', '🗝️', 'linear-gradient(160deg,#0a1a1a,#b07a3a)'],
+    ['chhatrasal', 'Chhatrasāl', 'ఛత్రసాల్', 'Bundelā of Panna · the rising of Bundelkhand', 'పన్నా బుందేలా · బుందేల్‌ఖండ్ తిరుగుబాటు', '💎', 'linear-gradient(160deg,#1a0a1a,#b0702a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
