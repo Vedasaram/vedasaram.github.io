@@ -818,6 +818,218 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "इस प्रकार बुद्धि से परे आत्मा को जानकर, आत्मा के बल से मन को स्थिर करके, हे महाबाहो! इस कठिनाई से जीते जाने वाले कामरूपी शत्रु को मार डालो।"
 },
 
+// ── Chapter 4 · Jñāna Yoga ──
+"gita_ch4_v1": {
+  en: "The Lord said: I taught this imperishable yoga to Vivasvān, the Sun; Vivasvān passed it on to Manu, and Manu told it to Ikṣvāku.",
+  te: "శ్రీ భగవానుడు అన్నాడు: నాశనం లేని ఈ యోగాన్ని నేను సూర్యుడైన వివస్వంతునికి ఉపదేశించాను; వివస్వంతుడు మనువుకు చెప్పాడు, మనువు ఇక్ష్వాకునికి చెప్పాడు.",
+  hi: "श्री भगवान ने कहा: यह अविनाशी योग मैंने सूर्यदेव विवस्वान को सिखाया; विवस्वान ने इसे मनु को बताया और मनु ने इक्ष्वाकु को।"
+},
+"gita_ch4_v2": {
+  en: "Handed down in this way from one to the next, the royal sages knew it. But over a very long stretch of time, Parantapa, this yoga was lost to the world.",
+  te: "ఇలా గురుశిష్య పరంపరగా వచ్చిన ఈ యోగాన్ని రాజర్షులు తెలుసుకున్నారు. కానీ పరంతపా, చాలా కాలం గడిచేసరికి ఈ లోకంలో ఈ యోగం కనుమరుగైపోయింది.",
+  hi: "इस प्रकार परंपरा से मिले इस योग को राजर्षियों ने जाना। परंतु हे परंतप, बहुत लंबा समय बीतने पर यह योग इस संसार में लुप्त हो गया।"
+},
+"gita_ch4_v3": {
+  en: "That same ancient yoga I have taught you today, because you are My devotee and My friend. This is indeed the highest secret.",
+  te: "అదే ప్రాచీనమైన యోగాన్ని ఈ రోజు నేను నీకు చెప్పాను, ఎందుకంటే నువ్వు నా భక్తుడివి, నా స్నేహితుడివి. ఇది నిజంగా అత్యుత్తమమైన రహస్యం.",
+  hi: "वही प्राचीन योग आज मैंने तुम्हें बताया है, क्योंकि तुम मेरे भक्त और मित्र हो। यह सचमुच उत्तम रहस्य है।"
+},
+"gita_ch4_v4": {
+  en: "Arjuna said: Your birth is recent, and Vivasvān's birth was long ago. How am I to understand that You taught it to him in the beginning?",
+  te: "అర్జునుడు అన్నాడు: నీ జన్మ ఇటీవలిది, వివస్వంతుని జన్మ ఎప్పుడో పూర్వకాలానిది. మరి మొదట్లో నువ్వే అతనికి చెప్పావని నేనెలా అర్థం చేసుకోవాలి?",
+  hi: "अर्जुन ने कहा: आपका जन्म तो अभी हाल का है और विवस्वान का जन्म बहुत पहले हुआ। फिर मैं कैसे समझूँ कि आपने ही आरंभ में उन्हें यह बताया था?"
+},
+"gita_ch4_v5": {
+  en: "The Lord said: Many births of Mine have passed, Arjuna, and many of yours as well. I know them all, but you do not know them, Parantapa.",
+  te: "శ్రీ భగవానుడు అన్నాడు: అర్జునా, నాకూ నీకూ ఎన్నో జన్మలు గడిచిపోయాయి. అవన్నీ నాకు తెలుసు; కానీ పరంతపా, నీకు అవి తెలియవు.",
+  hi: "श्री भगवान ने कहा: हे अर्जुन, मेरे और तुम्हारे भी बहुत से जन्म बीत चुके हैं। मैं उन सबको जानता हूँ, पर हे परंतप, तुम उन्हें नहीं जानते।"
+},
+"gita_ch4_v6": {
+  en: "Though I am unborn and My Self never perishes, though I am the Lord of all beings, I take My stand on My own nature and come into being through My own divine power.",
+  te: "నేను పుట్టుక లేనివాడినైనా, నాశనం లేని ఆత్మస్వరూపుడినైనా, సర్వ ప్రాణులకూ ప్రభువునైనా — నా ప్రకృతిని ఆధారంగా చేసుకొని నా స్వంత మాయాశక్తితో అవతరిస్తాను.",
+  hi: "यद्यपि मैं अजन्मा हूँ, मेरा स्वरूप अविनाशी है और मैं सब प्राणियों का ईश्वर हूँ, फिर भी अपनी प्रकृति को अधीन रखकर अपनी ही दिव्य शक्ति से प्रकट होता हूँ।"
+},
+"gita_ch4_v7": {
+  en: "Whenever dharma declines and adharma rises up, Bhārata, then I bring Myself forth.",
+  te: "భారతా! ఎప్పుడెప్పుడు ధర్మం క్షీణించి అధర్మం పెచ్చుమీరుతుందో, అప్పుడప్పుడు నన్ను నేను సృష్టించుకుంటాను.",
+  hi: "हे भारत! जब-जब धर्म की हानि होती है और अधर्म बढ़ता है, तब-तब मैं स्वयं को प्रकट करता हूँ।"
+},
+"gita_ch4_v8": {
+  en: "To protect the good, to destroy those who do evil, and to firmly re-establish dharma, I come into being age after age.",
+  te: "సజ్జనులను రక్షించడానికి, దుష్టులను నాశనం చేయడానికి, ధర్మాన్ని మళ్ళీ స్థిరంగా నిలబెట్టడానికి నేను యుగయుగాన అవతరిస్తాను.",
+  hi: "सज्जनों की रक्षा के लिए, दुष्टों के विनाश के लिए और धर्म को फिर से स्थापित करने के लिए मैं युग-युग में प्रकट होता हूँ।"
+},
+"gita_ch4_v9": {
+  en: "Whoever truly understands My divine birth and actions, Arjuna, does not take birth again after leaving the body — that person comes to Me.",
+  te: "అర్జునా! నా దివ్యమైన జన్మను, కర్మలను ఉన్నది ఉన్నట్టుగా తెలుసుకున్నవాడు శరీరం విడిచిన తర్వాత మళ్ళీ పుట్టడు — నన్నే చేరుకుంటాడు.",
+  hi: "हे अर्जुन! जो मेरे दिव्य जन्म और कर्म को तत्त्व से जान लेता है, वह शरीर छोड़ने के बाद फिर जन्म नहीं लेता — वह मुझे ही प्राप्त होता है।"
+},
+"gita_ch4_v10": {
+  en: "Free from craving, fear and anger, absorbed in Me and taking refuge in Me, many have been purified by the discipline of knowledge and have reached My state of being.",
+  te: "రాగం, భయం, కోపం విడిచిపెట్టి, నాలోనే లీనమై, నన్నే ఆశ్రయించిన ఎంతోమంది జ్ఞానమనే తపస్సుతో పవిత్రులై నా స్వరూపాన్ని పొందారు.",
+  hi: "आसक्ति, भय और क्रोध से रहित, मुझमें मन लगाए और मेरी शरण में आए अनेक लोग ज्ञानरूपी तप से पवित्र होकर मेरे स्वरूप को प्राप्त हुए हैं।"
+},
+"gita_ch4_v11": {
+  en: "In whatever way people approach Me, in that same way I respond to them. Everywhere, Pārtha, people are following My path.",
+  te: "ఎవరు నన్ను ఏ విధంగా ఆశ్రయిస్తారో, వారిని నేను అదే విధంగా అనుగ్రహిస్తాను. పార్థా, మనుషులందరూ అన్ని విధాలా నా మార్గాన్నే అనుసరిస్తున్నారు.",
+  hi: "जो लोग जिस भाव से मेरी शरण लेते हैं, मैं उन्हें उसी भाव से अपनाता हूँ। हे पार्थ, सब मनुष्य हर प्रकार से मेरे ही मार्ग पर चलते हैं।"
+},
+"gita_ch4_v12": {
+  en: "Those who want success in their works worship the gods here, because in the human world success born of action comes quickly.",
+  te: "కర్మలకు ఫలం కోరుకునేవారు ఇక్కడ దేవతలను పూజిస్తారు, ఎందుకంటే మనుషుల లోకంలో కర్మల వల్ల కలిగే ఫలం త్వరగా లభిస్తుంది.",
+  hi: "जो कर्मों का फल चाहते हैं वे यहाँ देवताओं की पूजा करते हैं, क्योंकि मनुष्य-लोक में कर्म से मिलने वाली सफलता जल्दी मिलती है।"
+},
+"gita_ch4_v13": {
+  en: "The fourfold order of society was created by Me according to people's qualities and work. Though I am its maker, know Me as the changeless one who does not act.",
+  te: "గుణాలను, కర్మలను బట్టి నాలుగు వర్ణాల వ్యవస్థను నేనే సృష్టించాను. దానికి కర్తనైనా, నన్ను మార్పులేని, అకర్తగా తెలుసుకో.",
+  hi: "गुणों और कर्मों के विभाग के अनुसार चार वर्णों की व्यवस्था मैंने ही रची है। उसका कर्ता होकर भी मुझे अविनाशी और अकर्ता ही जानो।"
+},
+"gita_ch4_v14": {
+  en: "Actions do not stain Me, nor do I long for their fruits. One who knows Me in this way is not bound by actions.",
+  te: "కర్మలు నన్ను అంటవు; కర్మఫలంపై నాకు కోరిక లేదు. నన్ను ఈ విధంగా తెలుసుకున్నవాడు కర్మలతో బంధింపబడడు.",
+  hi: "कर्म मुझे लिप्त नहीं करते और न मुझे कर्मफल की इच्छा है। जो मुझे इस प्रकार जानता है, वह कर्मों से नहीं बँधता।"
+},
+"gita_ch4_v15": {
+  en: "Knowing this, the seekers of freedom in olden times also did their work. So you too should act, just as the ancients did long before.",
+  te: "ఇది తెలుసుకొనే పూర్వకాలంలో ముక్తిని కోరినవారు కూడా కర్మలు చేశారు. అందుచేత నువ్వు కూడా పూర్వికులు చేసినట్లే కర్మ చెయ్యి.",
+  hi: "यह जानकर प्राचीन काल के मुक्ति चाहने वालों ने भी कर्म किया। इसलिए तुम भी वैसे ही कर्म करो जैसे पूर्वजों ने पहले किया था।"
+},
+"gita_ch4_v16": {
+  en: "What is action and what is inaction? Even the wise are puzzled here. So I will explain action to you; knowing it, you will be freed from all harm.",
+  te: "కర్మ అంటే ఏమిటి, అకర్మ అంటే ఏమిటి? ఈ విషయంలో జ్ఞానులు కూడా తికమకపడతారు. అందుకే కర్మ గురించి నీకు చెబుతాను; అది తెలుసుకొని నువ్వు అశుభం నుండి విడుదల పొందుతావు.",
+  hi: "कर्म क्या है और अकर्म क्या है? इस विषय में ज्ञानी भी भ्रमित हो जाते हैं। इसलिए मैं तुम्हें कर्म के बारे में बताऊँगा, जिसे जानकर तुम अशुभ से मुक्त हो जाओगे।"
+},
+"gita_ch4_v17": {
+  en: "One must understand what right action is, what wrong action is, and what inaction is — for the way of action is deep and hard to grasp.",
+  te: "కర్మ ఏమిటో తెలుసుకోవాలి, వికర్మ (తప్పు కర్మ) ఏమిటో తెలుసుకోవాలి, అకర్మ ఏమిటో కూడా తెలుసుకోవాలి — ఎందుకంటే కర్మ యొక్క గతి చాలా లోతైనది.",
+  hi: "कर्म को समझना चाहिए, विकर्म (गलत कर्म) को भी समझना चाहिए और अकर्म को भी — क्योंकि कर्म की गति बड़ी गहन है।"
+},
+"gita_ch4_v18": {
+  en: "One who sees inaction in action and action in inaction is truly wise among people. Such a person is steady in yoga, even while doing all kinds of work.",
+  te: "కర్మలో అకర్మను, అకర్మలో కర్మను చూడగలిగినవాడే మనుషులలో బుద్ధిమంతుడు. అన్ని పనులూ చేస్తున్నా అతను యోగంలో స్థిరంగా ఉంటాడు.",
+  hi: "जो कर्म में अकर्म और अकर्म में कर्म देखता है, वही मनुष्यों में बुद्धिमान है। सब कर्म करते हुए भी वह योग में स्थित रहता है।"
+},
+"gita_ch4_v19": {
+  en: "One whose every undertaking is free from selfish desire and scheming, whose actions are burned up in the fire of knowledge — the wise call that person truly learned.",
+  te: "ఎవరు మొదలుపెట్టే ప్రతి పనిలోనూ కోరికలు, స్వార్థపు ఆలోచనలు ఉండవో, ఎవరి కర్మలు జ్ఞానమనే అగ్నిలో కాలిపోయాయో — అతన్నే జ్ఞానులు పండితుడని అంటారు.",
+  hi: "जिसके सभी कार्य कामना और स्वार्थी संकल्प से रहित हैं, जिसके कर्म ज्ञान की अग्नि में जल चुके हैं — ज्ञानीजन उसी को पंडित कहते हैं।"
+},
+"gita_ch4_v20": {
+  en: "Giving up attachment to the fruits of action, always content, depending on nothing outside, such a person does nothing at all, even while fully engaged in work.",
+  te: "కర్మఫలంపై ఆసక్తిని విడిచి, ఎప్పుడూ తృప్తిగా, దేనిమీదా ఆధారపడకుండా ఉండేవాడు — పనుల్లో పూర్తిగా నిమగ్నమైనా నిజానికి ఏమీ చేయనట్లే.",
+  hi: "कर्मफल की आसक्ति छोड़कर, सदा संतुष्ट और किसी पर निर्भर न रहने वाला व्यक्ति काम में पूरी तरह लगा रहकर भी वास्तव में कुछ नहीं करता।"
+},
+"gita_ch4_v21": {
+  en: "Expecting nothing, with mind and body under control, letting go of all possessiveness, doing only what the body needs to do — such a person incurs no sin.",
+  te: "ఏ ఆశా లేకుండా, మనస్సును శరీరాన్ని అదుపులో ఉంచుకొని, ‘నాది’ అనే పట్టు అంతా వదిలి, శరీరానికి అవసరమైన పనులు మాత్రమే చేసేవాడికి పాపం అంటదు.",
+  hi: "जो कुछ नहीं चाहता, जिसने मन और शरीर को वश में किया है, सब संग्रह-भाव छोड़ दिया है और केवल शरीर के लिए आवश्यक कर्म करता है — उसे पाप नहीं लगता।"
+},
+"gita_ch4_v22": {
+  en: "Content with whatever comes on its own, beyond the pairs of opposites, free from envy, the same in success and failure — even when acting, such a person is not bound.",
+  te: "అనుకోకుండా లభించినదానితో తృప్తిపడేవాడు, ద్వంద్వాలకు అతీతుడు, అసూయ లేనివాడు, విజయంలోనూ అపజయంలోనూ ఒకేలా ఉండేవాడు — పనులు చేసినా బంధింపబడడు.",
+  hi: "जो अपने आप मिले उसी में संतुष्ट है, द्वंद्वों से परे है, ईर्ष्या से रहित है और सफलता-असफलता में समान है — वह कर्म करके भी नहीं बँधता।"
+},
+"gita_ch4_v23": {
+  en: "For one who is free of attachment and liberated, whose mind is settled in knowledge, and who works as an offering, all action melts away completely.",
+  te: "ఆసక్తి లేనివాడు, విముక్తుడు, జ్ఞానంలో మనసు నిలిపినవాడు, యజ్ఞంగా (అర్పణగా) పనులు చేసేవాడు — అతని కర్మలన్నీ పూర్తిగా కరిగిపోతాయి.",
+  hi: "जो आसक्ति-रहित और मुक्त है, जिसका मन ज्ञान में स्थित है और जो यज्ञ-भाव से कर्म करता है, उसके सारे कर्म पूरी तरह विलीन हो जाते हैं।"
+},
+"gita_ch4_v24": {
+  en: "The act of offering is Brahman, the offering is Brahman, poured by Brahman into the fire that is Brahman. One who sees Brahman in every action surely reaches Brahman.",
+  te: "అర్పించడం బ్రహ్మం, అర్పించే హవిస్సు బ్రహ్మం, బ్రహ్మమనే అగ్నిలో బ్రహ్మమే హోమం చేస్తున్నాడు. ప్రతి కర్మలోనూ బ్రహ్మాన్నే చూసేవాడు తప్పకుండా బ్రహ్మాన్నే చేరుకుంటాడు.",
+  hi: "अर्पण ब्रह्म है, हवि ब्रह्म है, ब्रह्मरूपी अग्नि में ब्रह्म द्वारा ही आहुति दी जाती है। जो हर कर्म में ब्रह्म को देखता है, वह निश्चय ही ब्रह्म को प्राप्त होता है।"
+},
+"gita_ch4_v25": {
+  en: "Some yogīs perform sacrifice by worshipping the gods; others offer the self as sacrifice into the fire of Brahman.",
+  te: "కొందరు యోగులు దేవతలను పూజించడమనే యజ్ఞం చేస్తారు; మరికొందరు బ్రహ్మమనే అగ్నిలో తమను తామే యజ్ఞంగా అర్పిస్తారు.",
+  hi: "कुछ योगी देवताओं की उपासना रूपी यज्ञ करते हैं; दूसरे ब्रह्मरूपी अग्नि में स्वयं को ही यज्ञ के रूप में अर्पित करते हैं।"
+},
+"gita_ch4_v26": {
+  en: "Some offer hearing and the other senses into the fires of restraint; others offer sound and the other sense objects into the fires of the senses.",
+  te: "కొందరు చెవి మొదలైన ఇంద్రియాలను నిగ్రహమనే అగ్నిలో హోమం చేస్తారు; మరికొందరు శబ్దం మొదలైన విషయాలను ఇంద్రియాలనే అగ్నిలో హోమం చేస్తారు.",
+  hi: "कुछ लोग कान आदि इंद्रियों को संयम की अग्नि में होम करते हैं; दूसरे शब्द आदि विषयों को इंद्रियों की अग्नि में होम करते हैं।"
+},
+"gita_ch4_v27": {
+  en: "Others offer all the workings of the senses and of the life-breath into the fire of self-control, kindled by knowledge.",
+  te: "మరికొందరు ఇంద్రియాల పనులన్నిటినీ, ప్రాణశక్తి పనులన్నిటినీ జ్ఞానంతో వెలిగిన ఆత్మసంయమమనే యోగాగ్నిలో హోమం చేస్తారు.",
+  hi: "कुछ अन्य लोग इंद्रियों और प्राणों के सभी कार्यों को ज्ञान से प्रज्वलित आत्मसंयम रूपी योग-अग्नि में होम करते हैं।"
+},
+"gita_ch4_v28": {
+  en: "Some offer wealth as their sacrifice, some austerity, some the practice of yoga; and earnest seekers of firm vows offer the study of scripture and knowledge.",
+  te: "కొందరు ధనాన్ని యజ్ఞంగా అర్పిస్తారు, కొందరు తపస్సును, కొందరు యోగసాధనను; కఠినమైన వ్రతాలు పాటించే సాధకులు స్వాధ్యాయాన్ని, జ్ఞానాన్ని యజ్ఞంగా చేస్తారు.",
+  hi: "कुछ लोग धन का यज्ञ करते हैं, कुछ तप का, कुछ योग का; और दृढ़ व्रत वाले साधक स्वाध्याय और ज्ञान का यज्ञ करते हैं।"
+},
+"gita_ch4_v29": {
+  en: "Others, devoted to breath control, offer the outgoing breath into the incoming and the incoming into the outgoing, holding the flow of both.",
+  te: "ప్రాణాయామంలో నిష్ఠ గలవారు కొందరు అపానంలో ప్రాణాన్ని, ప్రాణంలో అపానాన్ని హోమం చేస్తూ, ఉచ్ఛ్వాస నిశ్వాసాల గతిని నిలిపివేస్తారు.",
+  hi: "प्राणायाम में लगे कुछ लोग अपान में प्राण का और प्राण में अपान का होम करते हैं, और दोनों की गति को रोक लेते हैं।"
+},
+"gita_ch4_v30": {
+  en: "Still others, eating in measure, offer the life-breaths into the life-breaths. All of these know what sacrifice is, and through sacrifice their impurities are washed away.",
+  te: "మరికొందరు మితాహారం తీసుకుంటూ ప్రాణాలను ప్రాణాలలోనే హోమం చేస్తారు. వీరందరూ యజ్ఞాన్ని తెలిసినవారే; యజ్ఞంతో వారి పాపాలు తొలగిపోతాయి.",
+  hi: "कुछ अन्य लोग नियमित आहार करते हुए प्राणों को प्राणों में ही होम करते हैं। ये सभी यज्ञ को जानने वाले हैं और यज्ञ से इनके पाप धुल जाते हैं।"
+},
+"gita_ch4_v31": {
+  en: "Those who enjoy the nectar that remains after sacrifice reach the eternal Brahman. Even this world is not for one who makes no sacrifice — how then the next, best of the Kurus?",
+  te: "యజ్ఞం తర్వాత మిగిలిన అమృతాన్ని అనుభవించేవారు సనాతనమైన బ్రహ్మాన్ని చేరుకుంటారు. కురుశ్రేష్ఠా, యజ్ఞం చేయనివాడికి ఈ లోకమే దక్కదు — ఇక పరలోకం ఎక్కడ?",
+  hi: "यज्ञ से बचे अमृत का सेवन करने वाले सनातन ब्रह्म को प्राप्त होते हैं। हे कुरुश्रेष्ठ, यज्ञ न करने वाले के लिए यह लोक भी नहीं है, तो परलोक कैसे होगा?"
+},
+"gita_ch4_v32": {
+  en: "Many such sacrifices are laid out in the Veda. Know that all of them are born of action; knowing this, you will be set free.",
+  te: "ఇలా ఎన్నో రకాల యజ్ఞాలు వేదంలో వివరించబడ్డాయి. అవన్నీ కర్మ నుండి పుట్టినవే అని తెలుసుకో; ఇది తెలిస్తే నువ్వు విముక్తుడవుతావు.",
+  hi: "इस प्रकार के अनेक यज्ञ वेद में विस्तार से बताए गए हैं। जान लो कि वे सब कर्म से उत्पन्न होते हैं; यह जानकर तुम मुक्त हो जाओगे।"
+},
+"gita_ch4_v33": {
+  en: "The sacrifice of knowledge is greater than any sacrifice of material things, Parantapa. All action without exception, Pārtha, finds its fulfilment in knowledge.",
+  te: "పరంతపా! ద్రవ్యాలతో చేసే యజ్ఞం కంటే జ్ఞానయజ్ఞం శ్రేష్ఠమైనది. పార్థా, కర్మలన్నీ చివరికి జ్ఞానంలోనే పరిపూర్ణమవుతాయి.",
+  hi: "हे परंतप! द्रव्य से किए यज्ञ से ज्ञानयज्ञ श्रेष्ठ है। हे पार्थ, सभी कर्म अंत में ज्ञान में ही पूर्ण होते हैं।"
+},
+"gita_ch4_v34": {
+  en: "Learn it by bowing down humbly, by sincere questioning, and by service. The wise who have seen the truth will teach you that knowledge.",
+  te: "వినయంగా నమస్కరించి, శ్రద్ధగా ప్రశ్నించి, సేవ చేసి ఆ జ్ఞానాన్ని తెలుసుకో. సత్యాన్ని దర్శించిన జ్ఞానులు నీకు ఆ జ్ఞానాన్ని ఉపదేశిస్తారు.",
+  hi: "विनम्रता से प्रणाम करके, सच्चे मन से प्रश्न पूछकर और सेवा करके उस ज्ञान को जानो। तत्त्व को देख चुके ज्ञानी तुम्हें वह ज्ञान सिखाएँगे।"
+},
+"gita_ch4_v35": {
+  en: "Knowing that, Pāṇḍava, you will not fall into confusion like this again. Through it you will see all beings, without exception, in your own Self and then in Me.",
+  te: "పాండవా! అది తెలుసుకున్నాక నువ్వు మళ్ళీ ఇలాంటి మోహంలో పడవు. దానితో సమస్త ప్రాణులనూ నీలోనూ, తర్వాత నాలోనూ చూస్తావు.",
+  hi: "हे पांडव! उसे जानकर तुम फिर इस प्रकार मोह में नहीं पड़ोगे। उससे तुम सभी प्राणियों को अपने भीतर और फिर मुझमें देखोगे।"
+},
+"gita_ch4_v36": {
+  en: "Even if you were the worst of all sinners, you would cross over all wrongdoing by the boat of knowledge alone.",
+  te: "నువ్వు పాపులందరిలోకీ అత్యంత పాపివైనా సరే, జ్ఞానమనే పడవతోనే పాపసముద్రాన్నంతా దాటేస్తావు.",
+  hi: "यदि तुम सब पापियों में सबसे बड़े पापी भी हो, तो भी ज्ञान की नाव से ही सारे पाप-सागर को पार कर जाओगे।"
+},
+"gita_ch4_v37": {
+  en: "Just as a blazing fire turns firewood to ash, Arjuna, so the fire of knowledge turns all actions to ash.",
+  te: "అర్జునా! బాగా మండుతున్న అగ్ని కట్టెలను బూడిద చేసినట్లే, జ్ఞానమనే అగ్ని కర్మలన్నిటినీ బూడిద చేస్తుంది.",
+  hi: "हे अर्जुन! जैसे धधकती आग लकड़ियों को राख कर देती है, वैसे ही ज्ञान की अग्नि सब कर्मों को राख कर देती है।"
+},
+"gita_ch4_v38": {
+  en: "Truly, nothing in this world purifies like knowledge. One who has become perfect in yoga finds it within, in the Self, in due time.",
+  te: "ఈ లోకంలో జ్ఞానంతో సమానమైన పవిత్రమైనది మరేదీ లేదు. యోగంలో సిద్ధి పొందినవాడు కాలక్రమంలో దాన్ని తనలోనే తెలుసుకుంటాడు.",
+  hi: "इस संसार में ज्ञान के समान पवित्र करने वाला कुछ भी नहीं है। योग में सिद्ध हुआ व्यक्ति समय आने पर उसे अपने भीतर ही पा लेता है।"
+},
+"gita_ch4_v39": {
+  en: "One who has faith, who is devoted to it, and who has mastered the senses gains knowledge; and having gained knowledge, soon reaches the highest peace.",
+  te: "శ్రద్ధ గలవాడు, దానిలోనే నిమగ్నమైనవాడు, ఇంద్రియాలను జయించినవాడు జ్ఞానాన్ని పొందుతాడు; జ్ఞానం పొందాక త్వరలోనే పరమశాంతిని పొందుతాడు.",
+  hi: "श्रद्धावान, उसी में लगा हुआ और इंद्रियों को वश में रखने वाला व्यक्ति ज्ञान पाता है; और ज्ञान पाकर शीघ्र ही परम शांति प्राप्त करता है।"
+},
+"gita_ch4_v40": {
+  en: "But one who lacks knowledge and faith, and whose nature is to doubt everything, is ruined. For the doubting soul there is neither this world, nor the next, nor any happiness.",
+  te: "కానీ జ్ఞానం లేనివాడు, శ్రద్ధ లేనివాడు, ప్రతిదాన్నీ సందేహించే స్వభావం గలవాడు నశిస్తాడు. సందేహించే మనిషికి ఈ లోకమూ లేదు, పరలోకమూ లేదు, సుఖమూ లేదు.",
+  hi: "परंतु जो अज्ञानी है, श्रद्धाहीन है और हर बात पर संदेह करता है, वह नष्ट हो जाता है। संशय करने वाले के लिए न यह लोक है, न परलोक, न सुख।"
+},
+"gita_ch4_v41": {
+  en: "One who has given up action through yoga, whose doubts are cut away by knowledge, and who is centred in the Self — actions do not bind such a person, Dhanañjaya.",
+  te: "ధనంజయా! యోగంతో కర్మలను (వాటి ఫలాలను) అర్పించినవాడు, జ్ఞానంతో సందేహాలను తెంచుకున్నవాడు, ఆత్మలో స్థిరంగా ఉన్నవాడు — అతన్ని కర్మలు బంధించవు.",
+  hi: "हे धनंजय! जिसने योग द्वारा कर्मों को अर्पित कर दिया है, जिसके संशय ज्ञान से कट गए हैं और जो आत्मा में स्थित है — उसे कर्म नहीं बाँधते।"
+},
+"gita_ch4_v42": {
+  en: "So, with the sword of knowledge, cut away this doubt in your heart that was born of ignorance. Take your stand in yoga — arise, Bhārata!",
+  te: "కాబట్టి భారతా! అజ్ఞానం వల్ల పుట్టి నీ హృదయంలో ఉన్న ఈ సందేహాన్ని జ్ఞానమనే ఖడ్గంతో ఛేదించు. యోగాన్ని ఆశ్రయించు — లే, నిలబడు!",
+  hi: "इसलिए हे भारत! अज्ञान से उत्पन्न, अपने हृदय में बसे इस संशय को ज्ञान की तलवार से काट डालो। योग में स्थित हो जाओ — उठो!"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",

@@ -819,6 +819,218 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "यह जानकर कि तुम सच में कौन हो, तुम दृढ़ होकर इच्छा को हरा सकते हो — यह शत्रु कठिन है, पर अजेय नहीं। अध्याय साहस के साथ समाप्त होता है: अच्छा काम करो, उसे भगवान को अर्पित करो, और भीतर से स्वयं पर विजय पाओ।"
 },
 
+// ── Chapter 4 · Jñāna Yoga ──
+"gita_ch4_v1": {
+  en: "Kṛṣṇa tells Arjuna that what He is teaching is not new — it is very old wisdom, first given to the Sun and then passed down to the first kings. Good wisdom travels down the generations, from teacher to student, like a family treasure.",
+  te: "తాను చెబుతున్నది కొత్త విషయం కాదని శ్రీకృష్ణుడు అర్జునునికి చెబుతున్నాడు — ఇది చాలా పాత జ్ఞానం, మొదట సూర్యునికి, ఆ తర్వాత మొదటి రాజులకు అందింది. మంచి జ్ఞానం ఇంటి వారసత్వ సంపదలా తరం నుండి తరానికి, గురువు నుండి శిష్యునికి అందుతూ వస్తుంది.",
+  hi: "श्रीकृष्ण अर्जुन से कहते हैं कि जो वे सिखा रहे हैं वह नया नहीं है — यह बहुत पुराना ज्ञान है, जो पहले सूर्य को मिला और फिर पहले राजाओं तक पहुँचा। अच्छा ज्ञान परिवार की धरोहर की तरह पीढ़ी-दर-पीढ़ी, गुरु से शिष्य तक चलता है।"
+},
+"gita_ch4_v2": {
+  en: "Wise kings once lived by this teaching, but over a long time it was forgotten. That happens with every good thing — if no one practises it and passes it on, it fades away. This is why learning and teaching our traditions matters.",
+  te: "ఒకప్పుడు గొప్ప రాజులు ఈ బోధనను పాటించారు, కానీ కాలక్రమంలో అది మరుగున పడిపోయింది. ప్రతి మంచి విషయానికీ ఇదే జరుగుతుంది — ఎవరూ ఆచరించకపోతే, తర్వాతి వారికి అందించకపోతే అది మాసిపోతుంది. అందుకే మన సంప్రదాయాలను నేర్చుకోవడం, నేర్పించడం ముఖ్యం.",
+  hi: "कभी बुद्धिमान राजा इस शिक्षा पर चलते थे, पर लंबे समय में यह भुला दी गई। हर अच्छी चीज़ के साथ ऐसा होता है — अगर कोई उसे न अपनाए और आगे न बढ़ाए, तो वह मिट जाती है। इसीलिए अपनी परंपराओं को सीखना और सिखाना ज़रूरी है।"
+},
+"gita_ch4_v3": {
+  en: "Kṛṣṇa shares this deep secret with Arjuna for one simple reason: Arjuna loves Him and is His friend. Real wisdom opens up in a relationship of trust and love, not just by reading.",
+  te: "శ్రీకృష్ణుడు ఈ గొప్ప రహస్యాన్ని అర్జునునికి చెప్పడానికి కారణం ఒక్కటే: అర్జునుడు ఆయనను ప్రేమించే భక్తుడు, ఆయన స్నేహితుడు. నిజమైన జ్ఞానం కేవలం చదవడం వల్ల కాదు — నమ్మకం, ప్రేమ ఉన్న బంధంలోనే తెరుచుకుంటుంది.",
+  hi: "श्रीकृष्ण यह गहरा रहस्य अर्जुन को एक ही कारण से बताते हैं: अर्जुन उनसे प्रेम करता है और उनका मित्र है। सच्चा ज्ञान केवल पढ़ने से नहीं, भरोसे और प्रेम के रिश्ते में खुलता है।"
+},
+"gita_ch4_v4": {
+  en: "Arjuna is puzzled: 'You were born just the other day — how could You have taught the Sun ages ago?' It is a fair, honest question, and the Gītā welcomes such questions instead of asking us to just believe.",
+  te: "అర్జునుడు ఆశ్చర్యపోతున్నాడు: 'నువ్వు ఈ మధ్యే పుట్టావు — ఎప్పుడో యుగాల క్రితం సూర్యునికి ఎలా చెప్పగలవు?' ఇది న్యాయమైన, నిజాయితీ ప్రశ్న. గీత 'కళ్ళు మూసుకొని నమ్ము' అనదు — ఇలాంటి ప్రశ్నలను స్వాగతిస్తుంది.",
+  hi: "अर्जुन उलझन में है: 'आप तो अभी हाल में जन्मे हैं — युगों पहले सूर्य को कैसे सिखा सकते थे?' यह सीधा, ईमानदार प्रश्न है, और गीता हमें आँख मूँदकर मानने के बजाय ऐसे प्रश्नों का स्वागत करती है।"
+},
+"gita_ch4_v5": {
+  en: "Kṛṣṇa explains that both He and Arjuna have lived many lives before. The difference is that Kṛṣṇa remembers them all, and Arjuna does not. We too have a longer story than we can see.",
+  te: "తనకూ అర్జునునికీ ఇంతకు ముందు ఎన్నో జన్మలు గడిచాయని శ్రీకృష్ణుడు వివరిస్తున్నాడు. తేడా ఒక్కటే — శ్రీకృష్ణునికి అవన్నీ గుర్తున్నాయి, అర్జునునికి గుర్తులేవు. మన కథ కూడా మనకు కనిపించేదానికంటే చాలా పెద్దది.",
+  hi: "श्रीकृष्ण समझाते हैं कि उनके और अर्जुन दोनों के पहले बहुत जन्म हो चुके हैं। अंतर बस इतना है कि श्रीकृष्ण को सब याद है और अर्जुन को नहीं। हमारी कहानी भी जितनी दिखती है उससे कहीं लंबी है।"
+},
+"gita_ch4_v6": {
+  en: "God is never really born and never dies, yet He chooses to appear among us by His own power. We are born because of our past actions; He comes freely, out of love, staying fully in charge.",
+  te: "భగవంతుడికి నిజానికి పుట్టుకా లేదు, చావూ లేదు; అయినా తన శక్తితో తానే ఇష్టపడి మన మధ్యకు వస్తాడు. మనం మన పాత కర్మల వల్ల పుడతాం; ఆయన మాత్రం ప్రేమతో, స్వేచ్ఛగా, అన్నిటినీ తన అదుపులో ఉంచుకొని వస్తాడు.",
+  hi: "भगवान वास्तव में न जन्म लेते हैं न मरते हैं, फिर भी अपनी शक्ति से स्वयं हमारे बीच प्रकट होना चुनते हैं। हम अपने पुराने कर्मों के कारण जन्म लेते हैं; वे प्रेम से, अपनी इच्छा से, सब कुछ अपने हाथ में रखते हुए आते हैं।"
+},
+"gita_ch4_v7": {
+  en: "This is one of the most famous verses of the Gītā. When goodness grows weak and wrongdoing takes over, God steps in. It is a promise that the world is never left alone in its darkest hours.",
+  te: "గీతలో అత్యంత ప్రసిద్ధమైన శ్లోకాలలో ఇది ఒకటి. మంచితనం బలహీనపడి, చెడు రాజ్యమేలుతున్నప్పుడు భగవంతుడు స్వయంగా దిగివస్తాడు. లోకం ఎంత చీకటి కాలంలో ఉన్నా ఒంటరిగా వదిలివేయబడదనే హామీ ఇది.",
+  hi: "यह गीता के सबसे प्रसिद्ध श्लोकों में से एक है। जब अच्छाई कमज़ोर पड़ जाती है और बुराई हावी हो जाती है, तब भगवान स्वयं आते हैं। यह वचन है कि संसार अपने सबसे अँधेरे समय में भी अकेला नहीं छोड़ा जाता।"
+},
+"gita_ch4_v8": {
+  en: "God comes for three reasons: to protect good people, to stop those who do harm, and to set right and fair living back on its feet. Whenever we stand up for what is right, we are joining in that same work in our small way.",
+  te: "భగవంతుడు మూడు కారణాల కోసం వస్తాడు: మంచివారిని కాపాడడానికి, హాని చేసేవారిని ఆపడానికి, ధర్మాన్ని మళ్ళీ నిలబెట్టడానికి. మనం న్యాయం వైపు నిలబడిన ప్రతిసారీ, మన చిన్న స్థాయిలో అదే పనిలో పాలుపంచుకుంటున్నాం.",
+  hi: "भगवान तीन कारणों से आते हैं: अच्छे लोगों की रक्षा के लिए, बुरा करने वालों को रोकने के लिए और धर्म को फिर से खड़ा करने के लिए। जब भी हम सही के पक्ष में खड़े होते हैं, तो अपने छोटे स्तर पर उसी काम में हाथ बँटाते हैं।"
+},
+"gita_ch4_v9": {
+  en: "If we truly understand that God's coming and His deeds are divine, not ordinary, our whole outlook changes. That understanding draws us so close to Him that we are freed from the cycle of birth and death.",
+  te: "భగవంతుని అవతారం, ఆయన చేసిన పనులు మామూలువి కావు, దివ్యమైనవని నిజంగా అర్థం చేసుకుంటే మన దృష్టే మారిపోతుంది. ఆ అవగాహన మనల్ని ఆయనకు ఎంత దగ్గర చేస్తుందంటే — పుట్టుక చావుల చక్రం నుండి విముక్తి లభిస్తుంది.",
+  hi: "अगर हम सच में समझ लें कि भगवान का अवतार और उनके कर्म साधारण नहीं, दिव्य हैं, तो हमारी पूरी दृष्टि बदल जाती है। यह समझ हमें उनके इतने निकट ले जाती है कि जन्म-मृत्यु के चक्र से मुक्ति मिल जाती है।"
+},
+"gita_ch4_v10": {
+  en: "Many people before us have reached God by letting go of greed, fear and anger and keeping their minds on Him. These three are what cloud the heart; when they clear, we start to become like Him.",
+  te: "మనకంటే ముందు ఎంతోమంది ఆశ, భయం, కోపం విడిచిపెట్టి, మనసును భగవంతునిపై నిలిపి ఆయనను చేరుకున్నారు. మనసును మసకబార్చేవి ఈ మూడే; అవి తొలగితే మనం ఆయనలా మారడం మొదలవుతుంది.",
+  hi: "हमसे पहले बहुत लोग लालसा, भय और क्रोध छोड़कर, मन को भगवान में लगाकर उन तक पहुँचे हैं। यही तीन चीज़ें मन पर धुंध डालती हैं; जब ये हटती हैं, तो हम उनके जैसे बनने लगते हैं।"
+},
+"gita_ch4_v11": {
+  en: "God meets each of us in the way we come to Him. Whatever form of prayer or path we follow, He answers us there. So every sincere seeker is really walking towards the same God — a good reason to respect other people's ways.",
+  te: "మనం ఏ విధంగా భగవంతుని దగ్గరకు వెళ్తామో, ఆయన మనల్ని అదే విధంగా కలుస్తాడు. ఏ పూజ చేసినా, ఏ మార్గంలో నడిచినా, ఆయన అక్కడే జవాబిస్తాడు. నిజాయితీగా వెతికే ప్రతివారూ ఒకే దేవుని వైపు నడుస్తున్నారు — ఇతరుల మార్గాలను గౌరవించడానికి ఇది మంచి కారణం.",
+  hi: "हम जिस भाव से भगवान के पास जाते हैं, वे उसी भाव से हमें मिलते हैं। हम कोई भी पूजा करें, कोई भी मार्ग अपनाएँ, वे वहीं उत्तर देते हैं। हर सच्चा साधक एक ही भगवान की ओर चल रहा है — दूसरों के तरीकों का सम्मान करने का यह अच्छा कारण है।"
+},
+"gita_ch4_v12": {
+  en: "Many people pray mainly for quick results — a job, an exam, good health — and such prayers often do bring results fast. Kṛṣṇa doesn't scold them; He simply notes that this is the common way, while hinting there is something deeper to seek.",
+  te: "చాలామంది త్వరగా ఫలితాల కోసం — ఉద్యోగం, పరీక్ష, ఆరోగ్యం కోసం — ప్రార్థిస్తారు; అలాంటి ప్రార్థనలకు తరచుగా త్వరగానే ఫలం దక్కుతుంది. శ్రీకృష్ణుడు వారిని తప్పుపట్టడం లేదు; ఇది మామూలుగా జరిగేదే అని చెబుతూ, ఇంకా లోతైనది వెతకాల్సి ఉందని సూచిస్తున్నాడు.",
+  hi: "बहुत लोग जल्दी फल के लिए — नौकरी, परीक्षा, स्वास्थ्य के लिए — प्रार्थना करते हैं, और ऐसी प्रार्थनाओं का फल अक्सर जल्दी मिल भी जाता है। श्रीकृष्ण उन्हें डाँटते नहीं; बस बताते हैं कि यह आम रास्ता है, और संकेत करते हैं कि खोजने को कुछ और गहरा भी है।"
+},
+"gita_ch4_v13": {
+  en: "People differ in their nature and in the kind of work that suits them, and God made society with that variety. Here it is about qualities and work, not about whose family you are born into. And though He set it all up, He stays untouched, like the sky above everything.",
+  te: "మనుషుల స్వభావాలు వేరు, వారికి తగిన పనులు వేరు; ఆ వైవిధ్యంతోనే భగవంతుడు సమాజాన్ని ఏర్పరిచాడు. ఇక్కడ చెప్పింది గుణాలు, పనుల గురించే — ఏ ఇంట్లో పుట్టావని కాదు. అన్నిటినీ ఏర్పాటు చేసినా, ఆయన మాత్రం ఆకాశంలా దేనినీ అంటకుండా ఉంటాడు.",
+  hi: "लोगों का स्वभाव अलग-अलग होता है और उनके अनुकूल काम भी; भगवान ने इसी विविधता से समाज बनाया। यहाँ बात गुणों और कर्मों की है, इस बात की नहीं कि तुम किस घर में जन्मे। और सब कुछ रचकर भी वे आकाश की तरह किसी चीज़ से नहीं बँधते।"
+},
+"gita_ch4_v14": {
+  en: "God acts all the time, but He does it without needing anything back, so nothing sticks to Him. If we learn to work that way — doing our best without craving the reward — our work stops tying us in knots too.",
+  te: "భగవంతుడు ఎప్పుడూ పనిచేస్తూనే ఉంటాడు, కానీ బదులుగా ఏమీ ఆశించడు, అందుకే ఏదీ ఆయనకు అంటదు. మనం కూడా అలాగే పనిచేయడం నేర్చుకుంటే — ఫలం కోసం తపించకుండా శ్రద్ధగా చేస్తే — మన పనులు కూడా మనల్ని కట్టిపడేయవు.",
+  hi: "भगवान हर समय कर्म करते हैं, पर बदले में कुछ नहीं चाहते, इसलिए कुछ भी उनसे चिपकता नहीं। अगर हम भी ऐसे काम करना सीख लें — फल की लालसा के बिना पूरी लगन से — तो हमारा काम भी हमें उलझाना बंद कर देता है।"
+},
+"gita_ch4_v15": {
+  en: "Wise people in the past understood this and kept doing their duties instead of running away from them. Kṛṣṇa tells Arjuna to follow their example. Spiritual life is not about escaping work but about doing it with the right spirit.",
+  te: "పూర్వం జ్ఞానులు ఇది అర్థం చేసుకొని తమ కర్తవ్యాల నుండి పారిపోకుండా వాటిని చేస్తూనే వచ్చారు. వారి బాటలోనే నడవమని శ్రీకృష్ణుడు అర్జునునికి చెబుతున్నాడు. ఆధ్యాత్మికత అంటే పని నుండి తప్పించుకోవడం కాదు — సరైన భావంతో పని చేయడం.",
+  hi: "पहले के ज्ञानी लोग यह समझते थे और अपने कर्तव्यों से भागने के बजाय उन्हें करते रहे। श्रीकृष्ण अर्जुन से उनके उदाहरण पर चलने को कहते हैं। आध्यात्मिक जीवन काम से भागना नहीं, बल्कि सही भाव से काम करना है।"
+},
+"gita_ch4_v16": {
+  en: "What does it really mean to act, and what does it mean to not act? Kṛṣṇa admits that even clever people get confused about this. He promises to make it clear, because understanding it frees us from a lot of trouble.",
+  te: "నిజంగా 'పని చేయడం' అంటే ఏమిటి, 'చేయకపోవడం' అంటే ఏమిటి? తెలివైనవారు కూడా దీని గురించి తికమకపడతారని శ్రీకృష్ణుడు ఒప్పుకుంటున్నాడు. దీన్ని స్పష్టంగా చెబుతానని మాట ఇస్తున్నాడు, ఎందుకంటే ఇది అర్థమైతే ఎన్నో కష్టాల నుండి బయటపడతాం.",
+  hi: "सच में 'कर्म करना' क्या है और 'कर्म न करना' क्या है? श्रीकृष्ण मानते हैं कि समझदार लोग भी इसमें उलझ जाते हैं। वे इसे साफ़ समझाने का वचन देते हैं, क्योंकि इसे समझ लेने से हम बहुत सी परेशानियों से छूट जाते हैं।"
+},
+"gita_ch4_v17": {
+  en: "There is good action, wrong action, and holding back from action — and each needs to be understood. Life isn't as simple as 'doing something is good' or 'staying out of it is safe'. We have to think about what kind of action each moment calls for.",
+  te: "మంచి కర్మ ఉంది, తప్పు కర్మ ఉంది, పని చేయకుండా ఆగిపోవడం కూడా ఉంది — ఒక్కొక్కటీ అర్థం చేసుకోవాలి. 'ఏదో ఒకటి చేయడం మంచిది' లేదా 'దూరంగా ఉండడం సురక్షితం' అన్నంత సులభం కాదు జీవితం. ప్రతి సందర్భం ఏ రకమైన పనిని కోరుతోందో ఆలోచించాలి.",
+  hi: "अच्छा कर्म है, गलत कर्म है, और कर्म से रुक जाना भी है — हर एक को समझना ज़रूरी है। जीवन इतना सरल नहीं कि 'कुछ करना अच्छा है' या 'दूर रहना सुरक्षित है'। हमें सोचना होता है कि हर पल किस तरह का कर्म माँगता है।"
+},
+"gita_ch4_v18": {
+  en: "A wise person can be very busy yet calm inside, as if not doing anything at all; and can see that sitting idle, avoiding duty, is itself a choice with consequences. Being busy is not the same as being bound, and doing nothing is not the same as being free.",
+  te: "జ్ఞాని చాలా పనుల్లో ఉన్నా లోపల ఏమీ చేయనట్లే ప్రశాంతంగా ఉంటాడు; అలాగే కర్తవ్యం తప్పించుకొని ఊరికే కూర్చోవడం కూడా ఫలితాలు ఉన్న ఒక ఎంపికే అని గుర్తిస్తాడు. పనుల్లో ఉండడం బంధం కాదు; ఏమీ చేయకపోవడం స్వేచ్ఛ కాదు.",
+  hi: "ज्ञानी व्यक्ति बहुत व्यस्त होकर भी भीतर से ऐसे शांत रहता है जैसे कुछ कर ही नहीं रहा; और समझता है कि कर्तव्य से बचकर खाली बैठना भी एक चुनाव है जिसके परिणाम होते हैं। व्यस्त होना बंधन नहीं, और कुछ न करना मुक्ति नहीं।"
+},
+"gita_ch4_v19": {
+  en: "A truly wise person doesn't start things just to get something for themselves. Their understanding is like a fire that burns away the selfish strings attached to their work. That, Kṛṣṇa says, is what real learning looks like.",
+  te: "నిజమైన జ్ఞాని కేవలం తనకేదో దక్కాలని పనులు మొదలుపెట్టడు. అతని జ్ఞానం ఒక అగ్నిలా పనులకు అతుక్కున్న స్వార్థపు దారాలను కాల్చేస్తుంది. నిజమైన పాండిత్యం అంటే ఇదేనని శ్రీకృష్ణుడు చెబుతున్నాడు.",
+  hi: "सच्चा ज्ञानी केवल अपने लिए कुछ पाने को काम शुरू नहीं करता। उसकी समझ आग की तरह उसके काम से जुड़े स्वार्थ के धागों को जला देती है। श्रीकृष्ण कहते हैं — असली विद्वत्ता यही है।"
+},
+"gita_ch4_v20": {
+  en: "When we stop clinging to results and feel content inside, we can work hard without the work weighing on us. It's like a parent caring for a child — lots of effort, but no sense of burden or bargaining.",
+  te: "ఫలితాలను పట్టుకోవడం మానేసి, లోపల తృప్తిగా ఉంటే, ఎంత కష్టపడినా ఆ పని మనపై భారంగా అనిపించదు. పిల్లల్ని చూసుకునే తల్లిదండ్రుల్లా — శ్రమ చాలా ఉంటుంది, కానీ భారమనిపించదు, బేరం ఉండదు.",
+  hi: "जब हम फल से चिपकना छोड़ देते हैं और भीतर संतुष्ट रहते हैं, तो कड़ी मेहनत करके भी काम का बोझ नहीं लगता। जैसे माता-पिता बच्चे की देखभाल करते हैं — मेहनत बहुत, पर न बोझ लगता है, न सौदेबाज़ी।"
+},
+"gita_ch4_v21": {
+  en: "A person who wants little, keeps the mind in check and doesn't hoard things lives lightly. Even the everyday things they do just to look after the body don't drag them down. Simple living keeps the heart clean.",
+  te: "తక్కువ కోరుకునేవాడు, మనసును అదుపులో ఉంచుకునేవాడు, వస్తువులు పోగుచేయనివాడు తేలికగా జీవిస్తాడు. శరీరాన్ని చూసుకోవడానికి చేసే రోజువారీ పనులు కూడా అతన్ని కిందికి లాగవు. సాదాసీదా జీవితం మనసును శుభ్రంగా ఉంచుతుంది.",
+  hi: "जो कम चाहता है, मन को वश में रखता है और चीज़ें जमा नहीं करता, वह हल्का होकर जीता है। शरीर की देखभाल के लिए किए रोज़ के काम भी उसे नीचे नहीं खींचते। सादा जीवन मन को साफ़ रखता है।"
+},
+"gita_ch4_v22": {
+  en: "Be happy with what comes your way, don't be jealous of others, and stay steady whether things work out or not. A person like this can be fully active in the world and still remain free inside.",
+  te: "నీకు దక్కినదానితో సంతోషంగా ఉండు, ఇతరులను చూసి అసూయపడకు, పని జరిగినా జరగకపోయినా స్థిరంగా ఉండు. ఇలాంటి వ్యక్తి లోకంలో పూర్తిగా పనిచేస్తూనే లోపల స్వేచ్ఛగా ఉంటాడు.",
+  hi: "जो मिले उसमें खुश रहो, दूसरों से ईर्ष्या मत करो, और काम बने या न बने, स्थिर रहो। ऐसा व्यक्ति संसार में पूरी तरह सक्रिय रहकर भी भीतर से मुक्त रहता है।"
+},
+"gita_ch4_v23": {
+  en: "When we do our work as an offering — not for 'me' but for something higher — the work no longer leaves a heavy mark on us. It simply melts away, like ice in warm water.",
+  te: "మన పనిని 'నా కోసం' కాకుండా ఒక ఉన్నతమైనదానికి అర్పణగా చేస్తే, ఆ పని మనపై ఎలాంటి భారమైన ముద్రా వేయదు. వెచ్చని నీటిలో మంచుముక్కలా అది కరిగిపోతుంది.",
+  hi: "जब हम अपना काम 'मेरे लिए' नहीं बल्कि किसी ऊँचे उद्देश्य के लिए अर्पण की तरह करते हैं, तो वह काम हम पर भारी छाप नहीं छोड़ता। वह गर्म पानी में बर्फ़ की तरह पिघल जाता है।"
+},
+"gita_ch4_v24": {
+  en: "This verse is often chanted before meals. It says that the giver, the gift, the act of giving and the goal are all God. When we see everything we do — even eating — as sacred, ordinary life itself becomes worship.",
+  te: "ఈ శ్లోకాన్ని చాలా ఇళ్ళలో భోజనానికి ముందు చదువుతారు. ఇచ్చేవాడు, ఇచ్చేది, ఇవ్వడం, చేరాల్సిన గమ్యం — అన్నీ భగవంతుడే అని ఇది చెబుతుంది. తినడంతో సహా మనం చేసే ప్రతిదాన్నీ పవిత్రంగా చూస్తే, మామూలు జీవితమే పూజ అవుతుంది.",
+  hi: "यह श्लोक अक्सर भोजन से पहले बोला जाता है। यह कहता है कि देने वाला, दी जाने वाली वस्तु, देने की क्रिया और लक्ष्य — सब भगवान ही हैं। जब हम अपने हर काम को, खाने को भी, पवित्र मानते हैं, तो साधारण जीवन ही पूजा बन जाता है।"
+},
+"gita_ch4_v25": {
+  en: "Kṛṣṇa now begins listing the many ways people offer themselves to God. Some do it through rituals and worship; others by surrendering their whole self. There is not just one 'correct' way to be devoted.",
+  te: "భగవంతునికి మనుషులు తమను తాము అర్పించుకునే ఎన్నో విధానాలను శ్రీకృష్ణుడు ఇప్పుడు వివరిస్తున్నాడు. కొందరు పూజలు, ఆచారాల ద్వారా చేస్తారు; మరికొందరు తమను తామే పూర్తిగా అర్పించుకుంటారు. భక్తికి 'ఒకే ఒక సరైన' పద్ధతి లేదు.",
+  hi: "श्रीकृष्ण अब उन अनेक तरीकों को गिनाने लगते हैं जिनसे लोग स्वयं को भगवान को अर्पित करते हैं। कुछ पूजा और अनुष्ठान से करते हैं; कुछ अपने पूरे अस्तित्व को समर्पित करके। भक्ति का कोई 'एक ही सही' तरीका नहीं है।"
+},
+"gita_ch4_v26": {
+  en: "Some people practise by holding their senses back — not looking, not listening to what pulls them off track. Others enjoy the world, but in a careful, mindful way, as an offering. Both are forms of discipline.",
+  te: "కొందరు ఇంద్రియాలను నిగ్రహించడం ద్వారా సాధన చేస్తారు — దారి తప్పించే వాటిని చూడకుండా, వినకుండా ఉంటారు. మరికొందరు లోకాన్ని అనుభవిస్తారు, కానీ జాగ్రత్తగా, అర్పణ భావంతో. రెండూ క్రమశిక్షణ రూపాలే.",
+  hi: "कुछ लोग इंद्रियों को रोककर साधना करते हैं — जो चीज़ें भटकाती हैं, उन्हें न देखते हैं, न सुनते हैं। दूसरे संसार का आनंद लेते हैं, पर सावधानी और अर्पण-भाव से। दोनों ही अनुशासन के रूप हैं।"
+},
+"gita_ch4_v27": {
+  en: "Others go deeper and quieten everything — every urge and even the restless energy inside — in the light of understanding. It is like calming a noisy house until you can finally hear yourself think.",
+  te: "మరికొందరు ఇంకా లోతుకు వెళ్ళి, జ్ఞానపు వెలుగులో ప్రతి కోరికనూ, లోపలి చంచలమైన శక్తినీ కూడా శాంతింపజేస్తారు. గోలగా ఉన్న ఇంటిని నిశ్శబ్దం చేసి, చివరికి మన ఆలోచన మనకే వినిపించేలా చేసుకోవడం లాంటిది ఇది.",
+  hi: "कुछ और लोग और गहरे जाकर, समझ के प्रकाश में हर इच्छा और भीतर की बेचैन ऊर्जा को भी शांत कर देते हैं। यह ऐसा है जैसे शोर भरे घर को शांत करना, ताकि आख़िरकार अपनी ही सोच सुनाई दे।"
+},
+"gita_ch4_v28": {
+  en: "Some give money to good causes, some practise self-discipline, some do yoga, and some study scripture and seek understanding. Each of these, done sincerely, is a kind of sacred offering. Find the one that fits you and stick to it.",
+  te: "కొందరు మంచి పనులకు దానం చేస్తారు, కొందరు తపస్సు చేస్తారు, కొందరు యోగసాధన చేస్తారు, కొందరు శాస్త్రాలు చదివి జ్ఞానం కోసం వెతుకుతారు. నిజాయితీగా చేస్తే ఇవన్నీ పవిత్రమైన అర్పణలే. నీకు సరిపోయేదాన్ని ఎంచుకొని దానినే పట్టుదలగా కొనసాగించు.",
+  hi: "कुछ अच्छे कामों के लिए दान देते हैं, कुछ तप करते हैं, कुछ योग करते हैं, और कुछ शास्त्र पढ़कर ज्ञान खोजते हैं। सच्चे मन से किए जाएँ तो ये सब पवित्र अर्पण ही हैं। जो तुम्हारे अनुकूल हो उसे चुनो और उस पर टिके रहो।"
+},
+"gita_ch4_v29": {
+  en: "Some people use the breath as their practice, carefully guiding breathing in and breathing out. Even something as simple as slow, mindful breathing can steady a restless mind — you can try it right now.",
+  te: "కొందరు శ్వాసనే సాధనగా చేసుకుంటారు — లోపలికి, బయటికి వచ్చే శ్వాసను జాగ్రత్తగా నడిపిస్తారు. నెమ్మదిగా, గమనిస్తూ శ్వాస తీసుకోవడం లాంటి చిన్న పని కూడా చంచలమైన మనసును స్థిరపరుస్తుంది — ఇప్పుడే ప్రయత్నించి చూడొచ్చు.",
+  hi: "कुछ लोग श्वास को ही अपनी साधना बनाते हैं — साँस लेने और छोड़ने को ध्यान से साधते हैं। धीमी, सजग साँस जैसी छोटी सी चीज़ भी बेचैन मन को स्थिर कर सकती है — आप अभी आज़माकर देख सकते हैं।"
+},
+"gita_ch4_v30": {
+  en: "Others practise by eating moderately. Kṛṣṇa says all of these people truly understand sacrifice, and each practice cleans the heart. Self-control in small daily things — like how much we eat — is real spiritual work.",
+  te: "మరికొందరు మితంగా తినడం ద్వారా సాధన చేస్తారు. వీరందరూ యజ్ఞాన్ని నిజంగా అర్థం చేసుకున్నవారేనని, ప్రతి సాధనా మనసును శుభ్రం చేస్తుందని శ్రీకృష్ణుడు చెబుతున్నాడు. ఎంత తింటున్నాం లాంటి చిన్న రోజువారీ విషయాల్లో నిగ్రహం కూడా నిజమైన ఆధ్యాత్మిక సాధనే.",
+  hi: "कुछ लोग संयमित भोजन से साधना करते हैं। श्रीकृष्ण कहते हैं कि ये सब यज्ञ को सच में समझते हैं, और हर साधना मन को साफ़ करती है। रोज़ की छोटी बातों में संयम — जैसे कितना खाते हैं — भी सच्ची आध्यात्मिक साधना है।"
+},
+"gita_ch4_v31": {
+  en: "Those who first give and then enjoy what remains find lasting fulfilment. But a person who only takes and never gives won't find happiness even in this life. Giving first is the secret of a good life here and hereafter.",
+  te: "ముందు ఇచ్చి, మిగిలినదాన్ని అనుభవించేవారికి శాశ్వతమైన తృప్తి లభిస్తుంది. కానీ తీసుకోవడమే తప్ప ఇవ్వడం తెలియనివాడికి ఈ జీవితంలో కూడా సంతోషం దొరకదు. ముందు ఇవ్వడమే ఇహపరాల్లో మంచి జీవితానికి రహస్యం.",
+  hi: "जो पहले देते हैं और फिर बचे हुए का आनंद लेते हैं, उन्हें स्थायी तृप्ति मिलती है। पर जो सिर्फ़ लेता है और कभी देता नहीं, उसे इस जीवन में भी सुख नहीं मिलता। पहले देना ही इस लोक और परलोक में अच्छे जीवन का रहस्य है।"
+},
+"gita_ch4_v32": {
+  en: "All these different practices involve doing something — they are all forms of action. Once we see that, we stop arguing about whose practice is better and simply do ours sincerely. That understanding itself sets us free.",
+  te: "ఈ రకరకాల సాధనలన్నీ ఏదో ఒకటి చేయడమే — అన్నీ కర్మ రూపాలే. ఇది అర్థమైతే ఎవరి సాధన గొప్పదని వాదించడం మానేసి, మన సాధనను నిజాయితీగా చేసుకుంటాం. ఆ అవగాహనే మనల్ని విముక్తుల్ని చేస్తుంది.",
+  hi: "ये सभी अलग-अलग साधनाएँ कुछ न कुछ करना ही हैं — सब कर्म के ही रूप हैं। यह समझ आते ही हम यह बहस छोड़ देते हैं कि किसकी साधना बेहतर है, और अपनी साधना सच्चाई से करते हैं। यही समझ हमें मुक्त करती है।"
+},
+"gita_ch4_v33": {
+  en: "Giving things away is good, but gaining true understanding is even better. All our efforts are meant to lead somewhere, and that 'somewhere' is wisdom. Rituals and good deeds find their purpose when they make us wiser.",
+  te: "వస్తువులు దానం చేయడం మంచిదే, కానీ నిజమైన జ్ఞానం పొందడం ఇంకా గొప్పది. మన ప్రయత్నాలన్నీ ఎక్కడికో చేర్చడానికే, ఆ గమ్యం జ్ఞానమే. పూజలు, మంచి పనులు మనల్ని జ్ఞానవంతుల్ని చేసినప్పుడే వాటికి సార్థకత.",
+  hi: "चीज़ें दान करना अच्छा है, पर सच्ची समझ पाना उससे भी श्रेष्ठ है। हमारे सारे प्रयास कहीं पहुँचाने के लिए हैं, और वह मंज़िल ज्ञान है। पूजा और अच्छे कर्म तब सार्थक होते हैं जब वे हमें अधिक समझदार बनाते हैं।"
+},
+"gita_ch4_v34": {
+  en: "How do we learn deep things? Go to someone who truly knows, with humility; ask real questions; and be willing to help and serve. A humble, curious student learns far more than a proud one — in school and in life.",
+  te: "లోతైన విషయాలు ఎలా నేర్చుకోవాలి? నిజంగా తెలిసినవారి దగ్గరకు వినయంగా వెళ్ళు; మనసులోని నిజమైన ప్రశ్నలు అడుగు; సాయం చేయడానికి, సేవ చేయడానికి సిద్ధంగా ఉండు. గర్వం ఉన్న విద్యార్థి కంటే వినయం, ఆసక్తి ఉన్న విద్యార్థి చాలా ఎక్కువ నేర్చుకుంటాడు — బడిలోనైనా, జీవితంలోనైనా.",
+  hi: "गहरी बातें कैसे सीखें? जो सच में जानता हो उसके पास विनम्रता से जाओ; सच्चे प्रश्न पूछो; और मदद व सेवा के लिए तैयार रहो। घमंडी विद्यार्थी से विनम्र, जिज्ञासु विद्यार्थी कहीं ज़्यादा सीखता है — स्कूल में भी और जीवन में भी।"
+},
+"gita_ch4_v35": {
+  en: "Once you truly understand, you won't fall apart like this again. You'll see that all living beings are connected to you, and all of us are held in God. That makes it hard to feel alone or to treat anyone as a stranger.",
+  te: "నిజంగా అర్థమైన తర్వాత నువ్వు మళ్ళీ ఇలా కుంగిపోవు. ప్రాణులన్నీ నీతో ముడిపడి ఉన్నాయని, మనమందరం భగవంతునిలోనే ఉన్నామని చూస్తావు. అప్పుడు ఒంటరిగా అనిపించడం గానీ, ఎవరినైనా పరాయివారిగా చూడడం గానీ కష్టం.",
+  hi: "जब तुम सच में समझ जाओगे, तो फिर इस तरह नहीं टूटोगे। तुम देखोगे कि सभी प्राणी तुमसे जुड़े हैं और हम सब भगवान में ही हैं। तब अकेलापन महसूस करना या किसी को पराया मानना कठिन हो जाता है।"
+},
+"gita_ch4_v36": {
+  en: "No matter how many mistakes you have made, true understanding can carry you across, like a boat over a wide river. This is a message of hope: nobody is beyond change.",
+  te: "నువ్వు ఎన్ని తప్పులు చేసినా, విశాలమైన నదిని దాటించే పడవలా నిజమైన జ్ఞానం నిన్ను ఒడ్డుకు చేరుస్తుంది. ఇది ఆశ కలిగించే సందేశం: మారలేనంత దూరం వెళ్ళిపోయినవారు ఎవరూ లేరు.",
+  hi: "तुमने कितनी भी गलतियाँ की हों, सच्ची समझ चौड़ी नदी पार कराने वाली नाव की तरह तुम्हें पार ले जा सकती है। यह आशा का संदेश है: कोई भी बदलने की पहुँच से बाहर नहीं है।"
+},
+"gita_ch4_v37": {
+  en: "Just as a fire burns a pile of wood to ash, real wisdom burns away the weight of our past actions. When we finally see clearly, the old patterns lose their grip on us.",
+  te: "అగ్ని కట్టెల కుప్పను బూడిద చేసినట్లే, నిజమైన జ్ఞానం మన పాత కర్మల భారాన్ని కాల్చేస్తుంది. చివరికి మనకు స్పష్టంగా కనిపించినప్పుడు, పాత అలవాట్ల పట్టు సడలిపోతుంది.",
+  hi: "जैसे आग लकड़ियों के ढेर को राख कर देती है, वैसे ही सच्चा ज्ञान हमारे पुराने कर्मों का बोझ जला देता है। जब हम आख़िरकार साफ़ देख पाते हैं, तो पुरानी आदतों की पकड़ ढीली पड़ जाती है।"
+},
+"gita_ch4_v38": {
+  en: "Nothing cleans the heart like true understanding. And it doesn't come from outside — with steady practice, it grows from within, in its own time. Be patient with yourself.",
+  te: "నిజమైన జ్ఞానం లాగా మనసును శుభ్రం చేసేది మరేదీ లేదు. అది బయట నుండి రాదు — నిలకడైన సాధనతో, తగిన సమయంలో మనలోనే వికసిస్తుంది. నీ పట్ల నువ్వు ఓపికగా ఉండు.",
+  hi: "सच्ची समझ जैसा मन को साफ़ करने वाला कुछ नहीं। और यह बाहर से नहीं आती — लगातार अभ्यास से, अपने समय पर, भीतर से उगती है। अपने साथ धैर्य रखो।"
+},
+"gita_ch4_v39": {
+  en: "Three things help us gain wisdom: trust, real commitment, and control over our impulses. Once that wisdom comes, deep peace follows soon after. It is like learning to swim — trust the teacher, keep practising, and one day you are simply floating.",
+  te: "జ్ఞానం పొందడానికి మూడు విషయాలు సహాయపడతాయి: నమ్మకం (శ్రద్ధ), నిజమైన అంకితభావం, మన కోరికలపై అదుపు. ఆ జ్ఞానం వచ్చాక గాఢమైన శాంతి త్వరలోనే వస్తుంది. ఈత నేర్చుకోవడం లాంటిది — గురువును నమ్మి, సాధన చేస్తూ ఉంటే, ఒక రోజు హాయిగా తేలుతూ ఉంటాం.",
+  hi: "ज्ञान पाने में तीन बातें मदद करती हैं: श्रद्धा, सच्ची लगन और अपनी इच्छाओं पर नियंत्रण। वह ज्ञान आने पर गहरी शांति जल्दी ही आ जाती है। यह तैरना सीखने जैसा है — गुरु पर भरोसा रखो, अभ्यास करते रहो, और एक दिन तुम आराम से तैरने लगते हो।"
+},
+"gita_ch4_v40": {
+  en: "Asking questions is good, but a mind that doubts everything and trusts nothing can never settle anywhere. Such a person can't enjoy this life or grow towards anything higher. Healthy questioning leads to answers; endless doubt just goes round in circles.",
+  te: "ప్రశ్నించడం మంచిదే, కానీ ప్రతిదాన్నీ సందేహించి దేన్నీ నమ్మని మనసు ఎక్కడా స్థిరపడదు. అలాంటి వ్యక్తి ఈ జీవితాన్నీ ఆనందించలేడు, ఉన్నతమైనదాని వైపూ ఎదగలేడు. ఆరోగ్యకరమైన ప్రశ్నలు జవాబుల వైపు తీసుకెళ్తాయి; అంతులేని సందేహం గుండ్రంగా తిప్పుతూనే ఉంటుంది.",
+  hi: "प्रश्न पूछना अच्छा है, पर जो मन हर बात पर संदेह करे और किसी पर भरोसा न करे, वह कहीं टिक नहीं पाता। ऐसा व्यक्ति न इस जीवन का आनंद ले पाता है, न किसी ऊँची चीज़ की ओर बढ़ पाता है। स्वस्थ प्रश्न उत्तर तक ले जाते हैं; अंतहीन संदेह बस गोल-गोल घुमाता है।"
+},
+"gita_ch4_v41": {
+  en: "When we offer our work to God, clear up our doubts through understanding, and stay rooted in who we really are, our actions no longer trap us. We can act freely and with a light heart.",
+  te: "మన పనులను భగవంతునికి అర్పించి, జ్ఞానంతో సందేహాలను తొలగించుకొని, మనం నిజంగా ఎవరమో దానిలో స్థిరంగా ఉంటే, మన పనులు మనల్ని బంధించవు. స్వేచ్ఛగా, తేలికైన మనసుతో పనిచేయగలుగుతాం.",
+  hi: "जब हम अपने काम भगवान को अर्पित करते हैं, समझ से अपने संदेह दूर करते हैं और अपने सच्चे स्वरूप में टिके रहते हैं, तो हमारे कर्म हमें फँसाते नहीं। हम हल्के मन से, स्वतंत्र होकर काम कर पाते हैं।"
+},
+"gita_ch4_v42": {
+  en: "Kṛṣṇa ends the chapter with a call to courage: cut through your confusion with clear understanding, and get up and do what needs to be done. When doubt freezes us, the answer is to see clearly — and then act.",
+  te: "శ్రీకృష్ణుడు ధైర్యం నింపే పిలుపుతో ఈ అధ్యాయాన్ని ముగిస్తున్నాడు: స్పష్టమైన జ్ఞానంతో నీ గందరగోళాన్ని ఛేదించు, లేచి చేయవలసిన పని చెయ్యి. సందేహం మనల్ని కదలకుండా చేసినప్పుడు, స్పష్టంగా చూడడమే దానికి జవాబు — ఆ తర్వాత పని చేయడం.",
+  hi: "श्रीकृष्ण साहस भरे आह्वान के साथ अध्याय समाप्त करते हैं: स्पष्ट समझ से अपनी उलझन को काट डालो, और उठकर जो करना है वह करो। जब संदेह हमें जड़ कर दे, तो उपाय है साफ़ देखना — और फिर कर्म करना।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",
