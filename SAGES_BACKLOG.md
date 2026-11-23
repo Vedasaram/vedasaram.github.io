@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Ṛcīka (ricika) — Bhṛgu's grandson who won Satyavatī of Gādhi's house with a thousand black-eared horses, the two bowls of charu that were swapped, father of Jamadagni (MBh Vana & Anuśāsana; Viṣṇu Purāṇa 4).
 - [ ] Śṛṅgī and Śamīka (shamika) — the silent sage on whom King Parīkṣit hung a dead snake, his angry son's curse of Takṣaka's bite, and Śamīka's grief and warning (MBh Ādi; Bhāgavata 1.18).
 - [ ] Matanga (matanga) — the sage of the Ṛṣyamūka forest whose curse kept Vālin away, and whose āśrama Śabarī kept for Rāma (Vālmīki Rāmāyaṇa, Araṇya & Kiṣkindhā; MBh Anuśāsana on his own tapas).
 - [ ] Jaratkāru (jaratkaru) — the ascetic who saw his ancestors hanging over a pit, married the serpent-princess of his own name, left her at a slight, and fathered Āstīka who stopped Janamejaya's snake sacrifice (MBh Ādi).
@@ -107,3 +106,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Asita Devala (devala) — 11 chapters — 2026-11-20
 - [x] Marīci (marici) — 10 chapters — 2026-11-21
 - [x] Gālava (galava) — 11 chapters — 2026-11-22
+- [x] Ṛcīka (ricika) — 9 chapters — 2026-11-23
