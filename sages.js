@@ -59,6 +59,7 @@
     ['marici', 'Marīci', 'మరీచి', 'First of the mind-born, grandfather of the Sun', 'మానస పుత్రులలో మొదటివాడు, సూర్యుని తాత', '🌟', 'linear-gradient(160deg,#1a1006,#e0b84a)'],
     ['galava', 'Gālava', 'గాలవుడు', 'The pupil who paid his guru with eight hundred horses', 'గురుదక్షిణ కోసం లోకమంతా తిరిగిన శిష్యుడు', '🐎', 'linear-gradient(160deg,#0e1a2e,#8aa0c8)'],
     ['ricika', 'Ṛcīka', 'ఋచీకుడు', 'Who won his bride with a thousand horses from the Gaṅgā', 'గంగలో నుండి వచ్చిన వెయ్యి గుర్రాలతో వధువును గెలిచిన ముని', '🥣', 'linear-gradient(160deg,#1a1a2e,#c8c0a0)'],
+    ['shamika', 'Śamīka & Śṛṅgī', 'శమీకుడు, శృంగి', 'The silent sage and the son who cursed a king', 'మౌనముని, రాజును శపించిన కుమారుడు', '🤫', 'linear-gradient(160deg,#142a1a,#7a9a6a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
