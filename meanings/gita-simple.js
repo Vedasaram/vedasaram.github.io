@@ -1031,6 +1031,390 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "श्रीकृष्ण साहस भरे आह्वान के साथ अध्याय समाप्त करते हैं: स्पष्ट समझ से अपनी उलझन को काट डालो, और उठकर जो करना है वह करो। जब संदेह हमें जड़ कर दे, तो उपाय है साफ़ देखना — और फिर कर्म करना।"
 },
 
+// ── Chapter 5 · Karma Sannyāsa Yoga ──
+"gita_ch5_v1": {
+  en: "Arjuna is confused, like many of us: should he step away from the world and its work, or keep working with the right attitude? He asks Kṛṣṇa for one clear answer instead of two options.",
+  te: "మనలో చాలామందిలాగే అర్జునుడు అయోమయంలో ఉన్నాడు: లోకాన్నీ పనులనూ వదిలి వెళ్ళిపోవాలా, లేక సరైన భావంతో పని చేస్తూనే ఉండాలా? రెండు దారులు కాకుండా ఒక్క స్పష్టమైన జవాబు చెప్పమని శ్రీకృష్ణుణ్ణి అడుగుతున్నాడు.",
+  hi: "हम में से कई लोगों की तरह अर्जुन उलझन में है: क्या दुनिया और काम-काज छोड़कर अलग हो जाए, या सही भाव से काम करता रहे? वह श्रीकृष्ण से दो विकल्पों के बजाय एक साफ़ उत्तर माँगता है।"
+},
+"gita_ch5_v2": {
+  en: "Kṛṣṇa says both paths can take you to the goal, but for most people, working with a pure heart is the better road. Running away from duties doesn't clean the mind; doing them well, without selfishness, does.",
+  te: "రెండు దారులూ గమ్యానికి చేర్చగలవు, కానీ చాలామందికి స్వచ్ఛమైన మనసుతో పని చేయడమే మంచి దారి అని శ్రీకృష్ణుడు అంటున్నాడు. బాధ్యతల నుండి పారిపోతే మనసు శుద్ధి కాదు; స్వార్థం లేకుండా వాటిని బాగా చేస్తేనే శుద్ధి అవుతుంది.",
+  hi: "श्रीकृष्ण कहते हैं कि दोनों रास्ते लक्ष्य तक ले जा सकते हैं, पर ज़्यादातर लोगों के लिए शुद्ध मन से काम करना ही बेहतर रास्ता है। ज़िम्मेदारियों से भागने से मन साफ़ नहीं होता; उन्हें निःस्वार्थ भाव से अच्छी तरह निभाने से होता है।"
+},
+"gita_ch5_v3": {
+  en: "Real renunciation isn't about clothes or leaving home — it's about the heart. If you are not eaten up by dislikes and cravings, you are already a renunciate, even while living an ordinary family life.",
+  te: "నిజమైన సన్యాసం బట్టలతోనో, ఇల్లు వదిలి వెళ్ళడంతోనో రాదు — అది మనసుకు సంబంధించినది. ఇష్టాయిష్టాలు, కోరికలు మిమ్మల్ని తినేయకపోతే, మామూలు సంసార జీవితంలో ఉన్నా మీరు సన్యాసులే.",
+  hi: "सच्चा संन्यास कपड़ों या घर छोड़ने से नहीं आता — यह मन की बात है। अगर आप नापसंदगी और लालसा में नहीं जलते, तो साधारण पारिवारिक जीवन जीते हुए भी आप संन्यासी ही हैं।"
+},
+"gita_ch5_v4": {
+  en: "People like to argue about which spiritual path is 'right'. Kṛṣṇa says the wise don't fight over this — whichever honest path you follow sincerely, it leads to the same place.",
+  te: "ఏ ఆధ్యాత్మిక మార్గం ‘సరైనది’ అని జనం వాదించుకుంటూ ఉంటారు. తెలివైనవారు దీనిపై గొడవ పడరు అని శ్రీకృష్ణుడు అంటున్నాడు — మీరు నిజాయితీగా ఏ మంచి మార్గాన్ని అనుసరించినా, అది అదే గమ్యానికి చేరుస్తుంది.",
+  hi: "लोग बहस करते हैं कि कौन-सा आध्यात्मिक मार्ग 'सही' है। श्रीकृष्ण कहते हैं कि समझदार लोग इस पर झगड़ते नहीं — आप जिस भी सच्चे मार्ग पर ईमानदारी से चलें, वह उसी मंज़िल तक पहुँचाता है।"
+},
+"gita_ch5_v5": {
+  en: "Thinking deeply and working selflessly are not rivals — they are two hands of the same body. Someone who understands this stops comparing and simply walks forward.",
+  te: "లోతుగా ఆలోచించడం, నిస్వార్థంగా పని చేయడం — ఇవి ప్రత్యర్థులు కావు; ఒకే శరీరానికి రెండు చేతుల వంటివి. ఇది అర్థమైనవాడు పోలికలు ఆపేసి, ముందుకు నడుస్తాడు.",
+  hi: "गहराई से सोचना और निःस्वार्थ काम करना एक-दूसरे के विरोधी नहीं — ये एक ही शरीर के दो हाथ हैं। जो यह समझ लेता है, वह तुलना करना छोड़कर बस आगे बढ़ता है।"
+},
+"gita_ch5_v6": {
+  en: "You can't just decide to be detached overnight. Doing your work with a selfless attitude is the training that slowly makes real detachment possible — and then progress comes quickly.",
+  te: "ఒక్క రాత్రిలో నిర్లిప్తంగా మారిపోతానని నిర్ణయించుకుంటే సరిపోదు. నిస్వార్థ భావంతో పని చేయడమే నిజమైన వైరాగ్యాన్ని నెమ్మదిగా సాధ్యం చేసే శిక్షణ — ఆ తర్వాత పురోగతి వేగంగా వస్తుంది.",
+  hi: "कोई रातों-रात वैरागी बनने का फ़ैसला नहीं कर सकता। निःस्वार्थ भाव से काम करना ही वह अभ्यास है जो धीरे-धीरे सच्चा वैराग्य संभव बनाता है — और फिर प्रगति जल्दी होती है।"
+},
+"gita_ch5_v7": {
+  en: "When your heart is clean and you feel others' joy and pain as your own, your work stops creating knots inside you. You can be fully busy and still remain free and light.",
+  te: "మనసు శుభ్రంగా ఉండి, ఇతరుల సుఖదుఃఖాలను మీవిగా భావించినప్పుడు, మీ పనులు మీలో ముడులు వేయవు. పూర్తిగా పనుల్లో మునిగి ఉన్నా స్వేచ్ఛగా, తేలికగా ఉండగలరు.",
+  hi: "जब मन साफ़ हो और आप दूसरों के सुख-दुःख को अपना महसूस करें, तो आपका काम आपके भीतर गाँठें नहीं बाँधता। आप पूरी तरह व्यस्त रहकर भी मुक्त और हल्के रह सकते हैं।"
+},
+"gita_ch5_v8": {
+  en: "The wise person notices that most of life simply 'happens' — eyes see, ears hear, lungs breathe. They don't puff up a big 'I' behind every little thing the body does.",
+  te: "జీవితంలో చాలా భాగం దానంతట అదే ‘జరుగుతుంది’ అని జ్ఞాని గమనిస్తాడు — కళ్ళు చూస్తాయి, చెవులు వింటాయి, ఊపిరితిత్తులు శ్వాస తీస్తాయి. శరీరం చేసే ప్రతి చిన్న పని వెనుక పెద్ద ‘నేను’ను పెంచుకోడు.",
+  hi: "ज्ञानी देखता है कि जीवन का ज़्यादातर हिस्सा अपने-आप 'होता' है — आँखें देखती हैं, कान सुनते हैं, फेफड़े साँस लेते हैं। वह शरीर के हर छोटे काम के पीछे एक बड़ा 'मैं' नहीं खड़ा करता।"
+},
+"gita_ch5_v9": {
+  en: "Our true Self is like a quiet witness watching the body and senses go about their business. Seeing life this way takes away ego and stress — 'I' am not the one pulling every string.",
+  te: "మన నిజమైన ఆత్మ, శరీరం ఇంద్రియాలు తమ పని తాము చేసుకుపోతుంటే నిశ్శబ్దంగా చూసే సాక్షి వంటిది. జీవితాన్ని ఇలా చూస్తే అహంకారం, ఒత్తిడి తగ్గుతాయి — ప్రతి దారాన్నీ లాగుతున్నది ‘నేను’ కాదు.",
+  hi: "हमारी सच्ची आत्मा एक शांत साक्षी जैसी है, जो शरीर और इंद्रियों को अपना काम करते देखती है। जीवन को ऐसे देखने से अहंकार और तनाव घटते हैं — हर डोर खींचने वाला 'मैं' नहीं हूँ।"
+},
+"gita_ch5_v10": {
+  en: "A lotus leaf sits on water all day and stays dry. In the same way, you can live in the middle of the world's mess and stay clean inside — if you do your work as an offering, not for selfish grabbing.",
+  te: "తామరాకు రోజంతా నీటిపైనే ఉన్నా తడవదు. అలాగే, మీ పనిని స్వార్థంతో కాకుండా దేవునికి అర్పణగా చేస్తే, లోకంలోని గందరగోళం మధ్యలో ఉన్నా లోపల శుభ్రంగా ఉండగలరు.",
+  hi: "कमल का पत्ता दिन भर पानी पर रहकर भी सूखा रहता है। वैसे ही, अगर आप अपना काम स्वार्थ से नहीं, भगवान को अर्पण के भाव से करें, तो दुनिया की उथल-पुथल के बीच भी भीतर से साफ़ रह सकते हैं।"
+},
+"gita_ch5_v11": {
+  en: "For a wise person, work is not only about results — it is a way of cleaning the inner self. Every task, big or small, becomes a chance to become a better, less selfish person.",
+  te: "తెలివైనవారికి పని అంటే కేవలం ఫలితాల కోసం కాదు — అది లోపలి మనసును శుభ్రం చేసుకునే మార్గం. పెద్దదైనా చిన్నదైనా ప్రతి పనీ మరింత మంచి, తక్కువ స్వార్థం గల మనిషిగా మారే అవకాశం అవుతుంది.",
+  hi: "समझदार व्यक्ति के लिए काम केवल परिणाम के लिए नहीं — यह अपने भीतर को साफ़ करने का तरीका है। हर काम, बड़ा हो या छोटा, एक बेहतर और कम स्वार्थी इंसान बनने का मौका बन जाता है।"
+},
+"gita_ch5_v12": {
+  en: "Two people can do exactly the same job. One does it well and lets go of the outcome — and feels at peace. The other keeps worrying about 'what will I get?' — and feels trapped. The difference is inside, not in the work.",
+  te: "ఇద్దరు వ్యక్తులు ఒకే పని చేయవచ్చు. ఒకరు బాగా చేసి ఫలితాన్ని వదిలేస్తారు — ప్రశాంతంగా ఉంటారు. ఇంకొకరు ‘నాకేం వస్తుంది?’ అని ఆందోళన పడుతూనే ఉంటారు — బంధంలో చిక్కుకున్నట్లు అనిపిస్తుంది. తేడా పనిలో లేదు, మనసులో ఉంది.",
+  hi: "दो लोग बिल्कुल एक ही काम कर सकते हैं। एक उसे अच्छे से करके परिणाम छोड़ देता है — और शांत रहता है। दूसरा लगातार सोचता है 'मुझे क्या मिलेगा?' — और फँसा हुआ महसूस करता है। अंतर काम में नहीं, मन में है।"
+},
+"gita_ch5_v13": {
+  en: "The body is like a house with nine doors — eyes, ears, nostrils, mouth and so on. The wise person lives in this house peacefully, like a calm resident, not like a frantic manager who thinks everything depends on them.",
+  te: "శరీరం తొమ్మిది ద్వారాలు గల ఇల్లు వంటిది — కళ్ళు, చెవులు, ముక్కు రంధ్రాలు, నోరు మొదలైనవి. జ్ఞాని ఈ ఇంట్లో ప్రశాంతంగా ఉండే నివాసిలా ఉంటాడు — అంతా తనపైనే ఆధారపడి ఉందని హడావిడి పడే యజమానిలా కాదు.",
+  hi: "शरीर नौ दरवाज़ों वाले घर जैसा है — आँखें, कान, नथुने, मुँह आदि। ज्ञानी इस घर में एक शांत निवासी की तरह रहता है, उस घबराए प्रबंधक की तरह नहीं जो सोचता है कि सब कुछ उसी पर टिका है।"
+},
+"gita_ch5_v14": {
+  en: "God doesn't sit and force each person to do this or that. Our own nature and habits push us to act, and actions bring their results. So instead of blaming God, it's wiser to look at and improve our own nature.",
+  te: "దేవుడు కూర్చుని ప్రతి ఒక్కరినీ ఇది చెయ్యి, అది చెయ్యి అని బలవంతం చేయడు. మన స్వభావం, అలవాట్లే మనల్ని పనుల వైపు నెడతాయి, పనులు తమ ఫలితాలను తెస్తాయి. కాబట్టి దేవుణ్ణి నిందించడం కంటే మన స్వభావాన్ని గమనించి మెరుగుపరచుకోవడమే తెలివైన పని.",
+  hi: "भगवान बैठकर हर व्यक्ति से ज़बरदस्ती यह या वह नहीं करवाते। हमारा अपना स्वभाव और आदतें हमें कर्म की ओर धकेलती हैं, और कर्म अपना फल लाते हैं। इसलिए भगवान को दोष देने के बजाय अपने स्वभाव को देखना और सुधारना ज़्यादा समझदारी है।"
+},
+"gita_ch5_v15": {
+  en: "God is not keeping a list to punish some and reward others on a whim. Our confusion comes from a kind of fog over our understanding. Clear the fog, and things start making sense.",
+  te: "కొందరిని శిక్షించడానికి, కొందరికి బహుమతులు ఇవ్వడానికి దేవుడు ఇష్టం వచ్చినట్లు జాబితా రాసుకోడు. మన అయోమయం మన అవగాహనపై కమ్మిన పొగమంచు వల్ల వస్తుంది. ఆ పొగమంచు తొలగితే, అన్నీ అర్థం కావడం మొదలవుతుంది.",
+  hi: "भगवान मनमर्ज़ी से किसी को सज़ा और किसी को इनाम देने की सूची नहीं रखते। हमारी उलझन हमारी समझ पर छाई धुंध से आती है। धुंध हटाओ, तो बातें समझ में आने लगती हैं।"
+},
+"gita_ch5_v16": {
+  en: "When the sun rises, you don't have to search for things in the dark anymore — you just see. Real understanding works the same way: once ignorance goes, the truth is simply obvious.",
+  te: "సూర్యుడు ఉదయించాక చీకట్లో వెతకాల్సిన అవసరం ఉండదు — అన్నీ కనిపిస్తాయి. నిజమైన జ్ఞానమూ అంతే: అజ్ఞానం పోయాక, సత్యం స్పష్టంగా కనిపిస్తుంది.",
+  hi: "सूरज निकलने के बाद अँधेरे में चीज़ें टटोलनी नहीं पड़तीं — सब दिख जाता है। सच्ची समझ भी ऐसी ही है: अज्ञान हटते ही सत्य अपने-आप साफ़ दिखने लगता है।"
+},
+"gita_ch5_v17": {
+  en: "When your thoughts, your heart and your goals all point in one direction — towards the Divine — your life becomes focused and clean. Such a person reaches a freedom that doesn't slip away again.",
+  te: "మీ ఆలోచనలు, మీ మనసు, మీ లక్ష్యాలు అన్నీ ఒకే దిశలో — దైవం వైపు — ఉన్నప్పుడు, జీవితం ఏకాగ్రంగా, శుభ్రంగా మారుతుంది. అలాంటి మనిషి మళ్ళీ జారిపోని స్వేచ్ఛను పొందుతాడు.",
+  hi: "जब आपके विचार, आपका हृदय और आपके लक्ष्य सब एक ही दिशा में — भगवान की ओर — हों, तो जीवन एकाग्र और शुद्ध हो जाता है। ऐसा व्यक्ति वह मुक्ति पाता है जो फिर फिसलती नहीं।"
+},
+"gita_ch5_v18": {
+  en: "A truly wise person doesn't rank living beings as 'high' or 'low'. Whether it's a scholar, an animal, or someone society looks down on, they see the same divine spark in all. This is a strong lesson against pride and discrimination.",
+  te: "నిజమైన జ్ఞాని ప్రాణులను ‘గొప్పవి’, ‘తక్కువవి’ అని వర్గీకరించడు. పండితుడైనా, జంతువైనా, సమాజం చిన్నచూపు చూసే వ్యక్తి అయినా — అందరిలో అదే దివ్యమైన వెలుగును చూస్తాడు. గర్వానికీ, వివక్షకూ వ్యతిరేకంగా ఇది బలమైన పాఠం.",
+  hi: "सच्चा ज्ञानी जीवों को 'ऊँचा' या 'नीचा' नहीं आँकता। विद्वान हो, पशु हो, या कोई जिसे समाज नीची नज़र से देखता है — वह सब में वही दिव्य ज्योति देखता है। यह घमंड और भेदभाव के ख़िलाफ़ एक बड़ी सीख है।"
+},
+"gita_ch5_v19": {
+  en: "Freedom is not only something that comes after death. A person who treats everyone equally and stays balanced has already won — they are living close to God right here, right now.",
+  te: "ముక్తి అనేది చనిపోయిన తర్వాత మాత్రమే వచ్చేది కాదు. అందరినీ సమానంగా చూస్తూ, సమతుల్యంగా ఉండే మనిషి ఇప్పటికే గెలిచాడు — ఇక్కడే, ఇప్పుడే దేవునికి దగ్గరగా జీవిస్తున్నాడు.",
+  hi: "मुक्ति केवल मृत्यु के बाद मिलने वाली चीज़ नहीं है। जो सबको समान देखता है और संतुलित रहता है, वह पहले ही जीत चुका है — वह यहीं, अभी भगवान के निकट जी रहा है।"
+},
+"gita_ch5_v20": {
+  en: "Good news and bad news both come in every life. A grounded person doesn't jump through the roof with one or collapse with the other. Their inner calm doesn't depend on the day's headlines.",
+  te: "ప్రతి జీవితంలో మంచి వార్తలూ వస్తాయి, చెడ్డ వార్తలూ వస్తాయి. స్థిరంగా ఉన్న మనిషి ఒకదానికి ఎగిరి గంతేయడు, మరొకదానికి కుప్పకూలిపోడు. అతని లోపలి ప్రశాంతత ఆ రోజు జరిగే సంఘటనలపై ఆధారపడదు.",
+  hi: "हर जीवन में अच्छी ख़बरें भी आती हैं और बुरी भी। जो भीतर से टिका हुआ है, वह एक पर उछलता नहीं और दूसरी पर टूटता नहीं। उसकी भीतरी शांति दिन की सुर्ख़ियों पर निर्भर नहीं करती।"
+},
+"gita_ch5_v21": {
+  en: "Most of us keep looking outside for happiness — the next purchase, the next treat, the next thrill. Kṛṣṇa says there is a deeper joy inside us that doesn't run out. Finding it is the real treasure hunt.",
+  te: "మనలో చాలామంది ఆనందం కోసం బయటే వెతుకుతుంటాం — తర్వాత కొనే వస్తువు, తర్వాత తినే రుచి, తర్వాత వచ్చే ఉత్సాహం. మనలోనే ఎప్పటికీ తరగని లోతైన ఆనందం ఉందని శ్రీకృష్ణుడు చెబుతున్నాడు. దాన్ని కనుగొనడమే అసలైన నిధి వేట.",
+  hi: "हम में से ज़्यादातर लोग खुशी बाहर ढूँढते रहते हैं — अगली ख़रीदारी, अगला स्वाद, अगला रोमांच। श्रीकृष्ण कहते हैं कि हमारे भीतर एक गहरा आनंद है जो कभी ख़त्म नहीं होता। उसे पाना ही असली ख़ज़ाने की खोज है।"
+},
+"gita_ch5_v22": {
+  en: "Think of the joy of a new phone or a party — it starts, peaks, fades, and often leaves us wanting more. Pleasures that depend on outside things always end. That's why the wise enjoy them lightly and don't build their life on them.",
+  te: "కొత్త ఫోన్ వచ్చినప్పటి ఆనందం, ఒక పార్టీ సరదా గుర్తు చేసుకోండి — మొదలవుతుంది, పెరుగుతుంది, తగ్గిపోతుంది, తరచూ ఇంకా కావాలనే కోరికను మిగులుస్తుంది. బయటి వస్తువులపై ఆధారపడే సుఖాలు ఎప్పుడూ ముగిసిపోతాయి. అందుకే జ్ఞానులు వాటిని తేలికగా తీసుకుంటారు, వాటిపై జీవితాన్ని నిర్మించరు.",
+  hi: "नए फ़ोन या किसी पार्टी की खुशी याद कीजिए — वह शुरू होती है, चरम पर पहुँचती है, फीकी पड़ती है, और अक्सर और की चाह छोड़ जाती है। बाहरी चीज़ों पर टिके सुख हमेशा ख़त्म होते हैं। इसीलिए ज्ञानी उन्हें हल्के से लेते हैं और उन पर अपना जीवन नहीं टिकाते।"
+},
+"gita_ch5_v23": {
+  en: "Desire and anger come like a sudden wave. You don't have to never feel them — the skill is to not be swept away. Someone who can pause and hold steady in that moment is truly strong and truly happy.",
+  te: "కోరిక, కోపం హఠాత్తుగా వచ్చే అలలా వస్తాయి. అవి అసలు రాకూడదని కాదు — వాటిలో కొట్టుకుపోకుండా ఉండడమే నైపుణ్యం. ఆ క్షణంలో ఆగి స్థిరంగా నిలవగలిగినవాడే నిజంగా బలవంతుడు, నిజంగా సుఖి.",
+  hi: "इच्छा और क्रोध अचानक लहर की तरह आते हैं। ज़रूरी नहीं कि वे कभी आएँ ही नहीं — कला यह है कि उनमें बह न जाएँ। जो उस पल में रुककर स्थिर रह सके, वही सच में बलवान और सच में सुखी है।"
+},
+"gita_ch5_v24": {
+  en: "Some people need constant entertainment, praise or company to feel okay. The yogī has found a source of happiness, joy and light inside — and that inner fullness is a taste of the highest peace.",
+  te: "కొందరికి బాగున్నట్లు అనిపించాలంటే ఎప్పుడూ వినోదమో, పొగడ్తో, తోడో కావాలి. యోగి తనలోనే సుఖానికీ, ఆనందానికీ, వెలుగుకూ మూలాన్ని కనుగొన్నాడు — ఆ లోపలి నిండుదనమే పరమ శాంతి రుచి.",
+  hi: "कुछ लोगों को ठीक महसूस करने के लिए हमेशा मनोरंजन, तारीफ़ या साथ चाहिए। योगी ने अपने भीतर ही सुख, आनंद और प्रकाश का स्रोत पा लिया है — और वही भीतरी पूर्णता परम शांति का स्वाद है।"
+},
+"gita_ch5_v25": {
+  en: "Notice that the enlightened are described as people who love helping others. Spiritual growth doesn't make you cold or withdrawn — it makes you care about the good of everyone around you.",
+  te: "జ్ఞానోదయం పొందినవారిని ఇతరులకు సహాయం చేయడంలో ఆనందించేవారిగా వర్ణించడం గమనించండి. ఆధ్యాత్మిక ఎదుగుదల మిమ్మల్ని చల్లగా, ఒంటరిగా మార్చదు — చుట్టూ ఉన్న అందరి మంచి గురించి శ్రద్ధ పెట్టేలా చేస్తుంది.",
+  hi: "ध्यान दीजिए कि ज्ञानी लोगों को ऐसे बताया गया है जो दूसरों की भलाई में आनंद लेते हैं। आध्यात्मिक उन्नति आपको रूखा या अलग-थलग नहीं बनाती — वह आपको आसपास के सब लोगों की भलाई की परवाह करना सिखाती है।"
+},
+"gita_ch5_v26": {
+  en: "Peace is not far away on some distant mountain. When we let go of craving and anger and get to know our true self, peace is all around us — in this life, in this very moment.",
+  te: "శాంతి ఎక్కడో దూరంగా ఏ కొండ మీదో లేదు. కోరికనూ కోపాన్నీ వదిలి, మన నిజ స్వరూపాన్ని తెలుసుకున్నప్పుడు, శాంతి మన చుట్టూనే ఉంటుంది — ఈ జీవితంలోనే, ఈ క్షణంలోనే.",
+  hi: "शांति कहीं दूर किसी पहाड़ पर नहीं है। जब हम लालसा और क्रोध छोड़कर अपने सच्चे स्वरूप को जान लेते हैं, तो शांति हमारे चारों ओर होती है — इसी जीवन में, इसी पल में।"
+},
+"gita_ch5_v27": {
+  en: "Here Kṛṣṇa gives a first glimpse of meditation, which He explains fully in the next chapter: close the doors to outside distractions, keep your attention steady, and let your breathing become slow and even.",
+  te: "తర్వాతి అధ్యాయంలో పూర్తిగా వివరించే ధ్యానాన్ని శ్రీకృష్ణుడు ఇక్కడ కొద్దిగా చూపిస్తున్నాడు: బయటి ఆకర్షణలకు తలుపులు మూయండి, దృష్టిని స్థిరంగా ఉంచండి, శ్వాస నెమ్మదిగా, సమంగా సాగనివ్వండి.",
+  hi: "यहाँ श्रीकृष्ण ध्यान की पहली झलक देते हैं, जिसे वे अगले अध्याय में पूरा समझाते हैं: बाहरी भटकावों के दरवाज़े बंद करो, ध्यान को स्थिर रखो, और साँस को धीमा और सम होने दो।"
+},
+"gita_ch5_v28": {
+  en: "Desire, fear and anger are the three big storms of the mind. When meditation and self-control calm them, a person feels free inside — not someday, but already.",
+  te: "కోరిక, భయం, కోపం — ఇవి మనసులో వచ్చే మూడు పెద్ద తుఫానులు. ధ్యానం, నిగ్రహం వాటిని శాంతపరిచినప్పుడు, మనిషి లోపల స్వేచ్ఛగా ఉంటాడు — ఎప్పుడో కాదు, ఇప్పటికే.",
+  hi: "इच्छा, भय और क्रोध — ये मन के तीन बड़े तूफ़ान हैं। जब ध्यान और संयम इन्हें शांत कर देते हैं, तो व्यक्ति भीतर से मुक्त महसूस करता है — कभी बाद में नहीं, अभी से।"
+},
+"gita_ch5_v29": {
+  en: "The chapter ends with comfort: the Lord of the whole universe is also your friend, the well-wisher of every living being. Knowing that we are not alone — that Someone receives every good effort with love — brings deep peace.",
+  te: "ఈ అధ్యాయం ఓదార్పుతో ముగుస్తుంది: విశ్వమంతటికీ ప్రభువైనవాడే మీ స్నేహితుడు కూడా, ప్రతి ప్రాణికీ మేలు కోరేవాడు. మనం ఒంటరివాళ్ళం కాదని — మనం చేసే ప్రతి మంచి ప్రయత్నాన్నీ ఎవరో ప్రేమతో స్వీకరిస్తున్నారని — తెలుసుకోవడం లోతైన శాంతిని ఇస్తుంది.",
+  hi: "अध्याय सांत्वना के साथ समाप्त होता है: पूरे ब्रह्मांड का स्वामी आपका मित्र भी है, हर प्राणी का हितैषी। यह जानना कि हम अकेले नहीं हैं — कि कोई हमारी हर अच्छी कोशिश को प्रेम से स्वीकार करता है — गहरी शांति देता है।"
+},
+
+// ── Chapter 6 · Ātma Saṃyama Yoga ──
+"gita_ch6_v1": {
+  en: "Kṛṣṇa repeats an important point: a true spiritual person is not someone who has simply stopped doing things. It's the one who does what needs doing, without being hungry for rewards.",
+  te: "శ్రీకృష్ణుడు ఒక ముఖ్యమైన విషయాన్ని మళ్ళీ చెబుతున్నాడు: పనులు మానేసినంత మాత్రాన ఎవరూ ఆధ్యాత్మిక వ్యక్తి కాలేరు. ప్రతిఫలం కోసం ఆరాటపడకుండా చేయవలసిన పని చేసేవాడే నిజమైన సాధకుడు.",
+  hi: "श्रीकृष्ण एक ज़रूरी बात दोहराते हैं: सच्चा आध्यात्मिक व्यक्ति वह नहीं जिसने बस काम करना छोड़ दिया। वह है जो इनाम की भूख के बिना, जो करना ज़रूरी है वह करता है।"
+},
+"gita_ch6_v2": {
+  en: "Renunciation and yoga meet at one point: letting go of the endless 'I want this, I'll make that happen for me' planning of the mind. Without loosening that grip, no spiritual practice really takes off.",
+  te: "సన్యాసం, యోగం ఒక చోట కలుస్తాయి: ‘నాకిది కావాలి, నా కోసం అది జరిగేలా చేస్తాను’ అనే మనసు అంతులేని ప్రణాళికలను వదలడం. ఆ పట్టు సడలకపోతే ఏ సాధనా నిజంగా ముందుకు సాగదు.",
+  hi: "संन्यास और योग एक बिंदु पर मिलते हैं: मन की उस अंतहीन योजना को छोड़ना कि 'मुझे यह चाहिए, मैं अपने लिए वह करवाऊँगा'। इस पकड़ को ढीला किए बिना कोई साधना सच में आगे नहीं बढ़ती।"
+},
+"gita_ch6_v3": {
+  en: "Spiritual life has stages. In the beginning, selfless work and duty are the ladder. Later, as the mind matures, inner stillness becomes the main practice. Each stage has its right tool.",
+  te: "ఆధ్యాత్మిక జీవితానికి దశలు ఉంటాయి. మొదట్లో నిస్వార్థ కర్మ, బాధ్యతలే నిచ్చెన. తర్వాత మనసు పరిపక్వమయ్యాక, లోపలి ప్రశాంతతే ముఖ్య సాధన అవుతుంది. ప్రతి దశకూ దానికి తగిన పరికరం ఉంటుంది.",
+  hi: "आध्यात्मिक जीवन के चरण होते हैं। शुरुआत में निःस्वार्थ काम और कर्तव्य ही सीढ़ी हैं। बाद में, जब मन परिपक्व हो जाता है, तो भीतरी शांति मुख्य साधना बन जाती है। हर चरण का अपना सही साधन है।"
+},
+"gita_ch6_v4": {
+  en: "How do you know you've grown? When things and activities no longer have a hook in you, and your mind isn't constantly scheming for itself. That quiet freedom is the sign of real progress.",
+  te: "మీరు ఎదిగారని ఎలా తెలుస్తుంది? వస్తువులూ పనులూ మిమ్మల్ని ఇక గాలంతో పట్టుకోనప్పుడు, మనసు ఎప్పుడూ తన కోసం పథకాలు వేయనప్పుడు. ఆ నిశ్శబ్దమైన స్వేచ్ఛే నిజమైన పురోగతికి గుర్తు.",
+  hi: "कैसे पता चले कि आप आगे बढ़े हैं? जब चीज़ें और काम आपको काँटे की तरह न फँसाएँ, और मन हमेशा अपने लिए जुगत न भिड़ाता रहे। वह शांत आज़ादी ही असली प्रगति का चिह्न है।"
+},
+"gita_ch6_v5": {
+  en: "One of the most powerful lines in the Gītā: nobody else can do your growing for you. The same mind that drags you down with bad habits and negative talk can lift you up with good choices. You decide whether it's your friend or your enemy.",
+  te: "గీతలోని అత్యంత శక్తివంతమైన మాటల్లో ఇది ఒకటి: మీ ఎదుగుదలను మీ బదులు ఎవరూ చేయలేరు. చెడు అలవాట్లతో, ప్రతికూల ఆలోచనలతో మిమ్మల్ని కిందికి లాగే అదే మనసు, మంచి నిర్ణయాలతో మిమ్మల్ని పైకి లేపగలదు. అది మీకు స్నేహితుడా, శత్రువా అనేది మీరే నిర్ణయించుకుంటారు.",
+  hi: "गीता की सबसे शक्तिशाली पंक्तियों में से एक: आपकी उन्नति आपके बदले कोई और नहीं कर सकता। जो मन बुरी आदतों और नकारात्मक सोच से आपको नीचे खींचता है, वही अच्छे चुनावों से आपको ऊपर उठा सकता है। वह आपका मित्र है या शत्रु, यह आप तय करते हैं।"
+},
+"gita_ch6_v6": {
+  en: "A trained mind is like a loyal friend who reminds you to do the right thing. An untrained mind is like an enemy living inside your own house. The difference is practice and self-discipline.",
+  te: "శిక్షణ పొందిన మనసు సరైన పని చేయమని గుర్తు చేసే నమ్మకమైన స్నేహితుడి వంటిది. శిక్షణ లేని మనసు మీ సొంత ఇంట్లోనే ఉండే శత్రువు వంటిది. తేడా సాధనలో, క్రమశిక్షణలో ఉంది.",
+  hi: "प्रशिक्षित मन एक वफ़ादार मित्र जैसा है जो आपको सही काम की याद दिलाता है। अप्रशिक्षित मन अपने ही घर में रहने वाले शत्रु जैसा है। अंतर अभ्यास और आत्म-अनुशासन का है।"
+},
+"gita_ch6_v7": {
+  en: "When the mind is calm, life's ups and downs — weather, comfort, praise, insults — don't shake the inner connection with God. The calm person carries that peace everywhere.",
+  te: "మనసు ప్రశాంతంగా ఉన్నప్పుడు, జీవితంలోని ఒడిదుడుకులు — వాతావరణం, సౌకర్యం, పొగడ్త, అవమానం — దేవునితో ఉన్న లోపలి బంధాన్ని కదిలించలేవు. ప్రశాంతమైన మనిషి ఆ శాంతిని ఎక్కడికైనా వెంట తీసుకెళ్తాడు.",
+  hi: "जब मन शांत होता है, तो जीवन के उतार-चढ़ाव — मौसम, सुविधा, तारीफ़, अपमान — भगवान से भीतरी जुड़ाव को हिला नहीं पाते। शांत व्यक्ति वह शांति हर जगह साथ ले जाता है।"
+},
+"gita_ch6_v8": {
+  en: "A blacksmith's anvil takes blow after blow and doesn't change shape. The steady person is like that. They are satisfied with understanding, and gold doesn't dazzle them any more than a stone does.",
+  te: "కమ్మరి దాగలి దెబ్బ మీద దెబ్బ పడినా ఆకారం మారదు. స్థిరమైన మనిషి అలాంటివాడు. అవగాహనతోనే తృప్తి చెందుతాడు; బంగారం కూడా రాయి కంటే ఎక్కువగా అతని కళ్ళను మిరుమిట్లు గొలపదు.",
+  hi: "लोहार की निहाई चोट पर चोट खाकर भी आकार नहीं बदलती। स्थिर व्यक्ति वैसा ही होता है। वह समझ से ही संतुष्ट रहता है, और सोना भी उसे पत्थर से ज़्यादा चकाचौंध नहीं करता।"
+},
+"gita_ch6_v9": {
+  en: "It's easy to be fair to people we like. Real greatness is having a steady, fair heart even towards people who annoy us or wrong us. This doesn't mean approving of wrong — it means not letting hatred twist our minds.",
+  te: "మనకు నచ్చినవారి పట్ల న్యాయంగా ఉండడం సులభం. మనల్ని విసిగించేవారి పట్లా, మనకు అన్యాయం చేసేవారి పట్లా కూడా స్థిరమైన, న్యాయమైన మనసుతో ఉండడమే నిజమైన గొప్పతనం. తప్పును ఒప్పుకోమని కాదు — ద్వేషం మన మనసును వంకర చేయనివ్వకూడదని.",
+  hi: "जिन्हें हम पसंद करते हैं, उनके प्रति न्यायी होना आसान है। सच्ची महानता उनके प्रति भी स्थिर और न्यायपूर्ण मन रखने में है जो हमें परेशान करते हैं या हमारे साथ गलत करते हैं। इसका मतलब गलत को सही मानना नहीं — बल्कि नफ़रत को अपने मन को टेढ़ा न करने देना है।"
+},
+"gita_ch6_v10": {
+  en: "Now Kṛṣṇa teaches meditation step by step. First: find some quiet time alone, and for that time put down your wishes and worries about possessions. Even a few minutes of real solitude each day can change a life.",
+  te: "ఇప్పుడు శ్రీకృష్ణుడు ధ్యానాన్ని అంచెలంచెలుగా నేర్పుతున్నాడు. మొదటిది: ఒంటరిగా కొంత ప్రశాంత సమయం కేటాయించుకోండి; ఆ సమయంలో కోరికలనూ ఆస్తుల గురించిన ఆందోళనలనూ పక్కన పెట్టండి. రోజూ కొన్ని నిమిషాల నిజమైన ఏకాంతం కూడా జీవితాన్ని మార్చగలదు.",
+  hi: "अब श्रीकृष्ण ध्यान को क़दम-दर-क़दम सिखाते हैं। पहला: अकेले में कुछ शांत समय निकालो, और उस समय अपनी इच्छाओं और चीज़ों की चिंता को एक तरफ़ रख दो। रोज़ कुछ मिनट का सच्चा एकांत भी जीवन बदल सकता है।"
+},
+"gita_ch6_v11": {
+  en: "Practical advice: choose a clean spot and a steady, comfortable seat — not wobbly, not awkward. Our surroundings affect our mind, so a tidy, dedicated corner helps meditation.",
+  te: "ఆచరణాత్మక సలహా: శుభ్రమైన చోటును, కదలని సౌకర్యవంతమైన ఆసనాన్ని ఎంచుకోండి — ఊగేదీ, ఇబ్బంది పెట్టేదీ కాదు. మన పరిసరాలు మన మనసుపై ప్రభావం చూపుతాయి, కాబట్టి శుభ్రంగా ఉండే ఒక ప్రత్యేకమైన మూల ధ్యానానికి సహాయపడుతుంది.",
+  hi: "व्यावहारिक सलाह: एक साफ़ जगह और एक स्थिर, आरामदेह आसन चुनो — न डगमगाता, न असुविधाजनक। हमारा परिवेश हमारे मन पर असर डालता है, इसलिए एक साफ़-सुथरा, अलग कोना ध्यान में मदद करता है।"
+},
+"gita_ch6_v12": {
+  en: "Sit down and gently bring the scattered mind to one point. The purpose isn't to show off or gain powers — it's to clean the heart, like settling muddy water until it becomes clear.",
+  te: "కూర్చుని, చెదిరిపోయిన మనసును మెల్లగా ఒక్క బిందువుకు తీసుకురండి. దీని ఉద్దేశం ప్రదర్శన కోసమో శక్తుల కోసమో కాదు — బురద నీరు కదలకుండా ఉంచితే తేటబడినట్లు, హృదయాన్ని శుభ్రం చేసుకోవడం కోసం.",
+  hi: "बैठिए और बिखरे मन को धीरे-से एक बिंदु पर लाइए। उद्देश्य दिखावा या शक्तियाँ पाना नहीं — बल्कि हृदय को साफ़ करना है, जैसे गंदले पानी को स्थिर रखने से वह निर्मल हो जाता है।"
+},
+"gita_ch6_v13": {
+  en: "Posture matters: sit upright with your back, neck and head in one line, and keep your eyes from wandering around the room. A steady body makes it easier to have a steady mind.",
+  te: "కూర్చునే విధానం ముఖ్యం: వెన్ను, మెడ, తల ఒకే వరుసలో నిటారుగా కూర్చోండి; కళ్ళు గదంతా తిరగకుండా చూసుకోండి. శరీరం స్థిరంగా ఉంటే మనసు స్థిరపడడం సులభం.",
+  hi: "आसन का ढंग मायने रखता है: पीठ, गर्दन और सिर एक सीध में रखकर सीधे बैठो, और आँखों को कमरे में इधर-उधर भटकने मत दो। स्थिर शरीर से स्थिर मन पाना आसान होता है।"
+},
+"gita_ch6_v14": {
+  en: "Meditation isn't just sitting still — it needs a calm, unafraid heart, a disciplined life, and something worthy to focus on. Kṛṣṇa says: let that focus be God.",
+  te: "ధ్యానం అంటే కేవలం కదలకుండా కూర్చోవడం కాదు — దానికి ప్రశాంతమైన, భయం లేని మనసు, క్రమశిక్షణ గల జీవితం, దృష్టి పెట్టదగిన ఉన్నతమైన లక్ష్యం కావాలి. ఆ లక్ష్యం దేవుడే కావాలి అని శ్రీకృష్ణుడు అంటున్నాడు.",
+  hi: "ध्यान केवल स्थिर बैठना नहीं है — इसके लिए शांत और निडर मन, अनुशासित जीवन, और ध्यान लगाने योग्य कोई ऊँचा लक्ष्य चाहिए। श्रीकृष्ण कहते हैं: वह लक्ष्य भगवान हों।"
+},
+"gita_ch6_v15": {
+  en: "The key word is 'always' — regular practice. Meditating once in a while is nice, but daily practice slowly opens the door to a deep peace that rests in God.",
+  te: "ఇక్కడ ముఖ్యమైన మాట ‘ఎల్లప్పుడూ’ — క్రమంగా చేసే సాధన. అప్పుడప్పుడు ధ్యానం చేయడం మంచిదే, కానీ రోజూ చేసే సాధనే దేవునిలో నెలకొన్న లోతైన శాంతికి తలుపు నెమ్మదిగా తెరుస్తుంది.",
+  hi: "मुख्य शब्द है 'सदा' — नियमित अभ्यास। कभी-कभार ध्यान करना अच्छा है, पर रोज़ का अभ्यास धीरे-धीरे भगवान में टिकी गहरी शांति का द्वार खोलता है।"
+},
+"gita_ch6_v16": {
+  en: "Kṛṣṇa is very practical here: extremes don't work. Stuffing yourself or starving, oversleeping or pulling all-nighters — all of these upset body and mind. Spiritual life needs balance, not drama.",
+  te: "శ్రీకృష్ణుడు ఇక్కడ చాలా ఆచరణాత్మకంగా చెబుతున్నాడు: అతి ఏదైనా పని చేయదు. కడుపు నిండా కుక్కుకోవడం లేదా పస్తులుండడం, అతిగా నిద్రపోవడం లేదా రాత్రంతా మేలుకోవడం — ఇవన్నీ శరీరాన్నీ మనసునూ దెబ్బతీస్తాయి. ఆధ్యాత్మిక జీవితానికి కావలసింది సమతుల్యత, హడావిడి కాదు.",
+  hi: "श्रीकृष्ण यहाँ बहुत व्यावहारिक हैं: अति काम नहीं करती। ठूँस-ठूँसकर खाना या भूखे रहना, बहुत सोना या रात-रात भर जागना — ये सब शरीर और मन को बिगाड़ते हैं। आध्यात्मिक जीवन को संतुलन चाहिए, नाटक नहीं।"
+},
+"gita_ch6_v17": {
+  en: "Eat sensibly, relax sensibly, work sensibly, sleep on time. This simple, balanced routine is itself part of spirituality — and it makes meditation really work to remove our sorrows.",
+  te: "తగినంత తినండి, తగినంత విశ్రాంతి తీసుకోండి, తగినంత పని చేయండి, సమయానికి నిద్రపోండి. ఈ సులభమైన, సమతుల్యమైన దినచర్యే ఆధ్యాత్మికతలో ఒక భాగం — ఇదే ధ్యానం మన దుఃఖాలను నిజంగా తొలగించేలా చేస్తుంది.",
+  hi: "समझदारी से खाओ, समझदारी से आराम करो, समझदारी से काम करो, समय पर सोओ। यह सरल, संतुलित दिनचर्या ख़ुद आध्यात्मिकता का हिस्सा है — और इसी से ध्यान सच में हमारे दुःख दूर करता है।"
+},
+"gita_ch6_v18": {
+  en: "The goal of meditation: a mind that settles inside and stops running after one wish after another. It's like a bird that finally comes home to its nest and rests.",
+  te: "ధ్యానం లక్ష్యం: లోపల స్థిరపడి, ఒక కోరిక తర్వాత మరో కోరిక వెంట పరుగెత్తడం ఆపే మనసు. రోజంతా తిరిగిన పక్షి చివరికి గూటికి చేరి విశ్రాంతి తీసుకున్నట్లు.",
+  hi: "ध्यान का लक्ष्य: ऐसा मन जो भीतर टिक जाए और एक के बाद एक इच्छा के पीछे दौड़ना बंद कर दे। जैसे दिन भर उड़ने के बाद पक्षी आख़िरकार अपने घोंसले में लौटकर आराम करता है।"
+},
+"gita_ch6_v19": {
+  en: "A beautiful picture: a lamp's flame in a room with no breeze stands perfectly still and gives clear light. A meditating mind becomes like that — steady, bright and quiet.",
+  te: "అందమైన చిత్రం: గాలి లేని గదిలో దీపపు జ్వాల పూర్తిగా నిశ్చలంగా నిలిచి స్పష్టమైన వెలుగునిస్తుంది. ధ్యానం చేసే మనసూ అలాగే అవుతుంది — స్థిరంగా, ప్రకాశవంతంగా, నిశ్శబ్దంగా.",
+  hi: "एक सुंदर चित्र: बिना हवा वाले कमरे में दीपक की लौ बिल्कुल स्थिर रहकर साफ़ रोशनी देती है। ध्यान करता मन भी ऐसा ही हो जाता है — स्थिर, उज्ज्वल और शांत।"
+},
+"gita_ch6_v20": {
+  en: "In deep meditation the mental noise finally quiets down, and you discover something inside that is enough by itself. You don't need anything added to feel content.",
+  te: "లోతైన ధ్యానంలో మనసులోని గోల చివరికి సద్దుమణుగుతుంది; అప్పుడు తనంతట తానే సంపూర్ణమైనది మనలో ఉందని కనుగొంటాం. తృప్తిగా ఉండడానికి ఇంకేమీ జోడించాల్సిన అవసరం ఉండదు.",
+  hi: "गहरे ध्यान में मन का शोर आख़िरकार थम जाता है, और आप अपने भीतर कुछ ऐसा पाते हैं जो अपने-आप में पर्याप्त है। संतुष्ट होने के लिए कुछ और जोड़ने की ज़रूरत नहीं रहती।"
+},
+"gita_ch6_v21": {
+  en: "There is a joy that doesn't come through the eyes, ears or tongue. It is felt in a clear, quiet mind. Once you truly taste it, you don't want to drift away from it.",
+  te: "కళ్ళ ద్వారా, చెవుల ద్వారా, నాలుక ద్వారా రాని ఒక ఆనందం ఉంది. అది స్పష్టమైన, నిశ్శబ్దమైన మనసులో అనుభవమవుతుంది. దాని రుచి నిజంగా చూసినవాడు దాని నుండి దూరంగా వెళ్ళాలనుకోడు.",
+  hi: "एक ऐसा आनंद है जो आँख, कान या जीभ से नहीं आता। वह साफ़, शांत मन में महसूस होता है। जिसने उसे सच में चख लिया, वह उससे दूर भटकना नहीं चाहता।"
+},
+"gita_ch6_v22": {
+  en: "This inner treasure makes all other gains look small. And it gives such strength that even very hard times — loss, illness, grief — cannot knock you over completely.",
+  te: "ఈ లోపలి నిధి ముందు మిగతా లాభాలన్నీ చిన్నవిగా కనిపిస్తాయి. అది ఎంత బలాన్ని ఇస్తుందంటే — నష్టం, అనారోగ్యం, శోకం వంటి చాలా కష్టకాలాలు వచ్చినా మిమ్మల్ని పూర్తిగా కూలదోయలేవు.",
+  hi: "यह भीतरी ख़ज़ाना बाकी सारे लाभों को छोटा दिखा देता है। और यह इतनी शक्ति देता है कि बहुत कठिन समय — हानि, बीमारी, शोक — भी आपको पूरी तरह गिरा नहीं पाते।"
+},
+"gita_ch6_v23": {
+  en: "Kṛṣṇa's definition of yoga is beautiful: it is 'unhooking yourself from sorrow'. But it takes patience — don't give up when progress feels slow. Keep going cheerfully.",
+  te: "శ్రీకృష్ణుడు ఇచ్చిన యోగ నిర్వచనం చాలా అందమైనది: ‘దుఃఖం నుండి మిమ్మల్ని విడదీసుకోవడం’. కానీ దానికి ఓపిక కావాలి — పురోగతి నెమ్మదిగా ఉన్నట్లు అనిపించినప్పుడు వదిలేయకండి. ఉత్సాహంగా కొనసాగించండి.",
+  hi: "श्रीकृष्ण की योग की परिभाषा बहुत सुंदर है: 'दुःख से अपने आप को अलग कर लेना'। पर इसके लिए धैर्य चाहिए — जब प्रगति धीमी लगे तब हार मत मानो। उत्साह से लगे रहो।"
+},
+"gita_ch6_v24": {
+  en: "Most of our desires start as a small thought — 'wouldn't it be nice if…' — that we keep feeding. Meditation means noticing these thoughts and gently not feeding them, while calling the senses back home.",
+  te: "మన కోరికల్లో చాలావరకు ‘ఇలా అయితే బాగుంటుంది కదా…’ అనే చిన్న ఆలోచనగా మొదలై, మనం దానికి మేత వేస్తూ ఉండడం వల్ల పెరుగుతాయి. ధ్యానం అంటే ఈ ఆలోచనలను గమనించి, వాటికి మెల్లగా మేత వేయకుండా ఉండడం, ఇంద్రియాలను ఇంటికి వెనక్కి పిలవడం.",
+  hi: "हमारी ज़्यादातर इच्छाएँ एक छोटे विचार से शुरू होती हैं — 'कितना अच्छा हो अगर…' — जिसे हम पालते रहते हैं। ध्यान का अर्थ है इन विचारों को पहचानना और धीरे-से उन्हें न पालना, और इंद्रियों को वापस घर बुलाना।"
+},
+"gita_ch6_v25": {
+  en: "'Little by little' — Kṛṣṇa doesn't expect instant results. You calm the mind slowly and patiently, the way you'd calm a restless child, until it rests quietly in its true home.",
+  te: "‘మెల్లమెల్లగా’ — శ్రీకృష్ణుడు వెంటనే ఫలితాలు ఆశించడం లేదు. అల్లరి చేసే పిల్లవాడిని సముదాయించినట్లు, మనసును ఓపికగా, నెమ్మదిగా శాంతపరచాలి — అది తన నిజమైన ఇంట్లో నిశ్శబ్దంగా విశ్రమించే వరకు.",
+  hi: "'धीरे-धीरे' — श्रीकृष्ण तुरंत परिणाम की अपेक्षा नहीं करते। जैसे किसी बेचैन बच्चे को शांत करते हैं, वैसे ही मन को धीरे और धैर्य से शांत करो, जब तक वह अपने सच्चे घर में चुपचाप टिक न जाए।"
+},
+"gita_ch6_v26": {
+  en: "The mind will wander — that's normal, so don't get upset. Each time you notice it has drifted, simply bring it back. That 'coming back' again and again is the real exercise of meditation.",
+  te: "మనసు తిరుగుతుంది — అది సహజం, కాబట్టి బాధపడకండి. అది పక్కకు వెళ్ళిందని గమనించిన ప్రతిసారీ, దాన్ని నెమ్మదిగా వెనక్కి తీసుకురండి. అలా మళ్ళీ మళ్ళీ ‘వెనక్కి తీసుకురావడమే’ ధ్యానంలో అసలైన వ్యాయామం.",
+  hi: "मन भटकेगा — यह सामान्य है, इसलिए परेशान मत होइए। जब भी ध्यान आए कि वह भटक गया है, उसे बस वापस ले आइए। बार-बार 'लौटा लाना' ही ध्यान का असली व्यायाम है।"
+},
+"gita_ch6_v27": {
+  en: "When the restless energy settles and the heart is clean, a very deep happiness arrives on its own. You don't chase it — it comes to you.",
+  te: "చంచలమైన శక్తి సద్దుమణిగి, హృదయం శుభ్రమైనప్పుడు, చాలా లోతైన ఆనందం దానంతట అదే వస్తుంది. మీరు దాని వెంట పరుగెత్తనక్కరలేదు — అదే మీ దగ్గరకు వస్తుంది.",
+  hi: "जब बेचैन ऊर्जा शांत हो जाती है और हृदय साफ़ हो जाता है, तो बहुत गहरा आनंद अपने-आप आता है। आपको उसके पीछे भागना नहीं पड़ता — वह ख़ुद आपके पास आता है।"
+},
+"gita_ch6_v28": {
+  en: "What first takes effort later becomes easy and natural. With steady practice, the joy of feeling close to the Divine becomes a normal part of life, not a rare moment.",
+  te: "మొదట్లో శ్రమగా అనిపించేది తర్వాత సులభంగా, సహజంగా మారుతుంది. నిరంతర సాధనతో, దైవానికి దగ్గరగా ఉన్నామనే ఆనందం అరుదైన క్షణంగా కాకుండా జీవితంలో సహజమైన భాగమవుతుంది.",
+  hi: "जो पहले मेहनत लगता है, वह बाद में आसान और स्वाभाविक हो जाता है। लगातार अभ्यास से, भगवान के निकट होने का आनंद कोई दुर्लभ पल नहीं, बल्कि जीवन का सामान्य हिस्सा बन जाता है।"
+},
+"gita_ch6_v29": {
+  en: "Meditation doesn't cut you off from others — it connects you to them. You start to feel that the same life is in everyone, and everyone is part of one big family.",
+  te: "ధ్యానం మిమ్మల్ని ఇతరుల నుండి వేరు చేయదు — వారితో కలుపుతుంది. అందరిలోనూ ఒకే ప్రాణం ఉందని, అందరూ ఒకే పెద్ద కుటుంబంలో భాగమని అనిపించడం మొదలవుతుంది.",
+  hi: "ध्यान आपको दूसरों से अलग नहीं करता — उनसे जोड़ता है। आप महसूस करने लगते हैं कि सब में एक ही जीवन है, और सब एक बड़े परिवार का हिस्सा हैं।"
+},
+"gita_ch6_v30": {
+  en: "A lovely promise of closeness: if you learn to see God in everything — people, nature, daily life — then God is never far from you, and you are never far from God. You are never truly alone.",
+  te: "దగ్గరితనానికి ఇది ఒక అందమైన వాగ్దానం: ప్రతిదానిలో — మనుషుల్లో, ప్రకృతిలో, రోజువారీ జీవితంలో — దేవుణ్ణి చూడడం నేర్చుకుంటే, దేవుడు మీకు ఎప్పుడూ దూరం కాడు, మీరూ దేవునికి దూరం కారు. మీరు నిజంగా ఎప్పుడూ ఒంటరి కారు.",
+  hi: "निकटता का एक प्यारा वादा: अगर आप हर चीज़ में — लोगों में, प्रकृति में, रोज़मर्रा के जीवन में — भगवान को देखना सीख लें, तो भगवान आपसे कभी दूर नहीं होते, और आप भगवान से कभी दूर नहीं होते। आप सच में कभी अकेले नहीं होते।"
+},
+"gita_ch6_v31": {
+  en: "Whether you're a teacher, a farmer, a parent or a student, if you serve and love God in all beings, your everyday life itself becomes a life in God. You don't need to change your outer situation to be spiritual.",
+  te: "మీరు ఉపాధ్యాయులైనా, రైతైనా, తల్లిదండ్రులైనా, విద్యార్థి అయినా — అన్ని ప్రాణులలో ఉన్న దేవుణ్ణి ప్రేమించి సేవిస్తే, మీ రోజువారీ జీవితమే దేవునిలో జీవించడం అవుతుంది. ఆధ్యాత్మికంగా ఉండడానికి బయటి పరిస్థితిని మార్చుకోవాల్సిన అవసరం లేదు.",
+  hi: "आप शिक्षक हों, किसान हों, माता-पिता हों या विद्यार्थी — अगर सब प्राणियों में भगवान से प्रेम और उनकी सेवा करते हैं, तो आपका रोज़ का जीवन ही भगवान में जीना बन जाता है। आध्यात्मिक होने के लिए बाहरी स्थिति बदलने की ज़रूरत नहीं।"
+},
+"gita_ch6_v32": {
+  en: "This is the Gītā's golden rule: feel others' happiness and pain as if they were your own. If something would hurt you, it hurts them too. Kṛṣṇa says the person who lives with this empathy is the greatest yogī.",
+  te: "ఇది గీత చెప్పే బంగారు సూత్రం: ఇతరుల సుఖాన్నీ బాధనూ మీవిగానే అనుభూతి చెందండి. ఏది మిమ్మల్ని బాధిస్తుందో, అది వారినీ బాధిస్తుంది. ఈ సహానుభూతితో జీవించేవాడే గొప్ప యోగి అని శ్రీకృష్ణుడు అంటున్నాడు.",
+  hi: "यह गीता का स्वर्णिम नियम है: दूसरों के सुख और दर्द को ऐसे महसूस करो जैसे वे तुम्हारे अपने हों। जो बात तुम्हें चोट पहुँचाए, वह उन्हें भी पहुँचाती है। श्रीकृष्ण कहते हैं कि इस सहानुभूति से जीने वाला ही सबसे बड़ा योगी है।"
+},
+"gita_ch6_v33": {
+  en: "Arjuna says what we all feel: 'This sounds wonderful, but my mind just won't sit still!' It's comforting that even a great hero like Arjuna struggled with this.",
+  te: "మనందరికీ అనిపించేదే అర్జునుడు చెబుతున్నాడు: ‘ఇదంతా అద్భుతంగా ఉంది, కానీ నా మనసు ఒక్క క్షణం కూడా కుదురుగా ఉండదే!’ అర్జునుడి లాంటి మహావీరుడు కూడా దీనితో కష్టపడ్డాడంటే మనకు ఊరటగా ఉంటుంది.",
+  hi: "अर्जुन वही कहता है जो हम सब महसूस करते हैं: 'यह सुनने में अद्भुत है, पर मेरा मन तो टिकता ही नहीं!' यह जानकर तसल्ली होती है कि अर्जुन जैसे महावीर को भी इसमें कठिनाई हुई।"
+},
+"gita_ch6_v34": {
+  en: "Arjuna compares the mind to the wind — you can't grab it or tie it down. Anyone who has tried to concentrate while worried or excited knows exactly what he means.",
+  te: "అర్జునుడు మనసును గాలితో పోలుస్తున్నాడు — దాన్ని పట్టుకోలేం, కట్టేయలేం. ఆందోళనలోనో ఉత్సాహంలోనో ఏకాగ్రత పెట్టడానికి ప్రయత్నించిన ఎవరికైనా ఆయన ఏమంటున్నాడో బాగా అర్థమవుతుంది.",
+  hi: "अर्जुन मन की तुलना हवा से करता है — उसे न पकड़ सकते हैं, न बाँध सकते हैं। जिसने भी चिंता या उत्तेजना में ध्यान लगाने की कोशिश की है, वह ठीक-ठीक समझता है कि वह क्या कह रहा है।"
+},
+"gita_ch6_v35": {
+  en: "Kṛṣṇa doesn't pretend it's easy — He agrees! But He gives two keys: practice (keep at it daily) and detachment (stop feeding the things that pull you away). With these two, even a wild mind can be trained.",
+  te: "శ్రీకృష్ణుడు ఇది సులభమని నటించడు — ఆయనా ఒప్పుకుంటున్నాడు! కానీ రెండు తాళంచెవులు ఇస్తున్నాడు: అభ్యాసం (రోజూ పట్టుదలగా చేయడం), వైరాగ్యం (మిమ్మల్ని దూరంగా లాగే వాటికి మేత వేయడం ఆపడం). ఈ రెండింటితో అడవి గుర్రం లాంటి మనసుకు కూడా శిక్షణ ఇవ్వవచ్చు.",
+  hi: "श्रीकृष्ण यह दिखावा नहीं करते कि यह आसान है — वे सहमत हैं! पर वे दो चाबियाँ देते हैं: अभ्यास (रोज़ लगे रहना) और वैराग्य (जो चीज़ें आपको खींचती हैं, उन्हें पालना बंद करना)। इन दोनों से जंगली मन को भी साधा जा सकता है।"
+},
+"gita_ch6_v36": {
+  en: "Without effort, nothing happens. But with sincere effort and the right methods, success is possible for anyone. Kṛṣṇa's message is hopeful, not discouraging.",
+  te: "ప్రయత్నం లేకుండా ఏదీ జరగదు. కానీ నిజాయితీ గల ప్రయత్నంతో, సరైన పద్ధతులతో ఎవరికైనా విజయం సాధ్యమే. శ్రీకృష్ణుడి సందేశం నిరుత్సాహపరిచేది కాదు, ఆశ కలిగించేది.",
+  hi: "प्रयास के बिना कुछ नहीं होता। पर सच्चे प्रयास और सही तरीक़ों से सफलता किसी के लिए भी संभव है। श्रीकृष्ण का संदेश निराश करने वाला नहीं, आशा जगाने वाला है।"
+},
+"gita_ch6_v37": {
+  en: "Arjuna asks a very human question: 'What if I start sincerely, but fail? What if I don't make it in this life?' Many people are afraid to start for exactly this reason.",
+  te: "అర్జునుడు చాలా మానవీయమైన ప్రశ్న అడుగుతున్నాడు: ‘నేను నిజాయితీగా మొదలుపెట్టి, విఫలమైతే? ఈ జన్మలో గమ్యం చేరలేకపోతే?’ సరిగ్గా ఈ కారణంగానే చాలామంది మొదలుపెట్టడానికే భయపడతారు.",
+  hi: "अर्जुन एक बहुत मानवीय प्रश्न पूछता है: 'अगर मैं ईमानदारी से शुरू करूँ, पर असफल हो जाऊँ? अगर इस जीवन में मंज़िल तक न पहुँचूँ?' बहुत से लोग ठीक इसी डर से शुरुआत ही नहीं करते।"
+},
+"gita_ch6_v38": {
+  en: "Arjuna worries: a person who gave up worldly success for spiritual life, but didn't reach the spiritual goal either — have they lost everything, like a small cloud that breaks apart and disappears in the sky?",
+  te: "అర్జునుడి ఆందోళన: ఆధ్యాత్మిక జీవితం కోసం లౌకిక విజయాన్ని వదులుకొని, ఆధ్యాత్మిక లక్ష్యాన్నీ చేరుకోలేనివాడు — ఆకాశంలో విడిపోయి మాయమయ్యే చిన్న మేఘంలా అన్నీ కోల్పోతాడా?",
+  hi: "अर्जुन की चिंता: जिसने आध्यात्मिक जीवन के लिए सांसारिक सफलता छोड़ दी, पर आध्यात्मिक लक्ष्य तक भी नहीं पहुँचा — क्या उसने सब कुछ खो दिया, आकाश में टूटकर गायब हो जाने वाले छोटे बादल की तरह?"
+},
+"gita_ch6_v39": {
+  en: "Arjuna trusts that only Kṛṣṇa can truly answer this. When our deepest worries come up, it helps to bring them honestly to God, a wise teacher, or scripture — and listen.",
+  te: "దీనికి నిజమైన జవాబు శ్రీకృష్ణుడే ఇవ్వగలడని అర్జునుడు నమ్ముతున్నాడు. మనసులో లోతైన ఆందోళనలు వచ్చినప్పుడు, వాటిని నిజాయితీగా దేవుని ముందో, జ్ఞానియైన గురువు ముందో, శాస్త్రం ముందో పెట్టి వినడం మంచిది.",
+  hi: "अर्जुन को भरोसा है कि इसका सच्चा उत्तर केवल श्रीकृष्ण दे सकते हैं। जब हमारी गहरी चिंताएँ उठें, तो उन्हें ईमानदारी से भगवान, किसी ज्ञानी गुरु या शास्त्र के सामने रखना और सुनना अच्छा होता है।"
+},
+"gita_ch6_v40": {
+  en: "One of the most reassuring verses in the Gītā. Kṛṣṇa lovingly calls Arjuna 'my dear' and promises: no sincere good effort is ever wasted. Even if you don't finish the journey now, you have not lost anything.",
+  te: "గీతలో అత్యంత భరోసా ఇచ్చే శ్లోకాల్లో ఇది ఒకటి. శ్రీకృష్ణుడు ప్రేమగా అర్జునుణ్ణి ‘నాయనా’ అని పిలిచి వాగ్దానం చేస్తున్నాడు: నిజాయితీతో చేసిన ఏ మంచి ప్రయత్నమూ ఎప్పటికీ వృథా కాదు. ఇప్పుడు ప్రయాణం పూర్తి చేయలేకపోయినా, మీరు ఏమీ కోల్పోలేదు.",
+  hi: "गीता के सबसे भरोसा देने वाले श्लोकों में से एक। श्रीकृष्ण प्यार से अर्जुन को 'तात' कहकर वादा करते हैं: कोई भी सच्चा अच्छा प्रयास कभी बेकार नहीं जाता। अगर अभी यात्रा पूरी न भी हो, तो भी आपने कुछ नहीं खोया।"
+},
+"gita_ch6_v41": {
+  en: "Kṛṣṇa explains that the good you have done carries forward. The sincere seeker who falls short is rewarded and then gets a fresh start in a good, supportive family.",
+  te: "మీరు చేసిన మంచి ముందుకు కొనసాగుతుందని శ్రీకృష్ణుడు వివరిస్తున్నాడు. గమ్యం చేరలేకపోయిన నిజాయితీ గల సాధకుడికి ప్రతిఫలం లభిస్తుంది; ఆ తర్వాత మంచి, అండగా నిలిచే కుటుంబంలో కొత్త ఆరంభం దొరుకుతుంది.",
+  hi: "श्रीकृष्ण समझाते हैं कि आपका किया हुआ भला आगे साथ चलता है। जो सच्चा साधक पीछे रह जाता है, उसे फल मिलता है और फिर एक अच्छे, सहायक परिवार में नई शुरुआत मिलती है।"
+},
+"gita_ch6_v42": {
+  en: "Being born among wise, spiritual people is a rare blessing, because good values and practice are around you from childhood. It reminds us to value good company and a spiritual home if we have one.",
+  te: "జ్ఞానుల మధ్య, ఆధ్యాత్మిక వ్యక్తుల మధ్య పుట్టడం అరుదైన వరం, ఎందుకంటే చిన్నతనం నుండే మంచి విలువలూ సాధనా చుట్టూ ఉంటాయి. మనకు మంచి సాంగత్యం, ఆధ్యాత్మిక వాతావరణం గల ఇల్లు ఉంటే వాటిని విలువైనవిగా భావించాలని ఇది గుర్తు చేస్తుంది.",
+  hi: "ज्ञानी, आध्यात्मिक लोगों के बीच जन्म लेना दुर्लभ वरदान है, क्योंकि बचपन से ही अच्छे संस्कार और साधना आसपास रहते हैं। यह याद दिलाता है कि अगर हमारे पास अच्छी संगति और आध्यात्मिक घर है, तो उसकी क़द्र करें।"
+},
+"gita_ch6_v43": {
+  en: "Spiritual progress is never lost — it's like saving your game. In the next life you pick up where you left off and keep going. That's why some children seem naturally drawn to prayer or goodness.",
+  te: "ఆధ్యాత్మిక పురోగతి ఎప్పుడూ పోదు — ఆటను మధ్యలో సేవ్ చేసి పెట్టినట్లు. తర్వాతి జన్మలో ఎక్కడ ఆపారో అక్కడి నుండే మొదలుపెట్టి ముందుకు సాగుతారు. అందుకే కొందరు పిల్లలు సహజంగానే ప్రార్థన వైపు, మంచితనం వైపు ఆకర్షితులవుతారు.",
+  hi: "आध्यात्मिक प्रगति कभी खोती नहीं — जैसे खेल को बीच में सेव कर लेना। अगले जन्म में आप वहीं से शुरू करते हैं जहाँ छोड़ा था और आगे बढ़ते हैं। इसीलिए कुछ बच्चे स्वाभाविक रूप से प्रार्थना या भलाई की ओर खिंचे रहते हैं।"
+},
+"gita_ch6_v44": {
+  en: "Good habits from the past act like a gentle current that pulls you forward. And even the sincere wish to know God is already a big step — it takes you beyond just going through religious motions.",
+  te: "గతంలోని మంచి అలవాట్లు మిమ్మల్ని ముందుకు లాగే మెల్లని ప్రవాహంలా పని చేస్తాయి. దేవుణ్ణి తెలుసుకోవాలనే నిజమైన కోరిక కూడా పెద్ద అడుగే — అది కేవలం ఆచారాలను యాంత్రికంగా పాటించడం కంటే ముందుకు తీసుకెళ్తుంది.",
+  hi: "अतीत की अच्छी आदतें एक धीमी धारा की तरह आपको आगे खींचती हैं। और भगवान को जानने की सच्ची इच्छा भी अपने-आप में बड़ा क़दम है — यह केवल धार्मिक रस्में निभाने से आगे ले जाती है।"
+},
+"gita_ch6_v45": {
+  en: "Every bit of effort adds up, even across lifetimes. Keep going patiently — the goal is reached in the end by those who keep trying.",
+  te: "ప్రతి చిన్న ప్రయత్నమూ — జన్మల మధ్య కూడా — కూడుకుంటూ పోతుంది. ఓపికగా కొనసాగించండి — ప్రయత్నిస్తూనే ఉన్నవారు చివరికి గమ్యాన్ని చేరుకుంటారు.",
+  hi: "हर छोटा प्रयास — जन्मों के पार भी — जुड़ता जाता है। धैर्य से लगे रहो — जो प्रयास करते रहते हैं, वे अंत में लक्ष्य तक पहुँचते हैं।"
+},
+"gita_ch6_v46": {
+  en: "Hard penance, a lot of knowledge, or many rituals are all good — but what matters most is a heart that is actually connected to God. Kṛṣṇa's personal advice to Arjuna, and to us: be that kind of person.",
+  te: "కఠిన తపస్సు, ఎంతో జ్ఞానం, ఎన్నో కర్మకాండలు — ఇవన్నీ మంచివే; కానీ అన్నిటికంటే ముఖ్యం దేవునితో నిజంగా ముడిపడిన హృదయం. అర్జునుడికీ, మనకూ శ్రీకృష్ణుడి వ్యక్తిగత సలహా: అలాంటి మనిషివి అవ్వు.",
+  hi: "कठोर तप, बहुत सारा ज्ञान, या ढेर सारे कर्मकांड — सब अच्छे हैं, पर सबसे ज़रूरी है वह हृदय जो सच में भगवान से जुड़ा हो। अर्जुन को, और हमें, श्रीकृष्ण की निजी सलाह: ऐसे इंसान बनो।"
+},
+"gita_ch6_v47": {
+  en: "The chapter on meditation ends with love. The best yogī is not the one with the most perfect technique, but the one whose heart is lovingly absorbed in God. Devotion is the crown of all practice.",
+  te: "ధ్యానం గురించిన అధ్యాయం ప్రేమతో ముగుస్తుంది. ఉత్తమ యోగి అంటే అత్యంత పరిపూర్ణమైన పద్ధతి తెలిసినవాడు కాదు — హృదయం ప్రేమతో దేవునిలో లీనమైనవాడు. అన్ని సాధనలకూ భక్తే కిరీటం.",
+  hi: "ध्यान का अध्याय प्रेम के साथ समाप्त होता है। सबसे अच्छा योगी वह नहीं जिसकी विधि सबसे परिपूर्ण हो, बल्कि वह है जिसका हृदय प्रेम से भगवान में डूबा हो। भक्ति सब साधनाओं का मुकुट है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",

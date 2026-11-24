@@ -1030,6 +1030,390 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "इसलिए हे भारत! अज्ञान से उत्पन्न, अपने हृदय में बसे इस संशय को ज्ञान की तलवार से काट डालो। योग में स्थित हो जाओ — उठो!"
 },
 
+// ── Chapter 5 · Karma Sannyāsa Yoga ──
+"gita_ch5_v1": {
+  en: "Arjuna said: Kṛṣṇa, You praise renouncing action, and then again You praise the yoga of action. Of these two, tell me clearly and for certain which one is better.",
+  te: "అర్జునుడు అన్నాడు: కృష్ణా! నువ్వు కర్మలను వదిలిపెట్టడాన్ని (సన్యాసాన్ని) పొగుడుతున్నావు, మళ్ళీ కర్మయోగాన్నీ పొగుడుతున్నావు. ఈ రెండింటిలో ఏది శ్రేయస్కరమో దాన్ని నిశ్చయంగా నాకు చెప్పు.",
+  hi: "अर्जुन ने कहा: हे कृष्ण! आप कर्मों के संन्यास की प्रशंसा करते हैं और फिर कर्मयोग की भी। इन दोनों में जो एक निश्चित रूप से श्रेष्ठ हो, वह मुझे स्पष्ट बताइए।"
+},
+"gita_ch5_v2": {
+  en: "The Lord said: Renouncing action and the yoga of action both lead to the highest good. But of the two, the yoga of action is better than renouncing action.",
+  te: "శ్రీ భగవానుడు అన్నాడు: కర్మసన్యాసం, కర్మయోగం — రెండూ పరమ శ్రేయస్సును ఇస్తాయి. కానీ ఈ రెండింటిలో కర్మసన్యాసం కంటే కర్మయోగమే గొప్పది.",
+  hi: "श्री भगवान ने कहा: कर्म-संन्यास और कर्मयोग — दोनों ही परम कल्याण देने वाले हैं। परंतु इन दोनों में कर्म-संन्यास से कर्मयोग श्रेष्ठ है।"
+},
+"gita_ch5_v3": {
+  en: "Know that person to be a true renunciate who neither hates nor craves. Free from the pairs of opposites, mighty-armed one, such a person is easily set free from bondage.",
+  te: "మహాబాహూ! దేన్నీ ద్వేషించనివాడు, దేన్నీ కోరనివాడు — అతడే నిత్య సన్యాసి అని తెలుసుకో. ద్వంద్వాలకు అతీతుడైన అలాంటివాడు బంధం నుండి సులభంగా విడుదల పొందుతాడు.",
+  hi: "हे महाबाहो! जो न द्वेष करता है, न कामना करता है, उसे सदा संन्यासी ही जानो। द्वंद्वों से मुक्त ऐसा व्यक्ति सहज ही बंधन से छूट जाता है।"
+},
+"gita_ch5_v4": {
+  en: "It is the immature, not the wise, who speak of the path of knowledge (Sāṅkhya) and the path of action (Yoga) as different. One who is truly established in even one of them gains the fruit of both.",
+  te: "జ్ఞానమార్గం (సాంఖ్యం), కర్మమార్గం (యోగం) వేరువేరని చెప్పేది అమాయకులే గానీ పండితులు కారు. వాటిలో ఒక్కదానిలో సరిగ్గా నిలిచినవాడు రెండింటి ఫలాన్నీ పొందుతాడు.",
+  hi: "ज्ञानमार्ग (सांख्य) और कर्ममार्ग (योग) को अलग-अलग बच्चे (नासमझ) कहते हैं, ज्ञानी नहीं। जो इनमें से किसी एक में भी ठीक से स्थित हो जाता है, वह दोनों का फल पा लेता है।"
+},
+"gita_ch5_v5": {
+  en: "The state reached by those on the path of knowledge is reached also by those on the path of action. One who sees knowledge and action as one truly sees.",
+  te: "జ్ఞానమార్గంలో ఉన్నవారు ఏ స్థానాన్ని పొందుతారో, కర్మయోగులూ అదే స్థానాన్ని పొందుతారు. సాంఖ్యాన్నీ యోగాన్నీ ఒక్కటిగా చూసేవాడే నిజంగా చూస్తున్నవాడు.",
+  hi: "ज्ञानमार्गी जिस स्थान को पाते हैं, कर्मयोगी भी वहीं पहुँचते हैं। जो सांख्य और योग को एक देखता है, वही वास्तव में देखता है।"
+},
+"gita_ch5_v6": {
+  en: "But renunciation is hard to attain without yoga, mighty-armed one. The sage who is joined in yoga reaches Brahman before long.",
+  te: "మహాబాహూ! కర్మయోగం లేకుండా సన్యాసం పొందడం కష్టం. యోగంతో కూడిన ముని త్వరలోనే బ్రహ్మను చేరుకుంటాడు.",
+  hi: "परंतु हे महाबाहो! योग के बिना संन्यास पाना कठिन है। योग से युक्त मुनि शीघ्र ही ब्रह्म को प्राप्त कर लेता है।"
+},
+"gita_ch5_v7": {
+  en: "One who is joined in yoga, pure in heart, master of the mind and senses, and who sees their own Self as the Self of all beings — such a person is not tainted, even while acting.",
+  te: "యోగంతో కూడినవాడు, శుద్ధమైన మనసు గలవాడు, మనసునూ ఇంద్రియాలనూ జయించినవాడు, సర్వ ప్రాణుల ఆత్మనే తన ఆత్మగా చూసేవాడు — పనులు చేస్తున్నా వాటికి అంటుకోడు.",
+  hi: "जो योग से युक्त है, शुद्ध मन वाला है, मन और इंद्रियों को जीत चुका है, और सब प्राणियों की आत्मा को अपनी ही आत्मा देखता है — वह कर्म करते हुए भी लिप्त नहीं होता।"
+},
+"gita_ch5_v8": {
+  en: "One who knows the truth, steady in yoga, thinks, \"I do nothing at all\" — while seeing, hearing, touching, smelling, eating, walking, sleeping, breathing —",
+  te: "తత్త్వం తెలిసిన యోగి చూస్తూ, వింటూ, తాకుతూ, వాసన చూస్తూ, తింటూ, నడుస్తూ, నిద్రపోతూ, ఊపిరి తీస్తూ కూడా ‘నేనేమీ చేయడం లేదు’ అని భావిస్తాడు —",
+  hi: "तत्त्व को जानने वाला योगी देखते, सुनते, छूते, सूँघते, खाते, चलते, सोते, साँस लेते हुए भी यही मानता है कि 'मैं कुछ भी नहीं करता' —"
+},
+"gita_ch5_v9": {
+  en: "— speaking, letting go, taking hold, even opening and closing the eyes — understanding that it is only the senses moving among their objects.",
+  te: "— మాట్లాడుతూ, విసర్జిస్తూ, పట్టుకుంటూ, కనురెప్పలు తెరుస్తూ మూస్తూ కూడా — ఇంద్రియాలు తమ విషయాలలో తిరుగుతున్నాయి అంతే అని అర్థం చేసుకుంటాడు.",
+  hi: "— बोलते, त्यागते, ग्रहण करते, आँखें खोलते और मूँदते हुए भी — यह समझता है कि केवल इंद्रियाँ अपने विषयों में बरत रही हैं।"
+},
+"gita_ch5_v10": {
+  en: "One who acts by offering all actions to Brahman, giving up attachment, is not touched by sin — just as a lotus leaf is not wetted by water.",
+  te: "కర్మలన్నీ బ్రహ్మకు అర్పించి, ఆసక్తిని వదిలి పని చేసేవాడిని పాపం అంటదు — తామరాకును నీరు అంటనట్లు.",
+  hi: "जो सारे कर्म ब्रह्म को अर्पित करके, आसक्ति छोड़कर कर्म करता है, वह पाप से लिप्त नहीं होता — जैसे कमल का पत्ता जल से नहीं भीगता।"
+},
+"gita_ch5_v11": {
+  en: "Yogīs do their work with the body, the mind, the intellect, even with the senses alone, giving up attachment — for the purification of the heart.",
+  te: "యోగులు ఆసక్తిని వదిలిపెట్టి, శరీరంతో, మనసుతో, బుద్ధితో, కేవలం ఇంద్రియాలతో కూడా — మనసు శుద్ధి కోసం కర్మలు చేస్తారు.",
+  hi: "योगी आसक्ति छोड़कर शरीर से, मन से, बुद्धि से और केवल इंद्रियों से भी — अंतःकरण की शुद्धि के लिए कर्म करते हैं।"
+},
+"gita_ch5_v12": {
+  en: "The one steady in yoga gives up the fruit of action and attains lasting peace. The one not steady, driven by desire and clinging to the fruit, is bound.",
+  te: "యోగంలో నిలిచినవాడు కర్మఫలాన్ని వదిలి శాశ్వతమైన శాంతిని పొందుతాడు. యోగం లేనివాడు కోరికతో నడిచి, ఫలానికి అంటుకొని బంధింపబడతాడు.",
+  hi: "योग में स्थित व्यक्ति कर्मफल को छोड़कर स्थायी शांति पाता है। जो योग में नहीं है, वह कामना से प्रेरित होकर, फल में आसक्त होकर बँध जाता है।"
+},
+"gita_ch5_v13": {
+  en: "Having inwardly let go of all actions with the mind, the self-controlled embodied soul rests happily in the city of nine gates, neither acting nor causing action.",
+  te: "మనసులో కర్మలన్నిటినీ వదిలిపెట్టి, తనను తాను అదుపులో ఉంచుకున్న జీవుడు తొమ్మిది ద్వారాల పట్టణమైన ఈ శరీరంలో సుఖంగా ఉంటాడు — తాను చేయడు, ఇతరులతో చేయించడు.",
+  hi: "मन से सब कर्मों का त्याग करके, संयमी देहधारी आत्मा नौ द्वारों वाले नगर (शरीर) में सुखपूर्वक रहता है — न स्वयं कुछ करता है, न करवाता है।"
+},
+"gita_ch5_v14": {
+  en: "The Lord does not create the sense of being a doer for people, nor their actions, nor the link between action and its fruit. It is nature (svabhāva) that carries all this on.",
+  te: "ప్రభువు లోకుల కోసం ‘నేను చేస్తున్నాను’ అనే భావాన్ని గానీ, కర్మలను గానీ, కర్మకూ ఫలానికీ ఉండే సంబంధాన్ని గానీ సృష్టించడు. ఇవన్నీ స్వభావమే (ప్రకృతే) నడుపుతుంది.",
+  hi: "प्रभु लोगों के लिए न कर्तापन रचते हैं, न कर्म, न कर्म और फल का संयोग। यह सब स्वभाव (प्रकृति) ही चलाता है।"
+},
+"gita_ch5_v15": {
+  en: "The all-pervading Lord does not take on anyone's sin or anyone's good deed. Knowledge is covered by ignorance, and that is why living beings are deluded.",
+  te: "సర్వవ్యాపి అయిన ప్రభువు ఎవరి పాపాన్నీ తీసుకోడు, ఎవరి పుణ్యాన్నీ తీసుకోడు. జ్ఞానం అజ్ఞానంతో కప్పబడి ఉంది — అందుకే ప్రాణులు మోహంలో పడుతున్నాయి.",
+  hi: "सर्वव्यापी प्रभु न किसी का पाप लेते हैं, न किसी का पुण्य। ज्ञान अज्ञान से ढका हुआ है — इसी से जीव मोहित होते हैं।"
+},
+"gita_ch5_v16": {
+  en: "But for those whose ignorance has been destroyed by knowledge of the Self, that knowledge, like the sun, lights up the Supreme.",
+  te: "కానీ ఎవరి అజ్ఞానం ఆత్మజ్ఞానంతో నశించిందో, వారికి ఆ జ్ఞానం సూర్యునిలా ప్రకాశించి పరమాత్మను చూపిస్తుంది.",
+  hi: "परंतु जिनका अज्ञान आत्मज्ञान से नष्ट हो गया है, उनका वह ज्ञान सूर्य की तरह परमतत्त्व को प्रकाशित कर देता है।"
+},
+"gita_ch5_v17": {
+  en: "Their minds fixed on That, their whole being in That, devoted to That, holding That as the highest goal, their impurities washed away by knowledge — they go to the state from which there is no return.",
+  te: "బుద్ధి దానిలోనే, మనసు దానిలోనే, నిష్ఠ దానిలోనే, దాన్నే పరమ గమ్యంగా భావించి, జ్ఞానంతో పాపాలు కడిగివేయబడినవారు — తిరిగి రాని స్థితిని పొందుతారు.",
+  hi: "जिनकी बुद्धि उसी में है, मन उसी में है, निष्ठा उसी में है, जो उसी को परम लक्ष्य मानते हैं और जिनके दोष ज्ञान से धुल गए हैं — वे उस स्थिति को पाते हैं जहाँ से लौटना नहीं होता।"
+},
+"gita_ch5_v18": {
+  en: "The wise see with an equal eye a learned and humble brāhmaṇa, a cow, an elephant, a dog, and even one who eats dog-meat.",
+  te: "విద్యా వినయాలు గల బ్రాహ్మణుడిలో, ఆవులో, ఏనుగులో, కుక్కలో, కుక్కమాంసం తినేవాడిలో కూడా పండితులు సమదృష్టితో చూస్తారు.",
+  hi: "ज्ञानी लोग विद्या और विनय से संपन्न ब्राह्मण, गाय, हाथी, कुत्ते और कुत्ते का मांस खाने वाले में भी समान दृष्टि रखते हैं।"
+},
+"gita_ch5_v19": {
+  en: "Even here in this life, the cycle of birth is conquered by those whose minds rest in equality. Brahman is flawless and the same in all; therefore they are established in Brahman.",
+  te: "ఎవరి మనసు సమత్వంలో నిలిచి ఉంటుందో, వారు ఈ జన్మలోనే సంసారాన్ని జయించారు. బ్రహ్మం దోషం లేనిది, అన్నిటిలో సమంగా ఉన్నది; కాబట్టి వారు బ్రహ్మంలోనే నిలిచి ఉన్నారు.",
+  hi: "जिनका मन समता में स्थित है, उन्होंने यहीं इसी जीवन में संसार को जीत लिया। ब्रह्म निर्दोष और सब में सम है; इसलिए वे ब्रह्म में ही स्थित हैं।"
+},
+"gita_ch5_v20": {
+  en: "One who knows Brahman and rests in Brahman, steady of mind and free from delusion, does not rejoice on getting what is pleasant, nor become upset on getting what is unpleasant.",
+  te: "బ్రహ్మను తెలుసుకొని బ్రహ్మంలో నిలిచినవాడు, స్థిరమైన బుద్ధి గలవాడు, మోహం లేనివాడు — ఇష్టమైనది దొరికితే పొంగిపోడు, అయిష్టమైనది వస్తే కలవరపడడు.",
+  hi: "जो ब्रह्म को जानकर ब्रह्म में स्थित है, स्थिर बुद्धि वाला और मोह से रहित है — वह प्रिय मिलने पर फूलता नहीं और अप्रिय मिलने पर घबराता नहीं।"
+},
+"gita_ch5_v21": {
+  en: "One who is not attached to outer sense-contacts finds the joy that is within the Self. United with Brahman through yoga, that person enjoys a happiness that never decays.",
+  te: "బయటి ఇంద్రియ సుఖాలకు అంటుకోనివాడు తనలోనే ఉన్న ఆనందాన్ని పొందుతాడు. యోగంతో బ్రహ్మంలో ఐక్యమైన అతడు ఎప్పటికీ తరగని సుఖాన్ని అనుభవిస్తాడు.",
+  hi: "जो बाहरी इंद्रिय-विषयों में आसक्त नहीं है, वह आत्मा में ही सुख पाता है। योग द्वारा ब्रह्म से जुड़ा वह व्यक्ति कभी न घटने वाला सुख भोगता है।"
+},
+"gita_ch5_v22": {
+  en: "The pleasures born from contact with sense-objects are really sources of sorrow. They have a beginning and an end, Kaunteya; the wise do not delight in them.",
+  te: "కౌంతేయా! ఇంద్రియ స్పర్శ వల్ల పుట్టే భోగాలు నిజానికి దుఃఖానికే మూలాలు. వాటికి మొదలూ ఉంది, ముగింపూ ఉంది; జ్ఞానులు వాటిలో రమించరు.",
+  hi: "हे कौंतेय! इंद्रियों के संपर्क से पैदा होने वाले भोग वास्तव में दुःख के ही कारण हैं। उनका आदि और अंत है; बुद्धिमान उनमें रमता नहीं।"
+},
+"gita_ch5_v23": {
+  en: "One who, here in this life, before leaving the body, is able to withstand the rush of desire and anger — that person is a yogī; that person is happy.",
+  te: "శరీరం విడిచిపెట్టక ముందే, ఈ జన్మలోనే, కామక్రోధాల నుండి పుట్టే వేగాన్ని తట్టుకోగలిగినవాడే యోగి; అతడే సుఖి.",
+  hi: "जो इसी जीवन में, शरीर छूटने से पहले, काम और क्रोध से उठने वाले वेग को सह सकता है — वही योगी है, वही सुखी मनुष्य है।"
+},
+"gita_ch5_v24": {
+  en: "One whose happiness is within, who delights within, and whose light is within — that yogī, becoming one with Brahman, attains the peace of Brahman (brahma-nirvāṇa).",
+  te: "ఎవరి సుఖం లోపలే ఉందో, ఎవరి ఆనందం లోపలే ఉందో, ఎవరి వెలుగు లోపలే ఉందో — ఆ యోగి బ్రహ్మస్వరూపుడై బ్రహ్మనిర్వాణాన్ని పొందుతాడు.",
+  hi: "जिसका सुख भीतर है, जो भीतर ही रमता है, और जिसका प्रकाश भीतर ही है — वह योगी ब्रह्मरूप होकर ब्रह्मनिर्वाण को प्राप्त करता है।"
+},
+"gita_ch5_v25": {
+  en: "Sages whose impurities are worn away, whose doubts are cut, who are self-controlled and who delight in the welfare of all beings — they attain the peace of Brahman.",
+  te: "పాపాలు నశించినవారు, సందేహాలు తెగినవారు, మనసును అదుపులో ఉంచుకున్నవారు, సర్వ ప్రాణుల హితంలో ఆనందించేవారు అయిన ఋషులు బ్రహ్మనిర్వాణాన్ని పొందుతారు.",
+  hi: "जिनके दोष क्षीण हो गए हैं, जिनके संशय कट गए हैं, जो संयमी हैं और सब प्राणियों के हित में लगे रहते हैं — वे ऋषि ब्रह्मनिर्वाण पाते हैं।"
+},
+"gita_ch5_v26": {
+  en: "For the disciplined seekers who are free from desire and anger, who have mastered their minds and know the Self, the peace of Brahman is near on every side.",
+  te: "కామక్రోధాలు లేనివారు, మనసును జయించినవారు, ఆత్మను తెలుసుకున్నవారు అయిన యతులకు బ్రహ్మనిర్వాణం అన్ని వైపులా దగ్గరలోనే ఉంటుంది.",
+  hi: "जो यति काम और क्रोध से मुक्त हैं, जिन्होंने मन को वश में किया है और आत्मा को जाना है — उनके लिए ब्रह्मनिर्वाण चारों ओर, निकट ही है।"
+},
+"gita_ch5_v27": {
+  en: "Shutting out the outside world of sense-objects, fixing the gaze between the eyebrows, making even the in-breath and out-breath that move through the nostrils —",
+  te: "బయటి విషయాలను బయటే ఉంచి, చూపును కనుబొమల మధ్య నిలిపి, ముక్కు లోపల సంచరించే ప్రాణ అపాన వాయువులను (ఉచ్ఛ్వాస నిశ్వాసాలను) సమంగా చేసి —",
+  hi: "बाहरी विषयों को बाहर ही छोड़कर, दृष्टि को भौंहों के बीच टिकाकर, नासिका में चलने वाली प्राण और अपान वायु (श्वास-प्रश्वास) को सम करके —"
+},
+"gita_ch5_v28": {
+  en: "— with senses, mind and intellect under control, the sage intent on liberation, free from desire, fear and anger — such a one is forever free.",
+  te: "— ఇంద్రియాలనూ మనసునూ బుద్ధినీ అదుపులో ఉంచుకొని, మోక్షమే లక్ష్యంగా గల ముని, కోరిక భయం కోపం లేనివాడు — అతడు ఎల్లప్పుడూ ముక్తుడే.",
+  hi: "— इंद्रियाँ, मन और बुद्धि वश में करके, मोक्ष को ही लक्ष्य मानने वाला, इच्छा, भय और क्रोध से रहित मुनि — वह सदा मुक्त ही है।"
+},
+"gita_ch5_v29": {
+  en: "Knowing Me as the one who receives all sacrifices and austerities, the great Lord of all the worlds, and the loving friend of every being — one attains peace.",
+  te: "అన్ని యజ్ఞాలనూ తపస్సులనూ స్వీకరించేవాడిగా, సర్వలోకాలకూ మహేశ్వరుడిగా, సర్వ ప్రాణులకూ ఆత్మీయ మిత్రుడిగా నన్ను తెలుసుకున్నవాడు శాంతిని పొందుతాడు.",
+  hi: "मुझे सब यज्ञों और तपों का भोक्ता, सब लोकों का महान ईश्वर और सब प्राणियों का सुहृद (हितैषी मित्र) जानकर मनुष्य शांति पाता है।"
+},
+
+// ── Chapter 6 · Ātma Saṃyama Yoga ──
+"gita_ch6_v1": {
+  en: "The Lord said: One who does the work that ought to be done, without depending on its fruit, is a renunciate and a yogī — not the one who merely gives up the sacred fire or stops all activity.",
+  te: "శ్రీ భగవానుడు అన్నాడు: కర్మఫలంపై ఆధారపడకుండా, చేయవలసిన కర్మను చేసేవాడే సన్యాసి, అతడే యోగి — అగ్నిహోత్రాన్ని విడిచినవాడో, పనులన్నీ మానేసినవాడో కాదు.",
+  hi: "श्री भगवान ने कहा: जो कर्मफल का आश्रय लिए बिना करने योग्य कर्म करता है, वही संन्यासी है और वही योगी — न कि वह जिसने केवल अग्नि छोड़ दी या सब कर्म त्याग दिए।"
+},
+"gita_ch6_v2": {
+  en: "What people call renunciation, know that to be yoga, Pāṇḍava. For no one becomes a yogī without giving up selfish intentions (saṅkalpa).",
+  te: "పాండవా! దేన్ని సన్యాసం అంటారో, దాన్నే యోగమని తెలుసుకో. స్వార్థపూరితమైన సంకల్పాలను వదలనివాడు ఎవడూ యోగి కాలేడు.",
+  hi: "हे पांडव! जिसे संन्यास कहते हैं, उसी को योग जानो। क्योंकि स्वार्थी संकल्पों को त्यागे बिना कोई भी योगी नहीं बनता।"
+},
+"gita_ch6_v3": {
+  en: "For the sage who wishes to climb to yoga, action is said to be the means. For the same person, once they have reached yoga, calmness is said to be the means.",
+  te: "యోగాన్ని అధిరోహించాలనుకునే మునికి కర్మే సాధనం అని చెబుతారు. యోగాన్ని అధిరోహించిన తర్వాత అదే వ్యక్తికి శాంతి (శమం) సాధనం అని చెబుతారు.",
+  hi: "योग पर चढ़ना चाहने वाले मुनि के लिए कर्म को साधन कहा गया है। योग पर आरूढ़ हो जाने पर उसी के लिए शांति (शम) को साधन कहा गया है।"
+},
+"gita_ch6_v4": {
+  en: "When a person is no longer attached to sense-objects or to actions, and has given up all selfish intentions, then that person is said to have climbed to yoga.",
+  te: "ఎప్పుడు మనిషి ఇంద్రియ విషయాలకూ కర్మలకూ అంటుకోకుండా, సంకల్పాలన్నిటినీ వదిలేస్తాడో, అప్పుడు అతడిని యోగారూఢుడు అంటారు.",
+  hi: "जब मनुष्य न इंद्रियों के विषयों में आसक्त होता है, न कर्मों में, और सब संकल्पों का त्याग कर देता है, तब उसे योगारूढ़ कहा जाता है।"
+},
+"gita_ch6_v5": {
+  en: "Lift yourself up by your own self; do not let yourself sink down. For the self alone is one's own friend, and the self alone is one's own enemy.",
+  te: "నిన్ను నువ్వే ఉద్ధరించుకోవాలి; నిన్ను నువ్వు కిందికి దిగజార్చుకోకూడదు. మనకు మన మనసే బంధువు, మన మనసే శత్రువు.",
+  hi: "अपने द्वारा अपना उद्धार करो; अपने को नीचे न गिराओ। क्योंकि मनुष्य स्वयं ही अपना मित्र है और स्वयं ही अपना शत्रु।"
+},
+"gita_ch6_v6": {
+  en: "For one who has conquered the self by the self, the self is a friend. But for one who has not mastered the self, that very self behaves like an enemy.",
+  te: "తనను తానే జయించినవాడికి తన మనసే బంధువు. కానీ తనను తాను అదుపులో ఉంచుకోలేనివాడికి అదే మనసు శత్రువులా ప్రవర్తిస్తుంది.",
+  hi: "जिसने अपने द्वारा अपने को जीत लिया है, उसके लिए उसका मन मित्र है। परंतु जिसने अपने को वश में नहीं किया, उसके लिए वही मन शत्रु की तरह बरतता है।"
+},
+"gita_ch6_v7": {
+  en: "For one who has conquered the self and is deeply at peace, the Supreme Self stays steadily present — in cold and heat, in pleasure and pain, in honour and dishonour.",
+  te: "మనసును జయించి, పూర్తిగా ప్రశాంతంగా ఉన్నవాడిలో పరమాత్మ స్థిరంగా నిలిచి ఉంటాడు — చలి వేడిలలో, సుఖదుఃఖాలలో, మానావమానాలలో కూడా.",
+  hi: "जिसने अपने मन को जीत लिया है और जो पूर्णतः शांत है, उसमें परमात्मा स्थिर रूप से विराजमान रहते हैं — सर्दी-गर्मी, सुख-दुःख और मान-अपमान में भी।"
+},
+"gita_ch6_v8": {
+  en: "The yogī who is content in knowledge and wisdom, unshaken like an anvil, master of the senses, and to whom a lump of earth, a stone and gold are the same — is said to be steady in yoga.",
+  te: "జ్ఞాన విజ్ఞానాలతో తృప్తి పొందినవాడు, దాగలిలా చలించనివాడు (కూటస్థుడు), ఇంద్రియాలను జయించినవాడు, మట్టిముద్దనూ రాయినీ బంగారాన్నీ సమానంగా చూసేవాడు — అలాంటి యోగిని యుక్తుడు అంటారు.",
+  hi: "जो ज्ञान और विज्ञान से तृप्त है, निहाई की तरह अडिग है, इंद्रियों को जीत चुका है, और जिसके लिए मिट्टी का ढेला, पत्थर और सोना समान हैं — वह योगी युक्त कहलाता है।"
+},
+"gita_ch6_v9": {
+  en: "Even more distinguished is one who has an equal mind towards well-wishers, friends, enemies, the indifferent, the neutral, the hateful and relatives — and even towards the good and the wicked.",
+  te: "శ్రేయోభిలాషులు, మిత్రులు, శత్రువులు, ఉదాసీనులు, మధ్యస్థులు, ద్వేషించేవారు, బంధువులు — సాధువులు, పాపులు అందరి పట్లా సమబుద్ధి గలవాడు ఇంకా శ్రేష్ఠుడు.",
+  hi: "जो हितैषी, मित्र, शत्रु, उदासीन, मध्यस्थ, द्वेषी और बंधुओं के प्रति — और साधुओं तथा पापियों के प्रति भी — समबुद्धि रखता है, वह और भी श्रेष्ठ है।"
+},
+"gita_ch6_v10": {
+  en: "The yogī should constantly practise focusing the mind, staying in a solitary place, alone, with mind and body under control, free from longing and from possessiveness.",
+  te: "యోగి ఏకాంత ప్రదేశంలో, ఒంటరిగా ఉండి, మనసునూ శరీరాన్నీ అదుపులో ఉంచుకొని, ఆశలు లేకుండా, సంగ్రహించాలనే బుద్ధి లేకుండా నిరంతరం మనసును యోగంలో నిలపాలి.",
+  hi: "योगी को एकांत स्थान में, अकेले रहकर, मन और शरीर को वश में करके, आशा और परिग्रह से रहित होकर, निरंतर मन को योग में लगाना चाहिए।"
+},
+"gita_ch6_v11": {
+  en: "In a clean place, setting up a firm seat for oneself — neither too high nor too low — covered with cloth, a deerskin and kuśa grass, one over the other —",
+  te: "శుభ్రమైన ప్రదేశంలో, మరీ ఎత్తుగా కాకుండా మరీ తక్కువగా కాకుండా, దర్భ, జింక చర్మం, వస్త్రం ఒకదానిపై ఒకటి పరిచిన స్థిరమైన ఆసనాన్ని ఏర్పాటు చేసుకొని —",
+  hi: "पवित्र स्थान में, न बहुत ऊँचा न बहुत नीचा, कुश, मृगछाला और वस्त्र एक के ऊपर एक बिछाकर अपना स्थिर आसन जमाकर —"
+},
+"gita_ch6_v12": {
+  en: "— sitting there on that seat, making the mind one-pointed and controlling the activity of mind and senses, one should practise yoga for the purification of the self.",
+  te: "— ఆ ఆసనంపై కూర్చుని, మనసును ఏకాగ్రం చేసి, మనసు ఇంద్రియాల చలనాన్ని అదుపులో ఉంచుకొని, ఆత్మశుద్ధి కోసం యోగాన్ని అభ్యసించాలి.",
+  hi: "— उस आसन पर बैठकर, मन को एकाग्र करके, चित्त और इंद्रियों की क्रियाओं को वश में करके, आत्मशुद्धि के लिए योग का अभ्यास करना चाहिए।"
+},
+"gita_ch6_v13": {
+  en: "Holding the body, head and neck straight and still, steady, gazing at the tip of one's own nose and not looking around in any direction —",
+  te: "శరీరం, తల, మెడ ఒకే వరుసలో నిటారుగా, కదలకుండా ఉంచి, స్థిరంగా ఉండి, తన ముక్కు కొనను చూస్తూ, దిక్కుల వైపు చూడకుండా —",
+  hi: "शरीर, सिर और गर्दन को सीधा और अचल रखकर, स्थिर होकर, अपनी नासिका के अग्रभाग को देखते हुए और दिशाओं की ओर न देखते हुए —"
+},
+"gita_ch6_v14": {
+  en: "— serene and fearless, firm in the vow of self-restraint, controlling the mind, with thoughts fixed on Me, one should sit in yoga, holding Me as the highest goal.",
+  te: "— ప్రశాంతమైన మనసుతో, భయం లేకుండా, బ్రహ్మచర్య వ్రతంలో స్థిరంగా ఉండి, మనసును అదుపు చేసి, చిత్తాన్ని నా యందే నిలిపి, నన్నే పరమ లక్ష్యంగా భావించి యోగంలో కూర్చోవాలి.",
+  hi: "— शांत चित्त और निर्भय होकर, ब्रह्मचर्य व्रत में स्थित रहकर, मन को संयमित करके, मुझमें चित्त लगाकर, मुझे ही परम लक्ष्य मानकर योग में बैठना चाहिए।"
+},
+"gita_ch6_v15": {
+  en: "Practising like this always, the yogī with a disciplined mind attains peace — the supreme peace of liberation that rests in Me.",
+  te: "ఈ విధంగా ఎల్లప్పుడూ మనసును యోగంలో నిలిపే, మనసును నియమించుకున్న యోగి నాలో నెలకొన్న, నిర్వాణమే పరమమైన శాంతిని పొందుతాడు.",
+  hi: "इस प्रकार सदा अपने को योग में लगाते हुए, नियंत्रित मन वाला योगी मुझमें स्थित परम निर्वाणरूपी शांति को प्राप्त करता है।"
+},
+"gita_ch6_v16": {
+  en: "Yoga is not for one who eats too much, nor for one who does not eat at all; not for one who sleeps too much, nor for one who stays awake too long, Arjuna.",
+  te: "అర్జునా! అతిగా తినేవాడికీ, అసలు తిననివాడికీ యోగం సిద్ధించదు; అతిగా నిద్రపోయేవాడికీ, అతిగా మేలుకొని ఉండేవాడికీ కూడా సిద్ధించదు.",
+  hi: "हे अर्जुन! यह योग न बहुत खाने वाले का सिद्ध होता है, न बिल्कुल न खाने वाले का; न बहुत सोने वाले का, न बहुत जागने वाले का।"
+},
+"gita_ch6_v17": {
+  en: "For one who is moderate in eating and recreation, balanced in effort at work, and regulated in sleep and waking, yoga becomes the destroyer of sorrow.",
+  te: "తిండిలో, విహారంలో మితంగా ఉండేవాడికి, పనులలో తగినంత ప్రయత్నం చేసేవాడికి, నిద్రలో మెలకువలో క్రమం పాటించేవాడికి యోగం దుఃఖాన్ని పోగొడుతుంది.",
+  hi: "जो आहार और विहार में संयमित है, कर्मों में उचित प्रयास करता है, और सोने-जागने में नियमित है, उसके लिए योग दुःखों का नाश करने वाला बन जाता है।"
+},
+"gita_ch6_v18": {
+  en: "When the well-controlled mind rests in the Self alone, free from craving for any object of desire, then one is said to be steady in yoga.",
+  te: "బాగా నియమించబడిన మనసు ఆత్మలోనే నిలిచి ఉండి, ఏ కోరికపైనా ఆశ లేకుండా ఉన్నప్పుడు, అప్పుడు అతడిని యుక్తుడు (యోగంలో నిలిచినవాడు) అంటారు.",
+  hi: "जब भली-भाँति वश में किया हुआ चित्त आत्मा में ही स्थित हो जाता है और सब कामनाओं से निःस्पृह हो जाता है, तब उसे योगयुक्त कहा जाता है।"
+},
+"gita_ch6_v19": {
+  en: "\"Like a lamp in a windless place that does not flicker\" — that is the comparison used for the controlled mind of a yogī practising yoga of the Self.",
+  te: "‘గాలి లేని చోట ఉన్న దీపం కదలనట్లు’ — ఆత్మయోగాన్ని అభ్యసిస్తూ మనసును అదుపులో ఉంచుకున్న యోగి చిత్తానికి ఇదే ఉపమానంగా చెబుతారు.",
+  hi: "'जैसे वायुरहित स्थान में रखा दीपक नहीं डगमगाता' — आत्मयोग का अभ्यास करने वाले, संयमित चित्त वाले योगी के लिए यही उपमा कही गई है।"
+},
+"gita_ch6_v20": {
+  en: "When the mind, restrained by the practice of yoga, comes to rest; when, seeing the Self by the Self, one is content in the Self —",
+  te: "యోగాభ్యాసంతో నిరోధించబడిన చిత్తం ఎప్పుడు ఉపశమిస్తుందో, ఆత్మతో ఆత్మను చూస్తూ ఆత్మలోనే ఎప్పుడు తృప్తి పొందుతాడో —",
+  hi: "जब योग के अभ्यास से रोका हुआ चित्त शांत हो जाता है, और जब मनुष्य आत्मा द्वारा आत्मा को देखकर आत्मा में ही संतुष्ट रहता है —"
+},
+"gita_ch6_v21": {
+  en: "— when one knows that boundless joy which is grasped by the purified intellect and lies beyond the senses, and, established there, never moves away from the truth —",
+  te: "— ఇంద్రియాలకు అతీతమైనది, శుద్ధమైన బుద్ధికి మాత్రమే అందేది అయిన ఆ అనంతమైన సుఖాన్ని ఎప్పుడు తెలుసుకుంటాడో, దానిలో నిలిచి తత్త్వం నుండి ఎప్పుడూ చలించడో —",
+  hi: "— जब वह उस अनंत सुख को जानता है जो इंद्रियों से परे है और केवल शुद्ध बुद्धि से ग्रहण होता है, और उसमें स्थित होकर तत्त्व से कभी विचलित नहीं होता —"
+},
+"gita_ch6_v22": {
+  en: "— having gained which, one thinks there is no greater gain, and established in which, one is not shaken even by the heaviest sorrow —",
+  te: "— దేన్ని పొందిన తర్వాత దానికంటే గొప్ప లాభం మరొకటి లేదని భావిస్తాడో, దేనిలో నిలిచినవాడు ఎంత పెద్ద దుఃఖం వచ్చినా చలించడో —",
+  hi: "— जिसे पाकर वह उससे बढ़कर कोई दूसरा लाभ नहीं मानता, और जिसमें स्थित होकर भारी से भारी दुःख से भी विचलित नहीं होता —"
+},
+"gita_ch6_v23": {
+  en: "— know that to be yoga: the breaking of all contact with sorrow. This yoga should be practised with determination and an undiscouraged mind.",
+  te: "— దుఃఖంతో ఉన్న సంబంధాన్ని తెంచివేసేదే యోగం అని తెలుసుకో. ఆ యోగాన్ని నిశ్చయంతో, విసుగు చెందని మనసుతో అభ్యసించాలి.",
+  hi: "— उसी को योग जानो: दुःख के संयोग से वियोग। इस योग का अभ्यास दृढ़ निश्चय और बिना ऊबे, अथक मन से करना चाहिए।"
+},
+"gita_ch6_v24": {
+  en: "Giving up completely all desires born of selfish imagining, and reining in the whole crowd of senses from every side with the mind itself —",
+  te: "సంకల్పం నుండి పుట్టే కోరికలన్నిటినీ పూర్తిగా వదిలిపెట్టి, ఇంద్రియాల సమూహాన్ని మనసుతోనే అన్ని వైపుల నుండి అదుపులోకి తెచ్చుకొని —",
+  hi: "संकल्प से उत्पन्न होने वाली सब कामनाओं को पूरी तरह छोड़कर, मन से ही इंद्रियों के समूह को सब ओर से वश में करके —"
+},
+"gita_ch6_v25": {
+  en: "— little by little one should become still, with an intellect held firm by steadiness; fixing the mind in the Self, one should not think of anything else.",
+  te: "— ధైర్యంతో (ధృతితో) పట్టుకున్న బుద్ధితో మెల్లమెల్లగా ఉపశమించాలి; మనసును ఆత్మలో నిలిపి, ఇంకేమీ ఆలోచించకూడదు.",
+  hi: "— धैर्य से पकड़ी हुई बुद्धि द्वारा धीरे-धीरे शांत होना चाहिए; मन को आत्मा में स्थिर करके और कुछ भी नहीं सोचना चाहिए।"
+},
+"gita_ch6_v26": {
+  en: "Wherever the restless, unsteady mind wanders off, from there one should draw it back and bring it under control in the Self alone.",
+  te: "చంచలమైన, స్థిరం లేని మనసు ఎక్కడెక్కడికి పరుగెడుతుందో, అక్కడక్కడి నుండి దాన్ని వెనక్కి లాగి, ఆత్మలోనే వశం చేసుకోవాలి.",
+  hi: "चंचल और अस्थिर मन जहाँ-जहाँ भटककर जाए, वहाँ-वहाँ से उसे खींचकर आत्मा में ही वश में करना चाहिए।"
+},
+"gita_ch6_v27": {
+  en: "Supreme joy comes to this yogī whose mind is at peace, whose restlessness has settled, who is free from impurity and has become one with Brahman.",
+  te: "మనసు ప్రశాంతమైనవాడు, రజోగుణం (చంచలత్వం) శాంతించినవాడు, పాపం లేనివాడు, బ్రహ్మస్వరూపుడైనవాడు అయిన ఈ యోగికి ఉత్తమమైన సుఖం లభిస్తుంది.",
+  hi: "जिसका मन शांत है, जिसका रजोगुण (चंचलता) शांत हो गया है, जो निष्पाप है और ब्रह्मरूप हो गया है — उस योगी को उत्तम सुख प्राप्त होता है।"
+},
+"gita_ch6_v28": {
+  en: "Practising like this always, the yogī, freed from impurity, easily enjoys the boundless joy of contact with Brahman.",
+  te: "ఈ విధంగా ఎల్లప్పుడూ మనసును యోగంలో నిలుపుతూ, పాపాల నుండి విముక్తుడైన యోగి బ్రహ్మస్పర్శ వల్ల కలిగే అనంతమైన సుఖాన్ని సులభంగా అనుభవిస్తాడు.",
+  hi: "इस प्रकार सदा अपने को योग में लगाता हुआ, दोषों से मुक्त योगी सहज ही ब्रह्म के स्पर्श से मिलने वाले अनंत सुख का अनुभव करता है।"
+},
+"gita_ch6_v29": {
+  en: "One whose self is united in yoga sees the Self dwelling in all beings and all beings in the Self, seeing the same everywhere.",
+  te: "యోగంతో కూడిన మనసు గలవాడు అన్నిచోట్లా సమదృష్టితో, సర్వ ప్రాణులలో ఆత్మనూ, ఆత్మలో సర్వ ప్రాణులనూ చూస్తాడు.",
+  hi: "योग से युक्त आत्मा वाला, सर्वत्र समदृष्टि रखने वाला व्यक्ति आत्मा को सब प्राणियों में और सब प्राणियों को आत्मा में देखता है।"
+},
+"gita_ch6_v30": {
+  en: "One who sees Me everywhere and sees everything in Me — I am never lost to that person, and that person is never lost to Me.",
+  te: "అన్నిచోట్లా నన్ను చూసేవాడికి, అన్నిటినీ నాలో చూసేవాడికి నేను ఎప్పుడూ దూరం కాను; అతడూ నాకు ఎప్పుడూ దూరం కాడు.",
+  hi: "जो मुझे सर्वत्र देखता है और सब कुछ मुझमें देखता है, उसके लिए मैं कभी ओझल नहीं होता और वह मेरे लिए कभी ओझल नहीं होता।"
+},
+"gita_ch6_v31": {
+  en: "The yogī who, established in oneness, worships Me as dwelling in all beings — however that person lives, they live in Me.",
+  te: "ఏకత్వంలో నిలిచి, సర్వ ప్రాణులలో ఉన్న నన్ను భజించే యోగి — ఏ విధంగా జీవిస్తున్నా నాలోనే జీవిస్తున్నాడు.",
+  hi: "जो योगी एकत्व में स्थित होकर सब प्राणियों में स्थित मुझे भजता है, वह किसी भी प्रकार से रहते हुए मुझमें ही रहता है।"
+},
+"gita_ch6_v32": {
+  en: "One who, taking oneself as the measure, sees everything as equal — whether it is joy or sorrow — that yogī is considered the highest, Arjuna.",
+  te: "అర్జునా! తనతో పోల్చుకొని, ఇతరుల సుఖాన్నైనా దుఃఖాన్నైనా తనదానిలాగే సమంగా చూసేవాడు — ఆ యోగి అత్యుత్తముడని నా అభిప్రాయం.",
+  hi: "हे अर्जुन! जो अपनी उपमा से सब जगह समान देखता है — चाहे सुख हो या दुःख — वह योगी परम श्रेष्ठ माना गया है।"
+},
+"gita_ch6_v33": {
+  en: "Arjuna said: Madhusūdana, this yoga of evenness that You have taught — I do not see how it can last steadily, because the mind is so restless.",
+  te: "అర్జునుడు అన్నాడు: మధుసూదనా! నువ్వు చెప్పిన ఈ సమత్వ యోగం — మనసు చంచలమైనది కాబట్టి — అది స్థిరంగా నిలుస్తుందని నాకు అనిపించడం లేదు.",
+  hi: "अर्जुन ने कहा: हे मधुसूदन! आपने समता का जो यह योग बताया, मन की चंचलता के कारण मुझे इसकी स्थिर स्थिति दिखाई नहीं देती।"
+},
+"gita_ch6_v34": {
+  en: "For the mind is restless, Kṛṣṇa — turbulent, powerful and stubborn. To control it, I think, is as hard as controlling the wind.",
+  te: "కృష్ణా! మనసు నిజంగా చంచలమైనది, అల్లకల్లోలం చేసేది, బలమైనది, మొండిది. దాన్ని నిగ్రహించడం గాలిని పట్టుకున్నంత కష్టమని నాకు అనిపిస్తుంది.",
+  hi: "हे कृष्ण! मन बड़ा चंचल, मथ डालने वाला, बलवान और हठी है। इसे वश में करना मुझे वायु को रोकने के समान अत्यंत कठिन लगता है।"
+},
+"gita_ch6_v35": {
+  en: "The Lord said: No doubt, mighty-armed one, the mind is restless and hard to control. But, Kaunteya, it can be held by steady practice and by detachment.",
+  te: "శ్రీ భగవానుడు అన్నాడు: మహాబాహూ! మనసు చంచలమైనదనీ, నిగ్రహించడం కష్టమనీ సందేహం లేదు. కానీ కౌంతేయా! అభ్యాసంతో, వైరాగ్యంతో దాన్ని వశం చేసుకోవచ్చు.",
+  hi: "श्री भगवान ने कहा: हे महाबाहो! निःसंदेह मन चंचल है और कठिनाई से वश में होता है। परंतु हे कौंतेय! अभ्यास और वैराग्य से यह वश में किया जा सकता है।"
+},
+"gita_ch6_v36": {
+  en: "For one whose mind is not controlled, yoga is hard to attain — this is My view. But one who has mastered the mind and keeps striving by the right means can attain it.",
+  te: "మనసును అదుపులో ఉంచుకోనివాడికి యోగం సిద్ధించడం కష్టం — ఇది నా అభిప్రాయం. కానీ మనసును వశం చేసుకొని, సరైన ఉపాయాలతో ప్రయత్నించేవాడు దాన్ని పొందగలడు.",
+  hi: "जिसका मन वश में नहीं है, उसके लिए योग पाना कठिन है — यह मेरा मत है। परंतु जिसने मन को वश में किया है और उचित उपायों से प्रयत्न करता है, वह इसे पा सकता है।"
+},
+"gita_ch6_v37": {
+  en: "Arjuna said: Kṛṣṇa, what happens to one who has faith but does not strive enough, whose mind slips away from yoga, and who fails to reach perfection in yoga? Where does that person go?",
+  te: "అర్జునుడు అన్నాడు: కృష్ణా! శ్రద్ధ ఉన్నా తగినంత ప్రయత్నం లేనివాడు, మనసు యోగం నుండి జారిపోయినవాడు, యోగసిద్ధిని పొందలేకపోయినవాడు — ఏ గతిని పొందుతాడు?",
+  hi: "अर्जुन ने कहा: हे कृष्ण! जो श्रद्धा से युक्त है पर पूरा प्रयत्न नहीं करता, जिसका मन योग से विचलित हो गया और जो योग की सिद्धि नहीं पा सका — वह किस गति को जाता है?"
+},
+"gita_ch6_v38": {
+  en: "Mighty-armed one, fallen from both, without support and confused on the path to Brahman — doesn't such a person perish like a scattered cloud?",
+  te: "మహాబాహూ! రెండింటి నుండీ జారిపోయి, ఆధారం లేకుండా, బ్రహ్మమార్గంలో దారి తప్పినవాడు చెదిరిపోయిన మేఘంలా నశించిపోడా?",
+  hi: "हे महाबाहो! दोनों ओर से भ्रष्ट हुआ, आश्रयहीन और ब्रह्म के मार्ग में मोहित हुआ वह व्यक्ति क्या छिन्न-भिन्न बादल की तरह नष्ट तो नहीं हो जाता?"
+},
+"gita_ch6_v39": {
+  en: "Kṛṣṇa, please remove this doubt of mine completely. Other than You, there is no one who can clear away this doubt.",
+  te: "కృష్ణా! నా ఈ సందేహాన్ని పూర్తిగా తొలగించడానికి నువ్వే తగినవాడివి. నువ్వు తప్ప ఈ సందేహాన్ని తీర్చగలవారు మరెవరూ లేరు.",
+  hi: "हे कृष्ण! मेरे इस संशय को पूरी तरह मिटाने में आप ही समर्थ हैं। आपके सिवा इस संशय को दूर करने वाला कोई और नहीं हो सकता।"
+},
+"gita_ch6_v40": {
+  en: "The Lord said: Pārtha, there is no destruction for that person, either in this world or the next. For no one who does good, My dear friend, ever comes to a bad end.",
+  te: "శ్రీ భగవానుడు అన్నాడు: పార్థా! అతనికి ఈ లోకంలో గానీ పరలోకంలో గానీ నాశనం లేదు. నాయనా! మంచి చేసే ఎవడూ దుర్గతి పాలు కాడు.",
+  hi: "श्री भगवान ने कहा: हे पार्थ! उसका न इस लोक में नाश होता है, न परलोक में। क्योंकि हे तात! भलाई करने वाला कोई भी दुर्गति को प्राप्त नहीं होता।"
+},
+"gita_ch6_v41": {
+  en: "One who has fallen from yoga reaches the worlds of the virtuous, lives there for very many years, and is then born in the home of pure and prosperous people.",
+  te: "యోగభ్రష్టుడు పుణ్యాత్ములు పొందే లోకాలను చేరి, అక్కడ ఎన్నో సంవత్సరాలు నివసించి, ఆ తర్వాత పవిత్రులైన, సంపన్నులైన వారి ఇంట్లో జన్మిస్తాడు.",
+  hi: "योग से भ्रष्ट हुआ व्यक्ति पुण्यात्माओं के लोकों को पाकर, वहाँ बहुत वर्षों तक रहकर, फिर पवित्र और समृद्ध लोगों के घर में जन्म लेता है।"
+},
+"gita_ch6_v42": {
+  en: "Or else they are born into a family of wise yogīs. But a birth like this is even harder to gain in this world.",
+  te: "లేదా జ్ఞానవంతులైన యోగుల కుటుంబంలోనే జన్మిస్తాడు. కానీ ఇలాంటి జన్మ ఈ లోకంలో పొందడం ఇంకా దుర్లభం.",
+  hi: "अथवा वह बुद्धिमान योगियों के कुल में ही जन्म लेता है। परंतु ऐसा जन्म इस संसार में और भी दुर्लभ है।"
+},
+"gita_ch6_v43": {
+  en: "There, they regain the wisdom they had gained in their previous body, and from that point they strive once more for perfection, joy of the Kurus.",
+  te: "కురునందనా! అక్కడ అతడు పూర్వ దేహంలో పొందిన బుద్ధి సంస్కారాన్ని తిరిగి పొందుతాడు; అక్కడి నుండి సిద్ధి కోసం మళ్ళీ ఇంకా ఎక్కువగా ప్రయత్నిస్తాడు.",
+  hi: "हे कुरुनंदन! वहाँ वह पिछले शरीर में प्राप्त बुद्धि के संस्कार को फिर से पा लेता है, और वहाँ से सिद्धि के लिए और भी अधिक प्रयत्न करता है।"
+},
+"gita_ch6_v44": {
+  en: "By that very past practice they are carried forward, even without trying. Even one who merely wishes to know about yoga goes beyond the mere rituals of the Vedas.",
+  te: "ఆ పూర్వ అభ్యాసమే అతన్ని తనకు తెలియకుండానే ముందుకు లాగుతుంది. యోగం గురించి తెలుసుకోవాలని కోరుకున్నవాడు కూడా వేదాలలోని కేవల కర్మకాండను దాటిపోతాడు.",
+  hi: "उसी पूर्व अभ्यास से वह विवश-सा होकर आगे खिंचता चला जाता है। योग को जानने की इच्छा रखने वाला भी वेदों के केवल कर्मकांड से आगे निकल जाता है।"
+},
+"gita_ch6_v45": {
+  en: "But the yogī who strives with great effort, cleansed of all impurity and perfected over many births, then reaches the highest goal.",
+  te: "కానీ పట్టుదలతో ప్రయత్నించే యోగి, పాపాలన్నిటి నుండి శుద్ధుడై, అనేక జన్మలలో సిద్ధి పొంది, ఆ తర్వాత పరమ గతిని చేరుకుంటాడు.",
+  hi: "परंतु जो योगी प्रयत्नपूर्वक साधना करता है, सब दोषों से शुद्ध होकर, अनेक जन्मों में सिद्ध होकर, फिर परम गति को प्राप्त होता है।"
+},
+"gita_ch6_v46": {
+  en: "The yogī is greater than those who practise austerities, greater even than those with mere book-learning, and greater than those who perform rituals for rewards. Therefore, Arjuna, be a yogī.",
+  te: "తపస్సు చేసేవారికంటే యోగి గొప్పవాడు; కేవలం శాస్త్రజ్ఞానం ఉన్నవారికంటే కూడా గొప్పవాడని నా అభిప్రాయం; ఫలాపేక్షతో కర్మలు చేసేవారికంటే కూడా యోగి గొప్పవాడు. కాబట్టి అర్జునా! నువ్వు యోగివి అవ్వు.",
+  hi: "योगी तपस्वियों से श्रेष्ठ है, केवल शास्त्रज्ञानियों से भी श्रेष्ठ माना गया है, और सकाम कर्म करने वालों से भी श्रेष्ठ है। इसलिए हे अर्जुन! तुम योगी बनो।"
+},
+"gita_ch6_v47": {
+  en: "And of all yogīs, the one who worships Me with faith, with the inner self absorbed in Me — that one I consider the most closely united with Me.",
+  te: "యోగులందరిలోనూ, తన అంతరాత్మను నాలోనే లీనం చేసి, శ్రద్ధతో నన్ను భజించేవాడే నాతో అత్యంత ఐక్యమైనవాడని నా అభిప్రాయం.",
+  hi: "और सब योगियों में भी, जो श्रद्धा के साथ अपने अंतरात्मा को मुझमें लगाकर मुझे भजता है — उसे मैं सबसे श्रेष्ठ योगी (युक्ततम) मानता हूँ।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",
