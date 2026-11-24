@@ -135,4 +135,8 @@ window.HI_FILES = [
   'hi/sages/kanva.js',
   'hi/sages/mandavya.js',
   'hi/sages/pulastya.js',
+  'hi/sages/lomasha.js',
+  'hi/sages/dhaumya.js',
+  'hi/sages/upamanyu.js',
+  'hi/sages/sandipani.js',
 ];
