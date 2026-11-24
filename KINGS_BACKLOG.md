@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Bājī Rāo I (bajirao) — Peśvā at twenty; Palkhed (1728); Bundelkhand; the dash to Delhi (1737); Bhopal (1738); death on the Narmadā (1740)
 - [ ] Puṣyamitra Śuṅga (pushyamitra) — the last Maurya overthrown (Purāṇas, Bāṇa); the two Aśvamedhas (Ayodhyā inscription of Dhanadeva); the Yavana wars (Mālavikāgnimitra, Patañjali); Buddhist accounts and how historians weigh them
 - [ ] Yaśodharman (yashodharman) — Aulikara king of Daśapura (Mandsaur); the Mandsaur victory pillars; the defeat of the Hūṇa Mihirakula (about 528); a short-lived empire
 - [ ] Dharmapāla (dharmapala) — Pāla king of Bengal; Gopāla chosen king (Khalimpur plate); the Kanauj contest with the Pratīhāras and Rāṣṭrakūṭas; Vikramaśīla; Buddhist faith and Hindu subjects
@@ -57,7 +56,7 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 
 Add more when fewer than five remain: e.g. Puṣyamitra Śuṅga, Rudradāman's rival kings, Kumāragupta,
 Yaśodharman, Śaśāṅka, Mihira Bhoja, Dharmapāla, Amoghavarṣa I, Kṛṣṇa III, Vikramāditya VI, Hoysaḷa
-Viṣṇuvardhana, Prolaya Nāyaka, Kapaya Nāyaka, Rāṇā Kumbhā, Hemu, Rājā Mān Siṃh, Chhatrasāl, Bājī Rāo I,
+Viṣṇuvardhana, Prolaya Nāyaka, Kapaya Nāyaka, Rāṇā Kumbhā, Hemu, Rājā Mān Siṃh, Chhatrasāl,
 Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 
 ## Done
@@ -91,3 +90,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Hoysaḷa Viṣṇuvardhana (vishnuvardhana) — 8 chapters — 2026-11-21
 - [x] Prolaya and Kāpaya Nāyaka (musunuri) — 8 chapters — 2026-11-22
 - [x] Chhatrasāl Bundelā (chhatrasal) — 8 chapters — 2026-11-23
+- [x] Bājī Rāo I (bajirao) — 9 chapters — 2026-11-24
