@@ -143,11 +143,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Yayāti and Puru's Gift of Youth (Mahābhārata) — yayati-and-purus-gift
 - [x] Atri and Anasūyā Bless Sītā (Rāmāyaṇa) — anasuya-blesses-sita
 - [x] Kaca and Devayānī — the Secret of Life (Mahābhārata) — kaca-and-devayani
+- [x] Sutīkṣṇa Waits for Rāma (Rāmāyaṇa) — sutikshna-waits-for-rama
+- [x] Pāṇḍu and the Deer-Sage's Curse (Mahābhārata) — pandu-and-the-deer-sages-curse
+- [x] Svayamprabhā's Magic Cave (Rāmāyaṇa) — svayamprabhas-magic-cave
 
 ## Next
-- [ ] Sutīkṣṇa Waits for Rāma (Rāmāyaṇa) — Sutīkṣṇa, Rāma, Sītā
-- [ ] Pāṇḍu and the Deer-Sage's Curse (Mahābhārata) — Pāṇḍu, Kuntī, Mādrī
-- [ ] Svayamprabhā's Magic Cave (Rāmāyaṇa) — Aṅgada, Hanumān, Svayamprabhā
 - [ ] Gāndhārī's Hundred Sons (Mahābhārata) — Gāndhārī, Vyāsa, Dhṛtarāṣṭra
 - [ ] Maināka, the Mountain Who Rose to Help Hanumān (Rāmāyaṇa) — Hanumān, Maināka, Siṃhikā
 - [ ] Karṇa Arrives at the Tournament (Mahābhārata) — Karṇa, Duryodhana, Arjuna
@@ -165,3 +165,33 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [ ] King Śibi and the Dove (Mahābhārata) — Śibi, Agni, Indra
 - [ ] Rāma Promises to Protect the Sages of Daṇḍaka (Rāmāyaṇa) — Rāma, Sītā, Lakṣmaṇa
 - [ ] Agastya Drinks the Ocean (Mahābhārata) — Agastya, Indra
+- [ ] Virādha, the Forest Giant (Rāmāyaṇa) — Virādha, Rāma, Lakṣmaṇa
+- [ ] Bhīma and the Demon Kirmīra (Mahābhārata) — Bhīma, Kirmīra, Yudhiṣṭhira
+- [ ] Rāma Shoots Through the Seven Sāla Trees (Rāmāyaṇa) — Rāma, Sugrīva, Lakṣmaṇa
+- [ ] Arjuna Saves Droṇa from the Crocodile (Mahābhārata) — Arjuna, Droṇa, Duryodhana
+- [ ] Vāli and the Buffalo Demon Dundubhi (Rāmāyaṇa) — Vāli, Dundubhi, Mataṅga
+- [ ] Arjuna and the Gandharva Citraratha (Mahābhārata) — Arjuna, Citraratha, Kuntī
+- [ ] Hanumān and Laṅkinī, the Guardian of the Gate (Rāmāyaṇa) — Hanumān, Laṅkinī
+- [ ] Mudgala and the Handful of Grain (Mahābhārata) — Mudgala, Durvāsa
+- [ ] Trijaṭā's Dream (Rāmāyaṇa) — Trijaṭā, Sītā
+- [ ] Indra and the Parrot Who Loved Its Tree (Mahābhārata) — Indra, the Parrot
+- [ ] Rāma Fights Khara and Dūṣaṇa (Rāmāyaṇa) — Rāma, Khara, Dūṣaṇa, Sītā
+- [ ] Draupadī's Advice to Satyabhāmā (Mahābhārata) — Draupadī, Satyabhāmā, Kṛṣṇa
+- [ ] King Nimi, Who Lives in the Blink of an Eye (Rāmāyaṇa) — Nimi, Vasiṣṭha
+- [ ] Bhīṣma and His Guru Paraśurāma (Mahābhārata) — Bhīṣma, Paraśurāma, Ambā
+- [ ] Vedavatī's Vow (Rāmāyaṇa) — Vedavatī, Rāvaṇa
+- [ ] Yavakrīta, Who Wanted Learning Without Study (Mahābhārata) — Yavakrīta, Indra
+- [ ] Rāma Gives Hanumān His Ring (Rāmāyaṇa) — Rāma, Hanumān, Sugrīva
+- [ ] Mātali Finds a Bridegroom for His Daughter (Mahābhārata) — Mātali, Nārada, Sumukha
+- [ ] Bharata Meets Guha (Rāmāyaṇa) — Bharata, Guha, Śatrughna
+- [ ] Jayadratha Tries to Carry Off Draupadī (Mahābhārata) — Jayadratha, Draupadī, Bhīma, Arjuna
+- [ ] Hanumān and Ahirāvaṇa in the Underworld (Rāmāyaṇa folk tradition) — Hanumān, Ahirāvaṇa, Makaradhvaja
+- [ ] Arjuna Keeps His Word for a Brahmin's Cows (Mahābhārata) — Arjuna, Yudhiṣṭhira
+- [ ] Sugrīva Leaps at Rāvaṇa (Rāmāyaṇa) — Sugrīva, Rāvaṇa, Rāma
+- [ ] Yudhiṣṭhira Asks His Elders' Blessings Before the War (Mahābhārata) — Yudhiṣṭhira, Bhīṣma, Droṇa, Kṛpa
+- [ ] Hanumān Brings Bharata the Good News (Rāmāyaṇa) — Hanumān, Bharata
+- [ ] Karṇa and the Sandalwood Door (Mahābhārata folk tradition) — Karṇa, Kṛṣṇa, Arjuna
+- [ ] Rāma Asks Bharata How He Rules (Rāmāyaṇa) — Rāma, Bharata
+- [ ] Abhimanyu and Uttarā's Wedding (Mahābhārata) — Abhimanyu, Uttarā, Virāṭa, Kṛṣṇa
+- [ ] Kuśa and the Serpent Princess Kumudvatī (Rāmāyaṇa tradition) — Kuśa, Kumudvatī
+- [ ] Vidura's Night of Good Advice (Mahābhārata) — Vidura, Dhṛtarāṣṭra

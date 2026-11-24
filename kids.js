@@ -874,6 +874,7 @@
       return `<ellipse cx="4" cy="-2" rx="66" ry="4" fill="#5a3a1a" opacity=".25"/><ellipse cx="-6" cy="-11" rx="46" ry="10" fill="${c}"/><path d="M-18 -18 L28 -20" stroke="${skin}" stroke-width="5" stroke-linecap="round"/><circle cx="50" cy="-14" r="11" fill="${skin}"/><path d="M45 -19 q2.5 2 5 0 M52 -19 q2.5 2 5 0" stroke="#222" stroke-width="1.3" fill="none"/>${o.crown ? '<path d="M60 -22 L73 -19 L65 -16 L75 -14 L65 -11 L73 -8 L60 -6Z" fill="#f0c040"/>' : `<path d="M59 -23 Q67 -14 59 -5 Q63 -14 59 -23Z" fill="${o.hair || '#222'}"/>`}`;
     },
     rain: () => `<g stroke="#7fb3e0" stroke-width="2" stroke-linecap="round" opacity=".85">${[-44, -30, -16, -2, 12, 26, 40].map((x, i) => `<line x1="${x}" y1="${-62 + (i % 2) * 6}" x2="${x - 5}" y2="${-42 + (i % 2) * 6}"/><line x1="${x - 7}" y1="${-30 + (i % 2) * 6}" x2="${x - 12}" y2="${-10 + (i % 2) * 6}"/>`).join('')}</g><g fill="#7d8aa0"><circle cx="-26" cy="-76" r="16"/><circle cx="0" cy="-86" r="20"/><circle cx="26" cy="-76" r="16"/><rect x="-44" y="-78" width="88" height="16" rx="8"/></g>`, // rain cloud with falling drops
+    cave: () => `<path d="M-62 0 Q-60 -64 -12 -80 Q40 -84 62 -30 L64 0Z" fill="#8a8a8a"/><path d="M-40 -46 Q-16 -70 18 -68" stroke="#a8a8a8" stroke-width="3" fill="none"/><path d="M-24 0 Q-24 -44 0 -48 Q24 -44 24 0Z" fill="#2a2420"/><path d="M-24 0 H24" stroke="#5a5050" stroke-width="2"/>`, // rocky hill with a dark cave mouth
   };
   function kidsScene(scene) {
     scene = scene || { bg: 'forest', props: [] };
