@@ -1415,6 +1415,300 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "ध्यान का अध्याय प्रेम के साथ समाप्त होता है। सबसे अच्छा योगी वह नहीं जिसकी विधि सबसे परिपूर्ण हो, बल्कि वह है जिसका हृदय प्रेम से भगवान में डूबा हो। भक्ति सब साधनाओं का मुकुट है।"
 },
 
+// ── Chapter 7 · Jñāna Vijñāna Yoga ──
+"gita_ch7_v1": {
+  en: "A new part of the Gītā begins. Until now Kṛṣṇa spoke mostly about how to act and how to meditate; now He starts telling Arjuna who God really is. He says: keep your heart on Me, lean on Me, and you will understand Me fully.",
+  te: "గీతలో కొత్త భాగం మొదలవుతుంది. ఇంతవరకు శ్రీకృష్ణుడు ఎలా పని చేయాలో, ఎలా ధ్యానించాలో చెప్పాడు; ఇప్పుడు దేవుడు నిజంగా ఎవరో చెప్పడం మొదలుపెడుతున్నాడు. ‘మనసు నా మీద పెట్టు, నన్ను నమ్ముకో — నన్ను పూర్తిగా అర్థం చేసుకుంటావు’ అంటున్నాడు.",
+  hi: "गीता का एक नया भाग शुरू होता है। अब तक श्रीकृष्ण ने ज़्यादातर यह बताया कि कैसे कर्म करें और कैसे ध्यान करें; अब वे बताना शुरू करते हैं कि भगवान वास्तव में कौन हैं। वे कहते हैं: मन मुझमें रखो, मुझ पर भरोसा करो — तुम मुझे पूरी तरह समझ जाओगे।"
+},
+"gita_ch7_v2": {
+  en: "Kṛṣṇa promises not just book-knowledge but understanding you can actually live and feel. It is like knowing the root of a tree — once you know it, you understand every branch.",
+  te: "శ్రీకృష్ణుడు కేవలం పుస్తక జ్ఞానం కాదు, జీవితంలో అనుభవించగలిగే అవగాహనను ఇస్తానని మాట ఇస్తున్నాడు. చెట్టు వేరు తెలిస్తే ప్రతి కొమ్మా అర్థమైనట్టే — ఇదీ అలాంటిదే.",
+  hi: "श्रीकृष्ण केवल किताबी ज्ञान नहीं, बल्कि ऐसी समझ का वचन देते हैं जिसे जिया और महसूस किया जा सके। जैसे पेड़ की जड़ जान लो तो हर डाली समझ आ जाती है — यह वैसा ही है।"
+},
+"gita_ch7_v3": {
+  en: "Very few people even try to seek God seriously, and fewer still truly understand Him. This is not meant to discourage us — it shows how precious this search is. If you have started, you are already among the rare ones.",
+  te: "దేవుణ్ణి నిజంగా వెతకాలని ప్రయత్నించేవారే చాలా తక్కువ; ఆయనను నిజంగా అర్థం చేసుకునేవారు ఇంకా తక్కువ. ఇది మనల్ని నిరుత్సాహపరచడానికి కాదు — ఈ అన్వేషణ ఎంత విలువైనదో చెప్పడానికి. నువ్వు మొదలుపెట్టావంటే, ఆ అరుదైనవారిలో నువ్వు ఒకడివే.",
+  hi: "बहुत कम लोग भगवान को गंभीरता से खोजने का प्रयास भी करते हैं, और उन्हें सच में समझने वाले तो और भी कम हैं। यह हमें निराश करने के लिए नहीं है — यह बताता है कि यह खोज कितनी कीमती है। अगर तुमने शुरुआत कर दी है, तो तुम पहले से ही उन दुर्लभ लोगों में हो।"
+},
+"gita_ch7_v4": {
+  en: "Everything we can see and touch — and even our thoughts, our thinking power and our ego — is made of God's material energy. Our mind is not separate from nature; it is a finer part of it.",
+  te: "మనం చూసేది, తాకేది అంతా — మన ఆలోచనలు, మన బుద్ధి, మన ‘నేను’ అనే భావన కూడా — దేవుని భౌతిక శక్తితోనే తయారయ్యాయి. మన మనసు ప్రకృతికి వేరు కాదు; అది ప్రకృతిలోనే సూక్ష్మమైన భాగం.",
+  hi: "जो कुछ हम देखते और छूते हैं — और हमारे विचार, हमारी बुद्धि और हमारा अहंकार भी — भगवान की भौतिक शक्ति से बना है। हमारा मन प्रकृति से अलग नहीं, उसी का एक सूक्ष्म हिस्सा है।"
+},
+"gita_ch7_v5": {
+  en: "But there is something higher than matter: the life, the conscious spark in every living being. That spark is also God's own nature. You are not just a body and a mind — the real 'you' is this living spark.",
+  te: "కానీ పదార్థం కంటే ఉన్నతమైనది ఒకటి ఉంది: ప్రతి జీవిలోని ప్రాణం, చైతన్యపు కిరణం. అది కూడా దేవుని సొంత స్వభావమే. నువ్వు కేవలం శరీరం, మనసు కాదు — అసలైన ‘నువ్వు’ ఈ చైతన్యమే.",
+  hi: "पर पदार्थ से ऊँची भी एक चीज़ है: हर जीव में बसी चेतना, जीवन की चिंगारी। वह चिंगारी भी भगवान का ही स्वरूप है। तुम केवल शरीर और मन नहीं हो — असली ‘तुम’ यह चेतना ही हो।"
+},
+"gita_ch7_v6": {
+  en: "Matter and life together make up every creature — and both come from God. He is where everything begins and where everything finally returns, like waves rising from and settling back into the ocean.",
+  te: "పదార్థం, చైతన్యం రెండూ కలిసే ప్రతి జీవి ఏర్పడుతుంది — ఆ రెండూ దేవుని నుంచే వచ్చాయి. సముద్రంలో అలలు పుట్టి మళ్ళీ సముద్రంలోనే కలిసిపోయినట్టు, అన్నీ ఆయనలోనే మొదలై, చివరికి ఆయనలోనే కలుస్తాయి.",
+  hi: "पदार्थ और चेतना मिलकर हर प्राणी बनाते हैं — और दोनों भगवान से आते हैं। जैसे लहरें समुद्र से उठती हैं और उसी में लौट जाती हैं, वैसे ही सब कुछ उन्हीं से शुरू होता है और अंत में उन्हीं में लौटता है।"
+},
+"gita_ch7_v7": {
+  en: "A beautiful picture: the world is like a necklace of pearls, and God is the thread running through every pearl. We see the pearls, but it is the hidden thread that holds them all together.",
+  te: "ఎంత అందమైన ఉపమానం: ఈ లోకం ఒక ముత్యాల హారం, ప్రతి ముత్యంలోంచి వెళ్ళే దారమే దేవుడు. మనకు ముత్యాలే కనిపిస్తాయి, కానీ వాటన్నిటినీ కలిపి పట్టి ఉంచేది కనిపించని ఆ దారమే.",
+  hi: "कितनी सुंदर उपमा: संसार मोतियों की माला जैसा है, और भगवान वह धागा हैं जो हर मोती से होकर गुज़रता है। हमें मोती दिखते हैं, पर उन सबको जोड़कर रखने वाला छिपा हुआ धागा ही है।"
+},
+"gita_ch7_v8": {
+  en: "Want to see God in daily life? Kṛṣṇa says: when cool water refreshes you, that taste is Me; the light of the sun and moon is Me. God is not far away — He is the very best of what we already experience.",
+  te: "దేవుణ్ణి రోజువారీ జీవితంలో చూడాలనుకుంటున్నావా? చల్లని నీరు దాహం తీర్చినప్పుడు ఆ రుచి నేనే; సూర్యచంద్రుల వెలుగు నేనే అంటున్నాడు శ్రీకృష్ణుడు. దేవుడు ఎక్కడో దూరంగా లేడు — మనం ఇప్పటికే అనుభవిస్తున్న వాటిలోని శ్రేష్ఠమైన సారమే ఆయన.",
+  hi: "रोज़ की ज़िंदगी में भगवान को देखना चाहते हो? श्रीकृष्ण कहते हैं: जब ठंडा पानी प्यास बुझाता है, वह स्वाद मैं हूँ; सूर्य और चंद्रमा की रोशनी मैं हूँ। भगवान कहीं दूर नहीं — जो हम पहले से अनुभव करते हैं, उसका सबसे सुंदर सार वही हैं।"
+},
+"gita_ch7_v9": {
+  en: "The fresh smell of earth after rain, the warmth of a fire, the life that keeps us breathing, the strength of someone's discipline — in each of these, Kṛṣṇa says, you are touching Him.",
+  te: "వర్షం తర్వాత మట్టి వాసన, అగ్నిలోని వెచ్చదనం, మనల్ని శ్వాసింపజేసే ప్రాణం, ఒకరి నిష్ఠలోని బలం — వీటిలో ప్రతిదానిలో నువ్వు నన్నే తాకుతున్నావు అంటున్నాడు శ్రీకృష్ణుడు.",
+  hi: "बारिश के बाद मिट्टी की सौंधी खुशबू, आग की गर्माहट, वह जीवन जो हमें साँस दिलाता है, किसी के अनुशासन की ताकत — श्रीकृष्ण कहते हैं, इनमें से हर एक में तुम मुझे ही छू रहे हो।"
+},
+"gita_ch7_v10": {
+  en: "Just as a whole tree is hidden in a tiny seed, every life comes from God. When you see someone's sharp mind or shining talent, you are seeing a little of God's light in them.",
+  te: "చిన్న విత్తనంలో మొత్తం చెట్టు దాగి ఉన్నట్టు, ప్రతి జీవమూ దేవుని నుంచే వస్తుంది. ఎవరిలోనైనా చురుకైన బుద్ధినో, మెరిసే ప్రతిభనో చూసినప్పుడు, వారిలోని దేవుని వెలుగును కొంచెం చూస్తున్నావన్నమాట.",
+  hi: "जैसे एक छोटे-से बीज में पूरा पेड़ छिपा होता है, वैसे ही हर जीवन भगवान से आता है। जब तुम किसी की तेज़ बुद्धि या चमकती प्रतिभा देखते हो, तो उनमें भगवान की थोड़ी-सी रोशनी देख रहे होते हो।"
+},
+"gita_ch7_v11": {
+  en: "Strength used without greed, and desires that stay within what is right — these are God too. The Gītā does not ask us to kill all wishes; a wish that respects dharma is holy.",
+  te: "దురాశ లేకుండా వాడే బలం, ధర్మం హద్దుల్లో ఉండే కోరికలు — ఇవి కూడా దేవుడే. గీత మనల్ని కోరికలన్నీ చంపుకోమని చెప్పడం లేదు; ధర్మాన్ని గౌరవించే కోరిక పవిత్రమైనదే.",
+  hi: "लालच के बिना इस्तेमाल किया गया बल, और वे इच्छाएँ जो धर्म की सीमा में रहें — ये भी भगवान ही हैं। गीता हमें सारी इच्छाएँ मारने को नहीं कहती; धर्म का आदर करने वाली इच्छा पवित्र है।"
+},
+"gita_ch7_v12": {
+  en: "Calm, restlessness and laziness — all our moods come from God's nature. But God is not trapped in them, the way the sky is not stained by passing clouds. The moods are in Him; He is not caught in the moods.",
+  te: "ప్రశాంతత, చంచలత, బద్ధకం — మన మనఃస్థితులన్నీ దేవుని ప్రకృతి నుంచే వస్తాయి. కానీ కదిలే మేఘాలు ఆకాశానికి మరక అంటించనట్టు, దేవుడు వాటిలో చిక్కుకోడు. అవి ఆయనలో ఉన్నాయి; ఆయన వాటిలో బంధించబడలేదు.",
+  hi: "शांति, बेचैनी और आलस — हमारे सारे भाव भगवान की प्रकृति से आते हैं। पर जैसे गुज़रते बादल आकाश पर दाग नहीं लगाते, वैसे ही भगवान उनमें नहीं फँसते। भाव उनमें हैं; वे भावों में बँधे नहीं।"
+},
+"gita_ch7_v13": {
+  en: "We get so busy with our changing moods and wants that we miss the One behind them. It is like watching a film so closely that we forget the screen on which it plays.",
+  te: "మారే మనఃస్థితుల్లో, కోరికల్లో మనం ఎంతగా మునిగిపోతామంటే, వాటి వెనుక ఉన్న దేవుణ్ణి గమనించం. సినిమాలో పూర్తిగా లీనమై, అది ఆడే తెరనే మరచిపోయినట్టు.",
+  hi: "हम अपने बदलते भावों और इच्छाओं में इतने उलझ जाते हैं कि उनके पीछे वाले एक को भूल जाते हैं। जैसे कोई फ़िल्म में इतना खो जाए कि वह पर्दा ही भूल जाए जिस पर फ़िल्म चल रही है।"
+},
+"gita_ch7_v14": {
+  en: "On our own, it is very hard to get out of this web of moods and confusion. But Kṛṣṇa gives a simple way out: hold on to Me. A child crossing a busy road just holds the parent's hand.",
+  te: "మన సొంత బలంతో ఈ మోహపు వలలోంచి బయటపడటం చాలా కష్టం. కానీ శ్రీకృష్ణుడు సులువైన దారి చూపిస్తున్నాడు: నన్ను పట్టుకో. రద్దీ రోడ్డు దాటే పిల్లవాడు అమ్మానాన్నల చేయి పట్టుకుంటే చాలు కదా.",
+  hi: "अपने बल पर भावों और भ्रम के इस जाल से निकलना बहुत कठिन है। पर श्रीकृष्ण सरल उपाय बताते हैं: मुझे थाम लो। भीड़ भरी सड़क पार करने वाला बच्चा बस माता-पिता का हाथ पकड़ लेता है।"
+},
+"gita_ch7_v15": {
+  en: "People caught up in harmful habits and selfish thinking usually don't turn to God, because their confusion has clouded their judgment. It is a warning to us: wrong actions slowly blind us to what is good.",
+  te: "హానికరమైన అలవాట్లలో, స్వార్థపు ఆలోచనల్లో చిక్కుకున్నవారు సాధారణంగా దేవుని వైపు తిరగరు; ఎందుకంటే వారి మోహం వారి వివేకాన్ని కప్పేసింది. ఇది మనకు ఒక హెచ్చరిక: తప్పుడు పనులు నెమ్మదిగా మంచిని చూడలేని గుడ్డితనాన్ని తెస్తాయి.",
+  hi: "जो लोग हानिकारक आदतों और स्वार्थी सोच में फँसे होते हैं, वे अक्सर भगवान की ओर नहीं मुड़ते, क्योंकि उनके भ्रम ने उनकी समझ ढक दी है। यह हमारे लिए चेतावनी है: गलत काम धीरे-धीरे हमें अच्छाई के प्रति अंधा कर देते हैं।"
+},
+"gita_ch7_v16": {
+  en: "People come to God for different reasons — some in trouble, some curious, some wanting help with life, and some out of pure understanding. Kṛṣṇa calls all of them good. Whatever brings you to God is a good start.",
+  te: "మనుషులు రకరకాల కారణాలతో దేవుని దగ్గరకు వస్తారు — కొందరు కష్టంలో, కొందరు తెలుసుకోవాలనే ఆసక్తితో, కొందరు జీవితంలో సహాయం కోసం, కొందరు నిజమైన అవగాహనతో. వీరందరినీ శ్రీకృష్ణుడు మంచివారనే అంటాడు. నిన్ను దేవుని దగ్గరకు ఏది తెచ్చినా, అది మంచి మొదలే.",
+  hi: "लोग अलग-अलग कारणों से भगवान के पास आते हैं — कुछ संकट में, कुछ जिज्ञासा से, कुछ जीवन में मदद चाहकर, और कुछ शुद्ध समझ से। श्रीकृष्ण इन सबको अच्छा कहते हैं। जो भी तुम्हें भगवान तक लाए, वह अच्छी शुरुआत है।"
+},
+"gita_ch7_v17": {
+  en: "Of these, the one who loves God not for any gift but simply for Himself is the closest. It is like a friend who visits not because they need something, but just because they love you — such love is returned in full.",
+  te: "వీరిలో, ఏ వరం కోసమూ కాక కేవలం దేవుని కోసమే దేవుణ్ణి ప్రేమించేవాడు అత్యంత దగ్గరివాడు. ఏదో అవసరం వల్ల కాక, కేవలం ప్రేమతో మనల్ని చూడటానికి వచ్చే స్నేహితుడిలాంటిది ఇది — అలాంటి ప్రేమకు పూర్తి ప్రేమే తిరిగి వస్తుంది.",
+  hi: "इनमें वह सबसे निकट है जो किसी वरदान के लिए नहीं, बस भगवान के लिए ही भगवान से प्रेम करता है। जैसे कोई मित्र किसी ज़रूरत से नहीं, बस प्रेम से मिलने आए — ऐसे प्रेम का उत्तर पूरे प्रेम से मिलता है।"
+},
+"gita_ch7_v18": {
+  en: "Kṛṣṇa is generous — He calls every seeker noble, even those who come asking for help. But the wise devotee is so close that Kṛṣṇa says, 'He is My own Self.' Love can make two hearts feel like one.",
+  te: "శ్రీకృష్ణుడు ఎంతో ఉదారుడు — సహాయం అడగడానికి వచ్చినవారిని కూడా ఆయన ఉదారులనే అంటాడు. కానీ జ్ఞానియైన భక్తుడు ఎంత దగ్గరంటే, ‘అతడు నా ఆత్మయే’ అంటాడు. ప్రేమ రెండు హృదయాలను ఒక్కటిగా చేయగలదు.",
+  hi: "श्रीकृष्ण बहुत उदार हैं — मदद माँगने आने वालों को भी वे उदार ही कहते हैं। पर ज्ञानी भक्त इतना निकट है कि श्रीकृष्ण कहते हैं, ‘वह तो मेरा आत्मा ही है।’ प्रेम दो हृदयों को एक बना सकता है।"
+},
+"gita_ch7_v19": {
+  en: "After a long journey, a person finally sees that God is in everything and everyone. Such a person is rare — but every small step we take today is part of that same long journey.",
+  te: "ఎంతో దూరం ప్రయాణం చేసిన తర్వాత, చివరికి ఒక మనిషి ‘అన్నిటిలో, అందరిలో దేవుడే ఉన్నాడు’ అని చూడగలుగుతాడు. అలాంటివారు అరుదు — కానీ ఈరోజు మనం వేసే ప్రతి చిన్న అడుగూ ఆ దీర్ఘ ప్రయాణంలో భాగమే.",
+  hi: "लंबी यात्रा के बाद कोई व्यक्ति आख़िर देख पाता है कि भगवान सबमें और हर किसी में हैं। ऐसे लोग दुर्लभ हैं — पर आज उठाया हमारा हर छोटा कदम उसी लंबी यात्रा का हिस्सा है।"
+},
+"gita_ch7_v20": {
+  en: "When our wishes are strong, we go wherever we think they will be fulfilled — to this deity or that ritual. Kṛṣṇa is not angry about it; He is simply showing how our desires shape where we turn.",
+  te: "మన కోరికలు బలంగా ఉన్నప్పుడు, అవి ఎక్కడ తీరుతాయని అనుకుంటే అక్కడికి వెళ్తాం — ఈ దేవత దగ్గరికో, ఆ వ్రతం దగ్గరికో. దీనిపై శ్రీకృష్ణుడికి కోపం లేదు; మన కోరికలే మనం ఎటు తిరగాలో ఎలా నిర్ణయిస్తాయో చూపిస్తున్నాడు.",
+  hi: "जब हमारी इच्छाएँ प्रबल होती हैं, तो हम वहाँ जाते हैं जहाँ हमें लगता है वे पूरी होंगी — इस देवता के पास या उस व्रत में। श्रीकृष्ण इस पर नाराज़ नहीं हैं; वे बस दिखा रहे हैं कि हमारी इच्छाएँ कैसे तय करती हैं कि हम किस ओर मुड़ें।"
+},
+"gita_ch7_v21": {
+  en: "This is a very kind verse. Whatever form of God a person prays to sincerely, Kṛṣṇa Himself strengthens that faith. God respects every honest prayer, in whatever way it is offered.",
+  te: "ఇది ఎంతో దయగల శ్లోకం. ఎవరు ఏ రూపంలో దేవుణ్ణి నిజాయితీగా ప్రార్థించినా, ఆ నమ్మకాన్ని శ్రీకృష్ణుడే బలపరుస్తాడు. ఏ విధంగా చేసినా, ప్రతి నిజాయితీ గల ప్రార్థనను దేవుడు గౌరవిస్తాడు.",
+  hi: "यह बहुत दयालु श्लोक है। कोई भी व्यक्ति भगवान के जिस भी रूप की सच्चे मन से प्रार्थना करे, श्रीकृष्ण स्वयं उस श्रद्धा को दृढ़ करते हैं। भगवान हर सच्ची प्रार्थना का आदर करते हैं, चाहे वह किसी भी तरह की जाए।"
+},
+"gita_ch7_v22": {
+  en: "People get what they pray for — but behind every answered prayer, it is the one God who is giving. Many doors, one house.",
+  te: "మనుషులు ప్రార్థించినది పొందుతారు — కానీ తీరిన ప్రతి ప్రార్థన వెనుకా ఇచ్చేది ఆ ఒక్క దేవుడే. తలుపులు ఎన్నో, ఇల్లు ఒక్కటే.",
+  hi: "लोगों को वह मिलता है जिसके लिए वे प्रार्थना करते हैं — पर हर पूरी हुई प्रार्थना के पीछे देने वाला एक ही भगवान है। दरवाज़े अनेक, घर एक।"
+},
+"gita_ch7_v23": {
+  en: "Things we ask for — money, success, comforts — are good, but they don't last. Kṛṣṇa gently says: aim higher. Those who seek God Himself get something that never runs out.",
+  te: "మనం అడిగేవి — డబ్బు, విజయం, సుఖాలు — మంచివే, కానీ అవి శాశ్వతం కావు. శ్రీకృష్ణుడు మెల్లగా చెబుతున్నాడు: ఇంకా ఉన్నతమైనదాన్ని కోరుకో. దేవుణ్ణే కోరుకునేవారికి ఎప్పటికీ తరిగిపోనిది దొరుకుతుంది.",
+  hi: "जो हम माँगते हैं — धन, सफलता, सुख — अच्छे हैं, पर टिकते नहीं। श्रीकृष्ण प्यार से कहते हैं: ऊँचा लक्ष्य रखो। जो स्वयं भगवान को चाहते हैं, उन्हें वह मिलता है जो कभी खत्म नहीं होता।"
+},
+"gita_ch7_v24": {
+  en: "Some people look at Kṛṣṇa and see only a man who was born and lived like us. They miss that the infinite God has chosen to come close to us in a form we can love.",
+  te: "కొందరు శ్రీకృష్ణుని చూసి, మనలాగే పుట్టి జీవించిన ఒక మనిషిని మాత్రమే చూస్తారు. అనంతుడైన దేవుడు మనం ప్రేమించగలిగే రూపంలో మనకు దగ్గరగా రావాలని ఎంచుకున్నాడని వారు గ్రహించరు.",
+  hi: "कुछ लोग श्रीकृष्ण को देखकर केवल एक मनुष्य देखते हैं जो हमारी तरह जन्मा और जिया। वे यह नहीं समझते कि अनंत भगवान ने ऐसे रूप में हमारे पास आना चुना जिससे हम प्रेम कर सकें।"
+},
+"gita_ch7_v25": {
+  en: "God does not show Himself to everyone at once — there is a gentle veil. Those who sincerely seek Him find the veil slowly lifting; those who don't care keep seeing only the surface.",
+  te: "దేవుడు తనను అందరికీ ఒకేసారి చూపించుకోడు — మధ్యలో ఒక సున్నితమైన తెర ఉంటుంది. ఆయనను నిజంగా వెతికేవారికి ఆ తెర నెమ్మదిగా తొలగిపోతుంది; పట్టించుకోనివారు పైపై రూపాన్నే చూస్తూ ఉంటారు.",
+  hi: "भगवान स्वयं को सबके सामने एक साथ प्रकट नहीं करते — बीच में एक कोमल पर्दा है। जो सच्चे मन से उन्हें खोजते हैं, उनके लिए वह पर्दा धीरे-धीरे हटता है; जो परवाह नहीं करते, वे केवल ऊपरी रूप ही देखते रहते हैं।"
+},
+"gita_ch7_v26": {
+  en: "God knows everything about everyone — past, present and future. We cannot fully figure Him out with our cleverness; we come to know Him only when He reveals Himself to a loving heart.",
+  te: "దేవునికి అందరి గురించీ అన్నీ తెలుసు — గతం, వర్తమానం, భవిష్యత్తు. మన తెలివితేటలతో ఆయనను పూర్తిగా అర్థం చేసుకోలేం; ప్రేమ నిండిన హృదయానికి ఆయనే తనను తెలియజేసుకున్నప్పుడే ఆయన తెలుస్తాడు.",
+  hi: "भगवान सबके बारे में सब कुछ जानते हैं — भूत, वर्तमान और भविष्य। अपनी चतुराई से हम उन्हें पूरा नहीं समझ सकते; हम उन्हें तभी जानते हैं जब वे स्वयं प्रेम भरे हृदय के सामने प्रकट होते हैं।"
+},
+"gita_ch7_v27": {
+  en: "From childhood we are pulled back and forth by 'I like this' and 'I hate that'. This constant tug-of-war is what confuses us and keeps us from seeing clearly.",
+  te: "చిన్నతనం నుంచే ‘ఇది నాకు ఇష్టం’, ‘అది నాకు అస్సలు నచ్చదు’ అనే లాగులాటలో మనం అటూ ఇటూ ఊగుతూ ఉంటాం. ఈ ఎడతెగని పోరాటమే మనల్ని గందరగోళంలో పడేసి, స్పష్టంగా చూడనివ్వదు.",
+  hi: "बचपन से ही हम ‘यह मुझे पसंद है’ और ‘वह मुझे बिल्कुल नहीं भाता’ के बीच खिंचते रहते हैं। यही लगातार रस्साकशी हमें उलझाती है और साफ़ देखने नहीं देती।"
+},
+"gita_ch7_v28": {
+  en: "As we keep doing good and our mistakes are slowly washed away, that tug-of-war loosens. Then devotion becomes steady — not up and down with our moods.",
+  te: "మనం మంచి పనులు చేస్తూ ఉంటే, మన తప్పులు నెమ్మదిగా కొట్టుకుపోతాయి; ఆ లాగులాట సడలిపోతుంది. అప్పుడు భక్తి మన మూడ్‌తో పాటు ఎక్కి దిగకుండా స్థిరంగా ఉంటుంది.",
+  hi: "जैसे-जैसे हम अच्छा करते रहते हैं और हमारी गलतियाँ धीरे-धीरे धुलती जाती हैं, वह रस्साकशी ढीली पड़ जाती है। तब भक्ति हमारे मूड के साथ ऊपर-नीचे नहीं होती, स्थिर हो जाती है।"
+},
+"gita_ch7_v29": {
+  en: "Everyone fears growing old and dying. Kṛṣṇa says: those who lean on Me in that fear come to understand the deepest truths — about God, about themselves and about how life works.",
+  te: "ముసలితనానికి, మరణానికి ప్రతి ఒక్కరూ భయపడతారు. ఆ భయంలో నన్ను ఆశ్రయించేవారు అత్యంత లోతైన సత్యాలను — దేవుని గురించి, తమ గురించి, జీవితం ఎలా నడుస్తుందనే దాని గురించి — అర్థం చేసుకుంటారు అంటున్నాడు శ్రీకృష్ణుడు.",
+  hi: "हर कोई बुढ़ापे और मृत्यु से डरता है। श्रीकृष्ण कहते हैं: जो उस डर में मेरा सहारा लेते हैं, वे सबसे गहरे सत्य समझ लेते हैं — भगवान के बारे में, अपने बारे में और जीवन कैसे चलता है इसके बारे में।"
+},
+"gita_ch7_v30": {
+  en: "Those who see God behind nature, behind the divine powers and behind every act of worship stay connected to Him even at the moment of death. The chapter ends with a hint of the next one: what happens when we leave this world?",
+  te: "ప్రకృతి వెనుక, దైవ శక్తుల వెనుక, ప్రతి పూజ వెనుక దేవుణ్ణి చూసేవారు మరణ సమయంలో కూడా ఆయనతో ముడిపడే ఉంటారు. అధ్యాయం తర్వాతి అధ్యాయానికి సూచనతో ముగుస్తుంది: ఈ లోకాన్ని విడిచినప్పుడు ఏమవుతుంది?",
+  hi: "जो प्रकृति के पीछे, दिव्य शक्तियों के पीछे और हर पूजा के पीछे भगवान को देखते हैं, वे मृत्यु के क्षण में भी उनसे जुड़े रहते हैं। अध्याय अगले अध्याय की झलक के साथ समाप्त होता है: इस संसार को छोड़ते समय क्या होता है?"
+},
+
+// ── Chapter 8 · Akṣara Brahma Yoga ──
+"gita_ch8_v1": {
+  en: "At the end of the last chapter Kṛṣṇa used some big words, and Arjuna, like a good student, simply asks: what do they mean? It is a reminder that it is fine to ask when we don't understand.",
+  te: "గత అధ్యాయం చివర్లో శ్రీకృష్ణుడు కొన్ని పెద్ద పదాలు వాడాడు; మంచి విద్యార్థిలాగా అర్జునుడు సూటిగా ‘వాటి అర్థం ఏమిటి?’ అని అడుగుతున్నాడు. అర్థం కానప్పుడు అడగడం తప్పు కాదని ఇది మనకు గుర్తు చేస్తుంది.",
+  hi: "पिछले अध्याय के अंत में श्रीकृष्ण ने कुछ बड़े शब्द बोले, और अर्जुन एक अच्छे विद्यार्थी की तरह सीधे पूछते हैं: इनका अर्थ क्या है? यह याद दिलाता है कि जब समझ न आए तो पूछना बिल्कुल ठीक है।"
+},
+"gita_ch8_v2": {
+  en: "Arjuna's most personal question is the last one: how can a person remember God at the moment of death? Everyone wonders about this one day — what will my last moments be like?",
+  te: "అర్జునుని అత్యంత వ్యక్తిగతమైన ప్రశ్న చివరిదే: మరణ సమయంలో మనిషి దేవుణ్ణి ఎలా గుర్తుంచుకోగలడు? ‘నా చివరి క్షణాలు ఎలా ఉంటాయి?’ అని ఎప్పుడో ఒకప్పుడు ప్రతి ఒక్కరూ ఆలోచిస్తారు.",
+  hi: "अर्जुन का सबसे निजी प्रश्न आख़िरी वाला है: मृत्यु के क्षण में मनुष्य भगवान को कैसे याद रख सकता है? हर कोई कभी न कभी यह सोचता है — मेरे आख़िरी पल कैसे होंगे?"
+},
+"gita_ch8_v3": {
+  en: "Kṛṣṇa answers simply: Brahman is the eternal reality that never ends. The 'inner self' is that same reality living in each of us. And 'action' is the great creative work that keeps life coming into being.",
+  te: "శ్రీకృష్ణుడు సరళంగా జవాబిస్తున్నాడు: ఎప్పటికీ అంతం కాని శాశ్వత సత్యమే బ్రహ్మం. మనలో ప్రతి ఒక్కరిలో నివసించే అదే సత్యం ‘అధ్యాత్మం’. జీవాన్ని పుట్టిస్తూ ఉండే గొప్ప సృష్టి కార్యమే ‘కర్మ’.",
+  hi: "श्रीकृष्ण सरलता से उत्तर देते हैं: ब्रह्म वह शाश्वत सत्य है जो कभी समाप्त नहीं होता। ‘अध्यात्म’ वही सत्य है जो हम सबमें रहता है। और ‘कर्म’ वह महान सृष्टि-कार्य है जिससे जीवन बनता रहता है।"
+},
+"gita_ch8_v4": {
+  en: "The world of changing things, the cosmic divine Person, and God sitting quietly in our own heart, receiving every offering — all are aspects of the one God. The God of the universe is also the God within you.",
+  te: "మారే వస్తువుల ప్రపంచం, విశ్వమంతా నిండిన దివ్య పురుషుడు, మన హృదయంలోనే నిశ్శబ్దంగా కూర్చుని ప్రతి అర్పణనూ స్వీకరించే దేవుడు — ఇవన్నీ ఒకే దేవుని రూపాలు. విశ్వానికి దేవుడైనవాడే నీ లోపల ఉన్న దేవుడు కూడా.",
+  hi: "बदलती चीज़ों का संसार, पूरे विश्व में व्याप्त दिव्य पुरुष, और हमारे हृदय में चुपचाप बैठकर हर अर्पण स्वीकार करने वाले भगवान — ये सब एक ही भगवान के रूप हैं। विश्व का भगवान ही तुम्हारे भीतर का भगवान भी है।"
+},
+"gita_ch8_v5": {
+  en: "A very comforting promise: whoever thinks of God at the end goes to God — no doubt about it. The last thought is like the address written on a letter; it decides where the journey goes.",
+  te: "ఎంతో ఓదార్పునిచ్చే మాట: చివరి క్షణంలో దేవుణ్ణి తలచుకున్నవాడు దేవుణ్ణే చేరుకుంటాడు — ఇందులో సందేహమే లేదు. ఉత్తరం మీద రాసిన చిరునామా లాంటిది చివరి ఆలోచన; ప్రయాణం ఎక్కడికో అదే నిర్ణయిస్తుంది.",
+  hi: "बहुत सांत्वना देने वाला वचन: जो अंत में भगवान को याद करता है, वह भगवान तक पहुँचता है — इसमें कोई संदेह नहीं। आख़िरी विचार चिट्ठी पर लिखे पते जैसा है; वही तय करता है कि यात्रा कहाँ जाएगी।"
+},
+"gita_ch8_v6": {
+  en: "But here is the catch: our last thought is usually what we have thought about most in life. You cannot suddenly switch it on at the end. What we fill our days with is what will be in our minds at the end.",
+  te: "కానీ ఇక్కడే అసలు విషయం ఉంది: మన చివరి ఆలోచన సాధారణంగా జీవితమంతా మనం ఎక్కువగా ఆలోచించినదే అవుతుంది. చివర్లో అకస్మాత్తుగా దాన్ని మార్చలేం. మన రోజుల్ని దేనితో నింపుకుంటామో, అదే చివరికి మన మనసులో ఉంటుంది.",
+  hi: "पर यहाँ असली बात है: हमारा आख़िरी विचार अक्सर वही होता है जिसके बारे में हमने जीवन भर सबसे ज़्यादा सोचा। अंत में अचानक इसे बदला नहीं जा सकता। हम अपने दिन जिससे भरते हैं, वही अंत में हमारे मन में होगा।"
+},
+"gita_ch8_v7": {
+  en: "This is the heart of the chapter: remember God always — and do your duty. Kṛṣṇa does not say 'stop working and only pray'. Keep God in your heart while you study, work and care for your family.",
+  te: "ఈ అధ్యాయానికి ఇదే హృదయం: ఎప్పుడూ దేవుణ్ణి స్మరించు — నీ కర్తవ్యం కూడా చెయ్యి. ‘పని మానేసి ప్రార్థన మాత్రమే చెయ్యి’ అని శ్రీకృష్ణుడు చెప్పడం లేదు. చదువుకుంటూ, పని చేస్తూ, కుటుంబాన్ని చూసుకుంటూనే దేవుణ్ణి మనసులో ఉంచుకో.",
+  hi: "यही इस अध्याय का हृदय है: हमेशा भगवान को याद रखो — और अपना कर्तव्य करो। श्रीकृष्ण यह नहीं कहते कि ‘काम छोड़कर केवल प्रार्थना करो’। पढ़ते, काम करते और परिवार की देखभाल करते हुए भी भगवान को मन में रखो।"
+},
+"gita_ch8_v8": {
+  en: "Remembering God is a habit, and habits come from practice. Just as a musician practises daily until the tune plays by itself, a few minutes of daily prayer slowly trains the mind to return to God on its own.",
+  te: "దేవుణ్ణి స్మరించడం ఒక అలవాటు; అలవాట్లు అభ్యాసంతోనే వస్తాయి. సంగీతకారుడు రాగం తనంతట తానే పలికే వరకు రోజూ సాధన చేసినట్టు, రోజూ కొన్ని నిమిషాల ప్రార్థన మనసును తనంతట తానే దేవుని వైపు తిరిగేలా నెమ్మదిగా అలవాటు చేస్తుంది.",
+  hi: "भगवान को याद करना एक आदत है, और आदतें अभ्यास से बनती हैं। जैसे संगीतकार रोज़ अभ्यास करता है जब तक धुन अपने-आप न बजने लगे, वैसे ही रोज़ कुछ मिनट की प्रार्थना मन को धीरे-धीरे अपने-आप भगवान की ओर लौटना सिखा देती है।"
+},
+"gita_ch8_v9": {
+  en: "Here Kṛṣṇa paints a picture of God to hold in our minds: wise, ancient, gently guiding everything, smaller than an atom yet holding up the universe, bright like the sun, far beyond all darkness.",
+  te: "మనసులో నిలుపుకోవడానికి శ్రీకృష్ణుడు ఇక్కడ దేవుని చిత్రాన్ని గీస్తున్నాడు: అన్నీ తెలిసినవాడు, అత్యంత పురాతనుడు, అన్నిటినీ ప్రేమగా నడిపించేవాడు, అణువు కంటే చిన్నవాడైనా విశ్వాన్నే మోసేవాడు, సూర్యుడిలా ప్రకాశించేవాడు, చీకటికి ఎంతో దూరంగా ఉన్నవాడు.",
+  hi: "यहाँ श्रीकृष्ण मन में रखने के लिए भगवान का एक चित्र बनाते हैं: सर्वज्ञ, सबसे प्राचीन, सबको प्रेम से चलाने वाले, अणु से भी छोटे फिर भी विश्व को थामने वाले, सूर्य जैसे प्रकाशमान, सारे अंधकार से बहुत दूर।"
+},
+"gita_ch8_v10": {
+  en: "A person who has practised devotion and inner steadiness can, at the last moment, gather the mind fully on that light and go to God. Practice in life becomes strength at the end.",
+  te: "జీవితంలో భక్తినీ, మనసు స్థిరత్వాన్నీ అభ్యసించినవాడు చివరి క్షణంలో మనసంతా ఆ వెలుగు మీదే కేంద్రీకరించి దేవుణ్ణి చేరుకోగలడు. జీవితంలో చేసిన సాధనే చివరికి బలమవుతుంది.",
+  hi: "जिसने जीवन में भक्ति और भीतरी स्थिरता का अभ्यास किया है, वह आख़िरी पल में पूरा मन उस प्रकाश पर लगाकर भगवान तक पहुँच सकता है। जीवन का अभ्यास ही अंत में बल बनता है।"
+},
+"gita_ch8_v11": {
+  en: "Kṛṣṇa is about to share the goal that all the great seekers have aimed for — the goal people study scriptures and live disciplined lives for. He promises to explain it briefly, so we don't get lost.",
+  te: "గొప్ప సాధకులందరూ గురి పెట్టిన లక్ష్యాన్ని — దేని కోసం మనుషులు శాస్త్రాలు చదివి, నియమబద్ధమైన జీవితం గడుపుతారో దాన్ని — శ్రీకృష్ణుడు ఇప్పుడు చెప్పబోతున్నాడు. మనం దారి తప్పకుండా క్లుప్తంగా చెబుతానంటున్నాడు.",
+  hi: "श्रीकृष्ण अब वह लक्ष्य बताने वाले हैं जिसके लिए सब महान साधक प्रयास करते हैं — जिसके लिए लोग शास्त्र पढ़ते और अनुशासित जीवन जीते हैं। वे संक्षेप में बताने का वचन देते हैं, ताकि हम उलझें नहीं।"
+},
+"gita_ch8_v12": {
+  en: "This describes the yogī's way of going: turning attention away from the outside world, resting the mind in the heart and gathering all energy upward. In daily life, even closing our eyes and turning inward for a moment brings peace.",
+  te: "ఇది యోగి వెళ్ళే విధానాన్ని వివరిస్తోంది: బయటి ప్రపంచం నుంచి దృష్టి మరల్చి, మనసును హృదయంలో నిలిపి, శక్తినంతా పైకి కేంద్రీకరించడం. రోజువారీ జీవితంలో కూడా ఒక్క క్షణం కళ్ళు మూసుకుని లోపలికి చూసుకుంటే మనసుకు శాంతి కలుగుతుంది.",
+  hi: "यह योगी के जाने का तरीका बताता है: बाहरी संसार से ध्यान हटाकर, मन को हृदय में टिकाकर, सारी ऊर्जा ऊपर की ओर समेटना। रोज़ की ज़िंदगी में भी एक पल आँखें बंद करके भीतर मुड़ने से शांति मिलती है।"
+},
+"gita_ch8_v13": {
+  en: "Om is the simplest prayer — one sound that holds everything. Saying Om while remembering God, at the last moment, takes a person to the highest place. That is why Om is chanted at the start of so many prayers.",
+  te: "‘ఓం’ అత్యంత సరళమైన ప్రార్థన — అన్నిటినీ తనలో ఇముడ్చుకున్న ఒకే శబ్దం. చివరి క్షణంలో దేవుణ్ణి స్మరిస్తూ ‘ఓం’ అంటే మనిషి అత్యున్నత స్థానానికి చేరుకుంటాడు. అందుకే ఎన్నో ప్రార్థనలు ‘ఓం’తోనే మొదలవుతాయి.",
+  hi: "ॐ सबसे सरल प्रार्थना है — एक ऐसी ध्वनि जिसमें सब कुछ समाया है। अंतिम क्षण में भगवान को याद करते हुए ॐ कहने से मनुष्य सर्वोच्च स्थान तक पहुँचता है। इसीलिए इतनी सारी प्रार्थनाएँ ॐ से शुरू होती हैं।"
+},
+"gita_ch8_v14": {
+  en: "Is God hard to reach? Kṛṣṇa says: not for the one who remembers Me every day with an undivided heart. Like a close friend you talk to daily, God becomes easy to find.",
+  te: "దేవుణ్ణి చేరుకోవడం కష్టమా? ‘వేరే దేని మీదా మనసు పెట్టకుండా రోజూ నన్ను స్మరించేవాడికి కాదు’ అంటున్నాడు శ్రీకృష్ణుడు. రోజూ మాట్లాడుకునే ఆత్మీయ స్నేహితుడిలాగా, దేవుడు సులభంగా దొరుకుతాడు.",
+  hi: "क्या भगवान तक पहुँचना कठिन है? श्रीकृष्ण कहते हैं: उसके लिए नहीं जो अनन्य मन से हर दिन मुझे याद करता है। जिस घनिष्ठ मित्र से हम रोज़ बात करते हैं, उसकी तरह भगवान आसानी से मिल जाते हैं।"
+},
+"gita_ch8_v15": {
+  en: "Life in this world always mixes joy with sorrow, and nothing here lasts. Those who reach God are free from that endless cycle — they have reached the real goal of life.",
+  te: "ఈ లోకంలో జీవితం ఎప్పుడూ సుఖాన్నీ దుఃఖాన్నీ కలిపే ఇస్తుంది; ఇక్కడ ఏదీ శాశ్వతం కాదు. దేవుణ్ణి చేరుకున్నవారు ఆ అంతులేని చక్రం నుంచి విముక్తులవుతారు — వారు జీవితపు అసలైన లక్ష్యాన్ని చేరుకున్నారు.",
+  hi: "इस संसार में जीवन हमेशा सुख और दुख को मिलाकर देता है, और यहाँ कुछ भी टिकता नहीं। जो भगवान तक पहुँच जाते हैं, वे उस अंतहीन चक्र से मुक्त हो जाते हैं — उन्होंने जीवन का असली लक्ष्य पा लिया।"
+},
+"gita_ch8_v16": {
+  en: "Even the highest heavens are like a holiday: wonderful, but you come back home when it ends. Only reaching God is a true homecoming, from which there is no need to return.",
+  te: "అత్యున్నత స్వర్గలోకాలు కూడా విహారయాత్ర లాంటివే: అద్భుతంగా ఉంటాయి, కానీ అవి ముగిస్తే తిరిగి రావలసిందే. దేవుణ్ణి చేరుకోవడమే నిజమైన ఇంటికి చేరడం — అక్కడి నుంచి తిరిగి రావలసిన అవసరం ఉండదు.",
+  hi: "ऊँचे से ऊँचे स्वर्ग भी छुट्टियों जैसे हैं: अद्भुत, पर ख़त्म होने पर लौटना पड़ता है। केवल भगवान तक पहुँचना ही सच्ची घर-वापसी है, जहाँ से लौटने की ज़रूरत नहीं।"
+},
+"gita_ch8_v17": {
+  en: "Kṛṣṇa zooms out to cosmic time: a single day of Brahmā, the creator, lasts thousands of ages. Against such a huge clock, our worries look very small — and our life very precious.",
+  te: "శ్రీకృష్ణుడు విశ్వ కాలాన్ని చూపిస్తున్నాడు: సృష్టికర్త బ్రహ్మదేవుని ఒక్క పగలే వేలాది యుగాలు. అంత పెద్ద గడియారం ముందు మన చింతలు చాలా చిన్నవిగా — మన జీవితం ఎంతో విలువైనదిగా — కనిపిస్తాయి.",
+  hi: "श्रीकृष्ण ब्रह्मांड के समय की ओर ले जाते हैं: सृष्टिकर्ता ब्रह्मा का एक दिन ही हज़ारों युगों का है। ऐसी विशाल घड़ी के सामने हमारी चिंताएँ बहुत छोटी लगती हैं — और हमारा जीवन बहुत कीमती।"
+},
+"gita_ch8_v18": {
+  en: "The universe breathes in and out. When the cosmic day begins, everything appears; when the night comes, everything goes quiet again — like a whole city waking in the morning and sleeping at night.",
+  te: "విశ్వం శ్వాస తీసుకుని విడుస్తున్నట్టు ఉంటుంది. విశ్వ పగలు మొదలవగానే అన్నీ కనిపిస్తాయి; రాత్రి రాగానే అన్నీ మళ్ళీ నిశ్శబ్దమైపోతాయి — ఒక నగరం మొత్తం ఉదయం మేల్కొని రాత్రి నిద్రపోయినట్టు.",
+  hi: "विश्व जैसे साँस लेता और छोड़ता है। ब्रह्मांड का दिन शुरू होते ही सब प्रकट होता है; रात आते ही सब फिर शांत हो जाता है — जैसे पूरा शहर सुबह जागता और रात को सो जाता है।"
+},
+"gita_ch8_v19": {
+  en: "The same beings come and go, again and again, not by their own choice. This endless coming and going is the cycle the Gītā wants to free us from.",
+  te: "అవే ప్రాణులు తమ ఇష్టం లేకుండానే మళ్ళీ మళ్ళీ వస్తూ పోతూ ఉంటాయి. ఈ అంతులేని రాకపోకల చక్రం నుంచే గీత మనల్ని విముక్తి చేయాలనుకుంటోంది.",
+  hi: "वही प्राणी बार-बार, अपनी इच्छा के बिना, आते-जाते रहते हैं। इसी अंतहीन आने-जाने के चक्र से गीता हमें मुक्त करना चाहती है।"
+},
+"gita_ch8_v20": {
+  en: "But there is something that never goes through this cycle — a reality beyond all creation and destruction. Even if everything else falls apart, it remains. That is what we really belong to.",
+  te: "కానీ ఈ చక్రంలో ఎప్పుడూ పడనిది ఒకటి ఉంది — సృష్టికీ, నాశనానికీ అతీతమైన సత్యం. మిగిలినవన్నీ కూలిపోయినా, అది మిగిలే ఉంటుంది. నిజానికి మనం చెందినది దానికే.",
+  hi: "पर एक चीज़ है जो कभी इस चक्र में नहीं पड़ती — सृष्टि और विनाश से परे एक सत्य। बाक़ी सब बिखर जाए, तब भी वह बना रहता है। असल में हम उसी के हैं।"
+},
+"gita_ch8_v21": {
+  en: "That unchanging reality is God's own home. Once you get there, there is no going back to sorrow. It is the final destination of every soul's journey.",
+  te: "మార్పులేని ఆ సత్యమే దేవుని సొంత ఇల్లు. అక్కడికి చేరుకున్నాక మళ్ళీ దుఃఖంలోకి తిరిగి రావడం ఉండదు. ప్రతి ఆత్మ ప్రయాణానికీ అదే చివరి గమ్యం.",
+  hi: "वह अपरिवर्तनशील सत्य ही भगवान का अपना घर है। वहाँ पहुँचने के बाद दुख में लौटना नहीं होता। हर आत्मा की यात्रा की वही अंतिम मंज़िल है।"
+},
+"gita_ch8_v22": {
+  en: "And how do we get there? Not by clever tricks, but by wholehearted love. The God who holds the whole universe is reached by a heart that loves Him alone.",
+  te: "మరి అక్కడికి ఎలా చేరాలి? తెలివైన ఉపాయాలతో కాదు, సంపూర్ణ హృదయంతో కూడిన ప్రేమతో. విశ్వాన్నంతా తనలో పెట్టుకున్న దేవుడు, ఆయననే ప్రేమించే హృదయానికి దొరుకుతాడు.",
+  hi: "और वहाँ कैसे पहुँचें? चतुर उपायों से नहीं, पूरे हृदय के प्रेम से। जो भगवान पूरे विश्व को थामे हुए हैं, वे उस हृदय को मिलते हैं जो केवल उनसे प्रेम करता है।"
+},
+"gita_ch8_v23": {
+  en: "Now Kṛṣṇa speaks of the two paths souls take after death — one that leads home and one that leads back. It is an old Vedic teaching, told here as a picture.",
+  te: "ఇప్పుడు శ్రీకృష్ణుడు మరణం తర్వాత ఆత్మలు వెళ్ళే రెండు దారుల గురించి చెబుతున్నాడు — ఒకటి ఇంటికి తీసుకెళ్తుంది, మరొకటి మళ్ళీ వెనక్కి తెస్తుంది. ఇది ప్రాచీన వేద బోధ; ఇక్కడ ఒక చిత్రంలా చెప్పబడింది.",
+  hi: "अब श्रीकृष्ण मृत्यु के बाद आत्माओं के दो मार्गों की बात करते हैं — एक जो घर ले जाता है और एक जो वापस लाता है। यह प्राचीन वैदिक शिक्षा है, जो यहाँ एक चित्र की तरह कही गई है।"
+},
+"gita_ch8_v24": {
+  en: "The path home is pictured as all light — fire, bright day, the growing moon, the sun moving north. Those who have known God go by the path of light. A life lived in light leads to light.",
+  te: "ఇంటికి వెళ్ళే దారి పూర్తిగా వెలుగుతో నిండినట్టు చెప్పబడింది — అగ్ని, పగటి వెలుగు, పెరిగే చంద్రుడు, ఉత్తరాయణ సూర్యుడు. దేవుణ్ణి తెలుసుకున్నవారు వెలుగు దారిలో వెళ్తారు. వెలుగులో గడిపిన జీవితం వెలుగుకే చేరుస్తుంది.",
+  hi: "घर जाने वाला मार्ग पूरा प्रकाश से भरा बताया गया है — अग्नि, दिन का उजाला, बढ़ता चंद्रमा, उत्तर की ओर चलता सूर्य। जिन्होंने भगवान को जाना, वे प्रकाश के मार्ग से जाते हैं। प्रकाश में जिया गया जीवन प्रकाश तक ले जाता है।"
+},
+"gita_ch8_v25": {
+  en: "The other path is pictured as smoke and darkness — night, the fading moon, the sun moving south. Those who go this way enjoy some heavenly reward for their good deeds, but then return to be born again.",
+  te: "మరొక దారి పొగ, చీకటితో నిండినట్టు చెప్పబడింది — రాత్రి, తరిగే చంద్రుడు, దక్షిణాయన సూర్యుడు. ఈ దారిలో వెళ్ళినవారు తమ మంచి పనులకు కొంత స్వర్గ సుఖాన్ని అనుభవిస్తారు, కానీ మళ్ళీ జన్మించడానికి తిరిగి వస్తారు.",
+  hi: "दूसरा मार्ग धुएँ और अंधकार जैसा बताया गया है — रात, घटता चंद्रमा, दक्षिण की ओर चलता सूर्य। इस मार्ग से जाने वाले अपने अच्छे कर्मों का कुछ स्वर्गीय फल भोगते हैं, पर फिर जन्म लेने के लिए लौट आते हैं।"
+},
+"gita_ch8_v26": {
+  en: "These two roads have always existed: one goes forward and never returns, the other loops back. Which one we take depends on how we have lived and what our heart has been set on.",
+  te: "ఈ రెండు దారులూ ఎప్పటినుంచో ఉన్నాయి: ఒకటి ముందుకు వెళ్ళి మళ్ళీ తిరిగి రాదు, మరొకటి చుట్టి వెనక్కి వస్తుంది. మనం ఏ దారిలో వెళ్తామనేది మనం ఎలా జీవించాం, మన హృదయం దేని మీద నిలిచింది అనే దాన్ని బట్టి ఉంటుంది.",
+  hi: "ये दोनों रास्ते सदा से हैं: एक आगे जाता है और कभी नहीं लौटता, दूसरा घूमकर वापस आता है। हम कौन-सा रास्ता लेंगे, यह इस पर निर्भर है कि हमने कैसे जिया और हमारा हृदय किस पर टिका रहा।"
+},
+"gita_ch8_v27": {
+  en: "The real lesson is not to worry about the date or time of death. The one who stays connected to God every day is never confused, whenever the end comes. So Kṛṣṇa says: be in yoga always.",
+  te: "అసలు పాఠం మరణం ఏ రోజు, ఏ సమయంలో వస్తుందని చింతించడం కాదు. ప్రతిరోజూ దేవునితో ముడిపడి ఉండేవాడు, చివరి క్షణం ఎప్పుడు వచ్చినా గందరగోళపడడు. అందుకే ‘ఎప్పుడూ యోగంలో ఉండు’ అంటున్నాడు శ్రీకృష్ణుడు.",
+  hi: "असली सीख यह नहीं कि मृत्यु की तारीख़ या समय की चिंता करें। जो हर दिन भगवान से जुड़ा रहता है, वह अंत कभी भी आए, भ्रमित नहीं होता। इसलिए श्रीकृष्ण कहते हैं: हमेशा योग में रहो।"
+},
+"gita_ch8_v28": {
+  en: "All the good that comes from rituals, study, discipline and charity is wonderful — but knowing and loving God goes beyond all of it. The chapter ends by pointing to the one thing that is worth more than everything else.",
+  te: "పూజలు, అధ్యయనం, నియమాలు, దానాల వల్ల వచ్చే మంచి అంతా అద్భుతమైనదే — కానీ దేవుణ్ణి తెలుసుకుని ప్రేమించడం వాటన్నిటినీ మించినది. మిగతా అన్నిటికంటే విలువైన ఆ ఒక్కదాని వైపు చూపిస్తూ అధ్యాయం ముగుస్తుంది.",
+  hi: "पूजा, अध्ययन, अनुशासन और दान से जो भलाई मिलती है, वह अद्भुत है — पर भगवान को जानना और उनसे प्रेम करना इन सबसे ऊपर है। अध्याय उस एक चीज़ की ओर इशारा करते हुए समाप्त होता है जो बाक़ी सबसे अधिक मूल्यवान है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",

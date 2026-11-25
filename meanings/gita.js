@@ -1414,6 +1414,300 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "और सब योगियों में भी, जो श्रद्धा के साथ अपने अंतरात्मा को मुझमें लगाकर मुझे भजता है — उसे मैं सबसे श्रेष्ठ योगी (युक्ततम) मानता हूँ।"
 },
 
+// ── Chapter 7 · Jñāna Vijñāna Yoga ──
+"gita_ch7_v1": {
+  en: "The Lord said: Pārtha, with your mind attached to Me, practising yoga and taking refuge in Me — hear how you will know Me completely, without any doubt.",
+  te: "శ్రీ భగవానుడు అన్నాడు: పార్థా! మనసును నా యందే లగ్నం చేసి, నన్నే ఆశ్రయించి యోగాన్ని అభ్యసిస్తూ, సందేహం లేకుండా నన్ను సంపూర్ణంగా ఎలా తెలుసుకుంటావో విను.",
+  hi: "श्री भगवान ने कहा: हे पार्थ! मुझमें मन लगाकर, मेरा आश्रय लेकर योग का अभ्यास करते हुए, तुम मुझे बिना संशय के पूर्ण रूप से कैसे जानोगे — वह सुनो।"
+},
+"gita_ch7_v2": {
+  en: "I will teach you this knowledge in full, together with its direct realisation. Once you know it, nothing more remains to be known here.",
+  te: "అనుభవంతో కూడిన ఈ జ్ఞానాన్ని నీకు పూర్తిగా చెబుతాను. దీన్ని తెలుసుకున్న తర్వాత ఈ లోకంలో తెలుసుకోవలసినది ఇంకేమీ మిగలదు.",
+  hi: "मैं तुम्हें अनुभव सहित यह ज्ञान पूरा-पूरा बताऊँगा, जिसे जान लेने के बाद यहाँ और कुछ जानने को शेष नहीं रहता।"
+},
+"gita_ch7_v3": {
+  en: "Among thousands of people, hardly one strives for perfection; and even among those who strive and succeed, hardly one knows Me as I truly am.",
+  te: "వేలాది మనుషుల్లో ఏ ఒక్కరో సిద్ధి కోసం ప్రయత్నిస్తారు; అలా ప్రయత్నించి సిద్ధి పొందినవారిలో కూడా ఏ ఒక్కరో నన్ను యథార్థంగా తెలుసుకుంటారు.",
+  hi: "हज़ारों मनुष्यों में कोई एक सिद्धि के लिए प्रयास करता है, और प्रयास करने वाले सिद्धों में भी कोई एक ही मुझे तत्त्व से जानता है।"
+},
+"gita_ch7_v4": {
+  en: "Earth, water, fire, air, space, mind, intellect and the sense of 'I' — these are the eight parts into which My material nature is divided.",
+  te: "భూమి, నీరు, అగ్ని, వాయువు, ఆకాశం, మనసు, బుద్ధి, అహంకారం — ఇలా ఎనిమిది విధాలుగా విభజించబడినది నా ప్రకృతి.",
+  hi: "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि और अहंकार — ये आठ प्रकार से बँटी हुई मेरी प्रकृति है।"
+},
+"gita_ch7_v5": {
+  en: "That is My lower nature. But know, mighty-armed one, that I have another, higher nature — the life-principle, the living beings — by which this whole world is sustained.",
+  te: "ఇది నా అపర (తక్కువ) ప్రకృతి. మహాబాహూ! దీనికి భిన్నంగా, జీవరూపమైన నా పర (శ్రేష్ఠ) ప్రకృతి ఒకటి ఉందని తెలుసుకో — దాని వల్లే ఈ జగత్తు నిలిచి ఉంది.",
+  hi: "यह मेरी अपरा (निचली) प्रकृति है। हे महाबाहो! इससे भिन्न मेरी एक परा (श्रेष्ठ) प्रकृति भी जानो, जो जीवरूप है और जिससे यह सारा जगत धारण किया जाता है।"
+},
+"gita_ch7_v6": {
+  en: "Understand that all beings come from these two natures. I am the origin of the entire universe, and also its dissolution.",
+  te: "సమస్త ప్రాణులూ ఈ రెండు ప్రకృతుల నుంచే పుడతాయని గ్రహించు. ఈ సమస్త జగత్తుకూ పుట్టుకనూ, లయాన్నీ నేనే.",
+  hi: "समझ लो कि सब प्राणी इन्हीं दोनों प्रकृतियों से उत्पन्न होते हैं। सारे जगत की उत्पत्ति और प्रलय मैं ही हूँ।"
+},
+"gita_ch7_v7": {
+  en: "Dhanañjaya, there is nothing whatsoever higher than Me. All this is strung on Me, like pearls on a thread.",
+  te: "ధనంజయా! నాకంటే శ్రేష్ఠమైనది మరేదీ లేదు. దారంలో గుచ్చిన ముత్యాల్లాగా ఇదంతా నా యందే గుచ్చబడి ఉంది.",
+  hi: "हे धनंजय! मुझसे बढ़कर दूसरा कुछ भी नहीं है। यह सब कुछ मुझमें वैसे ही पिरोया हुआ है जैसे धागे में मोती।"
+},
+"gita_ch7_v8": {
+  en: "Kaunteya, I am the taste in water, the light of the moon and the sun, the sacred syllable Om in all the Vedas, the sound in space and the strength of manhood in people.",
+  te: "కౌంతేయా! నీటిలో రుచిని నేను; చంద్రసూర్యుల్లో కాంతిని నేను; వేదాలన్నిటిలో ఓంకారాన్ని నేను; ఆకాశంలో శబ్దాన్ని, మనుషుల్లో పౌరుషాన్ని నేనే.",
+  hi: "हे कौंतेय! जल में रस मैं हूँ, चंद्रमा और सूर्य में प्रकाश मैं हूँ, सब वेदों में ओंकार, आकाश में शब्द और मनुष्यों में पुरुषार्थ मैं हूँ।"
+},
+"gita_ch7_v9": {
+  en: "I am the pure fragrance of the earth and the brilliance of fire; I am the life in all beings and the austerity of those who practise austerity.",
+  te: "భూమిలోని పవిత్రమైన సువాసనను నేను, అగ్నిలోని తేజస్సును నేను; సర్వ ప్రాణుల్లో జీవాన్ని, తపస్వుల్లో తపస్సును నేనే.",
+  hi: "पृथ्वी में पवित्र गंध और अग्नि में तेज मैं हूँ; सब प्राणियों में जीवन और तपस्वियों में तप मैं हूँ।"
+},
+"gita_ch7_v10": {
+  en: "Pārtha, know Me as the eternal seed of all beings. I am the intelligence of the intelligent and the radiance of the radiant.",
+  te: "పార్థా! సర్వ ప్రాణులకూ శాశ్వతమైన బీజాన్ని నేనే అని తెలుసుకో. బుద్ధిమంతుల్లో బుద్ధిని, తేజస్వుల్లో తేజస్సును నేనే.",
+  hi: "हे पार्थ! मुझे सब प्राणियों का सनातन बीज जानो। बुद्धिमानों की बुद्धि और तेजस्वियों का तेज मैं हूँ।"
+},
+"gita_ch7_v11": {
+  en: "Of the strong, I am the strength that is free from craving and attachment. And in beings, best of the Bharatas, I am the desire that is not against dharma.",
+  te: "బలవంతుల్లో కోరికా, ఆసక్తీ లేని బలాన్ని నేను. భరతశ్రేష్ఠా! ప్రాణుల్లో ధర్మానికి విరుద్ధం కాని కామాన్ని నేనే.",
+  hi: "बलवानों में कामना और आसक्ति से रहित बल मैं हूँ। हे भरतश्रेष्ठ! प्राणियों में धर्म के अनुकूल काम (इच्छा) मैं हूँ।"
+},
+"gita_ch7_v12": {
+  en: "Whatever states of being there are — pure (sāttvic), restless (rājasic) or dull (tāmasic) — know that they all come from Me alone. Yet I am not in them; they are in Me.",
+  te: "సాత్త్విక, రాజస, తామస భావాలు ఏవైనా — అవన్నీ నా నుంచే పుట్టాయని తెలుసుకో. అయితే నేను వాటిలో లేను; అవే నాలో ఉన్నాయి.",
+  hi: "जो भी सात्त्विक, राजसिक और तामसिक भाव हैं, उन सबको मुझसे ही उत्पन्न जानो। परंतु मैं उनमें नहीं हूँ, वे मुझमें हैं।"
+},
+"gita_ch7_v13": {
+  en: "Deluded by these three kinds of qualities, this whole world does not recognise Me, who am beyond them and imperishable.",
+  te: "ఈ మూడు గుణాలతో కూడిన భావాల వల్ల మోహంలో పడిన ఈ లోకమంతా, వాటికి అతీతుడనూ, నాశనం లేనివాడనూ అయిన నన్ను గుర్తించడం లేదు.",
+  hi: "इन तीन गुणों वाले भावों से मोहित होकर यह सारा जगत, इनसे परे और अविनाशी मुझको नहीं पहचानता।"
+},
+"gita_ch7_v14": {
+  en: "This divine māyā of Mine, made of the three qualities, is very hard to cross. But those who take refuge in Me alone cross over it.",
+  te: "త్రిగుణాలతో కూడిన ఈ నా దైవీ మాయను దాటడం చాలా కష్టం. కానీ నన్నే శరణు పొందినవారు ఈ మాయను దాటిపోతారు.",
+  hi: "यह मेरी त्रिगुणमयी दैवी माया बड़ी कठिनाई से पार होने वाली है। परंतु जो केवल मेरी शरण लेते हैं, वे इस माया को पार कर जाते हैं।"
+},
+"gita_ch7_v15": {
+  en: "Evil-doers, the deluded and the lowest of people do not come to Me — their understanding is stolen away by māyā, and they cling to a demonic nature.",
+  te: "దుష్కర్మలు చేసేవారు, మూఢులు, నరాధములు నన్ను శరణు పొందరు — మాయ వారి జ్ఞానాన్ని హరించింది; వారు ఆసుర స్వభావాన్ని ఆశ్రయించారు.",
+  hi: "दुष्कर्म करने वाले, मूढ़ और अधम मनुष्य मेरी शरण नहीं लेते — माया ने उनका ज्ञान हर लिया है और वे आसुरी स्वभाव का आश्रय लिए हुए हैं।"
+},
+"gita_ch7_v16": {
+  en: "Arjuna, four kinds of good people worship Me: the one in distress, the one who seeks knowledge, the one who seeks wealth or welfare, and the wise one, best of the Bharatas.",
+  te: "అర్జునా! నాలుగు రకాల పుణ్యాత్ములు నన్ను భజిస్తారు — కష్టాల్లో ఉన్నవాడు, తెలుసుకోవాలనుకునేవాడు, ఏదైనా కోరి వచ్చేవాడు, జ్ఞాని.",
+  hi: "हे अर्जुन! चार प्रकार के पुण्यात्मा मुझे भजते हैं — दुखी (आर्त), जिज्ञासु, कुछ पाने की इच्छा वाला (अर्थार्थी) और ज्ञानी, हे भरतश्रेष्ठ।"
+},
+"gita_ch7_v17": {
+  en: "Of them the wise one, ever united with Me and devoted to Me alone, stands out. I am exceedingly dear to the wise, and the wise one is dear to Me.",
+  te: "వారిలో ఎల్లప్పుడూ నాతో కూడి ఉండి, నా మీదే ఏకాగ్ర భక్తి కలిగిన జ్ఞాని శ్రేష్ఠుడు. జ్ఞానికి నేను అత్యంత ప్రియుణ్ణి; అతడూ నాకు ప్రియుడే.",
+  hi: "उनमें सदा मुझसे जुड़ा हुआ, केवल मेरी भक्ति करने वाला ज्ञानी श्रेष्ठ है। ज्ञानी को मैं अत्यंत प्रिय हूँ और वह मुझे प्रिय है।"
+},
+"gita_ch7_v18": {
+  en: "All of these are noble, but the wise one I consider My very Self. With a steady mind, he rests in Me alone as the highest goal.",
+  te: "వీరందరూ ఉదారులే; కానీ జ్ఞాని నా ఆత్మయే అని నా అభిప్రాయం. ఎందుకంటే స్థిరమైన మనసుతో అతడు నన్నే అత్యుత్తమ గమ్యంగా ఆశ్రయించి ఉంటాడు.",
+  hi: "ये सभी उदार हैं, परंतु ज्ञानी को मैं अपना आत्मा ही मानता हूँ। क्योंकि स्थिर मन वाला वह मुझे ही सर्वोत्तम गति मानकर मुझमें स्थित रहता है।"
+},
+"gita_ch7_v19": {
+  en: "At the end of many births, the wise one comes to Me, realising 'Vāsudeva is everything'. Such a great soul is very hard to find.",
+  te: "ఎన్నో జన్మల చివర, ‘వాసుదేవుడే సర్వమూ’ అని గ్రహించిన జ్ఞాని నన్ను చేరుకుంటాడు. అలాంటి మహాత్ముడు దొరకడం చాలా అరుదు.",
+  hi: "अनेक जन्मों के अंत में ज्ञानी ‘वासुदेव ही सब कुछ है’ — ऐसा जानकर मेरी शरण आता है। ऐसा महात्मा अत्यंत दुर्लभ है।"
+},
+"gita_ch7_v20": {
+  en: "Those whose understanding is carried away by this desire or that turn to other deities, following various rules, led by their own nature.",
+  te: "రకరకాల కోరికల వల్ల జ్ఞానం హరించబడినవారు, తమ తమ స్వభావానికి లోబడి, ఆయా నియమాలను పాటిస్తూ ఇతర దేవతలను ఆశ్రయిస్తారు.",
+  hi: "जिनका ज्ञान तरह-तरह की कामनाओं ने हर लिया है, वे अपने-अपने स्वभाव से प्रेरित होकर, उन-उन नियमों को अपनाकर अन्य देवताओं की शरण लेते हैं।"
+},
+"gita_ch7_v21": {
+  en: "Whatever form a devotee wishes to worship with faith, I make that very faith of his firm and steady.",
+  te: "ఏ భక్తుడు ఏ రూపాన్ని శ్రద్ధతో పూజించాలనుకుంటాడో, అతని ఆ శ్రద్ధనే నేను స్థిరంగా నిలుపుతాను.",
+  hi: "जो-जो भक्त जिस-जिस रूप को श्रद्धा से पूजना चाहता है, उस-उस भक्त की उसी श्रद्धा को मैं स्थिर कर देता हूँ।"
+},
+"gita_ch7_v22": {
+  en: "Endowed with that faith, he worships that form and from it gains what he desires — but those wishes are in truth granted by Me alone.",
+  te: "ఆ శ్రద్ధతో కూడి అతడు ఆ దేవతను ఆరాధిస్తాడు, దాని ద్వారా తన కోరికలను పొందుతాడు — కానీ నిజానికి ఆ ఫలాలను ఇచ్చేది నేనే.",
+  hi: "उस श्रद्धा से युक्त होकर वह उस देवता की आराधना करता है और उससे अपनी कामनाएँ पाता है — परंतु वे फल वास्तव में मेरे द्वारा ही दिए जाते हैं।"
+},
+"gita_ch7_v23": {
+  en: "But the fruit gained by those of small understanding is perishable. Worshippers of the gods go to the gods; My devotees come to Me.",
+  te: "అల్పబుద్ధులైన వారు పొందే ఆ ఫలం నశించిపోయేదే. దేవతలను పూజించేవారు దేవతలను చేరుకుంటారు; నా భక్తులు నన్నే చేరుకుంటారు.",
+  hi: "परंतु उन अल्पबुद्धि लोगों को मिलने वाला वह फल नाशवान होता है। देवताओं को पूजने वाले देवताओं को प्राप्त होते हैं, मेरे भक्त मुझे ही प्राप्त होते हैं।"
+},
+"gita_ch7_v24": {
+  en: "The unwise think of Me, the Unmanifest, as having merely taken on a visible form, not knowing My supreme nature, which is imperishable and unsurpassed.",
+  te: "అవివేకులు, అవ్యక్తుడనైన నన్ను కేవలం ఒక వ్యక్త రూపం పొందినవాడిగా భావిస్తారు — నాశనం లేని, అత్యుత్తమమైన నా పరమ స్వరూపాన్ని వారు ఎరుగరు.",
+  hi: "अज्ञानी लोग मुझ अव्यक्त को केवल व्यक्त रूप में आया हुआ मानते हैं; वे मेरे अविनाशी और सर्वोत्तम परम स्वरूप को नहीं जानते।"
+},
+"gita_ch7_v25": {
+  en: "Veiled by My yoga-māyā, I am not revealed to everyone. This deluded world does not know Me, the unborn and unchanging.",
+  te: "నా యోగమాయతో కప్పబడి ఉండటం వల్ల నేను అందరికీ కనిపించను. మోహంలో ఉన్న ఈ లోకం, పుట్టుక లేనివాడనూ, మార్పు లేనివాడనూ అయిన నన్ను తెలుసుకోదు.",
+  hi: "अपनी योगमाया से ढका होने के कारण मैं सबके सामने प्रकट नहीं होता। यह मोहित संसार मुझ अजन्मा और अविनाशी को नहीं जानता।"
+},
+"gita_ch7_v26": {
+  en: "Arjuna, I know all beings — those of the past, the present and those yet to come. But no one knows Me.",
+  te: "అర్జునా! గతించిన, ఇప్పుడు ఉన్న, ఇకపై రాబోయే ప్రాణులందరినీ నేను ఎరుగుదును. కానీ నన్ను మాత్రం ఎవరూ ఎరుగరు.",
+  hi: "हे अर्जुन! भूतकाल के, वर्तमान के और भविष्य के सब प्राणियों को मैं जानता हूँ, परंतु मुझे कोई नहीं जानता।"
+},
+"gita_ch7_v27": {
+  en: "Bhārata, scorcher of foes, from birth itself all beings fall into confusion through the delusion of opposites that arises from liking and disliking.",
+  te: "భారతా! పరంతపా! ఇష్టం, ద్వేషం నుంచి పుట్టే ద్వంద్వ మోహం వల్ల, సమస్త ప్రాణులూ పుట్టుకతోనే మోహంలో పడిపోతాయి.",
+  hi: "हे भारत! हे परंतप! इच्छा और द्वेष से उत्पन्न द्वंद्व-मोह के कारण सब प्राणी जन्म से ही मोह में पड़ जाते हैं।"
+},
+"gita_ch7_v28": {
+  en: "But people of good deeds, whose wrongdoing has come to an end, are freed from the delusion of opposites and worship Me with firm resolve.",
+  te: "కానీ పుణ్యకర్మలు చేసి, పాపాలు అంతమైపోయినవారు ద్వంద్వ మోహం నుంచి విముక్తులై, దృఢ వ్రతంతో నన్ను భజిస్తారు.",
+  hi: "परंतु जिन पुण्यकर्मी लोगों के पाप समाप्त हो गए हैं, वे द्वंद्व-मोह से मुक्त होकर दृढ़ निश्चय के साथ मुझे भजते हैं।"
+},
+"gita_ch7_v29": {
+  en: "Those who take refuge in Me and strive for freedom from old age and death come to know Brahman fully, the inner Self, and all about action.",
+  te: "నన్ను ఆశ్రయించి, ముసలితనం, మరణం నుంచి విముక్తి కోసం ప్రయత్నించేవారు — ఆ బ్రహ్మాన్నీ, అధ్యాత్మాన్నీ, సమస్త కర్మనూ సంపూర్ణంగా తెలుసుకుంటారు.",
+  hi: "जो मेरा आश्रय लेकर बुढ़ापे और मृत्यु से छूटने का प्रयत्न करते हैं, वे उस ब्रह्म को, संपूर्ण अध्यात्म को और सारे कर्म को जान लेते हैं।"
+},
+"gita_ch7_v30": {
+  en: "Those who know Me as the ground of all beings (adhibhūta), of the gods (adhidaiva) and of sacrifice (adhiyajña) — with minds united in Me, they know Me even at the time of departing from this world.",
+  te: "అధిభూతంగా, అధిదైవంగా, అధియజ్ఞంగా నన్ను తెలుసుకున్నవారు — నాతో కూడిన మనసుతో, ఈ లోకాన్ని విడిచే సమయంలో కూడా నన్ను తెలుసుకునే ఉంటారు.",
+  hi: "जो मुझे अधिभूत, अधिदैव और अधियज्ञ सहित जानते हैं, वे मुझमें लगे चित्त वाले लोग प्रयाणकाल (मृत्यु के समय) में भी मुझे जानते हैं।"
+},
+
+// ── Chapter 8 · Akṣara Brahma Yoga ──
+"gita_ch8_v1": {
+  en: "Arjuna said: Puruṣottama, what is that Brahman? What is the inner Self (adhyātma)? What is action? What is said to be the ground of beings (adhibhūta), and what is called the ground of the gods (adhidaiva)? —",
+  te: "అర్జునుడు అన్నాడు: పురుషోత్తమా! ఆ బ్రహ్మం ఏది? అధ్యాత్మం అంటే ఏమిటి? కర్మ అంటే ఏమిటి? అధిభూతం అని దేన్ని అంటారు? అధిదైవం అని దేన్ని చెబుతారు? —",
+  hi: "अर्जुन ने कहा: हे पुरुषोत्तम! वह ब्रह्म क्या है? अध्यात्म क्या है? कर्म क्या है? अधिभूत किसे कहा गया है और अधिदैव किसे कहते हैं? —"
+},
+"gita_ch8_v2": {
+  en: "— Madhusūdana, who is the Lord of sacrifice (adhiyajña) here in this body, and how does He dwell in it? And at the time of death, how are You to be known by those whose minds are disciplined?",
+  te: "— మధుసూదనా! ఈ శరీరంలో అధియజ్ఞుడు ఎవరు, ఆయన ఇందులో ఎలా ఉన్నాడు? మనసును నిగ్రహించుకున్నవారు మరణ సమయంలో నిన్ను ఎలా తెలుసుకుంటారు?",
+  hi: "— हे मधुसूदन! इस शरीर में अधियज्ञ कौन है और वह इसमें कैसे है? और संयमित मन वाले लोग मृत्यु के समय आपको कैसे जानते हैं?"
+},
+"gita_ch8_v3": {
+  en: "The Lord said: The Imperishable, the Supreme, is Brahman. Its presence as one's own being is called adhyātma. The creative offering that brings beings into existence is called action (karma).",
+  te: "శ్రీ భగవానుడు అన్నాడు: నాశనం లేని పరమ తత్త్వమే బ్రహ్మం. ప్రతి జీవిలో దాని స్వభావంగా ఉండటాన్ని అధ్యాత్మం అంటారు. ప్రాణుల పుట్టుకకు కారణమైన సృష్టి కార్యాన్ని కర్మ అంటారు.",
+  hi: "श्री भगवान ने कहा: अविनाशी परम तत्त्व ब्रह्म है। प्रत्येक जीव में उसका अपना स्वभाव अध्यात्म कहलाता है। प्राणियों को उत्पन्न करने वाला सृष्टि-कार्य कर्म कहलाता है।"
+},
+"gita_ch8_v4": {
+  en: "The perishable world of things is adhibhūta; the cosmic Person is adhidaiva; and I Myself, dwelling here in the body, am adhiyajña, O best of the embodied.",
+  te: "నశించిపోయే పదార్థ ప్రపంచమే అధిభూతం; విశ్వ పురుషుడే అధిదైవం; దేహధారుల్లో శ్రేష్ఠుడా! ఈ శరీరంలోనే ఉన్న నేనే అధియజ్ఞుణ్ణి.",
+  hi: "नाशवान पदार्थ-जगत अधिभूत है; विश्व-पुरुष अधिदैव है; और हे देहधारियों में श्रेष्ठ! इस शरीर में रहने वाला मैं ही अधियज्ञ हूँ।"
+},
+"gita_ch8_v5": {
+  en: "And whoever, at the end, leaves the body remembering Me alone, reaches My state of being — of this there is no doubt.",
+  te: "అంత్యకాలంలో నన్నే స్మరిస్తూ శరీరాన్ని విడిచి వెళ్ళేవాడు నా స్వరూపాన్నే పొందుతాడు — ఇందులో సందేహం లేదు.",
+  hi: "और जो अंत समय में मेरा ही स्मरण करते हुए शरीर छोड़कर जाता है, वह मेरे भाव को प्राप्त होता है — इसमें कोई संशय नहीं।"
+},
+"gita_ch8_v6": {
+  en: "Kaunteya, whatever state of being a person remembers at the end while leaving the body, that very state he attains — because he has always been absorbed in it.",
+  te: "కౌంతేయా! అంత్యకాలంలో ఏ భావాన్ని స్మరిస్తూ మనిషి శరీరాన్ని విడుస్తాడో, ఆ భావాన్నే పొందుతాడు — ఎందుకంటే ఎల్లప్పుడూ అతడు ఆ భావంలోనే మునిగి ఉన్నాడు.",
+  hi: "हे कौंतेय! अंत समय में मनुष्य जिस-जिस भाव का स्मरण करते हुए शरीर छोड़ता है, उसी-उसी को प्राप्त होता है — क्योंकि वह सदा उसी भाव में रँगा रहा है।"
+},
+"gita_ch8_v7": {
+  en: "Therefore remember Me at all times — and fight. With your mind and intellect offered to Me, you will surely come to Me.",
+  te: "కాబట్టి అన్ని సమయాల్లోనూ నన్ను స్మరించు — యుద్ధం చెయ్యి. మనసునూ బుద్ధినీ నాకు అర్పించినవాడివై, నువ్వు నిస్సందేహంగా నన్నే చేరుకుంటావు.",
+  hi: "इसलिए हर समय मेरा स्मरण करो — और युद्ध करो। मन और बुद्धि मुझे अर्पित करके तुम निःसंदेह मुझे ही प्राप्त होगे।"
+},
+"gita_ch8_v8": {
+  en: "Pārtha, with a mind trained by steady practice that does not wander elsewhere, constantly thinking of the supreme divine Person, one reaches Him.",
+  te: "పార్థా! అభ్యాసయోగంతో కూడి, వేరే వైపుకు పోని మనసుతో, దివ్యుడైన పరమ పురుషుణ్ణి నిరంతరం చింతించేవాడు ఆయననే చేరుకుంటాడు.",
+  hi: "हे पार्थ! अभ्यास-योग से युक्त, कहीं और न भटकने वाले मन से दिव्य परम पुरुष का निरंतर चिंतन करने वाला उसी को प्राप्त होता है।"
+},
+"gita_ch8_v9": {
+  en: "One should meditate on Him who is all-knowing, ancient, the ruler of all, subtler than the subtlest, the sustainer of everything, of a form beyond thought, shining like the sun and beyond all darkness —",
+  te: "సర్వజ్ఞుడూ, పురాతనుడూ, అందరినీ శాసించేవాడూ, అణువుకంటే సూక్ష్మమైనవాడూ, అన్నిటినీ ధరించేవాడూ, ఊహకు అందని రూపం కలవాడూ, సూర్యుడిలా ప్రకాశించేవాడూ, చీకటికి అతీతుడూ అయిన ఆయనను స్మరించాలి —",
+  hi: "जो सर्वज्ञ, सनातन, सबका शासक, सूक्ष्म से भी सूक्ष्म, सबको धारण करने वाला, अचिंत्य रूप वाला, सूर्य के समान प्रकाशमान और अंधकार से परे है — उसका स्मरण करना चाहिए —"
+},
+"gita_ch8_v10": {
+  en: "— at the time of departure, with an unwavering mind, filled with devotion and by the strength of yoga, drawing the life-breath fully between the eyebrows, he reaches that supreme divine Person.",
+  te: "— ప్రయాణ సమయంలో చలించని మనసుతో, భక్తితో, యోగబలంతో, ప్రాణాన్ని కనుబొమల మధ్య సరిగ్గా నిలిపి, అతడు ఆ దివ్యమైన పరమ పురుషుణ్ణి చేరుకుంటాడు.",
+  hi: "— प्रयाणकाल में अचल मन से, भक्ति और योगबल से युक्त होकर, प्राण को भौंहों के बीच भली-भाँति स्थापित करके, वह उस दिव्य परम पुरुष को प्राप्त होता है।"
+},
+"gita_ch8_v11": {
+  en: "That which knowers of the Veda call the Imperishable, which the self-controlled, free from passion, enter, and desiring which people live a life of brahmacarya — that goal I will briefly explain to you.",
+  te: "వేదవేత్తలు దేన్ని అక్షరం అంటారో, రాగం లేని యతులు దేనిలో ప్రవేశిస్తారో, దేన్ని కోరి బ్రహ్మచర్యాన్ని పాటిస్తారో — ఆ పదాన్ని నీకు సంక్షిప్తంగా చెబుతాను.",
+  hi: "वेद के जानकार जिसे अक्षर कहते हैं, रागरहित यति जिसमें प्रवेश करते हैं, और जिसकी इच्छा से लोग ब्रह्मचर्य का पालन करते हैं — उस पद को मैं तुम्हें संक्षेप में बताऊँगा।"
+},
+"gita_ch8_v12": {
+  en: "Closing all the gates of the senses, holding the mind within the heart, placing the life-breath at the top of the head and established in yogic concentration —",
+  te: "ఇంద్రియ ద్వారాలన్నిటినీ మూసి, మనసును హృదయంలో నిలిపి, ప్రాణాన్ని శిరస్సులో ఉంచి, యోగధారణలో స్థిరంగా ఉండి —",
+  hi: "इंद्रियों के सब द्वारों को रोककर, मन को हृदय में स्थिर करके, प्राण को मस्तक में स्थापित करके, योग-धारणा में स्थित होकर —"
+},
+"gita_ch8_v13": {
+  en: "— uttering Om, the one syllable that is Brahman, and remembering Me, whoever departs leaving the body reaches the highest goal.",
+  te: "— బ్రహ్మస్వరూపమైన ‘ఓం’ అనే ఏకాక్షరాన్ని ఉచ్చరిస్తూ, నన్ను స్మరిస్తూ శరీరాన్ని విడిచి వెళ్ళేవాడు పరమ గతిని పొందుతాడు.",
+  hi: "— ब्रह्मरूप एक अक्षर ‘ॐ’ का उच्चारण करते हुए और मेरा स्मरण करते हुए जो शरीर छोड़कर जाता है, वह परम गति को प्राप्त होता है।"
+},
+"gita_ch8_v14": {
+  en: "Pārtha, for the yogī who remembers Me constantly, every day, with a mind turned to nothing else, ever united with Me — I am easy to reach.",
+  te: "పార్థా! వేరే దేని మీదా మనసు పెట్టకుండా, ప్రతిరోజూ నిరంతరం నన్ను స్మరించే, ఎల్లప్పుడూ నాతో కూడి ఉండే యోగికి నేను సులభంగా లభిస్తాను.",
+  hi: "हे पार्थ! जो अनन्य चित्त से प्रतिदिन निरंतर मेरा स्मरण करता है, उस सदा मुझसे जुड़े योगी के लिए मैं सुलभ हूँ।"
+},
+"gita_ch8_v15": {
+  en: "Having come to Me, these great souls do not take rebirth, which is the home of sorrow and impermanent — they have reached the highest perfection.",
+  te: "నన్ను చేరుకున్న ఆ మహాత్ములు, దుఃఖాలకు నిలయమైన, శాశ్వతం కాని పునర్జన్మను మళ్ళీ పొందరు — వారు పరమ సిద్ధిని పొందారు.",
+  hi: "मुझे प्राप्त करके वे महात्मा दुखों के घर और अनित्य पुनर्जन्म को फिर नहीं पाते — वे परम सिद्धि को प्राप्त हो चुके हैं।"
+},
+"gita_ch8_v16": {
+  en: "Arjuna, all worlds up to the realm of Brahmā are subject to return. But, Kaunteya, on reaching Me there is no rebirth.",
+  te: "అర్జునా! బ్రహ్మలోకం వరకు ఉన్న లోకాలన్నీ మళ్ళీ తిరిగి రావలసినవే. కానీ కౌంతేయా! నన్ను చేరుకున్నవారికి మళ్ళీ జన్మ ఉండదు.",
+  hi: "हे अर्जुन! ब्रह्मलोक तक के सभी लोक पुनरावर्ती हैं (वहाँ से लौटना पड़ता है)। परंतु हे कौंतेय! मुझे प्राप्त होने पर पुनर्जन्म नहीं होता।"
+},
+"gita_ch8_v17": {
+  en: "Those who understand day and night truly know that a day of Brahmā lasts a thousand ages (yugas), and his night also ends after a thousand ages.",
+  te: "బ్రహ్మదేవుని ఒక పగలు వెయ్యి యుగాలు, ఆయన రాత్రి కూడా వెయ్యి యుగాలు అని తెలుసుకున్నవారే పగలూ రాత్రుల తత్త్వం తెలిసినవారు.",
+  hi: "जो जानते हैं कि ब्रह्मा का एक दिन हज़ार युगों का है और उनकी रात भी हज़ार युगों में समाप्त होती है, वे ही दिन-रात के तत्त्व को जानने वाले हैं।"
+},
+"gita_ch8_v18": {
+  en: "When Brahmā's day dawns, all manifest things come forth from the Unmanifest; when his night falls, they dissolve back into that same Unmanifest.",
+  te: "బ్రహ్మదేవుని పగలు మొదలైనప్పుడు వ్యక్తమైనవన్నీ అవ్యక్తం నుంచి పుడతాయి; రాత్రి రాగానే ఆ అవ్యక్తంలోనే మళ్ళీ లీనమైపోతాయి.",
+  hi: "ब्रह्मा का दिन आने पर सब व्यक्त पदार्थ अव्यक्त से प्रकट होते हैं; और रात आने पर उसी अव्यक्त में लीन हो जाते हैं।"
+},
+"gita_ch8_v19": {
+  en: "Pārtha, this same multitude of beings comes into being again and again, and helplessly dissolves when night falls, and comes forth again when day dawns.",
+  te: "పార్థా! ఇదే ప్రాణి సమూహం మళ్ళీ మళ్ళీ పుడుతూ, రాత్రి రాగానే అవశంగా లయమైపోతుంది; పగలు రాగానే మళ్ళీ పుడుతుంది.",
+  hi: "हे पार्थ! यही प्राणी-समूह बार-बार उत्पन्न होकर रात आने पर विवश होकर लीन हो जाता है, और दिन आने पर फिर प्रकट होता है।"
+},
+"gita_ch8_v20": {
+  en: "But beyond that Unmanifest there is another, eternal Unmanifest reality, which does not perish even when all beings perish.",
+  te: "కానీ ఆ అవ్యక్తానికి కూడా అతీతమైన, శాశ్వతమైన మరొక అవ్యక్త తత్త్వం ఉంది — సమస్త ప్రాణులూ నశించినా అది నశించదు.",
+  hi: "परंतु उस अव्यक्त से भी परे एक दूसरा सनातन अव्यक्त भाव है, जो सब प्राणियों के नष्ट होने पर भी नष्ट नहीं होता।"
+},
+"gita_ch8_v21": {
+  en: "That Unmanifest is called the Imperishable, and it is declared to be the highest goal. Reaching it, none return — that is My supreme abode.",
+  te: "ఆ అవ్యక్తాన్నే అక్షరం అంటారు; అదే పరమ గతి అని చెబుతారు. దాన్ని చేరుకున్నవారు తిరిగి రారు — అదే నా పరమ ధామం.",
+  hi: "उसी अव्यक्त को अक्षर कहा गया है और उसे ही परम गति बताया गया है। जिसे पाकर कोई लौटता नहीं — वही मेरा परम धाम है।"
+},
+"gita_ch8_v22": {
+  en: "Pārtha, that supreme Person, within whom all beings dwell and by whom all this is pervaded, is reached by undivided devotion.",
+  te: "పార్థా! ఎవరిలో సమస్త ప్రాణులూ ఉన్నాయో, ఎవరితో ఇదంతా వ్యాపించి ఉందో, ఆ పరమ పురుషుడు అనన్య భక్తితోనే లభిస్తాడు.",
+  hi: "हे पार्थ! जिसके भीतर सब प्राणी हैं और जिससे यह सब व्याप्त है, वह परम पुरुष अनन्य भक्ति से ही प्राप्त होता है।"
+},
+"gita_ch8_v23": {
+  en: "Best of the Bharatas, I will now tell you the times at which yogīs depart and do not return, and the times at which they depart and return.",
+  te: "భరతశ్రేష్ఠా! ఏ కాలంలో శరీరం విడిచిన యోగులు తిరిగి రారో, ఏ కాలంలో విడిచినవారు తిరిగి వస్తారో — ఆ కాలాన్ని నీకు చెబుతాను.",
+  hi: "हे भरतश्रेष्ठ! जिस काल में शरीर छोड़कर गए योगी लौटते नहीं, और जिसमें गए हुए लौट आते हैं — वह काल मैं तुम्हें बताऊँगा।"
+},
+"gita_ch8_v24": {
+  en: "Fire, light, daytime, the bright half of the month, the six months of the sun's northern course — departing by this path, those who know Brahman go to Brahman.",
+  te: "అగ్ని, వెలుగు, పగలు, శుక్లపక్షం, ఉత్తరాయణంలోని ఆరు నెలలు — ఈ మార్గంలో వెళ్ళిన బ్రహ్మవేత్తలు బ్రహ్మాన్నే చేరుకుంటారు.",
+  hi: "अग्नि, ज्योति, दिन, शुक्ल पक्ष और उत्तरायण के छह महीने — इस मार्ग से जाने वाले ब्रह्मवेत्ता ब्रह्म को प्राप्त होते हैं।"
+},
+"gita_ch8_v25": {
+  en: "Smoke, night, the dark half of the month, the six months of the sun's southern course — the yogī who goes by this path reaches the light of the moon and returns.",
+  te: "పొగ, రాత్రి, కృష్ణపక్షం, దక్షిణాయనంలోని ఆరు నెలలు — ఈ మార్గంలో వెళ్ళిన యోగి చంద్రుని కాంతిని పొంది మళ్ళీ తిరిగి వస్తాడు.",
+  hi: "धुआँ, रात, कृष्ण पक्ष और दक्षिणायन के छह महीने — इस मार्ग से गया योगी चंद्रमा की ज्योति पाकर लौट आता है।"
+},
+"gita_ch8_v26": {
+  en: "These two paths of the world, the bright and the dark, are considered eternal. By one, a person goes and does not return; by the other, he comes back again.",
+  te: "లోకానికి సంబంధించిన ఈ శుక్ల, కృష్ణ మార్గాలు రెండూ శాశ్వతమైనవని భావిస్తారు. ఒకదాని ద్వారా వెళ్ళినవాడు తిరిగి రాడు; మరొకదాని ద్వారా వెళ్ళినవాడు మళ్ళీ తిరిగి వస్తాడు.",
+  hi: "जगत के ये शुक्ल और कृष्ण — दोनों मार्ग सनातन माने गए हैं। एक से जाने वाला लौटता नहीं, दूसरे से जाने वाला फिर लौट आता है।"
+},
+"gita_ch8_v27": {
+  en: "Pārtha, no yogī who knows these two paths is ever confused. Therefore, Arjuna, at all times be steadfast in yoga.",
+  te: "పార్థా! ఈ రెండు మార్గాలు తెలిసిన ఏ యోగీ మోహంలో పడడు. కాబట్టి అర్జునా! అన్ని కాలాల్లోనూ యోగయుక్తుడివై ఉండు.",
+  hi: "हे पार्थ! इन दोनों मार्गों को जानने वाला कोई भी योगी मोहित नहीं होता। इसलिए हे अर्जुन! तुम हर समय योग से युक्त रहो।"
+},
+"gita_ch8_v28": {
+  en: "Whatever merit is promised for studying the Vedas, for sacrifices, austerities and charity — the yogī who knows this goes beyond all of it and reaches the supreme, primal abode.",
+  te: "వేదాధ్యయనం, యజ్ఞాలు, తపస్సులు, దానాలు — వీటికి ఏ పుణ్యఫలం చెప్పబడిందో, ఇది తెలుసుకున్న యోగి వాటన్నిటినీ దాటిపోయి, ఆదియైన పరమ స్థానాన్ని చేరుకుంటాడు.",
+  hi: "वेदों के अध्ययन, यज्ञों, तपों और दानों का जो पुण्यफल बताया गया है, इसे जानने वाला योगी उन सबसे आगे निकलकर आदि परम स्थान को प्राप्त होता है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",
