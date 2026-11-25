@@ -48,11 +48,15 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Puṣyamitra Śuṅga (pushyamitra) — the last Maurya overthrown (Purāṇas, Bāṇa); the two Aśvamedhas (Ayodhyā inscription of Dhanadeva); the Yavana wars (Mālavikāgnimitra, Patañjali); Buddhist accounts and how historians weigh them
 - [ ] Yaśodharman (yashodharman) — Aulikara king of Daśapura (Mandsaur); the Mandsaur victory pillars; the defeat of the Hūṇa Mihirakula (about 528); a short-lived empire
 - [ ] Dharmapāla (dharmapala) — Pāla king of Bengal; Gopāla chosen king (Khalimpur plate); the Kanauj contest with the Pratīhāras and Rāṣṭrakūṭas; Vikramaśīla; Buddhist faith and Hindu subjects
 - [ ] Mahādajī Śinde (mahadji) — survivor of Pānipat (1761); the Treaty of Salbai (1782); master of Delhi and protector of Shah Alam; de Boigne's battalions; Lālsot and Pāṭan
 - [ ] Ranjīt Siṃh (ranjit) — Lahore taken (1799); uniting the Sikh misls; the Treaty of Amritsar (1809); the Koh-i-Nūr; Multān, Kashmir and Peshawar; the Golden Temple's gilding; the Fauj-i-Khās
+- [ ] Śaśāṅka (shashanka) — king of Gauḍa; the Rohtāsgaḍh seal; the killing of Rājyavardhana (Bāṇa, Xuanzang); war with Harṣa; Karṇasuvarṇa; Buddhist charges and how historians weigh them
+- [ ] Kṛṣṇa III (krishna3) — Rāṣṭrakūṭa of Mānyakheṭa; the victory at Takkolam over the Cōḷas (949); Kāñcī and Tanjore; Ponna and Kannada letters; the Karhāḍ and Jura records
+- [ ] Kumāragupta I (kumaragupta) — the long peaceful Gupta reign; Mahendrāditya and his peacock coins; Nālandā's beginnings (Xuanzang); the Puṣyamitra rising and the Bhitarī memory
+- [ ] Hemu (hemu) — from Rewari to Delhi; minister of Ādil Shāh Sūr; twenty-two battles; crowned Vikramāditya in Delhi (1556); the second battle of Pānipat
+- [ ] Rāṇī Durgāvatī (durgavati) — Candela princess, Gond queen of Garha-Katanga; her reservoirs; wars with Bāz Bahādur of Malwa; the Mughal invasion under Āsaf Khān and her last stand (1564)
 
 Add more when fewer than five remain: e.g. Puṣyamitra Śuṅga, Rudradāman's rival kings, Kumāragupta,
 Yaśodharman, Śaśāṅka, Mihira Bhoja, Dharmapāla, Amoghavarṣa I, Kṛṣṇa III, Vikramāditya VI, Hoysaḷa
@@ -91,3 +95,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Prolaya and Kāpaya Nāyaka (musunuri) — 8 chapters — 2026-11-22
 - [x] Chhatrasāl Bundelā (chhatrasal) — 8 chapters — 2026-11-23
 - [x] Bājī Rāo I (bajirao) — 9 chapters — 2026-11-24
+- [x] Puṣyamitra Śuṅga (pushyamitra) — 8 chapters — 2026-11-25

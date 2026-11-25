@@ -42,6 +42,7 @@
     ['musunuri', 'Musunūri', 'ముసునూరి నాయకులు', 'Prolaya & Kāpaya Nāyaka · Orugallu freed', 'ప్రోలయ, కాపయ నాయకులు · ఓరుగల్లు విముక్తి', '🗝️', 'linear-gradient(160deg,#0a1a1a,#b07a3a)'],
     ['chhatrasal', 'Chhatrasāl', 'ఛత్రసాల్', 'Bundelā of Panna · the rising of Bundelkhand', 'పన్నా బుందేలా · బుందేల్‌ఖండ్ తిరుగుబాటు', '💎', 'linear-gradient(160deg,#1a0a1a,#b0702a)'],
     ['bajirao', 'Bājī Rāo', 'బాజీరావ్ పేష్వా', 'Peśvā Bājī Rāo I · Palkhed, Delhi and Bhopal', 'మొదటి బాజీరావ్ పేష్వా · పాల్ఖేడ్, ఢిల్లీ, భోపాల్', '🐎', 'linear-gradient(160deg,#2a0a02,#c07a2a)'],
+    ['pushyamitra', 'Puṣyamitra', 'పుష్యమిత్రుడు', 'Śuṅga · the general who ended the Mauryas', 'శుంగ · మౌర్యులను అంతం చేసిన సేనాపతి', '🔥', 'linear-gradient(160deg,#1a0a06,#b0602a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
