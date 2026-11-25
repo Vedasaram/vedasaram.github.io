@@ -139,4 +139,7 @@ window.HI_FILES = [
   'hi/sages/dhaumya.js',
   'hi/sages/upamanyu.js',
   'hi/sages/sandipani.js',
+  'hi/sages/kumaras.js',
+  'hi/sages/aruni.js',
+  'hi/sages/jaimini.js',
 ];
