@@ -146,11 +146,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Sutīkṣṇa Waits for Rāma (Rāmāyaṇa) — sutikshna-waits-for-rama
 - [x] Pāṇḍu and the Deer-Sage's Curse (Mahābhārata) — pandu-and-the-deer-sages-curse
 - [x] Svayamprabhā's Magic Cave (Rāmāyaṇa) — svayamprabhas-magic-cave
+- [x] Gāndhārī's Hundred Sons (Mahābhārata) — gandharis-hundred-sons
+- [x] Maināka, the Mountain Who Rose to Help Hanumān (Rāmāyaṇa) — mainaka-the-mountain-who-rose
+- [x] Karṇa Arrives at the Tournament (Mahābhārata) — karna-at-the-tournament
 
 ## Next
-- [ ] Gāndhārī's Hundred Sons (Mahābhārata) — Gāndhārī, Vyāsa, Dhṛtarāṣṭra
-- [ ] Maināka, the Mountain Who Rose to Help Hanumān (Rāmāyaṇa) — Hanumān, Maināka, Siṃhikā
-- [ ] Karṇa Arrives at the Tournament (Mahābhārata) — Karṇa, Duryodhana, Arjuna
 - [ ] Saramā Comforts Sītā (Rāmāyaṇa) — Saramā, Sītā, Vibhīṣaṇa
 - [ ] Arjuna, Kṛṣṇa and the Khāṇḍava Forest (Mahābhārata) — Arjuna, Kṛṣṇa, Agni
 - [ ] Vāli Catches Rāvaṇa in His Tail (Rāmāyaṇa) — Vāli, Rāvaṇa
