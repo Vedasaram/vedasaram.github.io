@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Matanga (matanga) — the sage of the Ṛṣyamūka forest whose curse kept Vālin away, and whose āśrama Śabarī kept for Rāma (Vālmīki Rāmāyaṇa, Araṇya & Kiṣkindhā; MBh Anuśāsana on his own tapas).
 - [ ] Jaratkāru (jaratkaru) — the ascetic who saw his ancestors hanging over a pit, married the serpent-princess of his own name, left her at a slight, and fathered Āstīka who stopped Janamejaya's snake sacrifice (MBh Ādi).
 - [ ] Kaṇḍu (kandu) — the sage of the Gomatī whose tapas Indra broke with the apsaras Pramlocā, the centuries that passed “like one evening”, his shame and return to tapas, and their daughter Māriṣā, mother of Dakṣa (Viṣṇu Purāṇa 1; Bhāgavata 4).
 - [ ] Jaḍabharata (jadabharata) — King Bharata, son of Ṛṣabha, who gave up a kingdom and was reborn as a deer for loving a fawn, then as the “dull” brāhmaṇa who would not speak, carried King Rahūgaṇa's palanquin and taught him (Bhāgavata 5; Viṣṇu Purāṇa 2).
@@ -107,3 +106,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Gālava (galava) — 11 chapters — 2026-11-22
 - [x] Ṛcīka (ricika) — 9 chapters — 2026-11-23
 - [x] Śamīka and Śṛṅgī (shamika) — 9 chapters — 2026-11-24
+- [x] Mataṅga (matanga) — 9 chapters — 2026-11-25
