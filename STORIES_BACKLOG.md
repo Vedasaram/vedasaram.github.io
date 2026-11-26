@@ -149,11 +149,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Gāndhārī's Hundred Sons (Mahābhārata) — gandharis-hundred-sons
 - [x] Maināka, the Mountain Who Rose to Help Hanumān (Rāmāyaṇa) — mainaka-the-mountain-who-rose
 - [x] Karṇa Arrives at the Tournament (Mahābhārata) — karna-at-the-tournament
+- [x] Saramā Comforts Sītā (Rāmāyaṇa) — sarama-comforts-sita
+- [x] Arjuna, Kṛṣṇa and the Khāṇḍava Forest (Mahābhārata) — arjuna-krishna-and-the-khandava-forest
+- [x] How Vāli Caught Rāvaṇa (Rāmāyaṇa) — how-vali-caught-ravana
 
 ## Next
-- [ ] Saramā Comforts Sītā (Rāmāyaṇa) — Saramā, Sītā, Vibhīṣaṇa
-- [ ] Arjuna, Kṛṣṇa and the Khāṇḍava Forest (Mahābhārata) — Arjuna, Kṛṣṇa, Agni
-- [ ] Vāli Catches Rāvaṇa in His Tail (Rāmāyaṇa) — Vāli, Rāvaṇa
 - [ ] Maya Builds the Magic Hall (Mahābhārata) — Maya, Arjuna, Yudhiṣṭhira
 - [ ] Rāvaṇa Meets King Kārtavīrya Arjuna (Rāmāyaṇa) — Rāvaṇa, Kārtavīrya Arjuna, Pulastya
 - [ ] Subhadrā and Arjuna (Mahābhārata) — Subhadrā, Arjuna, Kṛṣṇa, Balarāma

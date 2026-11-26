@@ -3679,4 +3679,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'sarama-comforts-sita',
+    added: '2026-11-26',
+    epic: 'Ramayana',
+    chars: ['Saramā', 'Sītā', 'Vibhīṣaṇa', 'Rāvaṇa'],
+    title: { en: 'Saramā Comforts Sītā', te: 'సీతాదేవిని ఓదార్చిన సరమ' },
+    moral: { en: 'A kind word in a dark moment can give someone the courage to go on.', te: 'కష్టకాలంలో చెప్పే ఒక మంచి మాట ఎదుటివారికి ధైర్యాన్ని ఇస్తుంది.' },
+    cover: { bg: 'night', props: [['moon', 340, 60, 0.9], ['tree', 280, 198, 1.7], ['person', 240, 198, 1.25, { female: true, skin: 'fair', cloth: '#e0c060', pallu: '#c9a040' }], ['person', 160, 198, 1.3, { female: true, skin: 'dark', cloth: '#7a5ab0', pallu: '#3a8a6a', raise: true }], ['flowers', 80, 200, 1.1]] },
+    pages: [
+      {
+        scene: { bg: 'night', props: [['moon', 60, 55, 0.9], ['tree', 320, 198, 1.6], ['person', 280, 198, 1.25, { female: true, skin: 'fair', cloth: '#e0c060', pallu: '#c9a040' }], ['ravana', 140, 198, 0.95], ['bow', 220, 196, 0.9]] },
+        en: 'In the Aśoka grove of Laṅkā, Sītā sat under a tree, waiting for Rāma. One evening Rāvaṇa came to her with a cruel trick. His magicians had made a false figure that looked just like Rāma, and a bow just like Rāma\'s bow. "Your Rāma has been defeated," Rāvaṇa lied. "Forget him and become my queen!" When Sītā saw the figure, her heart broke, and she cried and cried. Just then a messenger called Rāvaṇa away to his council. As soon as he left, the magic figure vanished too. Sītā was left alone in the dark, sobbing.',
+        te: 'లంకలోని అశోకవనంలో సీతాదేవి ఒక చెట్టు కింద కూర్చుని రాముడి కోసం ఎదురుచూస్తోంది. ఒక సాయంత్రం రావణుడు ఒక క్రూరమైన మాయతో ఆమె దగ్గరకు వచ్చాడు. అతని మాయావులు అచ్చం రాముడిలాగే కనిపించే ఒక మాయా రూపాన్ని, రాముడి విల్లులాంటి ఒక విల్లును తయారుచేశారు. "నీ రాముడు ఓడిపోయాడు," అని రావణుడు అబద్ధం చెప్పాడు. "అతన్ని మరచిపో, నా రాణివి అవ్వు!" ఆ రూపాన్ని చూడగానే సీతాదేవి గుండె పగిలిపోయింది. ఆమె వెక్కి వెక్కి ఏడ్చింది. అంతలో ఒక దూత వచ్చి రావణుడిని సభకు పిలిచాడు. రావణుడు వెళ్ళగానే ఆ మాయా రూపం కూడా మాయమైపోయింది. చీకటిలో సీతాదేవి ఒంటరిగా ఏడుస్తూ మిగిలిపోయింది.',
+      },
+      {
+        scene: { bg: 'night', props: [['moon', 340, 55, 0.9], ['tree', 300, 198, 1.6], ['person', 250, 198, 1.25, { female: true, skin: 'fair', cloth: '#e0c060', pallu: '#c9a040' }], ['person', 185, 198, 1.3, { female: true, skin: 'dark', cloth: '#7a5ab0', pallu: '#3a8a6a', raise: true }], ['drum', 70, 198, 1.1], ['flowers', 120, 202, 0.9]] },
+        en: 'But Sītā was not alone for long. A gentle rākṣasī named Saramā hurried to her side. It is said she was the wife of Vibhīṣaṇa, Rāvaṇa\'s good and honest brother. Saramā had been hiding nearby and had heard everything. She held Sītā\'s hands. "Do not cry, dear lady," she whispered. "That was not Rāma. It was only a magic trick! Rāma is alive and well. He has crossed the ocean with a great army of monkeys and bears, and they are camped right outside Laṅkā. Listen — can you hear the war drums? Rāvaṇa is afraid. That is why he tried to fool you."',
+        te: 'కానీ సీతాదేవి ఎక్కువసేపు ఒంటరిగా లేదు. సరమ అనే ఒక మంచి రాక్షసి ఆమె దగ్గరకు పరుగున వచ్చింది. ఆమె రావణుడి మంచి తమ్ముడైన విభీషణుడి భార్య అని చెబుతారు. సరమ దగ్గరలోనే దాక్కుని అంతా విన్నది. ఆమె సీతాదేవి చేతులు పట్టుకుంది. "ఏడవకమ్మా," అని మెల్లగా అంది. "అది రాముడు కాదు. అదంతా ఒట్టి మాయ! రాముడు క్షేమంగా ఉన్నాడు. వానరులు, ఎలుగుబంట్ల పెద్ద సైన్యంతో సముద్రం దాటి వచ్చాడు. వాళ్ళంతా లంక బయటే విడిది చేసి ఉన్నారు. విను — యుద్ధభేరుల మోత వినిపిస్తోందా? రావణుడు భయపడుతున్నాడు. అందుకే నిన్ను మోసం చేయాలని చూశాడు."',
+      },
+      {
+        scene: { bg: 'night', props: [['moon', 60, 55, 0.8], ['lanka', 300, 185, 1.4], ['person', 120, 198, 1.25, { female: true, skin: 'fair', cloth: '#e0c060', pallu: '#c9a040', raise: true }], ['person', 185, 198, 1.3, { female: true, skin: 'dark', cloth: '#7a5ab0', pallu: '#3a8a6a' }], ['drum', 50, 205, 0.8]] },
+        en: 'Sītā wiped her tears. "Saramā, you are a true friend. Will you find out what Rāvaṇa plans to do?" Saramā slipped into the palace as quietly as a shadow and listened. Soon she was back. "Rāvaṇa\'s own mother and his wise old minister begged him to send you back to Rāma," she said. "But he will not listen. He is too proud." Just then the boom of drums and the call of conch shells rolled over the city — Rāma\'s army was ready. Sītā smiled for the first time in many days. Even in that dark place, a kind friend had brought her hope.',
+        te: 'సీతాదేవి కన్నీళ్ళు తుడుచుకుంది. "సరమా, నువ్వు నిజమైన స్నేహితురాలివి. రావణుడు ఏం చేయాలనుకుంటున్నాడో తెలుసుకుని వస్తావా?" సరమ నీడలా నిశ్శబ్దంగా రాజభవనంలోకి వెళ్ళి అంతా విన్నది. కాసేపట్లోనే తిరిగి వచ్చింది. "రావణుడి తల్లి, అతని ముసలి మంత్రి కూడా నిన్ను రాముడికి తిరిగి అప్పగించమని బతిమాలారు," అని చెప్పింది. "కానీ అతను వినడం లేదు. అతనికి అహంకారం ఎక్కువ." అప్పుడే లంక అంతటా భేరీలు, శంఖాల ధ్వని మారుమోగింది — రాముడి సైన్యం సిద్ధంగా ఉంది. చాలా రోజుల తరువాత సీతాదేవి మొదటిసారి చిరునవ్వు నవ్వింది. ఆ చీకటి చోటులో కూడా ఒక మంచి స్నేహితురాలు ఆమెకు ఆశను తెచ్చింది.',
+      },
+    ],
+  },
+  {
+    id: 'arjuna-krishna-and-the-khandava-forest',
+    added: '2026-11-26',
+    epic: 'Mahabharata',
+    chars: ['Arjuna', 'Kṛṣṇa', 'Agni', 'Indra', 'Maya'],
+    title: { en: 'Arjuna, Kṛṣṇa and the Khāṇḍava Forest', te: 'అర్జునుడు, శ్రీకృష్ణుడు, ఖాండవ వనం' },
+    moral: { en: 'Friends who stand together can face even the strongest storm.', te: 'కలిసి నిలబడే స్నేహితులు ఎంత పెద్ద తుఫానునైనా ఎదుర్కోగలరు.' },
+    cover: { bg: 'forest', props: [['rain', 200, 108, 1], ['fire', 200, 196, 1.4], ['archer', 90, 198, 1.3], ['person', 320, 198, 1.3, { skin: 'blue', cloth: '#f0c040', crown: true, flip: true }]] },
+    pages: [
+      {
+        scene: { bg: 'river', props: [['sun', 350, 45, 0.9], ['person', 90, 190, 1.3, { cloth: '#3a6ab0' }], ['person', 150, 190, 1.3, { skin: 'blue', cloth: '#f0c040', crown: true }], ['glow', 280, 190, 1.1], ['person', 280, 190, 1.4, { skin: 'fair', cloth: '#f2a33a', hair: '#e0503a', raise: true, flip: true }]] },
+        en: 'One hot summer day, Arjuna and his dear friend Kṛṣṇa went for a picnic on the banks of the river Yamunā. As they rested, a tall brahmin walked towards them. He glowed like gold, and his hair was the colour of flames. "I am very hungry," he said. "Will you help me?" "Gladly," said the friends. Then the brahmin showed his true form. "I am Agni, the god of fire. For twelve years a king poured ghee into my flames, and now I feel weak and ill. Only the plants of the great Khāṇḍava forest can cure me. But Indra guards that forest, because his friend Takṣaka the serpent lives there. Seven times I have tried, and seven times Indra has put me out with rain."',
+        te: 'ఒక వేసవి రోజు అర్జునుడు, అతని ప్రియ మిత్రుడు శ్రీకృష్ణుడు యమునా నది ఒడ్డుకు విహారానికి వెళ్ళారు. వాళ్ళు విశ్రాంతి తీసుకుంటుండగా, ఒక పొడవైన బ్రాహ్మణుడు వాళ్ళ దగ్గరకు వచ్చాడు. అతను బంగారంలా మెరిసిపోతున్నాడు, అతని జుట్టు మంటల రంగులో ఉంది. "నాకు చాలా ఆకలిగా ఉంది. నాకు సాయం చేస్తారా?" అని అడిగాడు. "తప్పకుండా," అన్నారు ఇద్దరు మిత్రులు. అప్పుడు ఆ బ్రాహ్మణుడు తన నిజరూపం చూపించాడు. "నేను అగ్నిదేవుడిని. పన్నెండేళ్ళ పాటు ఒక రాజు యజ్ఞంలో నాకు నెయ్యి పోస్తూనే ఉన్నాడు. దాంతో నాకు నీరసం వచ్చి, ఒంట్లో బాగాలేదు. గొప్ప ఖాండవ వనంలోని మొక్కలే నన్ను బాగుచేయగలవు. కానీ ఆ అడవిలో ఇంద్రుడి స్నేహితుడైన తక్షకుడు అనే నాగుడు ఉంటాడు. అందుకే ఇంద్రుడు ఆ వనాన్ని కాపాడుతున్నాడు. ఏడుసార్లు ప్రయత్నించాను, ఏడుసార్లూ ఇంద్రుడు వాన కురిపించి నన్ను ఆర్పేశాడు."',
+      },
+      {
+        scene: { bg: 'forest', props: [['chariot', 110, 198, 1.4], ['horse', 200, 198, 1, { color: '#f4f4f4' }], ['monkey', 96, 128, 0.5, { color: '#d9772a' }], ['person', 280, 198, 1.3, { skin: 'blue', cloth: '#f0c040', crown: true, raise: true }], ['bow', 330, 196, 1.2], ['fire', 370, 198, 0.9]] },
+        en: 'Arjuna said, "I will hold back Indra. But for that I need a bow strong enough, and a chariot that can carry all my arrows." So Agni called Varuṇa, the god of the waters. Varuṇa gave Arjuna the mighty bow Gāṇḍīva, two quivers whose arrows never run out, and a shining chariot pulled by white horses, with a monkey on its flag. To Kṛṣṇa he gave the Sudarśana discus and the mace Kaumodakī. The two friends took their places on either side of the forest, and Agni leapt into it with a roar. Flames rose up to the sky.',
+        te: 'అర్జునుడు అన్నాడు, "నేను ఇంద్రుడిని అడ్డుకుంటాను. కానీ దానికి బలమైన విల్లు, నా బాణాలన్నీ మోయగల రథం కావాలి." అప్పుడు అగ్నిదేవుడు జలదేవుడైన వరుణుడిని పిలిచాడు. వరుణుడు అర్జునుడికి గాండీవం అనే గొప్ప విల్లును, ఎప్పటికీ బాణాలు తరగని రెండు అమ్ములపొదులను, తెల్లని గుర్రాలు లాగే మెరిసే రథాన్ని ఇచ్చాడు. ఆ రథం జెండా మీద ఒక వానరం ఉంది. శ్రీకృష్ణుడికి సుదర్శన చక్రాన్ని, కౌమోదకి అనే గదను ఇచ్చాడు. ఇద్దరు మిత్రులూ అడవికి చెరో వైపు నిలబడ్డారు. అగ్నిదేవుడు గర్జిస్తూ వనంలోకి దూకాడు. మంటలు ఆకాశాన్ని తాకాయి.',
+      },
+      {
+        scene: { bg: 'forest', props: [['rain', 230, 130, 1.2], ['arrow', 190, 140, 1], ['arrow', 250, 134, 1], ['arrow', 300, 142, 1], ['fire', 260, 198, 1.2], ['archer', 90, 198, 1.4], ['elephant', 340, 198, 0.6], ['person', 340, 162, 0.8, { cloth: '#f4ead2', crown: true, flip: true }]] },
+        en: 'Up in heaven, Indra saw the smoke. He sent thick black clouds, and rain poured down. But Arjuna shot so many arrows, so fast, that they made a roof over the whole forest — not one drop reached the fire! Indra came to fight himself, but he could not win. Then a voice spoke from the sky: "Indra, your friend Takṣaka is not here — he has gone to Kurukṣetra. And these two are Nara and Nārāyaṇa, whom no one can defeat." Indra smiled, proud of Arjuna, his own son, and went home. Agni was cured. And when an asura named Maya ran out begging for help, Arjuna kindly spared his life.',
+        te: 'స్వర్గంలో ఇంద్రుడు పొగను చూశాడు. దట్టమైన నల్లని మేఘాలను పంపాడు, కుండపోతగా వాన కురిసింది. కానీ అర్జునుడు ఎంత వేగంగా, ఎన్నెన్ని బాణాలు వేశాడంటే, అవి అడవి అంతటా ఒక పైకప్పులా అల్లుకుపోయాయి — ఒక్క చుక్క కూడా మంటల మీద పడలేదు! ఇంద్రుడు స్వయంగా యుద్ధానికి వచ్చాడు, కానీ గెలవలేకపోయాడు. అప్పుడు ఆకాశం నుంచి ఒక స్వరం వినిపించింది: "ఇంద్రా, నీ స్నేహితుడు తక్షకుడు ఇక్కడ లేడు — కురుక్షేత్రానికి వెళ్ళాడు. ఈ ఇద్దరూ నరనారాయణులు. వీళ్ళను ఎవరూ గెలవలేరు." తన కుమారుడైన అర్జునుడిని చూసి గర్వపడుతూ ఇంద్రుడు చిరునవ్వుతో వెనుదిరిగాడు. అగ్నిదేవుడి జబ్బు నయమైంది. మయుడు అనే అసురుడు కాపాడమని వేడుకుంటూ పరుగున వచ్చినప్పుడు, అర్జునుడు దయతో అతని ప్రాణాలు కాపాడాడు.',
+      },
+    ],
+  },
+  {
+    id: 'how-vali-caught-ravana',
+    added: '2026-11-26',
+    epic: 'Ramayana',
+    chars: ['Vāli', 'Rāvaṇa'],
+    title: { en: 'How Vāli Caught Rāvaṇa', te: 'రావణుడిని పట్టుకున్న వాలి' },
+    moral: { en: 'Pride goes looking for a fight; true strength stays calm.', te: 'గర్వం గొడవను వెతుక్కుంటుంది; నిజమైన బలం ప్రశాంతంగా ఉంటుంది.' },
+    cover: { bg: 'sky', props: [['cloud', 70, 60, 1], ['sun', 350, 50, 0.8], ['monkey', 230, 160, 2, { color: '#c9952a' }], ['crown', 230, 58, 0.6], ['tail', 220, 140, 0.9], ['ravana', 140, 150, 0.45]] },
+    pages: [
+      {
+        scene: { bg: 'mountain', props: [['ravana', 130, 198, 1], ['monkey', 270, 198, 1.2, { color: '#b8823f', flip: true }], ['monkey', 330, 198, 1.1, { color: '#9a6a3a', flip: true }], ['cloud', 220, 40, 0.9]] },
+        en: 'Rāvaṇa, the ten-headed king of Laṅkā, loved to pick fights. He had heard of Vāli, the mighty monkey king of Kiṣkindhā and a son of Indra. "I will defeat this Vāli!" Rāvaṇa boasted, and he flew off to Kiṣkindhā. But Vāli was not at home. Vāli\'s ministers bowed politely. "Our king has gone to the four oceans to say his evening prayers," they said. "You may wait here if you like. But we must warn you — nobody who fights Vāli ever wins." Rāvaṇa only laughed, and flew south to find him.',
+        te: 'పది తలల లంకాధిపతి రావణుడికి ఎవరితోనైనా గొడవ పెట్టుకోవడం ఇష్టం. కిష్కింధకు రాజు, ఇంద్రుడి కుమారుడు అయిన మహాబలవంతుడైన వానరుడు వాలి గురించి అతను విన్నాడు. "ఆ వాలిని నేను ఓడిస్తాను!" అని గొప్పలు చెప్పుకుంటూ కిష్కింధకు ఎగిరి వెళ్ళాడు. కానీ వాలి ఇంట్లో లేడు. వాలి మంత్రులు మర్యాదగా నమస్కరించారు. "మా రాజుగారు సంధ్యావందనం చేయడానికి నాలుగు సముద్రాలకు వెళ్ళారు," అన్నారు వాళ్ళు. "కావాలంటే ఇక్కడే వేచి ఉండండి. కానీ ఒక మాట — వాలితో పోరాడి ఇంతవరకు ఎవరూ గెలవలేదు." రావణుడు నవ్వేసి, వాలిని వెతుక్కుంటూ దక్షిణానికి ఎగిరాడు.',
+      },
+      {
+        scene: { bg: 'shore', props: [['sun', 60, 50, 0.8], ['monkey', 260, 196, 1.6, { color: '#c9952a', flip: true }], ['crown', 260, 102, 0.5], ['ravana', 120, 198, 0.8]] },
+        en: 'On the shore of the southern ocean, Rāvaṇa found Vāli sitting very still with his eyes closed, saying his prayers. "Now I will grab him from behind!" thought Rāvaṇa, and he crept forward on tiptoe. But Vāli had heard him coming long before. Just as Rāvaṇa stretched out his twenty arms — whoosh! — Vāli caught him and tucked him tightly under his arm. Then Vāli leapt into the sky. Some tellings say he wrapped Rāvaṇa up in his long tail instead. Either way, the great king of Laṅkā was stuck!',
+        te: 'దక్షిణ సముద్రపు ఒడ్డున, కళ్ళు మూసుకుని నిశ్చలంగా కూర్చుని ప్రార్థన చేస్తున్న వాలిని రావణుడు చూశాడు. "ఇప్పుడు వెనక నుంచి పట్టేసుకుంటాను!" అనుకుని రావణుడు మునివేళ్ళ మీద నెమ్మదిగా ముందుకు నడిచాడు. కానీ వాలి అతను రావడం ఎప్పుడో విన్నాడు. రావణుడు తన ఇరవై చేతులు చాపగానే — రివ్వున! — వాలి అతన్ని పట్టుకుని తన చంకలో గట్టిగా ఇరికించుకున్నాడు. తరువాత ఆకాశంలోకి ఎగిరాడు. కొన్ని కథల్లో వాలి రావణుడిని తన పొడవాటి తోకతో చుట్టేశాడని చెబుతారు. ఏది ఏమైనా, గొప్ప లంకాధిపతి చిక్కుకుపోయాడు!',
+      },
+      {
+        scene: { bg: 'forest', props: [['fire', 200, 198, 1], ['monkey', 290, 198, 1.5, { color: '#c9952a', flip: true }], ['crown', 290, 112, 0.45], ['ravana', 110, 198, 0.8], ['sun', 360, 45, 0.7]] },
+        en: 'Vāli flew like the wind to the western ocean, then the northern ocean, then the eastern ocean, and calmly finished his prayers at each one. Rāvaṇa kicked and scratched and pulled, but he could not get free. At last Vāli landed back in Kiṣkindhā and let him go. "Well," said Vāli with a laugh, "who are you, and what do you want?" Rāvaṇa was tired, ruffled and very embarrassed. "I came to fight you," he admitted. "But I have never met anyone so strong. Let us be friends instead." And so, before a sacred fire, the two kings promised friendship.',
+        te: 'వాలి గాలిలా ఎగురుతూ పడమటి సముద్రానికి, తరువాత ఉత్తర సముద్రానికి, తరువాత తూర్పు సముద్రానికి వెళ్ళి, ప్రతిచోటా ప్రశాంతంగా తన ప్రార్థన పూర్తిచేశాడు. రావణుడు తన్నాడు, గీరాడు, లాగాడు, కానీ విడిపించుకోలేకపోయాడు. చివరకు వాలి కిష్కింధలో దిగి అతన్ని వదిలేశాడు. "సరే," అన్నాడు వాలి నవ్వుతూ, "నువ్వు ఎవరు? నీకేం కావాలి?" రావణుడు అలసిపోయి, చిందరవందరగా, చాలా సిగ్గుపడుతూ ఉన్నాడు. "నీతో యుద్ధం చేయడానికి వచ్చాను," అని ఒప్పుకున్నాడు. "కానీ ఇంత బలవంతుడిని నేను ఎప్పుడూ చూడలేదు. మనం శత్రువులుగా కాదు, స్నేహితులుగా ఉందాం." అలా పవిత్రమైన అగ్ని సాక్షిగా ఇద్దరు రాజులు స్నేహం చేసుకున్నారు.',
+      },
+    ],
+  },
 ];
