@@ -48,7 +48,6 @@ king's life, publishes it, and moves it to "Done" in the same commit.
 6. `node tools/check_kings.js` must print OK (and `node tools/check_sages.js` must still print OK).
 
 ## Next
-- [ ] Yaśodharman (yashodharman) — Aulikara king of Daśapura (Mandsaur); the Mandsaur victory pillars; the defeat of the Hūṇa Mihirakula (about 528); a short-lived empire
 - [ ] Dharmapāla (dharmapala) — Pāla king of Bengal; Gopāla chosen king (Khalimpur plate); the Kanauj contest with the Pratīhāras and Rāṣṭrakūṭas; Vikramaśīla; Buddhist faith and Hindu subjects
 - [ ] Mahādajī Śinde (mahadji) — survivor of Pānipat (1761); the Treaty of Salbai (1782); master of Delhi and protector of Shah Alam; de Boigne's battalions; Lālsot and Pāṭan
 - [ ] Ranjīt Siṃh (ranjit) — Lahore taken (1799); uniting the Sikh misls; the Treaty of Amritsar (1809); the Koh-i-Nūr; Multān, Kashmir and Peshawar; the Golden Temple's gilding; the Fauj-i-Khās
@@ -96,3 +95,4 @@ Mahādajī Śinde, Ahilyābāī Holkar, Ranjīt Siṃh, Rāṇī Lakṣmībāī.
 - [x] Chhatrasāl Bundelā (chhatrasal) — 8 chapters — 2026-11-23
 - [x] Bājī Rāo I (bajirao) — 9 chapters — 2026-11-24
 - [x] Puṣyamitra Śuṅga (pushyamitra) — 8 chapters — 2026-11-25
+- [x] Yaśodharman (yashodharman) — 8 chapters — 2026-11-26
