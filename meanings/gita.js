@@ -1708,6 +1708,178 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "वेदों के अध्ययन, यज्ञों, तपों और दानों का जो पुण्यफल बताया गया है, इसे जानने वाला योगी उन सबसे आगे निकलकर आदि परम स्थान को प्राप्त होता है।"
 },
 
+// ── Chapter 9 · Rāja Vidyā Rāja Guhya Yoga ──
+"gita_ch9_v1": {
+  en: "The Lord said: Because you do not find fault, I will now tell you this most secret knowledge, together with the experience of it. Knowing it, you will be freed from all that is harmful.",
+  te: "శ్రీ భగవానుడు అన్నాడు: నీకు అసూయ లేదు, కాబట్టి అత్యంత రహస్యమైన ఈ జ్ఞానాన్ని, దాని అనుభవంతో కలిపి నీకు చెబుతాను. దీనిని తెలుసుకుంటే నువ్వు అశుభం అంతటి నుండీ విముక్తుడవుతావు.",
+  hi: "श्री भगवान ने कहा: तुम दोष नहीं निकालते, इसलिए मैं तुम्हें यह सबसे गोपनीय ज्ञान, उसके अनुभव सहित बताऊँगा। इसे जानकर तुम सब अशुभ से मुक्त हो जाओगे।"
+},
+"gita_ch9_v2": {
+  en: "This is the king of all knowledge, the king of secrets, supremely pure. It can be directly experienced, it is in harmony with dharma, it is very easy to practise, and it never perishes.",
+  te: "ఇది విద్యలన్నిటికీ రాజు, రహస్యాలన్నిటికీ రాజు, అత్యంత పవిత్రమైనది. దీనిని నేరుగా అనుభవించవచ్చు, ఇది ధర్మానికి అనుగుణమైనది, ఆచరించడం చాలా సులభం, ఇది ఎన్నటికీ నశించదు.",
+  hi: "यह सब विद्याओं का राजा है, सब रहस्यों का राजा है, परम पवित्र है। इसका प्रत्यक्ष अनुभव हो सकता है, यह धर्म के अनुकूल है, इसका पालन बहुत सरल है और यह कभी नष्ट नहीं होता।"
+},
+"gita_ch9_v3": {
+  en: "Parantapa, people who have no faith in this dharma do not reach Me; they return again and again to the path of death and worldly existence.",
+  te: "పరంతపా! ఈ ధర్మం మీద శ్రద్ధ లేని మనుషులు నన్ను చేరుకోలేక, మళ్ళీ మళ్ళీ మరణంతో కూడిన సంసార మార్గంలోకే తిరిగి వస్తారు.",
+  hi: "हे परंतप! इस धर्म में श्रद्धा न रखने वाले लोग मुझे प्राप्त नहीं होते; वे बार-बार मृत्यु और संसार के मार्ग पर लौट आते हैं।"
+},
+"gita_ch9_v4": {
+  en: "This whole universe is pervaded by Me in My unmanifest form. All beings rest in Me, but I do not rest in them.",
+  te: "అవ్యక్తమైన నా రూపంతో ఈ జగత్తంతా నేను వ్యాపించి ఉన్నాను. ప్రాణులన్నీ నాలో ఉన్నాయి, కానీ నేను వాటిలో ఆధారపడి లేను.",
+  hi: "मेरे अव्यक्त रूप से यह सारा जगत व्याप्त है। सब प्राणी मुझमें स्थित हैं, परंतु मैं उनमें स्थित नहीं हूँ।"
+},
+"gita_ch9_v5": {
+  en: "And yet beings do not truly rest in Me — behold My divine power! My Self sustains all beings and brings them into existence, yet it does not dwell in them.",
+  te: "అయినా ప్రాణులు నిజంగా నాలో లేవు — నా దివ్యమైన యోగశక్తిని చూడు! నా ఆత్మ ప్రాణులన్నిటినీ పోషిస్తూ, వాటిని పుట్టిస్తూ ఉన్నా, వాటిలో నివసించదు.",
+  hi: "फिर भी प्राणी वास्तव में मुझमें स्थित नहीं हैं — मेरी दिव्य योगशक्ति को देखो! मेरा आत्मा सब प्राणियों का पालन करता है और उन्हें उत्पन्न करता है, फिर भी उनमें स्थित नहीं है।"
+},
+"gita_ch9_v6": {
+  en: "Just as the mighty wind, moving everywhere, always rests in space, understand that in the same way all beings rest in Me.",
+  te: "అంతటా సంచరించే మహా వాయువు ఎప్పుడూ ఆకాశంలోనే ఉన్నట్లు, ప్రాణులన్నీ అలాగే నాలో ఉన్నాయని గ్రహించు.",
+  hi: "जैसे सर्वत्र बहने वाली महान वायु सदा आकाश में ही स्थित रहती है, वैसे ही सब प्राणी मुझमें स्थित हैं — ऐसा समझो।"
+},
+"gita_ch9_v7": {
+  en: "Kaunteya, at the end of a cosmic cycle all beings merge into My own Prakṛti (nature); at the beginning of the next cycle I send them forth again.",
+  te: "కౌంతేయా! కల్పం ముగిసినప్పుడు ప్రాణులన్నీ నా ప్రకృతిలో లీనమవుతాయి; కొత్త కల్పం ఆరంభంలో వాటిని నేను మళ్ళీ సృష్టిస్తాను.",
+  hi: "हे कौंतेय! कल्प के अंत में सब प्राणी मेरी प्रकृति में लीन हो जाते हैं; अगले कल्प के आरंभ में मैं उन्हें फिर से रचता हूँ।"
+},
+"gita_ch9_v8": {
+  en: "Taking hold of My own Prakṛti, I send forth again and again this whole multitude of beings, who are helpless under the sway of nature.",
+  te: "నా ప్రకృతిని ఆధారం చేసుకుని, ప్రకృతి వశంలో నిస్సహాయంగా ఉన్న ఈ ప్రాణి సమూహాన్నంతటినీ నేను మళ్ళీ మళ్ళీ సృష్టిస్తాను.",
+  hi: "अपनी प्रकृति का सहारा लेकर मैं प्रकृति के वश में विवश इस समस्त प्राणी-समूह को बार-बार रचता हूँ।"
+},
+"gita_ch9_v9": {
+  en: "Dhanañjaya, these actions do not bind Me, because I remain like one who sits apart, unattached to them.",
+  te: "ధనంజయా! ఈ కర్మలు నన్ను బంధించవు, ఎందుకంటే నేను వాటిపై ఆసక్తి లేకుండా, ఉదాసీనుడిలా ఉంటాను.",
+  hi: "हे धनंजय! ये कर्म मुझे नहीं बाँधते, क्योंकि मैं उनमें आसक्ति रखे बिना उदासीन की तरह स्थित रहता हूँ।"
+},
+"gita_ch9_v10": {
+  en: "Under My watchful presence, Prakṛti gives birth to all that moves and all that does not move. Because of this, Kaunteya, the world keeps turning.",
+  te: "నా పర్యవేక్షణలో ప్రకృతి చరాచర జగత్తునంతటినీ పుట్టిస్తుంది. కౌంతేయా! ఈ కారణం చేతనే లోకం తిరుగుతూ ఉంటుంది.",
+  hi: "मेरी अध्यक्षता में प्रकृति चर-अचर सबको उत्पन्न करती है। हे कौंतेय! इसी कारण यह जगत चक्र की तरह घूमता रहता है।"
+},
+"gita_ch9_v11": {
+  en: "Fools disregard Me when I take a human form, not knowing My higher nature as the great Lord of all beings.",
+  te: "నేను మానవ రూపం ధరించినప్పుడు, ప్రాణులన్నిటికీ మహేశ్వరుడనైన నా పరమ స్వభావాన్ని తెలియని మూఢులు నన్ను చిన్నచూపు చూస్తారు.",
+  hi: "जब मैं मनुष्य का शरीर धारण करता हूँ, तब सब प्राणियों के महान ईश्वर के रूप में मेरे परम भाव को न जानने वाले मूढ़ लोग मेरी उपेक्षा करते हैं।"
+},
+"gita_ch9_v12": {
+  en: "Their hopes are in vain, their actions are in vain, their knowledge is in vain, and their minds are confused; they cling to a deluding nature that is cruel and demonic.",
+  te: "వారి ఆశలు వ్యర్థం, వారి కర్మలు వ్యర్థం, వారి జ్ఞానం వ్యర్థం, వారి బుద్ధి చెదిరిపోయి ఉంటుంది; మోహంలో ముంచే రాక్షస, అసుర స్వభావాన్ని వారు ఆశ్రయిస్తారు.",
+  hi: "उनकी आशाएँ व्यर्थ, कर्म व्यर्थ और ज्ञान व्यर्थ होता है, उनकी बुद्धि भ्रमित रहती है; वे मोह में डालने वाले राक्षसी और आसुरी स्वभाव का आश्रय लेते हैं।"
+},
+"gita_ch9_v13": {
+  en: "But great souls, Pārtha, who take refuge in the divine nature, worship Me with undivided minds, knowing Me as the imperishable source of all beings.",
+  te: "కానీ పార్థా! దైవీ స్వభావాన్ని ఆశ్రయించిన మహాత్ములు, నన్ను సర్వ ప్రాణులకూ మూలమైనవాడిగా, నాశనం లేనివాడిగా తెలుసుకుని, ఏకాగ్రమైన మనసుతో నన్ను భజిస్తారు.",
+  hi: "परंतु हे पार्थ! दैवी स्वभाव का आश्रय लेने वाले महात्मा मुझे सब प्राणियों का अविनाशी आदि कारण जानकर, अनन्य मन से मेरा भजन करते हैं।"
+},
+"gita_ch9_v14": {
+  en: "Always singing My glory, striving with firm resolve, and bowing to Me with devotion, they worship Me, ever united with Me.",
+  te: "ఎల్లప్పుడూ నా కీర్తిని గానం చేస్తూ, దృఢమైన వ్రతంతో ప్రయత్నిస్తూ, భక్తితో నాకు నమస్కరిస్తూ, నిత్యం నాతో కూడి వారు నన్ను ఉపాసిస్తారు.",
+  hi: "सदा मेरा कीर्तन करते हुए, दृढ़ संकल्प के साथ प्रयत्न करते हुए और भक्ति से मुझे नमस्कार करते हुए, वे सदा मुझसे जुड़े रहकर मेरी उपासना करते हैं।"
+},
+"gita_ch9_v15": {
+  en: "Others worship Me through the offering of knowledge — some as the One, some as distinct from themselves, and some in many ways, as the One whose faces are everywhere.",
+  te: "మరికొందరు జ్ఞానయజ్ఞంతో నన్ను ఆరాధిస్తారు — కొందరు నన్ను తమతో ఏకమైనవాడిగా, కొందరు వేరైనవాడిగా, మరికొందరు అంతటా ముఖాలు కలిగిన విశ్వరూపుడిగా అనేక విధాలుగా ఉపాసిస్తారు.",
+  hi: "कुछ अन्य ज्ञान-यज्ञ के द्वारा मेरी उपासना करते हैं — कुछ मुझे एक मानकर, कुछ अलग मानकर, और कुछ अनेक प्रकार से, सब ओर मुख वाले विश्वरूप के रूप में।"
+},
+"gita_ch9_v16": {
+  en: "I am the ritual, I am the sacrifice, I am the offering to the ancestors, I am the healing herb. I am the mantra, I am the ghee, I am the fire, and I am the act of offering.",
+  te: "క్రతువును నేనే, యజ్ఞాన్ని నేనే, పితరులకు ఇచ్చే స్వధను నేనే, ఔషధాన్ని నేనే. మంత్రాన్ని నేనే, నెయ్యిని నేనే, అగ్నిని నేనే, హోమం చేసే క్రియను కూడా నేనే.",
+  hi: "मैं ही क्रतु हूँ, मैं ही यज्ञ हूँ, पितरों को दी जाने वाली स्वधा मैं हूँ, औषधि मैं हूँ। मंत्र मैं हूँ, घी मैं हूँ, अग्नि मैं हूँ और आहुति देने की क्रिया भी मैं ही हूँ।"
+},
+"gita_ch9_v17": {
+  en: "I am the father of this world, its mother, its sustainer and its grandsire. I am what is to be known, the purifier, the sacred syllable Om, and the Ṛg, Sāma and Yajur Vedas.",
+  te: "ఈ జగత్తుకు తండ్రిని నేనే, తల్లిని నేనే, పోషించేవాడిని నేనే, తాతను నేనే. తెలుసుకోవలసినది నేనే, పవిత్రం చేసేది నేనే, ఓంకారం నేనే, ఋగ్, సామ, యజుర్వేదాలు కూడా నేనే.",
+  hi: "इस जगत का पिता मैं हूँ, माता मैं हूँ, धारण करने वाला मैं हूँ, पितामह मैं हूँ। जानने योग्य मैं हूँ, पवित्र करने वाला मैं हूँ, ओंकार मैं हूँ, और ऋग्, साम तथा यजुर्वेद भी मैं ही हूँ।"
+},
+"gita_ch9_v18": {
+  en: "I am the goal, the supporter, the master, the witness, the home, the refuge and the friend. I am the origin and the dissolution, the ground, the treasure-house, and the imperishable seed.",
+  te: "గమ్యం నేనే, భరించేవాడిని నేనే, ప్రభువును నేనే, సాక్షిని నేనే, నివాసం నేనే, శరణం నేనే, మిత్రుడిని నేనే. పుట్టుక, లయం, ఆధారం, నిధి, నాశనం లేని బీజం — అన్నీ నేనే.",
+  hi: "गति मैं हूँ, भरण करने वाला मैं हूँ, स्वामी, साक्षी, निवास, शरण और सुहृद मैं हूँ। उत्पत्ति और प्रलय, आधार, निधान और अविनाशी बीज भी मैं ही हूँ।"
+},
+"gita_ch9_v19": {
+  en: "I give heat; I hold back the rain and send it forth. I am immortality and also death, Arjuna; I am both what is and what is not.",
+  te: "వేడిని ఇచ్చేది నేనే; వర్షాన్ని ఆపేది, కురిపించేది నేనే. అర్జునా! అమృతమూ నేనే, మృత్యువూ నేనే; ఉన్నదీ నేనే, లేనిదీ నేనే.",
+  hi: "मैं ही तपता हूँ; मैं ही वर्षा को रोकता और बरसाता हूँ। हे अर्जुन! अमृत भी मैं हूँ और मृत्यु भी; सत् भी मैं हूँ और असत् भी।"
+},
+"gita_ch9_v20": {
+  en: "Those who follow the three Vedas, drink the soma and are cleansed of sin worship Me through sacrifices and pray for heaven. Reaching the holy world of Indra, they enjoy the divine pleasures of the gods.",
+  te: "మూడు వేదాలను అనుసరించేవారు, సోమపానం చేసి పాపాలు పోగొట్టుకున్నవారు యజ్ఞాలతో నన్ను ఆరాధించి స్వర్గాన్ని కోరుకుంటారు. పుణ్యమైన ఇంద్రలోకాన్ని చేరి, అక్కడ దేవతల దివ్య భోగాలను అనుభవిస్తారు.",
+  hi: "तीनों वेदों का पालन करने वाले, सोमपान करके पापों से शुद्ध हुए लोग यज्ञों से मेरी पूजा करके स्वर्ग की प्रार्थना करते हैं। वे पुण्यमय इंद्रलोक को पाकर वहाँ देवताओं के दिव्य भोग भोगते हैं।"
+},
+"gita_ch9_v21": {
+  en: "Having enjoyed that vast heaven, when their merit is used up they enter the world of mortals again. So those who follow the Vedic rituals out of desire for pleasures keep coming and going.",
+  te: "ఆ విశాలమైన స్వర్గాన్ని అనుభవించి, పుణ్యం తీరిపోగానే మళ్ళీ మర్త్యలోకంలోకి వస్తారు. ఇలా భోగాలను కోరి వేద కర్మలను అనుసరించేవారు రాకపోకలే పొందుతారు.",
+  hi: "उस विशाल स्वर्ग को भोगकर पुण्य समाप्त होने पर वे फिर मृत्युलोक में आ जाते हैं। इस प्रकार भोगों की कामना से वैदिक कर्मों का पालन करने वाले आते-जाते ही रहते हैं।"
+},
+"gita_ch9_v22": {
+  en: "Those who think of Me alone and worship Me with no other thought — for them, who are always united with Me, I Myself bring what they need and protect what they have.",
+  te: "ఇంకేమీ ఆలోచించకుండా నన్నే చింతిస్తూ ఉపాసించేవారు — నిత్యం నాతో కూడి ఉన్న వారి యోగక్షేమాలను నేనే స్వయంగా చూసుకుంటాను.",
+  hi: "जो लोग अनन्य भाव से मेरा ही चिंतन करते हुए मेरी उपासना करते हैं — सदा मुझसे जुड़े उन भक्तों का योगक्षेम मैं स्वयं वहन करता हूँ।"
+},
+"gita_ch9_v23": {
+  en: "Even those devotees who worship other gods with faith are really worshipping Me alone, Kaunteya, though not in the proper way.",
+  te: "కౌంతేయా! శ్రద్ధతో ఇతర దేవతలను పూజించే భక్తులు కూడా నిజానికి నన్నే పూజిస్తున్నారు, కానీ సరైన విధానంలో కాదు.",
+  hi: "हे कौंतेय! जो भक्त श्रद्धा के साथ अन्य देवताओं की पूजा करते हैं, वे भी वास्तव में मेरी ही पूजा करते हैं, परंतु विधिपूर्वक नहीं।"
+},
+"gita_ch9_v24": {
+  en: "For I alone am the enjoyer and the Lord of all sacrifices. But they do not know Me as I truly am, and so they fall back.",
+  te: "ఎందుకంటే యజ్ఞాలన్నిటినీ స్వీకరించేవాడిని, వాటికి ప్రభువును నేనే. కానీ వారు నన్ను యథార్థంగా తెలుసుకోరు, అందుకే మళ్ళీ కిందికి జారిపోతారు.",
+  hi: "क्योंकि सब यज्ञों का भोक्ता और स्वामी मैं ही हूँ। परंतु वे मुझे तत्त्व से नहीं जानते, इसलिए वे फिर गिर जाते हैं।"
+},
+"gita_ch9_v25": {
+  en: "Those devoted to the gods go to the gods; those devoted to the ancestors go to the ancestors; those who worship spirits go to the spirits; and those who worship Me come to Me.",
+  te: "దేవతలను ఆరాధించేవారు దేవతలను చేరుకుంటారు; పితరులను ఆరాధించేవారు పితరులను చేరుకుంటారు; భూతాలను పూజించేవారు భూతాలను చేరుకుంటారు; నన్ను పూజించేవారు నన్నే చేరుకుంటారు.",
+  hi: "देवताओं के उपासक देवताओं को प्राप्त होते हैं, पितरों के उपासक पितरों को, भूतों के पूजक भूतों को, और मेरी पूजा करने वाले मुझे ही प्राप्त होते हैं।"
+},
+"gita_ch9_v26": {
+  en: "Whoever offers Me with devotion a leaf, a flower, a fruit or a little water — that offering of love from a pure heart, I gladly accept.",
+  te: "ఎవరైనా భక్తితో నాకు ఒక ఆకును, ఒక పువ్వును, ఒక పండును లేదా కొంచెం నీటిని సమర్పిస్తే — పవిత్ర హృదయంతో ప్రేమగా ఇచ్చిన ఆ కానుకను నేను ఆనందంగా స్వీకరిస్తాను.",
+  hi: "जो कोई भक्ति से मुझे एक पत्ता, एक फूल, एक फल या थोड़ा-सा जल अर्पित करता है — शुद्ध मन वाले उस भक्त का प्रेम से दिया हुआ वह उपहार मैं प्रसन्नता से स्वीकार करता हूँ।"
+},
+"gita_ch9_v27": {
+  en: "Whatever you do, whatever you eat, whatever you offer in sacrifice, whatever you give, whatever discipline you practise, Kaunteya — do it as an offering to Me.",
+  te: "కౌంతేయా! నువ్వు ఏది చేసినా, ఏది తిన్నా, ఏది హోమం చేసినా, ఏది దానం చేసినా, ఏ తపస్సు చేసినా — దానిని నాకు అర్పణగా చేయి.",
+  hi: "हे कौंतेय! तुम जो कुछ करते हो, जो खाते हो, जो हवन करते हो, जो दान देते हो और जो तप करते हो — वह सब मुझे अर्पण करके करो।"
+},
+"gita_ch9_v28": {
+  en: "In this way you will be freed from the bonds of action and their good and bad results. With your mind set on renunciation and yoga, you will be liberated and come to Me.",
+  te: "ఇలా చేస్తే, మంచి చెడు ఫలాలను ఇచ్చే కర్మబంధాల నుండి నువ్వు విడుదల పొందుతావు. సన్యాస యోగంతో కూడిన మనసుతో విముక్తుడవై నన్నే చేరుకుంటావు.",
+  hi: "इस प्रकार तुम शुभ-अशुभ फल देने वाले कर्मबंधनों से मुक्त हो जाओगे। संन्यास-योग से युक्त मन वाले होकर, मुक्त होकर तुम मुझे ही प्राप्त होगे।"
+},
+"gita_ch9_v29": {
+  en: "I am the same towards all beings; no one is hateful to Me and no one is a favourite. But those who worship Me with devotion are in Me, and I am in them.",
+  te: "నేను ప్రాణులన్నిటి పట్లా సమానంగా ఉంటాను; నాకు ద్వేషించదగినవాడూ లేడు, ప్రత్యేకంగా ప్రియమైనవాడూ లేడు. కానీ భక్తితో నన్ను భజించేవారు నాలో ఉంటారు, నేను వారిలో ఉంటాను.",
+  hi: "मैं सब प्राणियों के प्रति समान हूँ; न मेरा कोई द्वेष का पात्र है, न कोई विशेष प्रिय। परंतु जो भक्ति से मेरा भजन करते हैं, वे मुझमें हैं और मैं उनमें हूँ।"
+},
+"gita_ch9_v30": {
+  en: "Even if a person of very bad conduct worships Me with undivided devotion, he should be regarded as good, for he has made the right resolve.",
+  te: "చాలా చెడు నడవడిక ఉన్నవాడైనా సరే, అనన్య భక్తితో నన్ను భజిస్తే, అతడిని సాధువుగానే భావించాలి, ఎందుకంటే అతడు సరైన నిర్ణయం తీసుకున్నాడు.",
+  hi: "यदि अत्यंत दुराचारी व्यक्ति भी अनन्य भक्ति से मेरा भजन करता है, तो उसे साधु ही मानना चाहिए, क्योंकि उसने सही निश्चय कर लिया है।"
+},
+"gita_ch9_v31": {
+  en: "He quickly becomes righteous and attains lasting peace. Kaunteya, declare it boldly: My devotee never perishes.",
+  te: "అతడు త్వరలోనే ధర్మాత్ముడై శాశ్వతమైన శాంతిని పొందుతాడు. కౌంతేయా! ధైర్యంగా ప్రకటించు: నా భక్తుడు ఎన్నడూ నశించడు.",
+  hi: "वह शीघ्र ही धर्मात्मा बन जाता है और स्थायी शांति प्राप्त करता है। हे कौंतेय! निश्चय के साथ घोषणा करो: मेरा भक्त कभी नष्ट नहीं होता।"
+},
+"gita_ch9_v32": {
+  en: "Pārtha, whoever takes refuge in Me — even those born in humble circumstances, women, vaiśyas and śūdras — they too reach the supreme goal.",
+  te: "పార్థా! నన్ను ఆశ్రయించినవారు ఎవరైనా — తక్కువగా భావించబడే జన్మలో పుట్టినవారైనా, స్త్రీలైనా, వైశ్యులైనా, శూద్రులైనా — వారు కూడా పరమ గతిని పొందుతారు.",
+  hi: "हे पार्थ! जो कोई मेरी शरण लेता है — चाहे वह नीची मानी जाने वाली योनि में जन्मा हो, या स्त्री, वैश्य या शूद्र हो — वे भी परम गति को प्राप्त होते हैं।"
+},
+"gita_ch9_v33": {
+  en: "How much more, then, the pure brāhmaṇas and devoted royal sages! Having come into this passing and joyless world, worship Me.",
+  te: "అలాంటప్పుడు పుణ్యాత్ములైన బ్రాహ్మణులు, భక్తులైన రాజర్షుల సంగతి వేరే చెప్పాలా! శాశ్వతం కాని, సుఖం లేని ఈ లోకంలోకి వచ్చావు కాబట్టి నన్ను భజించు.",
+  hi: "तो फिर पुण्यात्मा ब्राह्मणों और भक्त राजर्षियों का कहना ही क्या! इस अनित्य और सुखरहित संसार में आकर तुम मेरा भजन करो।"
+},
+"gita_ch9_v34": {
+  en: "Fix your mind on Me, be devoted to Me, worship Me, bow down to Me. Uniting yourself with Me in this way, with Me as your highest goal, you will surely come to Me.",
+  te: "నీ మనసును నాపై నిలుపు, నా భక్తుడివి కా, నన్ను పూజించు, నాకు నమస్కరించు. ఇలా నన్నే పరమ గమ్యంగా చేసుకుని నాతో నిన్ను కలుపుకుంటే, నువ్వు తప్పకుండా నన్నే చేరుకుంటావు.",
+  hi: "अपना मन मुझमें लगाओ, मेरे भक्त बनो, मेरी पूजा करो, मुझे नमस्कार करो। इस प्रकार मुझे ही परम लक्ष्य बनाकर स्वयं को मुझसे जोड़ोगे, तो तुम निश्चय ही मुझे प्राप्त होगे।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",

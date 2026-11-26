@@ -1709,6 +1709,178 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "पूजा, अध्ययन, अनुशासन और दान से जो भलाई मिलती है, वह अद्भुत है — पर भगवान को जानना और उनसे प्रेम करना इन सबसे ऊपर है। अध्याय उस एक चीज़ की ओर इशारा करते हुए समाप्त होता है जो बाक़ी सबसे अधिक मूल्यवान है।"
 },
 
+// ── Chapter 9 · Rāja Vidyā Rāja Guhya Yoga ──
+"gita_ch9_v1": {
+  en: "Kṛṣṇa is about to share His deepest secret, and He shares it with Arjuna because Arjuna listens without looking for faults. Some truths only open up to a heart that is humble and willing to learn.",
+  te: "శ్రీకృష్ణుడు తన అత్యంత లోతైన రహస్యాన్ని చెప్పబోతున్నాడు. అర్జునుడు తప్పులు వెతకకుండా వింటాడు కాబట్టే అతనికి చెబుతున్నాడు. కొన్ని సత్యాలు వినయంతో, నేర్చుకోవాలనే మనసుతో ఉన్నవారికే అర్థమవుతాయి.",
+  hi: "श्रीकृष्ण अपना सबसे गहरा रहस्य बताने वाले हैं, और वे यह अर्जुन को इसलिए बताते हैं क्योंकि अर्जुन दोष ढूँढे बिना सुनता है। कुछ सच्चाइयाँ केवल विनम्र और सीखने को तैयार मन के सामने ही खुलती हैं।"
+},
+"gita_ch9_v2": {
+  en: "This knowledge is not some complicated theory for scholars. It is the best knowledge of all, you can feel it in your own life, and it is easy to practise. Good things are often simpler than we think.",
+  te: "ఈ జ్ఞానం పండితులకు మాత్రమే అర్థమయ్యే క్లిష్టమైన సిద్ధాంతం కాదు. ఇది అన్నిటికంటే ఉత్తమమైన జ్ఞానం, మన జీవితంలోనే దీనిని అనుభవించవచ్చు, ఆచరించడమూ సులభమే. మంచి విషయాలు చాలాసార్లు మనం అనుకున్నదానికంటే సరళంగా ఉంటాయి.",
+  hi: "यह ज्ञान विद्वानों का कोई कठिन सिद्धांत नहीं है। यह सबसे श्रेष्ठ ज्ञान है, इसे अपने जीवन में ही महसूस किया जा सकता है, और इसका पालन आसान है। अच्छी चीज़ें अक्सर हमारी सोच से ज़्यादा सरल होती हैं।"
+},
+"gita_ch9_v3": {
+  en: "Without trust, even the best teaching cannot help us. Someone who does not believe it is worth trying never begins, and so keeps going round in the same circle of ups and downs.",
+  te: "నమ్మకం లేకపోతే అత్యుత్తమమైన బోధ కూడా మనకు సహాయపడదు. ప్రయత్నించడం విలువైనదని నమ్మనివాడు అసలు మొదలుపెట్టడు, అందుకే కష్టసుఖాల అదే చక్రంలో తిరుగుతూనే ఉంటాడు.",
+  hi: "विश्वास के बिना सबसे अच्छी शिक्षा भी हमारी मदद नहीं कर सकती। जो यह मानता ही नहीं कि प्रयास करना सार्थक है, वह शुरुआत ही नहीं करता, और उतार-चढ़ाव के उसी चक्र में घूमता रहता है।"
+},
+"gita_ch9_v4": {
+  en: "God is like the invisible ground under everything. The whole world stands on Him, yet He is not trapped inside any one thing. He holds everything, but nothing can hold Him.",
+  te: "దేవుడు అన్నిటి కింద ఉన్న కనిపించని ఆధారం లాంటివాడు. ప్రపంచమంతా ఆయనపైనే నిలిచి ఉంది, అయినా ఆయన ఏ ఒక్క వస్తువులోనూ బంధింపబడి లేడు. ఆయన అన్నిటినీ పట్టుకున్నాడు, కానీ ఏదీ ఆయనను పట్టుకోలేదు.",
+  hi: "भगवान हर चीज़ के नीचे की अदृश्य नींव जैसे हैं। सारा संसार उन पर टिका है, फिर भी वे किसी एक चीज़ में बँधे नहीं हैं। वे सबको थामे हुए हैं, पर उन्हें कोई नहीं थाम सकता।"
+},
+"gita_ch9_v5": {
+  en: "Here Kṛṣṇa plays with words to stretch our mind: the world is in Him, and yet it is not, because He is never touched or changed by it. He looks after everything without getting tangled up in it.",
+  te: "మన బుద్ధిని విస్తరించడానికి శ్రీకృష్ణుడు ఇక్కడ మాటలతో ఆడుతున్నాడు: ప్రపంచం ఆయనలో ఉంది, అయినా లేదు, ఎందుకంటే అది ఆయనను ఎన్నడూ తాకదు, మార్చదు. అన్నిటినీ చూసుకుంటూనే ఆయన దేనిలోనూ చిక్కుకోడు.",
+  hi: "यहाँ श्रीकृष्ण शब्दों से खेलकर हमारी सोच को बड़ा करते हैं: संसार उनमें है, फिर भी नहीं है, क्योंकि यह उन्हें कभी छूता या बदलता नहीं। वे सबकी देखभाल करते हैं, फिर भी किसी में उलझते नहीं।"
+},
+"gita_ch9_v6": {
+  en: "Think of the wind blowing all over the earth — it always stays inside the sky, yet the sky is never disturbed by it. In the same way, all of life moves within God, and He stays calm and untouched.",
+  te: "భూమి మీద అంతటా వీచే గాలిని ఊహించుకో — అది ఎప్పుడూ ఆకాశంలోనే ఉంటుంది, అయినా ఆకాశం దానివల్ల కలత చెందదు. అలాగే జీవమంతా దేవునిలోనే కదులుతూ ఉంటుంది, ఆయన మాత్రం ప్రశాంతంగా, ఏ మాత్రం తాకబడకుండా ఉంటాడు.",
+  hi: "पूरी धरती पर बहती हवा के बारे में सोचो — वह हमेशा आकाश के भीतर ही रहती है, फिर भी आकाश उससे विचलित नहीं होता। उसी तरह सारा जीवन भगवान के भीतर चलता है, और वे शांत और अछूते रहते हैं।"
+},
+"gita_ch9_v7": {
+  en: "The universe breathes in and out. At the end of a great age everything rests back in God, and at the start of the next it comes out again. Nothing is really lost — it just goes home for a while.",
+  te: "విశ్వం శ్వాస తీసుకుని వదులుతున్నట్లు ఉంటుంది. ఒక మహా యుగం చివర అంతా దేవునిలోకి తిరిగి విశ్రాంతి తీసుకుంటుంది, తరువాతి యుగం ఆరంభంలో మళ్ళీ బయటికి వస్తుంది. ఏదీ నిజంగా పోదు — కొంతకాలం ఇంటికి వెళ్ళి వస్తుందంతే.",
+  hi: "ब्रह्मांड साँस लेता और छोड़ता है। एक महायुग के अंत में सब कुछ भगवान में लौटकर विश्राम करता है, और अगले के आरंभ में फिर बाहर आता है। कुछ भी सच में खोता नहीं — बस कुछ समय के लिए घर लौट जाता है।"
+},
+"gita_ch9_v8": {
+  en: "All beings follow the pull of their own nature, like leaves carried by a river. God uses that great river of nature to bring creation out again and again.",
+  te: "నదిలో కొట్టుకుపోయే ఆకుల్లా, ప్రాణులన్నీ తమ స్వభావం లాగిన వైపే వెళ్తాయి. ప్రకృతి అనే ఆ మహా నదిని ఉపయోగించుకునే దేవుడు సృష్టిని మళ్ళీ మళ్ళీ బయటికి తెస్తాడు.",
+  hi: "नदी में बहते पत्तों की तरह, सब प्राणी अपने स्वभाव के खिंचाव के साथ चलते हैं। प्रकृति की उस विशाल नदी के सहारे ही भगवान सृष्टि को बार-बार प्रकट करते हैं।"
+},
+"gita_ch9_v9": {
+  en: "Running the whole universe does not stress God out, because He is not attached to the results. That is a lesson for us too: we can do a lot of work and still stay free inside if we do not cling.",
+  te: "విశ్వమంతటినీ నడిపించడం దేవునికి ఒత్తిడి కాదు, ఎందుకంటే ఆయనకు ఫలితాల మీద ఆసక్తి లేదు. ఇది మనకూ ఒక పాఠమే: పట్టుకుని వేలాడకపోతే, ఎంత పని చేసినా లోపల స్వేచ్ఛగా ఉండగలం.",
+  hi: "पूरे ब्रह्मांड को चलाना भगवान के लिए तनाव नहीं है, क्योंकि वे परिणामों से बँधे नहीं हैं। यह हमारे लिए भी सीख है: अगर हम चिपके न रहें, तो बहुत काम करके भी भीतर से मुक्त रह सकते हैं।"
+},
+"gita_ch9_v10": {
+  en: "Nature does the actual work of making and changing things, but it works because God's presence is there, like a garden that grows because the sun is shining on it.",
+  te: "వస్తువులను పుట్టించడం, మార్చడం అనే అసలు పనిని ప్రకృతే చేస్తుంది, కానీ దేవుని సాన్నిధ్యం ఉండటం వల్లే అది పనిచేస్తుంది — సూర్యుడు ప్రకాశిస్తున్నందువల్లే తోట పెరిగినట్లు.",
+  hi: "चीज़ों को बनाने और बदलने का असली काम प्रकृति करती है, पर वह इसलिए काम करती है क्योंकि भगवान की उपस्थिति वहाँ है — जैसे बगीचा इसलिए बढ़ता है क्योंकि उस पर सूरज चमक रहा है।"
+},
+"gita_ch9_v11": {
+  en: "When God came as Kṛṣṇa, many people saw only a man and missed who He really was. We can make the same mistake whenever we judge by the outside and do not look deeper.",
+  te: "దేవుడు శ్రీకృష్ణుడిగా వచ్చినప్పుడు, చాలామంది ఒక మనిషిని మాత్రమే చూసి, ఆయన నిజంగా ఎవరో గుర్తించలేకపోయారు. పైపై రూపాన్ని చూసి తీర్పు చెప్పి, లోతుగా చూడనప్పుడల్లా మనమూ అదే తప్పు చేస్తాం.",
+  hi: "जब भगवान श्रीकृष्ण के रूप में आए, तो बहुत लोगों ने केवल एक मनुष्य देखा और यह नहीं समझ पाए कि वे वास्तव में कौन हैं। जब भी हम बाहर से परखते हैं और गहराई से नहीं देखते, हम भी यही भूल करते हैं।"
+},
+"gita_ch9_v12": {
+  en: "A life built only on selfishness and arrogance ends up empty — the hopes, the efforts and even the cleverness lead nowhere. Without goodness inside, everything else gets wasted.",
+  te: "స్వార్థం, అహంకారం మీదనే నిర్మించిన జీవితం చివరికి ఖాళీగా మిగులుతుంది — ఆశలు, ప్రయత్నాలు, తెలివి కూడా ఎక్కడికీ చేర్చవు. లోపల మంచితనం లేకపోతే మిగతావన్నీ వృథా అవుతాయి.",
+  hi: "केवल स्वार्थ और अहंकार पर बना जीवन अंत में खोखला रह जाता है — आशाएँ, प्रयास और चतुराई भी कहीं नहीं पहुँचाते। भीतर अच्छाई न हो तो बाक़ी सब बेकार हो जाता है।"
+},
+"gita_ch9_v13": {
+  en: "Kind, large-hearted people see God as the source of everything and love Him with their whole heart. Their goodness opens their eyes to what others miss.",
+  te: "దయగల, విశాల హృదయం ఉన్నవారు దేవుణ్ణి అన్నిటికీ మూలంగా చూసి, మనస్ఫూర్తిగా ఆయనను ప్రేమిస్తారు. వారి మంచితనమే ఇతరులు గమనించని దానిని చూడటానికి వారి కళ్ళు తెరుస్తుంది.",
+  hi: "दयालु और बड़े दिल वाले लोग भगवान को सबका स्रोत मानकर पूरे मन से उनसे प्रेम करते हैं। उनकी अच्छाई उनकी आँखें उस चीज़ के लिए खोल देती है जिसे दूसरे नहीं देख पाते।"
+},
+"gita_ch9_v14": {
+  en: "Their devotion is not just once a year — they sing His names, keep their promises, and bow down with love every day. Faith grows strong through small daily habits.",
+  te: "వారి భక్తి ఏడాదికి ఒక్కసారి మాత్రమే కాదు — ప్రతిరోజూ ఆయన నామాలు పాడతారు, తమ నియమాలను పాటిస్తారు, ప్రేమతో నమస్కరిస్తారు. చిన్న చిన్న రోజువారీ అలవాట్లతోనే విశ్వాసం బలపడుతుంది.",
+  hi: "उनकी भक्ति साल में एक बार की बात नहीं है — वे हर दिन उनका नाम गाते हैं, अपने संकल्प निभाते हैं और प्रेम से प्रणाम करते हैं। छोटी-छोटी रोज़ की आदतों से ही विश्वास मज़बूत होता है।"
+},
+"gita_ch9_v15": {
+  en: "People come to God in different ways. Some feel one with Him, some relate to Him as a dear other, and some see Him in everything around them. Kṛṣṇa welcomes all these paths.",
+  te: "మనుషులు దేవుని దగ్గరికి వేర్వేరు దారుల్లో వస్తారు. కొందరు ఆయనతో ఒక్కటిగా భావిస్తారు, కొందరు ఆయనను ప్రియమైన వేరొకరిగా భావిస్తారు, మరికొందరు చుట్టూ ఉన్న అన్నిటిలోనూ ఆయనను చూస్తారు. శ్రీకృష్ణుడు ఈ దారులన్నిటినీ ఆహ్వానిస్తాడు.",
+  hi: "लोग अलग-अलग तरीकों से भगवान तक आते हैं। कुछ उनसे एकत्व महसूस करते हैं, कुछ उन्हें एक प्रिय दूसरे के रूप में मानते हैं, और कुछ अपने चारों ओर हर चीज़ में उन्हें देखते हैं। श्रीकृष्ण इन सब मार्गों का स्वागत करते हैं।"
+},
+"gita_ch9_v16": {
+  en: "In a fire ritual there are many parts — the mantra, the ghee, the fire, the offering. Kṛṣṇa says He is every one of them. So whenever we worship, it is really God from start to finish.",
+  te: "హోమంలో చాలా భాగాలు ఉంటాయి — మంత్రం, నెయ్యి, అగ్ని, సమర్పణ. అవన్నీ తానేనని శ్రీకృష్ణుడు చెబుతున్నాడు. కాబట్టి మనం ఎప్పుడు పూజ చేసినా, మొదటి నుండి చివరిదాకా అంతా దేవుడే.",
+  hi: "हवन में कई हिस्से होते हैं — मंत्र, घी, अग्नि, आहुति। श्रीकृष्ण कहते हैं कि वे इनमें से हर एक हैं। इसलिए जब भी हम पूजा करते हैं, शुरू से अंत तक वास्तव में सब भगवान ही हैं।"
+},
+"gita_ch9_v17": {
+  en: "God is not far away — He is our father, our mother, the one who feeds and protects us, and even our grandparent. Everything holy, including Om and the Vedas, comes from Him.",
+  te: "దేవుడు ఎక్కడో దూరంగా లేడు — ఆయనే మనకు తండ్రి, తల్లి, మనల్ని పోషించి కాపాడేవాడు, తాత కూడా. ఓంకారం, వేదాలు సహా పవిత్రమైనదంతా ఆయన నుండే వస్తుంది.",
+  hi: "भगवान दूर नहीं हैं — वे हमारे पिता, माता, हमें पालने और बचाने वाले, और दादा भी हैं। ओंकार और वेदों सहित जो कुछ पवित्र है, सब उन्हीं से आता है।"
+},
+"gita_ch9_v18": {
+  en: "This is one of the most comforting verses in the Gītā. God is our goal, our home, our shelter and our best friend. Whatever happens, there is always somewhere safe to turn.",
+  te: "గీతలో అత్యంత ఓదార్పునిచ్చే శ్లోకాలలో ఇది ఒకటి. దేవుడే మన గమ్యం, మన ఇల్లు, మన ఆశ్రయం, మన ప్రాణ స్నేహితుడు. ఏం జరిగినా, మనం ఆశ్రయించడానికి ఎప్పుడూ ఒక సురక్షితమైన చోటు ఉంటుంది.",
+  hi: "यह गीता के सबसे सांत्वना देने वाले श्लोकों में से एक है। भगवान हमारा लक्ष्य, हमारा घर, हमारा आश्रय और हमारे सबसे अच्छे मित्र हैं। कुछ भी हो, मुड़ने के लिए हमेशा एक सुरक्षित जगह है।"
+},
+"gita_ch9_v19": {
+  en: "The sun's heat, the rain, life and death — all of it is in God's hands. Even the things we fear are part of His world, so we do not have to face them alone.",
+  te: "సూర్యుని వేడి, వర్షం, జీవనం, మరణం — అన్నీ దేవుని చేతుల్లోనే ఉన్నాయి. మనం భయపడే విషయాలు కూడా ఆయన లోకంలో భాగమే, కాబట్టి వాటిని మనం ఒంటరిగా ఎదుర్కోవలసిన అవసరం లేదు.",
+  hi: "सूरज की गर्मी, वर्षा, जीवन और मृत्यु — सब भगवान के हाथ में है। जिन चीज़ों से हम डरते हैं, वे भी उनकी दुनिया का हिस्सा हैं, इसलिए हमें उनका सामना अकेले नहीं करना पड़ता।"
+},
+"gita_ch9_v20": {
+  en: "Some people do all the right rituals but mainly to earn a reward, like a heavenly holiday. And they do get it — good deeds always bring good results.",
+  te: "కొందరు సరైన పూజలన్నీ చేస్తారు, కానీ ముఖ్యంగా ఒక బహుమతి కోసం — స్వర్గంలో విహారం లాంటిది. వారికి అది దొరుకుతుంది కూడా — మంచి పనులకు ఎప్పుడూ మంచి ఫలితమే ఉంటుంది.",
+  hi: "कुछ लोग सब सही अनुष्ठान करते हैं, पर मुख्य रूप से इनाम पाने के लिए — जैसे स्वर्ग में छुट्टियाँ। और उन्हें वह मिलता भी है — अच्छे कर्मों का फल हमेशा अच्छा होता है।"
+},
+"gita_ch9_v21": {
+  en: "But a reward runs out, like money in a wallet. When the good merit is spent, they come back and start over. Kṛṣṇa is pointing to something that never runs out.",
+  te: "కానీ బహుమతి పర్సులోని డబ్బులా అయిపోతుంది. పుణ్యం ఖర్చయిపోగానే వారు మళ్ళీ వెనక్కి వచ్చి మొదటినుండి మొదలుపెడతారు. ఎన్నటికీ తరగని దాని వైపు శ్రీకృష్ణుడు చూపిస్తున్నాడు.",
+  hi: "पर इनाम बटुए के पैसों की तरह ख़त्म हो जाता है। पुण्य ख़र्च होते ही वे लौटकर फिर से शुरू करते हैं। श्रीकृष्ण उस चीज़ की ओर इशारा करते हैं जो कभी ख़त्म नहीं होती।"
+},
+"gita_ch9_v22": {
+  en: "This is God's beautiful promise: if you keep your heart on Him, He will take care of you — giving what you lack and protecting what you have. Like a mother who looks after a child who trusts her completely.",
+  te: "ఇది దేవుని అందమైన వాగ్దానం: నీ మనసును ఆయనపై నిలిపితే, ఆయనే నిన్ను చూసుకుంటాడు — నీకు లేనిది ఇస్తాడు, ఉన్నదాన్ని కాపాడతాడు. పూర్తిగా నమ్మిన బిడ్డను తల్లి చూసుకున్నట్లు.",
+  hi: "यह भगवान का सुंदर वचन है: यदि तुम अपना मन उन पर लगाए रखो, तो वे तुम्हारा ध्यान रखेंगे — जो नहीं है वह देंगे और जो है उसकी रक्षा करेंगे। जैसे माँ उस बच्चे का ध्यान रखती है जो उस पर पूरा भरोसा करता है।"
+},
+"gita_ch9_v23": {
+  en: "Kṛṣṇa is very generous here: people who pray sincerely to other gods are really reaching Him too. Sincere faith is never wasted, whatever name it uses.",
+  te: "శ్రీకృష్ణుడు ఇక్కడ చాలా ఉదారంగా ఉన్నాడు: ఇతర దేవతలను మనస్ఫూర్తిగా ప్రార్థించేవారు కూడా నిజానికి ఆయననే చేరుతున్నారు. ఏ పేరుతో చేసినా, నిజమైన శ్రద్ధ ఎన్నడూ వృథా కాదు.",
+  hi: "श्रीकृष्ण यहाँ बहुत उदार हैं: जो लोग सच्चे मन से अन्य देवताओं से प्रार्थना करते हैं, वे भी वास्तव में उन्हीं तक पहुँचते हैं। सच्ची श्रद्धा कभी व्यर्थ नहीं जाती, नाम चाहे जो हो।"
+},
+"gita_ch9_v24": {
+  en: "Every prayer finally reaches the one God. But if we do not understand that, we settle for small, passing gifts and miss the biggest gift of all — God Himself.",
+  te: "ప్రతి ప్రార్థన చివరికి ఒకే దేవుణ్ణి చేరుతుంది. కానీ అది మనకు అర్థం కాకపోతే, చిన్న, తాత్కాలిక కానుకలతో సరిపెట్టుకుని, అన్నిటికంటే గొప్ప కానుకను — దేవుణ్ణే — కోల్పోతాం.",
+  hi: "हर प्रार्थना अंत में एक ही भगवान तक पहुँचती है। पर यदि हम यह नहीं समझते, तो छोटे, अस्थायी उपहारों से संतुष्ट हो जाते हैं और सबसे बड़ा उपहार — स्वयं भगवान — खो देते हैं।"
+},
+"gita_ch9_v25": {
+  en: "We become like what we love most and end up where our heart is set. So it matters a lot what we give our heart to.",
+  te: "మనం ఎక్కువగా ప్రేమించేదానిలాగే మనం మారతాం, మన మనసు ఎక్కడ ఉంటుందో అక్కడికే చేరుకుంటాం. కాబట్టి మన హృదయాన్ని దేనికి ఇస్తామనేది చాలా ముఖ్యం.",
+  hi: "हम उसी जैसे बन जाते हैं जिससे सबसे ज़्यादा प्रेम करते हैं, और वहीं पहुँचते हैं जहाँ हमारा मन लगा होता है। इसलिए यह बहुत मायने रखता है कि हम अपना दिल किसे देते हैं।"
+},
+"gita_ch9_v26": {
+  en: "One of the sweetest verses in the Gītā: God does not need expensive gifts. A leaf, a flower, a fruit or a little water, given with love, makes Him happy. What He wants is your heart.",
+  te: "గీతలోని అత్యంత మధురమైన శ్లోకాలలో ఇది ఒకటి: దేవునికి ఖరీదైన కానుకలు అక్కర్లేదు. ప్రేమతో ఇచ్చిన ఒక ఆకు, పువ్వు, పండు లేదా కొంచెం నీళ్ళు ఆయనకు సంతోషాన్నిస్తాయి. ఆయనకు కావలసింది నీ హృదయమే.",
+  hi: "गीता के सबसे मधुर श्लोकों में से एक: भगवान को महँगे उपहारों की ज़रूरत नहीं है। प्रेम से दिया एक पत्ता, फूल, फल या थोड़ा-सा पानी उन्हें प्रसन्न कर देता है। उन्हें तुम्हारा दिल चाहिए।"
+},
+"gita_ch9_v27": {
+  en: "You do not have to stop your normal life to be spiritual. Eating, working, helping, studying — do it all as a gift to God. Then ordinary days quietly become worship.",
+  te: "ఆధ్యాత్మికంగా ఉండటానికి మామూలు జీవితాన్ని ఆపవలసిన అవసరం లేదు. తినడం, పని చేయడం, సహాయం చేయడం, చదువుకోవడం — అన్నిటినీ దేవునికి కానుకగా చేయి. అప్పుడు సాధారణ రోజులే నిశ్శబ్దంగా పూజగా మారిపోతాయి.",
+  hi: "आध्यात्मिक होने के लिए सामान्य जीवन रोकने की ज़रूरत नहीं है। खाना, काम करना, मदद करना, पढ़ाई करना — सब भगवान को उपहार की तरह करो। तब साधारण दिन चुपचाप पूजा बन जाते हैं।"
+},
+"gita_ch9_v28": {
+  en: "When everything you do is offered to God, success and failure stop weighing you down, because you are not carrying them for yourself. That lightness is real freedom.",
+  te: "నువ్వు చేసే ప్రతిదాన్నీ దేవునికి అర్పిస్తే, గెలుపు ఓటములు నిన్ను బరువుగా కుంగదీయవు, ఎందుకంటే వాటిని నువ్వు నీ కోసం మోయడం లేదు. ఆ తేలికదనమే నిజమైన స్వేచ్ఛ.",
+  hi: "जब तुम अपना हर काम भगवान को अर्पित करते हो, तो सफलता और असफलता तुम पर बोझ नहीं बनतीं, क्योंकि तुम उन्हें अपने लिए नहीं ढो रहे। वही हल्कापन असली आज़ादी है।"
+},
+"gita_ch9_v29": {
+  en: "God has no favourites — He loves everyone the same, like the sun shining on all. But those who turn towards Him with love feel that closeness, just as a window that opens lets the sunlight in.",
+  te: "దేవునికి ఇష్టమైనవాళ్ళు, ఇష్టం లేనివాళ్ళు అంటూ లేరు — అందరిపైనా ప్రకాశించే సూర్యుడిలా ఆయన అందరినీ సమానంగా ప్రేమిస్తాడు. కానీ ప్రేమతో ఆయన వైపు తిరిగేవారు ఆ సాన్నిహిత్యాన్ని అనుభవిస్తారు — తెరిచిన కిటికీ సూర్యకాంతిని లోపలికి రానిచ్చినట్లు.",
+  hi: "भगवान का कोई चहेता नहीं — वे सबसे समान प्रेम करते हैं, जैसे सूरज सब पर चमकता है। पर जो प्रेम से उनकी ओर मुड़ते हैं, वे उस निकटता को महसूस करते हैं, जैसे खुली खिड़की धूप को भीतर आने देती है।"
+},
+"gita_ch9_v30": {
+  en: "No one is too far gone. Even someone who has done many wrong things, if they turn to God sincerely, is already on the right road. What counts most is the direction you are now facing.",
+  te: "ఎవరూ పూర్తిగా చేయి దాటిపోలేదు. ఎన్నో తప్పులు చేసినవాడైనా, మనస్ఫూర్తిగా దేవుని వైపు తిరిగితే, అతడు ఇప్పటికే సరైన దారిలో ఉన్నాడు. ముఖ్యమైనది, ఇప్పుడు నువ్వు ఏ దిశలో చూస్తున్నావనేదే.",
+  hi: "कोई भी इतना दूर नहीं गया कि लौट न सके। जिसने बहुत ग़लत काम किए हों, वह भी यदि सच्चे मन से भगवान की ओर मुड़ जाए, तो वह पहले से ही सही रास्ते पर है। सबसे ज़रूरी यह है कि अब तुम किस दिशा में देख रहे हो।"
+},
+"gita_ch9_v31": {
+  en: "Love for God changes a person quickly from the inside, and peace follows. Kṛṣṇa gives His word with confidence: the one who loves Me will never be lost.",
+  te: "దేవుని మీద ప్రేమ మనిషిని లోపలినుండి త్వరగా మారుస్తుంది, దానితో శాంతి వస్తుంది. శ్రీకృష్ణుడు ధైర్యంగా మాట ఇస్తున్నాడు: నన్ను ప్రేమించేవాడు ఎన్నటికీ నశించడు.",
+  hi: "भगवान के प्रति प्रेम इंसान को भीतर से जल्दी बदल देता है, और शांति अपने आप आती है। श्रीकृष्ण पूरे विश्वास से वचन देते हैं: जो मुझसे प्रेम करता है, वह कभी नष्ट नहीं होगा।"
+},
+"gita_ch9_v32": {
+  en: "God's door is open to everyone. Whatever your birth, gender or position in society, the highest goal is just as open to you. Society may rank people, but God does not.",
+  te: "దేవుని ద్వారం అందరికీ తెరిచే ఉంది. నీ పుట్టుక, ఆడా మగా అనే తేడా, సమాజంలో నీ స్థానం ఏదైనా సరే, అత్యున్నత గమ్యం నీకూ అంతే తెరిచి ఉంది. సమాజం మనుషులకు హోదాలు ఇవ్వవచ్చు, దేవుడు ఇవ్వడు.",
+  hi: "भगवान का द्वार सबके लिए खुला है। तुम्हारा जन्म, स्त्री-पुरुष होना या समाज में स्थान चाहे जो हो, परम लक्ष्य तुम्हारे लिए भी उतना ही खुला है। समाज लोगों को ऊँचा-नीचा मान सकता है, भगवान नहीं।"
+},
+"gita_ch9_v33": {
+  en: "If the door is open to everyone, then those already living good lives are surely welcome too. This world does not last and cannot give lasting happiness, so do not wait — turn to God now.",
+  te: "అందరికీ ద్వారం తెరిచి ఉంటే, ఇప్పటికే మంచి జీవితం గడుపుతున్నవారికి తప్పకుండా స్వాగతమే. ఈ లోకం శాశ్వతం కాదు, శాశ్వత సుఖాన్ని ఇవ్వలేదు, కాబట్టి ఆలస్యం చేయకు — ఇప్పుడే దేవుని వైపు తిరుగు.",
+  hi: "यदि द्वार सबके लिए खुला है, तो जो पहले से अच्छा जीवन जी रहे हैं उनका भी निश्चय ही स्वागत है। यह संसार टिकता नहीं और स्थायी सुख नहीं दे सकता, इसलिए देर मत करो — अभी भगवान की ओर मुड़ो।"
+},
+"gita_ch9_v34": {
+  en: "Kṛṣṇa ends with a simple four-step recipe: think of Me, love Me, worship Me, bow to Me. Do this and you will surely reach Me. The whole chapter comes down to this loving invitation.",
+  te: "శ్రీకృష్ణుడు నాలుగు సరళమైన మెట్లతో ముగిస్తున్నాడు: నన్ను తలచుకో, నన్ను ప్రేమించు, నన్ను పూజించు, నాకు నమస్కరించు. ఇలా చేస్తే నువ్వు తప్పకుండా నన్నే చేరుకుంటావు. అధ్యాయమంతా ఈ ప్రేమపూర్వకమైన ఆహ్వానమే.",
+  hi: "श्रीकृष्ण चार सरल कदमों के साथ समाप्त करते हैं: मुझे याद करो, मुझसे प्रेम करो, मेरी पूजा करो, मुझे प्रणाम करो। ऐसा करोगे तो निश्चय ही मुझे पाओगे। पूरा अध्याय इसी प्रेम भरे निमंत्रण पर आकर ठहरता है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",
