@@ -1880,6 +1880,218 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "अपना मन मुझमें लगाओ, मेरे भक्त बनो, मेरी पूजा करो, मुझे नमस्कार करो। इस प्रकार मुझे ही परम लक्ष्य बनाकर स्वयं को मुझसे जोड़ोगे, तो तुम निश्चय ही मुझे प्राप्त होगे।"
 },
 
+// ── Chapter 10 · Vibhūti Yoga ──
+"gita_ch10_v1": {
+  en: "The Lord said: Listen once more, mighty-armed Arjuna, to My supreme word. Because you are dear to Me and I wish for your good, I will speak to you again.",
+  te: "శ్రీ భగవానుడు అన్నాడు: మహాబాహూ, నా పరమమైన మాటను మళ్ళీ విను. నువ్వు నాకు ప్రియమైనవాడివి, నీ మేలు కోరి నేను మళ్ళీ చెబుతున్నాను.",
+  hi: "श्री भगवान ने कहा: हे महाबाहु, मेरे परम वचन को फिर से सुनो। तुम मुझे प्रिय हो और मैं तुम्हारा हित चाहता हूँ, इसलिए मैं तुम्हें फिर से बताता हूँ।"
+},
+"gita_ch10_v2": {
+  en: "Neither the hosts of gods nor the great sages know My origin, for I am the source of the gods and of the great sages in every way.",
+  te: "దేవగణాలకు గానీ, మహర్షులకు గానీ నా పుట్టుక తెలియదు. ఎందుకంటే దేవతలకూ, మహర్షులకూ అన్ని విధాలా మూలం నేనే.",
+  hi: "न देवगण मेरी उत्पत्ति को जानते हैं, न महर्षि; क्योंकि मैं ही सब प्रकार से देवताओं और महर्षियों का आदि कारण हूँ।"
+},
+"gita_ch10_v3": {
+  en: "One who knows Me as unborn, without beginning, the great Lord of all the worlds — that person, free from delusion among mortals, is released from all sins.",
+  te: "నన్ను పుట్టుక లేనివాడిగా, ఆది లేనివాడిగా, సర్వలోకాలకూ మహేశ్వరుడిగా తెలుసుకున్నవాడు మనుషులలో మోహం లేనివాడై, అన్ని పాపాల నుండి విముక్తుడవుతాడు.",
+  hi: "जो मुझे अजन्मा, अनादि और समस्त लोकों का महान ईश्वर जानता है, वह मनुष्यों में मोहरहित होकर सब पापों से मुक्त हो जाता है।"
+},
+"gita_ch10_v4": {
+  en: "Understanding, knowledge, clarity of mind, patience, truthfulness, control of the senses and calm of mind; pleasure and pain, birth and death, fear and fearlessness —",
+  te: "బుద్ధి, జ్ఞానం, మోహం లేకపోవడం, ఓర్పు, సత్యం, ఇంద్రియ నిగ్రహం, మనశ్శాంతి; సుఖం, దుఃఖం, పుట్టుక, నాశనం, భయం, నిర్భయం —",
+  hi: "बुद्धि, ज्ञान, मोह का अभाव, क्षमा, सत्य, इंद्रियों का संयम और मन की शांति; सुख और दुःख, जन्म और नाश, भय और अभय —"
+},
+"gita_ch10_v5": {
+  en: "— non-violence, evenness of mind, contentment, austerity, charity, fame and disgrace: all these different states of beings arise from Me alone.",
+  te: "— అహింస, సమభావం, తృప్తి, తపస్సు, దానం, కీర్తి, అపకీర్తి — జీవులలో కనిపించే ఈ రకరకాల భావాలన్నీ నా నుండే పుడతాయి.",
+  hi: "— अहिंसा, समता, संतोष, तप, दान, यश और अपयश — प्राणियों के ये सब भिन्न-भिन्न भाव मुझसे ही उत्पन्न होते हैं।"
+},
+"gita_ch10_v6": {
+  en: "The seven great sages of old and the four Manus too were born from My mind, sharing My nature; from them came all the creatures of this world.",
+  te: "పూర్వపు సప్తమహర్షులు, నలుగురు మనువులు కూడా నా భావంతో, నా మనసు నుండి పుట్టినవారే. లోకంలోని ఈ ప్రజలందరూ వారి నుండే వచ్చారు.",
+  hi: "प्राचीन सात महर्षि और चार मनु भी मेरे ही भाव से युक्त होकर मेरे मन से उत्पन्न हुए; संसार की ये सारी प्रजा उन्हीं से आई है।"
+},
+"gita_ch10_v7": {
+  en: "Whoever truly knows this glory of Mine and My divine power becomes united with Me in unshakable yoga; of this there is no doubt.",
+  te: "నా ఈ విభూతినీ, యోగశక్తినీ యథార్థంగా తెలుసుకున్నవాడు చలించని యోగంతో నాతో కలిసిపోతాడు. ఇందులో సందేహం లేదు.",
+  hi: "जो मेरी इस विभूति और योगशक्ति को तत्त्व से जानता है, वह अटल योग से मुझसे जुड़ जाता है; इसमें कोई संदेह नहीं।"
+},
+"gita_ch10_v8": {
+  en: "I am the source of everything; from Me everything comes forth. Knowing this, the wise worship Me with hearts full of love.",
+  te: "అన్నిటికీ మూలం నేనే; నా నుండే అంతా నడుస్తుంది. ఇది తెలుసుకున్న జ్ఞానులు ప్రేమభావంతో నన్ను భజిస్తారు.",
+  hi: "मैं ही सबका मूल हूँ; मुझसे ही सब कुछ चलता है। यह जानकर बुद्धिमान लोग प्रेम भाव से मेरा भजन करते हैं।"
+},
+"gita_ch10_v9": {
+  en: "With their minds on Me and their lives given to Me, they enlighten one another and always speak of Me; in this they find contentment and joy.",
+  te: "వారి మనసు నా యందే, వారి ప్రాణాలు నాకే అర్పితం. ఒకరికొకరు నా గురించి తెలియజేసుకుంటూ, ఎప్పుడూ నా గురించే మాట్లాడుకుంటూ తృప్తి పొందుతారు, ఆనందిస్తారు.",
+  hi: "उनका मन मुझमें है, उनका जीवन मुझे अर्पित है; वे एक-दूसरे को मेरे बारे में समझाते और सदा मेरी ही चर्चा करते हुए संतोष और आनंद पाते हैं।"
+},
+"gita_ch10_v10": {
+  en: "To those who are always united with Me and worship Me with love, I give the yoga of understanding by which they come to Me.",
+  te: "ఎల్లప్పుడూ నాతో కూడి ఉండి, ప్రేమతో నన్ను భజించేవారికి నేను బుద్ధియోగాన్ని ప్రసాదిస్తాను; దానితో వారు నన్ను చేరుకుంటారు.",
+  hi: "जो सदा मुझसे जुड़े रहकर प्रेमपूर्वक मेरा भजन करते हैं, उन्हें मैं वह बुद्धियोग देता हूँ जिससे वे मुझे प्राप्त होते हैं।"
+},
+"gita_ch10_v11": {
+  en: "Out of compassion for them, I who dwell in their hearts destroy the darkness born of ignorance with the shining lamp of knowledge.",
+  te: "వారిపై కరుణతో, వారి హృదయంలోనే ఉన్న నేను, ప్రకాశించే జ్ఞానదీపంతో అజ్ఞానం వల్ల పుట్టిన చీకటిని తొలగిస్తాను.",
+  hi: "उन पर करुणा करके, उनके हृदय में रहने वाला मैं, ज्ञान के प्रकाशमान दीपक से अज्ञान से उत्पन्न अंधकार को नष्ट कर देता हूँ।"
+},
+"gita_ch10_v12": {
+  en: "Arjuna said: You are the supreme Brahman, the supreme abode, the supreme purifier; the eternal divine Person, the first God, unborn and all-pervading —",
+  te: "అర్జునుడు అన్నాడు: నువ్వే పరబ్రహ్మవు, పరమ ధామానివి, పరమ పవిత్రుడివి; శాశ్వతుడవైన దివ్య పురుషుడివి, ఆదిదేవుడివి, పుట్టుక లేనివాడివి, అంతటా వ్యాపించినవాడివి —",
+  hi: "अर्जुन ने कहा: आप परम ब्रह्म हैं, परम धाम हैं, परम पवित्र हैं; आप शाश्वत दिव्य पुरुष, आदिदेव, अजन्मा और सर्वव्यापी हैं —"
+},
+"gita_ch10_v13": {
+  en: "— so all the sages say of You, and so do the divine sage Nārada, Asita, Devala and Vyāsa; and now You Yourself tell me so.",
+  te: "— అని ఋషులందరూ నిన్ను గురించి చెబుతారు; దేవర్షి నారదుడు, అసితుడు, దేవలుడు, వ్యాసుడు కూడా అదే చెప్పారు. ఇప్పుడు నువ్వే స్వయంగా నాకు చెబుతున్నావు.",
+  hi: "— ऐसा सब ऋषि आपके बारे में कहते हैं; देवर्षि नारद, असित, देवल और व्यास भी यही कहते हैं, और अब आप स्वयं मुझसे यही कह रहे हैं।"
+},
+"gita_ch10_v14": {
+  en: "I accept as true all that You have told me, Keśava. Truly, O Lord, neither the gods nor the demons know Your real manifestation.",
+  te: "కేశవా, నువ్వు నాకు చెప్పినదంతా సత్యమేనని నేను నమ్ముతున్నాను. భగవాన్, నీ నిజమైన స్వరూపాన్ని దేవతలు గానీ, దానవులు గానీ ఎరుగరు.",
+  hi: "हे केशव, आपने मुझसे जो कुछ कहा है, उसे मैं सत्य मानता हूँ। हे भगवन, आपके वास्तविक स्वरूप को न देवता जानते हैं, न दानव।"
+},
+"gita_ch10_v15": {
+  en: "You alone know Yourself by Yourself, O Supreme Person — Source of all beings, Lord of all beings, God of gods, Master of the universe.",
+  te: "పురుషోత్తమా, నిన్ను నువ్వే నీ ద్వారా తెలుసుకుంటావు. ఓ జీవులను సృష్టించినవాడా, జీవుల ప్రభువా, దేవదేవా, జగత్పతీ!",
+  hi: "हे पुरुषोत्तम, आप स्वयं ही अपने द्वारा अपने को जानते हैं — हे प्राणियों के रचयिता, प्राणियों के स्वामी, देवों के देव, जगत के पति!"
+},
+"gita_ch10_v16": {
+  en: "Please tell me fully of Your divine glories, by which You pervade these worlds and abide in them.",
+  te: "ఏ దివ్య విభూతులతో నువ్వు ఈ లోకాలన్నిటిలో వ్యాపించి ఉన్నావో, ఆ నీ దివ్య విభూతులను ఏమీ మిగల్చకుండా నాకు చెప్పాలి.",
+  hi: "जिन दिव्य विभूतियों से आप इन सब लोकों में व्याप्त होकर स्थित हैं, अपनी उन दिव्य विभूतियों का आप पूरी तरह वर्णन करें।"
+},
+"gita_ch10_v17": {
+  en: "O Master of yoga, how shall I know You as I constantly think of You? In what various forms should I meditate on You, O Lord?",
+  te: "ఓ యోగీశ్వరా, నిరంతరం నిన్ను ధ్యానిస్తూ నిన్ను ఎలా తెలుసుకోవాలి? భగవాన్, ఏయే రూపాలలో, ఏయే భావాలలో నిన్ను తలచుకోవాలి?",
+  hi: "हे योगेश्वर, सदा आपका चिंतन करते हुए मैं आपको कैसे जानूँ? हे भगवन, किन-किन भावों में मैं आपका ध्यान करूँ?"
+},
+"gita_ch10_v18": {
+  en: "Tell me again in detail of Your power and Your glories, Janārdana; for I am never satisfied hearing Your nectar-like words.",
+  te: "జనార్దనా, నీ యోగశక్తినీ, విభూతులనూ మళ్ళీ వివరంగా చెప్పు. నీ అమృతం వంటి మాటలు ఎంత విన్నా నాకు తృప్తి కలగడం లేదు.",
+  hi: "हे जनार्दन, अपनी योगशक्ति और विभूतियों का फिर से विस्तार से वर्णन करें; क्योंकि आपके अमृत जैसे वचन सुनते हुए मेरी तृप्ति नहीं होती।"
+},
+"gita_ch10_v19": {
+  en: "The Lord said: Very well, I will tell you of My divine glories — but only the chief ones, best of the Kurus, for there is no end to their full extent.",
+  te: "శ్రీ భగవానుడు అన్నాడు: సరే, కురుశ్రేష్ఠా, నా దివ్య విభూతులను నీకు చెబుతాను — కానీ ముఖ్యమైనవి మాత్రమే; ఎందుకంటే వాటి విస్తారానికి అంతం లేదు.",
+  hi: "श्री भगवान ने कहा: अच्छा, हे कुरुश्रेष्ठ, मैं तुम्हें अपनी दिव्य विभूतियाँ बताता हूँ — पर केवल प्रमुख-प्रमुख; क्योंकि मेरे विस्तार का कोई अंत नहीं है।"
+},
+"gita_ch10_v20": {
+  en: "I am the Self, Guḍākeśa, dwelling in the heart of every being. I am the beginning, the middle and the end of all beings.",
+  te: "గుడాకేశా, అన్ని జీవుల హృదయాలలో ఉన్న ఆత్మను నేనే. జీవులన్నిటికీ ఆదీ, మధ్యా, అంతమూ నేనే.",
+  hi: "हे गुडाकेश, सब प्राणियों के हृदय में स्थित आत्मा मैं हूँ। सब प्राणियों का आदि, मध्य और अंत भी मैं ही हूँ।"
+},
+"gita_ch10_v21": {
+  en: "Among the Ādityas I am Viṣṇu; among lights, the radiant sun; among the Maruts I am Marīci; and among the stars of the night, I am the moon.",
+  te: "ఆదిత్యులలో నేను విష్ణువును; కాంతులలో ప్రకాశించే సూర్యుడిని; మరుత్తులలో మరీచిని; నక్షత్రాలలో చంద్రుడిని.",
+  hi: "आदित्यों में मैं विष्णु हूँ, ज्योतियों में किरणों वाला सूर्य; मरुतों में मैं मरीचि हूँ और नक्षत्रों में चंद्रमा।"
+},
+"gita_ch10_v22": {
+  en: "Among the Vedas I am the Sāma Veda; among the gods, Indra; among the senses I am the mind; and in living beings I am consciousness.",
+  te: "వేదాలలో నేను సామవేదాన్ని; దేవతలలో ఇంద్రుడిని; ఇంద్రియాలలో మనసును; ప్రాణులలో చైతన్యాన్ని.",
+  hi: "वेदों में मैं सामवेद हूँ, देवताओं में इंद्र; इंद्रियों में मैं मन हूँ और प्राणियों में चेतना।"
+},
+"gita_ch10_v23": {
+  en: "Among the Rudras I am Śaṅkara; among the Yakṣas and Rākṣasas, Kubera, lord of wealth; among the Vasus I am Agni, the fire; and among mountains, Meru.",
+  te: "రుద్రులలో నేను శంకరుడిని; యక్షరాక్షసులలో ధనాధిపతి కుబేరుడిని; వసువులలో అగ్నిని; పర్వతాలలో మేరువును.",
+  hi: "रुद्रों में मैं शंकर हूँ, यक्षों और राक्षसों में धन के स्वामी कुबेर; वसुओं में मैं अग्नि हूँ और पर्वतों में मेरु।"
+},
+"gita_ch10_v24": {
+  en: "Among priests, Pārtha, know Me to be the chief, Bṛhaspati; among commanders of armies I am Skanda; and among bodies of water, I am the ocean.",
+  te: "పార్థా, పురోహితులలో ముఖ్యుడైన బృహస్పతిని నేనని తెలుసుకో. సేనాపతులలో నేను స్కందుడిని; జలాశయాలలో సముద్రాన్ని.",
+  hi: "हे पार्थ, पुरोहितों में मुख्य बृहस्पति मुझे जानो। सेनापतियों में मैं स्कंद हूँ और जलाशयों में समुद्र।"
+},
+"gita_ch10_v25": {
+  en: "Among the great sages I am Bhṛgu; among words, the single syllable Om; among offerings I am the offering of quiet repetition of the Name (japa); and among things that do not move, the Himālaya.",
+  te: "మహర్షులలో నేను భృగువును; మాటలలో ఏకాక్షరమైన ఓంకారాన్ని; యజ్ఞాలలో జపయజ్ఞాన్ని; కదలని వాటిలో హిమాలయాన్ని.",
+  hi: "महर्षियों में मैं भृगु हूँ, वाणी में एक अक्षर ॐ; यज्ञों में मैं जपयज्ञ हूँ और अचल वस्तुओं में हिमालय।"
+},
+"gita_ch10_v26": {
+  en: "Among all trees I am the sacred fig (aśvattha); among the divine sages, Nārada; among the Gandharvas, Citraratha; and among the perfected ones, the sage Kapila.",
+  te: "చెట్లన్నిటిలో నేను అశ్వత్థం (రావి చెట్టు); దేవర్షులలో నారదుడిని; గంధర్వులలో చిత్రరథుడిని; సిద్ధులలో కపిల మునిని.",
+  hi: "सब वृक्षों में मैं पीपल (अश्वत्थ) हूँ, देवर्षियों में नारद; गंधर्वों में चित्ररथ और सिद्धों में कपिल मुनि।"
+},
+"gita_ch10_v27": {
+  en: "Among horses, know Me to be Uccaiḥśravas, born from the churning for nectar; among royal elephants, Airāvata; and among men, the king.",
+  te: "గుర్రాలలో అమృత మథనంలో పుట్టిన ఉచ్చైఃశ్రవాన్ని నేనని తెలుసుకో; గజరాజులలో ఐరావతాన్ని; మనుషులలో రాజును.",
+  hi: "घोड़ों में अमृत-मंथन से उत्पन्न उच्चैःश्रवा मुझे जानो; श्रेष्ठ हाथियों में ऐरावत और मनुष्यों में राजा।"
+},
+"gita_ch10_v28": {
+  en: "Among weapons I am the thunderbolt; among cows, the wish-fulfilling Kāmadhenu; I am Kandarpa, the god of love, who brings forth offspring; and among serpents I am Vāsuki.",
+  te: "ఆయుధాలలో నేను వజ్రాయుధాన్ని; ఆవులలో కామధేనువును; సంతానాన్ని కలిగించే కందర్పుడిని (మన్మథుడిని) నేనే; సర్పాలలో వాసుకిని.",
+  hi: "शस्त्रों में मैं वज्र हूँ, गायों में कामधेनु; संतान उत्पन्न करने वाला कामदेव मैं हूँ और सर्पों में वासुकि।"
+},
+"gita_ch10_v29": {
+  en: "Among the Nāgas I am Ananta; among the beings of the waters, Varuṇa; among the ancestors I am Aryamā; and among those who keep control, I am Yama.",
+  te: "నాగులలో నేను అనంతుడిని (ఆదిశేషుడిని); జలదేవతలలో వరుణుడిని; పితృదేవతలలో అర్యముడిని; నియమించేవారిలో యముడిని.",
+  hi: "नागों में मैं अनंत (शेषनाग) हूँ, जलचरों के अधिपतियों में वरुण; पितरों में मैं अर्यमा हूँ और नियमन करने वालों में यम।"
+},
+"gita_ch10_v30": {
+  en: "Among the Daityas I am Prahlāda; among those who measure, I am Time; among beasts, the lion; and among birds, Garuḍa, son of Vinatā.",
+  te: "దైత్యులలో నేను ప్రహ్లాదుడిని; లెక్కించేవాటిలో కాలాన్ని; మృగాలలో సింహాన్ని; పక్షులలో వినతా పుత్రుడైన గరుత్మంతుడిని.",
+  hi: "दैत्यों में मैं प्रह्लाद हूँ, गणना करने वालों में काल; पशुओं में सिंह और पक्षियों में विनता-पुत्र गरुड़।"
+},
+"gita_ch10_v31": {
+  en: "Among purifiers I am the wind; among wielders of weapons, Rāma; among sea creatures I am the makara; and among rivers, I am the Gaṅgā.",
+  te: "పవిత్రం చేసేవాటిలో నేను వాయువును; శస్త్రధారులలో రాముడిని; జలచరాలలో మకరాన్ని; నదులలో గంగను.",
+  hi: "पवित्र करने वालों में मैं वायु हूँ, शस्त्रधारियों में राम; जलचरों में मैं मगर हूँ और नदियों में गंगा।"
+},
+"gita_ch10_v32": {
+  en: "Of all creations I am the beginning, the middle and the end, Arjuna. Among kinds of knowledge I am the knowledge of the Self; and in those who debate, I am the reasoning that seeks the truth.",
+  te: "అర్జునా, సృష్టులన్నిటికీ ఆదీ, మధ్యా, అంతమూ నేనే. విద్యలలో నేను ఆధ్యాత్మ విద్యను; వాదించేవారిలో సత్యాన్ని వెతికే వాదాన్ని.",
+  hi: "हे अर्जुन, सब सृष्टियों का आदि, मध्य और अंत मैं ही हूँ। विद्याओं में मैं अध्यात्म-विद्या हूँ और वाद करने वालों में सत्य खोजने वाला तर्क।"
+},
+"gita_ch10_v33": {
+  en: "Among letters I am the letter A; among compound words, the dvandva (the pairing compound). I alone am endless Time; I am the Sustainer whose face is turned everywhere.",
+  te: "అక్షరాలలో నేను అకారాన్ని; సమాసాలలో ద్వంద్వ సమాసాన్ని. అంతం లేని కాలం నేనే; అన్నివైపులా ముఖాలున్న ధాతను (అందరినీ పోషించేవాడిని) నేనే.",
+  hi: "अक्षरों में मैं अकार हूँ, समासों में द्वंद्व समास। अक्षय काल मैं ही हूँ, और सब ओर मुख वाला धाता (सबका पालन करने वाला) भी मैं हूँ।"
+},
+"gita_ch10_v34": {
+  en: "I am death that carries away all, and I am the birth of all that is yet to be. Among feminine qualities I am fame, good fortune, fine speech, memory, intelligence, steadfastness and forgiveness.",
+  te: "అన్నిటినీ హరించే మృత్యువు నేనే; ఇకపై పుట్టబోయేవాటి పుట్టుకా నేనే. స్త్రీ గుణాలలో కీర్తి, శ్రీ (సంపద), వాక్కు, స్మృతి, మేధ, ధైర్యం, ఓర్పు నేనే.",
+  hi: "सबको हर लेने वाली मृत्यु मैं हूँ और आगे होने वालों की उत्पत्ति भी मैं हूँ। स्त्री-गुणों में मैं कीर्ति, श्री, वाणी, स्मृति, मेधा, धृति और क्षमा हूँ।"
+},
+"gita_ch10_v35": {
+  en: "Among the Sāma hymns I am the Bṛhat Sāma; among metres, the Gāyatrī; among months I am Mārgaśīrṣa; and among seasons, the flowering spring.",
+  te: "సామగానాలలో నేను బృహత్సామాన్ని; ఛందస్సులలో గాయత్రిని; మాసాలలో మార్గశిరాన్ని; ఋతువులలో పూలు పూసే వసంత ఋతువును.",
+  hi: "साम-गानों में मैं बृहत्साम हूँ, छंदों में गायत्री; महीनों में मार्गशीर्ष और ऋतुओं में फूलों वाला वसंत।"
+},
+"gita_ch10_v36": {
+  en: "Of the deceitful I am gambling; I am the splendour of the splendid. I am victory, I am firm resolve, and I am the goodness of the good.",
+  te: "మోసగాళ్ళ ఆటలలో నేను జూదాన్ని; తేజస్సు గలవారి తేజస్సును నేనే. విజయం నేనే, దృఢ నిశ్చయం నేనే, సత్త్వవంతుల సత్త్వగుణం నేనే.",
+  hi: "छल करने वालों में मैं जुआ हूँ, तेजस्वियों का तेज मैं हूँ। मैं विजय हूँ, मैं दृढ़ निश्चय हूँ, सत्त्ववानों का सत्त्व मैं हूँ।"
+},
+"gita_ch10_v37": {
+  en: "Among the Vṛṣṇis I am Vāsudeva; among the Pāṇḍavas, Dhanañjaya (Arjuna); among sages I am Vyāsa; and among seers, the seer Uśanā.",
+  te: "వృష్ణి వంశీయులలో నేను వాసుదేవుడిని; పాండవులలో ధనంజయుడిని (అర్జునుడిని); మునులలో వ్యాసుడిని; కవులలో ఉశనుడిని (శుక్రాచార్యుడిని).",
+  hi: "वृष्णियों में मैं वासुदेव हूँ, पांडवों में धनंजय (अर्जुन); मुनियों में मैं व्यास हूँ और कवियों में उशना (शुक्राचार्य)।"
+},
+"gita_ch10_v38": {
+  en: "Among those who keep order I am the rod of discipline; among those who seek victory, wise policy; among secrets I am silence; and in the wise I am wisdom.",
+  te: "శిక్షించేవారిలో నేను దండాన్ని; జయం కోరేవారిలో నీతిని; రహస్యాలలో మౌనాన్ని; జ్ఞానులలో జ్ఞానాన్ని.",
+  hi: "दमन करने वालों में मैं दंड हूँ, विजय चाहने वालों में नीति; गुप्त बातों में मैं मौन हूँ और ज्ञानियों का ज्ञान।"
+},
+"gita_ch10_v39": {
+  en: "Whatever is the seed of all beings, that am I, Arjuna. There is nothing, moving or unmoving, that could exist without Me.",
+  te: "అర్జునా, సర్వ జీవులకూ బీజం ఏదో అది నేనే. కదిలేది గానీ, కదలనిది గానీ నేను లేకుండా ఉండగలిగేది ఏదీ లేదు.",
+  hi: "हे अर्जुन, सब प्राणियों का जो बीज है, वह मैं ही हूँ। चर या अचर ऐसा कुछ भी नहीं जो मेरे बिना रह सके।"
+},
+"gita_ch10_v40": {
+  en: "There is no end to My divine glories, Parantapa. What I have told you is only a brief sample of their vastness.",
+  te: "పరంతపా, నా దివ్య విభూతులకు అంతం లేదు. నేను చెప్పినది వాటి విస్తారంలో కేవలం కొన్ని ఉదాహరణలు మాత్రమే.",
+  hi: "हे परंतप, मेरी दिव्य विभूतियों का कोई अंत नहीं है। मैंने जो कहा, वह तो उनके विस्तार का केवल संक्षेप में दिया गया उदाहरण है।"
+},
+"gita_ch10_v41": {
+  en: "Whatever is glorious, beautiful or mighty — know that it has sprung from just a spark of My splendour.",
+  te: "విభూతి గలది, శోభ గలది, శక్తి గలది ఏది కనిపించినా — అది నా తేజస్సులోని ఒక అంశం నుండే పుట్టిందని తెలుసుకో.",
+  hi: "जो कुछ भी विभूतियुक्त, शोभायुक्त या शक्तिशाली है — उसे मेरे तेज के एक अंश से उत्पन्न हुआ जानो।"
+},
+"gita_ch10_v42": {
+  en: "But what need is there, Arjuna, for you to know all this in detail? I stand supporting this entire universe with just a single fraction of Myself.",
+  te: "కానీ అర్జునా, ఇవన్నీ వివరంగా తెలుసుకోవడం వల్ల నీకేం అవసరం? ఈ జగత్తు మొత్తాన్నీ నేను నా ఒక్క అంశంతోనే నిలబెట్టి ఉన్నాను.",
+  hi: "परंतु हे अर्जुन, इतना सब विस्तार से जानने की तुम्हें क्या आवश्यकता? मैं इस सारे जगत को अपने एक अंश मात्र से धारण करके स्थित हूँ।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",

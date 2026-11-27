@@ -1881,6 +1881,218 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "श्रीकृष्ण चार सरल कदमों के साथ समाप्त करते हैं: मुझे याद करो, मुझसे प्रेम करो, मेरी पूजा करो, मुझे प्रणाम करो। ऐसा करोगे तो निश्चय ही मुझे पाओगे। पूरा अध्याय इसी प्रेम भरे निमंत्रण पर आकर ठहरता है।"
 },
 
+// ── Chapter 10 · Vibhūti Yoga ──
+"gita_ch10_v1": {
+  en: "After teaching so much, Kṛṣṇa wants to go further — not because Arjuna has failed, but because He loves him. A good teacher shares the deepest things with a student who is eager to listen. This chapter is a gift given out of affection.",
+  te: "ఇంత బోధించిన తర్వాత కూడా శ్రీకృష్ణుడు ఇంకా చెప్పాలనుకుంటున్నాడు — అర్జునుడు అర్థం చేసుకోలేదని కాదు, అతనిపై ప్రేమతో. శ్రద్ధగా వినే శిష్యుడికి మంచి గురువు లోతైన విషయాలు పంచుకుంటాడు. ఈ అధ్యాయం ప్రేమతో ఇచ్చిన కానుక.",
+  hi: "इतना सिखाने के बाद भी श्रीकृष्ण और आगे बताना चाहते हैं — इसलिए नहीं कि अर्जुन समझे नहीं, बल्कि प्रेम के कारण। अच्छा गुरु उत्सुक शिष्य के साथ सबसे गहरी बातें बाँटता है। यह अध्याय स्नेह से दिया गया उपहार है।"
+},
+"gita_ch10_v2": {
+  en: "Even gods and great sages cannot trace where God came from, because they themselves came from Him. It's like a child trying to remember a time before the parents existed. God is the source, not something with a source.",
+  te: "దేవతలు, మహర్షులు కూడా దేవుడు ఎక్కడ నుండి వచ్చాడో కనుక్కోలేరు, ఎందుకంటే వాళ్ళే ఆయన నుండి వచ్చారు. తల్లిదండ్రులు లేని కాలాన్ని పిల్లవాడు గుర్తుతెచ్చుకోవాలని ప్రయత్నించినట్లే అది. దేవుడే మూలం; ఆయనకు ఇంకో మూలం లేదు.",
+  hi: "देवता और महर्षि भी नहीं जान सकते कि भगवान कहाँ से आए, क्योंकि वे स्वयं उन्हीं से आए हैं। यह वैसा ही है जैसे कोई बच्चा उस समय को याद करना चाहे जब उसके माता-पिता थे ही नहीं। भगवान मूल हैं; उनका कोई और मूल नहीं।"
+},
+"gita_ch10_v3": {
+  en: "When you really understand that God was never born and is the Lord of everything, your confusion starts to clear. Many of our mistakes come from thinking we are the centre of the world. Seeing God as the true centre sets us free from that.",
+  te: "దేవుడు ఎప్పుడూ పుట్టలేదని, ఆయనే అన్నిటికీ ప్రభువని నిజంగా అర్థమైనప్పుడు మన గందరగోళం తొలగిపోతుంది. ప్రపంచానికి మనమే కేంద్రం అనుకోవడం వల్లే చాలా తప్పులు చేస్తాం. దేవుణ్ణి అసలైన కేంద్రంగా చూడటం మనల్ని దాని నుండి విడిపిస్తుంది.",
+  hi: "जब तुम सच में समझ लेते हो कि भगवान कभी जन्मे नहीं और वही सबके स्वामी हैं, तो उलझन मिटने लगती है। हमारी बहुत-सी गलतियाँ खुद को दुनिया का केंद्र मानने से होती हैं। भगवान को असली केंद्र देखना हमें इससे मुक्त करता है।"
+},
+"gita_ch10_v4": {
+  en: "Kṛṣṇa begins a list of everything that goes on inside us — our good sense, patience, honesty and calm, and also our joys, sorrows and fears. He is about to say something surprising about all of them.",
+  te: "మనలో జరిగే అన్నిటి జాబితాను శ్రీకృష్ణుడు మొదలుపెడుతున్నాడు — మన తెలివి, ఓర్పు, నిజాయితీ, ప్రశాంతత, ఇంకా మన సంతోషాలు, బాధలు, భయాలు కూడా. వీటన్నిటి గురించి ఆయన ఒక ఆశ్చర్యకరమైన మాట చెప్పబోతున్నాడు.",
+  hi: "श्रीकृष्ण हमारे भीतर चलने वाली हर चीज़ की सूची शुरू करते हैं — हमारी समझ, धैर्य, सच्चाई, शांति, और हमारे सुख, दुःख और डर भी। इन सबके बारे में वे कुछ चौंकाने वाली बात कहने वाले हैं।"
+},
+"gita_ch10_v5": {
+  en: "Here is the surprise: all of these — kindness, contentment, generosity, even praise and blame — come from God. Nothing in our inner life is outside His reach. So even in hard feelings, we are never cut off from Him.",
+  te: "ఆశ్చర్యకరమైన మాట ఇదే: దయ, తృప్తి, దానగుణం, పొగడ్త, నింద కూడా — ఇవన్నీ దేవుని నుండే వస్తాయి. మన లోపలి జీవితంలో ఏదీ ఆయనకు బయట లేదు. కాబట్టి కష్టమైన భావాలలో కూడా మనం ఆయనకు దూరమైపోలేదు.",
+  hi: "चौंकाने वाली बात यही है: दया, संतोष, दान, यहाँ तक कि यश और अपयश भी — सब भगवान से आते हैं। हमारे भीतर का कुछ भी उनकी पहुँच से बाहर नहीं। इसलिए कठिन भावनाओं में भी हम उनसे कटे नहीं हैं।"
+},
+"gita_ch10_v6": {
+  en: "The great ancestors of humanity — the first sages and the Manus who gave order to the world — were born from God's own thought. Trace our family tree back far enough and it leads to Him. We all share one divine origin.",
+  te: "మానవజాతికి మూలపురుషులైన సప్తర్షులు, లోకానికి నియమాలిచ్చిన మనువులు — వీరంతా దేవుని సంకల్పం నుండే పుట్టారు. మన వంశవృక్షాన్ని చాలా వెనక్కి వెళ్ళి చూస్తే అది ఆయన దగ్గరకే చేరుతుంది. మనందరిదీ ఒకే దివ్యమైన మూలం.",
+  hi: "मानव जाति के महान पूर्वज — पहले ऋषि और संसार को व्यवस्था देने वाले मनु — भगवान के अपने संकल्प से जन्मे। अपना वंश-वृक्ष बहुत पीछे तक देखो तो वह उन्हीं तक पहुँचता है। हम सबका एक ही दिव्य मूल है।"
+},
+"gita_ch10_v7": {
+  en: "Once you truly see God's glory spread through everything, your faith stops wobbling. It's no longer a belief you have to hold on to — it's something you see all around you. That kind of steady faith is real yoga.",
+  te: "దేవుని మహిమ అన్నిటిలో వ్యాపించి ఉందని నిజంగా చూసినప్పుడు నీ నమ్మకం ఇక ఊగిసలాడదు. అది పట్టుకుని ఉండాల్సిన నమ్మకంగా కాకుండా, చుట్టూ కనిపించే సత్యంగా మారుతుంది. అలాంటి స్థిరమైన విశ్వాసమే నిజమైన యోగం.",
+  hi: "जब तुम सच में भगवान की महिमा को हर चीज़ में फैला देखते हो, तो तुम्हारा विश्वास डगमगाना बंद कर देता है। तब वह पकड़कर रखने वाली मान्यता नहीं, चारों ओर दिखने वाला सत्य बन जाता है। ऐसा स्थिर विश्वास ही सच्चा योग है।"
+},
+"gita_ch10_v8": {
+  en: "When wise people realise everything comes from God, their response is not just knowledge but love. Understanding where all good things come from naturally fills the heart with gratitude. Knowing and loving go together.",
+  te: "అంతా దేవుని నుండే వస్తుందని గ్రహించినప్పుడు జ్ఞానుల స్పందన కేవలం తెలివి కాదు, ప్రేమ. మంచివన్నీ ఎక్కడ నుండి వస్తున్నాయో అర్థమైతే హృదయం సహజంగానే కృతజ్ఞతతో నిండుతుంది. తెలుసుకోవడం, ప్రేమించడం కలిసే ఉంటాయి.",
+  hi: "जब बुद्धिमान लोग समझते हैं कि सब कुछ भगवान से आता है, तो उनका उत्तर केवल ज्ञान नहीं, प्रेम होता है। सब अच्छी चीज़ें कहाँ से आती हैं, यह समझने पर हृदय अपने-आप कृतज्ञता से भर जाता है। जानना और प्रेम करना साथ-साथ चलते हैं।"
+},
+"gita_ch10_v9": {
+  en: "Think of friends who love the same thing — they can't stop talking about it and they light up when they do. Devotees are like that about God. Sharing and talking about what you love deepens your own joy.",
+  te: "ఒకే విషయాన్ని ప్రేమించే స్నేహితులను ఊహించుకో — వాళ్ళు దాని గురించి మాట్లాడటం ఆపలేరు, మాట్లాడుతున్నప్పుడు వాళ్ళ ముఖాలు వెలిగిపోతాయి. భక్తులు దేవుని విషయంలో అలాగే ఉంటారు. ప్రేమించేదాన్ని పంచుకుంటే మన ఆనందం ఇంకా పెరుగుతుంది.",
+  hi: "उन दोस्तों के बारे में सोचो जो एक ही चीज़ से प्रेम करते हैं — वे उसकी बात करना बंद नहीं कर पाते और बात करते हुए खिल उठते हैं। भक्त भगवान के बारे में ऐसे ही होते हैं। जिससे प्रेम है उसे बाँटने से अपना आनंद और गहरा होता है।"
+},
+"gita_ch10_v10": {
+  en: "God doesn't leave a loving devotee to figure everything out alone. He gives them the right understanding from within, and that understanding guides them home to Him. Your love is answered with guidance.",
+  te: "ప్రేమించే భక్తుణ్ణి దేవుడు అన్నీ ఒంటరిగా తెలుసుకోమని వదిలేయడు. లోపలి నుండే సరైన అవగాహనను ఇస్తాడు, ఆ అవగాహనే వారిని ఆయన దగ్గరకు నడిపిస్తుంది. నీ ప్రేమకు జవాబుగా ఆయన మార్గదర్శనం వస్తుంది.",
+  hi: "भगवान प्रेम करने वाले भक्त को सब कुछ अकेले समझने के लिए नहीं छोड़ते। वे भीतर से सही समझ देते हैं, और वही समझ उसे उन तक ले जाती है। तुम्हारे प्रेम का उत्तर मार्गदर्शन बनकर आता है।"
+},
+"gita_ch10_v11": {
+  en: "Imagine sitting in a dark room and someone who loves you quietly lighting a lamp for you. That is what God does in the heart of a devotee — out of pure kindness, He lights the lamp of understanding. We don't have to fight the darkness alone.",
+  te: "చీకటి గదిలో నువ్వు కూర్చుని ఉంటే, నిన్ను ప్రేమించేవాళ్ళు నిశ్శబ్దంగా నీ కోసం దీపం వెలిగించినట్లు ఊహించుకో. భక్తుని హృదయంలో దేవుడు చేసేది అదే — కేవలం దయతో జ్ఞానదీపాన్ని వెలిగిస్తాడు. చీకటితో మనం ఒంటరిగా పోరాడాల్సిన అవసరం లేదు.",
+  hi: "सोचो, तुम अँधेरे कमरे में बैठे हो और कोई अपना चुपचाप तुम्हारे लिए दीपक जला दे। भक्त के हृदय में भगवान यही करते हैं — केवल करुणा से समझ का दीपक जला देते हैं। हमें अँधेरे से अकेले नहीं लड़ना पड़ता।"
+},
+"gita_ch10_v12": {
+  en: "Arjuna is overwhelmed and bursts into praise. He has heard these titles before from the sages, but now he feels them about his own friend Kṛṣṇa. Head knowledge is turning into heartfelt wonder.",
+  te: "అర్జునుడు పరవశించి స్తుతించడం మొదలుపెడతాడు. ఈ బిరుదులు ఋషుల నుండి ఇంతకుముందు విన్నాడు, కానీ ఇప్పుడు తన స్నేహితుడైన కృష్ణుడి విషయంలో వాటిని మనసారా అనుభవిస్తున్నాడు. తలలోని జ్ఞానం హృదయంలోని ఆశ్చర్యంగా మారుతోంది.",
+  hi: "अर्जुन भाव-विभोर होकर स्तुति करने लगते हैं। ये उपाधियाँ उन्होंने ऋषियों से पहले सुनी थीं, पर अब अपने मित्र कृष्ण के बारे में उन्हें दिल से महसूस कर रहे हैं। दिमाग़ का ज्ञान हृदय के आश्चर्य में बदल रहा है।"
+},
+"gita_ch10_v13": {
+  en: "Arjuna says: the great sages all told us this, and now You are telling me Yourself. It's like hearing about someone wonderful for years and then meeting them face to face. What we learn from tradition comes alive in our own experience.",
+  te: "అర్జునుడు అంటున్నాడు: మహర్షులంతా ఇదే చెప్పారు, ఇప్పుడు నువ్వే స్వయంగా చెబుతున్నావు. ఏళ్ళుగా ఒక గొప్ప వ్యక్తి గురించి విని, చివరికి ఆయనను ముఖాముఖీ కలిసినట్లుంది. సంప్రదాయం నుండి నేర్చుకున్నది మన సొంత అనుభవంలో ప్రాణం పోసుకుంటుంది.",
+  hi: "अर्जुन कहते हैं: सब महर्षियों ने यही बताया था, और अब आप स्वयं बता रहे हैं। जैसे वर्षों किसी महान व्यक्ति के बारे में सुनकर अंत में उससे आमने-सामने मिलना। परंपरा से सीखी बात अपने अनुभव में जीवित हो उठती है।"
+},
+"gita_ch10_v14": {
+  en: "Arjuna accepts Kṛṣṇa's words completely, and admits that even gods and demons cannot fully grasp Him. There is humility here: the more we know of God, the more we realise how much is beyond us.",
+  te: "అర్జునుడు కృష్ణుని మాటలను పూర్తిగా స్వీకరిస్తాడు, దేవతలు, దానవులు కూడా ఆయనను పూర్తిగా గ్రహించలేరని ఒప్పుకుంటాడు. ఇందులో వినయం ఉంది: దేవుని గురించి ఎంత తెలుసుకుంటే, మనకు అందనిది ఇంకా ఎంత ఉందో అంతగా అర్థమవుతుంది.",
+  hi: "अर्जुन कृष्ण के वचनों को पूरी तरह स्वीकार करते हैं और मानते हैं कि देवता और दानव भी उन्हें पूरा नहीं समझ सकते। इसमें विनम्रता है: भगवान को जितना जानते हैं, उतना ही समझ आता है कि कितना कुछ हमारी पहुँच से परे है।"
+},
+"gita_ch10_v15": {
+  en: "Only God truly knows God. No one else can stand outside Him and measure Him. Arjuna's string of names shows a heart lovingly trying to say what words cannot hold.",
+  te: "దేవుణ్ణి నిజంగా తెలిసినవాడు దేవుడే. ఆయనకు బయట నిలబడి ఆయనను కొలవగలిగేవారు ఇంకెవరూ లేరు. అర్జునుడు వరుసగా పలికిన పేర్లు — మాటలకు అందనిదాన్ని ప్రేమతో చెప్పడానికి ప్రయత్నించే హృదయాన్ని చూపిస్తాయి.",
+  hi: "भगवान को सच में केवल भगवान ही जानते हैं। कोई और उनसे बाहर खड़े होकर उन्हें नाप नहीं सकता। अर्जुन के एक के बाद एक नाम उस हृदय को दिखाते हैं जो प्रेम से वह कहने का प्रयास कर रहा है जो शब्दों में नहीं समाता।"
+},
+"gita_ch10_v16": {
+  en: "Arjuna asks: show me where to find You in this world. It's a beautiful request — not to escape the world, but to see God within it. The rest of the chapter is the answer.",
+  te: "అర్జునుడు అడుగుతున్నాడు: ఈ ప్రపంచంలో నిన్ను ఎక్కడ చూడాలో చెప్పు. ఇది అందమైన కోరిక — ప్రపంచం నుండి పారిపోవడం కాదు, ప్రపంచంలోనే దేవుణ్ణి చూడటం. మిగిలిన అధ్యాయమంతా దీనికే జవాబు.",
+  hi: "अर्जुन पूछते हैं: इस संसार में आपको कहाँ देखूँ, यह बताइए। यह सुंदर माँग है — संसार से भागना नहीं, बल्कि संसार में ही भगवान को देखना। बाकी अध्याय इसी का उत्तर है।"
+},
+"gita_ch10_v17": {
+  en: "This is a very practical question: how do I keep God in mind during an ordinary day? Arjuna wants concrete things he can think of that will remind him of God. We all need such reminders.",
+  te: "ఇది చాలా ఆచరణాత్మకమైన ప్రశ్న: మామూలు రోజులో దేవుణ్ణి ఎలా గుర్తుంచుకోవాలి? దేవుణ్ణి గుర్తుచేసే స్పష్టమైన విషయాలు అర్జునుడు కోరుతున్నాడు. అలాంటి గుర్తులు మనందరికీ కావాలి.",
+  hi: "यह बहुत व्यावहारिक प्रश्न है: एक साधारण दिन में भगवान को मन में कैसे रखूँ? अर्जुन ऐसी ठोस चीज़ें चाहते हैं जो उन्हें भगवान की याद दिलाएँ। ऐसी यादें हम सबको चाहिए।"
+},
+"gita_ch10_v18": {
+  en: "Arjuna says, 'Tell me more — I can't get enough!' When you love someone, you never tire of hearing about them. That eagerness is a sign of real devotion.",
+  te: "అర్జునుడు అంటున్నాడు, 'ఇంకా చెప్పు — ఎంత విన్నా తనివి తీరడం లేదు!' ఎవరినైనా ప్రేమించినప్పుడు వాళ్ళ గురించి వినడం ఎప్పటికీ విసుగు రాదు. ఆ ఆరాటమే నిజమైన భక్తికి గుర్తు.",
+  hi: "अर्जुन कहते हैं, 'और बताइए — मन ही नहीं भरता!' जिससे प्रेम होता है, उसके बारे में सुनते हुए कभी थकान नहीं होती। यह उत्सुकता सच्ची भक्ति का चिह्न है।"
+},
+"gita_ch10_v19": {
+  en: "Kṛṣṇa happily agrees, but says He can only give the highlights — a complete list would never end. So what follows are examples, pointers to help us see Him everywhere.",
+  te: "శ్రీకృష్ణుడు సంతోషంగా ఒప్పుకుంటాడు, కానీ ముఖ్యమైనవి మాత్రమే చెప్పగలనని అంటాడు — పూర్తి జాబితాకు అంతమే ఉండదు. కాబట్టి తర్వాత వచ్చేవి ఉదాహరణలే — అన్నిచోట్లా ఆయనను చూడటానికి సహాయపడే గుర్తులు.",
+  hi: "श्रीकृष्ण खुशी से मान जाते हैं, पर कहते हैं कि केवल मुख्य बातें बता सकते हैं — पूरी सूची कभी खत्म नहीं होगी। इसलिए आगे जो आता है वह उदाहरण हैं — हर जगह उन्हें देखने में मदद करने वाले संकेत।"
+},
+"gita_ch10_v20": {
+  en: "Before naming anything outside, Kṛṣṇa points inward: I am the Self in every heart. The first place to find God is within you — and within every other person too. He is also the start, middle and end of every life story.",
+  te: "బయటివాటిని చెప్పే ముందు శ్రీకృష్ణుడు లోపలికి చూపిస్తాడు: ప్రతి హృదయంలోని ఆత్మను నేనే. దేవుణ్ణి వెతకాల్సిన మొదటి చోటు నీలోనే — ఇంకా ప్రతి మనిషిలోనూ. ప్రతి జీవితకథకు ఆరంభం, మధ్య, ముగింపు కూడా ఆయనే.",
+  hi: "बाहर की कोई भी चीज़ बताने से पहले श्रीकृष्ण भीतर की ओर इशारा करते हैं: हर हृदय में आत्मा मैं हूँ। भगवान को खोजने की पहली जगह तुम्हारे भीतर है — और हर दूसरे व्यक्ति के भीतर भी। हर जीवन-कथा का आरंभ, मध्य और अंत भी वही हैं।"
+},
+"gita_ch10_v21": {
+  en: "Now come the examples: in each group, look at the very best one and you'll catch a glimpse of God. Among lights, the sun; in the night sky, the moon. Whenever something shines brightest, let it remind you of Him.",
+  te: "ఇప్పుడు ఉదాహరణలు మొదలవుతాయి: ప్రతి సమూహంలో అత్యుత్తమమైనదాన్ని చూడు, అందులో దేవుని తళుక్కు కనిపిస్తుంది. వెలుగులలో సూర్యుడు; రాత్రి ఆకాశంలో చంద్రుడు. ఏదైనా అన్నిటికంటే ఎక్కువగా ప్రకాశిస్తే అది నీకు ఆయనను గుర్తుచేయాలి.",
+  hi: "अब उदाहरण शुरू होते हैं: हर समूह में सबसे श्रेष्ठ को देखो, उसमें भगवान की झलक मिलेगी। ज्योतियों में सूर्य; रात के आकाश में चंद्रमा। जब भी कुछ सबसे ज़्यादा चमके, वह तुम्हें उनकी याद दिलाए।"
+},
+"gita_ch10_v22": {
+  en: "God is the Sāma Veda — the Veda that is sung — and Indra, king of the gods. Closer to home, He is the mind among the senses, and the very awareness that makes you alive. The fact that you can notice and feel at all is His presence.",
+  te: "పాడే వేదమైన సామవేదం, దేవతల రాజు ఇంద్రుడు — వీటిలో దేవుడున్నాడు. ఇంకా దగ్గరగా చెప్పాలంటే, ఇంద్రియాలలో మనసు ఆయనే, నిన్ను బ్రతికించే చైతన్యం ఆయనే. నువ్వు గమనించగలుగుతున్నావు, అనుభూతి చెందగలుగుతున్నావు అంటే అదే ఆయన ఉనికి.",
+  hi: "गाया जाने वाला सामवेद और देवताओं के राजा इंद्र — इनमें भगवान हैं। और भी निकट, इंद्रियों में मन वही हैं, और तुम्हें जीवित रखने वाली चेतना भी वही। तुम देख और महसूस कर पाते हो, यही उनकी उपस्थिति है।"
+},
+"gita_ch10_v23": {
+  en: "Śiva among the Rudras, Kubera the lord of wealth, fire among the Vasus, and the great Mount Meru. Kṛṣṇa freely names other deities as His glories — showing that all divine forms point to the one God.",
+  te: "రుద్రులలో శంకరుడు, సంపదలకు అధిపతి కుబేరుడు, వసువులలో అగ్ని, మహా మేరు పర్వతం. శ్రీకృష్ణుడు ఇతర దేవతలను తన విభూతులుగా స్వేచ్ఛగా చెబుతున్నాడు — అన్ని దివ్య రూపాలూ ఒకే దేవుని వైపు చూపిస్తాయని ఇది తెలియజేస్తుంది.",
+  hi: "रुद्रों में शंकर, धन के स्वामी कुबेर, वसुओं में अग्नि और महान मेरु पर्वत। श्रीकृष्ण दूसरे देवताओं को सहज ही अपनी विभूति बताते हैं — यह दिखाता है कि सभी दिव्य रूप एक ही भगवान की ओर संकेत करते हैं।"
+},
+"gita_ch10_v24": {
+  en: "The wisest teacher, the bravest general, the vast ocean — each is a sign of God. When you stand before the sea and feel small and amazed, that feeling is a doorway to Him.",
+  te: "అత్యంత జ్ఞానవంతుడైన గురువు బృహస్పతి, ధైర్యవంతుడైన సేనాని స్కందుడు, విశాలమైన సముద్రం — ఇవన్నీ దేవుని గుర్తులే. సముద్రం ముందు నిలబడి నువ్వు చిన్నగా, ఆశ్చర్యంగా అనిపించినప్పుడు — ఆ భావమే ఆయన దగ్గరకు ఒక ద్వారం.",
+  hi: "सबसे ज्ञानी गुरु बृहस्पति, सबसे वीर सेनापति स्कंद, विशाल समुद्र — हर एक भगवान का चिह्न है। समुद्र के सामने खड़े होकर जब तुम खुद को छोटा और चकित महसूस करते हो, वह भाव उन तक पहुँचने का द्वार है।"
+},
+"gita_ch10_v25": {
+  en: "Among all sounds, God is 'Om'; among all forms of worship, He is the quiet repeating of His name. Notice how simple that is — no big ceremony, just a name on your lips. And the steady, towering Himālaya reminds us of His firmness.",
+  te: "అన్ని శబ్దాలలో దేవుడు ఓంకారం; అన్ని పూజలలో ఆయన నామాన్ని నిశ్శబ్దంగా జపించడమే ఆయన. ఇది ఎంత సరళమో చూడు — పెద్ద కార్యక్రమం అక్కర్లేదు, పెదవులపై ఒక నామం చాలు. నిలకడగా, ఎత్తుగా నిలిచిన హిమాలయం ఆయన స్థిరత్వాన్ని గుర్తుచేస్తుంది.",
+  hi: "सब ध्वनियों में भगवान 'ॐ' हैं; सब पूजाओं में वे शांत भाव से किया गया नाम-जप हैं। देखो यह कितना सरल है — कोई बड़ा अनुष्ठान नहीं, बस होंठों पर एक नाम। और अडिग, ऊँचा हिमालय उनकी स्थिरता की याद दिलाता है।"
+},
+"gita_ch10_v26": {
+  en: "The sacred peepal tree, the wandering singer-sage Nārada, the finest musician of heaven, and the sage Kapila — nature, music and wisdom all carry God's mark. Next time you sit under a big old tree, remember this verse.",
+  te: "పవిత్రమైన రావి చెట్టు, లోకాలు తిరిగే గాయక మహర్షి నారదుడు, స్వర్గంలోని శ్రేష్ఠ గాయకుడు చిత్రరథుడు, కపిల ముని — ప్రకృతి, సంగీతం, జ్ఞానం — అన్నిటిపైనా దేవుని ముద్ర ఉంది. ఈసారి ఏదైనా పెద్ద పాత చెట్టు కింద కూర్చున్నప్పుడు ఈ శ్లోకాన్ని గుర్తుచేసుకో.",
+  hi: "पवित्र पीपल का पेड़, लोक-लोक घूमने वाले गायक ऋषि नारद, स्वर्ग के श्रेष्ठ गायक चित्ररथ और कपिल मुनि — प्रकृति, संगीत और ज्ञान, सब पर भगवान की छाप है। अगली बार किसी बड़े पुराने पेड़ के नीचे बैठो, तो यह श्लोक याद करना।"
+},
+"gita_ch10_v27": {
+  en: "The most magnificent horse, the greatest elephant, and among people, the king. Whatever stands out in power and dignity reflects a little of God's majesty. A good leader is meant to remind us of that.",
+  te: "అత్యంత అద్భుతమైన గుర్రం, అతి గొప్ప ఏనుగు, మనుషులలో రాజు. శక్తిలో, గౌరవంలో ప్రత్యేకంగా నిలిచేది ఏదైనా దేవుని వైభవంలో కొంతను ప్రతిబింబిస్తుంది. మంచి నాయకుడు మనకు అది గుర్తుచేయాలి.",
+  hi: "सबसे शानदार घोड़ा, सबसे महान हाथी, और मनुष्यों में राजा। जो कुछ शक्ति और गरिमा में अलग दिखे, वह भगवान की महिमा का थोड़ा-सा प्रतिबिंब है। एक अच्छे नेता से यही याद आनी चाहिए।"
+},
+"gita_ch10_v28": {
+  en: "The thunderbolt, the wish-giving cow, the power of love that brings new life, and the great serpent Vāsuki. Even the attraction that creates families is a divine power when it is used rightly. God is in the strength that protects and in the love that creates.",
+  te: "వజ్రాయుధం, కోరికలు తీర్చే కామధేనువు, కొత్త ప్రాణాన్ని తెచ్చే ప్రేమశక్తి, మహాసర్పం వాసుకి. కుటుంబాన్ని ఏర్పరిచే ఆకర్షణ కూడా సరైన రీతిలో ఉంటే అది దివ్యమైన శక్తే. రక్షించే బలంలో, సృష్టించే ప్రేమలో దేవుడున్నాడు.",
+  hi: "वज्र, इच्छा पूरी करने वाली कामधेनु, नया जीवन लाने वाली प्रेम-शक्ति और महान सर्प वासुकि। परिवार बनाने वाला आकर्षण भी सही रूप में हो तो दिव्य शक्ति है। रक्षा करने वाले बल और सृजन करने वाले प्रेम में भगवान हैं।"
+},
+"gita_ch10_v29": {
+  en: "The great serpent Ananta on whom Viṣṇu rests, Varuṇa lord of the waters, the chief of the ancestors, and Yama who keeps order even in death. God is in the rules and discipline that hold the world together, not only in its beauty.",
+  te: "విష్ణువు శయనించే ఆదిశేషుడు, జలాలకు అధిపతి వరుణుడు, పితృదేవతలలో ముఖ్యుడు అర్యముడు, మరణంలో కూడా ధర్మాన్ని కాపాడే యముడు. లోకాన్ని నిలబెట్టే నియమాలలో, క్రమశిక్షణలో కూడా దేవుడున్నాడు — అందంలో మాత్రమే కాదు.",
+  hi: "जिन पर विष्णु विश्राम करते हैं वे शेषनाग, जल के स्वामी वरुण, पितरों में प्रमुख अर्यमा, और मृत्यु में भी व्यवस्था रखने वाले यम। संसार को थामने वाले नियमों और अनुशासन में भी भगवान हैं — केवल सुंदरता में नहीं।"
+},
+"gita_ch10_v30": {
+  en: "Among the demon-born Daityas, He is Prahlāda — a reminder that goodness can bloom in any family. He is also Time, the lion and Garuḍa. Where you come from doesn't decide who you can become.",
+  te: "దైత్యులలో ఆయన ప్రహ్లాదుడు — మంచితనం ఏ కుటుంబంలోనైనా వికసించగలదని ఇది గుర్తుచేస్తుంది. కాలం, సింహం, గరుత్మంతుడు కూడా ఆయనే. నువ్వు ఎక్కడ నుండి వచ్చావు అనేది నువ్వు ఏమవుతావో నిర్ణయించదు.",
+  hi: "दैत्यों में वे प्रह्लाद हैं — यह याद दिलाता है कि अच्छाई किसी भी परिवार में खिल सकती है। काल, सिंह और गरुड़ भी वही हैं। तुम कहाँ से आए हो, यह तय नहीं करता कि तुम क्या बन सकते हो।"
+},
+"gita_ch10_v31": {
+  en: "The cleansing wind, Rāma the ideal warrior, the mighty makara of the waters, and the holy Gaṅgā. Rāma is named among warriors because he used his strength only for what is right. Real power is strength guided by goodness.",
+  te: "శుభ్రపరిచే గాలి, ఆదర్శ వీరుడు శ్రీరాముడు, జలాలలోని బలమైన మకరం, పవిత్ర గంగ. శస్త్రధారులలో రాముడిని పేర్కొనడానికి కారణం — ఆయన తన బలాన్ని ధర్మం కోసమే ఉపయోగించాడు. మంచితనం నడిపించే బలమే నిజమైన శక్తి.",
+  hi: "शुद्ध करने वाली वायु, आदर्श योद्धा राम, जल का बलवान मगर और पवित्र गंगा। शस्त्रधारियों में राम का नाम इसलिए है कि उन्होंने अपनी शक्ति केवल धर्म के लिए लगाई। अच्छाई से चलने वाली शक्ति ही सच्ची शक्ति है।"
+},
+"gita_ch10_v32": {
+  en: "God is the beginning, middle and end of everything that is made. Of all subjects to study, the knowledge of who you really are is the highest. And in a good discussion, He is the honest search for truth — not the urge simply to win.",
+  te: "సృష్టించబడిన ప్రతిదానికీ ఆదీ, మధ్యా, అంతమూ దేవుడే. చదివే విద్యలన్నిటిలో — నువ్వు నిజంగా ఎవరివో తెలిపే జ్ఞానమే అత్యుత్తమమైనది. మంచి చర్చలో ఆయన నిజాయితీగా సత్యాన్ని వెతకడం — కేవలం గెలవాలనే తపన కాదు.",
+  hi: "बनी हुई हर चीज़ का आदि, मध्य और अंत भगवान हैं। पढ़ी जाने वाली सब विद्याओं में — तुम वास्तव में कौन हो, यह ज्ञान सबसे ऊँचा है। और अच्छी चर्चा में वे सत्य की ईमानदार खोज हैं — केवल जीतने की इच्छा नहीं।"
+},
+"gita_ch10_v33": {
+  en: "'A' is the first sound, present in every letter we speak; the dvandva compound joins two words as equals. God is like that — present in everything and holding things together. He is also endless time, and the One who cares for the whole world.",
+  te: "'అ' మొదటి అక్షరం, మనం పలికే ప్రతి అక్షరంలోనూ అది ఉంటుంది; ద్వంద్వ సమాసం రెండు పదాలను సమానంగా కలుపుతుంది. దేవుడు కూడా అలాగే — అన్నిటిలో ఉంటూ అన్నిటినీ కలిపి ఉంచుతాడు. అంతం లేని కాలం, లోకమంతటినీ పోషించేవాడు కూడా ఆయనే.",
+  hi: "'अ' पहली ध्वनि है, जो हर बोले जाने वाले अक्षर में रहती है; द्वंद्व समास दो शब्दों को बराबरी से जोड़ता है। भगवान भी ऐसे ही हैं — सबमें रहते और सबको जोड़े रखते हैं। अनंत काल और पूरे संसार का पालन करने वाले भी वही हैं।"
+},
+"gita_ch10_v34": {
+  en: "God is both the death that takes away and the birth that brings new things — both are in His hands. He is also the beautiful qualities of a good life: a good name, grace, kind speech, memory, good sense, courage and forgiveness. When you see these in someone, you are seeing God.",
+  te: "అన్నిటినీ తీసుకుపోయే మృత్యువూ, కొత్తవాటిని తెచ్చే పుట్టుకా దేవుడే — రెండూ ఆయన చేతుల్లోనే. మంచి జీవితానికి అందాన్నిచ్చే గుణాలూ ఆయనే: మంచి పేరు, శోభ, మంచి మాట, జ్ఞాపకశక్తి, తెలివి, ధైర్యం, క్షమ. ఎవరిలోనైనా ఇవి కనిపిస్తే, నువ్వు దేవుణ్ణే చూస్తున్నావు.",
+  hi: "सब कुछ ले जाने वाली मृत्यु और नया लाने वाला जन्म — दोनों भगवान हैं, दोनों उनके हाथ में। अच्छे जीवन के सुंदर गुण भी वही हैं: अच्छा नाम, शोभा, मधुर वाणी, स्मरण-शक्ति, समझ, धैर्य और क्षमा। किसी में ये दिखें तो तुम भगवान को देख रहे हो।"
+},
+"gita_ch10_v35": {
+  en: "The loveliest hymn, the Gāyatrī metre, the pleasant month of Mārgaśīrṣa, and spring with all its flowers. Whatever fills you with freshness and delight — a beautiful song, a gentle season, blossoms — let it turn your heart toward God.",
+  te: "అత్యంత మధురమైన సామగానం, గాయత్రీ ఛందస్సు, హాయిగా ఉండే మార్గశిర మాసం, పూలతో నిండిన వసంతం. నిన్ను కొత్త ఉత్సాహంతో, ఆనందంతో నింపేది ఏదైనా — మంచి పాట, చల్లని ఋతువు, పూలు — అది నీ మనసును దేవుని వైపు తిప్పాలి.",
+  hi: "सबसे सुंदर साम-गान, गायत्री छंद, सुहावना मार्गशीर्ष मास और फूलों से भरा वसंत। जो कुछ तुम्हें ताज़गी और आनंद से भर दे — सुंदर गीत, सुहाना मौसम, खिले फूल — वह तुम्हारे मन को भगवान की ओर मोड़े।"
+},
+"gita_ch10_v36": {
+  en: "Even behind the cleverest trick in gambling is a power that comes from God — this doesn't praise cheating; it shows that no power exists apart from Him. More importantly, He is the shine in talented people, the victory of hard work, firm determination and goodness. When you succeed through effort, thank Him.",
+  te: "జూదంలోని అత్యంత చాకచక్యమైన నేర్పు వెనుక కూడా దేవుని నుండి వచ్చిన శక్తే ఉంది — ఇది మోసాన్ని పొగడటం కాదు, ఆయనకు బయట ఏ శక్తీ లేదని చెప్పడం. ఇంకా ముఖ్యంగా, ప్రతిభావంతుల తేజస్సు, కష్టపడి సాధించే విజయం, దృఢ నిశ్చయం, మంచితనం — ఇవన్నీ ఆయనే. కృషితో విజయం సాధించినప్పుడు ఆయనకు కృతజ్ఞత చెప్పు.",
+  hi: "जुए की सबसे चतुर चाल के पीछे भी भगवान से आई शक्ति ही है — यह छल की प्रशंसा नहीं, बल्कि यह बताना है कि उनके बिना कोई शक्ति नहीं। उससे भी ज़रूरी, प्रतिभाशाली लोगों का तेज, मेहनत की जीत, दृढ़ निश्चय और अच्छाई — सब वही हैं। मेहनत से सफल हो, तो उनका धन्यवाद करो।"
+},
+"gita_ch10_v37": {
+  en: "Among His own clan He is Vāsudeva — Kṛṣṇa Himself; among the Pāṇḍavas, Arjuna! Imagine hearing God say that you are one of His glories. He is also Vyāsa the great sage and the wise poet Uśanā. Each of us can become a place where God's goodness shows.",
+  te: "తన వంశంలో ఆయన వాసుదేవుడు — స్వయంగా కృష్ణుడే; పాండవులలో అర్జునుడు! నువ్వు ఆయన విభూతులలో ఒకడివి అని దేవుడే అంటే ఎలా ఉంటుందో ఊహించు. మహర్షి వ్యాసుడు, జ్ఞాని కవి ఉశనుడు కూడా ఆయనే. మనలో ప్రతి ఒక్కరమూ దేవుని మంచితనం వ్యక్తమయ్యే చోటుగా మారగలం.",
+  hi: "अपने कुल में वे वासुदेव हैं — स्वयं कृष्ण; पांडवों में अर्जुन! सोचो, भगवान ही कहें कि तुम उनकी विभूति हो। महर्षि व्यास और ज्ञानी कवि उशना भी वही हैं। हम में से हर कोई ऐसा स्थान बन सकता है जहाँ भगवान की अच्छाई प्रकट हो।"
+},
+"gita_ch10_v38": {
+  en: "God is in fair discipline, in wise strategy, in the silence that keeps a secret, and in the wisdom of the wise. Silence is named as one of His glories — sometimes the most divine thing we can do is to say nothing at all.",
+  te: "న్యాయమైన శిక్షలో, తెలివైన నీతిలో, రహస్యాన్ని కాపాడే మౌనంలో, జ్ఞానుల జ్ఞానంలో దేవుడున్నాడు. మౌనాన్ని కూడా ఒక విభూతిగా చెప్పాడు — కొన్నిసార్లు మనం చేయగలిగే అత్యంత దివ్యమైన పని ఏమీ మాట్లాడకపోవడమే.",
+  hi: "न्यायपूर्ण दंड में, बुद्धिमान नीति में, रहस्य बचाने वाले मौन में और ज्ञानियों के ज्ञान में भगवान हैं। मौन को भी उनकी विभूति कहा गया है — कभी-कभी सबसे दिव्य काम कुछ भी न कहना होता है।"
+},
+"gita_ch10_v39": {
+  en: "Every living thing grows from a seed, and God is the seed of all seeds. Nothing — no person, animal or stone — can exist without Him. He isn't only in the special things; He is what makes anything exist at all.",
+  te: "ప్రతి జీవి ఒక విత్తనం నుండి పెరుగుతుంది, దేవుడు అన్ని విత్తనాలకూ విత్తనం. ఏ మనిషి గానీ, జంతువు గానీ, రాయి గానీ ఆయన లేకుండా ఉండలేవు. ఆయన ప్రత్యేకమైనవాటిలో మాత్రమే కాదు; అసలు ఏదైనా ఉనికిలో ఉండటానికి కారణమే ఆయన.",
+  hi: "हर जीव एक बीज से उगता है, और भगवान सब बीजों के बीज हैं। कोई व्यक्ति, पशु या पत्थर उनके बिना नहीं रह सकता। वे केवल विशेष चीज़ों में नहीं हैं; किसी भी चीज़ के होने का कारण ही वे हैं।"
+},
+"gita_ch10_v40": {
+  en: "Kṛṣṇa says this long list is only a tiny sample. You could spend your whole life naming His glories and never finish. The point is not to memorise the list but to learn the habit of seeing God everywhere.",
+  te: "ఈ పెద్ద జాబితా కేవలం చిన్న నమూనా మాత్రమే అని శ్రీకృష్ణుడు చెబుతున్నాడు. జీవితమంతా ఆయన విభూతులను లెక్కిస్తూ ఉన్నా అవి పూర్తి కావు. జాబితాను బట్టీ పట్టడం కాదు అసలు విషయం — అన్నిచోట్లా దేవుణ్ణి చూసే అలవాటు నేర్చుకోవడమే.",
+  hi: "श्रीकृष्ण कहते हैं कि यह लंबी सूची केवल एक छोटा-सा नमूना है। पूरा जीवन उनकी विभूतियाँ गिनते रहो, तब भी पूरी नहीं होंगी। बात सूची रटने की नहीं, हर जगह भगवान को देखने की आदत सीखने की है।"
+},
+"gita_ch10_v41": {
+  en: "Here's the simple rule to carry with you: whenever you see something truly beautiful, powerful or excellent, know that it is a spark of God's light. A sunrise, a kind act, a wonderful piece of music — each is a small window to Him.",
+  te: "నీతో తీసుకెళ్ళాల్సిన సరళమైన సూత్రం ఇదే: నిజంగా అందమైనది, శక్తిమంతమైనది, అద్భుతమైనది ఏది కనిపించినా — అది దేవుని వెలుగులోని ఒక మెరుపు అని తెలుసుకో. సూర్యోదయం, ఒక మంచి పని, ఒక అద్భుతమైన సంగీతం — ఒక్కొక్కటీ ఆయనను చూపించే చిన్న కిటికీ.",
+  hi: "साथ रखने लायक सरल नियम यही है: जब भी कुछ सच में सुंदर, शक्तिशाली या उत्कृष्ट दिखे, जान लो कि वह भगवान के प्रकाश की एक चिंगारी है। सूर्योदय, कोई भला काम, अद्भुत संगीत — हर एक उन तक की एक छोटी खिड़की है।"
+},
+"gita_ch10_v42": {
+  en: "Finally Kṛṣṇa says: why worry about every detail? This whole vast universe is held up by just a small part of Me. If the entire universe is only a fraction of God, imagine how great He is — and how safe we are in His hands.",
+  te: "చివరగా శ్రీకృష్ణుడు అంటున్నాడు: ప్రతి వివరం గురించి ఎందుకు ఆలోచించడం? ఈ విశాల విశ్వమంతా నాలోని ఒక చిన్న భాగంతోనే నిలిచి ఉంది. విశ్వమంతా దేవునిలో ఒక అంశం మాత్రమే అయితే, ఆయన ఎంత గొప్పవాడో — ఆయన చేతుల్లో మనం ఎంత భద్రంగా ఉన్నామో ఊహించు.",
+  hi: "अंत में श्रीकृष्ण कहते हैं: हर विवरण की चिंता क्यों? यह पूरा विशाल ब्रह्मांड मेरे एक छोटे-से अंश से टिका है। अगर पूरा ब्रह्मांड भगवान का केवल एक अंश है, तो सोचो वे कितने महान हैं — और उनके हाथों में हम कितने सुरक्षित हैं।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",
