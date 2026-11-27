@@ -44,6 +44,7 @@
     ['bajirao', 'Bājī Rāo', 'బాజీరావ్ పేష్వా', 'Peśvā Bājī Rāo I · Palkhed, Delhi and Bhopal', 'మొదటి బాజీరావ్ పేష్వా · పాల్ఖేడ్, ఢిల్లీ, భోపాల్', '🐎', 'linear-gradient(160deg,#2a0a02,#c07a2a)'],
     ['pushyamitra', 'Puṣyamitra', 'పుష్యమిత్రుడు', 'Śuṅga · the general who ended the Mauryas', 'శుంగ · మౌర్యులను అంతం చేసిన సేనాపతి', '🔥', 'linear-gradient(160deg,#1a0a06,#b0602a)'],
     ['yashodharman', 'Yaśodharman', 'యశోధర్ముడు', 'Daśapura · the king who humbled Mihirakula', 'దశపురం · మిహిరకులుణ్ణి లొంగదీసిన రాజు', '🏛️', 'linear-gradient(160deg,#1a0a1a,#a0703a)'],
+    ['dharmapala', 'Dharmapāla', 'ధర్మపాలుడు', 'Pāla of Bengal · Kanauj and Vikramaśīla', 'బెంగాల్ పాల రాజు · కనౌజ్, విక్రమశిల', '☸️', 'linear-gradient(160deg,#0a1a2a,#b0803a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
