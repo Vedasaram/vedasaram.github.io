@@ -3757,4 +3757,82 @@ window.KIDS_STORIES = [
       },
     ],
   },
+  {
+    id: 'maya-builds-the-magic-hall',
+    added: '2026-11-27',
+    epic: 'Mahabharata',
+    chars: ['Maya', 'Arjuna', 'Kṛṣṇa', 'Yudhiṣṭhira', 'Bhīma'],
+    title: { en: 'Maya Builds the Magic Hall', te: 'మయుడు కట్టిన మాయా సభ' },
+    moral: { en: 'Gratitude can turn one kindness into something wonderful.', te: 'కృతజ్ఞత ఒక్క మంచి పనిని అద్భుతంగా మార్చగలదు.' },
+    cover: { bg: 'palace', props: [['pool', 200, 205, 1.3], ['lotus', 170, 196, 0.8], ['lotus', 235, 198, 0.7], ['demon', 70, 205, 0.8, { color: '#7a5a9a', cloth: '#f0c040' }], ['person', 335, 205, 1.2, { cloth: '#f4ead2', crown: true }]] },
+    pages: [
+      {
+        scene: { bg: 'forest', props: [['fire', 90, 198, 1.2], ['fire', 140, 192, 0.8], ['demon', 210, 198, 0.9, { color: '#7a5a9a', cloth: '#f0c040', raise: true }], ['person', 300, 198, 1.3, { cloth: '#3a6ab0' }], ['person', 360, 198, 1.2, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }]] },
+        en: 'When the great Khāṇḍava forest was burning, an asura named Maya came running out of the flames. Agni\'s fire chased him from behind, and Kṛṣṇa\'s discus was raised in front of him. "Arjuna, save me!" Maya cried. "Do not be afraid," said Arjuna, and he lowered his bow. Kṛṣṇa lowered his discus too. Maya folded his hands. "You gave me back my life," he said. "I am the master builder of the asuras. I can build anything at all. Please let me do something for you." Arjuna smiled. "I want nothing in return, my friend. But if you wish to please me, do something for Kṛṣṇa."',
+        te: 'ఖాండవ వనం భగభగ మండుతున్నప్పుడు, మయుడు అనే ఒక అసురుడు మంటల్లోంచి పరుగెత్తుకుంటూ బయటకు వచ్చాడు. వెనక అగ్నిదేవుడి మంటలు తరుముతున్నాయి, ముందు శ్రీకృష్ణుడి చక్రం ఎత్తి ఉంది. "అర్జునా, నన్ను కాపాడు!" అని మయుడు అరిచాడు. "భయపడకు," అంటూ అర్జునుడు తన విల్లు దించాడు. శ్రీకృష్ణుడు కూడా చక్రాన్ని దించాడు. మయుడు చేతులు జోడించాడు. "నువ్వు నాకు ప్రాణం పోశావు," అన్నాడు. "నేను అసురులలో గొప్ప శిల్పిని. నేను ఏదైనా కట్టగలను. నీకోసం ఏదైనా చేయనివ్వు." అర్జునుడు నవ్వాడు. "నాకు బదులుగా ఏమీ వద్దు, మిత్రమా. కానీ నన్ను సంతోషపెట్టాలంటే, శ్రీకృష్ణుడి కోసం ఏదైనా చెయ్యి."',
+      },
+      {
+        scene: { bg: 'mountain', props: [['pool', 120, 200, 1], ['demon', 230, 198, 0.9, { color: '#7a5a9a', cloth: '#f0c040' }], ['mace', 300, 198, 1.1], ['necklace', 350, 190, 0.8], ['cloud', 80, 45, 0.9], ['sun', 350, 45, 0.7]] },
+        en: 'Kṛṣṇa thought for a moment. Then he said, "Maya, build a hall for King Yudhiṣṭhira — a hall so beautiful that nobody in the whole world has ever seen anything like it." Maya\'s eyes shone. "It will be done!" He travelled far to the north, beyond Mount Kailāsa, to a lake called Bindusaras. Long ago he had hidden a great treasure there for an old asura king. Now he brought it all back — glittering crystals, jewels and gold. He also brought two special gifts. For strong Bhīma there was a huge, heavy mace. For Arjuna there was a mighty conch called Devadatta. When it was blown, its sound shook the earth!',
+        te: 'శ్రీకృష్ణుడు కాసేపు ఆలోచించాడు. తరువాత, "మయా, ధర్మరాజు కోసం ఒక సభా మందిరం కట్టు — ప్రపంచంలో ఎవ్వరూ ఎప్పుడూ చూడనంత అందమైనది," అన్నాడు. మయుడి కళ్ళు మెరిశాయి. "అలాగే కడతాను!" అతను ఉత్తరానికి, కైలాస పర్వతం దాటి, బిందుసరస్సు అనే సరస్సు దగ్గరకు వెళ్ళాడు. చాలా కాలం క్రితం ఒక అసుర రాజు కోసం అక్కడ పెద్ద నిధిని దాచి ఉంచాడు. ఇప్పుడు ఆ నిధినంతా తెచ్చాడు — మెరిసే స్ఫటికాలు, రత్నాలు, బంగారం. రెండు ప్రత్యేకమైన కానుకలు కూడా తెచ్చాడు. బలశాలి భీముడికి ఒక పెద్ద, బరువైన గద. అర్జునుడికి దేవదత్తం అనే గొప్ప శంఖం. దాన్ని ఊదితే భూమే కంపించేది!',
+      },
+      {
+        scene: { bg: 'palace', props: [['pool', 200, 210, 1.2], ['lotus', 175, 200, 0.7], ['lotus', 230, 202, 0.6], ['throne', 330, 200, 1], ['person', 330, 186, 1.1, { cloth: '#f4ead2', crown: true }], ['demon', 70, 205, 0.75, { color: '#7a5a9a', cloth: '#f0c040' }], ['flowers', 120, 205, 0.8]] },
+        en: 'For fourteen months Maya and his helpers worked day and night. At last the hall stood ready, shining like the sun. Its floors were made of crystal so clear that they looked like water. And its pools were so still that they looked like solid floor! Golden lotuses floated in them, and trees full of flowers grew all around, in every season. Cool, sweet-smelling breezes blew through the rooms. King Yudhiṣṭhira entered with prayers and a grand feast, and sages and kings came from far away to see it. Everyone called it Maya\'s Hall. Later, this magic hall would play a part in a famous story — but that is a tale for another day.',
+        te: 'పద్నాలుగు నెలలపాటు మయుడు, అతని సహాయకులు రాత్రింబవళ్ళు పనిచేశారు. చివరకు సభ సిద్ధమైంది, సూర్యుడిలా వెలిగిపోతోంది. దాని నేల ఎంత స్వచ్ఛమైన స్ఫటికంతో చేశారంటే, అది నీళ్ళలా కనిపించేది. దాని కొలనులు ఎంత నిశ్చలంగా ఉండేవంటే, అవి గట్టి నేలలా కనిపించేవి! వాటిలో బంగారు తామరలు తేలుతుండేవి, చుట్టూ అన్ని కాలాల్లోనూ పూలు పూసే చెట్లు ఉండేవి. చల్లని, సువాసనల గాలి గదుల్లో వీచేది. ధర్మరాజు పూజలతో, గొప్ప విందుతో ఆ సభలోకి ప్రవేశించాడు. దూరదూరాల నుంచి ఋషులు, రాజులు చూడటానికి వచ్చారు. అందరూ దాన్ని మయసభ అని పిలిచారు. తరువాత ఈ మాయా సభ ఒక ప్రసిద్ధ కథలో ముఖ్య పాత్ర పోషించింది — కానీ ఆ కథ మరోసారి చెప్పుకుందాం.',
+      },
+    ],
+  },
+  {
+    id: 'ravana-meets-kartavirya-arjuna',
+    added: '2026-11-27',
+    epic: 'Ramayana',
+    chars: ['Rāvaṇa', 'Kārtavīrya Arjuna', 'Pulastya'],
+    title: { en: 'Rāvaṇa Meets King Kārtavīrya Arjuna', te: 'రావణుడు, కార్తవీర్యార్జునుడు' },
+    moral: { en: 'However strong you are, someone is stronger — so stay humble.', te: 'ఎంత బలవంతుడివైనా, నీకంటే బలవంతుడు ఉంటాడు — అందుకే వినయంగా ఉండు.' },
+    cover: { bg: 'river', props: [['ravana', 120, 198, 0.75], ['person', 290, 198, 1.5, { cloth: '#3a6ab0', crown: true, raise: true }], ['sun', 350, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'river', props: [['linga', 200, 190, 1], ['flowers', 160, 192, 0.8], ['flowers', 240, 192, 0.8], ['ravana', 310, 198, 0.7, { flip: true }], ['sun', 70, 45, 0.8]] },
+        en: 'After winning many battles, Rāvaṇa, the ten-headed king of Laṅkā, became very proud. One day he arrived at Māhiṣmatī, a city on the banks of the river Narmadā. Its king was Kārtavīrya Arjuna, and it was said that he had a thousand arms! "Where is your king? I have come to fight him," Rāvaṇa announced. "He is not here," the ministers replied. So Rāvaṇa went down to the river. The water was cool and clear. He bathed, then set up a golden Śiva liṅga on the white sand and began to worship it. He made heaps of fresh flowers all around it and sang praises to Lord Śiva.',
+        te: 'ఎన్నో యుద్ధాలు గెలిచిన తరువాత, పది తలల లంకాధిపతి రావణుడికి గర్వం బాగా పెరిగింది. ఒకరోజు అతను నర్మదా నది ఒడ్డున ఉన్న మాహిష్మతి అనే నగరానికి వచ్చాడు. ఆ నగరానికి రాజు కార్తవీర్యార్జునుడు. అతనికి వెయ్యి చేతులు ఉన్నాయని చెబుతారు! "మీ రాజు ఎక్కడ? అతనితో యుద్ధం చేయడానికి వచ్చాను," అని రావణుడు ప్రకటించాడు. "రాజుగారు ఇక్కడ లేరు," అని మంత్రులు చెప్పారు. అందుకని రావణుడు నది దగ్గరకు వెళ్ళాడు. నీళ్ళు చల్లగా, స్వచ్ఛంగా ఉన్నాయి. అతను స్నానం చేసి, తెల్లని ఇసుక మీద ఒక బంగారు శివలింగాన్ని పెట్టి పూజ మొదలుపెట్టాడు. చుట్టూ తాజా పూలను రాశులుగా పోసి, శివుడిని స్తుతిస్తూ పాటలు పాడాడు.',
+      },
+      {
+        scene: { bg: 'river', props: [['person', 110, 198, 1.5, { cloth: '#3a6ab0', crown: true, raise: true }], ['person', 50, 198, 1, { female: true, cloth: '#f2a33a', pallu: '#4f9d69' }], ['ravana', 290, 198, 0.75, { flip: true, raise: true }], ['flowers', 200, 205, 0.6]] },
+        en: 'A little way down the river, King Kārtavīrya was playing in the water with his queens. "Watch how strong my arms are!" he laughed. He stretched out all his thousand arms across the Narmadā and held back the water like a wall. The river stopped, rose up, and flowed backwards! A great wave rushed up the bank and washed away all of Rāvaṇa\'s flowers. "Who dares to do this?" roared Rāvaṇa, and he ran to fight. But Kārtavīrya stepped calmly out of the water. Rāvaṇa had twenty arms — the king had a thousand! He caught Rāvaṇa, tied him up tight like a bundle, and carried him off to Māhiṣmatī as his prisoner.',
+        te: 'నదిలో కొంచెం కిందకు, కార్తవీర్యార్జునుడు తన రాణులతో నీళ్ళలో ఆడుకుంటున్నాడు. "నా చేతుల బలం చూడండి!" అని నవ్వాడు. తన వెయ్యి చేతులనూ నర్మదా నదికి అడ్డంగా చాపి, గోడలా నీటిని ఆపేశాడు. నది ఆగిపోయింది, పైకి లేచింది, వెనక్కి ప్రవహించింది! ఒక పెద్ద అల ఒడ్డు మీదకు దూసుకొచ్చి రావణుడి పూలన్నిటినీ కొట్టుకుపోయేలా చేసింది. "ఇంత సాహసం ఎవరికి?" అని రావణుడు గర్జించి, యుద్ధానికి పరుగెత్తాడు. కానీ కార్తవీర్యార్జునుడు ప్రశాంతంగా నీళ్ళలోంచి బయటకు వచ్చాడు. రావణుడికి ఇరవై చేతులు — రాజుకు వెయ్యి! అతను రావణుడిని పట్టుకుని, మూటలా గట్టిగా కట్టేసి, ఖైదీగా మాహిష్మతికి తీసుకుపోయాడు.',
+      },
+      {
+        scene: { bg: 'palace', props: [['person', 130, 198, 1.3, { cloth: '#f4ead2', beard: true }], ['person', 220, 198, 1.4, { cloth: '#3a6ab0', crown: true }], ['ravana', 320, 198, 0.65, { flip: true }], ['fire', 175, 205, 0.6]] },
+        en: 'The news flew all the way to heaven, and even the gods were amazed. Then Rāvaṇa\'s grandfather, the great sage Pulastya, came to Māhiṣmatī. King Kārtavīrya welcomed him with deep respect, washed his feet and offered him a seat. "Holy one, what can I do for you?" he asked. "Please set my grandson free," said Pulastya gently. At once the king bowed. "Your wish is my command." He untied Rāvaṇa, gave him gifts and fine clothes, and the two kings promised friendship before a sacred fire. Rāvaṇa went home very quietly that day. He had learned that, however strong you are, there is always someone stronger.',
+        te: 'ఈ వార్త స్వర్గం దాకా పాకిపోయింది, దేవతలు కూడా ఆశ్చర్యపోయారు. అప్పుడు రావణుడి తాతగారు, గొప్ప మహర్షి పులస్త్యుడు మాహిష్మతికి వచ్చాడు. కార్తవీర్యార్జునుడు ఆయనను ఎంతో గౌరవంగా ఆహ్వానించి, కాళ్ళు కడిగి, ఆసనం ఇచ్చాడు. "స్వామీ, మీకు ఏం చేయగలను?" అని అడిగాడు. "నా మనవడిని విడిచిపెట్టు, నాయనా," అని పులస్త్యుడు మృదువుగా అడిగాడు. వెంటనే రాజు నమస్కరించాడు. "మీ మాటే నాకు ఆజ్ఞ." అతను రావణుడి కట్లు విప్పి, కానుకలు, మంచి వస్త్రాలు ఇచ్చాడు. ఇద్దరు రాజులు అగ్ని సాక్షిగా స్నేహం చేసుకున్నారు. ఆ రోజు రావణుడు చాలా నిశ్శబ్దంగా ఇంటికి వెళ్ళాడు. ఎంత బలవంతుడైనా, అంతకంటే బలవంతుడు ఎప్పుడూ ఉంటాడని అతనికి అర్థమైంది.',
+      },
+    ],
+  },
+  {
+    id: 'subhadra-and-arjuna',
+    added: '2026-11-27',
+    epic: 'Mahabharata',
+    chars: ['Subhadrā', 'Arjuna', 'Kṛṣṇa', 'Balarāma'],
+    title: { en: 'Subhadrā and Arjuna', te: 'సుభద్రా పరిణయం' },
+    moral: { en: 'A calm and wise friend can turn anger into joy.', te: 'ప్రశాంతమైన, తెలివైన మిత్రుడు కోపాన్ని కూడా సంతోషంగా మార్చగలడు.' },
+    cover: { bg: 'mountain', props: [['horse', 300, 198, 1.1], ['chariot', 220, 198, 1.3], ['person', 195, 168, 1, { female: true, skin: 'fair', cloth: '#f2a33a', pallu: '#c0392b' }], ['archer', 245, 168, 0.9], ['sun', 70, 45, 0.8]] },
+    pages: [
+      {
+        scene: { bg: 'mountain', props: [['person', 100, 198, 1.4, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['archer', 175, 198, 1.3], ['person', 300, 198, 1.2, { female: true, skin: 'fair', cloth: '#f2a33a', pallu: '#c0392b' }], ['drum', 360, 200, 0.8], ['flowers', 240, 205, 0.8]] },
+        en: 'Once, Arjuna went on a long journey to holy places. At last he reached the seaside near Dvārakā, where his dear friend Kṛṣṇa lived. Kṛṣṇa hugged him with joy. Soon there was a big festival on Raivataka hill. Drums were beating, people were singing, and the whole Yādava family was there in fine clothes. Among them Arjuna saw a lovely young princess, bright and graceful. He could not stop looking at her. Kṛṣṇa noticed and smiled. "My friend, has your heart wandered off somewhere?" "Who is she?" asked Arjuna shyly. "That is Subhadrā," said Kṛṣṇa, "my own sister, and Balarāma\'s sister too."',
+        te: 'ఒకసారి అర్జునుడు పుణ్యక్షేత్రాలు చూడటానికి సుదీర్ఘ యాత్ర చేశాడు. చివరకు తన ప్రియమిత్రుడు శ్రీకృష్ణుడు ఉండే ద్వారకకు దగ్గరలో ఉన్న సముద్ర తీరానికి చేరుకున్నాడు. శ్రీకృష్ణుడు ఆనందంగా అతన్ని కౌగిలించుకున్నాడు. కొన్ని రోజులకు రైవతక పర్వతం మీద పెద్ద ఉత్సవం జరిగింది. డోళ్ళు మోగుతున్నాయి, ప్రజలు పాటలు పాడుతున్నారు, యాదవులంతా మంచి బట్టలు కట్టుకుని వచ్చారు. వారి మధ్య అర్జునుడు ఒక అందమైన యువరాణిని చూశాడు. ఆమె నుంచి చూపు తిప్పుకోలేకపోయాడు. శ్రీకృష్ణుడు గమనించి నవ్వాడు. "మిత్రమా, నీ మనసు ఎక్కడికో పోయినట్టుందే?" "ఆమె ఎవరు?" అని అర్జునుడు సిగ్గుగా అడిగాడు. "ఆమె సుభద్ర," అన్నాడు శ్రీకృష్ణుడు, "నా చెల్లెలు, బలరాముడికి కూడా చెల్లెలే."',
+      },
+      {
+        scene: { bg: 'forest', props: [['horse', 310, 198, 1.2], ['chariot', 225, 198, 1.4], ['person', 200, 164, 1, { female: true, skin: 'fair', cloth: '#f2a33a', pallu: '#c0392b', raise: true }], ['archer', 250, 164, 0.95], ['cloud', 90, 45, 0.9]] },
+        en: '"In a svayaṃvara, who knows whom a girl will choose?" said Kṛṣṇa. "For a warrior, carrying away a bride is an old custom." Arjuna sent a messenger to his brother Yudhiṣṭhira, who happily gave his blessing. Many Telugu tellings add that Arjuna first stayed in Dvārakā dressed as a wandering holy man, and that Subhadrā looked after him, and the two grew fond of each other. Then one day, as Subhadrā came back from her prayers on Raivataka hill, Arjuna drove up in a golden chariot. Subhadrā climbed in, and away they flew! It is said that Subhadrā herself took the reins and drove the horses like the wind.',
+        te: '"స్వయంవరంలో ఆడపిల్ల ఎవరిని ఎంచుకుంటుందో ఎవరికి తెలుసు?" అన్నాడు శ్రీకృష్ణుడు. "వీరులు వధువును తీసుకుపోవడం పాత ఆచారమే." అర్జునుడు తన అన్న ధర్మరాజుకు దూత ద్వారా కబురు పంపాడు. ధర్మరాజు సంతోషంగా ఆశీర్వదించాడు. మన తెలుగు కథల్లో, అర్జునుడు ముందు సన్యాసి వేషంలో ద్వారకలో ఉన్నాడని, సుభద్ర ఆయనకు సేవలు చేసిందని, అలా ఇద్దరికీ ఒకరంటే ఒకరికి ఇష్టం కలిగిందని చెబుతారు. ఒకరోజు సుభద్ర రైవతక పర్వతం మీద పూజ చేసుకుని తిరిగి వస్తుండగా, అర్జునుడు బంగారు రథంలో వచ్చాడు. సుభద్ర రథం ఎక్కింది, ఇద్దరూ రివ్వున దూసుకుపోయారు! సుభద్రే స్వయంగా పగ్గాలు పట్టి గుర్రాలను గాలిలా పరుగెత్తించిందని చెబుతారు.',
+      },
+      {
+        scene: { bg: 'court', props: [['person', 110, 198, 1.5, { skin: 'fair', cloth: '#3a6ab0', crown: true, raise: true }], ['person', 250, 198, 1.5, { skin: 'blue', cloth: '#f0c040', crown: true, tilak: true }], ['drum', 340, 200, 0.9]] },
+        en: 'The guards ran to the Yādava hall and beat the war drum. Warriors jumped up, shouting. Balarāma\'s face turned red with anger. "Arjuna was our guest, and he has insulted us!" Then Kṛṣṇa spoke calmly. "Brother, Arjuna has not insulted us. He did not try to buy a bride, and he did not want to leave it to chance. He comes from a noble family, he is brave and good, and no one in the world can defeat him. Where would we find a better husband for our sister? Let us bring them back with honour." Balarāma\'s anger cooled. Arjuna and Subhadrā were married in Dvārakā with great joy. Later, their brave son Abhimanyu was born.',
+        te: 'కాపలావాళ్ళు యాదవుల సభకు పరుగెత్తి యుద్ధభేరి మోగించారు. వీరులు అరుస్తూ లేచారు. బలరాముడి ముఖం కోపంతో ఎర్రబడింది. "అర్జునుడు మన అతిథి. అతను మనల్ని అవమానించాడు!" అప్పుడు శ్రీకృష్ణుడు ప్రశాంతంగా మాట్లాడాడు. "అన్నయ్యా, అర్జునుడు మనల్ని అవమానించలేదు. అతను డబ్బుతో వధువును కొనుక్కోవాలనుకోలేదు, అదృష్టం మీద వదిలేయాలనుకోలేదు. అతను గొప్ప వంశంలో పుట్టాడు, వీరుడు, మంచివాడు, ప్రపంచంలో అతన్ని ఎవరూ ఓడించలేరు. మన చెల్లెలికి ఇంతకంటే మంచి భర్త ఎక్కడ దొరుకుతాడు? వాళ్ళను గౌరవంగా వెనక్కి తీసుకొద్దాం." బలరాముడి కోపం చల్లారింది. ద్వారకలో అర్జునుడికి, సుభద్రకు ఎంతో వైభవంగా పెళ్ళి జరిగింది. తరువాత వారికి వీరుడైన అభిమన్యుడు పుట్టాడు.',
+      },
+    ],
+  },
 ];

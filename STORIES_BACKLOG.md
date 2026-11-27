@@ -152,11 +152,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Saramā Comforts Sītā (Rāmāyaṇa) — sarama-comforts-sita
 - [x] Arjuna, Kṛṣṇa and the Khāṇḍava Forest (Mahābhārata) — arjuna-krishna-and-the-khandava-forest
 - [x] How Vāli Caught Rāvaṇa (Rāmāyaṇa) — how-vali-caught-ravana
+- [x] Maya Builds the Magic Hall (Mahābhārata) — maya-builds-the-magic-hall
+- [x] Rāvaṇa Meets King Kārtavīrya Arjuna (Rāmāyaṇa) — ravana-meets-kartavirya-arjuna
+- [x] Subhadrā and Arjuna (Mahābhārata) — subhadra-and-arjuna
 
 ## Next
-- [ ] Maya Builds the Magic Hall (Mahābhārata) — Maya, Arjuna, Yudhiṣṭhira
-- [ ] Rāvaṇa Meets King Kārtavīrya Arjuna (Rāmāyaṇa) — Rāvaṇa, Kārtavīrya Arjuna, Pulastya
-- [ ] Subhadrā and Arjuna (Mahābhārata) — Subhadrā, Arjuna, Kṛṣṇa, Balarāma
 - [ ] Śatrughna and the Demon Lavaṇa (Rāmāyaṇa) — Śatrughna, Lavaṇa
 - [ ] Aśvatthāmā and the Cup of Rice-Milk (Mahābhārata) — Aśvatthāmā, Droṇa, Kṛpī
 - [ ] Lava and Kuśa Catch the Royal Horse (Rāmāyaṇa tradition) — Lava, Kuśa, Śatrughna
