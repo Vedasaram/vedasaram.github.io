@@ -62,6 +62,7 @@
     ['shamika', 'Śamīka & Śṛṅgī', 'శమీకుడు, శృంగి', 'The silent sage and the son who cursed a king', 'మౌనముని, రాజును శపించిన కుమారుడు', '🤫', 'linear-gradient(160deg,#142a1a,#7a9a6a)'],
     ['matanga', 'Mataṅga', 'మతంగుడు', 'Whose curse kept Vālin away; Śabarī’s guru', 'వాలిని దూరంగా ఉంచిన శాపం, శబరి గురువు', '🌸', 'linear-gradient(160deg,#2a1a2a,#b0607a)'],
     ['jaratkaru', 'Jaratkāru', 'జరత్కారుడు', 'Who married to save his ancestors; father of Āstīka', 'పితరుల కోసం పెళ్ళాడిన ముని, ఆస్తీకుని తండ్రి', '🌿', 'linear-gradient(160deg,#0e2a1a,#5a8a4a)'],
+    ['kandu', 'Kaṇḍu', 'కండు మహర్షి', 'Whose one evening lasted nine hundred years', 'ఒక్క సాయంత్రం తొమ్మిది వందల ఏళ్ళయిన ముని', '🌅', 'linear-gradient(160deg,#2a0a1a,#c0607a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js

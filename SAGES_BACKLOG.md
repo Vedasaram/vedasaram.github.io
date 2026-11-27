@@ -42,11 +42,15 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Kaṇḍu (kandu) — the sage of the Gomatī whose tapas Indra broke with the apsaras Pramlocā, the centuries that passed “like one evening”, his shame and return to tapas, and their daughter Māriṣā, mother of Dakṣa (Viṣṇu Purāṇa 1; Bhāgavata 4).
 - [ ] Jaḍabharata (jadabharata) — King Bharata, son of Ṛṣabha, who gave up a kingdom and was reborn as a deer for loving a fawn, then as the “dull” brāhmaṇa who would not speak, carried King Rahūgaṇa's palanquin and taught him (Bhāgavata 5; Viṣṇu Purāṇa 2).
 - [ ] Śvetaketu (shvetaketu) — Āruṇi's proud son who came home “full of himself”, learnt “That thou art”, was humbled before King Pravāhaṇa, and in the Mahābhārata laid down the rule of marriage (Chāndogya and Bṛhadāraṇyaka Upaniṣads; MBh Ādi).
 - [ ] Nāciketas (naciketas) — the boy given to Death by his angry father, three nights at Yama's door, three boons and the secret of the Self (Taittirīya Brāhmaṇa; Kaṭha Upaniṣad; MBh Anuśāsana).
 - [ ] Ekata, Dvita and Trita (trita) — the three Āptya brothers, Trita left in the well by his brothers, his soma-sacrifice from the pit, and Trita in the Ṛgveda (Ṛgveda 1.105; MBh Śalya).
+- [ ] Satyakāma Jābāla (satyakama) — the boy who told the truth about not knowing his father, Gautama Hāridrumata's acceptance, four hundred cows that became a thousand, lessons from the bull, fire, swan and diver-bird, and his own pupil Upakosala (Chāndogya Upaniṣad 4; Bṛhadāraṇyaka 4).
+- [ ] Kauśika and the Dharmavyādha (kaushika) — the angry ascetic who burnt a crane with a glance, the housewife who made him wait, and the meat-seller of Mithilā who taught him dharma (MBh Vana, Pativratā and Vyādha-gītā sections).
+- [ ] Ṛṣabha (rishabha) — Nābhi's son, the king who ruled well, taught his hundred sons, then left the throne to wander as a silent avadhūta, father of Bharata (Bhāgavata 5; Viṣṇu Purāṇa 2).
+- [ ] Gṛtsamada (gritsamada) — seer of the second maṇḍala of the Ṛgveda, the “sa janāsa indraḥ” hymn, born in Aṅgiras' line and adopted among the Bhṛgus, and his stories in the Mahābhārata (Ṛgveda 2; Bṛhaddevatā; MBh Anuśāsana).
+- [ ] Śaunaka (shaunaka) — kulapati of the twelve-year sacrifice in the Naimiṣa forest, the questioner of the Mahābhārata and Bhāgavata, and the Ṛgveda teacher of the Anukramaṇīs (MBh Ādi; Bhāgavata 1; Bṛhaddevatā).
 
 Add more when fewer than five remain: e.g. Pulastya, Kaṇva, Uttaṅka, Dhaumya, Lomaśa, Māṇḍavya,
 Śuka, Jaimini, Vālakhilyas, the four Kumāras, Upamanyu, Āruṇi, Sāndīpani, Garga, Śāṇḍilya, Cyavana.
@@ -107,3 +111,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Śamīka and Śṛṅgī (shamika) — 9 chapters — 2026-11-24
 - [x] Mataṅga (matanga) — 9 chapters — 2026-11-25
 - [x] Jaratkāru (jaratkaru) — 10 chapters — 2026-11-26
+- [x] Kaṇḍu (kandu) — 10 chapters — 2026-11-27
