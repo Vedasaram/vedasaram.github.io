@@ -42,7 +42,6 @@ The Great Sages tile (`sages.js`, one file per sage in `sages/`). A daily schedu
 
 ## Next
 
-- [ ] Jaḍabharata (jadabharata) — King Bharata, son of Ṛṣabha, who gave up a kingdom and was reborn as a deer for loving a fawn, then as the “dull” brāhmaṇa who would not speak, carried King Rahūgaṇa's palanquin and taught him (Bhāgavata 5; Viṣṇu Purāṇa 2).
 - [ ] Śvetaketu (shvetaketu) — Āruṇi's proud son who came home “full of himself”, learnt “That thou art”, was humbled before King Pravāhaṇa, and in the Mahābhārata laid down the rule of marriage (Chāndogya and Bṛhadāraṇyaka Upaniṣads; MBh Ādi).
 - [ ] Nāciketas (naciketas) — the boy given to Death by his angry father, three nights at Yama's door, three boons and the secret of the Self (Taittirīya Brāhmaṇa; Kaṭha Upaniṣad; MBh Anuśāsana).
 - [ ] Ekata, Dvita and Trita (trita) — the three Āptya brothers, Trita left in the well by his brothers, his soma-sacrifice from the pit, and Trita in the Ṛgveda (Ṛgveda 1.105; MBh Śalya).
@@ -112,3 +111,4 @@ icon, gradient) — add it at the end of the list.
 - [x] Mataṅga (matanga) — 9 chapters — 2026-11-25
 - [x] Jaratkāru (jaratkaru) — 10 chapters — 2026-11-26
 - [x] Kaṇḍu (kandu) — 10 chapters — 2026-11-27
+- [x] Jaḍabharata (jadabharata) — 12 chapters — 2026-11-28

@@ -63,6 +63,7 @@
     ['matanga', 'Mataṅga', 'మతంగుడు', 'Whose curse kept Vālin away; Śabarī’s guru', 'వాలిని దూరంగా ఉంచిన శాపం, శబరి గురువు', '🌸', 'linear-gradient(160deg,#2a1a2a,#b0607a)'],
     ['jaratkaru', 'Jaratkāru', 'జరత్కారుడు', 'Who married to save his ancestors; father of Āstīka', 'పితరుల కోసం పెళ్ళాడిన ముని, ఆస్తీకుని తండ్రి', '🌿', 'linear-gradient(160deg,#0e2a1a,#5a8a4a)'],
     ['kandu', 'Kaṇḍu', 'కండు మహర్షి', 'Whose one evening lasted nine hundred years', 'ఒక్క సాయంత్రం తొమ్మిది వందల ఏళ్ళయిన ముని', '🌅', 'linear-gradient(160deg,#2a0a1a,#c0607a)'],
+    ['jadabharata', 'Jaḍabharata', 'జడభరతుడు', 'King, deer, then the silent sage who carried a palanquin', 'రాజు, లేడి, పల్లకీ మోసిన మౌనజ్ఞాని — మూడు జన్మలు', '🦌', 'linear-gradient(160deg,#142a0a,#8aa04a)'],
   ];
   const SMETA = k => SAGES.find(x => x[0] === k) || SAGES[0];
   window.SAGE_META = SMETA;   // used by bookmarks.js
