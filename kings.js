@@ -45,6 +45,7 @@
     ['pushyamitra', 'Puṣyamitra', 'పుష్యమిత్రుడు', 'Śuṅga · the general who ended the Mauryas', 'శుంగ · మౌర్యులను అంతం చేసిన సేనాపతి', '🔥', 'linear-gradient(160deg,#1a0a06,#b0602a)'],
     ['yashodharman', 'Yaśodharman', 'యశోధర్ముడు', 'Daśapura · the king who humbled Mihirakula', 'దశపురం · మిహిరకులుణ్ణి లొంగదీసిన రాజు', '🏛️', 'linear-gradient(160deg,#1a0a1a,#a0703a)'],
     ['dharmapala', 'Dharmapāla', 'ధర్మపాలుడు', 'Pāla of Bengal · Kanauj and Vikramaśīla', 'బెంగాల్ పాల రాజు · కనౌజ్, విక్రమశిల', '☸️', 'linear-gradient(160deg,#0a1a2a,#b0803a)'],
+    ['mahadji', 'Mahādajī', 'మహాదజీ శిందే', 'Śinde of Gwalior · Pānipat, Salbai and Delhi', 'గ్వాలియర్ శిందే · పానిపట్, సాల్బాయి, ఢిల్లీ', '🛡️', 'linear-gradient(160deg,#1a0a2a,#c0702a)'],
   ];
   const SMETA = k => KINGS.find(x => x[0] === k) || KINGS[0];
   window.KING_META = SMETA;   // used by bookmarks.js
