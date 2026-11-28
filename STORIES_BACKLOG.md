@@ -155,11 +155,11 @@ original wording (never copied from any book, comic or website). Fill in `chars`
 - [x] Maya Builds the Magic Hall (Mahābhārata) — maya-builds-the-magic-hall
 - [x] Rāvaṇa Meets King Kārtavīrya Arjuna (Rāmāyaṇa) — ravana-meets-kartavirya-arjuna
 - [x] Subhadrā and Arjuna (Mahābhārata) — subhadra-and-arjuna
+- [x] Śatrughna and the Demon Lavaṇa (Rāmāyaṇa) — shatrughna-and-the-demon-lavana
+- [x] Aśvatthāmā and the Cup of Rice-Milk (Mahābhārata) — ashvatthama-and-the-cup-of-rice-milk
+- [x] Lava and Kuśa Catch the Royal Horse (Rāmāyaṇa) — lava-and-kusha-catch-the-royal-horse
 
 ## Next
-- [ ] Śatrughna and the Demon Lavaṇa (Rāmāyaṇa) — Śatrughna, Lavaṇa
-- [ ] Aśvatthāmā and the Cup of Rice-Milk (Mahābhārata) — Aśvatthāmā, Droṇa, Kṛpī
-- [ ] Lava and Kuśa Catch the Royal Horse (Rāmāyaṇa tradition) — Lava, Kuśa, Śatrughna
 - [ ] Nahuṣa the Serpent Questions Yudhiṣṭhira (Mahābhārata) — Nahuṣa, Yudhiṣṭhira, Bhīma
 - [ ] Bharata's Bad Dream (Rāmāyaṇa) — Bharata, Śatrughna
 - [ ] King Śibi and the Dove (Mahābhārata) — Śibi, Agni, Indra
