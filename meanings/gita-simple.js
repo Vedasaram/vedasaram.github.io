@@ -2093,6 +2093,283 @@ window.SIMPLE = Object.assign(window.SIMPLE || {}, {
   hi: "अंत में श्रीकृष्ण कहते हैं: हर विवरण की चिंता क्यों? यह पूरा विशाल ब्रह्मांड मेरे एक छोटे-से अंश से टिका है। अगर पूरा ब्रह्मांड भगवान का केवल एक अंश है, तो सोचो वे कितने महान हैं — और उनके हाथों में हम कितने सुरक्षित हैं।"
 },
 
+// ── Chapter 11 · Viśvarūpa Darśana Yoga ──
+"gita_ch11_v1": {
+  en: "Arjuna starts by saying thank you. Kṛṣṇa's teaching has cleared the fog in his mind. When someone patiently helps us understand something that was troubling us, the first right response is gratitude.",
+  te: "అర్జునుడు ముందుగా కృతజ్ఞత చెబుతున్నాడు. శ్రీకృష్ణుని బోధ అతని మనసులోని పొగమంచును తొలగించింది. మనల్ని బాధపెడుతున్న విషయాన్ని ఎవరైనా ఓపికగా అర్థం చేయిస్తే, మొదట చేయాల్సింది కృతజ్ఞత చెప్పడమే.",
+  hi: "अर्जुन सबसे पहले धन्यवाद कहते हैं। श्रीकृष्ण की शिक्षा ने उनके मन का कोहरा हटा दिया है। जब कोई धैर्य से हमें कोई उलझी बात समझा दे, तो सबसे पहला सही उत्तर कृतज्ञता है।"
+},
+"gita_ch11_v2": {
+  en: "Arjuna has listened carefully — how everything begins and ends, and how great Kṛṣṇa is. He is like a student who has read all about the ocean and now really understands it on paper.",
+  te: "అర్జునుడు శ్రద్ధగా విన్నాడు — అన్నీ ఎలా మొదలవుతాయో, ఎలా ముగుస్తాయో, శ్రీకృష్ణుడు ఎంత గొప్పవాడో. సముద్రం గురించి పుస్తకాల్లో అంతా చదివి, కాగితం మీద బాగా అర్థం చేసుకున్న విద్యార్థిలా ఉన్నాడు.",
+  hi: "अर्जुन ने ध्यान से सुना है — सब कुछ कैसे शुरू और खत्म होता है, और श्रीकृष्ण कितने महान हैं। वे उस विद्यार्थी जैसे हैं जिसने समुद्र के बारे में सब पढ़ लिया है और कागज़ पर अच्छी तरह समझ लिया है।"
+},
+"gita_ch11_v3": {
+  en: "Arjuna believes every word, but now he wants to see it for himself. It's a very human wish: hearing about the ocean is one thing, standing in front of it is another.",
+  te: "అర్జునుడు ప్రతి మాటనూ నమ్ముతున్నాడు, కానీ ఇప్పుడు స్వయంగా చూడాలనుకుంటున్నాడు. ఇది చాలా సహజమైన కోరిక: సముద్రం గురించి వినడం ఒకటి, దాని ఎదుట నిలబడటం మరొకటి.",
+  hi: "अर्जुन हर बात पर विश्वास करते हैं, पर अब स्वयं देखना चाहते हैं। यह बहुत स्वाभाविक इच्छा है: समुद्र के बारे में सुनना एक बात है, उसके सामने खड़े होना दूसरी।"
+},
+"gita_ch11_v4": {
+  en: "Notice how humbly Arjuna asks: ‘only if You think I can handle it’. He doesn't demand; he leaves it to Kṛṣṇa. That's a good way to ask for anything big — from God, a teacher or a parent.",
+  te: "అర్జునుడు ఎంత వినయంగా అడుగుతున్నాడో చూడండి: ‘నేను తట్టుకోగలనని నువ్వు అనుకుంటేనే’. అతను పట్టుబట్టడం లేదు; నిర్ణయం శ్రీకృష్ణునికే వదిలేశాడు. దేవుణ్ణి గానీ, గురువును గానీ, తల్లిదండ్రులను గానీ ఏదైనా పెద్దది అడగడానికి ఇదే మంచి పద్ధతి.",
+  hi: "देखिए अर्जुन कितनी विनम्रता से माँगते हैं: ‘अगर आपको लगे कि मैं इसे सह सकता हूँ, तभी’। वे ज़िद नहीं करते; निर्णय श्रीकृष्ण पर छोड़ देते हैं। भगवान, गुरु या माता-पिता से कुछ बड़ा माँगने का यही अच्छा तरीका है।"
+},
+"gita_ch11_v5": {
+  en: "Kṛṣṇa happily agrees and says, ‘Look!’ God is not one shape or one colour — He shows up in hundreds and thousands of forms. The variety we see all around us is part of His one big picture.",
+  te: "శ్రీకృష్ణుడు సంతోషంగా ఒప్పుకుని ‘చూడు!’ అంటున్నాడు. దేవుడు ఒకే ఆకారం, ఒకే రంగు కాదు — వందల, వేల రూపాల్లో కనిపిస్తాడు. మన చుట్టూ కనిపించే ఈ వైవిధ్యమంతా ఆయన ఒక్క పెద్ద చిత్రంలో భాగమే.",
+  hi: "श्रीकृष्ण खुशी से मान जाते हैं और कहते हैं, ‘देखो!’ भगवान एक आकार या एक रंग नहीं हैं — वे सैकड़ों-हजारों रूपों में प्रकट होते हैं। हमारे चारों ओर दिखने वाली विविधता उनकी एक बड़ी तस्वीर का ही हिस्सा है।"
+},
+"gita_ch11_v6": {
+  en: "All the gods people pray to — the sun gods, the storm gods, the healers — Kṛṣṇa says, ‘see them all in Me’. Plus wonders no one has ever seen. Every kind of divine power has one source.",
+  te: "ప్రజలు పూజించే దేవతలందరూ — సూర్యదేవతలు, వాయుదేవతలు, వైద్యదేవతలు — ‘అందరినీ నాలోనే చూడు’ అంటున్నాడు శ్రీకృష్ణుడు. ఇంకా ఎవరూ ఎన్నడూ చూడని అద్భుతాలు కూడా. ప్రతి దైవశక్తికీ మూలం ఒక్కటే.",
+  hi: "लोग जिन देवताओं की पूजा करते हैं — सूर्य देव, पवन देव, वैद्य देव — श्रीकृष्ण कहते हैं, ‘सबको मुझमें देखो’। साथ में ऐसे आश्चर्य भी जो किसी ने कभी नहीं देखे। हर दैवी शक्ति का स्रोत एक ही है।"
+},
+"gita_ch11_v7": {
+  en: "Imagine seeing the entire universe — every person, animal, plant, star — all in one place, inside one body. That's what Kṛṣṇa offers. Everything that exists is held together in God.",
+  te: "విశ్వమంతా — ప్రతి మనిషి, జంతువు, మొక్క, నక్షత్రం — ఒకేచోట, ఒకే శరీరంలో కనిపిస్తే ఎలా ఉంటుందో ఊహించండి. శ్రీకృష్ణుడు ఇస్తున్నది అదే. ఉన్నదంతా దేవునిలోనే కలిసి నిలిచి ఉంది.",
+  hi: "सोचिए, पूरा ब्रह्मांड — हर इंसान, जानवर, पेड़, तारा — एक ही जगह, एक ही शरीर में दिखे। श्रीकृष्ण यही दिखाने वाले हैं। जो कुछ भी है, सब भगवान में एक साथ टिका है।"
+},
+"gita_ch11_v8": {
+  en: "Our ordinary eyes are made for ordinary things. To see God's full glory, you need a different kind of sight, and that sight is His gift. Real spiritual vision comes by grace, not just effort.",
+  te: "మన మామూలు కళ్ళు మామూలు విషయాలు చూడటానికే. దేవుని పూర్తి మహిమను చూడాలంటే వేరే రకం దృష్టి కావాలి, ఆ దృష్టి ఆయన ఇచ్చే వరం. నిజమైన ఆధ్యాత్మిక దృష్టి కేవలం ప్రయత్నం వల్ల కాదు, ఆయన కృప వల్ల వస్తుంది.",
+  hi: "हमारी साधारण आँखें साधारण चीज़ें देखने के लिए बनी हैं। भगवान की पूरी महिमा देखने के लिए अलग तरह की दृष्टि चाहिए, और वह दृष्टि उनका उपहार है। सच्ची आध्यात्मिक दृष्टि केवल प्रयास से नहीं, कृपा से मिलती है।"
+},
+"gita_ch11_v9": {
+  en: "Sañjaya, telling the story to the blind king, now describes the big moment: Kṛṣṇa reveals His cosmic form to Arjuna. Remember, Sañjaya himself is seeing this through a special gift of sight too.",
+  te: "గుడ్డి రాజుకు కథ చెబుతున్న సంజయుడు ఇప్పుడు ఆ గొప్ప క్షణాన్ని వర్ణిస్తున్నాడు: శ్రీకృష్ణుడు అర్జునునికి తన విశ్వరూపాన్ని చూపించాడు. సంజయుడు కూడా ఒక ప్రత్యేక దృష్టి వరంతోనే ఇదంతా చూస్తున్నాడని గుర్తుంచుకోండి.",
+  hi: "अंधे राजा को कथा सुना रहे संजय अब उस बड़े क्षण का वर्णन करते हैं: श्रीकृष्ण अर्जुन को अपना विराट रूप दिखाते हैं। याद रखिए, संजय स्वयं भी एक विशेष दृष्टि के वरदान से यह सब देख रहे हैं।"
+},
+"gita_ch11_v10": {
+  en: "Words start to fail here — countless faces, countless eyes, countless jewels and weapons. It's like trying to describe a whole galaxy in one sentence. The point is: God is beyond counting.",
+  te: "ఇక్కడ మాటలు చాలడం లేదు — లెక్కలేనన్ని ముఖాలు, కళ్ళు, ఆభరణాలు, ఆయుధాలు. ఒక పాలపుంత మొత్తాన్ని ఒక్క వాక్యంలో చెప్పాలని ప్రయత్నించినట్లుంది. అసలు విషయం ఇదే: దేవుడు లెక్కలకు అందడు.",
+  hi: "यहाँ शब्द कम पड़ने लगते हैं — अनगिनत मुख, अनगिनत आँखें, अनगिनत आभूषण और शस्त्र। जैसे पूरी आकाशगंगा को एक वाक्य में बताने की कोशिश हो। बात यही है: भगवान गिनती से परे हैं।"
+},
+"gita_ch11_v11": {
+  en: "The form is not only powerful but also beautiful — garlands, fine clothes, sweet fragrance. And it faces every direction at once. Wherever you are, God is facing you.",
+  te: "ఆ రూపం శక్తిమంతమైనదే కాదు, అందమైనది కూడా — పూలమాలలు, దివ్య వస్త్రాలు, సుగంధాలు. అది ఒకేసారి అన్ని దిక్కులకూ ముఖం చూపిస్తుంది. నువ్వు ఎక్కడ ఉన్నా, దేవుడు నీ వైపే చూస్తున్నాడు.",
+  hi: "वह रूप केवल शक्तिशाली ही नहीं, सुंदर भी है — मालाएँ, दिव्य वस्त्र, मीठी सुगंध। और वह एक साथ हर दिशा की ओर मुख किए है। तुम जहाँ भी हो, भगवान तुम्हारी ओर ही देख रहे हैं।"
+},
+"gita_ch11_v12": {
+  en: "Imagine a thousand suns rising together in the sky — even that might only come close to this brightness. It's one of the most famous lines of the Gītā, a picture of how dazzling the Divine truly is.",
+  te: "ఆకాశంలో వెయ్యి సూర్యులు ఒకేసారి ఉదయించినట్లు ఊహించండి — అది కూడా ఈ వెలుగుకు దగ్గరగా మాత్రమే వస్తుందేమో. గీతలో ఇది చాలా ప్రసిద్ధమైన శ్లోకం; దైవం ఎంత దేదీప్యమానమో చూపించే చిత్రం.",
+  hi: "सोचिए, आकाश में हजार सूर्य एक साथ उग आएँ — शायद वह भी इस प्रकाश के आसपास ही पहुँचे। यह गीता की सबसे प्रसिद्ध पंक्तियों में से एक है, जो बताती है कि दिव्यता कितनी चकाचौंध करने वाली है।"
+},
+"gita_ch11_v13": {
+  en: "Arjuna sees every part of the universe — all its worlds and all its divisions — inside Kṛṣṇa. What looks separate and scattered to us is, from God's view, one whole.",
+  te: "అర్జునుడు విశ్వంలోని ప్రతి భాగాన్నీ — అన్ని లోకాలనూ, అన్ని విభాగాలనూ — శ్రీకృష్ణునిలోనే చూశాడు. మనకు వేరువేరుగా, చెల్లాచెదురుగా కనిపించేదంతా దేవుని దృష్టిలో ఒక్కటే.",
+  hi: "अर्जुन ब्रह्मांड का हर हिस्सा — सब लोक, सब विभाग — श्रीकृष्ण के भीतर देखते हैं। जो हमें अलग-अलग और बिखरा दिखता है, वह भगवान की दृष्टि में एक ही पूरा है।"
+},
+"gita_ch11_v14": {
+  en: "Arjuna's reaction is goosebumps, wonder, and a bowed head with folded hands. When we truly feel how great God is, the natural response is humility and reverence.",
+  te: "అర్జునుని స్పందన — ఒళ్ళు పులకరించడం, ఆశ్చర్యం, తల వంచి చేతులు జోడించడం. దేవుడు ఎంత గొప్పవాడో నిజంగా అనుభవించినప్పుడు సహజంగా వచ్చేది వినయం, భక్తి.",
+  hi: "अर्जुन की प्रतिक्रिया है — रोमांच, आश्चर्य, और झुका सिर व जुड़े हाथ। जब हम सच में महसूस करते हैं कि भगवान कितने महान हैं, तो स्वाभाविक उत्तर विनम्रता और श्रद्धा होती है।"
+},
+"gita_ch11_v15": {
+  en: "Arjuna starts describing what he sees: all the gods, Brahmā the creator, Śiva, the sages, even serpents — everyone inside Kṛṣṇa. No god is a rival to another; they all live in the one Supreme.",
+  te: "అర్జునుడు తాను చూసింది వర్ణిస్తున్నాడు: దేవతలందరూ, సృష్టికర్త బ్రహ్మ, శివుడు, ఋషులు, సర్పాలు కూడా — అందరూ శ్రీకృష్ణునిలోనే. ఏ దేవుడూ మరో దేవునికి పోటీ కాదు; అందరూ ఆ ఒక్క పరమాత్మలోనే ఉన్నారు.",
+  hi: "अर्जुन जो देख रहे हैं उसका वर्णन करते हैं: सब देवता, सृष्टिकर्ता ब्रह्मा, शिव, ऋषि, यहाँ तक कि नाग भी — सब श्रीकृष्ण के भीतर। कोई देवता दूसरे का प्रतिद्वंद्वी नहीं; सब उसी एक परमात्मा में हैं।"
+},
+"gita_ch11_v16": {
+  en: "Arjuna looks for the edges and can't find any — no start, no middle, no end. Everything we know has a beginning and an end, but God doesn't. That's what ‘infinite’ really means.",
+  te: "అర్జునుడు అంచులు వెతుకుతున్నాడు కానీ ఏమీ కనిపించడం లేదు — మొదలు లేదు, మధ్య లేదు, చివర లేదు. మనకు తెలిసిన ప్రతిదానికీ మొదలు, ముగింపు ఉంటాయి; దేవునికి లేవు. ‘అనంతం’ అంటే అసలు అర్థం అదే.",
+  hi: "अर्जुन किनारे ढूँढते हैं और कोई नहीं मिलता — न शुरुआत, न बीच, न अंत। हम जो कुछ जानते हैं उसकी शुरुआत और अंत होता है, पर भगवान का नहीं। ‘अनंत’ का असली अर्थ यही है।"
+},
+"gita_ch11_v17": {
+  en: "Arjuna can still recognise the crown, mace and discus he knows — but they're surrounded by blinding light. It's like recognising a loved one's face inside the brightness of the sun.",
+  te: "తనకు తెలిసిన కిరీటం, గద, చక్రాన్ని అర్జునుడు ఇంకా గుర్తుపడుతున్నాడు — కానీ వాటి చుట్టూ కళ్ళు మిరుమిట్లు గొలిపే వెలుగు. సూర్యకాంతిలో ఒక ప్రియమైనవారి ముఖాన్ని గుర్తుపట్టినట్లుంది.",
+  hi: "अर्जुन अब भी अपने परिचित मुकुट, गदा और चक्र को पहचानते हैं — पर उनके चारों ओर आँखें चौंधियाने वाला प्रकाश है। जैसे सूरज की चमक के बीच किसी अपने का चेहरा पहचान लेना।"
+},
+"gita_ch11_v18": {
+  en: "Seeing this, Arjuna's belief becomes certainty: You are the eternal truth, the foundation of everything, the protector of what is right. Experience turns faith into conviction.",
+  te: "ఇది చూశాక అర్జునుని నమ్మకం నిశ్చయంగా మారింది: నువ్వే శాశ్వత సత్యం, అన్నిటికీ ఆధారం, ధర్మాన్ని కాపాడేవాడివి. అనుభవం నమ్మకాన్ని దృఢ విశ్వాసంగా మారుస్తుంది.",
+  hi: "यह देखकर अर्जुन का विश्वास निश्चय बन जाता है: आप ही शाश्वत सत्य हैं, सबका आधार हैं, धर्म के रक्षक हैं। अनुभव श्रद्धा को दृढ़ निश्चय में बदल देता है।"
+},
+"gita_ch11_v19": {
+  en: "The sun and moon are God's eyes; fire is His mouth. Nature itself is part of His body. The warmth and energy of the whole world come from His radiance.",
+  te: "సూర్యచంద్రులే దేవుని కళ్ళు; అగ్నియే ఆయన ముఖం. ప్రకృతి అంతా ఆయన శరీరంలో భాగమే. ప్రపంచమంతటి వేడి, శక్తి ఆయన తేజస్సు నుండే వస్తాయి.",
+  hi: "सूर्य और चंद्रमा भगवान की आँखें हैं; अग्नि उनका मुख है। प्रकृति स्वयं उनके शरीर का हिस्सा है। सारे संसार की गर्मी और ऊर्जा उनके तेज से ही आती है।"
+},
+"gita_ch11_v20": {
+  en: "Now the vision turns from wonderful to frightening. The form fills earth, sky and every direction, and the whole world trembles. God is not only gentle and sweet — He is also overwhelming power.",
+  te: "ఇప్పుడు దర్శనం అద్భుతం నుండి భయంకరంగా మారుతోంది. ఆ రూపం భూమిని, ఆకాశాన్ని, అన్ని దిక్కులనూ నింపేసింది; లోకమంతా వణుకుతోంది. దేవుడు సౌమ్యుడు, మధురుడు మాత్రమే కాదు — అపారమైన శక్తి కూడా.",
+  hi: "अब दर्शन अद्भुत से डरावना होने लगता है। वह रूप धरती, आकाश और हर दिशा को भर देता है, और सारा संसार काँपता है। भगवान केवल कोमल और मधुर ही नहीं — वे अपार शक्ति भी हैं।"
+},
+"gita_ch11_v21": {
+  en: "Even the gods react in different ways: some merge into Him, some pray in fear, and the great sages sing ‘may all be well’. When facing something huge, the wise respond with prayer and good wishes for all.",
+  te: "దేవతలు కూడా రకరకాలుగా స్పందిస్తున్నారు: కొందరు ఆయనలో కలిసిపోతున్నారు, కొందరు భయంతో ప్రార్థిస్తున్నారు, మహర్షులు ‘అందరికీ మంచి జరగాలి’ అని స్తుతిస్తున్నారు. పెద్ద విషయం ఎదురైనప్పుడు జ్ఞానులు ప్రార్థనతో, అందరి క్షేమం కోరుతూ స్పందిస్తారు.",
+  hi: "देवता भी अलग-अलग तरह से प्रतिक्रिया करते हैं: कुछ उनमें समा जाते हैं, कुछ डरकर प्रार्थना करते हैं, और महर्षि ‘सबका कल्याण हो’ गाते हैं। किसी विशाल चीज़ के सामने ज्ञानी प्रार्थना और सबकी भलाई की कामना से उत्तर देते हैं।"
+},
+"gita_ch11_v22": {
+  en: "Every kind of heavenly being — gods, spirits, celestial musicians, even demons — is staring in amazement. If they are stunned, imagine how a human like Arjuna feels.",
+  te: "ప్రతి రకమైన దివ్య జీవులూ — దేవతలు, పితృదేవతలు, గంధర్వులు, అసురులు కూడా — ఆశ్చర్యంగా చూస్తున్నారు. వాళ్ళే నివ్వెరపోతే, మనిషి అయిన అర్జునుడు ఎలా ఉంటాడో ఊహించండి.",
+  hi: "हर प्रकार के दिव्य प्राणी — देवता, पितर, गंधर्व, असुर भी — विस्मय से देख रहे हैं। जब वे ही चकित हैं, तो सोचिए अर्जुन जैसे मनुष्य को कैसा लग रहा होगा।"
+},
+"gita_ch11_v23": {
+  en: "Arjuna honestly admits: ‘I'm scared too.’ Faith doesn't mean pretending to be fearless. Even the bravest warrior can tremble before God — and say so openly.",
+  te: "అర్జునుడు నిజాయితీగా ఒప్పుకుంటున్నాడు: ‘నాకూ భయంగా ఉంది.’ భక్తి అంటే భయం లేనట్లు నటించడం కాదు. గొప్ప వీరుడు కూడా దేవుని ముందు వణకవచ్చు — దాన్ని బహిరంగంగా చెప్పవచ్చు.",
+  hi: "अर्जुन ईमानदारी से मानते हैं: ‘मैं भी डरा हुआ हूँ।’ श्रद्धा का अर्थ निडर होने का दिखावा नहीं है। सबसे बहादुर योद्धा भी भगवान के सामने काँप सकता है — और खुलकर कह सकता है।"
+},
+"gita_ch11_v24": {
+  en: "This mighty archer, who never feared any enemy, now says, ‘I have no courage left, no peace.’ Facing the full reality of God can shake even the strongest person — and that's okay.",
+  te: "ఏ శత్రువుకూ భయపడని ఈ మహా విలుకాడు ఇప్పుడు ‘నాకు ధైర్యం లేదు, శాంతి లేదు’ అంటున్నాడు. దేవుని పూర్తి సత్యం ఎదురైతే అత్యంత బలవంతుడు కూడా కదిలిపోవచ్చు — అది తప్పు కాదు.",
+  hi: "यह महान धनुर्धर, जो किसी शत्रु से नहीं डरा, अब कहता है, ‘मुझमें न साहस बचा है, न शांति।’ भगवान की पूरी सच्चाई का सामना सबसे मज़बूत इंसान को भी हिला सकता है — और यह ठीक है।"
+},
+"gita_ch11_v25": {
+  en: "Arjuna is so overwhelmed he doesn't know which way is which. His only move is to cry out, ‘Have mercy!’ When we are completely lost, simply calling out to God is itself a prayer.",
+  te: "అర్జునుడు ఎంతగా కలవరపడ్డాడంటే ఏ దిక్కు ఏదో తెలియడం లేదు. అతను చేయగలిగింది ఒక్కటే — ‘దయ చూపించు!’ అని మొరపెట్టడం. మనం పూర్తిగా దారి తప్పినప్పుడు, దేవుణ్ణి పిలవడమే ఒక ప్రార్థన.",
+  hi: "अर्जुन इतने अभिभूत हैं कि दिशाएँ भी नहीं सूझतीं। उनके पास एक ही रास्ता है — पुकारना, ‘दया कीजिए!’ जब हम पूरी तरह खो जाएँ, तो भगवान को पुकारना ही अपने आप में प्रार्थना है।"
+},
+"gita_ch11_v26": {
+  en: "Now Arjuna sees the very people he is about to fight — the Kauravas, Bhīṣma, Droṇa, Karṇa — and some of his own side too. The vision is showing him what is about to happen on this battlefield.",
+  te: "ఇప్పుడు అర్జునుడు తాను యుద్ధం చేయబోయే వారినే చూస్తున్నాడు — కౌరవులు, భీష్ముడు, ద్రోణుడు, కర్ణుడు — తన పక్షం వారిలో కొందరిని కూడా. ఈ యుద్ధభూమిలో ఏం జరగబోతోందో ఆ దర్శనం అతనికి చూపిస్తోంది.",
+  hi: "अब अर्जुन उन्हीं लोगों को देखते हैं जिनसे वे लड़ने वाले हैं — कौरव, भीष्म, द्रोण, कर्ण — और अपने पक्ष के भी कुछ लोग। यह दर्शन उन्हें दिखा रहा है कि इस रणभूमि में क्या होने वाला है।"
+},
+"gita_ch11_v27": {
+  en: "It's a frightening picture: the warriors are rushing into God's mouths and being crushed. The message underneath is that every life, however great, is finally taken back by the Divine.",
+  te: "ఇది భయంకరమైన దృశ్యం: యోధులు దేవుని నోళ్ళలోకి పరుగెత్తి నలిగిపోతున్నారు. దాని వెనుక సందేశం ఏమిటంటే — ఎంత గొప్ప జీవితమైనా, చివరకు దైవమే దాన్ని తిరిగి తీసుకుంటుంది.",
+  hi: "यह डरावना दृश्य है: योद्धा भगवान के मुखों में दौड़कर कुचले जा रहे हैं। इसके पीछे संदेश यह है कि कोई भी जीवन, चाहे कितना भी महान हो, अंत में ईश्वर ही वापस ले लेते हैं।"
+},
+"gita_ch11_v28": {
+  en: "Rivers don't decide to go to the sea — they just flow there naturally. In the same way, every life flows toward its end in God. It isn't random; it's the way of nature.",
+  te: "నదులు సముద్రానికి వెళ్ళాలని నిర్ణయించుకోవు — సహజంగానే అక్కడికి ప్రవహిస్తాయి. అలాగే ప్రతి జీవితం దేవునిలో తన ముగింపు వైపు ప్రవహిస్తుంది. ఇది యాదృచ్ఛికం కాదు; ప్రకృతి నియమం.",
+  hi: "नदियाँ समुद्र में जाने का निर्णय नहीं करतीं — वे स्वाभाविक रूप से वहीं बहती हैं। वैसे ही हर जीवन भगवान में अपने अंत की ओर बहता है। यह संयोग नहीं; यह प्रकृति का नियम है।"
+},
+"gita_ch11_v29": {
+  en: "A second picture: moths flying into a flame. Unlike rivers, moths rush in because they're pulled by desire. Many people too race toward their own downfall, drawn by greed or anger, without seeing it coming.",
+  te: "రెండో చిత్రం: మంటలోకి ఎగిరే మిడతలు. నదుల్లా కాకుండా, మిడతలు ఆకర్షణకు లొంగి దూకుతాయి. చాలా మంది మనుషులు కూడా దురాశ, కోపాలకు లాగబడి, తెలియకుండానే తమ పతనం వైపు పరుగెత్తుతారు.",
+  hi: "दूसरा चित्र: लौ में उड़कर जाते पतंगे। नदियों के विपरीत, पतंगे आकर्षण में खिंचकर कूदते हैं। बहुत से लोग भी लालच या क्रोध में खिंचकर, बिना देखे, अपने ही पतन की ओर दौड़ते हैं।"
+},
+"gita_ch11_v30": {
+  en: "The image is intense on purpose. Time swallows everything — empires, armies, people. Seeing it this way helps us stop clinging so tightly to things that won't last.",
+  te: "ఈ చిత్రం కావాలనే తీవ్రంగా ఉంది. కాలం అన్నిటినీ మింగేస్తుంది — సామ్రాజ్యాలు, సైన్యాలు, మనుషులు. ఇలా చూడటం వల్ల నిలవని వాటిని అంత గట్టిగా పట్టుకోవడం మానేస్తాం.",
+  hi: "यह चित्र जानबूझकर तीव्र है। समय सब कुछ निगल लेता है — साम्राज्य, सेनाएँ, लोग। इस तरह देखने से हम उन चीज़ों से इतनी कसकर चिपकना छोड़ देते हैं जो टिकने वाली नहीं।"
+},
+"gita_ch11_v31": {
+  en: "Arjuna asks the most honest question: ‘Who are You, really? What are You doing?’ Even while bowing in fear, he wants to understand. It's fine to ask God questions — sincerely and humbly.",
+  te: "అర్జునుడు అత్యంత నిజాయితీగల ప్రశ్న అడుగుతున్నాడు: ‘అసలు నువ్వు ఎవరు? ఏం చేస్తున్నావు?’ భయంతో నమస్కరిస్తూనే అర్థం చేసుకోవాలనుకుంటున్నాడు. దేవుణ్ణి ప్రశ్నలు అడగడం తప్పు కాదు — మనస్ఫూర్తిగా, వినయంగా అడిగితే.",
+  hi: "अर्जुन सबसे ईमानदार प्रश्न पूछते हैं: ‘आप वास्तव में कौन हैं? क्या कर रहे हैं?’ डरकर प्रणाम करते हुए भी वे समझना चाहते हैं। भगवान से प्रश्न पूछना ठीक है — सच्चे मन और विनम्रता से।"
+},
+"gita_ch11_v32": {
+  en: "Kṛṣṇa's famous answer: ‘I am Time.’ Everything that's born will one day end; these warriors' time has come, with or without Arjuna. Our part is small; the big turning of the world is in God's hands.",
+  te: "శ్రీకృష్ణుని ప్రసిద్ధ జవాబు: ‘నేనే కాలాన్ని.’ పుట్టిన ప్రతిదీ ఒకరోజు ముగుస్తుంది; అర్జునుడు ఉన్నా లేకున్నా ఈ యోధుల సమయం వచ్చేసింది. మన పాత్ర చిన్నది; ప్రపంచ గమనం దేవుని చేతుల్లో ఉంది.",
+  hi: "श्रीकृष्ण का प्रसिद्ध उत्तर: ‘मैं काल हूँ।’ जो जन्मा है वह एक दिन समाप्त होगा; अर्जुन हों या न हों, इन योद्धाओं का समय आ चुका है। हमारी भूमिका छोटी है; संसार का बड़ा चक्र भगवान के हाथ में है।"
+},
+"gita_ch11_v33": {
+  en: "‘Be just the instrument.’ The result has already been decided; Arjuna only has to do his part. In daily life too, we do our duty sincerely and let go of the pride of being the one who makes everything happen.",
+  te: "‘నువ్వు కేవలం నిమిత్తమాత్రుడివిగా ఉండు.’ ఫలితం ముందే నిర్ణయమైపోయింది; అర్జునుడు తన వంతు మాత్రమే చేయాలి. రోజువారీ జీవితంలో కూడా మనం శ్రద్ధగా మన కర్తవ్యం చేసి, ‘అంతా నేనే చేస్తున్నాను’ అనే గర్వాన్ని వదిలేయాలి.",
+  hi: "‘केवल निमित्त बनो।’ परिणाम पहले ही तय हो चुका है; अर्जुन को बस अपना काम करना है। रोज़ के जीवन में भी हम सच्चे मन से अपना कर्तव्य करें और ‘सब मैं ही कर रहा हूँ’ का अहंकार छोड़ दें।"
+},
+"gita_ch11_v34": {
+  en: "Kṛṣṇa names the very warriors Arjuna feared most and says, ‘Don't worry, fight — you will win.’ When we stand on the side of dharma and do our duty, God gives us courage for even the hardest tasks.",
+  te: "అర్జునుడు ఎక్కువగా భయపడిన యోధుల పేర్లే చెప్పి శ్రీకృష్ణుడు ‘బాధపడకు, యుద్ధం చెయ్యి — నువ్వు గెలుస్తావు’ అంటున్నాడు. మనం ధర్మం వైపు నిలిచి కర్తవ్యం చేస్తే, అత్యంత కష్టమైన పనికి కూడా దేవుడు ధైర్యం ఇస్తాడు.",
+  hi: "श्रीकृष्ण उन्हीं योद्धाओं के नाम लेते हैं जिनसे अर्जुन सबसे ज़्यादा डरते थे और कहते हैं, ‘चिंता मत करो, लड़ो — तुम जीतोगे।’ जब हम धर्म के पक्ष में खड़े होकर कर्तव्य करते हैं, तो भगवान कठिन से कठिन काम के लिए भी साहस देते हैं।"
+},
+"gita_ch11_v35": {
+  en: "Arjuna is shaking, his voice is breaking, but he bows again and speaks. Even when we are overwhelmed, we can still turn toward God and pray, however shaky our words.",
+  te: "అర్జునుడు వణుకుతున్నాడు, గొంతు పూడుకుపోతోంది, అయినా మళ్ళీ నమస్కరించి మాట్లాడుతున్నాడు. మనం ఎంత కలవరపడినా, మాటలు ఎంత తడబడినా, దేవుని వైపు తిరిగి ప్రార్థించవచ్చు.",
+  hi: "अर्जुन काँप रहे हैं, उनकी आवाज़ रुँध रही है, फिर भी वे दोबारा प्रणाम करके बोलते हैं। हम कितने भी अभिभूत हों, शब्द कितने भी लड़खड़ाएँ, हम फिर भी भगवान की ओर मुड़कर प्रार्थना कर सकते हैं।"
+},
+"gita_ch11_v36": {
+  en: "Arjuna's fear turns into praise. Good people rejoice when they hear God's name, while the wicked run away. God's presence brings joy to the good and fear only to those doing wrong.",
+  te: "అర్జునుని భయం స్తుతిగా మారుతోంది. దేవుని నామం విని మంచివాళ్ళు ఆనందిస్తారు, దుష్టులు పారిపోతారు. దేవుని సాన్నిధ్యం మంచివారికి ఆనందాన్ని, తప్పు చేసేవారికి మాత్రమే భయాన్ని ఇస్తుంది.",
+  hi: "अर्जुन का डर स्तुति में बदल जाता है। भगवान का नाम सुनकर अच्छे लोग आनंदित होते हैं, जबकि दुष्ट भाग जाते हैं। भगवान की उपस्थिति अच्छों को आनंद और केवल गलत करने वालों को भय देती है।"
+},
+"gita_ch11_v37": {
+  en: "Arjuna says: of course everyone bows to You — You are greater even than the Creator. You are everything that exists, everything that doesn't, and what lies beyond both. Nothing is outside God.",
+  te: "అర్జునుడు అంటున్నాడు: అందరూ నీకు నమస్కరించడం సహజమే — నువ్వు సృష్టికర్త కంటే కూడా గొప్పవాడివి. ఉన్నదీ, లేనిదీ, వాటికి అతీతమైనదీ అంతా నువ్వే. దేవుని బయట ఏదీ లేదు.",
+  hi: "अर्जुन कहते हैं: बेशक सब आपको प्रणाम करते हैं — आप सृष्टिकर्ता से भी महान हैं। जो है, जो नहीं है, और जो दोनों से परे है — सब आप ही हैं। भगवान के बाहर कुछ भी नहीं।"
+},
+"gita_ch11_v38": {
+  en: "You are the first, the oldest, the home of everything. You are the one who knows and the one to be known. Whatever we search for in learning, in the end, leads to Him.",
+  te: "నువ్వే మొదటివాడివి, అతి పురాతనుడివి, అన్నిటికీ నిలయానివి. తెలుసుకునేవాడివీ నువ్వే, తెలుసుకోవలసినదీ నువ్వే. చదువులో మనం వెతికేదంతా చివరకు ఆయన దగ్గరకే దారి తీస్తుంది.",
+  hi: "आप ही पहले हैं, सबसे प्राचीन हैं, सबका घर हैं। जानने वाले भी आप हैं और जानने योग्य भी आप। ज्ञान में हम जो कुछ खोजते हैं, अंत में वह उन्हीं तक ले जाता है।"
+},
+"gita_ch11_v39": {
+  en: "Wind, death, fire, water, the moon, the creator — all are You. Arjuna is so full of feeling that he says ‘namaste’ a thousand times. When the heart overflows, one salutation is never enough.",
+  te: "గాలి, మృత్యువు, అగ్ని, నీరు, చంద్రుడు, సృష్టికర్త — అన్నీ నువ్వే. అర్జునుని హృదయం ఎంత నిండిపోయిందంటే వేల సార్లు ‘నమస్తే’ అంటున్నాడు. మనసు పొంగిపోయినప్పుడు ఒక్క నమస్కారం సరిపోదు.",
+  hi: "हवा, मृत्यु, अग्नि, जल, चंद्रमा, सृष्टिकर्ता — सब आप ही हैं। अर्जुन का हृदय इतना भर आया है कि वे हजार बार ‘नमस्ते’ कहते हैं। जब मन उमड़ पड़े, तो एक नमस्कार कभी काफ़ी नहीं होता।"
+},
+"gita_ch11_v40": {
+  en: "Bowing from the front, the back, every side — because God is on every side. Since He fills everything, wherever we turn, we are facing Him.",
+  te: "ముందు నుండి, వెనుక నుండి, అన్ని వైపుల నుండీ నమస్కారం — ఎందుకంటే దేవుడు అన్ని వైపులా ఉన్నాడు. ఆయన అన్నిటినీ నింపి ఉన్నాడు కాబట్టి, మనం ఎటు తిరిగినా ఆయన ఎదుటే ఉంటాం.",
+  hi: "आगे से, पीछे से, हर ओर से प्रणाम — क्योंकि भगवान हर ओर हैं। वे सब कुछ भरे हुए हैं, इसलिए हम जिधर भी मुड़ें, उन्हीं के सामने होते हैं।"
+},
+"gita_ch11_v41": {
+  en: "Now Arjuna feels embarrassed. For years he joked with Kṛṣṇa and called Him ‘buddy’, not realising who He was. It's a touching reminder: God often comes close to us as a friend, and we may not notice.",
+  te: "ఇప్పుడు అర్జునుడు సిగ్గుపడుతున్నాడు. ఏళ్ళ తరబడి శ్రీకృష్ణునితో సరదాగా మాట్లాడి, ‘స్నేహితుడా’ అని పిలిచాడు — ఆయన ఎవరో తెలియకుండా. హృదయాన్ని తాకే గుర్తు ఇది: దేవుడు తరచూ స్నేహితుడిలా మన దగ్గరకు వస్తాడు, మనం గమనించకపోవచ్చు.",
+  hi: "अब अर्जुन को संकोच होता है। वर्षों तक उन्होंने श्रीकृष्ण से मज़ाक किया और ‘दोस्त’ कहकर पुकारा, बिना जाने कि वे कौन हैं। यह दिल छू लेने वाली याद है: भगवान अक्सर मित्र बनकर हमारे पास आते हैं, और हम ध्यान नहीं देते।"
+},
+"gita_ch11_v42": {
+  en: "Arjuna remembers ordinary moments — teasing over meals, chatting while resting — and says sorry. Saying sorry for small slights, even to those closest to us, keeps a relationship pure.",
+  te: "భోజనం దగ్గర ఆటపట్టించడం, విశ్రాంతిలో కబుర్లు — ఇలాంటి మామూలు క్షణాలు గుర్తుచేసుకుని అర్జునుడు క్షమాపణ అడుగుతున్నాడు. అత్యంత దగ్గరివారితో కూడా చిన్న పొరపాట్లకు క్షమాపణ చెప్పడం బంధాన్ని నిర్మలంగా ఉంచుతుంది.",
+  hi: "अर्जुन साधारण पल याद करते हैं — खाने पर छेड़ना, आराम करते समय गपशप — और क्षमा माँगते हैं। अपने सबसे करीबी लोगों से भी छोटी गलतियों के लिए क्षमा माँगना रिश्ते को पवित्र रखता है।"
+},
+"gita_ch11_v43": {
+  en: "God is the father of the whole world and its greatest teacher. No one equals Him, let alone surpasses Him. Seeing Him as a loving parent helps us trust Him completely.",
+  te: "దేవుడు ప్రపంచమంతటికీ తండ్రి, గొప్ప గురువు. ఆయనకు సమానుడే లేడు, మించినవాడు అసలే లేడు. ఆయనను ప్రేమగల తల్లిదండ్రిలా చూస్తే ఆయనను పూర్తిగా నమ్మగలుగుతాం.",
+  hi: "भगवान पूरे संसार के पिता और सबसे बड़े गुरु हैं। उनके बराबर कोई नहीं, उनसे बढ़कर तो बिल्कुल नहीं। उन्हें प्रेमपूर्ण माता-पिता की तरह देखने से हम उन पर पूरा भरोसा कर पाते हैं।"
+},
+"gita_ch11_v44": {
+  en: "A beautiful prayer: forgive me the way a father forgives his son, a friend forgives a friend, a loved one forgives the person they love. God's forgiveness is personal and warm, not cold and formal.",
+  te: "అందమైన ప్రార్థన: తండ్రి కొడుకును, స్నేహితుడు స్నేహితుణ్ణి, ప్రేమించేవారు ప్రియమైనవారిని క్షమించినట్లు నన్ను క్షమించు. దేవుని క్షమ వ్యక్తిగతమైనది, ఆప్యాయమైనది — చల్లగా, లాంఛనంగా ఉండేది కాదు.",
+  hi: "एक सुंदर प्रार्थना: मुझे वैसे क्षमा कीजिए जैसे पिता पुत्र को, मित्र मित्र को, और प्रेमी अपने प्रिय को क्षमा करता है। भगवान की क्षमा व्यक्तिगत और स्नेह भरी है, ठंडी और औपचारिक नहीं।"
+},
+"gita_ch11_v45": {
+  en: "Arjuna is thrilled and terrified at the same time. So he asks for the familiar Kṛṣṇa back. We, too, can relate to God more easily in a gentle, loving form than in overwhelming cosmic power.",
+  te: "అర్జునుడు ఒకేసారి ఆనందంగానూ, భయంగానూ ఉన్నాడు. అందుకే తనకు తెలిసిన శ్రీకృష్ణుణ్ణే తిరిగి చూపించమంటున్నాడు. మనం కూడా దేవుణ్ణి భయపెట్టే విశ్వశక్తిగా కంటే సౌమ్యమైన, ప్రేమగల రూపంలోనే సులభంగా దగ్గర చేసుకోగలం.",
+  hi: "अर्जुन एक साथ रोमांचित भी हैं और डरे हुए भी। इसलिए वे अपने परिचित श्रीकृष्ण को वापस माँगते हैं। हम भी भगवान से विराट शक्ति की बजाय सौम्य, प्रेमपूर्ण रूप में आसानी से जुड़ पाते हैं।"
+},
+"gita_ch11_v46": {
+  en: "He asks for the four-armed form with crown, mace and discus — the form he can look at and love. This is why many people worship God in a form: love needs a face to look at.",
+  te: "కిరీటం, గద, చక్రం గల చతుర్భుజ రూపాన్ని అడుగుతున్నాడు — తాను చూడగలిగే, ప్రేమించగలిగే రూపం. చాలామంది దేవుణ్ణి ఒక రూపంలో పూజించేది అందుకే: ప్రేమకు చూడటానికి ఒక ముఖం కావాలి.",
+  hi: "वे मुकुट, गदा और चक्र वाले चतुर्भुज रूप को माँगते हैं — वह रूप जिसे वे देख और प्रेम कर सकें। इसीलिए बहुत लोग भगवान की किसी रूप में पूजा करते हैं: प्रेम को देखने के लिए एक चेहरा चाहिए।"
+},
+"gita_ch11_v47": {
+  en: "Kṛṣṇa gently explains: I showed you this because I am pleased with you, and no one else has seen it. It wasn't meant to scare Arjuna — it was a rare gift of love.",
+  te: "శ్రీకృష్ణుడు మృదువుగా వివరిస్తున్నాడు: నీపై సంతోషంతోనే ఇది చూపించాను, ఇంకెవరూ దీన్ని చూడలేదు. ఇది అర్జునుని భయపెట్టడానికి కాదు — అరుదైన ప్రేమ కానుక.",
+  hi: "श्रीकृष्ण धीरे से समझाते हैं: तुमसे प्रसन्न होकर ही मैंने यह दिखाया, और किसी ने इसे नहीं देखा। यह अर्जुन को डराने के लिए नहीं था — यह प्रेम का दुर्लभ उपहार था।"
+},
+"gita_ch11_v48": {
+  en: "Rituals, study, charity and hard penance are all good, but none of them can buy this vision. Some things can't be earned through effort alone — they come as a gift.",
+  te: "కర్మకాండలు, అధ్యయనం, దానం, కఠిన తపస్సు — అన్నీ మంచివే, కానీ వీటిలో ఏదీ ఈ దర్శనాన్ని కొనలేదు. కొన్ని విషయాలు కేవలం కష్టపడితే రావు — వరంగా వస్తాయి.",
+  hi: "कर्मकांड, अध्ययन, दान और कठोर तप — सब अच्छे हैं, पर इनमें से कोई इस दर्शन को खरीद नहीं सकता। कुछ चीज़ें केवल प्रयास से नहीं मिलतीं — वे वरदान बनकर आती हैं।"
+},
+"gita_ch11_v49": {
+  en: "‘Don't be afraid.’ Kṛṣṇa comforts Arjuna like a parent comforting a frightened child after a thunderstorm. God's power is never meant to crush those who love Him.",
+  te: "‘భయపడకు.’ ఉరుములకు భయపడిన పిల్లవాణ్ణి తల్లిదండ్రులు ఊరడించినట్లు శ్రీకృష్ణుడు అర్జునుని ఊరడిస్తున్నాడు. దేవుని శక్తి ఆయనను ప్రేమించేవారిని ఎన్నడూ నలిపేయదు.",
+  hi: "‘डरो मत।’ जैसे माता-पिता आँधी-तूफ़ान से डरे बच्चे को सांत्वना देते हैं, वैसे ही श्रीकृष्ण अर्जुन को दिलासा देते हैं। भगवान की शक्ति उनसे प्रेम करने वालों को कभी कुचलने के लिए नहीं होती।"
+},
+"gita_ch11_v50": {
+  en: "Kṛṣṇa becomes the gentle, smiling friend again and comforts Arjuna. The same God who holds the whole universe is happy to stand beside us as someone we can talk to.",
+  te: "శ్రీకృష్ణుడు మళ్ళీ సౌమ్యంగా నవ్వే స్నేహితుడిగా మారి అర్జునుని ఊరడిస్తున్నాడు. విశ్వమంతటినీ మోసే అదే దేవుడు, మనం మాట్లాడగలిగే ఆత్మీయుడిగా మన పక్కన నిలబడటానికి సంతోషిస్తాడు.",
+  hi: "श्रीकृष्ण फिर से सौम्य, मुस्कुराते मित्र बन जाते हैं और अर्जुन को दिलासा देते हैं। पूरे ब्रह्मांड को धारण करने वाले वही भगवान खुशी से हमारे साथ ऐसे खड़े होते हैं जिनसे हम बात कर सकें।"
+},
+"gita_ch11_v51": {
+  en: "Arjuna breathes again: ‘Now I feel like myself.’ After a huge experience, we need to come back to normal life — but we come back changed, carrying what we saw.",
+  te: "అర్జునుడు మళ్ళీ ఊపిరి పీల్చుకున్నాడు: ‘ఇప్పుడు నేను మామూలుగా ఉన్నాను.’ ఒక పెద్ద అనుభవం తర్వాత మామూలు జీవితానికి తిరిగి రావాలి — కానీ మారిన మనుషులుగా, చూసినదాన్ని మనసులో మోసుకుంటూ.",
+  hi: "अर्जुन फिर से साँस लेते हैं: ‘अब मैं अपने जैसा महसूस कर रहा हूँ।’ किसी बड़े अनुभव के बाद हमें सामान्य जीवन में लौटना होता है — पर बदले हुए, जो देखा उसे साथ लेकर।"
+},
+"gita_ch11_v52": {
+  en: "Even the gods long to see what Arjuna just saw. It's a reminder to value the blessings we receive — something we take for granted may be what others pray for.",
+  te: "అర్జునుడు ఇప్పుడు చూసినదాన్ని దేవతలు కూడా చూడాలని తపిస్తారు. మనకు దక్కిన ఆశీర్వాదాలకు విలువ ఇవ్వాలని ఇది గుర్తుచేస్తుంది — మనం తేలిగ్గా తీసుకునేది ఇతరులు ప్రార్థనతో కోరుకునేది కావచ్చు.",
+  hi: "अर्जुन ने अभी जो देखा, उसे देवता भी देखने को तरसते हैं। यह याद दिलाता है कि हमें मिले आशीर्वादों का मूल्य समझें — जिसे हम हल्के में लेते हैं, वह किसी और की प्रार्थना हो सकती है।"
+},
+"gita_ch11_v53": {
+  en: "Kṛṣṇa repeats the point so it sinks in: scripture, penance, charity and worship alone can't get you there. They prepare the ground, but something more is needed.",
+  te: "విషయం మనసులో నాటుకోవాలని శ్రీకృష్ణుడు మళ్ళీ చెబుతున్నాడు: వేదాలు, తపస్సు, దానం, పూజ మాత్రమే అక్కడికి చేర్చలేవు. అవి నేలను సిద్ధం చేస్తాయి, కానీ ఇంకా ఏదో కావాలి.",
+  hi: "श्रीकृष्ण बात दोहराते हैं ताकि वह मन में बैठ जाए: केवल वेद, तप, दान और पूजा वहाँ तक नहीं पहुँचा सकते। वे ज़मीन तैयार करते हैं, पर कुछ और भी चाहिए।"
+},
+"gita_ch11_v54": {
+  en: "And here is that ‘something more’: pure, single-minded love for God. Through devotion you can know Him, see Him, and even become one with Him. Love is the key that opens this door.",
+  te: "ఆ ‘ఇంకా ఏదో’ ఇదే: దేవుని పట్ల స్వచ్ఛమైన, ఏకాగ్రమైన ప్రేమ. భక్తితో ఆయనను తెలుసుకోవచ్చు, చూడవచ్చు, ఆయనలో ఒకటి కూడా కావచ్చు. ఈ తలుపు తెరిచే తాళం చెవి ప్రేమే.",
+  hi: "और वह ‘कुछ और’ यही है: भगवान के प्रति शुद्ध, एकनिष्ठ प्रेम। भक्ति से तुम उन्हें जान सकते हो, देख सकते हो, और उनमें एक भी हो सकते हो। इस द्वार की चाबी प्रेम है।"
+},
+"gita_ch11_v55": {
+  en: "The chapter ends with a simple recipe for daily life: do your work as an offering to God, keep Him as your goal, love Him, don't cling, and hate no one. Live like that, and you will reach Him.",
+  te: "అధ్యాయం రోజువారీ జీవితానికి ఒక సరళమైన సూత్రంతో ముగుస్తుంది: నీ పనిని దేవునికి అర్పణగా చెయ్యి, ఆయననే లక్ష్యంగా ఉంచుకో, ఆయనను ప్రేమించు, దేనినీ పట్టుకు వేలాడకు, ఎవరినీ ద్వేషించకు. ఇలా జీవిస్తే ఆయనను చేరుకుంటావు.",
+  hi: "अध्याय रोज़ के जीवन के लिए एक सरल सूत्र के साथ समाप्त होता है: अपना काम भगवान को अर्पण के रूप में करो, उन्हें अपना लक्ष्य रखो, उनसे प्रेम करो, किसी चीज़ से चिपको मत, और किसी से द्वेष मत करो। ऐसे जियो, और तुम उन्हें पा लोगे।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna has a practical question. Some people love God in a form they can see and pray to; others try to meditate on God as formless and infinite. Which way is better? The whole chapter is Kṛṣṇa's answer.",

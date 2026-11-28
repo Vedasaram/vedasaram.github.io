@@ -2092,6 +2092,283 @@ window.MEANINGS = Object.assign(window.MEANINGS || {}, {
   hi: "परंतु हे अर्जुन, इतना सब विस्तार से जानने की तुम्हें क्या आवश्यकता? मैं इस सारे जगत को अपने एक अंश मात्र से धारण करके स्थित हूँ।"
 },
 
+// ── Chapter 11 · Viśvarūpa Darśana Yoga ──
+"gita_ch11_v1": {
+  en: "Arjuna said: Out of kindness to me, You spoke these supreme and secret words about the Self; by them this confusion of mine has gone.",
+  te: "అర్జునుడు అన్నాడు: నాపై దయతో నువ్వు ఆత్మను గురించిన పరమ రహస్యమైన మాటలు చెప్పావు; వాటి వల్ల నా ఈ మోహం తొలగిపోయింది.",
+  hi: "अर्जुन ने कहा: मुझ पर कृपा करके आपने आत्मा के विषय में जो परम गुप्त वचन कहे, उनसे मेरा यह मोह दूर हो गया है।"
+},
+"gita_ch11_v2": {
+  en: "O lotus-eyed one, I have heard from You in detail how beings come into existence and how they pass away, and also about Your undying greatness.",
+  te: "కమలనయనా, ప్రాణులు ఎలా పుడతాయో, ఎలా లయిస్తాయో నీ నుండి వివరంగా విన్నాను; నీ నాశనం లేని మహిమను కూడా విన్నాను.",
+  hi: "हे कमलनयन, प्राणियों की उत्पत्ति और लय के बारे में मैंने आपसे विस्तार से सुना है, और आपकी अविनाशी महिमा के बारे में भी।"
+},
+"gita_ch11_v3": {
+  en: "O Supreme Lord, You are exactly as You have described Yourself. Yet, O best of persons, I long to see Your divine, sovereign form.",
+  te: "పరమేశ్వరా, నిన్ను గురించి నువ్వు చెప్పినది అంతా అలాగే ఉంది. అయినా పురుషోత్తమా, నీ ఈశ్వర రూపాన్ని కళ్ళారా చూడాలని కోరుకుంటున్నాను.",
+  hi: "हे परमेश्वर, आपने अपने बारे में जैसा कहा, वैसा ही है। फिर भी हे पुरुषोत्तम, मैं आपके ईश्वरीय रूप को देखना चाहता हूँ।"
+},
+"gita_ch11_v4": {
+  en: "O Lord, if You think it is possible for me to see it, then, O Master of yoga, show me Your imperishable Self.",
+  te: "ప్రభూ, అది నేను చూడగలనని నువ్వు అనుకుంటే, యోగేశ్వరా, నాశనం లేని నీ స్వరూపాన్ని నాకు చూపించు.",
+  hi: "हे प्रभु, यदि आप मानते हैं कि मैं उसे देख सकता हूँ, तो हे योगेश्वर, मुझे अपना अविनाशी स्वरूप दिखाइए।"
+},
+"gita_ch11_v5": {
+  en: "The Lord said: Behold, Pārtha, My forms by the hundreds and thousands — divine, of many kinds, of many colours and shapes.",
+  te: "శ్రీ భగవానుడు అన్నాడు: పార్థా, వందలు, వేలుగా ఉన్న నా రూపాలను చూడు — దివ్యమైనవి, అనేక రకాలవి, అనేక రంగులు, ఆకారాలు గలవి.",
+  hi: "श्री भगवान ने कहा: हे पार्थ, मेरे सैकड़ों और हजारों रूपों को देखो — दिव्य, अनेक प्रकार के, अनेक रंगों और आकारों वाले।"
+},
+"gita_ch11_v6": {
+  en: "See the Ādityas, the Vasus, the Rudras, the two Aśvins and the Maruts. See many wonders never seen before, O Bhārata.",
+  te: "ఆదిత్యులను, వసువులను, రుద్రులను, అశ్వినీ దేవతలను, మరుత్తులను చూడు. భారతా, ఇంతకు ముందెన్నడూ చూడని ఎన్నో అద్భుతాలను చూడు.",
+  hi: "आदित्यों, वसुओं, रुद्रों, दोनों अश्विनीकुमारों और मरुतों को देखो। हे भारत, पहले कभी न देखे गए अनेक आश्चर्यों को देखो।"
+},
+"gita_ch11_v7": {
+  en: "Here, today, Guḍākeśa, see the whole universe, moving and unmoving, gathered in one place within My body — and whatever else you wish to see.",
+  te: "గుడాకేశా, ఇక్కడ ఈరోజే నా శరీరంలో ఒకేచోట ఉన్న చరాచర జగత్తునంతా చూడు — ఇంకా నువ్వు చూడాలనుకునేది ఏదైనా చూడు.",
+  hi: "हे गुडाकेश, आज यहीं मेरे शरीर में एक स्थान पर स्थित संपूर्ण चराचर जगत को देखो — और जो कुछ भी तुम देखना चाहो।"
+},
+"gita_ch11_v8": {
+  en: "But you cannot see Me with these eyes of yours. I give you divine sight — now behold My sovereign yoga power.",
+  te: "కానీ నీ ఈ కళ్ళతో నన్ను చూడలేవు. నీకు దివ్య దృష్టిని ఇస్తున్నాను — నా ఈశ్వర యోగశక్తిని చూడు.",
+  hi: "परंतु तुम अपनी इन आँखों से मुझे नहीं देख सकते। मैं तुम्हें दिव्य दृष्टि देता हूँ — मेरी ईश्वरीय योगशक्ति को देखो।"
+},
+"gita_ch11_v9": {
+  en: "Sañjaya said: O King, having spoken thus, Hari, the great Lord of yoga, then showed Pārtha His supreme, majestic form —",
+  te: "సంజయుడు అన్నాడు: రాజా, ఇలా చెప్పి మహాయోగేశ్వరుడైన హరి అప్పుడు పార్థునికి తన పరమ ఈశ్వర రూపాన్ని చూపించాడు —",
+  hi: "संजय ने कहा: हे राजन, ऐसा कहकर महायोगेश्वर हरि ने तब पार्थ को अपना परम ऐश्वर्यमय रूप दिखाया —"
+},
+"gita_ch11_v10": {
+  en: "— with countless mouths and eyes, countless wondrous sights, countless divine ornaments, and countless divine weapons held ready —",
+  te: "— లెక్కలేనన్ని ముఖాలు, కళ్ళు, లెక్కలేనన్ని అద్భుత దృశ్యాలు, లెక్కలేనన్ని దివ్య ఆభరణాలు, ఎత్తిపట్టిన లెక్కలేనన్ని దివ్య ఆయుధాలు గల రూపం —",
+  hi: "— अनगिनत मुखों और नेत्रों वाला, अनगिनत अद्भुत दृश्यों वाला, अनगिनत दिव्य आभूषणों वाला और उठाए हुए अनगिनत दिव्य शस्त्रों वाला —"
+},
+"gita_ch11_v11": {
+  en: "— wearing divine garlands and garments, anointed with divine fragrances, full of every wonder, shining, endless, with faces turned in every direction.",
+  te: "— దివ్యమైన పూలమాలలు, వస్త్రాలు ధరించి, దివ్య సుగంధాలు పూసుకొని, సర్వ ఆశ్చర్యమయమై, ప్రకాశిస్తూ, అనంతమై, అన్ని వైపులా ముఖాలు గల దేవుడు.",
+  hi: "— दिव्य मालाएँ और वस्त्र धारण किए, दिव्य सुगंध का लेप लगाए, सब प्रकार के आश्चर्यों से भरे, प्रकाशमान, अनंत और सब ओर मुख वाले देव।"
+},
+"gita_ch11_v12": {
+  en: "If the light of a thousand suns were to blaze forth in the sky all at once, it might perhaps resemble the splendour of that great Being.",
+  te: "ఆకాశంలో వెయ్యి సూర్యుల కాంతి ఒక్కసారిగా ఉదయిస్తే, అది బహుశా ఆ మహాత్ముని తేజస్సుతో సమానమవుతుందేమో.",
+  hi: "यदि आकाश में हजार सूर्यों का प्रकाश एक साथ उदित हो जाए, तो शायद वह उस महात्मा के तेज के समान हो।"
+},
+"gita_ch11_v13": {
+  en: "There, in the body of the God of gods, the son of Pāṇḍu then saw the entire universe, with all its many divisions, gathered together in one place.",
+  te: "అప్పుడు అక్కడ దేవదేవుని శరీరంలో, అనేక విధాలుగా విభజింపబడిన జగత్తునంతా ఒకేచోట ఉన్నట్లు పాండునందనుడు చూశాడు.",
+  hi: "तब पांडुपुत्र अर्जुन ने देवों के देव के शरीर में अनेक प्रकार से बँटे हुए संपूर्ण जगत को एक ही स्थान पर स्थित देखा।"
+},
+"gita_ch11_v14": {
+  en: "Then Dhanañjaya, overcome with wonder, his hair standing on end, bowed his head to the Lord and, with joined palms, spoke.",
+  te: "అప్పుడు ఆశ్చర్యంతో నిండిపోయి, ఒళ్ళు పులకించిన ధనంజయుడు ఆ దేవునికి తల వంచి నమస్కరించి, చేతులు జోడించి ఇలా అన్నాడు.",
+  hi: "तब आश्चर्य से भरे, रोमांचित धनंजय ने उन देव को सिर झुकाकर प्रणाम किया और हाथ जोड़कर बोले।"
+},
+"gita_ch11_v15": {
+  en: "Arjuna said: O God, in Your body I see all the gods and hosts of every kind of being — Brahmā seated on the lotus, Lord Śiva, all the sages and the divine serpents.",
+  te: "అర్జునుడు అన్నాడు: దేవా, నీ శరీరంలో దేవతలందరినీ, అన్ని రకాల ప్రాణుల సమూహాలనూ చూస్తున్నాను — కమలాసనంపై ఉన్న బ్రహ్మను, ఈశ్వరుని, ఋషులందరినీ, దివ్య సర్పాలనూ చూస్తున్నాను.",
+  hi: "अर्जुन ने कहा: हे देव, आपके शरीर में मैं सभी देवताओं और सब प्रकार के प्राणियों के समूहों को देखता हूँ — कमल पर विराजमान ब्रह्मा, भगवान शिव, सभी ऋषि और दिव्य नाग।"
+},
+"gita_ch11_v16": {
+  en: "O Lord of the universe, O Universal Form, I see You everywhere, endless in form, with countless arms, bellies, mouths and eyes. I see no end, no middle and no beginning of You.",
+  te: "విశ్వేశ్వరా, విశ్వరూపా, లెక్కలేనన్ని చేతులు, ఉదరాలు, ముఖాలు, కళ్ళతో అన్ని వైపులా అనంత రూపంగా నిన్ను చూస్తున్నాను. నీకు అంతం గానీ, మధ్య గానీ, ఆది గానీ నాకు కనిపించడం లేదు.",
+  hi: "हे विश्वेश्वर, हे विश्वरूप, मैं आपको अनगिनत भुजाओं, उदरों, मुखों और नेत्रों के साथ सब ओर अनंत रूप में देखता हूँ। मुझे आपका न अंत दिखता है, न मध्य, न आदि।"
+},
+"gita_ch11_v17": {
+  en: "I see You wearing a crown and holding mace and discus — a mass of light shining on every side, hard to look at, blazing all around like fire and the sun, beyond all measure.",
+  te: "కిరీటం, గద, చక్రం ధరించి, అన్ని వైపులా ప్రకాశించే తేజో రాశిగా, చూడటానికి కష్టమైనవాడిగా, మండే అగ్ని, సూర్యుడిలా వెలిగే అపరిమితుడిగా నిన్ను చూస్తున్నాను.",
+  hi: "मैं आपको मुकुट, गदा और चक्र धारण किए, सब ओर चमकते तेज के पुंज के रूप में देखता हूँ — जिन्हें देखना कठिन है, जो जलती अग्नि और सूर्य की तरह दमकते हैं और अपरिमेय हैं।"
+},
+"gita_ch11_v18": {
+  en: "You are the Imperishable, the Supreme to be known; You are the final resting place of this universe. You are the undying guardian of eternal dharma; You, I am convinced, are the eternal Person.",
+  te: "నువ్వే తెలుసుకోవలసిన పరమ అక్షరానివి; ఈ విశ్వానికి పరమ ఆశ్రయానివి నువ్వే. నువ్వు నాశనం లేనివాడివి, శాశ్వత ధర్మాన్ని రక్షించేవాడివి; నువ్వే సనాతన పురుషుడివని నా నమ్మకం.",
+  hi: "आप ही जानने योग्य परम अक्षर हैं; आप ही इस विश्व के परम आश्रय हैं। आप अविनाशी हैं, सनातन धर्म के रक्षक हैं; मेरे मत में आप ही सनातन पुरुष हैं।"
+},
+"gita_ch11_v19": {
+  en: "I see You without beginning, middle or end, of infinite power, with countless arms, the sun and moon as Your eyes, Your mouth a blazing fire, scorching this whole universe with Your radiance.",
+  te: "ఆది, మధ్య, అంతం లేనివాడిగా, అనంత శక్తి, అనంత బాహువులు గలవాడిగా, సూర్యచంద్రులే కళ్ళుగా, మండే అగ్నియే ముఖంగా, నీ తేజస్సుతో ఈ విశ్వాన్ని తపింపజేస్తున్నవాడిగా నిన్ను చూస్తున్నాను.",
+  hi: "मैं आपको आदि, मध्य और अंत से रहित, अनंत शक्ति और अनंत भुजाओं वाला, सूर्य-चंद्र रूपी नेत्रों वाला, जलती अग्नि जैसे मुख वाला और अपने तेज से इस विश्व को तपाते हुए देखता हूँ।"
+},
+"gita_ch11_v20": {
+  en: "The space between heaven and earth and all the directions are filled by You alone. Seeing this wondrous and terrifying form of Yours, O Great One, the three worlds tremble.",
+  te: "భూమ్యాకాశాల మధ్య ఉన్న ఈ అంతరిక్షమంతా, అన్ని దిక్కులూ నీ ఒక్కనితోనే నిండి ఉన్నాయి. మహాత్మా, అద్భుతమైన, భయంకరమైన నీ ఈ రూపాన్ని చూసి ముల్లోకాలూ వణికిపోతున్నాయి.",
+  hi: "हे महात्मन, पृथ्वी और आकाश के बीच का यह सारा अंतराल और सभी दिशाएँ अकेले आपसे ही व्याप्त हैं। आपके इस अद्भुत और उग्र रूप को देखकर तीनों लोक काँप रहे हैं।"
+},
+"gita_ch11_v21": {
+  en: "These hosts of gods are entering into You; some, in fear, praise You with folded hands. Crying ‘May all be well!’, bands of great sages and perfected ones praise You with rich hymns.",
+  te: "ఈ దేవతల సమూహాలు నీలోకి ప్రవేశిస్తున్నాయి; కొందరు భయంతో చేతులు జోడించి నిన్ను కీర్తిస్తున్నారు. మహర్షులు, సిద్ధుల సమూహాలు ‘స్వస్తి’ అని పలికి గొప్ప స్తోత్రాలతో నిన్ను స్తుతిస్తున్నారు.",
+  hi: "ये देवताओं के समूह आपमें प्रवेश कर रहे हैं; कुछ भयभीत होकर हाथ जोड़े आपकी स्तुति कर रहे हैं। महर्षियों और सिद्धों के समूह ‘स्वस्ति’ कहकर उत्तम स्तोत्रों से आपकी स्तुति कर रहे हैं।"
+},
+"gita_ch11_v22": {
+  en: "The Rudras, Ādityas, Vasus, Sādhyas, Viśvedevas, the two Aśvins, the Maruts and the ancestors, and hosts of Gandharvas, Yakṣas, demons and Siddhas — all gaze at You in amazement.",
+  te: "రుద్రులు, ఆదిత్యులు, వసువులు, సాధ్యులు, విశ్వేదేవతలు, అశ్వినీ దేవతలు, మరుత్తులు, పితృదేవతలు, గంధర్వ, యక్ష, అసుర, సిద్ధ సమూహాలు — అందరూ ఆశ్చర్యంతో నిన్నే చూస్తున్నారు.",
+  hi: "रुद्र, आदित्य, वसु, साध्य, विश्वेदेव, दोनों अश्विनीकुमार, मरुत, पितर तथा गंधर्व, यक्ष, असुर और सिद्धों के समूह — सभी विस्मित होकर आपको देख रहे हैं।"
+},
+"gita_ch11_v23": {
+  en: "O mighty-armed one, seeing Your immense form with many mouths and eyes, many arms, thighs and feet, many bellies and fearsome tusks, the worlds are shaken — and so am I.",
+  te: "మహాబాహూ, ఎన్నో ముఖాలు, కళ్ళు, ఎన్నో చేతులు, తొడలు, పాదాలు, ఎన్నో ఉదరాలు, భయంకరమైన కోరలు గల నీ మహారూపాన్ని చూసి లోకాలు కలవరపడుతున్నాయి — నేను కూడా.",
+  hi: "हे महाबाहो, अनेक मुखों और नेत्रों, अनेक भुजाओं, जंघाओं और चरणों, अनेक उदरों और भयानक दाढ़ों वाले आपके विशाल रूप को देखकर सब लोक व्याकुल हैं — और मैं भी।"
+},
+"gita_ch11_v24": {
+  en: "Seeing You touching the sky, blazing in many colours, with mouths wide open and huge fiery eyes, my heart trembles; I find no courage and no peace, O Viṣṇu.",
+  te: "ఆకాశాన్ని తాకుతూ, అనేక రంగులతో మండుతూ, తెరిచిన నోళ్ళతో, ప్రకాశించే విశాల నేత్రాలతో ఉన్న నిన్ను చూసి నా అంతరంగం వణికిపోతోంది; విష్ణూ, నాకు ధైర్యమూ లేదు, శాంతీ లేదు.",
+  hi: "आकाश को छूते, अनेक रंगों से दमकते, खुले मुखों और चमकते विशाल नेत्रों वाले आपको देखकर मेरा मन काँप रहा है; हे विष्णु, मुझे न धैर्य मिल रहा है, न शांति।"
+},
+"gita_ch11_v25": {
+  en: "Just seeing Your mouths with terrible tusks, like the fire at the end of time, I lose all sense of direction and find no comfort. Have mercy, Lord of gods, refuge of the world!",
+  te: "ప్రళయాగ్నిలా ఉన్న, భయంకరమైన కోరలు గల నీ ముఖాలను చూడగానే నాకు దిక్కులు తెలియడం లేదు, సుఖం లేదు. దేవేశా, జగన్నివాసా, ప్రసన్నుడవు కా!",
+  hi: "प्रलय की अग्नि जैसे, भयानक दाढ़ों वाले आपके मुखों को देखते ही मुझे दिशाएँ नहीं सूझतीं और चैन नहीं मिलता। हे देवेश, हे जगन्निवास, प्रसन्न होइए!"
+},
+"gita_ch11_v26": {
+  en: "All these sons of Dhṛtarāṣṭra, along with hosts of kings, Bhīṣma, Droṇa and Karṇa, the charioteer's son, together with the chief warriors on our side too —",
+  te: "ఈ ధృతరాష్ట్ర కుమారులందరూ, రాజుల సమూహాలతో పాటు, భీష్ముడు, ద్రోణుడు, ఆ సూతపుత్రుడైన కర్ణుడు, మన పక్షంలోని ముఖ్య యోధులతో సహా —",
+  hi: "धृतराष्ट्र के ये सभी पुत्र, राजाओं के समूहों के साथ, भीष्म, द्रोण और वह सूतपुत्र कर्ण, हमारे पक्ष के प्रमुख योद्धाओं सहित —"
+},
+"gita_ch11_v27": {
+  en: "— are rushing into Your dreadful mouths with their terrible tusks. Some are seen caught between Your teeth, their heads crushed to powder.",
+  te: "— భయంకరమైన కోరలు గల నీ భీకర ముఖాల్లోకి వేగంగా ప్రవేశిస్తున్నారు. కొందరు తలలు నలిగిపోయి నీ పళ్ళ సందుల్లో చిక్కుకొని కనిపిస్తున్నారు.",
+  hi: "— भयानक दाढ़ों वाले आपके डरावने मुखों में तेज़ी से प्रवेश कर रहे हैं। कुछ आपके दाँतों के बीच फँसे दिख रहे हैं, उनके सिर चूर-चूर हो गए हैं।"
+},
+"gita_ch11_v28": {
+  en: "As the many currents of rivers race toward the ocean, so these heroes of the human world are entering Your blazing mouths.",
+  te: "నదుల అనేక ప్రవాహాలు సముద్రం వైపే పరుగెత్తినట్లు, ఈ నరలోక వీరులు మండుతున్న నీ ముఖాల్లోకి ప్రవేశిస్తున్నారు.",
+  hi: "जैसे नदियों के अनेक जल-प्रवाह समुद्र की ओर ही दौड़ते हैं, वैसे ही मनुष्यलोक के ये वीर आपके जलते हुए मुखों में प्रवेश कर रहे हैं।"
+},
+"gita_ch11_v29": {
+  en: "As moths rush at full speed into a blazing fire to their own destruction, so these people rush at full speed into Your mouths to their destruction.",
+  te: "మిడతలు మండే మంటలోకి నాశనం కోసమే అతి వేగంగా దూకినట్లు, ఈ లోకులు కూడా నాశనం కోసమే అతి వేగంగా నీ ముఖాల్లోకి ప్రవేశిస్తున్నారు.",
+  hi: "जैसे पतंगे नष्ट होने के लिए पूरे वेग से जलती आग में घुसते हैं, वैसे ही ये लोग भी नष्ट होने के लिए पूरे वेग से आपके मुखों में प्रवेश कर रहे हैं।"
+},
+"gita_ch11_v30": {
+  en: "Swallowing all the worlds on every side with Your flaming mouths, You lick Your lips. Your fierce rays fill the whole universe with radiance and scorch it, O Viṣṇu.",
+  te: "మండుతున్న ముఖాలతో అన్ని వైపులా లోకాలన్నిటినీ మింగుతూ నువ్వు పెదవులు చప్పరిస్తున్నావు. విష్ణూ, నీ ఉగ్రమైన కాంతులు జగత్తునంతా తేజస్సుతో నింపి తపింపజేస్తున్నాయి.",
+  hi: "अपने जलते मुखों से सब ओर के समस्त लोकों को निगलते हुए आप होंठ चाट रहे हैं। हे विष्णु, आपकी उग्र किरणें सारे जगत को तेज से भरकर तपा रही हैं।"
+},
+"gita_ch11_v31": {
+  en: "Tell me, who are You, so fierce in form? Salutations to You, O best of gods — be gracious! I want to understand You, the Primal One, for I do not understand what You are doing.",
+  te: "ఇంత ఉగ్రరూపంతో ఉన్న నువ్వు ఎవరో నాకు చెప్పు. దేవోత్తమా, నీకు నమస్కారం; ప్రసన్నుడవు కా! ఆదిపురుషుడవైన నిన్ను తెలుసుకోవాలనుకుంటున్నాను; నువ్వు ఏం చేస్తున్నావో నాకు అర్థం కావడం లేదు.",
+  hi: "मुझे बताइए, इतने उग्र रूप वाले आप कौन हैं? हे देवश्रेष्ठ, आपको नमस्कार है; प्रसन्न होइए! मैं आप आदिपुरुष को जानना चाहता हूँ, क्योंकि मैं आपकी इस प्रवृत्ति को नहीं समझ पा रहा।"
+},
+"gita_ch11_v32": {
+  en: "The Lord said: I am Time, grown mighty, the destroyer of worlds, now at work to sweep these people away. Even without you, none of the warriors standing in the opposing armies will survive.",
+  te: "శ్రీ భగవానుడు అన్నాడు: నేను లోకాలను నాశనం చేసే, మహాశక్తితో పెరిగిన కాలాన్ని; ఈ జనులను సంహరించడానికి ఇక్కడ పూనుకున్నాను. నువ్వు లేకపోయినా, ఎదుటి సైన్యాల్లో నిలిచిన ఈ యోధులెవరూ మిగలరు.",
+  hi: "श्री भगवान ने कहा: मैं लोकों का नाश करने वाला, बढ़ा हुआ काल हूँ, और यहाँ इन लोगों का संहार करने में लगा हूँ। तुम्हारे बिना भी विरोधी सेनाओं में खड़े ये योद्धा कोई नहीं बचेंगे।"
+},
+"gita_ch11_v33": {
+  en: "So stand up and win glory! Conquer your enemies and enjoy a prosperous kingdom. They have already been slain by Me; be only the instrument, O Savyasācin.",
+  te: "కాబట్టి లే, కీర్తిని పొందు! శత్రువులను జయించి సమృద్ధమైన రాజ్యాన్ని అనుభవించు. వీళ్ళంతా ఇంతకు ముందే నా చేత చంపబడ్డారు; సవ్యసాచీ, నువ్వు కేవలం నిమిత్తమాత్రుడివిగా ఉండు.",
+  hi: "इसलिए उठो और यश प्राप्त करो! शत्रुओं को जीतकर समृद्ध राज्य का भोग करो। ये सब मेरे द्वारा पहले ही मारे जा चुके हैं; हे सव्यसाची, तुम केवल निमित्त बनो।"
+},
+"gita_ch11_v34": {
+  en: "Droṇa, Bhīṣma, Jayadratha, Karṇa and the other heroic warriors have already been slain by Me — you slay them. Do not be distressed. Fight; you will conquer your rivals in battle.",
+  te: "ద్రోణుడు, భీష్ముడు, జయద్రథుడు, కర్ణుడు, ఇంకా ఇతర వీర యోధులు నా చేత ఇప్పటికే చంపబడ్డారు — నువ్వు వారిని చంపు. బాధపడకు. యుద్ధం చెయ్యి; యుద్ధంలో శత్రువులను జయిస్తావు.",
+  hi: "द्रोण, भीष्म, जयद्रथ, कर्ण और अन्य वीर योद्धा मेरे द्वारा पहले ही मारे जा चुके हैं — तुम उन्हें मारो। व्याकुल मत हो। युद्ध करो; तुम रण में शत्रुओं को जीतोगे।"
+},
+"gita_ch11_v35": {
+  en: "Sañjaya said: Hearing these words of Keśava, the crowned Arjuna, trembling, with joined palms, bowed down again and, overcome with fear, spoke to Kṛṣṇa in a choked voice.",
+  te: "సంజయుడు అన్నాడు: కేశవుని ఈ మాటలు విని, కిరీటధారి అయిన అర్జునుడు వణుకుతూ, చేతులు జోడించి మళ్ళీ నమస్కరించి, భయంతో గద్గద స్వరంతో శ్రీకృష్ణునితో ఇలా అన్నాడు.",
+  hi: "संजय ने कहा: केशव के ये वचन सुनकर मुकुटधारी अर्जुन ने काँपते हुए, हाथ जोड़कर फिर से प्रणाम किया और अत्यंत भयभीत होकर गद्गद वाणी में श्रीकृष्ण से कहा।"
+},
+"gita_ch11_v36": {
+  en: "Arjuna said: It is only right, Hṛṣīkeśa, that the world rejoices and delights in praising You. The demons flee in fear in all directions, and all the hosts of perfected ones bow to You.",
+  te: "అర్జునుడు అన్నాడు: హృషీకేశా, నీ కీర్తనతో లోకం ఆనందించి, నీపై అనురాగం పెంచుకోవడం సరైనదే. రాక్షసులు భయంతో అన్ని దిక్కులకూ పారిపోతున్నారు; సిద్ధుల సమూహాలన్నీ నీకు నమస్కరిస్తున్నాయి.",
+  hi: "अर्जुन ने कहा: हे हृषीकेश, यह उचित ही है कि आपके कीर्तन से जगत हर्षित होता है और आपसे प्रेम करता है। राक्षस भयभीत होकर सब दिशाओं में भाग रहे हैं और सिद्धों के सब समूह आपको नमस्कार कर रहे हैं।"
+},
+"gita_ch11_v37": {
+  en: "And why should they not bow to You, O Great One, greater even than Brahmā, the first creator? O Infinite One, Lord of gods, home of the universe — You are the Imperishable, what is and what is not, and what lies beyond both.",
+  te: "మహాత్మా, బ్రహ్మకు కూడా ఆదికర్తవై, అతనికంటే గొప్పవాడివైన నీకు వారు ఎందుకు నమస్కరించరు? అనంతా, దేవేశా, జగన్నివాసా — సత్తు, అసత్తు, వాటికి అతీతమైన అక్షరం నువ్వే.",
+  hi: "हे महात्मन, ब्रह्मा के भी आदिकर्ता और उनसे भी महान आपको वे नमस्कार क्यों न करें? हे अनंत, हे देवेश, हे जगन्निवास — सत्, असत् और उनसे परे जो अक्षर है, वह आप ही हैं।"
+},
+"gita_ch11_v38": {
+  en: "You are the first God, the ancient Person, the supreme resting place of this universe. You are the knower and what is to be known, the highest abode; this universe is pervaded by You, O One of infinite forms.",
+  te: "నువ్వే ఆదిదేవుడివి, పురాణ పురుషుడివి, ఈ విశ్వానికి పరమ ఆశ్రయానివి. తెలుసుకునేవాడివీ, తెలుసుకోవలసినదీ, పరమ ధామమూ నువ్వే; అనంతరూపా, ఈ విశ్వమంతా నీతోనే వ్యాపించి ఉంది.",
+  hi: "आप आदिदेव, पुराण पुरुष और इस विश्व के परम आश्रय हैं। आप ही जानने वाले हैं, जानने योग्य हैं और परम धाम हैं; हे अनंतरूप, यह विश्व आपसे ही व्याप्त है।"
+},
+"gita_ch11_v39": {
+  en: "You are Vāyu, Yama, Agni, Varuṇa, the Moon, Prajāpati and the great-grandfather of all. Salutations to You a thousand times, and again and yet again salutations to You!",
+  te: "వాయువు, యముడు, అగ్ని, వరుణుడు, చంద్రుడు, ప్రజాపతి, ప్రపితామహుడు — అన్నీ నువ్వే. నీకు వేల సార్లు నమస్కారం; మళ్ళీ మళ్ళీ నీకు నమస్కారం!",
+  hi: "आप ही वायु, यम, अग्नि, वरुण, चंद्रमा, प्रजापति और प्रपितामह हैं। आपको हजार बार नमस्कार है, और फिर बार-बार आपको नमस्कार है!"
+},
+"gita_ch11_v40": {
+  en: "Salutations to You from the front and from behind; salutations to You on every side, O All! Infinite in power and boundless in might, You pervade everything, and so You are everything.",
+  te: "నీకు ముందు నుండి నమస్కారం, వెనుక నుండి నమస్కారం; సర్వా, అన్ని వైపుల నుండీ నీకు నమస్కారం! అనంత వీర్యం, అపరిమిత పరాక్రమం గల నువ్వు అన్నిటినీ వ్యాపించి ఉన్నావు; అందుకే నువ్వే సర్వం.",
+  hi: "आपको आगे से नमस्कार, पीछे से नमस्कार; हे सर्वरूप, सब ओर से आपको नमस्कार! अनंत शक्ति और असीम पराक्रम वाले आप सबमें व्याप्त हैं, इसलिए आप ही सब कुछ हैं।"
+},
+"gita_ch11_v41": {
+  en: "Thinking of You as a friend, I casually called You ‘O Kṛṣṇa, O Yādava, O friend’, not knowing this greatness of Yours, out of carelessness or simply out of affection —",
+  te: "నిన్ను స్నేహితుడని భావించి, నీ ఈ మహిమ తెలియక, అజాగ్రత్తతోనో ప్రేమతోనో ‘ఓ కృష్ణా, ఓ యాదవా, ఓ మిత్రమా’ అని చనువుగా పిలిచాను —",
+  hi: "आपको मित्र मानकर, आपकी इस महिमा को न जानते हुए, असावधानी से या प्रेमवश मैंने आपको ‘हे कृष्ण, हे यादव, हे सखा’ कहकर हठपूर्वक पुकारा —"
+},
+"gita_ch11_v42": {
+  en: "— and if in jest I showed You disrespect while playing, resting, sitting or eating, alone or in front of others, O Acyuta, I beg forgiveness of You, the Immeasurable One.",
+  te: "— ఆటలో, పడుకున్నప్పుడు, కూర్చున్నప్పుడు, భోజన సమయంలో, ఒంటరిగా గానీ ఇతరుల ముందు గానీ హాస్యంగా నిన్ను అగౌరవపరిచి ఉంటే, అచ్యుతా, అపరిమితుడవైన నిన్ను క్షమించమని వేడుకుంటున్నాను.",
+  hi: "— और खेल, विश्राम, बैठने या भोजन के समय, अकेले में या दूसरों के सामने, हँसी-मज़ाक में यदि मैंने आपका अनादर किया हो, तो हे अच्युत, आप अपरिमेय से मैं क्षमा माँगता हूँ।"
+},
+"gita_ch11_v43": {
+  en: "You are the father of this world of moving and unmoving beings; You are the one it worships, its greatest teacher. No one in the three worlds is equal to You — how could anyone be greater, O One of matchless power?",
+  te: "చరాచర జగత్తుకు తండ్రివి నువ్వే; ఈ లోకానికి పూజ్యుడివి, గొప్ప గురువువి నువ్వే. సాటిలేని ప్రభావం గలవాడా, ముల్లోకాల్లోనూ నీకు సమానుడే లేడు — నీకంటే గొప్పవాడు ఎక్కడ ఉంటాడు?",
+  hi: "आप इस चराचर जगत के पिता हैं; आप ही इसके पूज्य और सबसे महान गुरु हैं। हे अतुलनीय प्रभाव वाले, तीनों लोकों में आपके समान भी कोई नहीं — फिर आपसे बढ़कर कोई कैसे हो?"
+},
+"gita_ch11_v44": {
+  en: "So, bowing down and laying my body at Your feet, I seek Your grace, O adorable Lord. As a father bears with his son, a friend with a friend, a lover with the beloved — please bear with me, O God.",
+  te: "అందుకే సాష్టాంగంగా నమస్కరించి, స్తుతించదగిన ఈశ్వరుడవైన నిన్ను ప్రసన్నం చేసుకుంటున్నాను. తండ్రి కొడుకును, స్నేహితుడు స్నేహితుణ్ణి, ప్రియుడు ప్రియురాలిని సహించినట్లు, దేవా, నన్ను సహించు.",
+  hi: "इसलिए शरीर को चरणों में रखकर प्रणाम करते हुए, मैं आप स्तुति योग्य ईश्वर को प्रसन्न करना चाहता हूँ। जैसे पिता पुत्र को, मित्र मित्र को और प्रिय प्रिया को सहता है, वैसे ही हे देव, मुझे सहिए।"
+},
+"gita_ch11_v45": {
+  en: "I am thrilled to have seen what was never seen before, yet my mind is shaken with fear. Show me that familiar form of Yours, O God; be gracious, Lord of gods, home of the world.",
+  te: "ఇంతకు ముందెన్నడూ చూడనిది చూసి ఆనందించాను, కానీ భయంతో నా మనసు కలవరపడుతోంది. దేవా, నీ ఆ పాత రూపాన్నే నాకు చూపించు; దేవేశా, జగన్నివాసా, ప్రసన్నుడవు కా.",
+  hi: "पहले कभी न देखा गया रूप देखकर मैं हर्षित हूँ, पर भय से मेरा मन व्याकुल है। हे देव, मुझे अपना वही रूप दिखाइए; हे देवेश, हे जगन्निवास, प्रसन्न होइए।"
+},
+"gita_ch11_v46": {
+  en: "I wish to see You just as before, wearing a crown, holding mace and discus. O thousand-armed One, O Universal Form, take that four-armed form once more.",
+  te: "కిరీటం ధరించి, గద, చక్రం చేతబట్టిన నిన్ను మునుపటిలాగే చూడాలని ఉంది. సహస్రబాహూ, విశ్వమూర్తీ, ఆ చతుర్భుజ రూపాన్నే మళ్ళీ ధరించు.",
+  hi: "मैं आपको पहले की तरह ही मुकुट पहने, हाथ में गदा और चक्र लिए देखना चाहता हूँ। हे सहस्रबाहु, हे विश्वमूर्ति, फिर से वही चतुर्भुज रूप धारण कीजिए।"
+},
+"gita_ch11_v47": {
+  en: "The Lord said: Arjuna, out of My grace for you, by My own yoga power I have shown you this supreme form — radiant, universal, infinite and primal — which no one but you has ever seen before.",
+  te: "శ్రీ భగవానుడు అన్నాడు: అర్జునా, నీపై ప్రసన్నుడనై నా యోగశక్తితో ఈ పరమ రూపాన్ని నీకు చూపించాను — తేజోమయమైనది, విశ్వమయమైనది, అనంతమైనది, ఆదియైనది; నువ్వు తప్ప దీన్ని ఇంతకు ముందు ఎవరూ చూడలేదు.",
+  hi: "श्री भगवान ने कहा: हे अर्जुन, तुम पर प्रसन्न होकर मैंने अपनी योगशक्ति से तुम्हें यह परम रूप दिखाया है — तेजोमय, विश्वमय, अनंत और आदि — जिसे तुम्हारे सिवा पहले किसी ने नहीं देखा।"
+},
+"gita_ch11_v48": {
+  en: "Not by the Vedas or sacrifices, not by study or charity, not by rituals or harsh austerities can anyone but you see Me in this form in the human world, O hero of the Kurus.",
+  te: "కురువీరా, వేదాలతో గానీ, యజ్ఞాలతో గానీ, అధ్యయనంతో గానీ, దానాలతో గానీ, కర్మకాండలతో గానీ, ఘోర తపస్సులతో గానీ — ఈ మానవ లోకంలో నువ్వు తప్ప ఎవరూ నన్ను ఈ రూపంలో చూడలేరు.",
+  hi: "हे कुरुवीर, न वेदों से, न यज्ञों से, न अध्ययन से, न दान से, न कर्मकांड से और न कठोर तप से — मनुष्यलोक में तुम्हारे सिवा कोई मुझे इस रूप में नहीं देख सकता।"
+},
+"gita_ch11_v49": {
+  en: "Do not be afraid or bewildered at seeing this terrible form of Mine. Free from fear and glad at heart, look once again upon My familiar form.",
+  te: "నా ఈ ఘోర రూపాన్ని చూసి నువ్వు భయపడకు, కలవరపడకు. భయం విడిచి, ప్రసన్నమైన మనసుతో నా ఆ పాత రూపాన్నే మళ్ళీ చూడు.",
+  hi: "मेरे इस भयानक रूप को देखकर तुम न डरो, न घबराओ। भय छोड़कर, प्रसन्न मन से फिर से मेरा वही परिचित रूप देखो।"
+},
+"gita_ch11_v50": {
+  en: "Sañjaya said: Having spoken thus to Arjuna, Vāsudeva showed His own form again. Taking once more His gentle form, the Great One comforted the frightened Arjuna.",
+  te: "సంజయుడు అన్నాడు: అర్జునునితో ఇలా చెప్పి వాసుదేవుడు మళ్ళీ తన స్వరూపాన్ని చూపించాడు. ఆ మహాత్ముడు మళ్ళీ సౌమ్యమైన రూపం ధరించి భయపడిన అర్జునుని ఊరడించాడు.",
+  hi: "संजय ने कहा: अर्जुन से ऐसा कहकर वासुदेव ने फिर अपना स्वरूप दिखाया। उन महात्मा ने फिर से सौम्य रूप धारण करके भयभीत अर्जुन को धीरज बँधाया।"
+},
+"gita_ch11_v51": {
+  en: "Arjuna said: Seeing this gentle human form of Yours, Janārdana, I am calm again; my mind has returned to its natural state.",
+  te: "అర్జునుడు అన్నాడు: జనార్దనా, సౌమ్యమైన నీ ఈ మానవ రూపాన్ని చూసి ఇప్పుడు నేను స్థిమితపడ్డాను; నా మనసు మళ్ళీ మామూలు స్థితికి వచ్చింది.",
+  hi: "अर्जुन ने कहा: हे जनार्दन, आपके इस सौम्य मानव रूप को देखकर अब मैं शांत हो गया हूँ; मेरा मन फिर अपनी स्वाभाविक अवस्था में आ गया है।"
+},
+"gita_ch11_v52": {
+  en: "The Lord said: This form of Mine that you have seen is very hard to see. Even the gods are always longing to see it.",
+  te: "శ్రీ భగవానుడు అన్నాడు: నువ్వు చూసిన నా ఈ రూపం చూడటానికి చాలా దుర్లభమైనది. దేవతలు కూడా ఈ రూపాన్ని చూడాలని ఎప్పుడూ కోరుకుంటూ ఉంటారు.",
+  hi: "श्री भगवान ने कहा: तुमने मेरा जो रूप देखा है, उसके दर्शन अत्यंत दुर्लभ हैं। देवता भी इस रूप को देखने के लिए सदा लालायित रहते हैं।"
+},
+"gita_ch11_v53": {
+  en: "Not through the Vedas, nor through austerity, nor through charity, nor through worship can I be seen in the way you have seen Me.",
+  te: "నువ్వు నన్ను చూసినట్లుగా వేదాలతో గానీ, తపస్సుతో గానీ, దానంతో గానీ, యజ్ఞంతో గానీ నన్ను చూడటం సాధ్యం కాదు.",
+  hi: "जैसे तुमने मुझे देखा है, वैसे न वेदों से, न तप से, न दान से और न यज्ञ से मुझे देखा जा सकता है।"
+},
+"gita_ch11_v54": {
+  en: "But through undivided devotion, Arjuna, I can be known like this, truly seen, and even entered into, O scorcher of foes.",
+  te: "కానీ అర్జునా, అనన్య భక్తి వల్లనే నన్ను ఈ విధంగా తెలుసుకోవడం, నిజంగా చూడటం, నాలో ప్రవేశించడం సాధ్యమవుతుంది, పరంతపా.",
+  hi: "परंतु हे अर्जुन, अनन्य भक्ति से ही मुझे इस प्रकार जाना, तत्त्व से देखा और मुझमें प्रवेश भी किया जा सकता है, हे परंतप।"
+},
+"gita_ch11_v55": {
+  en: "Whoever works for My sake, holds Me as the highest goal, is devoted to Me, free from attachment, and without hatred toward any being — that person comes to Me, O Pāṇḍava.",
+  te: "పాండవా, నా కోసమే పని చేసేవాడు, నన్నే పరమ లక్ష్యంగా భావించేవాడు, నా భక్తుడు, ఆసక్తి లేనివాడు, ఏ ప్రాణి పట్లా వైరం లేనివాడు — అతడు నన్నే చేరుకుంటాడు.",
+  hi: "हे पांडव, जो मेरे लिए कर्म करता है, मुझे ही परम लक्ष्य मानता है, मेरा भक्त है, आसक्ति से रहित है और किसी भी प्राणी से वैर नहीं रखता — वह मुझे ही प्राप्त होता है।"
+},
+
 // ── Chapter 12 · Bhakti Yoga ──
 "gita_ch12_v1": {
   en: "Arjuna asked: Some devotees are always united with You and worship You in Your personal form. Others worship the Imperishable, the Unmanifest. Of these two kinds, who knows yoga best?",
